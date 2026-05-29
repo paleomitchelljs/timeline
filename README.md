@@ -194,6 +194,14 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Downey1961` | G. Downey, *A History of Antioch in Syria* (1961) |
 | `Kuhrt1995` | A. Kuhrt, *The Ancient Near East c. 3000–330 BC* (1995) |
 | `Daryaee2009` | T. Daryaee, *Sasanian Persia* (2009) |
+| `Keightley1999` | D. Keightley, on Shang civilization and the oracle bones (1999) |
+| `Lewis2007` | M.E. Lewis, *The Early Chinese Empires: Qin and Han* (2007) |
+| `Mote1999` | F.W. Mote, *Imperial China 900–1800* (1999) |
+| `Coedes1968` | G. Coedès, *The Indianized States of Southeast Asia* (1968) |
+| `Lieberman2003` | V. Lieberman, *Strange Parallels: Southeast Asia in Global Context* (2003) |
+| `Morgan2007` | D. Morgan, *The Mongols* (2007) |
+| `Soucek2000` | S. Soucek, *A History of Inner Asia* (2000) |
+| `Totman2000` | C. Totman, *A History of Japan* (2000) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -296,6 +304,9 @@ Expansion sequence (region by region):
 - [x] **Britannia** (Londinium, Camulodunum, Eboracum)
 - [x] **Germania** (Colonia Agrippina, Augusta Treverorum, Mogontiacum)
 - [x] **India** (Mohenjo-daro, Harappa, Taxila, Pataliputra, Varanasi, Ujjain, Madurai, Delhi)
-- [ ] Onward east: **China**, **Southeast Asia**
-- [ ] Sub-Saharan Africa, the Eurasian steppe deeper, and the Americas
+- [x] **China** (Anyang, Chang'an, Luoyang, Kaifeng, Hangzhou, Nanjing, Beijing, Guangzhou)
+- [x] **Southeast Asia** (Angkor, Bagan, Ayutthaya, Palembang, Thang Long, Malacca)
+- [x] **Steppe / Central Asia** (Karakorum, Samarkand, Bukhara, Merv, Sarai) — the Mongol thread
+- [x] **Japan** (Nara, Kyoto, Kamakura, Edo/Tokyo, Osaka)
+- [ ] Sub-Saharan Africa and the Americas
 ```

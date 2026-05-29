@@ -46,6 +46,7 @@
     "Assyrian kingdom": "Assyria",
     "Hittites": "Hittite Empire",
     "Medes": "Median Empire",
+    "Mongols": "Mongol Empire",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 

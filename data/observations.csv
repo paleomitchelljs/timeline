@@ -558,3 +558,123 @@ obs_0556,thebes,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,low,Ottoman
 obs_0557,elephantine,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,low,Ottoman Egypt; continues as Aswan
 obs_0558,susa,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid provincial town before the Mongol period
 obs_0559,nippur,638,638,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest before its final decline
+obs_0560,anyang,-1300,-1300,circa,founding,,,Keightley1999,low,Last capital of the Shang dynasty
+obs_0561,anyang,-1300,-1046,circa,capital_status,Capital of the Shang dynasty,,Keightley1999,high,Yinxu; the earliest attested Chinese writing
+obs_0562,anyang,-1046,-1046,circa,destruction,,Zhou dynasty,Keightley1999,medium,Sacked at the Zhou conquest
+obs_0563,anyang,-1000,-1000,century,abandonment,,,Keightley1999,low,Abandoned after the fall of the Shang
+obs_0564,changan,-1046,-1046,circa,founding,,,Lewis2007,low,The Zhou settle the Wei valley at Haojing
+obs_0565,changan,-202,9,circa,capital_status,Capital of the Han dynasty,Liu Bang,Lewis2007,high,Han Chang'an; the Silk Road terminus
+obs_0566,changan,618,904,circa,capital_status,Capital of the Tang dynasty,,Lewis2007,high,Tang Chang'an; the largest city in the world
+obs_0567,changan,750,750,circa,population_estimate,1000000,,Chandler1987,medium,Around a million people in its Tang heyday
+obs_0568,changan,904,904,circa,destruction,,,Lewis2007,medium,Wrecked in the violence that ended the Tang
+obs_0569,changan,2020,2020,circa,population_estimate,8000000,,UN2018,medium,Modern Xi'an
+obs_0570,luoyang,-1046,-1046,circa,founding,,,Lewis2007,low,Zhou ritual center on the Luo River
+obs_0571,luoyang,-770,-256,circa,capital_status,Capital of the Eastern Zhou dynasty,,Lewis2007,medium,The seat of the later Zhou kings
+obs_0572,luoyang,25,220,circa,capital_status,Capital of the Han dynasty,,Lewis2007,high,Eastern Han Luoyang
+obs_0573,luoyang,100,100,circa,population_estimate,400000,,Chandler1987,low,A great Han city
+obs_0574,luoyang,493,534,circa,capital_status,Capital of the Northern Wei dynasty,,Lewis2007,medium,The Northern Wei move their capital south
+obs_0575,luoyang,2020,2020,circa,population_estimate,7000000,,UN2018,medium,Modern Luoyang
+obs_0576,kaifeng,-361,-361,circa,founding,,,Lewis2007,low,Daliang; capital of the Wei state
+obs_0577,kaifeng,-361,-225,circa,capital_status,Capital of the Wei state,,Lewis2007,low,A power among the warring states
+obs_0578,kaifeng,960,1127,circa,capital_status,Capital of the Northern Song dynasty,,Mote1999,high,One of the largest cities in the world
+obs_0579,kaifeng,1100,1100,circa,population_estimate,1000000,,Chandler1987,medium,Perhaps the largest city in the world under the Northern Song
+obs_0580,kaifeng,1127,1127,circa,conquest,,Jurchen Jin,Mote1999,high,The Jurchen sack Kaifeng; the Song flee south
+obs_0581,kaifeng,1234,1234,circa,conquest,,Mongol Empire,Morgan2007,medium,Taken by the Mongols
+obs_0582,kaifeng,2020,2020,circa,population_estimate,4700000,,UN2018,low,Modern Kaifeng
+obs_0583,hangzhou,589,589,circa,founding,,,Mote1999,low,Rose at the southern end of the Grand Canal
+obs_0584,hangzhou,1127,1276,circa,capital_status,Capital of the Southern Song dynasty,,Mote1999,high,The largest city in the world; Marco Polo's Quinsai
+obs_0585,hangzhou,1200,1200,circa,population_estimate,1000000,,Chandler1987,medium,The largest city in the world in the thirteenth century
+obs_0586,hangzhou,1276,1276,circa,conquest,,Yuan dynasty,Morgan2007,high,Taken by the Mongols; the Southern Song fall
+obs_0587,hangzhou,2020,2020,circa,population_estimate,10000000,,UN2018,medium,Modern Hangzhou
+obs_0588,nanjing,-495,-495,circa,founding,,,Mote1999,low,Ancient Jinling on the lower Yangtze
+obs_0589,nanjing,317,589,circa,capital_status,Capital of the Southern dynasties,,Mote1999,medium,Jiankang; capital of successive southern Chinese dynasties
+obs_0590,nanjing,1368,1421,circa,capital_status,Capital of the Ming dynasty,Hongwu,Mote1999,high,The first Ming capital before Beijing
+obs_0591,nanjing,1400,1400,circa,population_estimate,500000,,Chandler1987,low,A great early-Ming city
+obs_0592,nanjing,1928,1949,circa,capital_status,Capital of the Republic of China,,Mote1999,medium,The Nationalist capital
+obs_0593,nanjing,2020,2020,circa,population_estimate,8500000,,UN2018,medium,Modern Nanjing
+obs_0594,beijing,-1045,-1045,circa,founding,,,Lewis2007,low,The city of Ji; seat of the Yan state
+obs_0595,beijing,-1045,-222,circa,capital_status,Capital of the Yan state,,Lewis2007,low,A northern frontier capital among the warring states
+obs_0596,beijing,1153,1153,circa,conquest,,Jurchen Jin,Mote1999,medium,The Jin make it their central capital Zhongdu
+obs_0597,beijing,1215,1215,circa,conquest,,Mongol Empire,Morgan2007,high,Sacked by Genghis Khan
+obs_0598,beijing,1271,1368,circa,capital_status,Capital of the Yuan dynasty,Kublai Khan,Morgan2007,high,Kublai Khan's Dadu or Khanbaliq
+obs_0599,beijing,1421,1644,circa,capital_status,Capital of the Ming dynasty,,Mote1999,high,The imperial capital and the Forbidden City
+obs_0600,beijing,1644,1912,circa,capital_status,Capital of the Qing dynasty,,Mote1999,high,The Manchu imperial capital
+obs_0601,beijing,1500,1500,circa,population_estimate,700000,,Chandler1987,medium,Among the largest cities in the world under the Ming
+obs_0602,beijing,1949,2020,circa,capital_status,Capital of the People's Republic of China,,Mote1999,high,The modern capital
+obs_0603,beijing,2020,2020,circa,population_estimate,21000000,,UN2018,medium,Modern Beijing
+obs_0604,guangzhou,-214,-214,circa,founding,,,Lewis2007,low,Founded as Panyu when the Qin reached the southern coast
+obs_0605,guangzhou,-204,-111,circa,capital_status,Capital of Nanyue,,Lewis2007,low,Capital of the independent kingdom of Nanyue
+obs_0606,guangzhou,-111,-111,circa,conquest,,Han dynasty,Lewis2007,low,Annexed by Han Wudi
+obs_0607,guangzhou,750,750,circa,attestation,Great southern trade port,,Mote1999,low,The chief Chinese port for Indian Ocean and Arab trade
+obs_0608,guangzhou,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Guangzhou
+obs_0609,angkor,889,889,circa,founding,,Yasovarman I,Coedes1968,medium,Founded as the Khmer capital Yasodharapura
+obs_0610,angkor,889,1431,circa,capital_status,Capital of the Khmer Empire,,Coedes1968,high,Angkor Wat and Angkor Thom
+obs_0611,angkor,1150,1150,circa,population_estimate,750000,,Chandler1987,low,Among the largest preindustrial cities in the world
+obs_0612,angkor,1431,1431,circa,conquest,,Ayutthaya,Coedes1968,medium,Sacked by Ayutthaya; the capital moves toward Phnom Penh
+obs_0613,angkor,1450,1450,century,abandonment,,,Coedes1968,low,Largely abandoned to the forest
+obs_0614,bagan,849,849,circa,founding,,,Lieberman2003,low,Walled city on the Irrawaddy
+obs_0615,bagan,1044,1297,circa,capital_status,Capital of the Pagan Kingdom,Anawrahta,Lieberman2003,high,The first unified Burmese kingdom; thousands of temples
+obs_0616,bagan,1287,1287,circa,attestation,Mongol invasions,Mongol Empire (Yuan),Morgan2007,low,Mongol pressure hastens the kingdom's collapse
+obs_0617,bagan,1297,1297,circa,abandonment,,,Lieberman2003,low,Abandoned as a capital after the Pagan kingdom fell
+obs_0618,ayutthaya,1351,1351,circa,founding,,Ramathibodi I,Lieberman2003,medium,Founded as the Siamese capital
+obs_0619,ayutthaya,1351,1767,circa,capital_status,Capital of the Ayutthaya Kingdom,,Lieberman2003,high,A great cosmopolitan trading capital
+obs_0620,ayutthaya,1700,1700,circa,population_estimate,400000,,Chandler1987,low,Among the largest cities in the world around 1700
+obs_0621,ayutthaya,1767,1767,circa,destruction,,Konbaung Burma,Lieberman2003,high,Razed by a Burmese army; the capital moves to Bangkok
+obs_0622,ayutthaya,1767,1767,circa,abandonment,,,Lieberman2003,medium,Abandoned after its destruction
+obs_0623,palembang,671,671,circa,founding,,,Coedes1968,low,Seat of the maritime empire of Srivijaya
+obs_0624,palembang,671,1025,circa,capital_status,Capital of Srivijaya,,Coedes1968,medium,A Buddhist thalassocracy controlling the straits
+obs_0625,palembang,1025,1025,circa,attestation,Chola naval raid,Chola Empire,Coedes1968,medium,Raided by the Chola navy of southern India
+obs_0626,palembang,1377,1377,circa,conquest,,Majapahit,Coedes1968,low,Absorbed by the Javanese empire of Majapahit
+obs_0627,palembang,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Palembang
+obs_0628,thanglong,1010,1010,circa,founding,,Ly Thai To,Lieberman2003,medium,Made the capital of Dai Viet
+obs_0629,thanglong,1010,1802,circa,capital_status,Capital of Dai Viet,,Lieberman2003,high,The seat of Vietnamese dynasties
+obs_0630,thanglong,1257,1257,circa,attestation,Mongol invasions,Mongol Empire,Morgan2007,low,Repeatedly invaded but not held by the Mongols
+obs_0631,thanglong,2020,2020,circa,population_estimate,8000000,,UN2018,medium,Modern Hanoi
+obs_0632,malacca,1400,1400,circa,founding,,Parameswara,Lieberman2003,medium,Founded as a trading sultanate on the strait
+obs_0633,malacca,1400,1511,circa,capital_status,Capital of the Malacca Sultanate,,Lieberman2003,high,The great emporium of the spice trade
+obs_0634,malacca,1511,1511,circa,conquest,,Portuguese Empire,Lieberman2003,high,Captured by the Portuguese under Albuquerque
+obs_0635,malacca,2020,2020,circa,population_estimate,500000,,UN2018,low,Modern Melaka
+obs_0636,karakorum,1220,1220,circa,founding,,Genghis Khan,Morgan2007,medium,Established on the Orkhon as the Mongol base
+obs_0637,karakorum,1235,1260,circa,capital_status,Capital of the Mongol Empire,Ogedei Khan,Morgan2007,high,The imperial capital before Kublai moved it to Dadu
+obs_0638,karakorum,1388,1388,circa,abandonment,,Ming dynasty,Morgan2007,low,Sacked by a Ming army and abandoned
+obs_0639,samarkand,-700,-700,circa,founding,,,Soucek2000,low,The Sogdian city of Marakanda
+obs_0640,samarkand,-329,-329,circa,conquest,,Macedon (Alexander III),Soucek2000,low,Taken by Alexander
+obs_0641,samarkand,712,712,circa,conquest,,Umayyad Caliphate,Soucek2000,low,Taken in the Arab conquest of Transoxiana
+obs_0642,samarkand,1220,1220,circa,destruction,,Mongol Empire (Genghis Khan),Morgan2007,high,Sacked by Genghis Khan
+obs_0643,samarkand,1370,1405,circa,capital_status,Capital of the Timurid Empire,Timur,Soucek2000,high,Timur's imperial capital; the Registan
+obs_0644,samarkand,2020,2020,circa,population_estimate,550000,,UN2018,low,Modern Samarkand
+obs_0645,bukhara,-500,-500,circa,founding,,,Soucek2000,low,Ancient oasis city of Sogdiana
+obs_0646,bukhara,709,709,circa,conquest,,Umayyad Caliphate,Soucek2000,low,Taken in the Arab conquest
+obs_0647,bukhara,892,999,circa,capital_status,Capital of the Samanid Empire,,Soucek2000,high,A great center of Persian learning
+obs_0648,bukhara,1220,1220,circa,destruction,,Mongol Empire (Genghis Khan),Morgan2007,high,Sacked by the Mongols
+obs_0649,bukhara,2020,2020,circa,population_estimate,280000,,UN2018,low,Modern Bukhara
+obs_0650,merv,-300,-300,circa,founding,,,Soucek2000,low,Hellenistic then Silk Road oasis city
+obs_0651,merv,651,651,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Khorasan
+obs_0652,merv,1100,1100,circa,population_estimate,200000,,Chandler1987,low,Among the largest cities in the world in the twelfth century
+obs_0653,merv,1221,1221,circa,destruction,,Mongol Empire (Tolui),Morgan2007,high,The Mongols massacre the city; it never fully recovers
+obs_0654,merv,1800,1800,century,abandonment,,,Soucek2000,low,Finally abandoned in the early modern period
+obs_0655,sarai,1240,1240,circa,founding,,Batu Khan,Morgan2007,medium,Founded as the capital of the Golden Horde
+obs_0656,sarai,1240,1396,circa,capital_status,Capital of the Golden Horde,,Morgan2007,high,A great city of the western Mongol khanate
+obs_0657,sarai,1396,1396,circa,destruction,,Timurid Empire (Timur),Morgan2007,medium,Sacked by Timur
+obs_0658,sarai,1450,1450,century,abandonment,,,Morgan2007,low,Abandoned as the Golden Horde fragmented
+obs_0659,nara,710,710,circa,founding,,,Totman2000,medium,Founded as Heijo-kyo the first permanent capital
+obs_0660,nara,710,784,circa,capital_status,Capital of Japan,,Totman2000,high,The Nara period; great Buddhist temples
+obs_0661,nara,2020,2020,circa,population_estimate,360000,,UN2018,low,Modern Nara
+obs_0662,kyoto,794,794,circa,founding,,Kanmu,Totman2000,high,Founded as Heian-kyo
+obs_0663,kyoto,794,1868,circa,capital_status,Capital of Japan,,Totman2000,high,The imperial capital for over a millennium
+obs_0664,kyoto,1000,1000,circa,population_estimate,200000,,Chandler1987,low,Among the largest cities in the world in its heyday
+obs_0665,kyoto,2020,2020,circa,population_estimate,1500000,,UN2018,medium,Modern Kyoto
+obs_0666,kamakura,1180,1180,circa,founding,,Minamoto no Yoritomo,Totman2000,medium,Seat of the first shogunate
+obs_0667,kamakura,1192,1333,circa,capital_status,Kamakura shogunate,,Totman2000,high,The de facto capital of warrior Japan
+obs_0668,kamakura,1250,1250,circa,population_estimate,200000,,Chandler1987,low,Among the largest cities in the world in the thirteenth century
+obs_0669,kamakura,1333,1333,circa,destruction,,,Totman2000,low,Sacked as the shogunate fell
+obs_0670,kamakura,2020,2020,circa,population_estimate,170000,,UN2018,low,Modern Kamakura
+obs_0671,edo,1457,1457,circa,founding,,Ota Dokan,Totman2000,low,A castle town on Edo Bay
+obs_0672,edo,1603,1868,circa,capital_status,Tokugawa shogunate,Tokugawa Ieyasu,Totman2000,high,The shogunal capital; one of the largest cities in the world
+obs_0673,edo,1720,1720,circa,population_estimate,1000000,,Chandler1987,medium,Around a million people; among the largest cities on earth
+obs_0674,edo,1868,2020,circa,capital_status,Capital of Japan,,Totman2000,high,Renamed Tokyo and made the imperial capital
+obs_0675,edo,2020,2020,circa,population_estimate,37000000,,UN2018,medium,Modern Tokyo; the largest metropolitan area on earth
+obs_0676,osaka,645,645,circa,founding,,,Totman2000,low,The ancient port of Naniwa; briefly an imperial capital
+obs_0677,osaka,1583,1615,circa,capital_status,Toyotomi domain,Toyotomi Hideyoshi,Totman2000,low,Hideyoshi builds Osaka Castle as his seat
+obs_0678,osaka,1700,1700,circa,population_estimate,400000,,Chandler1987,low,A great merchant city of Tokugawa Japan
+obs_0679,osaka,2020,2020,circa,population_estimate,19000000,,UN2018,medium,Modern Osaka
