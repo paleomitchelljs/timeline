@@ -18,7 +18,8 @@ timeline/
 ├── tools/
 │   └── validate.py         stdlib integrity checker
 ├── web/
-│   └── index.html          first-pass visualizer (timeline + population + map)
+│   ├── index.html          visualizer page (map time-machine + empires + population)
+│   └── model.js            derived-data layer: empires + per-year city state (pure, testable)
 └── README.md
 ```
 
@@ -108,6 +109,14 @@ separate direction field needed.
   a faked precise date.
 - **`city_id` is forever.** Renaming a city changes `canonical_name`, never `city_id`.
 - Every observation must cite a `source`. No source, no row.
+- **Granularity:** record *changes of sovereign / imperial control* and major
+  destructions, refoundings, and population shifts — not every battle, siege, or
+  ruler. This keeps cities comparable and the timeline legible across five millennia.
+- **Coverage is era-agnostic and runs to the present.** A Roman, Umayyad, Crusader,
+  or modern event is as first-class as a Bronze Age one; carry each city forward to
+  abandonment or, for living cities, a recent `population_estimate`.
+- **Commas:** the free-text `notes`/`value` columns are unquoted, so use semicolons
+  instead of commas. `tools/validate.py` rejects any row whose field count is off.
 
 ## Sources
 
@@ -144,6 +153,14 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Fraser1972` | P.M. Fraser, *Ptolemaic Alexandria* (1972) |
 | `Bagnall1993` | R. Bagnall, *Egypt in Late Antiquity* (1993) |
 | `Porten1996` | B. Porten, *The Elephantine Papyri in English* (1996) |
+| `Kenyon1957` | K. Kenyon, *Digging Up Jericho* (1957) |
+| `Aubet2001` | M.E. Aubet, *The Phoenicians and the West* (2001) |
+| `Yon2006` | M. Yon, *The City of Ugarit at Tell Ras Shamra* (2006) |
+| `Pitard1987` | W. Pitard, *Ancient Damascus* (1987) |
+| `Finkelstein2001` | I. Finkelstein & N. Silberman, *The Bible Unearthed* (2001) |
+| `Magness2012` | J. Magness, *The Archaeology of the Holy Land* (2012) |
+| `Kennedy2004` | H. Kennedy, *The Prophet and the Age of the Caliphates* (2004) |
+| `Runciman1951` | S. Runciman, *A History of the Crusades* (1951) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -158,12 +175,23 @@ Checks referential integrity (no dangling `city_id`), the controlled vocabularie
 year ordering, required sources, and that population values are numeric. Standard
 library only — nothing to install.
 
-## Visualize (first pass)
+## Visualize
 
-`web/index.html` renders three live views from the CSVs: a **lifespan/empire timeline**
-(each city's bar from founding to abandonment, with a gold band for periods as a
-capital and a glyph per event), a **population-over-time** chart (log scale), and a
-**map** of site locations. It uses no libraries.
+`web/index.html` (no libraries) renders three views, top to bottom:
+
+1. **Map — a year machine.** A slider + play button scrub through time; markers appear
+   when a city is founded, vanish at abandonment, are sized by population-so-far, and are
+   **coloured by the empire that controls them that year**. Wheel to zoom, drag to pan.
+2. **Empires & polities.** One bar per polity (not per city), so the panel scales as the
+   dataset grows. Hover a bar for its span and member cities.
+3. **Population over time** (log scale).
+
+`web/model.js` is the derived-data layer behind all three: pure functions that infer each
+city's controlling empire and population at any year, and aggregate the free-text
+`actor`/`value` columns into empires. It runs in the browser and under node, so it is
+unit-tested directly. **Empire inference is heuristic** — polity names are normalized from
+free text, so expect a few near-duplicates (`Persia` vs `Achaemenid Persia`) until a
+controlled polity vocabulary (alias map or `polities.csv`) is added.
 
 Browsers block `fetch` from `file://`, so serve the repo root over HTTP:
 
@@ -195,8 +223,20 @@ moves east toward China.
 - [x] First-pass visualizer: timeline + population + map
 - [x] Assyria: Assur, Nineveh, Kalhu (Nimrud), Dur-Sharrukin, Arbela (Erbil), Harran
 - [x] Egypt: Memphis, Heliopolis, Thebes (Luxor), Akhetaten, Avaris, Tanis, Alexandria, Elephantine (Aswan)
+- [x] Levant: Jericho, Byblos, Ugarit, Megiddo, Damascus, Tyre, Sidon, Jerusalem
 - [x] Basemap pipeline: `tools/make_basemap.R` → `web/basemap.geojson`, drawn as SVG (run locally to populate)
-- [ ] Expand regions: Egypt → Levant → Anatolia → Greece → Italy → Iberia → India → China → SE Asia
-- [ ] Visualizer v2: time-slider that animates the map as empires rise and fall
+- [x] Derived-data layer (`web/model.js`): empire inference + per-year city state, unit-tested
+- [x] Visualizer v2: map time-slider/play + zoom/pan; empire-centric lifespan panel
+- [ ] Controlled polity vocabulary (alias map or `polities.csv`) to de-duplicate empires
+- [ ] GIF/video export of the map animation (frame = `stateAt(year)`; encode via a small R/Python step)
 - [ ] Replace placeholder population figures with the Reba2016 georeferenced series
+
+Expansion sequence (region by region):
+
+- [x] Mesopotamia (Sumer, Akkad, Assyria) · Egypt · Levant
+- [ ] **Anatolia** (Çatalhöyük, Troy, Hattusa, Gordion, Sardis, Ephesus)
+- [ ] **Iran / Zagros** (Susa, Ecbatana, Persepolis, Pasargadae)
+- [ ] **Pontic steppe**, then **Greece** and **Macedonia**
+- [ ] Westward: **North Africa** (Carthage), **Italy**, **Gaul**, **Albion**, **Germania**, **Iberia**
+- [ ] Eastward: **India** (and onward to China, SE Asia)
 ```

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>City Timeline — first pass</title>
+<title>City Timeline</title>
 <style>
   :root {
     --bg: #11131a; --panel: #1a1d27; --ink: #e7e9ee; --muted: #9aa0ad;
@@ -14,92 +14,80 @@
     margin: 0; background: var(--bg); color: var(--ink);
     font: 14px/1.45 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
-  header { padding: 20px 24px 8px; }
-  h1 { font-size: 20px; margin: 0 0 2px; font-weight: 650; }
-  header p { margin: 0; color: var(--muted); }
+  header { padding: 20px 24px 4px; }
+  h1 { font-size: 20px; margin: 0; font-weight: 650; }
   section { margin: 18px 16px; background: var(--panel); border: 1px solid var(--grid); border-radius: 10px; padding: 14px 16px; }
   h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 10px; font-weight: 600; }
-  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin: 4px 0 12px; color: var(--muted); font-size: 12.5px; }
+  .legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 10px 0 2px; color: var(--muted); font-size: 12.5px; }
   .legend span { display: inline-flex; align-items: center; gap: 6px; }
   svg { width: 100%; height: auto; display: block; }
+  #map { cursor: grab; user-select: none; touch-action: none; background: #0e1016; border-radius: 6px; }
+  #map:active { cursor: grabbing; }
   text { fill: var(--ink); }
   .axis text { fill: var(--muted); font-size: 11px; }
   .axis line { stroke: var(--grid); }
-  .rowlabel { fill: var(--ink); font-size: 12px; }
-  .lifespan { stroke: var(--line); stroke-width: 5; stroke-linecap: round; }
-  .capspan { stroke: #c9a227; stroke-width: 7; stroke-linecap: round; opacity: .85; }
-  .popline { fill: none; stroke-width: 1.5; opacity: .8; }
+  .rowlabel { fill: var(--ink); }
+  .controls { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+  .controls button {
+    background: #232733; color: var(--ink); border: 1px solid var(--line);
+    border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 13px; min-width: 34px;
+  }
+  .controls button:hover { background: #2c313f; }
+  .controls input[type=range] { flex: 1; accent-color: #64b5f6; }
+  #yearlabel { font-variant-numeric: tabular-nums; min-width: 84px; text-align: right; color: var(--ink); font-weight: 600; }
   #tip {
-    position: fixed; pointer-events: none; z-index: 10; max-width: 280px;
+    position: fixed; pointer-events: none; z-index: 10; max-width: 300px;
     background: #0c0e14; border: 1px solid #3a3f4d; border-radius: 7px;
     padding: 8px 10px; font-size: 12.5px; color: var(--ink);
     box-shadow: 0 6px 24px rgba(0,0,0,.5); opacity: 0; transition: opacity .08s;
   }
-  #tip b { font-weight: 650; }
   #tip .meta { color: var(--muted); }
   #error { margin: 18px 16px; padding: 16px; background: #2a1416; border: 1px solid #6b2330; border-radius: 10px; }
   code { background: #0c0e14; padding: 1px 6px; border-radius: 4px; }
-  .note { color: var(--muted); font-size: 12px; margin-top: 6px; }
 </style>
 </head>
 <body>
-<header>
-  <h1>City Timeline</h1>
-  <p>Mesopotamia, first pass — rendered live from <code>cities.csv</code>, <code>names.csv</code>, <code>observations.csv</code>.</p>
-</header>
+<header><h1>City Timeline</h1></header>
 
 <div id="error" hidden>
-  <b>Couldn't load the CSV files.</b> Browsers block <code>fetch</code> from <code>file://</code>.
-  Serve the folder over HTTP instead:
-  <p><code>cd timeline &amp;&amp; python3 -m http.server 8000</code> &nbsp;then open&nbsp; <code>http://localhost:8000/web/</code></p>
+  Couldn't load the data. Serve over HTTP: <code>python3 -m http.server 8000</code>, then open <code>/web/</code>.
 </div>
 
-<section id="timeline-sec">
-  <h2>City lifespans &amp; events</h2>
-  <div class="legend" id="event-legend"></div>
-  <svg id="timeline"></svg>
-  <div class="note">Gold band = period as a capital / major center. Bar = founding → abandonment (or last attested date). Hover any marker for details.</div>
+<section id="map-sec">
+  <h2>Empires through time</h2>
+  <div class="controls">
+    <button id="play" title="play / pause">&#9654;</button>
+    <input id="year" type="range">
+    <span id="yearlabel"></span>
+    <button id="zoomreset" title="reset zoom">reset</button>
+  </div>
+  <svg id="map"></svg>
+  <div class="legend" id="empire-legend"></div>
+</section>
+
+<section id="emp-sec">
+  <h2>Empires &amp; polities</h2>
+  <svg id="empires"></svg>
 </section>
 
 <section id="pop-sec">
-  <h2>Population estimates over time</h2>
+  <h2>Population over time</h2>
   <svg id="population"></svg>
-  <div class="note">Log scale. Estimates are sparse and low-confidence for antiquity — treat as orders of magnitude, not precise figures.</div>
-</section>
-
-<section id="map-sec">
-  <h2>Locations</h2>
-  <div class="legend" id="region-legend"></div>
-  <svg id="map"></svg>
-  <div class="note">Coastline, rivers, and lakes are <em>modern</em> physical geography (run <code>tools/make_basemap.R</code> to generate <code>basemap.geojson</code>; the map works without it). Note that in antiquity the Persian Gulf reached further north — Ur and Eridu sat near its shore but appear inland here. Akkad is omitted: its site has never been located.</div>
 </section>
 
 <div id="tip"></div>
 
+<script src="model.js"></script>
 <script>
 const SVGNS = "http://www.w3.org/2000/svg";
-
-const EVENT_STYLE = {
-  founding:           { shape: "circle",   color: "#43a047", label: "Founding" },
-  refounding:         { shape: "ring",     color: "#43a047", label: "Refounding" },
-  conquest:           { shape: "triangle", color: "#fb8c00", label: "Conquest" },
-  destruction:        { shape: "cross",    color: "#e53935", label: "Destruction" },
-  abandonment:        { shape: "square",   color: "#9e9e9e", label: "Abandonment" },
-  population_estimate:{ shape: "diamond",  color: "#42a5f5", label: "Population estimate" },
-  capital_status:     { shape: "star",     color: "#ab47bc", label: "Capital / center" },
-  attestation:        { shape: "dot",      color: "#26c6da", label: "Attestation" },
-};
+const tip = document.getElementById("tip");
 
 const REGION_COLOR = {
-  "mesopotamia-sumer":     "#4db6ac",
-  "mesopotamia-akkad":     "#ba68c8",
-  "mesopotamia-euphrates": "#ffb74d",
-  "mesopotamia-assyria":   "#ef9a9a",
-  "egypt-lower":           "#66bb6a",
-  "egypt-upper":           "#c5e1a5",
+  "mesopotamia-sumer": "#4db6ac", "mesopotamia-akkad": "#ba68c8",
+  "mesopotamia-euphrates": "#ffb74d", "mesopotamia-assyria": "#ef9a9a",
+  "egypt-lower": "#66bb6a", "egypt-upper": "#c5e1a5",
+  "levant-coast": "#4fc3f7", "levant-inland": "#f06292",
 };
-
-const tip = document.getElementById("tip");
 
 function el(name, attrs = {}, parent = null) {
   const node = document.createElementNS(SVGNS, name);
@@ -107,196 +95,215 @@ function el(name, attrs = {}, parent = null) {
   if (parent) parent.appendChild(node);
   return node;
 }
-
-function fmtYear(y) {
-  y = Math.round(y);
-  if (y < 0) return (-y) + " BCE";
-  if (y === 0) return "0";
-  return y + " CE";
+function fmtYear(y) { y = Math.round(y); return y < 0 ? (-y) + " BCE" : (y === 0 ? "0" : y + " CE"); }
+function fmtPop(v) { return v >= 1000000 ? (v / 1000000) + "M" : (v / 1000) + "k"; }
+function regionLabel(r) {
+  if (!r) return "";
+  const parts = r.split("-");
+  const tail = parts.length > 1 ? parts.slice(1).join(" ") : r;
+  return tail.replace(/\b\w/g, m => m.toUpperCase());
 }
-
-// Minimal RFC-4180-ish CSV parser (handles quotes and commas in fields).
-function parseCSV(text) {
-  const rows = [];
-  let row = [], field = "", inQuotes = false;
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    if (inQuotes) {
-      if (c === '"') {
-        if (text[i + 1] === '"') { field += '"'; i++; }
-        else inQuotes = false;
-      } else field += c;
-    } else if (c === '"') inQuotes = true;
-    else if (c === ",") { row.push(field); field = ""; }
-    else if (c === "\n" || c === "\r") {
-      if (c === "\r" && text[i + 1] === "\n") i++;
-      row.push(field); field = "";
-      if (row.length > 1 || row[0] !== "") rows.push(row);
-      row = [];
-    } else field += c;
-  }
-  if (field !== "" || row.length) { row.push(field); rows.push(row); }
-  const header = rows.shift();
-  return rows.map(r => Object.fromEntries(header.map((h, i) => [h, (r[i] ?? "").trim()])));
-}
-
-function showTip(html, evt) {
-  tip.innerHTML = html;
-  tip.style.opacity = 1;
-  moveTip(evt);
-}
-function moveTip(evt) {
-  const pad = 14;
-  let x = evt.clientX + pad, y = evt.clientY + pad;
-  const r = tip.getBoundingClientRect();
-  if (x + r.width > innerWidth) x = evt.clientX - r.width - pad;
-  if (y + r.height > innerHeight) y = evt.clientY - r.height - pad;
-  tip.style.left = x + "px"; tip.style.top = y + "px";
-}
-function hideTip() { tip.style.opacity = 0; }
-
-function bindTip(node, html) {
-  node.addEventListener("mouseenter", e => showTip(html, e));
-  node.addEventListener("mousemove", moveTip);
-  node.addEventListener("mouseleave", hideTip);
-}
-
-// Draw an event glyph centered at (x, y).
-function glyph(parent, type, x, y, r = 5) {
-  const st = EVENT_STYLE[type] || { shape: "dot", color: "#888" };
-  const col = st.color;
-  let n;
-  switch (st.shape) {
-    case "circle": n = el("circle", { cx: x, cy: y, r, fill: col }, parent); break;
-    case "ring":   n = el("circle", { cx: x, cy: y, r, fill: "none", stroke: col, "stroke-width": 2 }, parent); break;
-    case "dot":    n = el("circle", { cx: x, cy: y, r: r - 1.5, fill: "none", stroke: col, "stroke-width": 1.5 }, parent); break;
-    case "square": n = el("rect", { x: x - r, y: y - r, width: 2 * r, height: 2 * r, fill: col }, parent); break;
-    case "diamond":n = el("path", { d: `M${x},${y-r} L${x+r},${y} L${x},${y+r} L${x-r},${y} Z`, fill: col }, parent); break;
-    case "triangle":n = el("path", { d: `M${x},${y-r} L${x+r},${y+r} L${x-r},${y+r} Z`, fill: col }, parent); break;
-    case "cross": {
-      const g = el("g", { stroke: col, "stroke-width": 2 }, parent);
-      el("line", { x1: x-r, y1: y-r, x2: x+r, y2: y+r }, g);
-      el("line", { x1: x-r, y1: y+r, x2: x+r, y2: y-r }, g);
-      n = g; break;
-    }
-    case "star": {
-      let d = "";
-      for (let k = 0; k < 10; k++) {
-        const rr = k % 2 ? r * 0.45 : r;
-        const a = -Math.PI / 2 + k * Math.PI / 5;
-        d += (k ? "L" : "M") + (x + rr * Math.cos(a)).toFixed(1) + "," + (y + rr * Math.sin(a)).toFixed(1) + " ";
-      }
-      n = el("path", { d: d + "Z", fill: col }, parent); break;
-    }
-    default: n = el("circle", { cx: x, cy: y, r, fill: col }, parent);
-  }
-  return n;
-}
-
-function eventTip(cityName, o) {
-  const yr = o.year_start === o.year_end ? fmtYear(o.year_start)
-           : fmtYear(o.year_start) + " – " + fmtYear(o.year_end);
-  const lines = [`<b>${cityName}</b> — ${(EVENT_STYLE[o.event_type]||{}).label || o.event_type}`,
-                 `<span class="meta">${yr}${o.date_precision==="circa"?" (c.)":""}</span>`];
-  if (o.value)  lines.push(o.value);
-  if (o.actor)  lines.push("by " + o.actor);
-  if (o.notes)  lines.push(`<span class="meta">${o.notes}</span>`);
-  lines.push(`<span class="meta">${o.source} · ${o.confidence} confidence</span>`);
-  return lines.join("<br>");
-}
-
-function renderEventLegend() {
-  const box = document.getElementById("event-legend");
-  for (const t in EVENT_STYLE) {
-    const s = document.createElement("span");
-    const svg = document.createElementNS(SVGNS, "svg");
-    svg.setAttribute("width", 16); svg.setAttribute("height", 16);
-    glyph(svg, t, 8, 8, 5);
-    s.appendChild(svg);
-    s.appendChild(document.createTextNode(EVENT_STYLE[t].label));
-    box.appendChild(s);
-  }
-}
-
 function yearTicks(min, max, step) {
   const t = [];
   for (let y = Math.ceil(min / step) * step; y <= max; y += step) t.push(y);
   return t;
 }
+function parseCSV(text) {
+  const rows = []; let row = [], field = "", q = false;
+  for (let i = 0; i < text.length; i++) { const c = text[i];
+    if (q) { if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else q = false; } else field += c; }
+    else if (c === '"') q = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && text[i + 1] === "\n") i++; row.push(field); field = ""; if (row.length > 1 || row[0] !== "") rows.push(row); row = []; }
+    else field += c;
+  }
+  if (field !== "" || row.length) { row.push(field); rows.push(row); }
+  const header = rows.shift();
+  return rows.map(r => Object.fromEntries(header.map((h, i) => [h, (r[i] ?? "").trim()])));
+}
+function showTip(html, e) { tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e) {
+  const pad = 14; let x = e.clientX + pad, y = e.clientY + pad;
+  const r = tip.getBoundingClientRect();
+  if (x + r.width > innerWidth) x = e.clientX - r.width - pad;
+  if (y + r.height > innerHeight) y = e.clientY - r.height - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.style.opacity = 0; }
+function bindTip(node, html) {
+  node.addEventListener("mouseenter", e => showTip(html, e));
+  node.addEventListener("mousemove", moveTip);
+  node.addEventListener("mouseleave", hideTip);
+}
+async function load(name) {
+  const res = await fetch(name, { cache: "no-store" });
+  if (!res.ok) throw new Error(name + ": " + res.status);
+  return parseCSV(await res.text());
+}
+async function loadJSON(name) {
+  try { const r = await fetch(name, { cache: "no-store" }); return r.ok ? await r.json() : null; }
+  catch (e) { return null; }
+}
 
-function renderTimeline(cities, obs) {
-  const svg = document.getElementById("timeline");
-  const byId = Object.fromEntries(cities.map(c => [c.city_id, c]));
-  const groups = {};
-  for (const o of obs) (groups[o.city_id] ||= []).push(o);
+// physical features under the map points
+function drawBasemap(parent, geo, x, y) {
+  const g = el("g", {}, parent);
+  const path = pts => pts.map((c, i) => (i ? "L" : "M") + x(c[0]).toFixed(1) + "," + y(c[1]).toFixed(1)).join(" ");
+  const STYLE = {
+    coastline: { stroke: "#3f4a5a", "stroke-width": 1, fill: "none" },
+    river: { stroke: "#3d6585", "stroke-width": 0.9, fill: "none", "stroke-opacity": .8 },
+    lake: { stroke: "none", fill: "#1b2a3a" },
+  };
+  const RIVER_LABELS = new Set(["Tigris", "Euphrates", "Nile", "Jordan"]);
+  const labelled = new Set();
+  const draw = (st, d) => { if (d) el("path", { ...st, d }, g); };
+  for (const f of (geo.features || [])) {
+    const kind = (f.properties && f.properties.kind) || "coastline";
+    const st = STYLE[kind] || STYLE.coastline;
+    const gm = f.geometry; if (!gm) continue;
+    if (gm.type === "LineString") draw(st, path(gm.coordinates));
+    else if (gm.type === "MultiLineString") gm.coordinates.forEach(l => draw(st, path(l)));
+    else if (gm.type === "Polygon") draw(st, gm.coordinates.map(r => path(r) + "Z").join(" "));
+    else if (gm.type === "MultiPolygon") gm.coordinates.forEach(p => draw(st, p.map(r => path(r) + "Z").join(" ")));
+    const nm = f.properties && f.properties.name;
+    if (kind === "river" && nm && RIVER_LABELS.has(nm) && !labelled.has(nm)) {
+      const line = gm.type === "LineString" ? gm.coordinates : gm.type === "MultiLineString" ? gm.coordinates.flat() : null;
+      if (line && line.length) {
+        const m = line[Math.floor(line.length / 2)];
+        const lab = el("text", { x: x(m[0]) + 3, y: y(m[1]), "font-size": 10, "font-style": "italic" }, g);
+        lab.setAttribute("fill", "#6f9fc4"); lab.textContent = nm; labelled.add(nm);
+      }
+    }
+  }
+}
 
-  const rows = Object.keys(groups).map(id => {
-    const evs = groups[id];
-    const founding = evs.find(e => e.event_type === "founding");
-    const start = founding ? founding.year_start : Math.min(...evs.map(e => e.year_start));
-    const aband = evs.find(e => e.event_type === "abandonment");
-    const end = aband ? aband.year_end : Math.max(...evs.map(e => e.year_end));
-    return { id, name: byId[id] ? byId[id].canonical_name : id, region: byId[id]?.region, start, end, evs };
-  }).sort((a, b) => a.start - b.start);
+// the map is a year machine: scrub/play to see empires spread, zoom with the wheel, drag to pan
+function setupMap(model, basemap) {
+  const svg = document.getElementById("map");
+  const located = model.cities.filter(c => c.lat !== "" && c.lon !== "");
+  const lats = located.map(c => +c.lat), lons = located.map(c => +c.lon);
+  const padLat = (Math.max(...lats) - Math.min(...lats)) * 0.12 + 0.3;
+  const padLon = (Math.max(...lons) - Math.min(...lons)) * 0.12 + 0.3;
+  const minLat = Math.min(...lats) - padLat, maxLat = Math.max(...lats) + padLat;
+  const minLon = Math.min(...lons) - padLon, maxLon = Math.max(...lons) + padLon;
 
-  const allYears = obs.flatMap(o => [o.year_start, o.year_end]);
-  const minY = Math.min(...allYears), maxY = Math.max(...allYears);
+  const W = 1120, H = 540, Mg = 24;
+  const s = Math.min((W - 2 * Mg) / (maxLon - minLon), (H - 2 * Mg) / (maxLat - minLat));
+  const x = lon => Mg + (lon - minLon) * s;
+  const y = lat => H - Mg - (lat - minLat) * s;
 
-  const M = { top: 16, right: 28, bottom: 34, left: 96 };
-  const rowH = 26, W = 1120;
+  const home = { x: 0, y: 0, w: W, h: H };
+  let vb = { ...home };
+  const apply = () => svg.setAttribute("viewBox", `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+  apply();
+
+  const baseG = el("g", {}, svg);
+  if (basemap) drawBasemap(baseG, basemap, x, y);
+  const markerG = el("g", {}, svg);
+
+  svg.addEventListener("wheel", e => {
+    e.preventDefault();
+    const rect = svg.getBoundingClientRect();
+    const px = (e.clientX - rect.left) / rect.width, py = (e.clientY - rect.top) / rect.height;
+    const f = e.deltaY < 0 ? 0.85 : 1.18;
+    const ptx = vb.x + px * vb.w, pty = vb.y + py * vb.h;
+    vb.w = Math.min(W * 1.4, Math.max(W * 0.04, vb.w * f));
+    vb.h = Math.min(H * 1.4, Math.max(H * 0.04, vb.h * f));
+    vb.x = ptx - px * vb.w; vb.y = pty - py * vb.h;
+    apply();
+  }, { passive: false });
+
+  let drag = null;
+  svg.addEventListener("mousedown", e => { drag = { x: e.clientX, y: e.clientY }; });
+  window.addEventListener("mousemove", e => {
+    if (!drag) return;
+    const rect = svg.getBoundingClientRect();
+    vb.x -= (e.clientX - drag.x) * (vb.w / rect.width);
+    vb.y -= (e.clientY - drag.y) * (vb.h / rect.height);
+    drag = { x: e.clientX, y: e.clientY }; apply();
+  });
+  window.addEventListener("mouseup", () => { drag = null; });
+  document.getElementById("zoomreset").addEventListener("click", () => { vb = { ...home }; apply(); });
+
+  const legendBox = document.getElementById("empire-legend");
+  function update(year) {
+    markerG.innerHTML = "";
+    for (const sg of TimelineModel.stateAt(model, year)) {
+      const c = sg.city;
+      const r = sg.pop ? Math.max(4, Math.min(20, Math.sqrt(sg.pop) / 30)) : 3.5;
+      const node = el("circle", { cx: x(+c.lon), cy: y(+c.lat), r, fill: sg.color,
+        "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, markerG);
+      node.style.cursor = "pointer";
+      bindTip(node, `<b>${c.canonical_name}</b><br><span class="meta">${sg.polity || "independent / no record"}</span>`
+        + (sg.pop ? `<br><span class="meta">~${sg.pop.toLocaleString()}</span>` : "")
+        + `<br><span class="meta">${regionLabel(c.region)}</span>`);
+      const lab = el("text", { x: x(+c.lon) + r + 3, y: y(+c.lat) + 3, "font-size": 10 }, markerG);
+      lab.setAttribute("fill", "#cfd3da"); lab.textContent = c.canonical_name;
+    }
+    legendBox.innerHTML = "";
+    const active = TimelineModel.empiresActiveAt(model, year)
+      .filter(e => e.cities.size >= 2)
+      .sort((a, b) => b.cities.size - a.cities.size).slice(0, 12);
+    for (const e of active) {
+      const sp = document.createElement("span");
+      const sw = document.createElement("span");
+      sw.style.cssText = `width:12px;height:12px;border-radius:2px;background:${e.color}`;
+      sp.appendChild(sw); sp.appendChild(document.createTextNode(e.name));
+      legendBox.appendChild(sp);
+    }
+  }
+  return { update };
+}
+
+// empire-centric lifespans — rows scale with #polities, not #cities
+function renderEmpires(model) {
+  const svg = document.getElementById("empires");
+  const emps = model.empires;
+  const M = { top: 10, right: 24, bottom: 30, left: 180 }, W = 1120;
+  const rh = 18;
   const innerW = W - M.left - M.right;
-  const H = M.top + rows.length * rowH + M.bottom;
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
-  svg.innerHTML = "";
-
+  const H = M.top + emps.length * rh + M.bottom;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
+  const minY = model.domain.min, maxY = model.domain.max;
   const x = y => M.left + (y - minY) / (maxY - minY) * innerW;
 
-  // axis gridlines
   const axis = el("g", { class: "axis" }, svg);
   for (const t of yearTicks(minY, maxY, 1000)) {
     el("line", { x1: x(t), y1: M.top, x2: x(t), y2: H - M.bottom }, axis);
-    const lab = el("text", { x: x(t), y: H - M.bottom + 16, "text-anchor": "middle" }, axis);
-    lab.textContent = fmtYear(t);
+    const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis);
+    l.textContent = fmtYear(t);
   }
-
-  rows.forEach((r, i) => {
-    const cy = M.top + i * rowH + rowH / 2;
-    const lab = el("text", { x: M.left - 10, y: cy + 4, "text-anchor": "end", class: "rowlabel" }, svg);
-    lab.textContent = r.name;
-
-    el("line", { class: "lifespan", x1: x(r.start), y1: cy, x2: x(r.end), y2: cy }, svg);
-
-    // capital/center spans
-    for (const o of r.evs.filter(e => e.event_type === "capital_status" && e.year_end > e.year_start)) {
-      const seg = el("line", { class: "capspan", x1: x(o.year_start), y1: cy, x2: x(o.year_end), y2: cy }, svg);
-      bindTip(seg, eventTip(r.name, o));
-    }
-    // glyphs for every event
-    for (const o of r.evs) {
-      const g = glyph(svg, o.event_type, x((o.year_start + o.year_end) / 2), cy, 5);
-      g.style.cursor = "pointer";
-      bindTip(g, eventTip(r.name, o));
-    }
+  emps.forEach((e, i) => {
+    const cy = M.top + i * rh + rh / 2;
+    const lab = el("text", { x: M.left - 8, y: cy + 3, "text-anchor": "end", class: "rowlabel", "font-size": 10 }, svg);
+    lab.textContent = e.name;
+    const x1 = x(e.start), x2 = Math.max(x(e.end), x1 + 3);
+    const bar = el("line", { x1, y1: cy, x2, y2: cy, stroke: e.color, "stroke-width": 7, "stroke-linecap": "round" }, svg);
+    bar.style.cursor = "pointer";
+    const span = e.start === e.end ? fmtYear(e.start) : fmtYear(e.start) + " – " + fmtYear(e.end);
+    const cityNames = [...e.cities].map(id => (model.cityById[id] || {}).canonical_name || id).sort().join(", ");
+    bindTip(bar, `<b>${e.name}</b><br><span class="meta">${span} · ${e.cities.size} cit${e.cities.size === 1 ? "y" : "ies"}</span><br><span class="meta">${cityNames}</span>`);
   });
 }
 
-function renderPopulation(cities, obs) {
+function renderPopulation(model) {
   const svg = document.getElementById("population");
-  const byId = Object.fromEntries(cities.map(c => [c.city_id, c]));
-  const pts = obs.filter(o => o.event_type === "population_estimate" && Number(o.value) > 0)
-                 .map(o => ({ id: o.city_id, name: byId[o.city_id]?.canonical_name || o.city_id,
-                              year: o.year_start, val: Number(o.value), o }));
-  const M = { top: 16, right: 90, bottom: 34, left: 56 }, W = 1120, H = 320;
+  const pts = [];
+  for (const id in model.cityInfo) {
+    const c = model.cityById[id];
+    for (const p of model.cityInfo[id].pops)
+      pts.push({ id, name: c ? c.canonical_name : id, region: c ? c.region : "", year: p.year, val: p.val });
+  }
+  const M = { top: 16, right: 96, bottom: 30, left: 54 }, W = 1120, H = 320;
   const innerW = W - M.left - M.right, innerH = H - M.top - M.bottom;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
+  if (!pts.length) return;
 
-  const minY = Math.min(...pts.map(p => p.year)) - 200;
-  const maxY = Math.max(...pts.map(p => p.year)) + 200;
+  const minY = Math.min(...pts.map(p => p.year)) - 200, maxY = Math.max(...pts.map(p => p.year)) + 200;
   const minV = 3000, maxV = 10000000;
   const x = y => M.left + (y - minY) / (maxY - minY) * innerW;
   const lv = v => Math.log10(v);
   const yp = v => M.top + innerH * (1 - (lv(v) - lv(minV)) / (lv(maxV) - lv(minV)));
-  const fmtPop = v => v >= 1000000 ? (v / 1000000) + "M" : (v / 1000) + "k";
 
   const axis = el("g", { class: "axis" }, svg);
   for (const v of [5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000]) {
@@ -305,153 +312,64 @@ function renderPopulation(cities, obs) {
     t.textContent = fmtPop(v);
   }
   for (const t of yearTicks(minY, maxY, 1000)) {
-    const lab = el("text", { x: x(t), y: H - M.bottom + 16, "text-anchor": "middle" }, axis);
-    lab.textContent = fmtYear(t);
+    const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis);
+    l.textContent = fmtYear(t);
   }
-
   const groups = {};
-  for (const p of pts) (groups[p.id] ||= []).push(p);
-  let ci = 0;
+  for (const p of pts) (groups[p.id] || (groups[p.id] = [])).push(p);
   for (const id in groups) {
     const g = groups[id].sort((a, b) => a.year - b.year);
-    const color = REGION_COLOR[byId[id]?.region] || "#90caf9";
-    if (g.length > 1) {
-      el("polyline", { class: "popline", stroke: color,
+    const color = REGION_COLOR[g[0].region] || "#90caf9";
+    if (g.length > 1)
+      el("polyline", { fill: "none", stroke: color, "stroke-width": 1.5, "stroke-opacity": .8,
         points: g.map(p => `${x(p.year)},${yp(p.val)}`).join(" ") }, svg);
-    }
     for (const p of g) {
       const c = el("circle", { cx: x(p.year), cy: yp(p.val), r: 4.5, fill: color }, svg);
       c.style.cursor = "pointer";
-      bindTip(c, eventTip(p.name, p.o));
+      bindTip(c, `<b>${p.name}</b><br><span class="meta">~${p.val.toLocaleString()} · ${fmtYear(p.year)}</span>`);
     }
     const last = g[g.length - 1];
     const lab = el("text", { x: x(last.year) + 8, y: yp(last.val) + 4, "font-size": 11 }, svg);
-    lab.setAttribute("fill", color);
-    lab.textContent = last.name;
-    ci++;
+    lab.setAttribute("fill", color); lab.textContent = last.name;
   }
-}
-
-// Draw GeoJSON physical features (coastline / rivers / lakes) under the points.
-function drawBasemap(svg, geo, x, y) {
-  const g = el("g", {}, svg);
-  const path = pts => pts.map((c, i) => (i ? "L" : "M") + x(c[0]).toFixed(1) + "," + y(c[1]).toFixed(1)).join(" ");
-  const STYLE = {
-    coastline: { stroke: "#4a5568", "stroke-width": 1,   fill: "none" },
-    river:     { stroke: "#4a7ba6", "stroke-width": 0.9, fill: "none", "stroke-opacity": .75 },
-    lake:      { stroke: "none", fill: "#22384d" },
-  };
-  const RIVER_LABELS = new Set(["Tigris", "Euphrates", "Nile", "Jordan", "Tigris-Euphrates"]);
-  const labelled = new Set();
-
-  const draw = (geom, st, d) => { if (d) el("path", { ...st, d }, g); };
-  for (const f of (geo.features || [])) {
-    const kind = (f.properties && f.properties.kind) || "coastline";
-    const st = STYLE[kind] || STYLE.coastline;
-    const gm = f.geometry; if (!gm) continue;
-    if (gm.type === "LineString")        draw(gm, st, path(gm.coordinates));
-    else if (gm.type === "MultiLineString") gm.coordinates.forEach(l => draw(gm, st, path(l)));
-    else if (gm.type === "Polygon")      draw(gm, st, gm.coordinates.map(r => path(r) + "Z").join(" "));
-    else if (gm.type === "MultiPolygon") gm.coordinates.forEach(p => draw(gm, st, p.map(r => path(r) + "Z").join(" ")));
-
-    // one small italic label per major named river, near its midpoint
-    const nm = f.properties && f.properties.name;
-    if (kind === "river" && nm && RIVER_LABELS.has(nm) && !labelled.has(nm)) {
-      const line = gm.type === "LineString" ? gm.coordinates
-                 : gm.type === "MultiLineString" ? gm.coordinates.flat() : null;
-      if (line && line.length) {
-        const m = line[Math.floor(line.length / 2)];
-        const lab = el("text", { x: x(m[0]) + 3, y: y(m[1]), "font-size": 10, "font-style": "italic" }, g);
-        lab.setAttribute("fill", "#6f9fc4");
-        lab.textContent = nm;
-        labelled.add(nm);
-      }
-    }
-  }
-}
-
-function renderMap(cities, obs, basemap) {
-  const svg = document.getElementById("map");
-  const located = cities.filter(c => c.lat !== "" && c.lon !== "");
-  const lats = located.map(c => +c.lat), lons = located.map(c => +c.lon);
-  const padLat = (Math.max(...lats) - Math.min(...lats)) * 0.12 + 0.2;
-  const padLon = (Math.max(...lons) - Math.min(...lons)) * 0.12 + 0.2;
-  const minLat = Math.min(...lats) - padLat, maxLat = Math.max(...lats) + padLat;
-  const minLon = Math.min(...lons) - padLon, maxLon = Math.max(...lons) + padLon;
-
-  const W = 1120, H = 460, M = 24;
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
-  // keep geographic aspect roughly correct
-  const sx = (W - 2 * M) / (maxLon - minLon);
-  const sy = (H - 2 * M) / (maxLat - minLat);
-  const s = Math.min(sx, sy);
-  const x = lon => M + (lon - minLon) * s;
-  const y = lat => H - M - (lat - minLat) * s;
-
-  if (basemap) drawBasemap(svg, basemap, x, y);
-
-  // latest known population per city, for marker size
-  const popById = {};
-  for (const o of obs) if (o.event_type === "population_estimate") {
-    const v = Number(o.value);
-    if (!popById[o.city_id] || o.year_start > popById[o.city_id].year)
-      popById[o.city_id] = { year: o.year_start, val: v };
-  }
-
-  for (const c of located) {
-    const p = popById[c.city_id];
-    const r = p ? Math.max(5, Math.min(22, Math.sqrt(p.val) / 28)) : 4;
-    const col = REGION_COLOR[c.region] || "#90caf9";
-    const node = el("circle", { cx: x(+c.lon), cy: y(+c.lat), r, fill: col, "fill-opacity": .55,
-                                stroke: col, "stroke-width": 1.5 }, svg);
-    node.style.cursor = "pointer";
-    bindTip(node, `<b>${c.canonical_name}</b><br><span class="meta">${c.modern_name} · ${c.region}</span>`
-      + (p ? `<br><span class="meta">~${p.val.toLocaleString()} (${fmtYear(p.year)})</span>` : ""));
-    const lab = el("text", { x: x(+c.lon) + r + 4, y: y(+c.lat) + 4, "font-size": 11 }, svg);
-    lab.textContent = c.canonical_name;
-  }
-}
-
-function renderRegionLegend(cities) {
-  const box = document.getElementById("region-legend");
-  const regions = [...new Set(cities.map(c => c.region))];
-  for (const reg of regions) {
-    const s = document.createElement("span");
-    const sw = document.createElement("span");
-    sw.style.cssText = `width:12px;height:12px;border-radius:50%;background:${REGION_COLOR[reg]||"#90caf9"}`;
-    s.appendChild(sw);
-    s.appendChild(document.createTextNode(reg));
-    box.appendChild(s);
-  }
-}
-
-async function load(name) {
-  const res = await fetch(name, { cache: "no-store" });
-  if (!res.ok) throw new Error(name + ": " + res.status);
-  return parseCSV(await res.text());
-}
-
-// Optional: returns null if the file isn't there yet (basemap not generated).
-async function loadJSON(name) {
-  try { const r = await fetch(name, { cache: "no-store" }); return r.ok ? await r.json() : null; }
-  catch (e) { return null; }
 }
 
 (async function main() {
   try {
-    const [cities, , obsRaw] = await Promise.all([
+    const [cities, , obs] = await Promise.all([
       load("../data/cities.csv"), load("../data/names.csv"), load("../data/observations.csv")
     ]);
     const basemap = await loadJSON("basemap.geojson");
-    const obs = obsRaw.map(o => ({ ...o, year_start: +o.year_start, year_end: +o.year_end }));
-    renderEventLegend();
-    renderRegionLegend(cities);
-    renderTimeline(cities, obs);
-    renderPopulation(cities, obs);
-    renderMap(cities, obs, basemap);
+    const model = TimelineModel.build(cities, obs);
+
+    const mapView = setupMap(model, basemap);
+    renderEmpires(model);
+    renderPopulation(model);
+
+    const slider = document.getElementById("year");
+    const label = document.getElementById("yearlabel");
+    const playBtn = document.getElementById("play");
+    slider.min = model.domain.min; slider.max = model.domain.max; slider.step = 1;
+    slider.value = -2000;
+    const setYear = v => { label.textContent = fmtYear(+v); mapView.update(+v); };
+    slider.addEventListener("input", () => setYear(slider.value));
+
+    let timer = null;
+    const step = Math.max(5, Math.round((model.domain.max - model.domain.min) / 500));
+    playBtn.addEventListener("click", () => {
+      if (timer) { clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; return; }
+      if (+slider.value >= model.domain.max) slider.value = model.domain.min;
+      playBtn.innerHTML = "&#10073;&#10073;";
+      timer = setInterval(() => {
+        let v = +slider.value + step;
+        if (v >= model.domain.max) { v = model.domain.max; clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
+        slider.value = v; setYear(v);
+      }, 60);
+    });
+    setYear(slider.value);
   } catch (e) {
     document.getElementById("error").hidden = false;
-    for (const id of ["timeline-sec", "pop-sec", "map-sec"]) document.getElementById(id).hidden = true;
+    for (const id of ["map-sec", "emp-sec", "pop-sec"]) document.getElementById(id).hidden = true;
     console.error(e);
   }
 })();

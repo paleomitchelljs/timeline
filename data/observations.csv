@@ -145,3 +145,46 @@ obs_0143,elephantine,-3000,-3000,circa,founding,,,Shaw2000,low,Island town at th
 obs_0144,elephantine,-2500,-2500,century,capital_status,Southern frontier garrison,,Shaw2000,medium,Egypt's border post and trade gateway toward Nubia
 obs_0145,elephantine,-450,-450,circa,attestation,Jewish-Aramean garrison; the Elephantine papyri,,Porten1996,medium,An Aramaic-speaking Judean community with its own temple to YHW
 obs_0146,elephantine,2020,2020,circa,population_estimate,350000,,UN2018,medium,Modern Aswan (ancient Syene) on the adjacent bank; continuously inhabited
+obs_0147,jericho,-9000,-9000,circa,founding,,,Kenyon1957,medium,Neolithic proto-town (PPNA); famous early stone tower and wall; among the earliest known settlements
+obs_0148,jericho,-1800,-1800,circa,attestation,Fortified Middle Bronze Age town,,Kenyon1957,low,A walled Canaanite town in the second millennium
+obs_0149,jericho,-1550,-1550,circa,destruction,,,Kenyon1957,low,The Middle Bronze Age city was destroyed and the tell long lay largely unoccupied (dating debated)
+obs_0150,jericho,-30,-30,circa,attestation,Hasmonean and Herodian Jericho,Herod the Great,Magness2012,low,Herod built a winter palace nearby
+obs_0151,jericho,2020,2020,circa,population_estimate,20000,,UN2018,medium,Modern Jericho; one of the oldest towns with a long settlement record
+obs_0152,byblos,-7000,-7000,circa,founding,,,Aubet2001,low,Neolithic origins; among the oldest continuously inhabited cities
+obs_0153,byblos,-2600,-2600,century,attestation,Egyptian timber-trade port,,Aubet2001,medium,Cedar and papyrus trade linked Byblos to Old Kingdom Egypt
+obs_0154,byblos,-333,-333,circa,conquest,,Macedon (Alexander III),Aubet2001,medium,Passed to Alexander with the rest of Phoenicia
+obs_0155,byblos,1104,1104,circa,conquest,,Crusaders (County of Tripoli),Runciman1951,low,Held as the lordship of Gibelet during the Crusades
+obs_0156,byblos,2020,2020,circa,population_estimate,40000,,UN2018,medium,Modern Jbeil; continuously inhabited for some nine millennia
+obs_0157,ugarit,-6000,-6000,circa,founding,,,Yon2006,low,Neolithic settlement that grew into a Bronze Age port kingdom
+obs_0158,ugarit,-1450,-1185,circa,capital_status,Late Bronze Age trading kingdom,,Yon2006,medium,A cosmopolitan port; home of the early Ugaritic alphabet
+obs_0159,ugarit,-1185,-1185,circa,destruction,,Sea Peoples,Yon2006,medium,Destroyed in the Late Bronze Age collapse and never reoccupied
+obs_0160,megiddo,-3500,-3500,circa,founding,,,Finkelstein2001,low,Canaanite city commanding the Jezreel Valley pass
+obs_0161,megiddo,-1457,-1457,circa,conquest,,Egypt (Thutmose III),Shaw2000,medium,The Battle of Megiddo; the earliest battle recorded in reliable detail
+obs_0162,megiddo,-925,-925,circa,capital_status,Israelite administrative center,,Finkelstein2001,low,A fortified royal city of the northern kingdom of Israel
+obs_0163,megiddo,-350,-350,century,abandonment,,,Finkelstein2001,low,Abandoned by the Persian period; its name survives in Armageddon (Har Megiddo)
+obs_0164,damascus,-3000,-3000,circa,founding,,,Pitard1987,low,Claimed among the oldest continuously inhabited cities
+obs_0165,damascus,-1000,-732,circa,capital_status,Capital of Aram-Damascus,,Pitard1987,medium,The leading Aramean kingdom of the southern Levant
+obs_0166,damascus,-732,-732,circa,conquest,,Assyria (Tiglath-Pileser III),Pitard1987,medium,Annexed into the Neo-Assyrian Empire
+obs_0167,damascus,-64,-64,circa,conquest,,Rome (Pompey),Pitard1987,medium,Absorbed into the Roman province of Syria
+obs_0168,damascus,661,750,circa,capital_status,Capital of the Umayyad Caliphate,,Kennedy2004,high,Seat of an empire reaching from Iberia to Central Asia
+obs_0169,damascus,2020,2020,circa,population_estimate,2000000,,UN2018,medium,Modern Damascus; capital of Syria
+obs_0170,tyre,-2750,-2750,circa,founding,,,Aubet2001,low,Phoenician island port; founding date from later tradition
+obs_0171,tyre,-814,-814,circa,attestation,Foundation of Carthage,,Aubet2001,medium,Tyrian colonists founded Carthage and a wider western network
+obs_0172,tyre,-332,-332,exact,conquest,,Macedon (Alexander III),Aubet2001,high,Alexander's seven-month siege; he built a causeway to storm the island
+obs_0173,tyre,-64,-64,circa,conquest,,Rome (Pompey),Aubet2001,low,Incorporated into Roman Syria
+obs_0174,tyre,2020,2020,circa,population_estimate,200000,,UN2018,medium,Modern Sur; still inhabited
+obs_0175,sidon,-4000,-4000,circa,founding,,,Aubet2001,low,One of the oldest Phoenician cities
+obs_0176,sidon,-345,-345,circa,destruction,,Persia (Artaxerxes III),Aubet2001,medium,Burned after a revolt against Persian rule
+obs_0177,sidon,-332,-332,circa,conquest,,Macedon (Alexander III),Aubet2001,medium,Surrendered to Alexander
+obs_0178,sidon,2020,2020,circa,population_estimate,160000,,UN2018,medium,Modern Saida; continuously inhabited
+obs_0179,jerusalem,-3000,-3000,circa,founding,,,Finkelstein2001,low,Canaanite town in the Judean hills; named in Egyptian Execration Texts
+obs_0180,jerusalem,-1000,-586,circa,capital_status,Capital of the kingdom of Judah,David,Finkelstein2001,medium,Tradition makes David's city the capital; the early scale is debated
+obs_0181,jerusalem,-586,-586,circa,destruction,,Babylon (Nebuchadnezzar II),Finkelstein2001,high,Destruction of the First Temple and the Babylonian exile
+obs_0182,jerusalem,-538,-538,circa,refounding,Persian return; Second Temple,Achaemenid Persia (Cyrus II),Finkelstein2001,medium,Exiles return and the Temple is rebuilt
+obs_0183,jerusalem,-63,-63,circa,conquest,,Rome (Pompey),Magness2012,high,Pompey takes Jerusalem; Judea becomes a Roman client
+obs_0184,jerusalem,70,70,exact,destruction,,Rome (Titus),Magness2012,high,The Second Temple is destroyed in the First Jewish-Roman War
+obs_0185,jerusalem,130,130,circa,refounding,Roman colony Aelia Capitolina,Rome (Hadrian),Magness2012,high,Rebuilt as Aelia Capitolina after the Bar Kokhba revolt
+obs_0186,jerusalem,638,638,circa,conquest,,Rashidun Caliphate (Umar),Kennedy2004,high,Taken by the early Islamic conquests
+obs_0187,jerusalem,1099,1099,exact,conquest,,First Crusade,Runciman1951,high,Crusaders storm the city and massacre its inhabitants
+obs_0188,jerusalem,1187,1187,exact,conquest,,Ayyubids (Saladin),Runciman1951,high,Saladin retakes Jerusalem from the Crusaders
+obs_0189,jerusalem,2020,2020,circa,population_estimate,950000,,UN2018,medium,Modern Jerusalem
