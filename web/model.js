@@ -53,6 +53,8 @@
     "Neo-Assyrian Empire": "Assyria",
     "First Crusade": "Crusaders",
     "Carthage": "Carthaginian Empire",
+    "Northern Song dynasty": "Song dynasty",
+    "Southern Song dynasty": "Song dynasty",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 
@@ -86,13 +88,20 @@
     "#ff8a65", "#a1887f", "#90a4ae", "#f48fb1", "#ce93d8", "#80cbc4",
   ];
 
-  function build(cities, obs) {
+  function build(cities, obs, names) {
     const rows = obs.map(r => ({ ...r, ys: +r.year_start, ye: +r.year_end }));
     const byCity = {};
     for (const r of rows) (byCity[r.city_id] || (byCity[r.city_id] = [])).push(r);
 
     const cityById = {};
     for (const c of cities) cityById[c.city_id] = c;
+
+    // historical names over time, for period-appropriate map labels
+    const namesByCity = {};
+    for (const n of (names || [])) {
+      (namesByCity[n.city_id] || (namesByCity[n.city_id] = [])).push({ name: n.name, from: +n.from_year, to: +n.to_year });
+    }
+    for (const id in namesByCity) namesByCity[id].sort((a, b) => a.from - b.from);
 
     const cityInfo = {};
     const winMap = {};   // polity -> activity window aggregated across all cities
@@ -163,7 +172,7 @@
     const years = rows.flatMap(r => [r.ys, r.ye]);
     const domain = { min: Math.min(...years), max: Math.max(...years) };
 
-    return { cities, cityById, cityInfo, empires, empColor, polityWindow, domain };
+    return { cities, cityById, cityInfo, empires, empColor, polityWindow, namesByCity, domain };
   }
 
   // Who controls a city in a given year, as a bounded interval rather than a
@@ -246,6 +255,19 @@
     return { share, total };
   }
 
+  // The name a city went by in a given year (latest-starting name whose span covers it),
+  // falling back to the canonical name. Drives period-appropriate map labels.
+  function nameAt(model, id, year) {
+    const recs = model.namesByCity[id];
+    if (recs) {
+      let best = null;
+      for (const r of recs) if (r.from <= year && year <= r.to) best = r;
+      if (best) return best.name;
+    }
+    const c = model.cityById[id];
+    return c ? c.canonical_name : id;
+  }
+
   // Snapshot: every present city's controller (or "Independent") in a given year.
   function controlSnapshot(model, year) {
     const snap = {};
@@ -280,6 +302,6 @@
 
   return {
     build, stateAt, controllerAt, popAt, empiresActiveAt, isMajorAt, isCapitalAt,
-    shareAt, controlSnapshot, controlFlows, normalizePolity, polityOf,
+    shareAt, controlSnapshot, controlFlows, nameAt, normalizePolity, polityOf,
   };
 });

@@ -267,19 +267,20 @@ function setupMap(model, basemap) {
       const info = model.cityInfo[sg.id];
       const cx = x(+c.lon), cy = y(+c.lat);
       const capital = TimelineModel.isCapitalAt(info, year);
+      const nm = TimelineModel.nameAt(model, sg.id, year);   // period-appropriate name
       const r = 4.5;   // uniform marker size (population is shown in its own panel)
       // capitals are drawn as stars, ordinary cities as circles
       const node = capital
         ? el("path", { d: starPath(cx, cy, r + 1.5), fill: sg.color, "fill-opacity": .85, stroke: sg.color, "stroke-width": 1 }, markerG)
         : el("circle", { cx, cy, r, fill: sg.color, "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, markerG);
       node.style.cursor = "pointer";
-      bindTip(node, `<b>${c.canonical_name}</b>${capital ? " &#9733;" : ""}<br><span class="meta">${sg.polity || "independent / no record"}</span>`
+      bindTip(node, `<b>${nm}</b>${capital ? " &#9733;" : ""}<br><span class="meta">${sg.polity || "independent / no record"}</span>`
         + (sg.pop ? `<br><span class="meta">~${sg.pop.toLocaleString()}</span>` : "")
         + `<br><span class="meta">${regionLabel(c.region)}</span>`);
       // minor cities are hover-only; label major cities (sizable or a capital that year)
       if (TimelineModel.isMajorAt(info, year)) {
         const lab = el("text", { x: cx + r + 3, y: cy + 3, "font-size": 10 }, markerG);
-        lab.setAttribute("fill", "#cfd3da"); lab.textContent = c.canonical_name;
+        lab.setAttribute("fill", "#cfd3da"); lab.textContent = nm;
       }
     }
     legendBox.innerHTML = "";
@@ -300,7 +301,9 @@ function setupMap(model, basemap) {
 // stacked area: fraction of all cities each empire controls over time (sums to 1)
 function renderControlShare(model) {
   const svg = document.getElementById("share");
-  const minY = model.domain.min, maxY = model.domain.max;
+  // Start at the first recorded empire so the chart isn't mostly empty prehistory.
+  const firstControl = model.empires.length ? Math.min(...model.empires.map(e => e.start)) : model.domain.min;
+  const minY = firstControl, maxY = model.domain.max;
   const N = 260, step = (maxY - minY) / N;
   const samples = [];
   for (let i = 0; i <= N; i++) samples.push(Math.round(minY + i * step));
@@ -309,8 +312,8 @@ function renderControlShare(model) {
   const peak = {};
   for (const s of shares) for (const p in s) peak[p] = Math.max(peak[p] || 0, s[p]);
   const shown = Object.keys(peak)
-    .filter(p => p !== "Independent" && peak[p] >= 0.06)
-    .sort((a, b) => peak[b] - peak[a]).slice(0, 14);
+    .filter(p => p !== "Independent" && peak[p] >= 0.03)
+    .sort((a, b) => peak[b] - peak[a]).slice(0, 16);
   const shownSet = new Set(shown);
   const firstYear = {};
   for (const p of shown) for (let i = 0; i < samples.length; i++) if ((shares[i][p] || 0) > 0) { firstYear[p] = samples[i]; break; }
@@ -386,7 +389,7 @@ function renderSankey(model) {
   // top controllers by peak column count (excluding Independent); rest become "Other"
   const peak = {};
   for (const s of snaps) { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; for (const k in c) peak[k] = Math.max(peak[k] || 0, c[k]); }
-  const shown = new Set(Object.keys(peak).filter(k => k !== "Independent").sort((a, b) => peak[b] - peak[a]).slice(0, 12));
+  const shown = new Set(Object.keys(peak).filter(k => k !== "Independent").sort((a, b) => peak[b] - peak[a]).slice(0, 26));
   const lab = n => n === "Independent" ? "Independent" : (shown.has(n) ? n : "Other");
   const rsnaps = snaps.map(s => { const o = {}; for (const id in s) o[id] = lab(s[id]); return o; });
   const cols = rsnaps.map(s => { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; return c; });
@@ -568,7 +571,7 @@ const MACRO = [
 const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.startsWith(p + "-"));
 
 (async function main() {
-  let basemap = null, rawCities = null, rawObs = null;
+  let basemap = null, rawCities = null, rawObs = null, rawNames = null;
   let mapView = null, shareView = null, timer = null, curStep = 100;
   const slider = document.getElementById("year");
   const label = document.getElementById("yearlabel");
@@ -599,15 +602,16 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
     const subCities = rawCities.filter(c => inMacro(c.region, prefixes));
     const ids = new Set(subCities.map(c => c.city_id));
     const subObs = rawObs.filter(o => ids.has(o.city_id));
-    showModel(TimelineModel.build(subCities, subObs));
+    const subNames = rawNames.filter(n => ids.has(n.city_id));
+    showModel(TimelineModel.build(subCities, subObs, subNames));
   }
 
   try {
-    [rawCities, , rawObs] = await Promise.all([
+    [rawCities, rawNames, rawObs] = await Promise.all([
       load("../data/cities.csv"), load("../data/names.csv"), load("../data/observations.csv")
     ]);
     basemap = await loadJSON("basemap.geojson");
-    const fullModel = TimelineModel.build(rawCities, rawObs);
+    const fullModel = TimelineModel.build(rawCities, rawObs, rawNames);
 
     bindMapControls();
     slider.value = -2000;

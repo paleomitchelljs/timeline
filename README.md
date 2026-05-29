@@ -220,6 +220,7 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Brett2017` | M. Brett, *The Fatimid Empire* (2017) |
 | `AbunNasr1987` | J. Abun-Nasr, *A History of the Maghrib in the Islamic Period* (1987) |
 | `Henze2000` | P. Henze, *Layers of Time: A History of Ethiopia* (2000) |
+| `Taylor2001` | A. Taylor, *American Colonies* (2001) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -334,5 +335,9 @@ Expansion sequence (region by region):
 - [x] Swahili coast & Horn (Mombasa, Zanzibar, Sofala, Gondar, Harar, Lalibela, Luanda); Greece deepened (Delphi, Olympia, Pylos, Larissa, Eretria)
 - [x] Empire-tag audit: HRE made a real controller; British East India Company → British Empire; Neo-Assyrian → Assyria; First Crusade → Crusaders; revolts (Iceni) no longer confer control
 - [x] Founding-control fix: a city founded by a recognized empire is controlled by it from its founding (auto-fixed Philippi, Nishapur); plus the Carthaginian network (Oea/Tripoli, Leptis, Utica, Gades, Carthago Nova, Palermo) so Carthage is a real 7-city empire
+- [x] China dynastic coherence: Northern/Southern Song merged into one "Song dynasty"; Tang/Song/Yuan/Ming/Qing extended across the major cities so the succession is continuous (no more Nanjing-shaped gaps)
+- [x] North America into the modern era (New York, Washington, Boston, Quebec, Havana) — the United States is now a real polity
+- [x] Time-aware map labels: cities are labelled by their period name from `names.csv` (Lutetia in antiquity, Paris today)
+- [x] Share chart starts at the first empire; Sankey shows the top 26 empires (mid-size ones like Carthage are now clickable)
 - [ ] Ongoing: more cities per region; deepen the Umayyad→Abbasid→Mamluk and medieval-European successions
 ```

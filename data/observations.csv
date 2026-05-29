@@ -1091,3 +1091,50 @@ obs_1089,gades,-500,-500,circa,conquest,,Carthaginian Empire,Miles2010,medium,Br
 obs_1090,palermo,-480,-480,circa,conquest,,Carthaginian Empire,Miles2010,medium,A Carthaginian stronghold in Sicily
 obs_1091,alexandria,-331,-331,circa,conquest,,Macedon (Alexander III),Shaw2000,medium,Held by Macedon before the Ptolemies
 obs_1092,philippi,-148,-148,circa,conquest,,Rome,Hammond1989,low,Part of the Roman province of Macedonia
+obs_1093,changan,960,960,circa,conquest,,Song dynasty,Mote1999,low,A prefectural city under the Song
+obs_1094,changan,1271,1271,circa,conquest,,Yuan dynasty,Mote1999,low,Under Mongol Yuan rule
+obs_1095,changan,1369,1369,circa,conquest,,Ming dynasty,Mote1999,low,Xi'an under the Ming
+obs_1096,changan,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Xi'an under the Qing
+obs_1097,luoyang,620,620,circa,conquest,,Tang dynasty,Lewis2007,low,A Tang eastern capital
+obs_1098,luoyang,960,960,circa,conquest,,Song dynasty,Mote1999,low,A Northern Song western capital
+obs_1099,luoyang,1234,1234,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Mongols
+obs_1100,luoyang,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,Under the Ming
+obs_1101,luoyang,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
+obs_1102,nanjing,620,620,circa,conquest,,Tang dynasty,Mote1999,low,Under the Tang as Jiangning
+obs_1103,nanjing,937,975,circa,capital_status,Capital of Southern Tang,,Mote1999,medium,Capital of the Southern Tang kingdom
+obs_1104,nanjing,975,975,circa,conquest,,Song dynasty,Mote1999,low,Annexed by the Song
+obs_1105,nanjing,1276,1276,circa,conquest,,Yuan dynasty,Mote1999,low,Taken by the Mongols
+obs_1106,nanjing,1645,1645,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing after the Ming
+obs_1107,hangzhou,620,620,circa,conquest,,Tang dynasty,Mote1999,low,A Tang prefecture
+obs_1108,hangzhou,907,978,circa,capital_status,Capital of Wuyue,,Mote1999,medium,Capital of the Wuyue kingdom
+obs_1109,hangzhou,978,978,circa,conquest,,Song dynasty,Mote1999,low,Submitted to the Song
+obs_1110,guangzhou,620,620,circa,conquest,,Tang dynasty,Lewis2007,low,A great Tang trade port
+obs_1111,guangzhou,917,971,circa,capital_status,Capital of Southern Han,,Mote1999,medium,Capital of the Southern Han kingdom
+obs_1112,guangzhou,971,971,circa,conquest,,Song dynasty,Mote1999,low,Annexed by the Song
+obs_1113,guangzhou,1279,1279,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Yuan
+obs_1114,guangzhou,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,Under the Ming
+obs_1115,guangzhou,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
+obs_1116,quanzhou,718,718,circa,conquest,,Tang dynasty,Beckwith2009,low,A Tang maritime port
+obs_1117,quanzhou,978,978,circa,conquest,,Song dynasty,Mote1999,low,A great Song maritime port
+obs_1118,shanghai,1074,1074,circa,conquest,,Song dynasty,Mote1999,low,A Song market town
+obs_1119,new-york,1624,1624,circa,founding,,Dutch Empire,Taylor2001,medium,Founded as New Amsterdam by the Dutch
+obs_1120,new-york,1664,1664,circa,conquest,,British Empire,Taylor2001,medium,Seized by England and renamed New York
+obs_1121,new-york,1783,1783,exact,conquest,,United States,Taylor2001,high,Independent with the United States
+obs_1122,new-york,1800,1800,circa,population_estimate,60000,,Chandler1987,low,A fast-growing Atlantic port
+obs_1123,new-york,2020,2020,circa,population_estimate,18800000,,UN2018,medium,Modern New York
+obs_1124,washington,1790,1790,exact,founding,,United States,Taylor2001,high,Founded as the federal capital
+obs_1125,washington,1790,2020,circa,capital_status,Capital of the United States,,Taylor2001,high,Seat of the United States government
+obs_1126,washington,2020,2020,circa,population_estimate,6300000,,UN2018,medium,Modern Washington metro
+obs_1127,boston,1630,1630,circa,founding,,,Taylor2001,low,Founded by English Puritan colonists
+obs_1128,boston,1630,1630,circa,conquest,,British Empire,Taylor2001,low,An English colonial town
+obs_1129,boston,1783,1783,exact,conquest,,United States,Taylor2001,medium,A cradle of the American Revolution
+obs_1130,boston,2020,2020,circa,population_estimate,4900000,,UN2018,medium,Modern Boston
+obs_1131,quebec,1608,1608,circa,founding,,,Taylor2001,low,Founded by Champlain as the seat of New France
+obs_1132,quebec,1608,1608,circa,conquest,,French Empire,Taylor2001,medium,Capital of New France
+obs_1133,quebec,1759,1759,exact,conquest,,British Empire,Taylor2001,medium,Taken by Britain in the Seven Years' War
+obs_1134,quebec,1867,1867,circa,conquest,,Canada,Taylor2001,low,Part of the new Dominion of Canada
+obs_1135,quebec,2020,2020,circa,population_estimate,800000,,UN2018,low,Modern Quebec City
+obs_1136,havana,1519,1519,circa,founding,,Spanish Empire,DAltroy2014,medium,Founded by Spain as a Caribbean stronghold
+obs_1137,havana,1762,1762,circa,attestation,British occupation,British Empire,Taylor2001,low,Briefly held by Britain
+obs_1138,havana,1902,2020,circa,capital_status,Capital of Cuba,,UN2018,medium,Capital of independent Cuba
+obs_1139,havana,2020,2020,circa,population_estimate,2100000,,UN2018,medium,Modern Havana
