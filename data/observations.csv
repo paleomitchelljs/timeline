@@ -748,7 +748,7 @@ obs_0746,cahokia,1050,1350,circa,capital_status,Center of Mississippian Cahokia,
 obs_0747,cahokia,1100,1100,circa,population_estimate,15000,,Pauketat2009,low,At its height; the largest settlement in North America
 obs_0748,cahokia,1350,1350,century,abandonment,,,Pauketat2009,medium,Mysteriously abandoned before European contact
 obs_0749,byzantium,1453,1922,circa,capital_status,Capital of the Ottoman Empire,,Runciman1965,high,The Ottoman capital for nearly five centuries
-obs_0750,londinium,1801,1947,circa,capital_status,Capital of the British Empire,,Darwin2012,high,Heart of the global British Empire
+obs_0750,londinium,1707,2020,circa,capital_status,Capital of the United Kingdom,,Darwin2012,high,Capital of Great Britain and the United Kingdom
 obs_0751,colonia-agrippina,800,800,circa,conquest,,Carolingian Empire (Charlemagne),Wickham2009,low,Part of Charlemagne's Frankish empire
 obs_0752,prague,870,870,circa,founding,,,Wickham2009,low,Settlement around Prague Castle
 obs_0753,prague,1198,1526,circa,capital_status,Capital of the Kingdom of Bohemia,,Wickham2009,high,A kingdom within the Holy Roman Empire
@@ -1211,3 +1211,64 @@ obs_1209,chengdu,-201,-201,circa,conquest,,Han dynasty,Lewis2007,low,Sichuan und
 obs_1210,kaifeng,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Chenliu region under the Han
 obs_1211,hangzhou,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Kuaiji region under the Han
 obs_1212,beijing,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Youzhou frontier under the Han
+obs_1213,massalia,508,508,circa,conquest,,France,Wickham2009,low,Part of Frankish Gaul and then France
+obs_1214,lugdunum,508,508,circa,conquest,,France,Wickham2009,low,Part of Frankish Gaul and then France
+obs_1215,burdigala,508,508,circa,conquest,,France,Wickham2009,low,Part of Frankish Gaul and then France
+obs_1216,narbo,759,759,circa,conquest,,France,Wickham2009,low,Taken by the Franks from the Visigoths
+obs_1217,londinium,886,1707,circa,capital_status,Capital of the Kingdom of England,,Darwin2012,medium,The English royal capital from Alfred to the Union
+obs_1218,camulodunum,886,886,circa,conquest,,Kingdom of England,Darwin2012,low,Part of the unified Kingdom of England
+obs_1219,camulodunum,1707,1707,circa,conquest,,United Kingdom,Darwin2012,low,Part of Great Britain and the United Kingdom
+obs_1220,eboracum,954,954,circa,conquest,,Kingdom of England,Darwin2012,low,Reconquered into the Kingdom of England
+obs_1221,eboracum,1707,1707,circa,conquest,,United Kingdom,Darwin2012,low,Part of the United Kingdom
+obs_1222,rome,536,536,circa,conquest,,Byzantine Empire,Mango2002,medium,Reconquered by Justinian's Byzantium
+obs_1223,rome,1871,2020,circa,capital_status,Capital of the Kingdom of Italy,,Abulafia2011,high,Capital of united Italy
+obs_1224,mediolanum,493,493,circa,conquest,,Ostrogothic Kingdom,Wickham2009,low,Under Ostrogothic rule
+obs_1225,mediolanum,569,569,circa,conquest,,Lombards,Wickham2009,medium,A Lombard center
+obs_1226,mediolanum,962,962,circa,conquest,,Holy Roman Empire,Wickham2009,medium,An imperial city of the Holy Roman Empire
+obs_1227,mediolanum,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,Part of united Italy
+obs_1228,ravenna,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy
+obs_1229,tarentum,553,553,circa,conquest,,Byzantine Empire,Mango2002,low,Byzantine southern Italy
+obs_1230,tarentum,1071,1071,circa,conquest,,Kingdom of Sicily,Abulafia2011,low,Taken by the Normans
+obs_1231,tarentum,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy
+obs_1232,neapolis,1139,1139,circa,conquest,,Kingdom of Sicily,Abulafia2011,medium,Joined to the Norman Kingdom of Sicily
+obs_1233,neapolis,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,Part of united Italy
+obs_1234,syracuse,535,535,circa,conquest,,Byzantine Empire,Mango2002,low,Byzantine Sicily
+obs_1235,syracuse,1091,1091,circa,conquest,,Kingdom of Sicily,Abulafia2011,medium,Taken by the Normans
+obs_1236,syracuse,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy
+obs_1237,venice,1866,1866,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,Joined to united Italy
+obs_1238,florence,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,A first capital of united Italy
+obs_1239,palermo,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy
+obs_1240,madrid,860,860,circa,founding,,,Kennedy1996,low,A Muslim fortress on the Manzanares
+obs_1241,madrid,1083,1083,circa,conquest,,Crown of Castile,Kennedy1996,low,Taken by Castile in the Reconquista
+obs_1242,madrid,1561,2020,circa,capital_status,Capital of Spain,,Davies1996,high,Philip II makes Madrid the permanent capital
+obs_1243,madrid,2020,2020,circa,population_estimate,6600000,,UN2018,medium,Modern Madrid
+obs_1244,gades,476,476,circa,conquest,,Visigothic Kingdom,Collins2004,low,Under the Visigoths
+obs_1245,gades,711,711,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
+obs_1246,gades,1262,1262,circa,conquest,,Crown of Castile,Kennedy1996,medium,Retaken in the Reconquista
+obs_1247,gades,1516,1516,circa,conquest,,Spain,Davies1996,medium,Part of unified Spain
+obs_1248,carthago-nova,476,476,circa,conquest,,Visigothic Kingdom,Collins2004,low,Under the Visigoths
+obs_1249,carthago-nova,714,714,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
+obs_1250,carthago-nova,1245,1245,circa,conquest,,Crown of Castile,Kennedy1996,low,Retaken in the Reconquista
+obs_1251,carthago-nova,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
+obs_1252,tarraco,476,476,circa,conquest,,Visigothic Kingdom,Collins2004,low,Under the Visigoths
+obs_1253,tarraco,714,714,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
+obs_1254,tarraco,1118,1118,circa,conquest,,Crown of Aragon,Kennedy1996,medium,Retaken into the Crown of Aragon
+obs_1255,tarraco,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
+obs_1256,corduba,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
+obs_1257,seville,1516,1516,circa,conquest,,Spain,Davies1996,medium,Part of unified Spain; gateway to the Americas
+obs_1258,toletum,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
+obs_1259,granada,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
+obs_1260,emerita-augusta,1230,1230,circa,conquest,,Crown of Castile,Kennedy1996,low,Retaken in the Reconquista
+obs_1261,emerita-augusta,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
+obs_1262,varanasi,-250,-250,circa,conquest,Mauryan Empire,,Thapar2002,medium,A major city of the Mauryan Ganges heartland
+obs_1263,varanasi,320,320,circa,conquest,Gupta Empire,,Thapar2002,low,A major religious center under the Guptas
+obs_1264,kandahar,-329,-329,circa,founding,,Macedon (Alexander III),Thapar2002,low,Alexandria in Arachosia founded on an older Achaemenid site
+obs_1265,kandahar,-303,-303,circa,conquest,Mauryan Empire,Chandragupta,Thapar2002,medium,Arachosia ceded to Chandragupta by Seleucus; Ashoka later sets a Greek-Aramaic edict here
+obs_1266,kandahar,-180,-180,circa,conquest,Indo-Greek Kingdom,,Beckwith2009,low,Taken by the Indo-Greek kings after the Maurya
+obs_1267,kandahar,1747,1747,circa,capital_status,Capital of the Durrani Empire,Ahmad Shah Durrani,Beckwith2009,low,First capital of the Afghan Durrani Empire
+obs_1268,kandahar,2020,2020,circa,population_estimate,600000,,UN2018,low,Modern Kandahar in southern Afghanistan
+obs_1269,kaushambi,-600,-600,circa,founding,,,Thapar2002,low,Capital of the Vatsa mahajanapada on the Yamuna
+obs_1270,kaushambi,-600,-400,circa,capital_status,Capital of Vatsa,,Thapar2002,low,A leading city of the early historic Ganges-Yamuna plain
+obs_1271,kaushambi,-316,-316,circa,conquest,Mauryan Empire,,Thapar2002,medium,Absorbed into the Maurya empire; later bears an Ashokan pillar edict
+obs_1272,kaushambi,320,550,circa,conquest,Gupta Empire,,Thapar2002,low,Part of the Gupta realm in the classical age
+obs_1273,kaushambi,600,600,century,abandonment,,,Thapar2002,low,Declined and largely abandoned after the Gupta collapse
