@@ -223,6 +223,8 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Taylor2001` | A. Taylor, *American Colonies* (2001) |
 | `Sawyer1997` | P. Sawyer (ed.), *The Oxford Illustrated History of the Vikings* (1997) |
 | `Davies1996` | N. Davies, *Europe: A History* (1996) |
+| `Fausto1999` | B. Fausto, *A Concise History of Brazil* (1999) |
+| `Bethell1984` | L. Bethell (ed.), *The Cambridge History of Latin America* (1984) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -344,7 +346,8 @@ Expansion sequence (region by region):
 - [x] Map↔chart linkage: click a city or Sankey band to highlight that empire across the Sankey, share chart, and empire panel, and draw its territorial hull on the map
 - [x] Egypt made coherent (Old/Middle/New Kingdom across the core cities); China dynasties (Han→…→PRC) extended so cities aren't blank between capital eras; Han now 9 cities
 - [x] More East/North cities: Chengdu, Xingqing, Datong, Liaoyang, Dading, Hong Kong, Avarga; Viking towns (Hedeby, Birka, Dublin, Jorvik)
-- [x] Post-Roman European succession: Franks/France, Ostrogoth→Lombard→HRE→Kingdom of Italy, Visigoth→Umayyad→Castile/Aragon→Spain (+ Madrid), Anglo-Saxon England→United Kingdom; Byzantine reconquests. Independent-gap count fell 78→64.
+- [x] Post-Roman European succession: Franks/France, Ostrogoth→Lombard→HRE→Kingdom of Italy, Visigoth→Umayyad→Castile/Aragon→Spain (+ Madrid), Anglo-Saxon England→United Kingdom; Byzantine reconquests.
+- [x] Regional deepening pass (East Asia, India, Eastern Europe, Americas). New empires now surfaced: **Qin**, **Sui** (China's unifications), **Empire of Japan**/Kamakura/Tokugawa; **Kushan** & **Maratha** (India); **Golden Horde reach**, **Polish-Lithuanian Commonwealth**, **Russia**, **First/Second Bulgarian Empire**, Ottoman-in-the-Balkans; **Empire of Brazil**, **Brazil**, **New Spain**, **Argentina**. ~30 new cities (Agra, Kolkata, Mathura, Hakata, Warsaw, St Petersburg, Vilnius, Lviv, Belgrade, Sofia, Tarnovo, Rio, São Paulo, Salvador, Brasília, Buenos Aires…). Independent-gap count fell 78→58.
 - [ ] Remaining audit gaps: post-Roman **North Africa** (Vandal/Byzantine/Arab 500–1551 for Tripoli, Algiers, Cirta, Tlemcen); pre-330 Byzantion; deep-time city-states (legitimately pre-imperial)
-- [ ] Hard-but-wanted empires: **Xiongnu**, **Empire of Brazil**, and other nomadic/colonial states that don't fit the city-capital model neatly
+- [ ] Hard-but-wanted empires still open: **Xiongnu** and other nomadic states (no fixed capital — needs a steppe-camp anchor); the **Soviet Union** (would unify Moscow/Leningrad/Kyiv/Vilnius/Warsaw 1922–91)
 ```

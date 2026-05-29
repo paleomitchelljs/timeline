@@ -50,6 +50,8 @@
     "Aksum": "Aksumite Empire",
     "Almohad Caliphate in Iberia": "Almohad Caliphate",
     "British East India Company": "British Empire",
+    "British India": "British Empire",
+    "British Raj": "British Empire",
     "Neo-Assyrian Empire": "Assyria",
     "First Crusade": "Crusaders",
     "Carthage": "Carthaginian Empire",

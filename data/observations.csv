@@ -1272,3 +1272,153 @@ obs_1270,kaushambi,-600,-400,circa,capital_status,Capital of Vatsa,,Thapar2002,l
 obs_1271,kaushambi,-316,-316,circa,conquest,Mauryan Empire,,Thapar2002,medium,Absorbed into the Maurya empire; later bears an Ashokan pillar edict
 obs_1272,kaushambi,320,550,circa,conquest,Gupta Empire,,Thapar2002,low,Part of the Gupta realm in the classical age
 obs_1273,kaushambi,600,600,century,abandonment,,,Thapar2002,low,Declined and largely abandoned after the Gupta collapse
+obs_1274,changan,-221,-206,circa,capital_status,Capital of the Qin dynasty,Qin Shi Huang,Lewis2007,high,Xianyang seat of the first unified empire
+obs_1275,luoyang,-249,-249,circa,conquest,,Qin dynasty,Lewis2007,medium,Absorbed as Qin extinguishes the Eastern Zhou
+obs_1276,kaifeng,-225,-225,circa,conquest,,Qin dynasty,Lewis2007,medium,Taken in the Qin conquest of Wei
+obs_1277,nanjing,-223,-223,circa,conquest,,Qin dynasty,Lewis2007,medium,Taken in the Qin conquest of Chu
+obs_1278,beijing,-222,-222,circa,conquest,,Qin dynasty,Lewis2007,medium,Taken in the Qin conquest of Yan
+obs_1279,guangzhou,-214,-214,circa,conquest,,Qin dynasty,Lewis2007,medium,Panyu founded in the Qin conquest of Lingnan
+obs_1280,chengdu,-316,-316,circa,conquest,,Qin dynasty,Lewis2007,medium,Qin annexes the kingdom of Shu
+obs_1281,changan,581,618,circa,capital_status,Capital of the Sui dynasty,Sui Wendi,Lewis2007,high,Daxing the capital of the reunified empire
+obs_1282,luoyang,605,618,circa,capital_status,Eastern capital of the Sui dynasty,Sui Yangdi,Lewis2007,medium,The eastern capital and hub of the Grand Canal
+obs_1283,nanjing,589,589,circa,conquest,,Sui dynasty,Lewis2007,high,Sui conquers Chen and reunifies China
+obs_1284,beijing,581,581,circa,conquest,,Sui dynasty,Lewis2007,medium,Held by the reunified Sui empire
+obs_1285,guangzhou,589,589,circa,conquest,,Sui dynasty,Lewis2007,medium,Brought under Sui rule
+obs_1286,hangzhou,589,589,circa,conquest,,Sui dynasty,Lewis2007,medium,Hangzhou established as the Grand Canal reaches the south
+obs_1287,datong,1125,1125,circa,conquest,,Jurchen Jin,Mote1999,medium,Taken by the Jin from the Liao
+obs_1288,datong,1211,1211,circa,conquest,,Mongol Empire,Morgan2007,medium,Seized in the Mongol conquest of the north
+obs_1289,datong,1368,1368,circa,conquest,,Ming dynasty,Mote1999,medium,A Ming garrison guarding the northern frontier
+obs_1290,datong,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Passes to the Qing
+obs_1291,liaoyang,1287,1287,circa,conquest,,Yuan dynasty,Mote1999,low,Seat of Liaoyang province under the Yuan
+obs_1292,liaoyang,1371,1371,circa,conquest,,Ming dynasty,Mote1999,low,A Ming frontier garrison in the northeast
+obs_1293,liaoyang,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Modern Liaoyang in Liaoning
+obs_1294,xingqing,1271,1271,circa,conquest,,Yuan dynasty,Mote1999,low,Revived as Ningxia under the Yuan
+obs_1295,xingqing,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,A Ming frontier prefecture
+obs_1296,xingqing,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Held by the Qing as Ningxia
+obs_1297,camulodunum,43,43,circa,conquest,,Rome (Claudius),Salway1981,high,Taken in the Claudian invasion of Britain
+obs_1298,camulodunum,49,60,circa,capital_status,Capital of Roman Britain,Rome,Salway1981,medium,The first colonia and original capital of the province
+obs_1299,eboracum,71,410,circa,capital_status,Capital of Roman Britain,Rome,Salway1981,medium,Legionary fortress and later capital of the northern province
+obs_1300,hakata,700,700,circa,founding,,,Totman2000,low,Ancient port and administrative seat of Dazaifu on Kyushu
+obs_1301,hakata,1192,1192,circa,conquest,,Kamakura shogunate,Totman2000,low,Under the Kamakura shogunate; Japan's gateway to China
+obs_1302,hakata,1274,1274,circa,attestation,First Mongol invasion repelled,Mongol Empire (Kublai Khan),Totman2000,medium,The Mongol invasion fleet is wrecked off Hakata Bay
+obs_1303,hakata,1281,1281,circa,attestation,Second Mongol invasion repelled,Mongol Empire (Kublai Khan),Totman2000,medium,A second invasion is destroyed by the kamikaze typhoon
+obs_1304,hakata,1603,1603,circa,conquest,,Tokugawa shogunate,Totman2000,low,Seat of the Fukuoka domain under the Tokugawa
+obs_1305,hakata,1868,1868,circa,conquest,,Empire of Japan,Totman2000,low,Part of the Meiji Empire of Japan
+obs_1306,hakata,2020,2020,circa,population_estimate,1600000,,UN2018,low,Modern Fukuoka on Kyushu
+obs_1307,osaka,1192,1192,circa,conquest,,Kamakura shogunate,Totman2000,low,Under the Kamakura shogunate
+obs_1308,nara,1192,1192,circa,conquest,,Kamakura shogunate,Totman2000,low,Under the Kamakura shogunate; the great temple town
+obs_1309,osaka,1615,1615,circa,conquest,,Tokugawa shogunate,Totman2000,medium,Taken by the Tokugawa after the siege of Osaka
+obs_1310,nara,1603,1603,circa,conquest,,Tokugawa shogunate,Totman2000,low,Under direct Tokugawa rule
+obs_1311,osaka,1868,1868,circa,conquest,,Empire of Japan,Totman2000,low,A great industrial city of the Meiji empire
+obs_1312,kyoto,1868,1868,circa,conquest,,Empire of Japan,Totman2000,low,Held by the Meiji Empire of Japan after the capital moves to Tokyo
+obs_1313,nara,1868,1868,circa,conquest,,Empire of Japan,Totman2000,low,Part of the Empire of Japan
+obs_1314,kamakura,1868,1868,circa,conquest,,Empire of Japan,Totman2000,low,Part of the Empire of Japan
+obs_1315,taxila,50,50,circa,conquest,,Kushan Empire,Thapar2002,medium,A great Kushan and Gandharan Buddhist center
+obs_1316,kandahar,50,50,circa,conquest,,Kushan Empire,Beckwith2009,low,Held by the Kushans in Arachosia
+obs_1317,kaushambi,100,100,circa,conquest,,Kushan Empire,Thapar2002,low,Within the Kushan realm of the Ganges plain
+obs_1318,mathura,-600,-600,circa,founding,,,Thapar2002,low,Ancient city on the Yamuna sacred to Krishna
+obs_1319,mathura,78,200,circa,capital_status,Capital of the Kushan Empire,Kanishka,Thapar2002,medium,Southern capital and great sculpture school of the Kushans
+obs_1320,mathura,380,380,circa,conquest,,Gupta Empire,Thapar2002,low,Part of the Gupta realm
+obs_1321,mathura,1018,1018,circa,attestation,Sacked by Mahmud of Ghazni,Ghaznavid Sultanate,AsherTalbot2006,low,Plundered in the Ghaznavid raids
+obs_1322,mathura,1206,1206,circa,conquest,,Delhi Sultanate,AsherTalbot2006,low,Absorbed into the Delhi Sultanate
+obs_1323,mathura,1526,1526,circa,conquest,,Mughal Empire,AsherTalbot2006,low,Part of the Mughal Empire
+obs_1324,mathura,1803,1803,circa,conquest,,British Empire,AsherTalbot2006,low,Taken by the British
+obs_1325,mathura,2020,2020,circa,population_estimate,700000,,UN2018,low,Modern Mathura
+obs_1326,agra,1504,1504,circa,founding,,Delhi Sultanate (Sikandar Lodi),AsherTalbot2006,low,Founded as a Lodi capital on the Yamuna
+obs_1327,agra,1556,1648,circa,capital_status,Capital of the Mughal Empire,Akbar,AsherTalbot2006,high,Mughal capital of Akbar Jahangir and Shah Jahan; the Taj Mahal
+obs_1328,agra,1761,1761,circa,conquest,,Maratha Empire,AsherTalbot2006,low,Held by the Marathas after the third battle of Panipat
+obs_1329,agra,1803,1803,circa,conquest,,British Empire,AsherTalbot2006,medium,Taken by the British
+obs_1330,agra,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Agra
+obs_1331,kolkata,1690,1690,circa,founding,,British East India Company,AsherTalbot2006,medium,Founded by Job Charnock as a Company trading post
+obs_1332,kolkata,1772,1911,circa,capital_status,Capital of British India,,AsherTalbot2006,high,Capital of the British Raj until the move to Delhi
+obs_1333,kolkata,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Kolkata
+obs_1334,delhi,1771,1771,circa,conquest,,Maratha Empire,AsherTalbot2006,medium,The Marathas take Delhi and the Mughal emperor becomes their protege
+obs_1335,ujjain,380,380,circa,conquest,,Gupta Empire,Thapar2002,low,A western seat under Chandragupta II
+obs_1336,ujjain,1562,1562,circa,conquest,,Mughal Empire,AsherTalbot2006,low,Part of the Mughal province of Malwa
+obs_1337,ujjain,1750,1750,circa,conquest,,Maratha Empire,AsherTalbot2006,low,The first seat of the Scindia
+obs_1338,ujjain,1818,1818,circa,conquest,,British Empire,AsherTalbot2006,low,Passes to the British after the Maratha wars
+obs_1339,varanasi,1526,1526,circa,conquest,,Mughal Empire,AsherTalbot2006,low,Part of the Mughal Empire
+obs_1340,varanasi,1775,1775,circa,conquest,,British Empire,AsherTalbot2006,low,Ceded to the British by Awadh
+obs_1341,madurai,1378,1378,circa,conquest,,Vijayanagara Empire,Stein1989,low,Brought under Vijayanagara after the Madurai sultanate
+obs_1342,madurai,1801,1801,circa,conquest,,British Empire,AsherTalbot2006,low,Annexed by the British
+obs_1343,thanjavur,1350,1350,circa,conquest,,Vijayanagara Empire,Stein1989,low,Under Vijayanagara overlordship
+obs_1344,thanjavur,1674,1674,circa,conquest,,Maratha Empire,AsherTalbot2006,medium,The Thanjavur Maratha kingdom is founded
+obs_1345,kiev,1240,1240,circa,conquest,,Golden Horde,Morgan2007,medium,Under the Golden Horde after the Mongol sack
+obs_1346,kiev,1569,1569,circa,conquest,,Polish-Lithuanian Commonwealth,Davies1996,medium,Passes to the Polish crown in the Union of Lublin
+obs_1347,kiev,1667,1667,circa,conquest,,Russia,Davies1996,medium,Ceded to Russia in the Truce of Andrusovo
+obs_1348,kiev,1991,2020,circa,capital_status,Capital of Ukraine,,Davies1996,high,Capital of independent Ukraine
+obs_1349,novgorod,862,862,circa,attestation,Rurik founds the Rus,Kievan Rus (Rurik),Franklin1996,medium,Traditional seat of Rurik before the move to Kiev
+obs_1350,moscow,1238,1238,circa,conquest,,Golden Horde,Morgan2007,medium,Sacked by the Mongols and held under the Golden Horde
+obs_1351,prague,1355,1378,circa,capital_status,Capital of the Holy Roman Empire,Charles IV,Wickham2009,medium,Charles IV makes Prague an imperial capital
+obs_1352,prague,1918,1918,circa,conquest,,Czechoslovakia,Davies1996,medium,Capital of the new Czechoslovak state
+obs_1353,vienna,100,100,circa,conquest,,Rome,Davies1996,medium,The Roman legionary camp of Vindobona
+obs_1354,vienna,1156,1156,circa,conquest,,Holy Roman Empire,Davies1996,low,Seat of the Babenberg duchy within the Empire
+obs_1355,vienna,1918,2020,circa,capital_status,Capital of Austria,,Davies1996,high,Capital of the Austrian republic
+obs_1356,krakow,1918,1918,circa,conquest,,Poland,Davies1996,low,Part of the restored Polish state
+obs_1357,buda,1918,1918,circa,conquest,,Hungary,Davies1996,medium,Capital of independent Hungary
+obs_1358,warsaw,1300,1300,circa,founding,,,Davies1996,low,A Mazovian town on the Vistula
+obs_1359,warsaw,1596,1795,circa,capital_status,Capital of the Polish-Lithuanian Commonwealth,Sigismund III,Davies1996,high,The royal capital moved here from Krakow
+obs_1360,warsaw,1795,1795,circa,conquest,,Kingdom of Prussia,Davies1996,low,Annexed by Prussia in the third partition
+obs_1361,warsaw,1815,1815,circa,conquest,,Russia,Davies1996,medium,Capital of Congress Poland under the Russian tsar
+obs_1362,warsaw,1918,2020,circa,capital_status,Capital of Poland,,Davies1996,high,Capital of the restored Polish state
+obs_1363,warsaw,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Warsaw
+obs_1364,st-petersburg,1703,1703,circa,founding,,Russia (Peter the Great),Davies1996,high,Founded by Peter the Great as a window on the west
+obs_1365,st-petersburg,1712,1918,circa,capital_status,Capital of Russia,,Davies1996,high,The imperial capital from Peter to the revolution
+obs_1366,st-petersburg,2020,2020,circa,population_estimate,5400000,,UN2018,medium,Modern Saint Petersburg
+obs_1367,vilnius,1323,1323,circa,founding,,Grand Duchy of Lithuania (Gediminas),Davies1996,medium,Founded as the seat of the Lithuanian grand dukes
+obs_1368,vilnius,1323,1569,circa,capital_status,Capital of the Grand Duchy of Lithuania,,Davies1996,high,Capital of the largest state in late medieval Europe
+obs_1369,vilnius,1569,1569,circa,conquest,,Polish-Lithuanian Commonwealth,Davies1996,medium,Joined to Poland in the Union of Lublin
+obs_1370,vilnius,1795,1795,circa,conquest,,Russia,Davies1996,medium,Annexed by Russia in the partitions
+obs_1371,vilnius,1918,2020,circa,capital_status,Capital of Lithuania,,Davies1996,medium,Capital of independent Lithuania
+obs_1372,vilnius,2020,2020,circa,population_estimate,580000,,UN2018,low,Modern Vilnius
+obs_1373,lviv,1256,1256,circa,founding,,Kingdom of Galicia-Volhynia (Daniel),Davies1996,medium,Founded by Daniel of Galicia
+obs_1374,lviv,1349,1349,circa,conquest,,Kingdom of Poland,Davies1996,medium,Annexed by Casimir III of Poland
+obs_1375,lviv,1772,1772,circa,conquest,,Habsburg Monarchy,Davies1996,medium,Capital of Austrian Galicia after the first partition
+obs_1376,lviv,1918,1918,circa,conquest,,Poland,Davies1996,low,Part of the restored Polish state
+obs_1377,lviv,1991,1991,circa,conquest,,Ukraine,Davies1996,low,Part of independent Ukraine
+obs_1378,lviv,2020,2020,circa,population_estimate,720000,,UN2018,low,Modern Lviv
+obs_1379,belgrade,-279,-279,circa,founding,,,Davies1996,low,The Celtic fortress of Singidunum at the Danube-Sava confluence
+obs_1380,belgrade,75,75,circa,conquest,,Rome,Davies1996,medium,The Roman legionary fortress of Singidunum
+obs_1381,belgrade,535,535,circa,conquest,,Byzantine Empire,Davies1996,low,Refortified under Justinian
+obs_1382,belgrade,827,827,circa,conquest,,First Bulgarian Empire,Davies1996,low,Taken by the Bulgars
+obs_1383,belgrade,1284,1284,circa,conquest,,Kingdom of Serbia,Davies1996,low,Comes under Serbian rule
+obs_1384,belgrade,1521,1521,circa,conquest,,Ottoman Empire,Davies1996,medium,Taken by Suleiman opening the road to Hungary
+obs_1385,belgrade,1841,2020,circa,capital_status,Capital of Serbia,,Davies1996,high,Capital of modern Serbia and later Yugoslavia
+obs_1386,belgrade,2020,2020,circa,population_estimate,1400000,,UN2018,low,Modern Belgrade
+obs_1387,sofia,-300,-300,circa,founding,,,Davies1996,low,The Thracian and Roman town of Serdica
+obs_1388,sofia,29,29,circa,conquest,,Rome,Davies1996,medium,The Roman city of Serdica favored by Constantine
+obs_1389,sofia,535,535,circa,conquest,,Byzantine Empire,Davies1996,low,Held by the Byzantines
+obs_1390,sofia,809,809,circa,conquest,,First Bulgarian Empire,Davies1996,medium,Taken by Khan Krum
+obs_1391,sofia,1018,1018,circa,conquest,,Byzantine Empire,Davies1996,low,Reconquered by Basil II
+obs_1392,sofia,1194,1194,circa,conquest,,Second Bulgarian Empire,Davies1996,low,Recovered by the revived Bulgarian state
+obs_1393,sofia,1382,1382,circa,conquest,,Ottoman Empire,Davies1996,medium,Taken by the Ottomans
+obs_1394,sofia,1879,2020,circa,capital_status,Capital of Bulgaria,,Davies1996,high,Capital of the modern Bulgarian state
+obs_1395,sofia,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Sofia
+obs_1396,tarnovo,1185,1185,circa,founding,,,Davies1996,low,Rises with the uprising against Byzantium
+obs_1397,tarnovo,1185,1393,circa,capital_status,Capital of the Second Bulgarian Empire,,Davies1996,high,Capital of the revived Bulgarian empire
+obs_1398,tarnovo,1393,1393,circa,conquest,,Ottoman Empire,Davies1996,medium,Falls to the Ottomans ending the Second Bulgarian Empire
+obs_1399,tarnovo,1878,1878,circa,conquest,,Bulgaria,Davies1996,low,Part of the restored Bulgarian state
+obs_1400,tarnovo,2020,2020,circa,population_estimate,70000,,UN2018,low,Modern Veliko Tarnovo
+obs_1401,tenochtitlan,1535,1821,circa,capital_status,Capital of New Spain,,Coe2011,high,Capital of the viceroyalty of New Spain
+obs_1402,tenochtitlan,1821,2020,circa,capital_status,Capital of Mexico,,Coe2011,high,Capital of independent Mexico
+obs_1403,cusco,1821,1821,circa,conquest,,Peru,DAltroy2014,low,Part of independent Peru
+obs_1404,rio-de-janeiro,1565,1565,circa,founding,,Portuguese Empire,Fausto1999,medium,Founded by the Portuguese on Guanabara Bay
+obs_1405,rio-de-janeiro,1808,1821,circa,capital_status,Capital of the Portuguese Empire,Joao VI,Fausto1999,high,The Portuguese court flees here making Rio the imperial capital
+obs_1406,rio-de-janeiro,1822,1889,circa,capital_status,Capital of the Empire of Brazil,Pedro I,Fausto1999,high,Capital of the independent Brazilian empire
+obs_1407,rio-de-janeiro,1889,1960,circa,capital_status,Capital of Brazil,,Fausto1999,high,Capital of the Brazilian republic until Brasilia
+obs_1408,rio-de-janeiro,2020,2020,circa,population_estimate,13000000,,UN2018,medium,Modern Rio de Janeiro
+obs_1409,salvador,1549,1549,circa,founding,,Portuguese Empire,Fausto1999,medium,Founded as the first capital of Portuguese Brazil
+obs_1410,salvador,1822,1822,circa,conquest,,Empire of Brazil,Fausto1999,medium,Part of the independent Empire of Brazil
+obs_1411,salvador,1889,1889,circa,conquest,,Brazil,Fausto1999,low,Part of the Brazilian republic
+obs_1412,salvador,2020,2020,circa,population_estimate,2900000,,UN2018,low,Modern Salvador da Bahia
+obs_1413,sao-paulo,1554,1554,circa,founding,,Portuguese Empire,Fausto1999,low,Founded as a Jesuit mission on the plateau
+obs_1414,sao-paulo,1822,1822,circa,conquest,,Empire of Brazil,Fausto1999,low,Part of the Empire of Brazil
+obs_1415,sao-paulo,1889,1889,circa,conquest,,Brazil,Fausto1999,low,Part of the Brazilian republic
+obs_1416,sao-paulo,2020,2020,circa,population_estimate,22000000,,UN2018,medium,Modern Sao Paulo the largest city in the Americas
+obs_1417,brasilia,1960,1960,exact,founding,,Brazil,Fausto1999,high,Built as the new capital in the interior
+obs_1418,brasilia,1960,2020,circa,capital_status,Capital of Brazil,,Fausto1999,high,The modernist federal capital
+obs_1419,brasilia,2020,2020,circa,population_estimate,4700000,,UN2018,low,Modern Brasilia
+obs_1420,buenos-aires,1580,1580,circa,founding,,Spanish Empire,Bethell1984,medium,Refounded as a Spanish port and later seat of the Rio de la Plata viceroyalty
+obs_1421,buenos-aires,1810,2020,circa,capital_status,Capital of Argentina,,Bethell1984,high,Capital after the May Revolution and independence
+obs_1422,buenos-aires,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Buenos Aires
+obs_1423,havana,1535,1535,circa,conquest,,New Spain,Bethell1984,low,Administered within the viceroyalty of New Spain
