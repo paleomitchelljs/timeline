@@ -30,9 +30,25 @@ errors = []
 
 
 def load(name):
+    """Read a CSV into dicts, flagging any row whose field count is off.
+
+    Using csv.reader (not DictReader) so a stray unquoted comma — which would
+    silently shift values in DictReader — is caught as a hard error here.
+    """
     path = ROOT / name
     with path.open(newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        rows = list(csv.reader(f))
+    header = rows[0]
+    n = len(header)
+    records = []
+    for i, r in enumerate(rows[1:], start=2):
+        if not r:  # blank line
+            continue
+        if len(r) != n:
+            errors.append(f"{name}: line {i} has {len(r)} fields, expected {n} — likely a stray comma: {r}")
+            continue
+        records.append(dict(zip(header, r)))
+    return records
 
 
 def as_int(row, field, where):

@@ -95,6 +95,8 @@ const REGION_COLOR = {
   "mesopotamia-akkad":     "#ba68c8",
   "mesopotamia-euphrates": "#ffb74d",
   "mesopotamia-assyria":   "#ef9a9a",
+  "egypt-lower":           "#66bb6a",
+  "egypt-upper":           "#c5e1a5",
 };
 
 const tip = document.getElementById("tip");
@@ -290,14 +292,14 @@ function renderPopulation(cities, obs) {
 
   const minY = Math.min(...pts.map(p => p.year)) - 200;
   const maxY = Math.max(...pts.map(p => p.year)) + 200;
-  const minV = 3000, maxV = 2000000;
+  const minV = 3000, maxV = 10000000;
   const x = y => M.left + (y - minY) / (maxY - minY) * innerW;
   const lv = v => Math.log10(v);
   const yp = v => M.top + innerH * (1 - (lv(v) - lv(minV)) / (lv(maxV) - lv(minV)));
   const fmtPop = v => v >= 1000000 ? (v / 1000000) + "M" : (v / 1000) + "k";
 
   const axis = el("g", { class: "axis" }, svg);
-  for (const v of [5000, 10000, 50000, 100000, 500000, 1000000, 2000000]) {
+  for (const v of [5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000]) {
     el("line", { x1: M.left, y1: yp(v), x2: W - M.right, y2: yp(v) }, axis);
     const t = el("text", { x: M.left - 8, y: yp(v) + 4, "text-anchor": "end" }, axis);
     t.textContent = fmtPop(v);

@@ -140,6 +140,10 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Green1992` | T. Green, *The City of the Moon God: Religious Traditions of Harran* (1992) |
 | `UNESCO2014` | UNESCO World Heritage inscription, Erbil Citadel (2014) |
 | `UN2018` | UN World Urbanization Prospects (2018) — modern population figures |
+| `Shaw2000` | I. Shaw (ed.), *The Oxford History of Ancient Egypt* (2000) |
+| `Fraser1972` | P.M. Fraser, *Ptolemaic Alexandria* (1972) |
+| `Bagnall1993` | R. Bagnall, *Egypt in Late Antiquity* (1993) |
+| `Porten1996` | B. Porten, *The Elephantine Papyri in English* (1996) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -190,6 +194,7 @@ moves east toward China.
 - [x] Forward-extend each city's timeline to its true end (abandonment / last attestation)
 - [x] First-pass visualizer: timeline + population + map
 - [x] Assyria: Assur, Nineveh, Kalhu (Nimrud), Dur-Sharrukin, Arbela (Erbil), Harran
+- [x] Egypt: Memphis, Heliopolis, Thebes (Luxor), Akhetaten, Avaris, Tanis, Alexandria, Elephantine (Aswan)
 - [x] Basemap pipeline: `tools/make_basemap.R` → `web/basemap.geojson`, drawn as SVG (run locally to populate)
 - [ ] Expand regions: Egypt → Levant → Anatolia → Greece → Italy → Iberia → India → China → SE Asia
 - [ ] Visualizer v2: time-slider that animates the map as empires rise and fall

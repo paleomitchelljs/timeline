@@ -109,3 +109,39 @@ obs_0107,harran,-553,-553,circa,attestation,Neo-Babylonian restoration of the Si
 obs_0108,harran,-53,-53,circa,attestation,Battle of Carrhae,Parthia (Surena),Green1992,medium,The Parthians annihilate Crassus's Roman army nearby
 obs_0109,harran,744,744,circa,attestation,Brief Umayyad capital,Marwan II,Green1992,low,The Sabian pagan and astronomical traditions persisted into the Islamic era
 obs_0110,harran,1271,1271,circa,abandonment,,Mongols,Green1992,low,Sacked by the Mongols; the site was largely abandoned thereafter
+obs_0111,memphis,-3100,-3100,circa,founding,,,Shaw2000,medium,Traditionally founded by Menes at the unification of Egypt; the White Walls
+obs_0112,memphis,-2686,-2181,circa,capital_status,Capital of the Old Kingdom,,Shaw2000,high,Royal residence; the Giza and Saqqara pyramids lie in its necropolis
+obs_0113,memphis,-2500,-2500,circa,population_estimate,35000,,Chandler1987,low,Among the largest cities of the third millennium BCE
+obs_0114,memphis,-663,-663,circa,capital_status,Administrative capital (Late Period),,Shaw2000,medium,Resumed as the country's chief city under the Saite and later dynasties
+obs_0115,memphis,700,700,century,abandonment,,,Shaw2000,low,Eclipsed by Fustat after the Arab conquest; its stone was quarried for Cairo
+obs_0116,heliopolis,-3000,-3000,circa,founding,,,Shaw2000,low,Predynastic origins; the great cult center of the sun god Ra (Iunu)
+obs_0117,heliopolis,-2600,-2600,century,capital_status,Cult center of Ra,,Shaw2000,medium,The priesthood of Heliopolis shaped Egyptian solar theology
+obs_0118,heliopolis,-1950,-1950,circa,attestation,Obelisk of Senusret I,Senusret I,Shaw2000,medium,The oldest standing Egyptian obelisk still in its original place
+obs_0119,heliopolis,100,100,century,abandonment,,,Shaw2000,low,Stone and obelisks carried off in the Greco-Roman era; later absorbed by Cairo
+obs_0120,thebes,-2400,-2400,circa,founding,,,Shaw2000,low,The town of Waset; cult center of Amun
+obs_0121,thebes,-2055,-1985,circa,capital_status,Capital of the early Middle Kingdom,Mentuhotep II,Shaw2000,high,Mentuhotep II reunified Egypt from Thebes before the 12th Dynasty moved north
+obs_0122,thebes,-1550,-1077,circa,capital_status,Capital of the New Kingdom,,Shaw2000,high,Karnak and Luxor and the Valley of the Kings; Amun-Ra at the empire's height
+obs_0123,thebes,-1350,-1350,circa,population_estimate,80000,,Chandler1987,low,Probably the largest city in the world at the New Kingdom's peak
+obs_0124,thebes,-663,-663,circa,destruction,,Assyria (Ashurbanipal),Shaw2000,medium,The Assyrian sack of Thebes (No-Amon) echoed across the ancient world
+obs_0125,thebes,2020,2020,circa,population_estimate,420000,,UN2018,medium,Modern Luxor occupies the site; continuously inhabited
+obs_0126,akhetaten,-1346,-1346,circa,founding,,Akhenaten,Shaw2000,medium,Built from virgin ground by Akhenaten as the city of the Aten
+obs_0127,akhetaten,-1346,-1332,circa,capital_status,Capital under Akhenaten (Atenism),Akhenaten,Shaw2000,high,The royal seat during the Amarna religious revolution
+obs_0128,akhetaten,-1332,-1332,circa,abandonment,,,Shaw2000,medium,Abandoned within years of Akhenaten's death; the court returned north
+obs_0129,avaris,-1800,-1800,circa,founding,,,Shaw2000,low,Eastern Delta town that became the Hyksos stronghold (Tell el-Dab'a)
+obs_0130,avaris,-1650,-1550,circa,capital_status,Capital of the Hyksos (15th Dynasty),,Shaw2000,medium,Seat of the Asiatic rulers of Lower Egypt
+obs_0131,avaris,-1550,-1550,circa,conquest,,Ahmose I,Shaw2000,medium,Ahmose captures Avaris and expels the Hyksos to found the New Kingdom
+obs_0132,avaris,-1279,-1279,circa,attestation,Pi-Ramesses built nearby,Ramesses II,Shaw2000,medium,Ramesses II's delta capital rose adjacent to the old Hyksos city
+obs_0133,avaris,-1070,-1070,century,abandonment,,,Shaw2000,low,The Pelusiac Nile branch silted; monuments were shifted to Tanis
+obs_0134,tanis,-1100,-1100,circa,founding,,,Shaw2000,low,Rose in the Delta from the reused stone of abandoned Pi-Ramesses
+obs_0135,tanis,-1069,-945,circa,capital_status,Capital of the 21st Dynasty,,Shaw2000,medium,Royal tombs of Psusennes I and the Third Intermediate Period kings
+obs_0136,tanis,600,600,century,abandonment,,,Shaw2000,low,Encroaching Lake Manzala and silting led to its abandonment
+obs_0137,alexandria,-331,-331,exact,founding,,Alexander III,Shaw2000,high,Founded by Alexander the Great on the site of Rhakotis
+obs_0138,alexandria,-305,-30,circa,capital_status,Capital of Ptolemaic Egypt,Ptolemy I,Fraser1972,high,Home of the Library and the Mouseion and the Pharos lighthouse
+obs_0139,alexandria,-100,-100,circa,population_estimate,500000,,Chandler1987,low,Among the largest cities of the ancient Mediterranean and a rival to Rome
+obs_0140,alexandria,-30,-30,exact,conquest,,Rome (Octavian),Fraser1972,high,Annexed by Rome after the death of Cleopatra VII
+obs_0141,alexandria,641,641,circa,attestation,Arab conquest; capital moves to Fustat,Rashidun Caliphate,Bagnall1993,medium,Alexandria yields its primacy to the new Egyptian capital
+obs_0142,alexandria,2020,2020,circa,population_estimate,5200000,,UN2018,medium,Modern Alexandria; Egypt's second city and chief port
+obs_0143,elephantine,-3000,-3000,circa,founding,,,Shaw2000,low,Island town at the First Cataract; cult center of Khnum and gateway to Nubia
+obs_0144,elephantine,-2500,-2500,century,capital_status,Southern frontier garrison,,Shaw2000,medium,Egypt's border post and trade gateway toward Nubia
+obs_0145,elephantine,-450,-450,circa,attestation,Jewish-Aramean garrison; the Elephantine papyri,,Porten1996,medium,An Aramaic-speaking Judean community with its own temple to YHW
+obs_0146,elephantine,2020,2020,circa,population_estimate,350000,,UN2018,medium,Modern Aswan (ancient Syene) on the adjacent bank; continuously inhabited
