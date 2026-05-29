@@ -134,6 +134,12 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Moorey1978` | P.R.S. Moorey, *Kish Excavations 1923–1933* (1978) |
 | `Boiy2004` | T. Boiy, *Late Achaemenid and Hellenistic Babylon* (2004) |
 | `Stolper1985` | M. Stolper, *Entrepreneurs and Empire* (Murashû archive) (1985) |
+| `Radner2015` | K. Radner, *Ancient Assyria: A Very Short Introduction* (2015) |
+| `Frahm2017` | E. Frahm (ed.), *A Companion to Assyria* (2017) |
+| `Reade2000` | J. Reade, studies on Nineveh and Assyrian topography |
+| `Green1992` | T. Green, *The City of the Moon God: Religious Traditions of Harran* (1992) |
+| `UNESCO2014` | UNESCO World Heritage inscription, Erbil Citadel (2014) |
+| `UN2018` | UN World Urbanization Prospects (2018) — modern population figures |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -163,13 +169,28 @@ python3 -m http.server 8000
 
 then open <http://localhost:8000/web/>. Hover any marker for date, source, and confidence.
 
+### Basemap (optional)
+
+The map draws coastline, rivers, and lakes from `web/basemap.geojson` if present, and
+falls back to a plain point scatter if not. That file is generated with R (Natural Earth
+physical layers, clipped and simplified — no political borders):
+
+```
+Rscript tools/make_basemap.R      # needs: install.packages(c("sf","rnaturalearth","rnaturalearthdata"))
+```
+
+The geometry is **modern**: in antiquity the Persian Gulf reached further north, so Ur and
+Eridu — coastal then — render inland. Widen the `bbox`/`xmax` in the script as coverage
+moves east toward China.
+
 ## Roadmap
 
 - [x] Schema + Sumerian core seed (Eridu, Uruk, Ur, Nippur, Lagash, Kish, Umma)
 - [x] Deepen Sumer: Akkad, Mari, Adab, Larsa, Isin, Shuruppak, Girsu, Sippar, Babylon
 - [x] Forward-extend each city's timeline to its true end (abandonment / last attestation)
 - [x] First-pass visualizer: timeline + population + map
-- [ ] Assyria proper: Assur, Nineveh, Nimrud, Dur-Sharrukin
+- [x] Assyria: Assur, Nineveh, Kalhu (Nimrud), Dur-Sharrukin, Arbela (Erbil), Harran
+- [x] Basemap pipeline: `tools/make_basemap.R` → `web/basemap.geojson`, drawn as SVG (run locally to populate)
 - [ ] Expand regions: Egypt → Levant → Anatolia → Greece → Italy → Iberia → India → China → SE Asia
 - [ ] Visualizer v2: time-slider that animates the map as empires rise and fall
 - [ ] Replace placeholder population figures with the Reba2016 georeferenced series

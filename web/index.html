@@ -71,7 +71,7 @@
   <h2>Locations</h2>
   <div class="legend" id="region-legend"></div>
   <svg id="map"></svg>
-  <div class="note">Equirectangular scatter of site coordinates — no basemap in this first pass. Akkad is omitted: its site has never been located.</div>
+  <div class="note">Coastline, rivers, and lakes are <em>modern</em> physical geography (run <code>tools/make_basemap.R</code> to generate <code>basemap.geojson</code>; the map works without it). Note that in antiquity the Persian Gulf reached further north — Ur and Eridu sat near its shore but appear inland here. Akkad is omitted: its site has never been located.</div>
 </section>
 
 <div id="tip"></div>
@@ -94,6 +94,7 @@ const REGION_COLOR = {
   "mesopotamia-sumer":     "#4db6ac",
   "mesopotamia-akkad":     "#ba68c8",
   "mesopotamia-euphrates": "#ffb74d",
+  "mesopotamia-assyria":   "#ef9a9a",
 };
 
 const tip = document.getElementById("tip");
@@ -289,16 +290,17 @@ function renderPopulation(cities, obs) {
 
   const minY = Math.min(...pts.map(p => p.year)) - 200;
   const maxY = Math.max(...pts.map(p => p.year)) + 200;
-  const minV = 3000, maxV = 200000;
+  const minV = 3000, maxV = 2000000;
   const x = y => M.left + (y - minY) / (maxY - minY) * innerW;
   const lv = v => Math.log10(v);
   const yp = v => M.top + innerH * (1 - (lv(v) - lv(minV)) / (lv(maxV) - lv(minV)));
+  const fmtPop = v => v >= 1000000 ? (v / 1000000) + "M" : (v / 1000) + "k";
 
   const axis = el("g", { class: "axis" }, svg);
-  for (const v of [5000, 10000, 25000, 50000, 100000, 200000]) {
+  for (const v of [5000, 10000, 50000, 100000, 500000, 1000000, 2000000]) {
     el("line", { x1: M.left, y1: yp(v), x2: W - M.right, y2: yp(v) }, axis);
     const t = el("text", { x: M.left - 8, y: yp(v) + 4, "text-anchor": "end" }, axis);
-    t.textContent = (v / 1000) + "k";
+    t.textContent = fmtPop(v);
   }
   for (const t of yearTicks(minY, maxY, 1000)) {
     const lab = el("text", { x: x(t), y: H - M.bottom + 16, "text-anchor": "middle" }, axis);
@@ -328,7 +330,45 @@ function renderPopulation(cities, obs) {
   }
 }
 
-function renderMap(cities, obs) {
+// Draw GeoJSON physical features (coastline / rivers / lakes) under the points.
+function drawBasemap(svg, geo, x, y) {
+  const g = el("g", {}, svg);
+  const path = pts => pts.map((c, i) => (i ? "L" : "M") + x(c[0]).toFixed(1) + "," + y(c[1]).toFixed(1)).join(" ");
+  const STYLE = {
+    coastline: { stroke: "#4a5568", "stroke-width": 1,   fill: "none" },
+    river:     { stroke: "#4a7ba6", "stroke-width": 0.9, fill: "none", "stroke-opacity": .75 },
+    lake:      { stroke: "none", fill: "#22384d" },
+  };
+  const RIVER_LABELS = new Set(["Tigris", "Euphrates", "Nile", "Jordan", "Tigris-Euphrates"]);
+  const labelled = new Set();
+
+  const draw = (geom, st, d) => { if (d) el("path", { ...st, d }, g); };
+  for (const f of (geo.features || [])) {
+    const kind = (f.properties && f.properties.kind) || "coastline";
+    const st = STYLE[kind] || STYLE.coastline;
+    const gm = f.geometry; if (!gm) continue;
+    if (gm.type === "LineString")        draw(gm, st, path(gm.coordinates));
+    else if (gm.type === "MultiLineString") gm.coordinates.forEach(l => draw(gm, st, path(l)));
+    else if (gm.type === "Polygon")      draw(gm, st, gm.coordinates.map(r => path(r) + "Z").join(" "));
+    else if (gm.type === "MultiPolygon") gm.coordinates.forEach(p => draw(gm, st, p.map(r => path(r) + "Z").join(" ")));
+
+    // one small italic label per major named river, near its midpoint
+    const nm = f.properties && f.properties.name;
+    if (kind === "river" && nm && RIVER_LABELS.has(nm) && !labelled.has(nm)) {
+      const line = gm.type === "LineString" ? gm.coordinates
+                 : gm.type === "MultiLineString" ? gm.coordinates.flat() : null;
+      if (line && line.length) {
+        const m = line[Math.floor(line.length / 2)];
+        const lab = el("text", { x: x(m[0]) + 3, y: y(m[1]), "font-size": 10, "font-style": "italic" }, g);
+        lab.setAttribute("fill", "#6f9fc4");
+        lab.textContent = nm;
+        labelled.add(nm);
+      }
+    }
+  }
+}
+
+function renderMap(cities, obs, basemap) {
   const svg = document.getElementById("map");
   const located = cities.filter(c => c.lat !== "" && c.lon !== "");
   const lats = located.map(c => +c.lat), lons = located.map(c => +c.lon);
@@ -346,6 +386,8 @@ function renderMap(cities, obs) {
   const x = lon => M + (lon - minLon) * s;
   const y = lat => H - M - (lat - minLat) * s;
 
+  if (basemap) drawBasemap(svg, basemap, x, y);
+
   // latest known population per city, for marker size
   const popById = {};
   for (const o of obs) if (o.event_type === "population_estimate") {
@@ -356,7 +398,7 @@ function renderMap(cities, obs) {
 
   for (const c of located) {
     const p = popById[c.city_id];
-    const r = p ? Math.max(5, Math.sqrt(p.val) / 28) : 4;
+    const r = p ? Math.max(5, Math.min(22, Math.sqrt(p.val) / 28)) : 4;
     const col = REGION_COLOR[c.region] || "#90caf9";
     const node = el("circle", { cx: x(+c.lon), cy: y(+c.lat), r, fill: col, "fill-opacity": .55,
                                 stroke: col, "stroke-width": 1.5 }, svg);
@@ -387,17 +429,24 @@ async function load(name) {
   return parseCSV(await res.text());
 }
 
+// Optional: returns null if the file isn't there yet (basemap not generated).
+async function loadJSON(name) {
+  try { const r = await fetch(name, { cache: "no-store" }); return r.ok ? await r.json() : null; }
+  catch (e) { return null; }
+}
+
 (async function main() {
   try {
     const [cities, , obsRaw] = await Promise.all([
       load("../data/cities.csv"), load("../data/names.csv"), load("../data/observations.csv")
     ]);
+    const basemap = await loadJSON("basemap.geojson");
     const obs = obsRaw.map(o => ({ ...o, year_start: +o.year_start, year_end: +o.year_end }));
     renderEventLegend();
     renderRegionLegend(cities);
     renderTimeline(cities, obs);
     renderPopulation(cities, obs);
-    renderMap(cities, obs);
+    renderMap(cities, obs, basemap);
   } catch (e) {
     document.getElementById("error").hidden = false;
     for (const id of ["timeline-sec", "pop-sec", "map-sec"]) document.getElementById(id).hidden = true;

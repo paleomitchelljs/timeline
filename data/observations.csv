@@ -80,3 +80,32 @@ obs_0044,mari,-2500,-2300,circa,capital_status,Early Dynastic kingdom of Mari,,M
 obs_0045,mari,-1810,-1759,circa,capital_status,Amorite kingdom of Mari,Zimri-Lim,VanDeMieroop2004,high,The great palace archives date to this kingdom
 obs_0046,mari,-1759,-1759,circa,destruction,,Babylon (Hammurabi),VanDeMieroop2004,high,Hammurabi razes Mari; it never recovers as a major city
 obs_0047,mari,-300,-300,century,abandonment,,,Margueron2004,low,Reduced to a village then abandoned by the Hellenistic period
+obs_0082,assur,-2500,-2500,circa,founding,,,Radner2015,low,Early Dynastic settlement around the temple of Ashur
+obs_0083,assur,-1900,-1750,circa,capital_status,Old Assyrian city-state,,Radner2015,medium,Ran the karum trade network with Anatolia (Kanesh)
+obs_0084,assur,-1363,-879,circa,capital_status,Capital of the Assyrian kingdom,,Frahm2017,medium,Political capital from the Middle Assyrian period until Ashurnasirpal II moved to Kalhu
+obs_0085,assur,-614,-614,circa,destruction,,Medes (Cyaxares),Frahm2017,high,Sacked by the Medes two years before Nineveh fell
+obs_0086,assur,240,240,century,abandonment,,,Radner2015,low,A Parthian-era revival faded by the mid-third century CE
+obs_0087,nineveh,-3000,-3000,circa,founding,,,Reade2000,low,The tell was occupied from the Neolithic; cult center of Ishtar of Nineveh
+obs_0088,nineveh,-705,-612,circa,capital_status,Capital of the Neo-Assyrian Empire,Sennacherib,Frahm2017,high,Sennacherib rebuilds Nineveh as the imperial capital with the Southwest Palace
+obs_0089,nineveh,-700,-700,circa,population_estimate,120000,,Chandler1987,low,Among the largest cities in the world at the empire's height
+obs_0090,nineveh,-612,-612,circa,destruction,,Medes and Babylonians,Frahm2017,high,The fall of Nineveh ends the Assyrian Empire
+obs_0091,nineveh,600,600,century,abandonment,,,Reade2000,low,Reduced to a village; superseded by Mosul across the Tigris
+obs_0092,kalhu,-1250,-1250,circa,founding,,Shalmaneser I,Frahm2017,low,Developed from an existing town by Shalmaneser I
+obs_0093,kalhu,-879,-706,circa,capital_status,Capital of the Neo-Assyrian Empire,Ashurnasirpal II,Frahm2017,high,Ashurnasirpal II moves the capital here and builds the Northwest Palace
+obs_0094,kalhu,-612,-612,circa,destruction,,Medes and Babylonians,Frahm2017,high,Sacked during the fall of Assyria
+obs_0095,kalhu,-600,-600,century,abandonment,,,Frahm2017,low,
+obs_0096,dur-sharrukin,-713,-713,circa,founding,,Sargon II,Frahm2017,medium,A planned capital built from scratch by Sargon II
+obs_0097,dur-sharrukin,-706,-705,circa,capital_status,Capital of the Neo-Assyrian Empire,Sargon II,Frahm2017,medium,Briefly the capital before Sargon's death in battle
+obs_0098,dur-sharrukin,-705,-705,circa,abandonment,,,Frahm2017,medium,Abandoned almost immediately; Sennacherib moved the capital to Nineveh
+obs_0099,arbela,-2300,-2300,circa,founding,,,Radner2015,low,The citadel mound has been occupied since at least the fifth millennium BCE
+obs_0100,arbela,-700,-700,century,capital_status,Cult center of Ishtar of Arbela,,Radner2015,medium,A principal religious center of the Neo-Assyrian Empire
+obs_0101,arbela,-331,-331,circa,attestation,Battle of Gaugamela (Arbela),Alexander III,Frahm2017,medium,Alexander's decisive victory over Darius III was named for nearby Arbela
+obs_0102,arbela,100,100,circa,attestation,Capital of Adiabene,,Radner2015,low,Seat of the kingdom of Adiabene and an early center of Christianity
+obs_0103,arbela,2014,2014,exact,attestation,Erbil Citadel inscribed as UNESCO World Heritage,,UNESCO2014,high,Cited among the oldest continuously inhabited places on earth
+obs_0104,arbela,2020,2020,circa,population_estimate,1500000,,UN2018,medium,Modern Erbil urban agglomeration; still a living city
+obs_0105,harran,-2000,-2000,circa,founding,,,Green1992,low,Trade town in the Balikh valley; cult center of the moon god Sin
+obs_0106,harran,-612,-609,circa,capital_status,Last capital of Assyria,Ashur-uballit II,Frahm2017,high,The Assyrian state's final seat after the fall of Nineveh
+obs_0107,harran,-553,-553,circa,attestation,Neo-Babylonian restoration of the Sin temple,Nabonidus,Beaulieu2018,medium,Nabonidus whose mother served the cult rebuilt the Ehulhul
+obs_0108,harran,-53,-53,circa,attestation,Battle of Carrhae,Parthia (Surena),Green1992,medium,The Parthians annihilate Crassus's Roman army nearby
+obs_0109,harran,744,744,circa,attestation,Brief Umayyad capital,Marwan II,Green1992,low,The Sabian pagan and astronomical traditions persisted into the Islamic era
+obs_0110,harran,1271,1271,circa,abandonment,,Mongols,Green1992,low,Sacked by the Mongols; the site was largely abandoned thereafter

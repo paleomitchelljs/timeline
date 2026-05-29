@@ -23,6 +23,12 @@ env/
 .ruff_cache/
 .pytest_cache/
 
+# ---- R (tools/make_basemap.R) ----
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
 # ---- Node / web tooling (if the visualizer ever grows a build step) ----
 node_modules/
 npm-debug.log*
