@@ -286,3 +286,145 @@ obs_0284,thessalonica,2020,2020,circa,population_estimate,1100000,,UN2018,medium
 obs_0285,philippi,-356,-356,exact,founding,,Macedon (Philip II),Hammond1989,medium,Philip II refounds the town to control the gold of Mount Pangaion
 obs_0286,philippi,-42,-42,exact,attestation,Battle of Philippi,Rome (Antony and Octavian),Hornblower2011,medium,The defeat of Caesar's assassins; later a Roman colony and early Christian community
 obs_0287,philippi,1400,1400,century,abandonment,,,Mango2002,low,Declined and was abandoned by the late Byzantine and Ottoman period
+obs_0288,kerma,-2500,-2500,circa,founding,,,Welsby1996,low,The earliest urban center in Nubia
+obs_0289,kerma,-2500,-1500,circa,capital_status,Capital of the Kingdom of Kerma,,Welsby1996,medium,The first Nubian state to rival Egypt
+obs_0290,kerma,-1500,-1500,circa,conquest,,Egypt (Thutmose I),Shaw2000,medium,Annexed as Egypt pushed south into Nubia
+obs_0291,kerma,-1450,-1450,century,abandonment,,,Welsby1996,low,Eclipsed under Egyptian New Kingdom rule
+obs_0292,napata,-900,-900,circa,founding,,,Welsby1996,low,Kushite center below the holy mountain Jebel Barkal
+obs_0293,napata,-747,-590,circa,capital_status,Kushite 25th Dynasty (kings of Egypt and Kush),Piye,Welsby1996,high,Piye and his successors ruled both Nubia and Egypt
+obs_0294,napata,-663,-663,circa,conquest,,Assyria (Ashurbanipal),Shaw2000,medium,The Assyrians drive the Kushites out of Egypt
+obs_0295,napata,-593,-593,circa,destruction,,Egypt (Psamtik II),Welsby1996,medium,An Egyptian raid sacks Napata and the capital shifts to Meroe
+obs_0296,napata,350,350,century,abandonment,,,Welsby1996,low,Faded after the rise of Meroe
+obs_0297,meroe,-800,-800,circa,founding,,,Welsby1996,low,Southern Kushite city on the Nile
+obs_0298,meroe,-590,350,circa,capital_status,Capital of the Kingdom of Kush,,Welsby1996,high,Ironworking center with its own script and royal pyramids
+obs_0299,meroe,350,350,circa,destruction,,Aksum (Ezana),Welsby1996,low,The Aksumite king Ezana campaigns against a declining Meroe
+obs_0300,meroe,350,350,circa,abandonment,,,Welsby1996,low,Abandoned as the Kushite state collapsed
+obs_0301,dongola,500,500,circa,founding,,,Welsby2002,low,Rose as the capital of Christian Makuria
+obs_0302,dongola,550,1317,circa,capital_status,Capital of Makuria,,Welsby2002,medium,A Christian Nubian kingdom that repelled early Arab invasions
+obs_0303,dongola,1317,1317,circa,conquest,,Mamluk Sultanate,Welsby2002,low,The cathedral is converted to a mosque as Makuria collapses
+obs_0304,dongola,1400,1400,century,abandonment,,,Welsby2002,low,Abandoned as the kingdom fell
+obs_0305,soba,500,500,circa,founding,,,Welsby2002,low,Capital of the Christian kingdom of Alodia on the Blue Nile
+obs_0306,soba,550,1500,circa,capital_status,Capital of Alodia,,Welsby2002,medium,The southernmost Christian Nubian kingdom
+obs_0307,soba,1504,1504,circa,destruction,,Funj Sultanate,Welsby2002,low,Destroyed as the Funj sultanate rose near modern Khartoum
+obs_0308,panticapaeum,-600,-600,circa,founding,,,Tsetskhladze2008,low,Milesian colony on the Cimmerian Bosporus
+obs_0309,panticapaeum,-480,370,circa,capital_status,Capital of the Bosporan Kingdom,,Tsetskhladze2008,medium,A Greek kingdom that shipped grain to Athens
+obs_0310,panticapaeum,14,14,circa,conquest,,Rome,Tsetskhladze2008,low,Becomes a Roman client kingdom
+obs_0311,panticapaeum,370,370,circa,destruction,,Huns,Tsetskhladze2008,low,Devastated by the Huns; later the Byzantine town of Bosporos
+obs_0312,panticapaeum,2020,2020,circa,population_estimate,150000,,UN2018,low,Modern Kerch
+obs_0313,olbia,-600,-600,circa,founding,,,Tsetskhladze2008,low,Milesian colony on the Black Sea steppe
+obs_0314,olbia,-50,-50,circa,destruction,,Getae,Tsetskhladze2008,low,Sacked by the Getae and only partly rebuilt
+obs_0315,olbia,350,350,century,abandonment,,,Tsetskhladze2008,low,Abandoned under Gothic and Hunnic pressure
+obs_0316,chersonesus,-422,-422,circa,founding,,,Tsetskhladze2008,low,Dorian colony in the southwestern Crimea
+obs_0317,chersonesus,-63,-63,circa,conquest,,Rome,Tsetskhladze2008,low,Drawn under Roman protection against the steppe
+obs_0318,chersonesus,988,988,circa,attestation,Byzantine Cherson,,Mango2002,low,A major Byzantine port and place of exile
+obs_0319,chersonesus,1399,1399,circa,abandonment,,,Tsetskhladze2008,low,Destroyed by Nogai raids and abandoned
+obs_0320,tanais,-300,-300,circa,founding,,,Tsetskhladze2008,low,Greek-Sarmatian emporium at the mouth of the Don
+obs_0321,tanais,250,250,circa,destruction,,Goths,Tsetskhladze2008,low,Sacked during the Gothic incursions
+obs_0322,tanais,500,500,century,abandonment,,,Tsetskhladze2008,low,Abandoned in late antiquity
+obs_0323,carthage,-814,-814,circa,founding,,,Miles2010,medium,Founded by colonists from Tyre
+obs_0324,carthage,-650,-146,circa,capital_status,Capital of the Carthaginian Empire,,Miles2010,high,The dominant power of the western Mediterranean
+obs_0325,carthage,-300,-300,circa,population_estimate,300000,,Chandler1987,low,Among the largest cities of the ancient world
+obs_0326,carthage,-146,-146,exact,destruction,,Rome (Scipio Aemilianus),Miles2010,high,Rome razes Carthage at the end of the Third Punic War
+obs_0327,carthage,-29,-29,exact,refounding,Roman colony,Rome (Augustus),Raven1993,high,Refounded as a Roman colony and capital of Africa Proconsularis
+obs_0328,carthage,439,439,exact,conquest,,Vandals (Geiseric),Raven1993,medium,The Vandals make Carthage their capital
+obs_0329,carthage,698,698,circa,conquest,,Umayyad Caliphate,Raven1993,medium,Taken in the Arab conquest and eclipsed by nearby Tunis
+obs_0330,carthage,700,700,century,abandonment,,,Raven1993,low,Abandoned as Tunis rose
+obs_0331,cyrene,-631,-631,circa,founding,,,Boardman1999,low,Greek colony from the island of Thera
+obs_0332,cyrene,-322,-322,circa,conquest,,Ptolemaic Egypt,Boardman1999,medium,Absorbed by Ptolemaic Egypt after Alexander
+obs_0333,cyrene,-96,-96,circa,conquest,,Rome,Raven1993,low,Bequeathed to Rome and made a province
+obs_0334,cyrene,365,365,circa,abandonment,,,Raven1993,low,Ruined by the 365 earthquake and later raids
+obs_0335,utica,-1100,-1100,circa,founding,,,Aubet2001,low,A Phoenician foundation said to predate Carthage
+obs_0336,utica,-146,-146,circa,conquest,,Rome,Raven1993,low,Sided with Rome and became the provincial capital
+obs_0337,utica,700,700,century,abandonment,,,Raven1993,low,Abandoned as its harbor silted and after the Arab conquest
+obs_0338,leptis-magna,-650,-650,circa,founding,,,Raven1993,low,Punic trading post on the Tripolitanian coast
+obs_0339,leptis-magna,-46,-46,circa,conquest,,Rome,Raven1993,low,Absorbed into Roman Africa
+obs_0340,leptis-magna,200,200,circa,attestation,Severan monuments,Rome (Septimius Severus),Raven1993,low,The emperor Septimius Severus adorns his birthplace
+obs_0341,leptis-magna,650,650,century,abandonment,,,Raven1993,low,Abandoned after the Arab conquest
+obs_0342,rome,-753,-753,circa,founding,,,Cornell1995,medium,The traditional founding date of the city
+obs_0343,rome,-509,476,circa,capital_status,Capital of the Roman Empire,,Beard2015,high,From the Republic through the Empire
+obs_0344,rome,-1,-1,circa,population_estimate,1000000,,Chandler1987,medium,Around a million people; the largest city in the ancient world
+obs_0345,rome,410,410,exact,attestation,Sack of Rome,Visigoths (Alaric),Beard2015,medium,Alaric's Goths sack the city for the first time in eight centuries
+obs_0346,rome,476,476,exact,conquest,,Ostrogothic Kingdom,Beard2015,medium,The Western Empire ends and Italy passes to Germanic then Byzantine rulers
+obs_0347,rome,550,550,circa,population_estimate,30000,,Chandler1987,low,Collapsed to a fraction of its imperial size
+obs_0348,rome,756,1870,circa,capital_status,Capital of the Papal States,,Beard2015,medium,Center of the medieval and early modern papacy
+obs_0349,rome,2020,2020,circa,population_estimate,2800000,,UN2018,medium,Modern Rome; capital of Italy
+obs_0350,syracuse,-734,-734,circa,founding,,,Boardman1999,low,Corinthian colony in Sicily
+obs_0351,syracuse,-480,-212,circa,capital_status,Leading power of Greek Sicily,,Boardman1999,medium,Rival of Carthage and Athens under tyrants such as Dionysius
+obs_0352,syracuse,-212,-212,circa,conquest,,Rome (Marcellus),Beard2015,high,Rome takes Syracuse after a long siege; Archimedes is killed
+obs_0353,syracuse,878,878,circa,conquest,,Aghlabids,Raven1993,low,Captured in the Arab conquest of Sicily
+obs_0354,syracuse,2020,2020,circa,population_estimate,120000,,UN2018,low,Modern Siracusa
+obs_0355,tarentum,-706,-706,circa,founding,,,Boardman1999,low,The only Spartan colony and chief city of Magna Graecia
+obs_0356,tarentum,-272,-272,circa,conquest,,Rome,Beard2015,medium,Absorbed by Rome after the war with Pyrrhus
+obs_0357,tarentum,2020,2020,circa,population_estimate,200000,,UN2018,low,Modern Taranto
+obs_0358,neapolis,-600,-600,circa,founding,,,Boardman1999,low,Greek Neapolis or new city on the bay
+obs_0359,neapolis,-326,-326,circa,conquest,,Rome,Beard2015,low,Allied with and absorbed by Rome
+obs_0360,neapolis,661,1139,circa,capital_status,Duchy of Naples,,Mango2002,low,A Byzantine then independent duchy
+obs_0361,neapolis,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Naples
+obs_0362,mediolanum,-400,-400,circa,founding,,,King1990,low,Celtic Insubres settlement; later Roman Mediolanum
+obs_0363,mediolanum,286,402,circa,capital_status,Capital of the Western Roman Empire,,Mitchell2007,medium,An imperial residence under the Tetrarchy
+obs_0364,mediolanum,2020,2020,circa,population_estimate,3100000,,UN2018,medium,Modern Milan
+obs_0365,ravenna,-200,-200,circa,founding,,,Mitchell2007,low,An Adriatic port town
+obs_0366,ravenna,402,751,circa,capital_status,Capital of the Western Empire and the Exarchate,,Mitchell2007,medium,Imperial then Ostrogothic then Byzantine capital of Italy
+obs_0367,ravenna,751,751,circa,conquest,,Lombards,Mango2002,low,The Lombards end Byzantine rule in Italy
+obs_0368,ravenna,2020,2020,circa,population_estimate,160000,,UN2018,low,Modern Ravenna
+obs_0369,massalia,-600,-600,circa,founding,,,Boardman1999,low,Phocaean Greek colony on the southern coast of Gaul
+obs_0370,massalia,-49,-49,circa,conquest,,Rome (Julius Caesar),Drinkwater1983,medium,Besieged by Caesar and absorbed into Roman Gaul
+obs_0371,massalia,2020,2020,circa,population_estimate,1600000,,UN2018,medium,Modern Marseille
+obs_0372,lugdunum,-43,-43,circa,founding,,,Drinkwater1983,low,Founded as a Roman colony at the meeting of the rivers
+obs_0373,lugdunum,-27,300,circa,capital_status,Capital of the Three Gauls,,Drinkwater1983,medium,Administrative center of Roman Gaul; birthplace of Claudius
+obs_0374,lugdunum,2020,2020,circa,population_estimate,1700000,,UN2018,medium,Modern Lyon
+obs_0375,lutetia,-250,-250,circa,founding,,,Drinkwater1983,low,Gaulish town of the Parisii on the Seine
+obs_0376,lutetia,-52,-52,circa,conquest,,Rome (Julius Caesar),Drinkwater1983,low,Taken during Caesar's conquest of Gaul
+obs_0377,lutetia,508,2020,circa,capital_status,Capital of France,,Drinkwater1983,low,Clovis makes Paris his seat; later the capital of France
+obs_0378,lutetia,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Paris
+obs_0379,narbo,-118,-118,circa,founding,,,Drinkwater1983,low,The first Roman colony in Gaul
+obs_0380,narbo,-118,400,circa,capital_status,Capital of Gallia Narbonensis,,Drinkwater1983,low,Seat of Rome's first Gaulish province
+obs_0381,narbo,462,462,circa,conquest,,Visigoths,Drinkwater1983,low,Becomes a Visigothic and then Frankish city
+obs_0382,narbo,2020,2020,circa,population_estimate,55000,,UN2018,low,Modern Narbonne
+obs_0383,burdigala,-300,-300,circa,founding,,,Drinkwater1983,low,Gaulish settlement on the Garonne
+obs_0384,burdigala,-56,-56,circa,conquest,,Rome,Drinkwater1983,low,Absorbed during Caesar's conquest of Gaul
+obs_0385,burdigala,2020,2020,circa,population_estimate,850000,,UN2018,medium,Modern Bordeaux
+obs_0386,gades,-1100,-1100,circa,founding,,,Aubet2001,low,A Phoenician colony beyond the Pillars of Heracles
+obs_0387,gades,-206,-206,circa,conquest,,Rome,Richardson1996,medium,Switched to Rome during the Second Punic War
+obs_0388,gades,2020,2020,circa,population_estimate,115000,,UN2018,low,Modern Cadiz
+obs_0389,carthago-nova,-227,-227,circa,founding,,Carthage (Hasdrubal),Richardson1996,medium,Founded by the Carthaginians as New Carthage
+obs_0390,carthago-nova,-209,-209,exact,conquest,,Rome (Scipio Africanus),Richardson1996,high,Scipio storms the city and seizes its silver mines
+obs_0391,carthago-nova,2020,2020,circa,population_estimate,215000,,UN2018,low,Modern Cartagena
+obs_0392,tarraco,-218,-218,circa,founding,,,Richardson1996,low,A Roman base in the Second Punic War
+obs_0393,tarraco,-27,400,circa,capital_status,Capital of Hispania Tarraconensis,,Richardson1996,medium,The largest Roman province in Iberia
+obs_0394,tarraco,2020,2020,circa,population_estimate,135000,,UN2018,low,Modern Tarragona
+obs_0395,corduba,-206,-206,circa,founding,,,Richardson1996,low,Roman colony on the Guadalquivir
+obs_0396,corduba,756,1031,circa,capital_status,Capital of the Umayyad Caliphate of Cordoba,,Kennedy1996,high,One of the largest and most learned cities in the world
+obs_0397,corduba,1000,1000,circa,population_estimate,450000,,Chandler1987,low,Possibly the largest city in Europe around the year 1000
+obs_0398,corduba,1236,1236,circa,conquest,,Crown of Castile (Ferdinand III),Kennedy1996,medium,Taken in the Reconquista
+obs_0399,corduba,2020,2020,circa,population_estimate,325000,,UN2018,low,Modern Cordoba
+obs_0400,emerita-augusta,-25,-25,circa,founding,,Rome (Augustus),Richardson1996,medium,Founded by Augustus for veterans as capital of Lusitania
+obs_0401,emerita-augusta,-25,400,circa,capital_status,Capital of Lusitania,,Richardson1996,medium,Chief Roman city of the southwest
+obs_0402,emerita-augusta,713,713,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest of Iberia
+obs_0403,emerita-augusta,2020,2020,circa,population_estimate,60000,,UN2018,low,Modern Merida
+obs_0404,toletum,-190,-190,circa,founding,,,Richardson1996,low,A Roman town in central Iberia
+obs_0405,toletum,542,711,circa,capital_status,Capital of the Visigothic Kingdom,,Collins2004,high,Royal and church capital of Visigothic Hispania
+obs_0406,toletum,711,711,circa,conquest,,Umayyad Caliphate,Kennedy1996,medium,Falls in the Muslim conquest
+obs_0407,toletum,1085,1085,exact,conquest,,Crown of Castile (Alfonso VI),Collins2004,high,Retaken in the Reconquista as a great Castilian capital
+obs_0408,toletum,2020,2020,circa,population_estimate,85000,,UN2018,low,Modern Toledo
+obs_0409,londinium,47,47,circa,founding,,,Salway1981,low,Founded by the Romans on the Thames
+obs_0410,londinium,60,60,circa,destruction,,Iceni (Boudica),Salway1981,medium,Burned in the Boudican revolt
+obs_0411,londinium,100,410,circa,capital_status,Capital of Roman Britain,,Salway1981,medium,Provincial capital after rebuilding
+obs_0412,londinium,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern London
+obs_0413,camulodunum,-10,-10,circa,founding,,,Salway1981,low,Stronghold of the Trinovantes and first Roman colony in Britain
+obs_0414,camulodunum,60,60,circa,destruction,,Iceni (Boudica),Salway1981,medium,Destroyed in the Boudican revolt
+obs_0415,camulodunum,2020,2020,circa,population_estimate,120000,,UN2018,low,Modern Colchester
+obs_0416,eboracum,71,71,circa,founding,,,Salway1981,low,Roman legionary fortress in northern Britain
+obs_0417,eboracum,306,306,exact,attestation,Constantine proclaimed emperor,Rome (Constantine),Salway1981,medium,Constantine the Great was proclaimed emperor at Eboracum
+obs_0418,eboracum,2020,2020,circa,population_estimate,210000,,UN2018,low,Modern York
+obs_0419,colonia-agrippina,50,50,circa,founding,,,King1990,low,Raised to a Roman colony on the Rhine frontier
+obs_0420,colonia-agrippina,85,400,circa,capital_status,Capital of Germania Inferior,,King1990,medium,Chief Roman city of the lower Rhine
+obs_0421,colonia-agrippina,462,462,circa,conquest,,Franks,King1990,low,Taken by the Franks
+obs_0422,colonia-agrippina,2020,2020,circa,population_estimate,1100000,,UN2018,medium,Modern Cologne
+obs_0423,augusta-treverorum,-16,-16,circa,founding,,Rome (Augustus),King1990,low,Founded by Augustus among the Treveri
+obs_0424,augusta-treverorum,285,400,circa,capital_status,Imperial capital of the Western Roman Empire,,Mitchell2007,medium,A chief residence of the Tetrarchy; the Rome of the North
+obs_0425,augusta-treverorum,2020,2020,circa,population_estimate,110000,,UN2018,low,Modern Trier
+obs_0426,mogontiacum,-13,-13,circa,founding,,,King1990,low,Roman legionary base on the Rhine
+obs_0427,mogontiacum,90,400,circa,capital_status,Capital of Germania Superior,,King1990,low,Chief Roman city of the upper Rhine
+obs_0428,mogontiacum,451,451,circa,conquest,,Huns (Attila),King1990,low,Sacked during Attila's invasion of Gaul
+obs_0429,mogontiacum,2020,2020,circa,population_estimate,220000,,UN2018,low,Modern Mainz

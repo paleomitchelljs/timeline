@@ -24,6 +24,21 @@
   // capital_status values that name a function, not a polity, so don't imply control.
   const NON_EMPIRE = /cult center|religious center|frontier|garrison|administrative|temple economy|trade/i;
 
+  // Alias map: collapse the free-text variants of one polity to a canonical name.
+  // This is the hand-maintained vocabulary; extend it as new regions add new powers.
+  const ALIASES = {
+    "Achaemenid Empire": "Achaemenid Persia",
+    "Persia": "Achaemenid Persia",
+    "Kingdom of Macedon": "Macedon",
+    "Roman Empire": "Rome",
+    "Roman Republic": "Rome",
+    "Royal city of Elam": "Elam",
+    "Assyrian kingdom": "Assyria",
+    "Hittites": "Hittite Empire",
+    "Medes": "Median Empire",
+  };
+  const canon = p => (p ? (ALIASES[p] || p) : null);
+
   function normalizePolity(raw) {
     if (!raw) return null;
     let s = String(raw).trim();
@@ -35,16 +50,17 @@
 
   // The controlling polity implied by one observation, or null if it implies none.
   function polityOf(o) {
+    let p = null;
     switch (o.event_type) {
       case "conquest":
-        return (o.value && o.value.trim()) ? o.value.trim() : normalizePolity(o.actor);
+        p = (o.value && o.value.trim()) ? o.value.trim() : normalizePolity(o.actor); break;
       case "destruction":          // the destroyer typically takes control
-        return normalizePolity(o.actor);
+        p = normalizePolity(o.actor); break;
       case "capital_status":
-        return NON_EMPIRE.test(o.value || "") ? null : normalizePolity(o.value);
-      default:
-        return null;               // founding / refounding / abandonment / attestation / population
+        p = NON_EMPIRE.test(o.value || "") ? null : normalizePolity(o.value); break;
+      // founding / refounding / abandonment / attestation / population imply no control
     }
+    return canon(p);
   }
 
   const PALETTE = [
@@ -76,7 +92,11 @@
         .filter(e => e.event_type === "population_estimate" && +e.value > 0)
         .map(e => ({ year: e.ys, val: +e.value }))
         .sort((a, b) => a.year - b.year);
-      cityInfo[id] = { id, start, end, control, pops };
+      const capitalSpans = evs
+        .filter(e => e.event_type === "capital_status")
+        .map(e => ({ start: e.ys, end: e.ye }));
+      const peakPop = pops.length ? Math.max(...pops.map(p => p.val)) : 0;
+      cityInfo[id] = { id, start, end, control, pops, capitalSpans, peakPop };
     }
 
     // aggregate empires across all cities
@@ -138,5 +158,14 @@
     return model.empires.filter(e => e.start <= year && year <= e.end);
   }
 
-  return { build, stateAt, controllerAt, popAt, empiresActiveAt, normalizePolity, polityOf };
+  // A city earns a permanent map label if it is sizable or a capital that year;
+  // everything else is hover-only. Keeps a crowded map legible.
+  const MAJOR_POP = 60000;
+  function isMajorAt(info, year) {
+    if ((popAt(info, year) || 0) >= MAJOR_POP) return true;
+    for (const s of info.capitalSpans) if (s.start <= year && year <= s.end) return true;
+    return false;
+  }
+
+  return { build, stateAt, controllerAt, popAt, empiresActiveAt, isMajorAt, normalizePolity, polityOf };
 });

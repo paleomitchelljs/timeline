@@ -34,6 +34,7 @@
   }
   .controls button:hover { background: #2c313f; }
   .controls input[type=range] { flex: 1; accent-color: #64b5f6; }
+  .controls .chk { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 12.5px; cursor: pointer; }
   #yearlabel { font-variant-numeric: tabular-nums; min-width: 84px; text-align: right; color: var(--ink); font-weight: 600; }
   #tip {
     position: fixed; pointer-events: none; z-index: 10; max-width: 300px;
@@ -59,6 +60,7 @@
     <button id="play" title="play / pause">&#9654;</button>
     <input id="year" type="range">
     <span id="yearlabel"></span>
+    <label class="chk"><input id="hulls" type="checkbox"> hulls</label>
     <button id="zoomreset" title="reset zoom">reset</button>
   </div>
   <svg id="map"></svg>
@@ -89,6 +91,9 @@ const REGION_COLOR = {
   "levant-coast": "#4fc3f7", "levant-inland": "#f06292",
   "iran-zagros": "#ff8a65", "anatolia": "#bcaaa4",
   "greece": "#7986cb", "macedon": "#9fa8da",
+  "nubia": "#cddc39", "pontic-steppe": "#26c6da", "north-africa": "#ffca28",
+  "italy": "#e53935", "gaul": "#42a5f5", "iberia": "#8e24aa",
+  "britannia": "#789262", "germania": "#6d4c41",
 };
 
 function el(name, attrs = {}, parent = null) {
@@ -179,6 +184,19 @@ function drawBasemap(parent, geo, x, y) {
   }
 }
 
+// convex hull (Andrew's monotone chain) over {x,y} screen points
+function convexHull(pts) {
+  if (pts.length < 3) return pts.slice();
+  const p = pts.slice().sort((a, b) => a.x - b.x || a.y - b.y);
+  const cross = (o, a, b) => (a.x - o.x) * (b.y - o.y) - (a.y - o.y) * (b.x - o.x);
+  const lower = [];
+  for (const q of p) { while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], q) <= 0) lower.pop(); lower.push(q); }
+  const upper = [];
+  for (let i = p.length - 1; i >= 0; i--) { const q = p[i]; while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], q) <= 0) upper.pop(); upper.push(q); }
+  lower.pop(); upper.pop();
+  return lower.concat(upper);
+}
+
 // the map is a year machine: scrub/play to see empires spread, zoom with the wheel, drag to pan
 function setupMap(model, basemap) {
   const svg = document.getElementById("map");
@@ -201,7 +219,10 @@ function setupMap(model, basemap) {
 
   const baseG = el("g", {}, svg);
   if (basemap) drawBasemap(baseG, basemap, x, y);
+  const hullG = el("g", {}, svg);
   const markerG = el("g", {}, svg);
+  const hullsBox = document.getElementById("hulls");
+  let lastYear = 0;
 
   svg.addEventListener("wheel", e => {
     e.preventDefault();
@@ -226,11 +247,29 @@ function setupMap(model, basemap) {
   });
   window.addEventListener("mouseup", () => { drag = null; });
   document.getElementById("zoomreset").addEventListener("click", () => { vb = { ...home }; apply(); });
+  hullsBox.addEventListener("change", () => update(lastYear));
 
   const legendBox = document.getElementById("empire-legend");
   function update(year) {
+    lastYear = year;
+    hullG.innerHTML = "";
     markerG.innerHTML = "";
-    for (const sg of TimelineModel.stateAt(model, year)) {
+    const state = TimelineModel.stateAt(model, year);
+
+    // optional shaded empire territories (convex hull of each empire's cities that year)
+    if (hullsBox.checked) {
+      const byPolity = {};
+      for (const sg of state) if (sg.polity) (byPolity[sg.polity] || (byPolity[sg.polity] = [])).push(sg);
+      for (const name in byPolity) {
+        const group = byPolity[name];
+        if (group.length < 3) continue;
+        const hull = convexHull(group.map(sg => ({ x: x(+sg.city.lon), y: y(+sg.city.lat) })));
+        el("polygon", { points: hull.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" "),
+          fill: group[0].color, "fill-opacity": .12, stroke: group[0].color, "stroke-opacity": .4, "stroke-width": 1.2 }, hullG);
+      }
+    }
+
+    for (const sg of state) {
       const c = sg.city;
       const r = 4.5;   // uniform marker size (population is shown in its own panel)
       const node = el("circle", { cx: x(+c.lon), cy: y(+c.lat), r, fill: sg.color,
@@ -239,8 +278,11 @@ function setupMap(model, basemap) {
       bindTip(node, `<b>${c.canonical_name}</b><br><span class="meta">${sg.polity || "independent / no record"}</span>`
         + (sg.pop ? `<br><span class="meta">~${sg.pop.toLocaleString()}</span>` : "")
         + `<br><span class="meta">${regionLabel(c.region)}</span>`);
-      const lab = el("text", { x: x(+c.lon) + r + 3, y: y(+c.lat) + 3, "font-size": 10 }, markerG);
-      lab.setAttribute("fill", "#cfd3da"); lab.textContent = c.canonical_name;
+      // minor cities are hover-only; label major cities (sizable or a capital that year)
+      if (TimelineModel.isMajorAt(model.cityInfo[sg.id], year)) {
+        const lab = el("text", { x: x(+c.lon) + r + 3, y: y(+c.lat) + 3, "font-size": 10 }, markerG);
+        lab.setAttribute("fill", "#cfd3da"); lab.textContent = c.canonical_name;
+      }
     }
     legendBox.innerHTML = "";
     const active = TimelineModel.empiresActiveAt(model, year)

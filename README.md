@@ -173,6 +173,21 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Hornblower2011` | S. Hornblower, *The Greek World 479–323 BC* (2011) |
 | `Hansen2006` | M.H. Hansen, *Polis: An Introduction to the Ancient Greek City-State* (2006) |
 | `Hammond1989` | N.G.L. Hammond, *The Macedonian State* (1989) |
+| `Welsby1996` | D. Welsby, *The Kingdom of Kush* (1996) |
+| `Welsby2002` | D. Welsby, *The Medieval Kingdoms of Nubia* (2002) |
+| `Tsetskhladze2008` | G. Tsetskhladze (ed.), *Greek Colonisation* (2006–2008) |
+| `Miles2010` | R. Miles, *Carthage Must Be Destroyed* (2010) |
+| `Raven1993` | S. Raven, *Rome in Africa* (1993) |
+| `Boardman1999` | J. Boardman, *The Greeks Overseas* (1999) |
+| `Cornell1995` | T. Cornell, *The Beginnings of Rome* (1995) |
+| `Beard2015` | M. Beard, *SPQR: A History of Ancient Rome* (2015) |
+| `Mitchell2007` | S. Mitchell, *A History of the Later Roman Empire* (2007) |
+| `Drinkwater1983` | J. Drinkwater, *Roman Gaul* (1983) |
+| `Salway1981` | P. Salway, *Roman Britain* (1981) |
+| `King1990` | A. King, *Roman Gaul and Germany* (1990) |
+| `Richardson1996` | J. Richardson, *The Romans in Spain* (1996) |
+| `Kennedy1996` | H. Kennedy, *Muslim Spain and Portugal* (1996) |
+| `Collins2004` | R. Collins, *Visigothic Spain 409–711* (2004) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -239,7 +254,8 @@ moves east toward China.
 - [x] Basemap pipeline: `tools/make_basemap.R` → `web/basemap.geojson`, drawn as SVG (run locally to populate)
 - [x] Derived-data layer (`web/model.js`): empire inference + per-year city state, unit-tested
 - [x] Visualizer v2: map time-slider/play + zoom/pan; empire-centric lifespan panel
-- [ ] Controlled polity vocabulary (alias map or `polities.csv`) to de-duplicate empires
+- [x] Polity alias map in `model.js` to de-duplicate empires (Rome, Achaemenid Persia, Macedon, …)
+- [x] Minor cities hover-only; optional shaded empire hulls on the map
 - [ ] GIF/video export of the map animation (frame = `stateAt(year)`; encode via a small R/Python step)
 - [ ] Replace placeholder population figures with the Reba2016 georeferenced series
 
@@ -250,7 +266,14 @@ Expansion sequence (region by region):
 - [x] **Anatolia** (Çatalhöyük, Troy, Hattusa, Gordion, Sardis, Ephesus, Byzantium)
 - [x] **Greece** (Knossos, Mycenae, Athens, Sparta, Corinth, Thebes, Argos)
 - [x] **Macedon** (Pella, Aigai, Thessalonica, Philippi)
-- [ ] **Pontic steppe**
-- [ ] Westward: **North Africa** (Carthage), **Italy**, **Gaul**, **Albion**, **Germania**, **Iberia**
+- [x] **Nubia / Kush** (Kerma, Napata, Meroë, Old Dongola, Soba) — filling the upper Nile
+- [x] **Pontic steppe** (Panticapaeum, Olbia, Chersonesus, Tanais)
+- [x] **North Africa** (Carthage, Cyrene, Utica, Leptis Magna)
+- [x] **Italy** (Rome, Syracuse, Tarentum, Neapolis, Mediolanum, Ravenna)
+- [x] **Gaul** (Massalia, Lugdunum, Lutetia, Narbo, Burdigala)
+- [x] **Iberia** (Gades, Carthago Nova, Tarraco, Corduba, Emerita, Toletum)
+- [x] **Britannia** (Londinium, Camulodunum, Eboracum)
+- [x] **Germania** (Colonia Agrippina, Augusta Treverorum, Mogontiacum)
 - [ ] Eastward: **India** (and onward to China, SE Asia)
+- [ ] Sub-Saharan Africa, the Eurasian steppe deeper, and the Americas
 ```
