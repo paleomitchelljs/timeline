@@ -225,6 +225,8 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Davies1996` | N. Davies, *Europe: A History* (1996) |
 | `Fausto1999` | B. Fausto, *A Concise History of Brazil* (1999) |
 | `Bethell1984` | L. Bethell (ed.), *The Cambridge History of Latin America* (1984) |
+| `Hourani1991` | A. Hourani, *A History of the Arab Peoples* (1991) |
+| `Axworthy2008` | M. Axworthy, *A History of Iran: Empire of the Mind* (2008) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -348,6 +350,10 @@ Expansion sequence (region by region):
 - [x] More East/North cities: Chengdu, Xingqing, Datong, Liaoyang, Dading, Hong Kong, Avarga; Viking towns (Hedeby, Birka, Dublin, Jorvik)
 - [x] Post-Roman European succession: Franks/France, Ostrogoth→Lombard→HRE→Kingdom of Italy, Visigoth→Umayyad→Castile/Aragon→Spain (+ Madrid), Anglo-Saxon England→United Kingdom; Byzantine reconquests.
 - [x] Regional deepening pass (East Asia, India, Eastern Europe, Americas). New empires now surfaced: **Qin**, **Sui** (China's unifications), **Empire of Japan**/Kamakura/Tokugawa; **Kushan** & **Maratha** (India); **Golden Horde reach**, **Polish-Lithuanian Commonwealth**, **Russia**, **First/Second Bulgarian Empire**, Ottoman-in-the-Balkans; **Empire of Brazil**, **Brazil**, **New Spain**, **Argentina**. ~30 new cities (Agra, Kolkata, Mathura, Hakata, Warsaw, St Petersburg, Vilnius, Lviv, Belgrade, Sofia, Tarnovo, Rio, São Paulo, Salvador, Brasília, Buenos Aires…). Independent-gap count fell 78→58.
-- [ ] Remaining audit gaps: post-Roman **North Africa** (Vandal/Byzantine/Arab 500–1551 for Tripoli, Algiers, Cirta, Tlemcen); pre-330 Byzantion; deep-time city-states (legitimately pre-imperial)
-- [ ] Hard-but-wanted empires still open: **Xiongnu** and other nomadic states (no fixed capital — needs a steppe-camp anchor); the **Soviet Union** (would unify Moscow/Leningrad/Kyiv/Vilnius/Warsaw 1922–91)
+- [x] Post-Roman **Maghreb** succession (Vandal→Byzantine→Arab→Fatimid→Almohad→Hafsid/Zayyanid→Ottoman→colonial→modern) for Tripoli, Algiers, Cirta, Tlemcen + new Hippo Regius, Oran, Rabat, Tangier. Carthage corrected to a Vandal then Byzantine capital.
+- [x] **Soviet Union** (1922–91) across Moscow, Leningrad, Kyiv, Vilnius, Lviv, the Central Asian SSRs, and the Warsaw-Pact capitals, each reverting to its successor state in 1989–91.
+- [x] **Greek** revision: hegemon poleis recoded as real leagues with members (Delian/Peloponnesian/Boeotian), colonies attributed to mother-cities (Corinth→Syracuse, Miletus→Pontic colonies, etc.), Tanais as a Bosporan emporium, junk descriptive "empires" removed.
+- [x] **Middle East / Muslim empires**: full Rashidun→Umayyad→Abbasid→Buyid/Seljuk→Fatimid→Ayyubid→Mamluk→Ilkhanate→Safavid→Ottoman→modern succession; new Mecca, Medina, Riyadh, Kufa, Basra, Mosul, Aleppo, Isfahan, Shiraz, Tehran.
+- [ ] Remaining audit gaps: pre-330 Byzantion; deep-time city-states (legitimately pre-imperial); a few deep-history adds (Aleppo, Miletus) carry honest early-Independent stretches
+- [ ] Hard-but-wanted empires still open: **Xiongnu** and other nomadic states (no fixed capital — needs a steppe-camp anchor)
 ```

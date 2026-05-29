@@ -235,7 +235,7 @@ obs_0233,ephesus,-550,-550,circa,attestation,The Temple of Artemis,Croesus,Mitch
 obs_0234,ephesus,-546,-546,circa,conquest,,Achaemenid Persia (Cyrus II),Briant2002,low,Absorbed with the rest of Ionia
 obs_0235,ephesus,-100,-100,circa,population_estimate,200000,,Chandler1987,low,Among the largest cities of the Roman east
 obs_0236,ephesus,1400,1400,century,abandonment,,,Mitchell1993,low,Abandoned as its harbor silted and the coast receded
-obs_0237,byzantium,-660,-660,circa,founding,,,Mango2002,low,Greek colony of Byzantion on the Bosphorus
+obs_0237,byzantium,-660,-660,circa,founding,,Megara,Mango2002,low,Greek colony of Byzantion founded by Megara
 obs_0238,byzantium,330,330,exact,refounding,Constantinople,Rome (Constantine),Mango2002,high,Constantine refounds the Greek city as the new Roman capital
 obs_0239,byzantium,330,1453,circa,capital_status,Capital of the Byzantine Empire,,Mango2002,high,The seat of the eastern Roman empire for over a millennium
 obs_0240,byzantium,500,500,circa,population_estimate,500000,,Chandler1987,low,Capital of the Byzantine Empire and the largest city in Europe
@@ -250,13 +250,13 @@ obs_0248,mycenae,-1600,-1100,circa,capital_status,Center of a Mycenaean kingdom,
 obs_0249,mycenae,-1100,-1100,circa,destruction,,,Dickinson1994,low,Destroyed amid the Bronze Age collapse
 obs_0250,mycenae,-150,-150,century,abandonment,,,Dickinson1994,low,A minor town in classical times; deserted by the Roman era
 obs_0251,athens,-3000,-3000,circa,founding,,,Hornblower2011,low,Continuously inhabited from the Neolithic around the Acropolis
-obs_0252,athens,-480,-322,circa,capital_status,Leading polis of Classical Greece,,Hornblower2011,high,Democracy and empire and the cultural golden age under Pericles
+obs_0252,athens,-478,-404,circa,capital_status,Capital of the Delian League,,Hornblower2011,high,Head of the Delian League at the height of Athenian democracy
 obs_0253,athens,-430,-430,circa,population_estimate,150000,,Chandler1987,low,The city and Piraeus at the height of the Athenian empire
 obs_0254,athens,-146,-146,circa,conquest,,Rome,Hornblower2011,medium,Absorbed into Roman Greece after the sack of Corinth
 obs_0255,athens,1458,1458,circa,conquest,,Ottoman Empire,Runciman1965,low,Taken by the Ottomans
 obs_0256,athens,2020,2020,circa,population_estimate,3100000,,UN2018,medium,Modern Athens; capital of Greece
 obs_0257,sparta,-1000,-1000,circa,founding,,,Hansen2006,low,Dorian settlement on the Eurotas
-obs_0258,sparta,-550,-371,circa,capital_status,Hegemon of the Peloponnese,,Hansen2006,medium,Dominant until the defeat at Leuctra
+obs_0258,sparta,-546,-371,circa,capital_status,Capital of the Peloponnesian League,,Hansen2006,medium,Led the Peloponnesian League until the defeat at Leuctra
 obs_0259,sparta,-146,-146,circa,conquest,,Rome,Hansen2006,low,Absorbed into Roman Greece
 obs_0260,sparta,396,396,circa,abandonment,,Visigoths (Alaric),Hansen2006,low,Sacked by Alaric and later deserted until the modern town of Sparti
 obs_0261,corinth,-900,-900,circa,founding,,,Hansen2006,low,Wealthy commercial polis on the isthmus
@@ -264,11 +264,11 @@ obs_0262,corinth,-146,-146,exact,destruction,,Rome (Mummius),Hornblower2011,high
 obs_0263,corinth,-44,-44,exact,refounding,Roman colony,Rome (Julius Caesar),Hornblower2011,high,Refounded by Caesar; later capital of the province of Achaea
 obs_0264,corinth,1400,1400,century,abandonment,,,Hansen2006,low,Declined through the Byzantine and Frankish eras
 obs_0265,thebai,-1400,-1400,circa,founding,,,Dickinson1994,low,Mycenaean palace center on the Cadmea
-obs_0266,thebai,-371,-362,circa,capital_status,Hegemon of Greece,Epaminondas,Hansen2006,medium,Brief Theban supremacy after Leuctra
+obs_0266,thebai,-371,-338,circa,capital_status,Capital of the Boeotian League,Epaminondas,Hansen2006,medium,Led the Boeotian League in the brief Theban supremacy
 obs_0267,thebai,-335,-335,exact,destruction,,Macedon (Alexander III),Hornblower2011,high,Alexander razes Thebes and sells its people into slavery
 obs_0268,thebai,-316,-316,circa,refounding,,Cassander,Hammond1989,low,Rebuilt by Cassander; later the modest town of Thiva
 obs_0269,argos,-5000,-5000,circa,founding,,,Hansen2006,low,One of the oldest continuously inhabited cities in Greece
-obs_0270,argos,-650,-650,century,capital_status,Leading early Dorian polis,,Hansen2006,low,Dominant under Pheidon in the seventh century
+obs_0270,argos,-650,-650,century,attestation,Leading early Dorian polis,,Hansen2006,low,Dominant under Pheidon in the seventh century
 obs_0271,argos,-146,-146,circa,conquest,,Rome,Hansen2006,low,Absorbed into Roman Greece
 obs_0272,argos,2020,2020,circa,population_estimate,50000,,UN2018,low,Modern Argos; continuously inhabited for millennia
 obs_0273,pella,-400,-400,circa,founding,,Archelaus,Hammond1989,low,Archelaus moves the Macedonian capital to Pella
@@ -306,19 +306,19 @@ obs_0304,dongola,1400,1400,century,abandonment,,,Welsby2002,low,Abandoned as the
 obs_0305,soba,500,500,circa,founding,,,Welsby2002,low,Capital of the Christian kingdom of Alodia on the Blue Nile
 obs_0306,soba,550,1500,circa,capital_status,Capital of Alodia,,Welsby2002,medium,The southernmost Christian Nubian kingdom
 obs_0307,soba,1504,1504,circa,destruction,,Funj Sultanate,Welsby2002,low,Destroyed as the Funj sultanate rose near modern Khartoum
-obs_0308,panticapaeum,-600,-600,circa,founding,,,Tsetskhladze2008,low,Milesian colony on the Cimmerian Bosporus
+obs_0308,panticapaeum,-600,-600,circa,founding,,Miletus,Tsetskhladze2008,low,Milesian colony on the Cimmerian Bosporus
 obs_0309,panticapaeum,-480,370,circa,capital_status,Capital of the Bosporan Kingdom,,Tsetskhladze2008,medium,A Greek kingdom that shipped grain to Athens
 obs_0310,panticapaeum,14,14,circa,conquest,,Rome,Tsetskhladze2008,low,Becomes a Roman client kingdom
 obs_0311,panticapaeum,370,370,circa,attestation,Hunnic sack,Huns,Tsetskhladze2008,low,Devastated by the Huns; later the Byzantine town of Bosporos
 obs_0312,panticapaeum,2020,2020,circa,population_estimate,150000,,UN2018,low,Modern Kerch
-obs_0313,olbia,-600,-600,circa,founding,,,Tsetskhladze2008,low,Milesian colony on the Black Sea steppe
+obs_0313,olbia,-600,-600,circa,founding,,Miletus,Tsetskhladze2008,low,Milesian colony on the Black Sea steppe
 obs_0314,olbia,-50,-50,circa,attestation,Getic sack,Getae,Tsetskhladze2008,low,Sacked by the Getae and only partly rebuilt
 obs_0315,olbia,350,350,century,abandonment,,,Tsetskhladze2008,low,Abandoned under Gothic and Hunnic pressure
-obs_0316,chersonesus,-422,-422,circa,founding,,,Tsetskhladze2008,low,Dorian colony in the southwestern Crimea
+obs_0316,chersonesus,-422,-422,circa,founding,,Heraclea Pontica,Tsetskhladze2008,low,Dorian colony in the southwestern Crimea
 obs_0317,chersonesus,-63,-63,circa,conquest,,Rome,Tsetskhladze2008,low,Drawn under Roman protection against the steppe
 obs_0318,chersonesus,988,988,circa,attestation,Byzantine Cherson,,Mango2002,low,A major Byzantine port and place of exile
 obs_0319,chersonesus,1399,1399,circa,abandonment,,,Tsetskhladze2008,low,Destroyed by Nogai raids and abandoned
-obs_0320,tanais,-300,-300,circa,founding,,,Tsetskhladze2008,low,Greek-Sarmatian emporium at the mouth of the Don
+obs_0320,tanais,-300,-300,circa,founding,,Bosporan Kingdom,Tsetskhladze2008,low,Emporium founded by the Bosporan Kingdom at the mouth of the Don
 obs_0321,tanais,250,250,circa,attestation,Gothic sack,Goths,Tsetskhladze2008,low,Sacked during the Gothic incursions
 obs_0322,tanais,500,500,century,abandonment,,,Tsetskhladze2008,low,Abandoned in late antiquity
 obs_0323,carthage,-814,-814,circa,founding,,,Miles2010,medium,Founded by colonists from Tyre
@@ -326,10 +326,11 @@ obs_0324,carthage,-650,-146,circa,capital_status,Capital of the Carthaginian Emp
 obs_0325,carthage,-300,-300,circa,population_estimate,300000,,Chandler1987,low,Among the largest cities of the ancient world
 obs_0326,carthage,-146,-146,exact,destruction,,Rome (Scipio Aemilianus),Miles2010,high,Rome razes Carthage at the end of the Third Punic War
 obs_0327,carthage,-29,-29,exact,refounding,Roman colony,Rome (Augustus),Raven1993,high,Refounded as a Roman colony and capital of Africa Proconsularis
-obs_0328,carthage,439,439,exact,conquest,,Vandals (Geiseric),Raven1993,medium,The Vandals make Carthage their capital
+obs_0328,carthage,439,534,exact,capital_status,Capital of the Vandals,Geiseric,Raven1993,medium,The Vandals make Carthage their royal capital
+obs_1489,carthage,534,698,circa,capital_status,Capital of the Exarchate of Africa,,Raven1993,medium,Seat of Byzantine Africa after Belisarius reconquers it
 obs_0329,carthage,698,698,circa,conquest,,Umayyad Caliphate,Raven1993,medium,Taken in the Arab conquest and eclipsed by nearby Tunis
 obs_0330,carthage,700,700,century,abandonment,,,Raven1993,low,Abandoned as Tunis rose
-obs_0331,cyrene,-631,-631,circa,founding,,,Boardman1999,low,Greek colony from the island of Thera
+obs_0331,cyrene,-631,-631,circa,founding,,Thera,Boardman1999,low,Greek colony from the island of Thera
 obs_0332,cyrene,-322,-322,circa,conquest,,Ptolemaic Egypt,Boardman1999,medium,Absorbed by Ptolemaic Egypt after Alexander
 obs_0333,cyrene,-96,-96,circa,conquest,,Rome,Raven1993,low,Bequeathed to Rome and made a province
 obs_0334,cyrene,365,365,circa,abandonment,,,Raven1993,low,Ruined by the 365 earthquake and later raids
@@ -348,12 +349,12 @@ obs_0346,rome,476,476,exact,conquest,,Ostrogothic Kingdom,Beard2015,medium,The W
 obs_0347,rome,550,550,circa,population_estimate,30000,,Chandler1987,low,Collapsed to a fraction of its imperial size
 obs_0348,rome,756,1870,circa,capital_status,Capital of the Papal States,,Beard2015,medium,Center of the medieval and early modern papacy
 obs_0349,rome,2020,2020,circa,population_estimate,2800000,,UN2018,medium,Modern Rome; capital of Italy
-obs_0350,syracuse,-734,-734,circa,founding,,,Boardman1999,low,Corinthian colony in Sicily
-obs_0351,syracuse,-480,-212,circa,capital_status,Leading power of Greek Sicily,,Boardman1999,medium,Rival of Carthage and Athens under tyrants such as Dionysius
+obs_0350,syracuse,-734,-734,circa,founding,,Corinth,Boardman1999,low,Corinthian colony in Sicily
+obs_0351,syracuse,-650,-212,circa,capital_status,Capital of Greek Sicily,,Boardman1999,medium,A great Greek power rivaling Carthage and Athens under its tyrants
 obs_0352,syracuse,-212,-212,circa,conquest,,Rome (Marcellus),Beard2015,high,Rome takes Syracuse after a long siege; Archimedes is killed
 obs_0353,syracuse,878,878,circa,conquest,,Aghlabids,Raven1993,low,Captured in the Arab conquest of Sicily
 obs_0354,syracuse,2020,2020,circa,population_estimate,120000,,UN2018,low,Modern Siracusa
-obs_0355,tarentum,-706,-706,circa,founding,,,Boardman1999,low,The only Spartan colony and chief city of Magna Graecia
+obs_0355,tarentum,-706,-706,circa,founding,,Sparta,Boardman1999,low,The only Spartan colony and chief city of Magna Graecia
 obs_0356,tarentum,-272,-272,circa,conquest,,Rome,Beard2015,medium,Absorbed by Rome after the war with Pyrrhus
 obs_0357,tarentum,2020,2020,circa,population_estimate,200000,,UN2018,low,Modern Taranto
 obs_0358,neapolis,-600,-600,circa,founding,,,Boardman1999,low,Greek Neapolis or new city on the bay
@@ -367,7 +368,7 @@ obs_0365,ravenna,-200,-200,circa,founding,,,Mitchell2007,low,An Adriatic port to
 obs_0366,ravenna,402,751,circa,capital_status,Capital of the Western Empire and the Exarchate,,Mitchell2007,medium,Imperial then Ostrogothic then Byzantine capital of Italy
 obs_0367,ravenna,751,751,circa,conquest,,Lombards,Mango2002,low,The Lombards end Byzantine rule in Italy
 obs_0368,ravenna,2020,2020,circa,population_estimate,160000,,UN2018,low,Modern Ravenna
-obs_0369,massalia,-600,-600,circa,founding,,,Boardman1999,low,Phocaean Greek colony on the southern coast of Gaul
+obs_0369,massalia,-600,-600,circa,founding,,Phocaea,Boardman1999,low,Phocaean Greek colony on the southern coast of Gaul
 obs_0370,massalia,-49,-49,circa,conquest,,Rome (Julius Caesar),Drinkwater1983,medium,Besieged by Caesar and absorbed into Roman Gaul
 obs_0371,massalia,2020,2020,circa,population_estimate,1600000,,UN2018,medium,Modern Marseille
 obs_0372,lugdunum,-43,-43,circa,founding,,,Drinkwater1983,low,Founded as a Roman colony at the meeting of the rivers
@@ -1355,7 +1356,7 @@ obs_1353,vienna,100,100,circa,conquest,,Rome,Davies1996,medium,The Roman legiona
 obs_1354,vienna,1156,1156,circa,conquest,,Holy Roman Empire,Davies1996,low,Seat of the Babenberg duchy within the Empire
 obs_1355,vienna,1918,2020,circa,capital_status,Capital of Austria,,Davies1996,high,Capital of the Austrian republic
 obs_1356,krakow,1918,1918,circa,conquest,,Poland,Davies1996,low,Part of the restored Polish state
-obs_1357,buda,1918,1918,circa,conquest,,Hungary,Davies1996,medium,Capital of independent Hungary
+obs_1357,buda,1918,2020,circa,capital_status,Capital of Hungary,,Davies1996,high,Capital of independent Hungary
 obs_1358,warsaw,1300,1300,circa,founding,,,Davies1996,low,A Mazovian town on the Vistula
 obs_1359,warsaw,1596,1795,circa,capital_status,Capital of the Polish-Lithuanian Commonwealth,Sigismund III,Davies1996,high,The royal capital moved here from Krakow
 obs_1360,warsaw,1795,1795,circa,conquest,,Kingdom of Prussia,Davies1996,low,Annexed by Prussia in the third partition
@@ -1422,3 +1423,199 @@ obs_1420,buenos-aires,1580,1580,circa,founding,,Spanish Empire,Bethell1984,mediu
 obs_1421,buenos-aires,1810,2020,circa,capital_status,Capital of Argentina,,Bethell1984,high,Capital after the May Revolution and independence
 obs_1422,buenos-aires,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Buenos Aires
 obs_1423,havana,1535,1535,circa,conquest,,New Spain,Bethell1984,low,Administered within the viceroyalty of New Spain
+obs_1424,tripoli,439,439,circa,conquest,,Vandals,Raven1993,low,Taken by the Vandals from Roman Africa
+obs_1425,tripoli,533,533,circa,conquest,,Byzantine Empire,Raven1993,low,Recovered in the Byzantine reconquest
+obs_1426,tripoli,643,643,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,Taken in the Arab conquest of the Maghrib
+obs_1427,tripoli,911,911,circa,conquest,,Fatimid Caliphate,Brett2017,low,Held by the Fatimids of Ifriqiya
+obs_1428,tripoli,1158,1158,circa,conquest,,Almohad Caliphate,AbunNasr1987,low,Absorbed into the Almohad realm
+obs_1429,tripoli,1321,1321,circa,conquest,,Hafsid dynasty,AbunNasr1987,low,Under the Hafsids of Tunis
+obs_1430,tripoli,1951,2020,circa,capital_status,Capital of Libya,,AbunNasr1987,high,Capital of independent Libya
+obs_1431,algiers,430,430,circa,conquest,,Vandals,Raven1993,low,Taken by the Vandals
+obs_1432,algiers,710,710,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_1433,algiers,1082,1082,circa,conquest,,Almoravid Empire,AbunNasr1987,low,Brought under Almoravid rule
+obs_1434,algiers,1152,1152,circa,conquest,,Almohad Caliphate,AbunNasr1987,low,Absorbed into the Almohad realm
+obs_1435,algiers,1235,1235,circa,conquest,,Zayyanid kingdom,AbunNasr1987,low,Within the Zayyanid sphere of Tlemcen
+obs_1436,cirta,439,439,circa,conquest,,Vandals,Raven1993,low,Taken by the Vandals
+obs_1437,cirta,534,534,circa,conquest,,Byzantine Empire,Raven1993,low,Recovered by the Byzantines
+obs_1438,cirta,698,698,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_1439,cirta,944,944,circa,conquest,,Fatimid Caliphate,Brett2017,low,Held by the Fatimids and their Zirid governors
+obs_1440,cirta,1152,1152,circa,conquest,,Almohad Caliphate,AbunNasr1987,low,Absorbed into the Almohad realm
+obs_1441,cirta,1300,1300,circa,conquest,,Hafsid dynasty,AbunNasr1987,low,A western outpost of the Hafsids
+obs_1442,cirta,1567,1567,circa,conquest,,Ottoman Empire,AbunNasr1987,medium,A beylik seat of Ottoman Algeria
+obs_1443,cirta,1962,1962,circa,conquest,,Algeria,AbunNasr1987,low,Part of independent Algeria as Constantine
+obs_1444,tlemcen,700,700,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Taken in the Arab conquest as Roman Pomaria fades
+obs_1445,tlemcen,1080,1080,circa,conquest,,Almoravid Empire,AbunNasr1987,low,Refounded as Tagrart by the Almoravids
+obs_1446,tlemcen,1145,1145,circa,conquest,,Almohad Caliphate,AbunNasr1987,low,Absorbed into the Almohad realm
+obs_1447,tlemcen,1842,1842,circa,conquest,,French Empire,AbunNasr1987,low,Taken by France
+obs_1448,tlemcen,1962,1962,circa,conquest,,Algeria,AbunNasr1987,low,Part of independent Algeria
+obs_1449,tunis,1956,2020,circa,capital_status,Capital of Tunisia,,AbunNasr1987,high,Capital of independent Tunisia
+obs_1450,fez,1666,1666,circa,conquest,,Morocco,AbunNasr1987,low,Brought into Alaouite Morocco
+obs_1451,fez,1912,1912,circa,conquest,,French Empire,AbunNasr1987,low,Under the French protectorate
+obs_1452,fez,1956,1956,circa,conquest,,Morocco,AbunNasr1987,low,Part of independent Morocco
+obs_1453,marrakesh,1666,1666,circa,conquest,,Morocco,AbunNasr1987,low,Brought into Alaouite Morocco
+obs_1454,marrakesh,1912,1912,circa,conquest,,French Empire,AbunNasr1987,low,Under the French protectorate
+obs_1455,marrakesh,1956,1956,circa,conquest,,Morocco,AbunNasr1987,low,Part of independent Morocco
+obs_1456,hippo-regius,-1000,-1000,circa,founding,,,Raven1993,low,Phoenician trading post that became Roman Hippo Regius
+obs_1457,hippo-regius,-46,-46,circa,conquest,,Rome,Raven1993,medium,A wealthy Roman city of Roman Africa
+obs_1458,hippo-regius,431,439,circa,capital_status,Capital of the Vandals,Geiseric,Raven1993,medium,Geiseric's first capital; Augustine dies in the siege of 430
+obs_1459,hippo-regius,534,534,circa,conquest,,Byzantine Empire,Raven1993,low,Recovered in the Byzantine reconquest
+obs_1460,hippo-regius,698,698,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Taken in the Arab conquest and long in decline
+obs_1461,hippo-regius,1832,1832,circa,conquest,,French Empire,AbunNasr1987,low,Refounded by the French as Bone
+obs_1462,hippo-regius,1962,1962,circa,conquest,,Algeria,AbunNasr1987,low,Part of independent Algeria as Annaba
+obs_1463,hippo-regius,2020,2020,circa,population_estimate,640000,,UN2018,low,Modern Annaba
+obs_1464,oran,903,903,circa,founding,,,AbunNasr1987,low,Founded by Andalusi merchants on the Algerian coast
+obs_1465,oran,1082,1082,circa,conquest,,Almoravid Empire,AbunNasr1987,low,Brought under Almoravid rule
+obs_1466,oran,1152,1152,circa,conquest,,Almohad Caliphate,AbunNasr1987,low,Absorbed into the Almohad realm
+obs_1467,oran,1235,1235,circa,conquest,,Zayyanid kingdom,AbunNasr1987,low,A port of the Zayyanid kingdom
+obs_1468,oran,1509,1509,circa,conquest,,Spanish Empire,AbunNasr1987,medium,Held as a Spanish presidio for nearly three centuries
+obs_1469,oran,1792,1792,circa,conquest,,Ottoman Empire,AbunNasr1987,low,Ceded to the Regency of Algiers
+obs_1470,oran,1831,1831,circa,conquest,,French Empire,AbunNasr1987,low,Taken by France
+obs_1471,oran,1962,1962,circa,conquest,,Algeria,AbunNasr1987,low,Part of independent Algeria
+obs_1472,oran,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Oran
+obs_1473,rabat,1150,1150,circa,founding,,Almohad Caliphate,AbunNasr1987,low,Founded as an Almohad ribat on the Atlantic
+obs_1474,rabat,1274,1274,circa,conquest,,Marinid Sultanate,AbunNasr1987,low,Held by the Marinids
+obs_1475,rabat,1666,1666,circa,conquest,,Morocco,AbunNasr1987,low,Brought into Alaouite Morocco
+obs_1476,rabat,1912,2020,circa,capital_status,Capital of Morocco,,AbunNasr1987,high,Made the capital under the protectorate and kept by independent Morocco
+obs_1477,rabat,2020,2020,circa,population_estimate,1900000,,UN2018,low,Modern Rabat
+obs_1478,tangier,-500,-500,circa,founding,,,Raven1993,low,Phoenician Tingis at the mouth of the Mediterranean
+obs_1479,tangier,40,40,circa,conquest,,Rome,Raven1993,medium,Capital of the province of Mauretania Tingitana
+obs_1480,tangier,429,429,circa,conquest,,Vandals,Raven1993,low,Taken by the Vandals on their way to Africa
+obs_1481,tangier,534,534,circa,conquest,,Byzantine Empire,Raven1993,low,Held briefly by the Byzantines
+obs_1482,tangier,702,702,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,A launch point for the conquest of Iberia
+obs_1483,tangier,1150,1150,circa,conquest,,Almohad Caliphate,AbunNasr1987,low,Absorbed into the Almohad realm
+obs_1484,tangier,1274,1274,circa,conquest,,Marinid Sultanate,AbunNasr1987,low,Held by the Marinids
+obs_1485,tangier,1471,1471,circa,conquest,,Portuguese Empire,AbunNasr1987,medium,Taken by Portugal
+obs_1486,tangier,1661,1661,circa,conquest,,British Empire,AbunNasr1987,medium,Ceded to England as part of Catherine of Braganza's dowry
+obs_1487,tangier,1684,1684,circa,conquest,,Morocco,AbunNasr1987,medium,Retaken by Moulay Ismail for Alaouite Morocco
+obs_1488,tangier,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Tangier
+obs_1490,moscow,1922,1991,circa,capital_status,Capital of the Soviet Union,,Davies1996,high,Capital of the USSR
+obs_1491,moscow,1991,1991,circa,conquest,,Russia,Davies1996,high,Capital of the Russian Federation after the Soviet collapse
+obs_1492,st-petersburg,1922,1922,circa,conquest,,Soviet Union,Davies1996,medium,Leningrad the second city of the USSR
+obs_1493,st-petersburg,1991,1991,circa,conquest,,Russia,Davies1996,low,Part of the Russian Federation
+obs_1494,kiev,1922,1922,circa,conquest,,Soviet Union,Davies1996,medium,Capital of the Ukrainian SSR
+obs_1495,vilnius,1940,1940,circa,conquest,,Soviet Union,Davies1996,medium,Annexed as the capital of the Lithuanian SSR
+obs_1496,vilnius,1991,1991,circa,conquest,,Lithuania,Davies1996,low,Capital of independent Lithuania once more
+obs_1497,lviv,1939,1939,circa,conquest,,Soviet Union,Davies1996,low,Annexed under the Molotov-Ribbentrop pact
+obs_1498,tashkent,1924,1924,circa,conquest,,Soviet Union,Soucek2000,medium,Capital of the Uzbek SSR
+obs_1499,tashkent,1991,2020,circa,capital_status,Capital of Uzbekistan,,Soucek2000,high,Capital of independent Uzbekistan
+obs_1500,samarkand,1868,1868,circa,conquest,,Russian Empire,Soucek2000,low,Taken by the Russians
+obs_1501,samarkand,1924,1924,circa,conquest,,Soviet Union,Soucek2000,low,Part of the Uzbek SSR
+obs_1502,samarkand,1991,1991,circa,conquest,,Uzbekistan,Soucek2000,low,Part of independent Uzbekistan
+obs_1503,bukhara,1868,1868,circa,conquest,,Russian Empire,Soucek2000,low,A Russian protectorate
+obs_1504,bukhara,1920,1920,circa,conquest,,Soviet Union,Soucek2000,low,The emirate overthrown and absorbed by the USSR
+obs_1505,bukhara,1991,1991,circa,conquest,,Uzbekistan,Soucek2000,low,Part of independent Uzbekistan
+obs_1506,warsaw,1945,1945,circa,conquest,,Soviet Union,Davies1996,medium,Capital of the Soviet-aligned Polish People's Republic
+obs_1507,warsaw,1989,1989,circa,conquest,,Poland,Davies1996,medium,Capital of post-communist Poland
+obs_1508,prague,1948,1948,circa,conquest,,Soviet Union,Davies1996,low,A Soviet satellite after the communist coup
+obs_1509,prague,1993,2020,circa,capital_status,Capital of the Czech Republic,,Davies1996,high,Capital of the Czech Republic after the Velvet Divorce
+obs_1510,buda,1949,1949,circa,conquest,,Soviet Union,Davies1996,low,A Soviet satellite under the People's Republic
+obs_1511,buda,1989,1989,circa,conquest,,Hungary,Davies1996,low,Free after the fall of communism
+obs_1512,sofia,1946,1946,circa,conquest,,Soviet Union,Davies1996,low,A Soviet satellite under the People's Republic
+obs_1513,sofia,1989,1989,circa,conquest,,Bulgaria,Davies1996,low,Free after the fall of communism
+obs_1514,athens,-338,-338,circa,conquest,,Macedon,Hornblower2011,medium,Brought under Macedonian hegemony after Chaeronea
+obs_1515,byzantium,-477,-477,circa,conquest,,Delian League,Hornblower2011,low,A member of the Athenian-led Delian League
+obs_1516,eretria,-477,-477,circa,conquest,,Delian League,Hornblower2011,low,A member of the Delian League after the Persian Wars
+obs_1517,corinth,-700,-338,circa,capital_status,Capital of Corinth,,Hansen2006,medium,A wealthy independent commercial polis and founder of Syracuse
+obs_1518,corinth,-505,-505,circa,conquest,,Peloponnesian League,Hansen2006,low,A leading member of the Spartan-led Peloponnesian League
+obs_1519,corinth,-338,-338,circa,conquest,,Macedon,Hornblower2011,medium,Garrisoned by Macedon as the seat of the League of Corinth
+obs_1520,miletus,-1000,-1000,circa,founding,,,Hornblower2011,low,Chief Ionian Greek city and the great mother of colonies
+obs_1521,miletus,-650,-494,circa,capital_status,Capital of Miletus,,Hornblower2011,medium,Leader of the Ionian cities that founded dozens of Black Sea colonies
+obs_1522,miletus,-546,-546,circa,conquest,,Achaemenid Persia,Hornblower2011,medium,Subject to Persia after the fall of Lydia
+obs_1523,miletus,-494,-494,circa,destruction,,Achaemenid Persia,Hornblower2011,high,Sacked by Persia after the Ionian Revolt
+obs_1524,miletus,-479,-479,circa,conquest,,Delian League,Hornblower2011,low,Liberated and enrolled in the Delian League
+obs_1525,miletus,-334,-334,circa,conquest,,Macedon,Hornblower2011,medium,Taken by Alexander from the Persians
+obs_1526,miletus,-129,-129,circa,conquest,,Rome,Hornblower2011,low,Part of the Roman province of Asia
+obs_1527,miletus,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine town slowly silting up
+obs_1528,miletus,1300,1300,century,abandonment,,,Hornblower2011,low,Abandoned as its harbor silted up
+obs_1529,damascus,970,970,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,Contested by the Fatimids of Egypt
+obs_1530,damascus,1076,1076,circa,conquest,,Seljuk Empire,Hourani1991,low,Taken by the Seljuk Turks
+obs_1531,damascus,1174,1174,circa,conquest,,Ayyubid Sultanate,Hourani1991,medium,A capital of Saladin's Ayyubid realm
+obs_1532,damascus,1260,1260,circa,conquest,,Mamluk Sultanate,Hourani1991,medium,A great Mamluk provincial capital
+obs_1533,damascus,1946,2020,circa,capital_status,Capital of Syria,,Hourani1991,high,Capital of independent Syria
+obs_1534,baghdad,945,945,circa,conquest,,Buyid dynasty,Kennedy2004,medium,The Buyid emirs take power over the Abbasid caliphs
+obs_1535,baghdad,1055,1055,circa,conquest,,Seljuk Empire,Hourani1991,medium,The Seljuk sultans become protectors of the caliphate
+obs_1536,baghdad,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,high,Held by the Mongol Ilkhanate after the sack
+obs_1537,baghdad,1508,1508,circa,conquest,,Safavid Empire,Axworthy2008,low,Contested by Safavid Persia
+obs_1538,baghdad,1932,2020,circa,capital_status,Capital of Iraq,,Hourani1991,high,Capital of independent Iraq
+obs_1539,jerusalem,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,The Umayyads build the Dome of the Rock
+obs_1540,jerusalem,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid provincial town
+obs_1541,jerusalem,970,970,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,Held by the Fatimids of Egypt
+obs_1542,jerusalem,1073,1073,circa,conquest,,Seljuk Empire,Hourani1991,low,Taken by the Seljuk Turks
+obs_1543,jerusalem,1260,1260,circa,conquest,,Mamluk Sultanate,Hourani1991,medium,A Mamluk provincial town
+obs_1544,jerusalem,1917,1917,circa,conquest,,British Empire,Hourani1991,medium,Taken by Britain in the First World War
+obs_1545,jerusalem,1948,2020,circa,capital_status,Capital of Israel,,Hourani1991,medium,Proclaimed the capital of the State of Israel
+obs_1546,antioch,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Held by the Umayyads on the Byzantine frontier
+obs_1547,antioch,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid frontier town
+obs_1548,ecbatana,1100,1100,circa,conquest,,Seljuk Empire,Axworthy2008,low,Held by the Seljuks
+obs_1549,ecbatana,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mongol Ilkhanate
+obs_1550,ecbatana,1500,1500,circa,conquest,,Safavid Empire,Axworthy2008,low,Part of Safavid Persia
+obs_1551,ecbatana,1925,1925,circa,conquest,,Iran,Axworthy2008,low,Part of modern Iran as Hamadan
+obs_1552,medina,-500,-500,circa,founding,,,Kennedy2004,low,The oasis town of Yathrib
+obs_1553,medina,622,661,circa,capital_status,Capital of the Rashidun Caliphate,Muhammad,Kennedy2004,high,The first capital of Islam after the Hijra
+obs_1554,medina,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,A holy city under the Umayyads
+obs_1555,medina,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,A holy city of the Abbasid realm
+obs_1556,medina,1517,1517,circa,conquest,,Ottoman Empire,Hourani1991,medium,Guarded by the Ottoman sultans as servants of the holy cities
+obs_1557,medina,1925,1925,circa,conquest,,Saudi Arabia,Hourani1991,medium,Taken by the Al Saud
+obs_1558,medina,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Medina
+obs_1559,mecca,-400,-400,circa,founding,,,Kennedy2004,low,Ancient sanctuary town of the Hejaz
+obs_1560,mecca,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,high,Muhammad takes Mecca; it becomes Islam's holiest city
+obs_1561,mecca,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,The holy city under the Umayyads
+obs_1562,mecca,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,The holy city under the Abbasids
+obs_1563,mecca,1269,1269,circa,conquest,,Mamluk Sultanate,Hourani1991,low,The Hejaz sharifate under Mamluk protection
+obs_1564,mecca,1517,1517,circa,conquest,,Ottoman Empire,Hourani1991,medium,Guarded by the Ottoman sultans
+obs_1565,mecca,1925,1925,circa,conquest,,Saudi Arabia,Hourani1991,medium,Taken by the Al Saud
+obs_1566,mecca,2020,2020,circa,population_estimate,2000000,,UN2018,medium,Modern Mecca; destination of the hajj
+obs_1567,riyadh,1746,1746,circa,founding,,,Hourani1991,low,The Al Saud establish their base in Najd
+obs_1568,riyadh,1932,2020,circa,capital_status,Capital of Saudi Arabia,Ibn Saud,Hourani1991,high,Capital of the Kingdom of Saudi Arabia
+obs_1569,riyadh,2020,2020,circa,population_estimate,7000000,,UN2018,medium,Modern Riyadh
+obs_1570,kufa,638,638,circa,founding,,Rashidun Caliphate,Kennedy2004,medium,Garrison city founded in the Arab conquest of Iraq
+obs_1571,kufa,656,661,circa,capital_status,Capital of the Rashidun Caliphate,Ali,Kennedy2004,high,Ali makes Kufa the caliphal capital
+obs_1572,kufa,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,A garrison city under the Umayyads
+obs_1573,kufa,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,medium,A base of the Abbasid revolution
+obs_1574,kufa,1100,1100,century,abandonment,,,Kennedy2004,low,Eclipsed by Baghdad and nearby Najaf
+obs_1575,basra,636,636,circa,founding,,Rashidun Caliphate,Kennedy2004,medium,Garrison city and great port of early Islam
+obs_1576,basra,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,A great garrison city under the Umayyads
+obs_1577,basra,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,A center of learning under the Abbasids
+obs_1578,basra,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mongol Ilkhanate
+obs_1579,basra,1534,1534,circa,conquest,,Ottoman Empire,Hourani1991,low,An Ottoman port at the head of the Gulf
+obs_1580,basra,1932,1932,circa,conquest,,Iraq,Hourani1991,low,Part of independent Iraq
+obs_1581,basra,2020,2020,circa,population_estimate,1400000,,UN2018,low,Modern Basra
+obs_1582,mosul,640,640,circa,founding,,Rashidun Caliphate,Kennedy2004,low,Rose across the Tigris from ancient Nineveh
+obs_1583,mosul,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid city of the Jazira
+obs_1584,mosul,905,991,circa,capital_status,Capital of the Hamdanid dynasty,,Kennedy2004,medium,Seat of the Hamdanid emirs of the Jazira
+obs_1585,mosul,1127,1127,circa,conquest,,Zengid dynasty,Hourani1991,medium,Capital of the Zengid atabegs
+obs_1586,mosul,1262,1262,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mongol Ilkhanate
+obs_1587,mosul,1535,1535,circa,conquest,,Ottoman Empire,Hourani1991,low,An Ottoman provincial capital
+obs_1588,mosul,1932,1932,circa,conquest,,Iraq,Hourani1991,low,Part of independent Iraq
+obs_1589,mosul,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Mosul
+obs_1590,aleppo,-2000,-2000,circa,founding,,,Kennedy2004,low,Ancient Halab capital of Yamhad
+obs_1591,aleppo,-1800,-1600,circa,capital_status,Capital of Yamhad,,Kennedy2004,low,Capital of the Amorite kingdom of Yamhad
+obs_1592,aleppo,-738,-738,circa,conquest,,Assyria,Kuhrt1995,low,Absorbed by the Neo-Assyrian empire
+obs_1593,aleppo,-301,-301,circa,conquest,,Seleucid Empire,Kuhrt1995,low,Refounded as Beroea by the Seleucids
+obs_1594,aleppo,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine city of northern Syria
+obs_1595,aleppo,637,637,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_1596,aleppo,944,1004,circa,capital_status,Capital of the Hamdanid dynasty,Sayf al-Dawla,Kennedy2004,medium,Sayf al-Dawla's brilliant court on the Byzantine frontier
+obs_1597,aleppo,1086,1086,circa,conquest,,Seljuk Empire,Hourani1991,low,Taken by the Seljuk Turks
+obs_1598,aleppo,1183,1183,circa,conquest,,Ayyubid Sultanate,Hourani1991,medium,Part of Saladin's Ayyubid realm
+obs_1599,aleppo,1260,1260,circa,conquest,,Mamluk Sultanate,Hourani1991,low,A great Mamluk city
+obs_1600,aleppo,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,medium,A major Ottoman trading city
+obs_1601,aleppo,1946,1946,circa,conquest,,Syria,Hourani1991,low,Part of independent Syria
+obs_1602,aleppo,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Aleppo
+obs_1603,isfahan,600,600,circa,founding,,,Axworthy2008,low,A city of the Iranian plateau
+obs_1604,isfahan,642,642,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Persia
+obs_1605,isfahan,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid provincial city
+obs_1606,isfahan,1051,1118,circa,capital_status,Capital of the Seljuk Empire,Malik Shah,Axworthy2008,high,The Great Seljuk capital
+obs_1607,isfahan,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mongol Ilkhanate
+obs_1608,isfahan,1598,1722,circa,capital_status,Capital of the Safavid Empire,Shah Abbas,Axworthy2008,high,Shah Abbas's magnificent capital; half the world
+obs_1609,isfahan,1736,1736,circa,conquest,,Iran,Axworthy2008,low,Part of post-Safavid Iran
+obs_1610,isfahan,2020,2020,circa,population_estimate,2200000,,UN2018,low,Modern Isfahan
+obs_1611,shiraz,693,693,circa,founding,,Umayyad Caliphate,Kennedy2004,low,Founded in the Islamic conquest of Fars
+obs_1612,shiraz,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid provincial city
+obs_1613,shiraz,945,1062,circa,capital_status,Capital of the Buyid dynasty,,Axworthy2008,medium,A Buyid capital in Fars
+obs_1614,shiraz,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Spared by the Mongols under its atabegs
+obs_1615,shiraz,1750,1779,circa,capital_status,Capital of the Zand dynasty,Karim Khan,Axworthy2008,high,Karim Khan's beloved capital
+obs_1616,shiraz,1794,1794,circa,conquest,,Iran,Axworthy2008,low,Part of Qajar and modern Iran
+obs_1617,shiraz,2020,2020,circa,population_estimate,1600000,,UN2018,low,Modern Shiraz
+obs_1618,tehran,1200,1200,circa,founding,,,Axworthy2008,low,A village near ancient Rayy
+obs_1619,tehran,1796,2020,circa,capital_status,Capital of Iran,Agha Mohammad Khan,Axworthy2008,high,Made the Qajar capital and capital of modern Iran
+obs_1620,tehran,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern Tehran
