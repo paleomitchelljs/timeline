@@ -1,0 +1,59 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ---- Dropbox (this repo lives in a Dropbox folder) ----
+.dropbox
+.dropbox.attr
+*.sb-*
+
+# ---- Python (tools/) ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ---- Node / web tooling (if the visualizer ever grows a build step) ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.parcel-cache/
+dist/
+build/
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+*.bak
+*.orig
+
+# ---- Agent working notes (local only) ----
+CLAUDE.md
+
+# ---- Local-only data work ----
+# Scratch exports, generated derivatives, and private working copies.
+# The canonical CSVs in data/ are tracked; anything below is not.
+data/**/*.local.csv
+data/scratch/
+*.sqlite
+*.sqlite3
+exports/

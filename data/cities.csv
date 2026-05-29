@@ -1,0 +1,17 @@
+city_id,canonical_name,modern_name,lat,lon,region,notes
+eridu,Eridu,Tell Abu Shahrain,30.8155,45.9961,mesopotamia-sumer,In Sumerian tradition the first city; cult center of Enki/Ea
+uruk,Uruk,Warka,31.3224,45.6361,mesopotamia-sumer,Biblical Erech; type-site of the Uruk period; cult center of Inanna/An
+ur,Ur,Tell el-Muqayyar,30.9626,46.1031,mesopotamia-sumer,Cult center of Nanna/Sin; capital of the Third Dynasty of Ur
+nippur,Nippur,Nuffar,32.1264,45.2300,mesopotamia-sumer,Religious center of Enlil; conferred legitimacy on Sumerian kings but never a political capital
+lagash,Lagash,Tell al-Hiba,31.4167,46.4069,mesopotamia-sumer,City of the Lagash state; the state's administrative-religious capital Girsu (Telloh) is the separate site girsu
+girsu,Girsu,Telloh,31.5667,46.1833,mesopotamia-sumer,Administrative-religious capital of the Lagash state; Gudea's seat
+umma,Umma,Tell Jokha,31.6500,45.8833,mesopotamia-sumer,Rival of Lagash; under Lugalzagesi briefly unified Sumer before Sargon
+adab,Adab,Bismaya,31.9500,45.6167,mesopotamia-sumer,Home of the conqueror Lugalannemundu in later tradition
+shuruppak,Shuruppak,Fara,31.7800,45.5100,mesopotamia-sumer,Home of Ziusudra the flood hero; source of an early tablet archive
+larsa,Larsa,Tell as-Senkereh,31.2864,45.8553,mesopotamia-sumer,Cult center of the sun god Utu; rival of Isin in the Isin-Larsa period
+isin,Isin,Ishan al-Bahriyat,31.8783,45.2742,mesopotamia-sumer,Seat of two dynasties; first rose as Ur III collapsed
+kish,Kish,Tell al-Uhaymir,32.5436,44.6053,mesopotamia-akkad,Seat of the first post-Flood dynasty; the title king of Kish implied hegemony over Sumer
+akkad,Akkad,unidentified,,,mesopotamia-akkad,Capital of the Akkadian Empire; archaeological site never securely located (likely near the Tigris-Diyala confluence)
+sippar,Sippar,Tell Abu Habbah,33.0556,44.2600,mesopotamia-akkad,Cult center of the sun god Shamash; long-lived Ebabbar temple archive
+babylon,Babylon,Hillah,32.5417,44.4208,mesopotamia-akkad,Capital of the Old Babylonian and Neo-Babylonian empires; carries the regional timeline furthest forward
+mari,Mari,Tell Hariri,34.5500,40.8900,mesopotamia-euphrates,Planned circular city on the middle Euphrates; razed by Hammurabi
