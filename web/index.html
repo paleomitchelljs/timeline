@@ -60,11 +60,16 @@
     <button id="play" title="play / pause">&#9654;</button>
     <input id="year" type="range">
     <span id="yearlabel"></span>
-    <label class="chk"><input id="hulls" type="checkbox"> hulls</label>
     <button id="zoomreset" title="reset zoom">reset</button>
   </div>
   <svg id="map"></svg>
   <div class="legend" id="empire-legend"></div>
+</section>
+
+<section id="share-sec">
+  <h2>Share of cities under each empire</h2>
+  <svg id="share"></svg>
+  <div class="legend" id="share-legend"></div>
 </section>
 
 <section id="emp-sec">
@@ -94,6 +99,7 @@ const REGION_COLOR = {
   "nubia": "#cddc39", "pontic-steppe": "#26c6da", "north-africa": "#ffca28",
   "italy": "#e53935", "gaul": "#42a5f5", "iberia": "#8e24aa",
   "britannia": "#789262", "germania": "#6d4c41",
+  "india": "#ff7043",
 };
 
 function el(name, attrs = {}, parent = null) {
@@ -184,17 +190,15 @@ function drawBasemap(parent, geo, x, y) {
   }
 }
 
-// convex hull (Andrew's monotone chain) over {x,y} screen points
-function convexHull(pts) {
-  if (pts.length < 3) return pts.slice();
-  const p = pts.slice().sort((a, b) => a.x - b.x || a.y - b.y);
-  const cross = (o, a, b) => (a.x - o.x) * (b.y - o.y) - (a.y - o.y) * (b.x - o.x);
-  const lower = [];
-  for (const q of p) { while (lower.length >= 2 && cross(lower[lower.length - 2], lower[lower.length - 1], q) <= 0) lower.pop(); lower.push(q); }
-  const upper = [];
-  for (let i = p.length - 1; i >= 0; i--) { const q = p[i]; while (upper.length >= 2 && cross(upper[upper.length - 2], upper[upper.length - 1], q) <= 0) upper.pop(); upper.push(q); }
-  lower.pop(); upper.pop();
-  return lower.concat(upper);
+// star path of given radius centered at (cx,cy) — used for capital cities
+function starPath(cx, cy, r) {
+  let d = "";
+  for (let k = 0; k < 10; k++) {
+    const rr = k % 2 ? r * 0.45 : r;
+    const a = -Math.PI / 2 + k * Math.PI / 5;
+    d += (k ? "L" : "M") + (cx + rr * Math.cos(a)).toFixed(1) + "," + (cy + rr * Math.sin(a)).toFixed(1) + " ";
+  }
+  return d + "Z";
 }
 
 // the map is a year machine: scrub/play to see empires spread, zoom with the wheel, drag to pan
@@ -219,10 +223,7 @@ function setupMap(model, basemap) {
 
   const baseG = el("g", {}, svg);
   if (basemap) drawBasemap(baseG, basemap, x, y);
-  const hullG = el("g", {}, svg);
   const markerG = el("g", {}, svg);
-  const hullsBox = document.getElementById("hulls");
-  let lastYear = 0;
 
   svg.addEventListener("wheel", e => {
     e.preventDefault();
@@ -247,40 +248,29 @@ function setupMap(model, basemap) {
   });
   window.addEventListener("mouseup", () => { drag = null; });
   document.getElementById("zoomreset").addEventListener("click", () => { vb = { ...home }; apply(); });
-  hullsBox.addEventListener("change", () => update(lastYear));
 
   const legendBox = document.getElementById("empire-legend");
   function update(year) {
-    lastYear = year;
-    hullG.innerHTML = "";
     markerG.innerHTML = "";
     const state = TimelineModel.stateAt(model, year);
 
-    // optional shaded empire territories (convex hull of each empire's cities that year)
-    if (hullsBox.checked) {
-      const byPolity = {};
-      for (const sg of state) if (sg.polity) (byPolity[sg.polity] || (byPolity[sg.polity] = [])).push(sg);
-      for (const name in byPolity) {
-        const group = byPolity[name];
-        if (group.length < 3) continue;
-        const hull = convexHull(group.map(sg => ({ x: x(+sg.city.lon), y: y(+sg.city.lat) })));
-        el("polygon", { points: hull.map(p => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" "),
-          fill: group[0].color, "fill-opacity": .12, stroke: group[0].color, "stroke-opacity": .4, "stroke-width": 1.2 }, hullG);
-      }
-    }
-
     for (const sg of state) {
       const c = sg.city;
+      const info = model.cityInfo[sg.id];
+      const cx = x(+c.lon), cy = y(+c.lat);
+      const capital = TimelineModel.isCapitalAt(info, year);
       const r = 4.5;   // uniform marker size (population is shown in its own panel)
-      const node = el("circle", { cx: x(+c.lon), cy: y(+c.lat), r, fill: sg.color,
-        "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, markerG);
+      // capitals are drawn as stars, ordinary cities as circles
+      const node = capital
+        ? el("path", { d: starPath(cx, cy, r + 1.5), fill: sg.color, "fill-opacity": .85, stroke: sg.color, "stroke-width": 1 }, markerG)
+        : el("circle", { cx, cy, r, fill: sg.color, "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, markerG);
       node.style.cursor = "pointer";
-      bindTip(node, `<b>${c.canonical_name}</b><br><span class="meta">${sg.polity || "independent / no record"}</span>`
+      bindTip(node, `<b>${c.canonical_name}</b>${capital ? " &#9733;" : ""}<br><span class="meta">${sg.polity || "independent / no record"}</span>`
         + (sg.pop ? `<br><span class="meta">~${sg.pop.toLocaleString()}</span>` : "")
         + `<br><span class="meta">${regionLabel(c.region)}</span>`);
       // minor cities are hover-only; label major cities (sizable or a capital that year)
-      if (TimelineModel.isMajorAt(model.cityInfo[sg.id], year)) {
-        const lab = el("text", { x: x(+c.lon) + r + 3, y: y(+c.lat) + 3, "font-size": 10 }, markerG);
+      if (TimelineModel.isMajorAt(info, year)) {
+        const lab = el("text", { x: cx + r + 3, y: cy + 3, "font-size": 10 }, markerG);
         lab.setAttribute("fill", "#cfd3da"); lab.textContent = c.canonical_name;
       }
     }
@@ -297,6 +287,84 @@ function setupMap(model, basemap) {
     }
   }
   return { update };
+}
+
+// stacked area: fraction of all cities each empire controls over time (sums to 1)
+function renderControlShare(model) {
+  const svg = document.getElementById("share");
+  const minY = model.domain.min, maxY = model.domain.max;
+  const N = 260, step = (maxY - minY) / N;
+  const samples = [];
+  for (let i = 0; i <= N; i++) samples.push(Math.round(minY + i * step));
+  const shares = samples.map(yr => TimelineModel.shareAt(model, yr).share);
+
+  const peak = {};
+  for (const s of shares) for (const p in s) peak[p] = Math.max(peak[p] || 0, s[p]);
+  const shown = Object.keys(peak)
+    .filter(p => p !== "Independent" && peak[p] >= 0.06)
+    .sort((a, b) => peak[b] - peak[a]).slice(0, 14);
+  const shownSet = new Set(shown);
+  const firstYear = {};
+  for (const p of shown) for (let i = 0; i < samples.length; i++) if ((shares[i][p] || 0) > 0) { firstYear[p] = samples[i]; break; }
+  const empires = shown.slice().sort((a, b) => (firstYear[a] ?? 0) - (firstYear[b] ?? 0));
+  const layers = ["Independent", ...empires, "Other"];
+  const colorOf = l => l === "Independent" ? "#363b47" : l === "Other" ? "#586070" : (model.empColor[l] || "#888");
+  const valAt = (l, i) => {
+    if (l === "Independent") return shares[i]["Independent"] || 0;
+    if (l === "Other") { let o = 0; for (const p in shares[i]) if (p !== "Independent" && !shownSet.has(p)) o += shares[i][p]; return o; }
+    return shares[i][l] || 0;
+  };
+
+  const M = { top: 10, right: 24, bottom: 30, left: 40 }, W = 1120, H = 300;
+  const innerW = W - M.left - M.right, innerH = H - M.top - M.bottom;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
+  const x = yr => M.left + (yr - minY) / (maxY - minY) * innerW;
+  const yv = v => M.top + innerH * (1 - v);
+
+  const axis = el("g", { class: "axis" }, svg);
+  for (const t of [0, 0.25, 0.5, 0.75, 1]) {
+    el("line", { x1: M.left, y1: yv(t), x2: W - M.right, y2: yv(t) }, axis);
+    const l = el("text", { x: M.left - 6, y: yv(t) + 4, "text-anchor": "end" }, axis); l.textContent = t;
+  }
+  for (const t of yearTicks(minY, maxY, 1000)) {
+    const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis); l.textContent = fmtYear(t);
+  }
+
+  let cum = samples.map(() => 0);
+  for (const layer of layers) {
+    const top = samples.map((_, i) => cum[i] + valAt(layer, i));
+    const ptsTop = samples.map((s, i) => `${x(s).toFixed(1)},${yv(top[i]).toFixed(1)}`);
+    const ptsBot = samples.map((s, i) => `${x(s).toFixed(1)},${yv(cum[i]).toFixed(1)}`).reverse();
+    const fill = colorOf(layer);
+    const poly = el("polygon", { points: ptsTop.concat(ptsBot).join(" "), fill,
+      "fill-opacity": (layer === "Independent" || layer === "Other") ? .55 : .85 }, svg);
+    if (layer !== "Independent" && layer !== "Other") {
+      poly.style.cursor = "pointer";
+      bindTip(poly, `<b>${layer}</b><br><span class="meta">peak ${Math.round(peak[layer] * 100)}% of all cities</span>`);
+    }
+    cum = top;
+  }
+
+  let onSeek = null;
+  const marker = el("line", { x1: x(minY), y1: M.top, x2: x(minY), y2: H - M.bottom, stroke: "#fff", "stroke-width": 1.2, "stroke-opacity": .85 }, svg);
+  svg.style.cursor = "crosshair";
+  svg.addEventListener("click", e => {
+    const rect = svg.getBoundingClientRect();
+    const yr = Math.round(minY + ((e.clientX - rect.left) / rect.width) * (maxY - minY));
+    if (onSeek) onSeek(yr);
+  });
+
+  const legend = document.getElementById("share-legend"); legend.innerHTML = "";
+  for (const layer of [...empires, "Other"]) {
+    const sp = document.createElement("span"), sw = document.createElement("span");
+    sw.style.cssText = `width:12px;height:12px;border-radius:2px;background:${colorOf(layer)}`;
+    sp.appendChild(sw); sp.appendChild(document.createTextNode(layer)); legend.appendChild(sp);
+  }
+
+  return {
+    update(year) { const xx = x(Math.max(minY, Math.min(maxY, year))); marker.setAttribute("x1", xx); marker.setAttribute("x2", xx); },
+    setSeek(fn) { onSeek = fn; },
+  };
 }
 
 // empire-centric lifespans — rows scale with #polities, not #cities
@@ -387,6 +455,7 @@ function renderPopulation(model) {
     const model = TimelineModel.build(cities, obs);
 
     const mapView = setupMap(model, basemap);
+    const shareView = renderControlShare(model);
     renderEmpires(model);
     renderPopulation(model);
 
@@ -395,8 +464,9 @@ function renderPopulation(model) {
     const playBtn = document.getElementById("play");
     slider.min = model.domain.min; slider.max = model.domain.max; slider.step = 1;
     slider.value = -2000;
-    const setYear = v => { label.textContent = fmtYear(+v); mapView.update(+v); };
+    const setYear = v => { label.textContent = fmtYear(+v); mapView.update(+v); shareView.update(+v); };
     slider.addEventListener("input", () => setYear(slider.value));
+    shareView.setSeek(yr => { slider.value = yr; setYear(yr); });
 
     let timer = null;
     const step = Math.max(5, Math.round((model.domain.max - model.domain.min) / 500));

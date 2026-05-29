@@ -428,3 +428,38 @@ obs_0426,mogontiacum,-13,-13,circa,founding,,,King1990,low,Roman legionary base 
 obs_0427,mogontiacum,90,400,circa,capital_status,Capital of Germania Superior,,King1990,low,Chief Roman city of the upper Rhine
 obs_0428,mogontiacum,451,451,circa,conquest,,Huns (Attila),King1990,low,Sacked during Attila's invasion of Gaul
 obs_0429,mogontiacum,2020,2020,circa,population_estimate,220000,,UN2018,low,Modern Mainz
+obs_0430,mohenjo-daro,-2600,-2600,circa,founding,,,Possehl2002,low,One of the great cities of the Indus Valley civilization
+obs_0431,mohenjo-daro,-2200,-2200,circa,population_estimate,40000,,Possehl2002,low,A planned city with a grid and covered drains and the Great Bath
+obs_0432,mohenjo-daro,-1900,-1900,century,abandonment,,,Possehl2002,low,Abandoned as the Indus civilization declined
+obs_0433,harappa,-2600,-2600,circa,founding,,,Possehl2002,low,Type-site of the Harappan civilization on the Ravi
+obs_0434,harappa,-2200,-2200,circa,population_estimate,30000,,Possehl2002,low,A major Indus city
+obs_0435,harappa,-1900,-1900,century,abandonment,,,Possehl2002,low,Abandoned in the decline of the Indus cities
+obs_0436,taxila,-1000,-1000,circa,founding,,,Thapar2002,low,Gandharan city and seat of learning on the trade routes
+obs_0437,taxila,-518,-518,circa,conquest,,Achaemenid Persia (Darius I),Thapar2002,medium,Absorbed into the easternmost Achaemenid satrapy
+obs_0438,taxila,-326,-326,circa,conquest,,Macedon (Alexander III),Thapar2002,medium,Submits to Alexander at the Indus
+obs_0439,taxila,-316,-316,circa,conquest,Mauryan Empire,Chandragupta,Thapar2002,medium,Incorporated into the Maurya empire
+obs_0440,taxila,460,460,circa,destruction,,Hephthalites,Thapar2002,low,Sacked by the Hephthalite Huns and abandoned
+obs_0441,pataliputra,-490,-490,circa,founding,,,Thapar2002,low,Fortified city on the Ganges; later the imperial capital
+obs_0442,pataliputra,-321,-185,circa,capital_status,Capital of the Mauryan Empire,Chandragupta,Thapar2002,high,Seat of Chandragupta and Ashoka
+obs_0443,pataliputra,-300,-300,circa,population_estimate,200000,,Chandler1987,low,Among the largest cities in the world under the Mauryas
+obs_0444,pataliputra,320,550,circa,capital_status,Capital of the Gupta Empire,,Thapar2002,high,The classical golden age of northern India
+obs_0445,pataliputra,750,750,century,abandonment,,,Thapar2002,low,Declined after the Gupta collapse; later revived as Patna
+obs_0446,varanasi,-1200,-1200,circa,founding,,,Thapar2002,low,One of the oldest continuously inhabited cities; sacred on the Ganges
+obs_0447,varanasi,-500,-500,circa,attestation,Center of learning and pilgrimage,,Thapar2002,low,A major center of the Ganges plain in the age of the Buddha
+obs_0448,varanasi,1194,1194,circa,conquest,,Delhi Sultanate,AsherTalbot2006,medium,Sacked and absorbed into the Delhi Sultanate
+obs_0449,varanasi,2020,2020,circa,population_estimate,1200000,,UN2018,medium,Modern Varanasi; continuously inhabited
+obs_0450,ujjain,-700,-700,circa,founding,,,Thapar2002,low,Capital of the Avanti kingdom on the Malwa plateau
+obs_0451,ujjain,-600,-300,circa,capital_status,Capital of Avanti,,Thapar2002,low,A leading city of early historic India and a prime meridian of Indian astronomy
+obs_0452,ujjain,-316,-316,circa,conquest,Mauryan Empire,,Thapar2002,low,A Mauryan provincial capital
+obs_0453,ujjain,2020,2020,circa,population_estimate,515000,,UN2018,low,Modern Ujjain
+obs_0454,madurai,-300,-300,circa,founding,,,Thapar2002,low,Capital of the Pandya kingdom in the Tamil south
+obs_0455,madurai,-300,1300,circa,capital_status,Capital of the Pandya kingdom,,Thapar2002,medium,A center of Tamil Sangam literature
+obs_0456,madurai,1311,1311,circa,conquest,,Delhi Sultanate,AsherTalbot2006,low,Raided by the armies of the Delhi Sultanate
+obs_0457,madurai,2020,2020,circa,population_estimate,1500000,,UN2018,medium,Modern Madurai
+obs_0458,delhi,-50,-50,circa,founding,,,Thapar2002,low,Early settlement on the Yamuna; site of many successive cities
+obs_0459,delhi,1206,1526,circa,capital_status,Capital of the Delhi Sultanate,,AsherTalbot2006,high,Seat of successive dynasties ruling northern India
+obs_0460,delhi,1526,1857,circa,capital_status,Capital of the Mughal Empire,,AsherTalbot2006,high,Imperial capital; Shah Jahan builds Shahjahanabad
+obs_0461,delhi,1700,1700,circa,population_estimate,600000,,Chandler1987,low,Among the largest cities in the world under the Mughals
+obs_0462,delhi,1803,1803,circa,conquest,,British East India Company,AsherTalbot2006,medium,Occupied by the British after the decline of the Mughals
+obs_0463,delhi,1911,2020,circa,capital_status,Capital of the Republic of India,,AsherTalbot2006,high,New Delhi made the capital in 1911 then capital of independent India
+obs_0464,delhi,2020,2020,circa,population_estimate,30000000,,UN2018,medium,Modern Delhi; among the largest cities in the world

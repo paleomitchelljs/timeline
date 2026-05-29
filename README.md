@@ -188,6 +188,9 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Richardson1996` | J. Richardson, *The Romans in Spain* (1996) |
 | `Kennedy1996` | H. Kennedy, *Muslim Spain and Portugal* (1996) |
 | `Collins2004` | R. Collins, *Visigothic Spain 409–711* (2004) |
+| `Possehl2002` | G. Possehl, *The Indus Civilization: A Contemporary Perspective* (2002) |
+| `Thapar2002` | R. Thapar, *Early India: From the Origins to AD 1300* (2002) |
+| `AsherTalbot2006` | C. Asher & C. Talbot, *India before Europe* (2006) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -274,6 +277,7 @@ Expansion sequence (region by region):
 - [x] **Iberia** (Gades, Carthago Nova, Tarraco, Corduba, Emerita, Toletum)
 - [x] **Britannia** (Londinium, Camulodunum, Eboracum)
 - [x] **Germania** (Colonia Agrippina, Augusta Treverorum, Mogontiacum)
-- [ ] Eastward: **India** (and onward to China, SE Asia)
+- [x] **India** (Mohenjo-daro, Harappa, Taxila, Pataliputra, Varanasi, Ujjain, Madurai, Delhi)
+- [ ] Onward east: **China**, **Southeast Asia**
 - [ ] Sub-Saharan Africa, the Eurasian steppe deeper, and the Americas
 ```

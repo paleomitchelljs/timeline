@@ -158,14 +158,35 @@
     return model.empires.filter(e => e.start <= year && year <= e.end);
   }
 
-  // A city earns a permanent map label if it is sizable or a capital that year;
-  // everything else is hover-only. Keeps a crowded map legible.
-  const MAJOR_POP = 60000;
-  function isMajorAt(info, year) {
-    if ((popAt(info, year) || 0) >= MAJOR_POP) return true;
+  // Is the city the seat of a polity (a capital_status span) in this year?
+  function isCapitalAt(info, year) {
     for (const s of info.capitalSpans) if (s.start <= year && year <= s.end) return true;
     return false;
   }
 
-  return { build, stateAt, controllerAt, popAt, empiresActiveAt, isMajorAt, normalizePolity, polityOf };
+  // A city earns a permanent map label if it is sizable or a capital that year;
+  // everything else is hover-only. Keeps a crowded map legible.
+  const MAJOR_POP = 60000;
+  function isMajorAt(info, year) {
+    return (popAt(info, year) || 0) >= MAJOR_POP || isCapitalAt(info, year);
+  }
+
+  // Proportion of the cities present in a year that each polity controls (sums to 1
+  // with the "Independent" remainder). Drives the control-share chart.
+  function shareAt(model, year) {
+    const counts = {};
+    let total = 0;
+    for (const id in model.cityInfo) {
+      const info = model.cityInfo[id];
+      if (year < info.start || year > info.end) continue;
+      total++;
+      const p = controllerAt(info, year) || "Independent";
+      counts[p] = (counts[p] || 0) + 1;
+    }
+    const share = {};
+    if (total) for (const p in counts) share[p] = counts[p] / total;
+    return { share, total };
+  }
+
+  return { build, stateAt, controllerAt, popAt, empiresActiveAt, isMajorAt, isCapitalAt, shareAt, normalizePolity, polityOf };
 });
