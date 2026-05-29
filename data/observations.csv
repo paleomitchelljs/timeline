@@ -119,7 +119,7 @@ obs_0117,heliopolis,-2600,-2600,century,capital_status,Cult center of Ra,,Shaw20
 obs_0118,heliopolis,-1950,-1950,circa,attestation,Obelisk of Senusret I,Senusret I,Shaw2000,medium,The oldest standing Egyptian obelisk still in its original place
 obs_0119,heliopolis,100,100,century,abandonment,,,Shaw2000,low,Stone and obelisks carried off in the Greco-Roman era; later absorbed by Cairo
 obs_0120,thebes,-2400,-2400,circa,founding,,,Shaw2000,low,The town of Waset; cult center of Amun
-obs_0121,thebes,-2055,-1985,circa,capital_status,Capital of the early Middle Kingdom,Mentuhotep II,Shaw2000,high,Mentuhotep II reunified Egypt from Thebes before the 12th Dynasty moved north
+obs_0121,thebes,-2055,-1650,circa,capital_status,Capital of the Middle Kingdom,Mentuhotep II,Shaw2000,high,Mentuhotep II reunified Egypt from Thebes; the seat of Middle Kingdom power
 obs_0122,thebes,-1550,-1077,circa,capital_status,Capital of the New Kingdom,,Shaw2000,high,Karnak and Luxor and the Valley of the Kings; Amun-Ra at the empire's height
 obs_0123,thebes,-1350,-1350,circa,population_estimate,80000,,Chandler1987,low,Probably the largest city in the world at the New Kingdom's peak
 obs_0124,thebes,-663,-663,circa,destruction,,Assyria (Ashurbanipal),Shaw2000,medium,The Assyrian sack of Thebes (No-Amon) echoed across the ancient world
@@ -129,7 +129,7 @@ obs_0127,akhetaten,-1346,-1332,circa,capital_status,Capital under Akhenaten (Ate
 obs_0128,akhetaten,-1332,-1332,circa,abandonment,,,Shaw2000,medium,Abandoned within years of Akhenaten's death; the court returned north
 obs_0129,avaris,-1800,-1800,circa,founding,,,Shaw2000,low,Eastern Delta town that became the Hyksos stronghold (Tell el-Dab'a)
 obs_0130,avaris,-1650,-1550,circa,capital_status,Capital of the Hyksos (15th Dynasty),,Shaw2000,medium,Seat of the Asiatic rulers of Lower Egypt
-obs_0131,avaris,-1550,-1550,circa,conquest,,Ahmose I,Shaw2000,medium,Ahmose captures Avaris and expels the Hyksos to found the New Kingdom
+obs_0131,avaris,-1550,-1550,circa,conquest,,New Kingdom (Ahmose I),Shaw2000,medium,Ahmose captures Avaris and expels the Hyksos to found the New Kingdom
 obs_0132,avaris,-1279,-1279,circa,attestation,Pi-Ramesses built nearby,Ramesses II,Shaw2000,medium,Ramesses II's delta capital rose adjacent to the old Hyksos city
 obs_0133,avaris,-1070,-1070,century,abandonment,,,Shaw2000,low,The Pelusiac Nile branch silted; monuments were shifted to Tanis
 obs_0134,tanis,-1100,-1100,circa,founding,,,Shaw2000,low,Rose in the Delta from the reused stone of abandoned Pi-Ramesses
@@ -1138,3 +1138,76 @@ obs_1136,havana,1519,1519,circa,founding,,Spanish Empire,DAltroy2014,medium,Foun
 obs_1137,havana,1762,1762,circa,attestation,British occupation,British Empire,Taylor2001,low,Briefly held by Britain
 obs_1138,havana,1902,2020,circa,capital_status,Capital of Cuba,,UN2018,medium,Capital of independent Cuba
 obs_1139,havana,2020,2020,circa,population_estimate,2100000,,UN2018,medium,Modern Havana
+obs_1140,heliopolis,-2686,-2686,circa,conquest,,Old Kingdom,Shaw2000,low,A cult and royal center of the Old Kingdom
+obs_1141,heliopolis,-2010,-2010,circa,conquest,,Middle Kingdom,Shaw2000,low,Under the Middle Kingdom
+obs_1142,heliopolis,-1550,-1550,circa,conquest,,New Kingdom,Shaw2000,low,A great temple city of the New Kingdom
+obs_1143,heliopolis,-525,-525,circa,conquest,,Achaemenid Persia (Cambyses II),Briant2002,low,Under Persian rule
+obs_1144,heliopolis,-305,-305,circa,conquest,,Ptolemaic Egypt,Fraser1972,low,Under the Ptolemies
+obs_1145,elephantine,-2686,-2686,circa,conquest,,Old Kingdom,Shaw2000,low,The Old Kingdom's southern frontier
+obs_1146,elephantine,-2010,-2010,circa,conquest,,Middle Kingdom,Shaw2000,low,Under the Middle Kingdom
+obs_1147,elephantine,-1550,-1550,circa,conquest,,New Kingdom,Shaw2000,low,Under the New Kingdom
+obs_1148,memphis,-2010,-2010,circa,conquest,,Middle Kingdom,Shaw2000,low,A chief city of the Middle Kingdom
+obs_1149,memphis,-1550,-1550,circa,conquest,,New Kingdom,Shaw2000,low,A chief city of the New Kingdom
+obs_1150,nanjing,-110,-110,circa,conquest,,Han dynasty,Lewis2007,low,The lower Yangtze region under the Han
+obs_1151,nanjing,229,280,circa,capital_status,Capital of Eastern Wu,,Mote1999,medium,Jianye becomes the capital of the Wu kingdom
+obs_1152,algiers,40,40,circa,conquest,,Rome,Raven1993,low,Icosium under Roman Mauretania Caesariensis
+obs_1153,tlemcen,40,40,circa,conquest,,Rome,Raven1993,low,Pomaria under Roman Mauretania
+obs_1154,chengdu,-311,-311,circa,founding,,,Lewis2007,low,Founded by the Qin in the Sichuan basin
+obs_1155,chengdu,221,263,circa,capital_status,Capital of Shu Han,,Mote1999,medium,Capital of the Three Kingdoms state of Shu
+obs_1156,chengdu,620,620,circa,conquest,,Tang dynasty,Mote1999,low,A wealthy Tang city
+obs_1157,chengdu,965,965,circa,conquest,,Song dynasty,Mote1999,low,Under the Song; home of the first paper money
+obs_1158,chengdu,1279,1279,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Yuan
+obs_1159,chengdu,1646,1646,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
+obs_1160,chengdu,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,Part of the People's Republic
+obs_1161,chengdu,2020,2020,circa,population_estimate,16000000,,UN2018,medium,Modern Chengdu
+obs_1162,xingqing,1038,1227,circa,capital_status,Capital of Western Xia,,Mote1999,high,Founded as the Tangut imperial capital
+obs_1163,xingqing,1227,1227,circa,destruction,,Mongol Empire (Genghis Khan),Morgan2007,high,Annihilated in the Mongol conquest of Western Xia
+obs_1164,xingqing,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,Revived as Yinchuan in modern China
+obs_1165,xingqing,2020,2020,circa,population_estimate,2900000,,UN2018,medium,Modern Yinchuan
+obs_1166,datong,-200,-200,circa,founding,,,Lewis2007,low,A town on the northern frontier
+obs_1167,datong,398,494,circa,capital_status,Capital of the Northern Wei dynasty,,Lewis2007,high,Pingcheng before the move to Luoyang
+obs_1168,datong,947,947,circa,conquest,,Liao dynasty,Mote1999,low,A western capital of the Khitan Liao
+obs_1169,datong,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,Part of the People's Republic
+obs_1170,datong,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Datong
+obs_1171,liaoyang,100,100,circa,founding,,,Mote1999,low,A town of the northeast
+obs_1172,liaoyang,928,1116,circa,capital_status,Eastern capital of the Liao dynasty,,Mote1999,high,A Khitan Liao capital in Manchuria
+obs_1173,liaoyang,1116,1116,circa,conquest,,Jurchen Jin,Mote1999,low,Taken by the Jurchen Jin
+obs_1174,liaoyang,1621,1621,circa,conquest,,Qing dynasty,Mote1999,medium,An early Manchu Qing capital
+obs_1175,liaoyang,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Liaoyang
+obs_1176,dading,1000,1000,circa,founding,,,Mote1999,low,Rose on the steppe edge
+obs_1177,dading,1153,1234,circa,capital_status,Central capital of the Jurchen Jin,,Mote1999,high,A Jin imperial capital
+obs_1178,dading,1234,1234,circa,destruction,,Mongol Empire,Morgan2007,low,Taken by the Mongols
+obs_1179,dading,1400,1400,century,abandonment,,,Mote1999,low,Declined and was abandoned
+obs_1180,hongkong,1842,1842,circa,founding,,British Empire,Taylor2001,medium,Ceded to Britain after the First Opium War
+obs_1181,hongkong,1997,1997,circa,conquest,,People's Republic of China,Mote1999,medium,Returned to China as a special administrative region
+obs_1182,hongkong,2020,2020,circa,population_estimate,7500000,,UN2018,medium,Modern Hong Kong
+obs_1183,avarga,1180,1180,circa,founding,,Genghis Khan,Morgan2007,low,Genghis Khan's base on the Kherlen River
+obs_1184,avarga,1206,1235,circa,capital_status,First capital of the Mongol Empire,Genghis Khan,Morgan2007,high,The Mongol Empire's first seat before Karakorum
+obs_1185,avarga,1300,1300,century,abandonment,,,Morgan2007,low,Abandoned as the capital moved to Karakorum
+obs_1186,hedeby,770,770,circa,founding,,,Sawyer1997,low,A Danish Viking trade emporium
+obs_1187,hedeby,800,1066,circa,capital_status,Danish Viking emporium,,Sawyer1997,medium,A great market town of the Viking world
+obs_1188,hedeby,1066,1066,circa,destruction,,Norway,Sawyer1997,low,Sacked and abandoned in the late Viking age
+obs_1189,birka,750,750,circa,founding,,,Sawyer1997,low,A Swedish Viking trading island
+obs_1190,birka,800,975,circa,capital_status,Swedish Viking emporium,,Sawyer1997,medium,A hub of Baltic trade
+obs_1191,birka,975,975,circa,abandonment,,,Sawyer1997,low,Abandoned for nearby Sigtuna
+obs_1192,dublin,841,841,circa,founding,,,Sawyer1997,low,Founded as a Norse longphort
+obs_1193,dublin,853,1170,circa,capital_status,Norse Kingdom of Dublin,,Sawyer1997,high,The chief Viking kingdom in Ireland
+obs_1194,dublin,1170,1170,circa,conquest,,Kingdom of England,Sawyer1997,medium,Taken by the Anglo-Normans
+obs_1195,dublin,1922,2020,circa,capital_status,Capital of Ireland,,UN2018,medium,Capital of independent Ireland
+obs_1196,dublin,2020,2020,circa,population_estimate,1200000,,UN2018,medium,Modern Dublin
+obs_1197,konya,-301,-301,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid city of Lycaonia
+obs_1198,konya,-129,-129,circa,conquest,,Rome,Mitchell1993,low,Iconium under Roman Asia Minor
+obs_1199,konya,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine city before the Seljuks
+obs_1200,eboracum,866,954,circa,capital_status,Kingdom of Jorvik,,Sawyer1997,medium,The Viking kingdom of York
+obs_1201,changan,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,Xi'an in the People's Republic
+obs_1202,luoyang,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,In the People's Republic
+obs_1203,kaifeng,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,In the People's Republic
+obs_1204,hangzhou,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,In the People's Republic
+obs_1205,nanjing,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,In the People's Republic
+obs_1206,guangzhou,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,In the People's Republic
+obs_1207,quanzhou,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,In the People's Republic
+obs_1208,shanghai,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,In the People's Republic
+obs_1209,chengdu,-201,-201,circa,conquest,,Han dynasty,Lewis2007,low,Sichuan under the Han
+obs_1210,kaifeng,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Chenliu region under the Han
+obs_1211,hangzhou,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Kuaiji region under the Han
+obs_1212,beijing,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Youzhou frontier under the Han

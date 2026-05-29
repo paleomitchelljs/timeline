@@ -113,6 +113,7 @@ const REGION_COLOR = {
   "steppe": "#827717", "japan": "#c2185b",
   "africa": "#f9a825", "americas": "#5e35b1",
   "europe-central": "#9ccc65", "europe-east": "#5d4037",
+  "northern-europe": "#4fc3f7",
 };
 
 function el(name, attrs = {}, parent = null) {
@@ -234,8 +235,19 @@ function bindMapControls() {
   document.getElementById("zoomreset").addEventListener("click", () => { if (MAP.home) { MAP.vb = { ...MAP.home }; applyVB(); } });
 }
 
+// convex hull (Andrew's monotone chain) over {x,y} screen points
+function convexHull(pts) {
+  if (pts.length < 3) return pts.slice();
+  const p = pts.slice().sort((a, b) => a.x - b.x || a.y - b.y);
+  const cross = (o, a, b) => (a.x - o.x) * (b.y - o.y) - (a.y - o.y) * (b.x - o.x);
+  const lo = [], hi = [];
+  for (const q of p) { while (lo.length >= 2 && cross(lo[lo.length - 2], lo[lo.length - 1], q) <= 0) lo.pop(); lo.push(q); }
+  for (let i = p.length - 1; i >= 0; i--) { const q = p[i]; while (hi.length >= 2 && cross(hi[hi.length - 2], hi[hi.length - 1], q) <= 0) hi.pop(); hi.push(q); }
+  lo.pop(); hi.pop(); return lo.concat(hi);
+}
+
 // the map is a year machine: scrub/play to see empires spread, zoom with the wheel, drag to pan
-function setupMap(model, basemap) {
+function setupMap(model, basemap, onSelect) {
   const svg = document.getElementById("map");
   svg.innerHTML = "";
   const located = model.cities.filter(c => c.lat !== "" && c.lon !== "");
@@ -255,10 +267,30 @@ function setupMap(model, basemap) {
 
   const baseG = el("g", {}, svg);
   if (basemap) drawBasemap(baseG, basemap, x, y);
+  const hullG = el("g", {}, svg);
   const markerG = el("g", {}, svg);
+  let lastYear = 0, selectedPolity = null;
+
+  function drawHull(year) {
+    hullG.innerHTML = "";
+    if (!selectedPolity) return;
+    const pts = TimelineModel.stateAt(model, year)
+      .filter(sg => sg.polity === selectedPolity)
+      .map(sg => ({ x: x(+sg.city.lon), y: y(+sg.city.lat) }));
+    if (pts.length < 2) return;
+    const color = model.empColor[selectedPolity] || "#fff";
+    if (pts.length === 2) {
+      el("line", { x1: pts[0].x, y1: pts[0].y, x2: pts[1].x, y2: pts[1].y, stroke: color, "stroke-width": 2, "stroke-opacity": .55 }, hullG);
+    } else {
+      const hull = convexHull(pts);
+      el("polygon", { points: hull.map(q => `${q.x.toFixed(1)},${q.y.toFixed(1)}`).join(" "),
+        fill: color, "fill-opacity": .14, stroke: color, "stroke-opacity": .55, "stroke-width": 1.5 }, hullG);
+    }
+  }
 
   const legendBox = document.getElementById("empire-legend");
   function update(year) {
+    lastYear = year;
     markerG.innerHTML = "";
     const state = TimelineModel.stateAt(model, year);
 
@@ -274,6 +306,8 @@ function setupMap(model, basemap) {
         ? el("path", { d: starPath(cx, cy, r + 1.5), fill: sg.color, "fill-opacity": .85, stroke: sg.color, "stroke-width": 1 }, markerG)
         : el("circle", { cx, cy, r, fill: sg.color, "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, markerG);
       node.style.cursor = "pointer";
+      const pol = sg.polity;
+      node.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(pol); });
       bindTip(node, `<b>${nm}</b>${capital ? " &#9733;" : ""}<br><span class="meta">${sg.polity || "independent / no record"}</span>`
         + (sg.pop ? `<br><span class="meta">~${sg.pop.toLocaleString()}</span>` : "")
         + `<br><span class="meta">${regionLabel(c.region)}</span>`);
@@ -283,6 +317,7 @@ function setupMap(model, basemap) {
         lab.setAttribute("fill", "#cfd3da"); lab.textContent = nm;
       }
     }
+    drawHull(year);
     legendBox.innerHTML = "";
     const active = TimelineModel.empiresActiveAt(model, year)
       .filter(e => e.cities.size >= 2)
@@ -295,7 +330,8 @@ function setupMap(model, basemap) {
       legendBox.appendChild(sp);
     }
   }
-  return { update };
+  function setHull(name) { selectedPolity = name; drawHull(lastYear); }
+  return { update, setHull };
 }
 
 // stacked area: fraction of all cities each empire controls over time (sums to 1)
@@ -341,6 +377,7 @@ function renderControlShare(model) {
     const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis); l.textContent = fmtYear(t);
   }
 
+  const bandEls = [];
   let cum = samples.map(() => 0);
   for (const layer of layers) {
     const top = samples.map((_, i) => cum[i] + valAt(layer, i));
@@ -349,6 +386,7 @@ function renderControlShare(model) {
     const fill = colorOf(layer);
     const poly = el("polygon", { points: ptsTop.concat(ptsBot).join(" "), fill,
       "fill-opacity": (layer === "Independent" || layer === "Other") ? .55 : .85 }, svg);
+    bandEls.push({ el: poly, layer });
     if (layer !== "Independent" && layer !== "Other") {
       poly.style.cursor = "pointer";
       bindTip(poly, `<b>${layer}</b><br><span class="meta">peak ${Math.round(peak[layer] * 100)}% of all cities</span>`);
@@ -375,13 +413,14 @@ function renderControlShare(model) {
   return {
     update(year) { const xx = x(Math.max(minY, Math.min(maxY, year))); marker.setAttribute("x1", xx); marker.setAttribute("x2", xx); },
     setSeek(fn) { onSeek = fn; },
+    highlight(name) { for (const b of bandEls) b.el.style.opacity = (!name || b.layer === name) ? 1 : 0.12; },
   };
 }
 
 // alluvial / Sankey: cities flowing between controlling empires across time checkpoints
-function renderSankey(model) {
+function renderSankey(model, onSelect) {
   const svg = document.getElementById("sankey");
-  const ALL_CP = [-3000, -2000, -1000, -500, -330, -200, 1, 117, 300, 476, 650, 900, 1100, 1260, 1450, 1600, 1800, 2020];
+  const ALL_CP = [-3000, -2500, -2000, -1500, -1000, -500, -330, -200, 1, 117, 300, 476, 650, 900, 1100, 1260, 1450, 1600, 1800, 2020];
   const CP = ALL_CP.filter(y => y >= model.domain.min && y <= model.domain.max);
   if (CP.length < 2) { document.getElementById("sankey").innerHTML = ""; return; }
   const { snaps } = TimelineModel.controlFlows(model, CP);
@@ -425,13 +464,11 @@ function renderSankey(model) {
 
   const ribbonG = el("g", {}, svg);
   const nodeEls = [], ribbonEls = [];
-  let highlighted = null;
-  function setHighlight(name) {
-    highlighted = (highlighted === name) ? null : name;
-    for (const n of nodeEls) n.el.style.opacity = (!highlighted || n.name === highlighted) ? 1 : 0.12;
-    for (const r of ribbonEls) r.el.style.opacity = (!highlighted) ? 1 : (r.src === highlighted || r.dst === highlighted) ? 1 : 0.06;
+  function highlight(name) {
+    for (const n of nodeEls) n.el.style.opacity = (!name || n.name === name) ? 1 : 0.12;
+    for (const r of ribbonEls) r.el.style.opacity = (!name) ? 1 : (r.src === name || r.dst === name) ? 1 : 0.06;
   }
-  svg.addEventListener("click", () => setHighlight(null));   // background click clears
+  svg.addEventListener("click", () => { if (onSelect) onSelect(null); });   // background click clears
 
   for (let i = 0; i < rsnaps.length - 1; i++) {
     const a = rsnaps[i], b = rsnaps[i + 1], srcN = nodes[i], dstN = nodes[i + 1];
@@ -450,7 +487,7 @@ function renderSankey(model) {
       path.style.cursor = "pointer";
       ribbonEls.push({ el: path, src: fl.s, dst: fl.d });
       const srcName = fl.s;
-      path.addEventListener("click", e => { e.stopPropagation(); setHighlight(srcName); });
+      path.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(srcName); });
       bindTip(path, `<b>${fl.s} → ${fl.d}</b><br><span class="meta">${fl.c} cit${fl.c === 1 ? "y" : "ies"}</span>`);
     }
   }
@@ -463,11 +500,12 @@ function renderSankey(model) {
       r.style.cursor = "pointer";
       nodeEls.push({ el: r, name: k });
       const nodeName = k;
-      r.addEventListener("click", e => { e.stopPropagation(); setHighlight(nodeName); });
+      r.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(nodeName); });
       bindTip(r, `<b>${k}</b><br><span class="meta">${fmtYear(CP[ci])} · ${n.count} cit${n.count === 1 ? "y" : "ies"}</span>`);
       if (ci === nodes.length - 1) { const t = el("text", { x: n.x + nw / 2 + 4, y: n.yTop + n.h / 2 + 3, "font-size": 9 }, nodeG); t.setAttribute("fill", "#cfd3da"); t.textContent = k; }
     }
   });
+  return { highlight };
 }
 
 // empire-centric lifespans — rows scale with #polities, not #cities
@@ -488,6 +526,7 @@ function renderEmpires(model) {
     const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis);
     l.textContent = fmtYear(t);
   }
+  const rowEls = [];
   emps.forEach((e, i) => {
     const cy = M.top + i * rh + rh / 2;
     const lab = el("text", { x: M.left - 8, y: cy + 3, "text-anchor": "end", class: "rowlabel", "font-size": 10 }, svg);
@@ -498,7 +537,13 @@ function renderEmpires(model) {
     const span = e.start === e.end ? fmtYear(e.start) : fmtYear(e.start) + " – " + fmtYear(e.end);
     const cityNames = [...e.cities].map(id => (model.cityById[id] || {}).canonical_name || id).sort().join(", ");
     bindTip(bar, `<b>${e.name}</b><br><span class="meta">${span} · ${e.cities.size} cit${e.cities.size === 1 ? "y" : "ies"}</span><br><span class="meta">${cityNames}</span>`);
+    rowEls.push({ bar, lab, name: e.name });
   });
+  return {
+    highlight(name) {
+      for (const r of rowEls) { const on = !name || r.name === name; r.bar.style.opacity = on ? 1 : 0.15; r.lab.style.opacity = on ? 1 : 0.3; }
+    },
+  };
 }
 
 function renderPopulation(model) {
@@ -572,7 +617,8 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
 
 (async function main() {
   let basemap = null, rawCities = null, rawObs = null, rawNames = null;
-  let mapView = null, shareView = null, timer = null, curStep = 100;
+  let mapView = null, shareView = null, sankeyView = null, empiresView = null;
+  let timer = null, curStep = 100, selected = null;
   const slider = document.getElementById("year");
   const label = document.getElementById("yearlabel");
   const playBtn = document.getElementById("play");
@@ -580,12 +626,22 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
 
   const setYear = v => { label.textContent = fmtYear(+v); if (mapView) mapView.update(+v); if (shareView) shareView.update(+v); };
 
+  // Selecting an empire (by clicking a city or a Sankey band) lights it up everywhere.
+  function selectEmpire(name) {
+    selected = (name && name === selected) ? null : (name || null);
+    if (mapView) mapView.setHull(selected);
+    if (shareView) shareView.highlight(selected);
+    if (sankeyView) sankeyView.highlight(selected);
+    if (empiresView) empiresView.highlight(selected);
+  }
+
   function showModel(model) {
     if (timer) { clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
-    mapView = setupMap(model, basemap);
+    selected = null;
+    mapView = setupMap(model, basemap, selectEmpire);
     shareView = renderControlShare(model);
-    renderSankey(model);
-    renderEmpires(model);
+    sankeyView = renderSankey(model, selectEmpire);
+    empiresView = renderEmpires(model);
     renderPopulation(model);
     shareView.setSeek(yr => { slider.value = yr; setYear(yr); });
     slider.min = model.domain.min; slider.max = model.domain.max; slider.step = 1;

@@ -221,6 +221,7 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `AbunNasr1987` | J. Abun-Nasr, *A History of the Maghrib in the Islamic Period* (1987) |
 | `Henze2000` | P. Henze, *Layers of Time: A History of Ethiopia* (2000) |
 | `Taylor2001` | A. Taylor, *American Colonies* (2001) |
+| `Sawyer1997` | P. Sawyer (ed.), *The Oxford Illustrated History of the Vikings* (1997) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -339,5 +340,9 @@ Expansion sequence (region by region):
 - [x] North America into the modern era (New York, Washington, Boston, Quebec, Havana) — the United States is now a real polity
 - [x] Time-aware map labels: cities are labelled by their period name from `names.csv` (Lutetia in antiquity, Paris today)
 - [x] Share chart starts at the first empire; Sankey shows the top 26 empires (mid-size ones like Carthage are now clickable)
-- [ ] Ongoing: more cities per region; deepen the Umayyad→Abbasid→Mamluk and medieval-European successions
+- [x] Map↔chart linkage: click a city or Sankey band to highlight that empire across the Sankey, share chart, and empire panel, and draw its territorial hull on the map
+- [x] Egypt made coherent (Old/Middle/New Kingdom across the core cities); China dynasties (Han→…→PRC) extended so cities aren't blank between capital eras; Han now 9 cities
+- [x] More East/North cities: Chengdu, Xingqing, Datong, Liaoyang, Dading, Hong Kong, Avarga; Viking towns (Hedeby, Birka, Dublin, Jorvik)
+- [ ] **Big remaining gap (per the Independent-cities audit): the post-Roman European succession** — Visigoths/Franks/Byzantium/HRE/medieval kingdoms/modern nations across ~30 Mediterranean & European cities that currently go Independent after 476 CE
+- [ ] Ongoing: deep-time city-states (legitimately pre-imperial for long stretches); Umayyad→Abbasid→Mamluk Levant
 ```
