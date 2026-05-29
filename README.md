@@ -216,6 +216,7 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Cahen2001` | C. Cahen, *The Formation of Turkey* (2001) |
 | `Stein1989` | B. Stein, *Vijayanagara* (1989) |
 | `Darwin2012` | J. Darwin, *Unfinished Empire: The Global Expansion of Britain* (2012) |
+| `Beckwith2009` | C. Beckwith, *Empires of the Silk Road* (2009) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.

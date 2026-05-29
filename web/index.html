@@ -14,8 +14,9 @@
     margin: 0; background: var(--bg); color: var(--ink);
     font: 14px/1.45 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
-  header { padding: 20px 24px 4px; }
+  header { padding: 20px 24px 4px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
   h1 { font-size: 20px; margin: 0; font-weight: 650; }
+  #region { background: #232733; color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; font-size: 13px; cursor: pointer; }
   section { margin: 18px 16px; background: var(--panel); border: 1px solid var(--grid); border-radius: 10px; padding: 14px 16px; }
   h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 10px; font-weight: 600; }
   .legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 10px 0 2px; color: var(--muted); font-size: 12.5px; }
@@ -48,7 +49,10 @@
 </style>
 </head>
 <body>
-<header><h1>City Timeline</h1></header>
+<header>
+  <h1>City Timeline</h1>
+  <select id="region" title="focus the views on a region"></select>
+</header>
 
 <div id="error" hidden>
   Couldn't load the data. Serve over HTTP: <code>python3 -m http.server 8000</code>, then open <code>/web/</code>.
@@ -176,8 +180,6 @@ function drawBasemap(parent, geo, x, y) {
     river: { stroke: "#3d6585", "stroke-width": 0.9, fill: "none", "stroke-opacity": .8 },
     lake: { stroke: "none", fill: "#1b2a3a" },
   };
-  const RIVER_LABELS = new Set(["Tigris", "Euphrates", "Nile", "Jordan"]);
-  const labelled = new Set();
   const draw = (st, d) => { if (d) el("path", { ...st, d }, g); };
   for (const f of (geo.features || [])) {
     const kind = (f.properties && f.properties.kind) || "coastline";
@@ -187,15 +189,6 @@ function drawBasemap(parent, geo, x, y) {
     else if (gm.type === "MultiLineString") gm.coordinates.forEach(l => draw(st, path(l)));
     else if (gm.type === "Polygon") draw(st, gm.coordinates.map(r => path(r) + "Z").join(" "));
     else if (gm.type === "MultiPolygon") gm.coordinates.forEach(p => draw(st, p.map(r => path(r) + "Z").join(" ")));
-    const nm = f.properties && f.properties.name;
-    if (kind === "river" && nm && RIVER_LABELS.has(nm) && !labelled.has(nm)) {
-      const line = gm.type === "LineString" ? gm.coordinates : gm.type === "MultiLineString" ? gm.coordinates.flat() : null;
-      if (line && line.length) {
-        const m = line[Math.floor(line.length / 2)];
-        const lab = el("text", { x: x(m[0]) + 3, y: y(m[1]), "font-size": 10, "font-style": "italic" }, g);
-        lab.setAttribute("fill", "#6f9fc4"); lab.textContent = nm; labelled.add(nm);
-      }
-    }
   }
 }
 
@@ -210,9 +203,41 @@ function starPath(cx, cy, r) {
   return d + "Z";
 }
 
+// Shared map state, so the zoom/pan handlers (bound once) keep working after the views
+// are rebuilt for a different region.
+const MAP = { svg: null, vb: null, home: null, W: 1120, H: 540 };
+function applyVB() { if (MAP.svg && MAP.vb) MAP.svg.setAttribute("viewBox", `${MAP.vb.x} ${MAP.vb.y} ${MAP.vb.w} ${MAP.vb.h}`); }
+function bindMapControls() {
+  const svg = document.getElementById("map");
+  svg.addEventListener("wheel", e => {
+    e.preventDefault();
+    if (!MAP.vb) return;
+    const rect = svg.getBoundingClientRect();
+    const px = (e.clientX - rect.left) / rect.width, py = (e.clientY - rect.top) / rect.height;
+    const f = e.deltaY < 0 ? 0.85 : 1.18;
+    const ptx = MAP.vb.x + px * MAP.vb.w, pty = MAP.vb.y + py * MAP.vb.h;
+    MAP.vb.w = Math.min(MAP.W * 1.4, Math.max(MAP.W * 0.04, MAP.vb.w * f));
+    MAP.vb.h = Math.min(MAP.H * 1.4, Math.max(MAP.H * 0.04, MAP.vb.h * f));
+    MAP.vb.x = ptx - px * MAP.vb.w; MAP.vb.y = pty - py * MAP.vb.h;
+    applyVB();
+  }, { passive: false });
+  let drag = null;
+  svg.addEventListener("mousedown", e => { drag = { x: e.clientX, y: e.clientY }; });
+  window.addEventListener("mousemove", e => {
+    if (!drag || !MAP.vb) return;
+    const rect = svg.getBoundingClientRect();
+    MAP.vb.x -= (e.clientX - drag.x) * (MAP.vb.w / rect.width);
+    MAP.vb.y -= (e.clientY - drag.y) * (MAP.vb.h / rect.height);
+    drag = { x: e.clientX, y: e.clientY }; applyVB();
+  });
+  window.addEventListener("mouseup", () => { drag = null; });
+  document.getElementById("zoomreset").addEventListener("click", () => { if (MAP.home) { MAP.vb = { ...MAP.home }; applyVB(); } });
+}
+
 // the map is a year machine: scrub/play to see empires spread, zoom with the wheel, drag to pan
 function setupMap(model, basemap) {
   const svg = document.getElementById("map");
+  svg.innerHTML = "";
   const located = model.cities.filter(c => c.lat !== "" && c.lon !== "");
   const lats = located.map(c => +c.lat), lons = located.map(c => +c.lon);
   const padLat = (Math.max(...lats) - Math.min(...lats)) * 0.12 + 0.3;
@@ -220,43 +245,17 @@ function setupMap(model, basemap) {
   const minLat = Math.min(...lats) - padLat, maxLat = Math.max(...lats) + padLat;
   const minLon = Math.min(...lons) - padLon, maxLon = Math.max(...lons) + padLon;
 
-  const W = 1120, H = 540, Mg = 24;
+  const W = MAP.W, H = MAP.H, Mg = 24;
   const s = Math.min((W - 2 * Mg) / (maxLon - minLon), (H - 2 * Mg) / (maxLat - minLat));
   const x = lon => Mg + (lon - minLon) * s;
   const y = lat => H - Mg - (lat - minLat) * s;
 
-  const home = { x: 0, y: 0, w: W, h: H };
-  let vb = { ...home };
-  const apply = () => svg.setAttribute("viewBox", `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
-  apply();
+  MAP.svg = svg; MAP.home = { x: 0, y: 0, w: W, h: H }; MAP.vb = { ...MAP.home };
+  applyVB();
 
   const baseG = el("g", {}, svg);
   if (basemap) drawBasemap(baseG, basemap, x, y);
   const markerG = el("g", {}, svg);
-
-  svg.addEventListener("wheel", e => {
-    e.preventDefault();
-    const rect = svg.getBoundingClientRect();
-    const px = (e.clientX - rect.left) / rect.width, py = (e.clientY - rect.top) / rect.height;
-    const f = e.deltaY < 0 ? 0.85 : 1.18;
-    const ptx = vb.x + px * vb.w, pty = vb.y + py * vb.h;
-    vb.w = Math.min(W * 1.4, Math.max(W * 0.04, vb.w * f));
-    vb.h = Math.min(H * 1.4, Math.max(H * 0.04, vb.h * f));
-    vb.x = ptx - px * vb.w; vb.y = pty - py * vb.h;
-    apply();
-  }, { passive: false });
-
-  let drag = null;
-  svg.addEventListener("mousedown", e => { drag = { x: e.clientX, y: e.clientY }; });
-  window.addEventListener("mousemove", e => {
-    if (!drag) return;
-    const rect = svg.getBoundingClientRect();
-    vb.x -= (e.clientX - drag.x) * (vb.w / rect.width);
-    vb.y -= (e.clientY - drag.y) * (vb.h / rect.height);
-    drag = { x: e.clientX, y: e.clientY }; apply();
-  });
-  window.addEventListener("mouseup", () => { drag = null; });
-  document.getElementById("zoomreset").addEventListener("click", () => { vb = { ...home }; apply(); });
 
   const legendBox = document.getElementById("empire-legend");
   function update(year) {
@@ -379,7 +378,9 @@ function renderControlShare(model) {
 // alluvial / Sankey: cities flowing between controlling empires across time checkpoints
 function renderSankey(model) {
   const svg = document.getElementById("sankey");
-  const CP = [-5000, -3000, -2000, -1000, -500, -200, 1, 300, 600, 900, 1200, 1500, 1800, 2020];
+  const ALL_CP = [-3000, -2000, -1000, -500, -330, -200, 1, 117, 300, 476, 650, 900, 1100, 1260, 1450, 1600, 1800, 2020];
+  const CP = ALL_CP.filter(y => y >= model.domain.min && y <= model.domain.max);
+  if (CP.length < 2) { document.getElementById("sankey").innerHTML = ""; return; }
   const { snaps } = TimelineModel.controlFlows(model, CP);
 
   // top controllers by peak column count (excluding Independent); rest become "Other"
@@ -530,45 +531,101 @@ function renderPopulation(model) {
   }
 }
 
-(async function main() {
-  try {
-    const [cities, , obs] = await Promise.all([
-      load("../data/cities.csv"), load("../data/names.csv"), load("../data/observations.csv")
-    ]);
-    const basemap = await loadJSON("basemap.geojson");
-    const model = TimelineModel.build(cities, obs);
+// Region groups for the focus dropdown: label -> region prefixes to include.
+const MACRO = [
+  ["Mesopotamia", ["mesopotamia"]],
+  ["Egypt & Nubia", ["egypt", "nubia"]],
+  ["Levant", ["levant"]],
+  ["Anatolia", ["anatolia"]],
+  ["Greece & Macedon", ["greece", "macedon"]],
+  ["Iran & Central Asia", ["iran", "steppe"]],
+  ["Pontic Steppe", ["pontic-steppe"]],
+  ["Italy", ["italy"]],
+  ["Western Europe", ["gaul", "iberia", "britannia", "germania"]],
+  ["Central & Eastern Europe", ["europe-central", "europe-east"]],
+  ["South Asia", ["india"]],
+  ["East Asia", ["china", "japan"]],
+  ["Southeast Asia", ["southeast-asia"]],
+  ["North Africa", ["north-africa"]],
+  ["Sub-Saharan Africa", ["africa"]],
+  ["Americas", ["americas"]],
+];
+const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.startsWith(p + "-"));
 
-    const mapView = setupMap(model, basemap);
-    const shareView = renderControlShare(model);
+(async function main() {
+  let basemap = null, rawCities = null, rawObs = null;
+  let mapView = null, shareView = null, timer = null, curStep = 100;
+  const slider = document.getElementById("year");
+  const label = document.getElementById("yearlabel");
+  const playBtn = document.getElementById("play");
+  const regionSel = document.getElementById("region");
+
+  const setYear = v => { label.textContent = fmtYear(+v); if (mapView) mapView.update(+v); if (shareView) shareView.update(+v); };
+
+  function showModel(model) {
+    if (timer) { clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
+    mapView = setupMap(model, basemap);
+    shareView = renderControlShare(model);
     renderSankey(model);
     renderEmpires(model);
     renderPopulation(model);
-
-    const slider = document.getElementById("year");
-    const label = document.getElementById("yearlabel");
-    const playBtn = document.getElementById("play");
-    slider.min = model.domain.min; slider.max = model.domain.max; slider.step = 1;
-    slider.value = -2000;
-    const setYear = v => { label.textContent = fmtYear(+v); mapView.update(+v); shareView.update(+v); };
-    slider.addEventListener("input", () => setYear(slider.value));
     shareView.setSeek(yr => { slider.value = yr; setYear(yr); });
+    slider.min = model.domain.min; slider.max = model.domain.max; slider.step = 1;
+    let v = +slider.value;
+    if (!Number.isFinite(v) || v < model.domain.min || v > model.domain.max) v = model.domain.min;
+    slider.value = v;
+    curStep = Math.max(5, Math.round((model.domain.max - model.domain.min) / 500));
+    setYear(v);
+  }
 
-    let timer = null;
-    const step = Math.max(5, Math.round((model.domain.max - model.domain.min) / 500));
+  function applyRegion(key, full) {
+    if (key === "all") return showModel(full);
+    const prefixes = (MACRO.find(m => m[0] === key) || [null, []])[1];
+    const subCities = rawCities.filter(c => inMacro(c.region, prefixes));
+    const ids = new Set(subCities.map(c => c.city_id));
+    const subObs = rawObs.filter(o => ids.has(o.city_id));
+    showModel(TimelineModel.build(subCities, subObs));
+  }
+
+  try {
+    [rawCities, , rawObs] = await Promise.all([
+      load("../data/cities.csv"), load("../data/names.csv"), load("../data/observations.csv")
+    ]);
+    basemap = await loadJSON("basemap.geojson");
+    const fullModel = TimelineModel.build(rawCities, rawObs);
+
+    bindMapControls();
+    slider.value = -2000;
+
+    // dropdown: All + the macro regions that actually have cities
+    regionSel.innerHTML = "";
+    const optAll = document.createElement("option"); optAll.value = "all"; optAll.textContent = "All regions";
+    regionSel.appendChild(optAll);
+    for (const [labelTxt, prefixes] of MACRO) {
+      if (!rawCities.some(c => inMacro(c.region, prefixes))) continue;
+      const o = document.createElement("option"); o.value = labelTxt; o.textContent = labelTxt;
+      regionSel.appendChild(o);
+    }
+    regionSel.addEventListener("change", () => applyRegion(regionSel.value, fullModel));
+
+    slider.addEventListener("input", () => setYear(slider.value));
     playBtn.addEventListener("click", () => {
       if (timer) { clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; return; }
-      if (+slider.value >= model.domain.max) slider.value = model.domain.min;
+      if (+slider.value >= +slider.max) slider.value = slider.min;
       playBtn.innerHTML = "&#10073;&#10073;";
       timer = setInterval(() => {
-        let v = +slider.value + step;
-        if (v >= model.domain.max) { v = model.domain.max; clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
+        let v = +slider.value + curStep;
+        if (v >= +slider.max) { v = +slider.max; clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
         slider.value = v; setYear(v);
       }, 60);
     });
-    setYear(slider.value);
+
+    showModel(fullModel);
   } catch (e) {
     document.getElementById("error").hidden = false;
-    for (const id of ["map-sec", "emp-sec", "pop-sec"]) document.getElementById(id).hidden = true;
+    for (const id of ["map-sec", "share-sec", "sankey-sec", "emp-sec", "pop-sec"]) {
+      const el2 = document.getElementById(id); if (el2) el2.hidden = true;
+    }
     console.error(e);
   }
 })();

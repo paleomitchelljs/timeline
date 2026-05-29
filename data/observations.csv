@@ -920,3 +920,48 @@ obs_0918,lima,1542,1821,circa,capital_status,Spanish Empire (Viceroyalty of Peru
 obs_0919,lima,1821,2020,circa,capital_status,Capital of Peru,,DAltroy2014,medium,Capital of independent Peru
 obs_0920,lima,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Lima
 obs_0921,toletum,1085,1561,circa,capital_status,Capital of the Crown of Castile,,Kennedy1996,medium,Toledo serves as the Castilian royal capital until Madrid
+obs_0922,dunhuang,-111,-111,circa,founding,,,Lewis2007,low,A Han Silk Road garrison on the Gansu corridor
+obs_0923,dunhuang,-111,9,circa,conquest,,Han dynasty,Lewis2007,low,A Han frontier commandery
+obs_0924,dunhuang,700,700,circa,attestation,Mogao Buddhist caves,,Beckwith2009,medium,A flourishing Buddhist art center on the Silk Road
+obs_0925,dunhuang,781,781,circa,conquest,,Tibetan Empire,Beckwith2009,low,Taken by the Tibetan Empire
+obs_0926,dunhuang,1227,1227,circa,conquest,,Mongol Empire,Morgan2007,low,Absorbed by the Mongols
+obs_0927,dunhuang,2020,2020,circa,population_estimate,190000,,UN2018,low,Modern Dunhuang
+obs_0928,kashgar,-100,-100,circa,founding,,,Beckwith2009,low,Westernmost oasis of the Tarim Basin
+obs_0929,kashgar,648,648,circa,conquest,,Tang dynasty,Beckwith2009,low,One of the Tang Four Garrisons of the western regions
+obs_0930,kashgar,840,840,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,medium,A capital of the first Turkic Muslim dynasty
+obs_0931,kashgar,1219,1219,circa,conquest,,Mongol Empire,Morgan2007,low,Taken by the Mongols
+obs_0932,kashgar,2020,2020,circa,population_estimate,700000,,UN2018,low,Modern Kashgar
+obs_0933,turpan,100,100,circa,founding,,,Beckwith2009,low,The Gaochang oasis on the northern Silk Road
+obs_0934,turpan,640,640,circa,conquest,,Tang dynasty,Beckwith2009,low,Annexed by the Tang as Xizhou
+obs_0935,turpan,866,1209,circa,capital_status,Capital of the Uyghur kingdom of Qocho,,Beckwith2009,medium,Seat of a Buddhist Uyghur kingdom
+obs_0936,turpan,1209,1209,circa,conquest,,Mongol Empire,Morgan2007,low,Submitted to the Mongols
+obs_0937,turpan,2020,2020,circa,population_estimate,630000,,UN2018,low,Modern Turpan
+obs_0938,khotan,-200,-200,circa,founding,,,Beckwith2009,low,Southern Tarim kingdom famed for jade
+obs_0939,khotan,648,648,circa,conquest,,Tang dynasty,Beckwith2009,low,A Tang garrison and early Buddhist center
+obs_0940,khotan,1006,1006,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,medium,Conquered and Islamized by the Kara-Khanids
+obs_0941,khotan,2020,2020,circa,population_estimate,410000,,UN2018,low,Modern Hotan
+obs_0942,kucha,-100,-100,circa,founding,,,Beckwith2009,low,Tocharian Buddhist kingdom of the northern Tarim
+obs_0943,kucha,648,648,circa,conquest,,Tang dynasty,Beckwith2009,low,Seat of the Tang Anxi Protectorate
+obs_0944,kucha,840,840,circa,conquest,,Uyghur Khaganate,Beckwith2009,low,Passed to the Uyghurs
+obs_0945,kucha,1758,1758,circa,conquest,,Qing dynasty,Mote1999,low,Absorbed into Qing Xinjiang
+obs_0946,kucha,2020,2020,circa,population_estimate,450000,,UN2018,low,Modern Kuqa
+obs_0947,otrar,600,600,circa,founding,,,Soucek2000,low,A trade city on the Syr Darya
+obs_0948,otrar,1218,1218,circa,attestation,Otrar massacre,Khwarezmian Empire,Morgan2007,medium,The killing of Mongol envoys here triggered the Mongol invasion
+obs_0949,otrar,1219,1219,circa,destruction,,Mongol Empire (Genghis Khan),Morgan2007,high,Sacked by the Mongols
+obs_0950,otrar,1405,1405,circa,attestation,Death of Timur,Timurid Empire,Soucek2000,low,Timur died here on his march toward China
+obs_0951,otrar,1700,1700,century,abandonment,,,Soucek2000,low,Declined and was abandoned
+obs_0952,nishapur,250,250,circa,founding,,Sasanian Empire,Daryaee2009,low,Founded by the Sasanians in Khorasan
+obs_0953,nishapur,651,651,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_0954,nishapur,1037,1037,circa,capital_status,Capital of the Seljuk Empire,,Soucek2000,high,A Seljuk capital and a great center of learning
+obs_0955,nishapur,1221,1221,circa,destruction,,Mongol Empire (Tolui),Morgan2007,high,Its population massacred by the Mongols
+obs_0956,nishapur,1300,1300,century,abandonment,,,Soucek2000,low,Never recovered its former greatness
+obs_0957,urgench,700,700,circa,founding,,,Soucek2000,low,Gurganj on the Amu Darya delta
+obs_0958,urgench,995,1221,circa,capital_status,Capital of Khwarezm,,Soucek2000,high,Capital of the Khwarezmian Empire
+obs_0959,urgench,1221,1221,circa,destruction,,Mongol Empire (Genghis Khan),Morgan2007,high,Sacked after a long siege; the Mongols flooded the city
+obs_0960,urgench,1388,1388,circa,destruction,,Timurid Empire (Timur),Soucek2000,medium,Razed by Timur
+obs_0961,urgench,1700,1700,century,abandonment,,,Soucek2000,low,Abandoned as the river shifted course
+obs_0962,tashkent,-200,-200,circa,founding,,,Soucek2000,low,The oasis of Chach on the Silk Road
+obs_0963,tashkent,751,751,circa,attestation,Battle of Talas nearby,Abbasid Caliphate,Kennedy2004,low,The Arab victory at Talas halted Tang expansion
+obs_0964,tashkent,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Taken by the Mongols
+obs_0965,tashkent,1865,1865,circa,conquest,,Russian Empire,Soucek2000,medium,Captured by the Russian Empire
+obs_0966,tashkent,2020,2020,circa,population_estimate,2500000,,UN2018,medium,Modern Tashkent; capital of Uzbekistan
