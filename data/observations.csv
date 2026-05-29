@@ -188,3 +188,101 @@ obs_0186,jerusalem,638,638,circa,conquest,,Rashidun Caliphate (Umar),Kennedy2004
 obs_0187,jerusalem,1099,1099,exact,conquest,,First Crusade,Runciman1951,high,Crusaders storm the city and massacre its inhabitants
 obs_0188,jerusalem,1187,1187,exact,conquest,,Ayyubids (Saladin),Runciman1951,high,Saladin retakes Jerusalem from the Crusaders
 obs_0189,jerusalem,2020,2020,circa,population_estimate,950000,,UN2018,medium,Modern Jerusalem
+obs_0190,susa,-4200,-4200,circa,founding,,,Potts1999,low,One of the oldest urban centers on the Iranian plateau
+obs_0191,susa,-2700,-640,circa,capital_status,Royal city of Elam,,Potts1999,medium,Principal lowland capital of the Elamite kingdoms
+obs_0192,susa,-647,-647,circa,destruction,,Assyria (Ashurbanipal),Potts1999,medium,Ashurbanipal sacks Susa and carries off its gods
+obs_0193,susa,-521,-330,circa,capital_status,Administrative capital of the Achaemenid Empire,Darius I,Briant2002,high,Darius builds the Apadana palace; one of the empire's seats
+obs_0194,susa,-330,-330,circa,conquest,,Macedon (Alexander III),Briant2002,high,Alexander seizes Susa and its treasury
+obs_0195,susa,1218,1218,circa,abandonment,,Mongols,Potts1999,low,Ruined in the Mongol invasions; later only the small town of Shush
+obs_0196,anshan,-3400,-3400,circa,founding,,,Potts1999,low,Highland Elamite center in the Zagros
+obs_0197,anshan,-2400,-1100,circa,capital_status,Highland capital of Elam,,Potts1999,medium,Paired with Susa in the royal title king of Anshan and Susa
+obs_0198,anshan,-640,-640,circa,attestation,Survives in the title king of Anshan,Cyrus II,Potts1999,low,Cyrus the Great styled himself king of Anshan
+obs_0199,anshan,-500,-500,century,abandonment,,,Potts1999,low,The highland city had faded by the Achaemenid period
+obs_0200,ecbatana,-3000,-3000,circa,founding,,,Potts1999,low,Ancient center on the Zagros; the later city of Hamadan
+obs_0201,ecbatana,-700,-550,circa,capital_status,Capital of the Median Empire,,Briant2002,medium,The Median royal seat
+obs_0202,ecbatana,-550,-550,circa,conquest,,Achaemenid Persia (Cyrus II),Briant2002,high,Cyrus defeats Astyages; Ecbatana becomes a Persian summer capital
+obs_0203,ecbatana,-330,-330,circa,conquest,,Macedon (Alexander III),Briant2002,medium,Passes to Alexander; later a Seleucid and Parthian center
+obs_0204,ecbatana,2020,2020,circa,population_estimate,700000,,UN2018,medium,Modern Hamadan; long continuously inhabited
+obs_0205,pasargadae,-546,-546,circa,founding,,Cyrus II,Briant2002,high,Cyrus founds his capital after defeating the Medes; the site of his tomb
+obs_0206,pasargadae,-546,-518,circa,capital_status,First Achaemenid capital,Cyrus II,Briant2002,high,The royal seat before Persepolis
+obs_0207,pasargadae,-330,-330,circa,abandonment,,,Briant2002,low,Eclipsed by Persepolis and Susa and faded after the Achaemenid fall
+obs_0208,persepolis,-518,-518,circa,founding,,Darius I,Briant2002,high,Darius begins the ceremonial capital Parsa
+obs_0209,persepolis,-518,-330,circa,capital_status,Ceremonial capital of the Achaemenid Empire,Darius I,Briant2002,high,The Apadana and the Gate of All Nations
+obs_0210,persepolis,-330,-330,circa,destruction,,Macedon (Alexander III),Briant2002,high,Alexander burns Persepolis after his conquest
+obs_0211,persepolis,-330,-330,circa,abandonment,,,Briant2002,low,Never rebuilt as a capital
+obs_0212,catalhoyuk,-7400,-7400,circa,founding,,,Hodder2006,medium,One of the world's earliest large proto-urban settlements
+obs_0213,catalhoyuk,-6500,-6500,circa,population_estimate,6000,,Hodder2006,low,A dense Neolithic town of mudbrick houses entered through the roof
+obs_0214,catalhoyuk,-5700,-5700,circa,abandonment,,,Hodder2006,low,Abandoned in the late Neolithic
+obs_0215,troy,-3000,-3000,circa,founding,,,Bryce2005,low,Bronze Age citadel guarding the Dardanelles (Troy I)
+obs_0216,troy,-1180,-1180,circa,destruction,,,Bryce2005,low,The Troy VIIa destruction is often linked to the legendary Trojan War
+obs_0217,troy,-20,-20,circa,attestation,Roman Ilium,Rome (Augustus),Mitchell1993,low,Rome cherished Ilium as the ancestral city of Aeneas
+obs_0218,troy,500,500,century,abandonment,,,Mitchell1993,low,Declined in the Byzantine era and was abandoned
+obs_0219,hattusa,-2000,-2000,circa,founding,,,Bryce2005,low,Hattian and then Hittite settlement on the Anatolian plateau
+obs_0220,hattusa,-1650,-1180,circa,capital_status,Capital of the Hittite Empire,,Bryce2005,high,Royal seat of the Hittite great kings
+obs_0221,hattusa,-1180,-1180,circa,destruction,,,Bryce2005,medium,Destroyed amid the Late Bronze Age collapse and never reoccupied as a capital
+obs_0222,gordion,-2300,-2300,circa,founding,,,Mitchell1993,low,Settlement on the Sangarius that became the Phrygian capital
+obs_0223,gordion,-900,-700,circa,capital_status,Capital of Phrygia,,Mitchell1993,medium,The royal city associated with King Midas
+obs_0224,gordion,-700,-700,circa,destruction,,Cimmerians,Mitchell1993,low,Sacked by the Cimmerians around the time of Midas
+obs_0225,gordion,-333,-333,circa,attestation,Alexander and the Gordian Knot,Macedon (Alexander III),Mitchell1993,low,Alexander cut the Gordian Knot here on his march east
+obs_0226,gordion,100,100,century,abandonment,,,Mitchell1993,low,Dwindled to a village under Roman rule
+obs_0227,sardis,-1500,-1500,circa,founding,,,Roosevelt2009,low,Bronze Age origins; later the Lydian capital
+obs_0228,sardis,-680,-546,circa,capital_status,Capital of Lydia,,Roosevelt2009,medium,Royal city of the Mermnad kings; Croesus and the first coinage
+obs_0229,sardis,-546,-546,circa,conquest,,Achaemenid Persia (Cyrus II),Briant2002,high,Cyrus defeats Croesus; Sardis becomes the western satrapal seat
+obs_0230,sardis,-334,-334,circa,conquest,,Macedon (Alexander III),Roosevelt2009,medium,Surrenders to Alexander
+obs_0231,sardis,1402,1402,circa,destruction,,Timur,Roosevelt2009,low,Sacked by Timur; the city did not recover
+obs_0232,ephesus,-1000,-1000,circa,founding,,,Mitchell1993,low,Ionian Greek foundation by the sanctuary of Artemis
+obs_0233,ephesus,-550,-550,circa,attestation,The Temple of Artemis,Croesus,Mitchell1993,low,The great Artemision was funded in part by Croesus of Lydia
+obs_0234,ephesus,-546,-546,circa,conquest,,Achaemenid Persia (Cyrus II),Briant2002,low,Absorbed with the rest of Ionia
+obs_0235,ephesus,-100,-100,circa,population_estimate,200000,,Chandler1987,low,Among the largest cities of the Roman east
+obs_0236,ephesus,1400,1400,century,abandonment,,,Mitchell1993,low,Abandoned as its harbor silted and the coast receded
+obs_0237,byzantium,-660,-660,circa,founding,,,Mango2002,low,Greek colony of Byzantion on the Bosphorus
+obs_0238,byzantium,330,330,exact,refounding,Constantinople,Rome (Constantine),Mango2002,high,Constantine refounds the Greek city as the new Roman capital
+obs_0239,byzantium,330,1453,circa,capital_status,Capital of the Byzantine Empire,,Mango2002,high,The seat of the eastern Roman empire for over a millennium
+obs_0240,byzantium,500,500,circa,population_estimate,500000,,Chandler1987,low,Capital of the Byzantine Empire and the largest city in Europe
+obs_0241,byzantium,1453,1453,exact,conquest,,Ottoman Empire (Mehmed II),Runciman1965,high,The Ottoman conquest ends the Byzantine Empire; the city becomes the Ottoman capital
+obs_0242,byzantium,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Istanbul
+obs_0243,knossos,-7000,-7000,circa,founding,,,Dickinson1994,low,Neolithic settlement that became the great Minoan palace center
+obs_0244,knossos,-1900,-1450,circa,capital_status,Center of Minoan Crete,,Dickinson1994,medium,The labyrinthine palace and the Linear A archives
+obs_0245,knossos,-1450,-1450,circa,destruction,,,Dickinson1994,low,The Minoan palaces fall and Mycenaean Greeks take over Knossos
+obs_0246,knossos,-1300,-1300,century,abandonment,,,Dickinson1994,low,The palace is finally abandoned in the Late Bronze Age
+obs_0247,mycenae,-1600,-1600,circa,founding,,,Dickinson1994,low,The citadel that gave its name to Mycenaean civilization
+obs_0248,mycenae,-1600,-1100,circa,capital_status,Center of a Mycenaean kingdom,,Dickinson1994,medium,The Lion Gate and the shaft-grave dynasties; Agamemnon in legend
+obs_0249,mycenae,-1100,-1100,circa,destruction,,,Dickinson1994,low,Destroyed amid the Bronze Age collapse
+obs_0250,mycenae,-150,-150,century,abandonment,,,Dickinson1994,low,A minor town in classical times; deserted by the Roman era
+obs_0251,athens,-3000,-3000,circa,founding,,,Hornblower2011,low,Continuously inhabited from the Neolithic around the Acropolis
+obs_0252,athens,-480,-322,circa,capital_status,Leading polis of Classical Greece,,Hornblower2011,high,Democracy and empire and the cultural golden age under Pericles
+obs_0253,athens,-430,-430,circa,population_estimate,150000,,Chandler1987,low,The city and Piraeus at the height of the Athenian empire
+obs_0254,athens,-146,-146,circa,conquest,,Rome,Hornblower2011,medium,Absorbed into Roman Greece after the sack of Corinth
+obs_0255,athens,1458,1458,circa,conquest,,Ottoman Empire,Runciman1965,low,Taken by the Ottomans
+obs_0256,athens,2020,2020,circa,population_estimate,3100000,,UN2018,medium,Modern Athens; capital of Greece
+obs_0257,sparta,-1000,-1000,circa,founding,,,Hansen2006,low,Dorian settlement on the Eurotas
+obs_0258,sparta,-550,-371,circa,capital_status,Hegemon of the Peloponnese,,Hansen2006,medium,Dominant until the defeat at Leuctra
+obs_0259,sparta,-146,-146,circa,conquest,,Rome,Hansen2006,low,Absorbed into Roman Greece
+obs_0260,sparta,396,396,circa,abandonment,,Visigoths (Alaric),Hansen2006,low,Sacked by Alaric and later deserted until the modern town of Sparti
+obs_0261,corinth,-900,-900,circa,founding,,,Hansen2006,low,Wealthy commercial polis on the isthmus
+obs_0262,corinth,-146,-146,exact,destruction,,Rome (Mummius),Hornblower2011,high,Rome destroys Corinth and enslaves its people
+obs_0263,corinth,-44,-44,exact,refounding,Roman colony,Rome (Julius Caesar),Hornblower2011,high,Refounded by Caesar; later capital of the province of Achaea
+obs_0264,corinth,1400,1400,century,abandonment,,,Hansen2006,low,Declined through the Byzantine and Frankish eras
+obs_0265,thebai,-1400,-1400,circa,founding,,,Dickinson1994,low,Mycenaean palace center on the Cadmea
+obs_0266,thebai,-371,-362,circa,capital_status,Hegemon of Greece,Epaminondas,Hansen2006,medium,Brief Theban supremacy after Leuctra
+obs_0267,thebai,-335,-335,exact,destruction,,Macedon (Alexander III),Hornblower2011,high,Alexander razes Thebes and sells its people into slavery
+obs_0268,thebai,-316,-316,circa,refounding,,Cassander,Hammond1989,low,Rebuilt by Cassander; later the modest town of Thiva
+obs_0269,argos,-5000,-5000,circa,founding,,,Hansen2006,low,One of the oldest continuously inhabited cities in Greece
+obs_0270,argos,-650,-650,century,capital_status,Leading early Dorian polis,,Hansen2006,low,Dominant under Pheidon in the seventh century
+obs_0271,argos,-146,-146,circa,conquest,,Rome,Hansen2006,low,Absorbed into Roman Greece
+obs_0272,argos,2020,2020,circa,population_estimate,50000,,UN2018,low,Modern Argos; continuously inhabited for millennia
+obs_0273,pella,-400,-400,circa,founding,,Archelaus,Hammond1989,low,Archelaus moves the Macedonian capital to Pella
+obs_0274,pella,-400,-168,circa,capital_status,Capital of the Kingdom of Macedon,,Hammond1989,high,Birthplace of Alexander the Great
+obs_0275,pella,-168,-168,exact,conquest,,Rome,Hammond1989,high,Macedon falls to Rome after the Battle of Pydna
+obs_0276,pella,100,100,century,abandonment,,,Hammond1989,low,Declined under Roman rule and after an earthquake
+obs_0277,aigai,-650,-650,circa,founding,,,Hammond1989,low,The original royal capital and burial place of the Macedonian kings
+obs_0278,aigai,-650,-400,circa,capital_status,First capital of Macedon,,Hammond1989,medium,Royal seat before Pella; the tomb of Philip II
+obs_0279,aigai,-336,-336,exact,attestation,Assassination of Philip II,,Hammond1989,medium,Philip II is murdered at Aigai during a royal wedding
+obs_0280,aigai,100,100,century,abandonment,,,Hammond1989,low,Abandoned after a landslide and Roman-era decline
+obs_0281,thessalonica,-315,-315,exact,founding,,Cassander,Hammond1989,high,Founded by Cassander and named for Alexander's sister
+obs_0282,thessalonica,300,1430,circa,capital_status,Second city of the Byzantine Empire,,Mango2002,medium,A great Byzantine metropolis and port
+obs_0283,thessalonica,1430,1430,exact,conquest,,Ottoman Empire,Runciman1965,medium,Taken by the Ottomans
+obs_0284,thessalonica,2020,2020,circa,population_estimate,1100000,,UN2018,medium,Modern Thessaloniki; Greece's second city
+obs_0285,philippi,-356,-356,exact,founding,,Macedon (Philip II),Hammond1989,medium,Philip II refounds the town to control the gold of Mount Pangaion
+obs_0286,philippi,-42,-42,exact,attestation,Battle of Philippi,Rome (Antony and Octavian),Hornblower2011,medium,The defeat of Caesar's assassins; later a Roman colony and early Christian community
+obs_0287,philippi,1400,1400,century,abandonment,,,Mango2002,low,Declined and was abandoned by the late Byzantine and Ottoman period

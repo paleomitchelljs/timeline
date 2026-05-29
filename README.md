@@ -161,6 +161,18 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Magness2012` | J. Magness, *The Archaeology of the Holy Land* (2012) |
 | `Kennedy2004` | H. Kennedy, *The Prophet and the Age of the Caliphates* (2004) |
 | `Runciman1951` | S. Runciman, *A History of the Crusades* (1951) |
+| `Potts1999` | D.T. Potts, *The Archaeology of Elam* (1999) |
+| `Briant2002` | P. Briant, *From Cyrus to Alexander: A History of the Persian Empire* (2002) |
+| `Hodder2006` | I. Hodder, *The Leopard's Tale: Revealing the Mysteries of Çatalhöyük* (2006) |
+| `Bryce2005` | T. Bryce, *The Kingdom of the Hittites* (2005) |
+| `Mitchell1993` | S. Mitchell, *Anatolia: Land, Men, and Gods in Asia Minor* (1993) |
+| `Roosevelt2009` | C.H. Roosevelt, *The Archaeology of Lydia* (2009) |
+| `Mango2002` | C. Mango (ed.), *The Oxford History of Byzantium* (2002) |
+| `Runciman1965` | S. Runciman, *The Fall of Constantinople 1453* (1965) |
+| `Dickinson1994` | O. Dickinson, *The Aegean Bronze Age* (1994) |
+| `Hornblower2011` | S. Hornblower, *The Greek World 479–323 BC* (2011) |
+| `Hansen2006` | M.H. Hansen, *Polis: An Introduction to the Ancient Greek City-State* (2006) |
+| `Hammond1989` | N.G.L. Hammond, *The Macedonian State* (1989) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -234,9 +246,11 @@ moves east toward China.
 Expansion sequence (region by region):
 
 - [x] Mesopotamia (Sumer, Akkad, Assyria) · Egypt · Levant
-- [ ] **Anatolia** (Çatalhöyük, Troy, Hattusa, Gordion, Sardis, Ephesus)
-- [ ] **Iran / Zagros** (Susa, Ecbatana, Persepolis, Pasargadae)
-- [ ] **Pontic steppe**, then **Greece** and **Macedonia**
+- [x] **Iran / Zagros** (Susa, Anshan, Ecbatana, Pasargadae, Persepolis)
+- [x] **Anatolia** (Çatalhöyük, Troy, Hattusa, Gordion, Sardis, Ephesus, Byzantium)
+- [x] **Greece** (Knossos, Mycenae, Athens, Sparta, Corinth, Thebes, Argos)
+- [x] **Macedon** (Pella, Aigai, Thessalonica, Philippi)
+- [ ] **Pontic steppe**
 - [ ] Westward: **North Africa** (Carthage), **Italy**, **Gaul**, **Albion**, **Germania**, **Iberia**
 - [ ] Eastward: **India** (and onward to China, SE Asia)
 ```

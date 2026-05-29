@@ -87,6 +87,8 @@ const REGION_COLOR = {
   "mesopotamia-euphrates": "#ffb74d", "mesopotamia-assyria": "#ef9a9a",
   "egypt-lower": "#66bb6a", "egypt-upper": "#c5e1a5",
   "levant-coast": "#4fc3f7", "levant-inland": "#f06292",
+  "iran-zagros": "#ff8a65", "anatolia": "#bcaaa4",
+  "greece": "#7986cb", "macedon": "#9fa8da",
 };
 
 function el(name, attrs = {}, parent = null) {
@@ -230,7 +232,7 @@ function setupMap(model, basemap) {
     markerG.innerHTML = "";
     for (const sg of TimelineModel.stateAt(model, year)) {
       const c = sg.city;
-      const r = sg.pop ? Math.max(4, Math.min(20, Math.sqrt(sg.pop) / 30)) : 3.5;
+      const r = 4.5;   // uniform marker size (population is shown in its own panel)
       const node = el("circle", { cx: x(+c.lon), cy: y(+c.lat), r, fill: sg.color,
         "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, markerG);
       node.style.cursor = "pointer";
