@@ -186,7 +186,7 @@ obs_0184,jerusalem,70,70,exact,destruction,,Rome (Titus),Magness2012,high,The Se
 obs_0185,jerusalem,130,130,circa,refounding,Roman colony Aelia Capitolina,Rome (Hadrian),Magness2012,high,Rebuilt as Aelia Capitolina after the Bar Kokhba revolt
 obs_0186,jerusalem,638,638,circa,conquest,,Rashidun Caliphate (Umar),Kennedy2004,high,Taken by the early Islamic conquests
 obs_0187,jerusalem,1099,1099,exact,conquest,,First Crusade,Runciman1951,high,Crusaders storm the city and massacre its inhabitants
-obs_0188,jerusalem,1187,1187,exact,conquest,,Ayyubids (Saladin),Runciman1951,high,Saladin retakes Jerusalem from the Crusaders
+obs_0188,jerusalem,1187,1187,exact,conquest,,Ayyubid Sultanate (Saladin),Runciman1951,high,Saladin retakes Jerusalem from the Crusaders
 obs_0189,jerusalem,2020,2020,circa,population_estimate,950000,,UN2018,medium,Modern Jerusalem
 obs_0190,susa,-4200,-4200,circa,founding,,,Potts1999,low,One of the oldest urban centers on the Iranian plateau
 obs_0191,susa,-2700,-640,circa,capital_status,Royal city of Elam,,Potts1999,medium,Principal lowland capital of the Elamite kingdoms
@@ -965,3 +965,66 @@ obs_0963,tashkent,751,751,circa,attestation,Battle of Talas nearby,Abbasid Calip
 obs_0964,tashkent,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Taken by the Mongols
 obs_0965,tashkent,1865,1865,circa,conquest,,Russian Empire,Soucek2000,medium,Captured by the Russian Empire
 obs_0966,tashkent,2020,2020,circa,population_estimate,2500000,,UN2018,medium,Modern Tashkent; capital of Uzbekistan
+obs_0967,cairo,641,641,circa,founding,,,Kennedy2004,medium,Founded as Fustat the Arab garrison capital of Egypt
+obs_0968,cairo,641,641,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Fustat founded after the Arab conquest of Egypt
+obs_0969,cairo,969,1171,circa,capital_status,Capital of the Fatimid Caliphate,,Brett2017,high,Al-Qahira founded as the Fatimid imperial capital
+obs_0970,cairo,1171,1250,circa,capital_status,Capital of the Ayyubid Sultanate,Saladin,Kennedy2004,medium,Saladin's Ayyubid capital
+obs_0971,cairo,1250,1517,circa,capital_status,Capital of the Mamluk Sultanate,,Kennedy2004,high,The greatest city of the medieval Islamic world
+obs_0972,cairo,1340,1340,circa,population_estimate,500000,,Chandler1987,low,Among the largest cities in the world before the Black Death
+obs_0973,cairo,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,high,Taken by the Ottomans
+obs_0974,cairo,1882,1882,circa,conquest,,British Empire,Darwin2012,medium,Occupied by Britain
+obs_0975,cairo,1952,2020,circa,capital_status,Capital of the Arab Republic of Egypt,,UN2018,medium,Capital of independent Egypt
+obs_0976,cairo,2020,2020,circa,population_estimate,21000000,,UN2018,medium,Modern Cairo; the largest city in Africa
+obs_0977,fez,789,789,circa,founding,,Idris I,AbunNasr1987,medium,Founded by Idris I; home of the Qarawiyyin
+obs_0978,fez,1250,1465,circa,capital_status,Capital of the Marinid Sultanate,,AbunNasr1987,high,The Marinid capital of Morocco
+obs_0979,fez,1554,1554,circa,conquest,,Saadi Morocco,AbunNasr1987,low,Absorbed by the Saadis
+obs_0980,fez,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Fes
+obs_0981,marrakesh,1070,1070,circa,founding,,Almoravids,AbunNasr1987,high,Founded as the Almoravid capital
+obs_0982,marrakesh,1070,1147,circa,capital_status,Capital of the Almoravid Empire,,AbunNasr1987,high,Capital of an empire from the Sahel to Iberia
+obs_0983,marrakesh,1147,1269,circa,capital_status,Capital of the Almohad Caliphate,,Kennedy1996,high,The Almohad imperial capital
+obs_0984,marrakesh,1554,1659,circa,capital_status,Capital of Saadi Morocco,,AbunNasr1987,high,The Saadi capital that launched the conquest of Songhai
+obs_0985,marrakesh,2020,2020,circa,population_estimate,1000000,,UN2018,medium,Modern Marrakesh
+obs_0986,volubilis,-300,-300,circa,founding,,,Raven1993,low,A Mauretanian town in the far west
+obs_0987,volubilis,-25,-25,circa,capital_status,Capital of Mauretania,Juba II,Raven1993,medium,Royal city of the client king Juba II
+obs_0988,volubilis,44,44,circa,conquest,,Rome,Raven1993,low,Annexed into Roman Mauretania Tingitana
+obs_0989,volubilis,800,800,century,abandonment,,,Raven1993,low,Faded after the Roman withdrawal and the Arab conquest
+obs_0990,sijilmasa,757,757,circa,founding,,,AbunNasr1987,low,A caravan city at the edge of the Sahara
+obs_0991,sijilmasa,900,900,circa,attestation,Trans-Saharan gold trade,,Connah2001,medium,The northern terminus of the West African gold routes
+obs_0992,sijilmasa,1054,1054,circa,conquest,,Almoravid Empire,AbunNasr1987,low,Taken by the Almoravids
+obs_0993,sijilmasa,1393,1393,circa,abandonment,,,AbunNasr1987,low,Destroyed and abandoned
+obs_0994,kairouan,670,670,circa,founding,,,Kennedy2004,medium,The first Arab city in the Maghreb
+obs_0995,kairouan,800,909,circa,capital_status,Capital of the Aghlabids,,Kennedy2004,high,The Aghlabid capital that ruled Ifriqiya and Sicily
+obs_0996,kairouan,909,909,circa,conquest,,Fatimid Caliphate,Brett2017,medium,Taken by the Fatimids
+obs_0997,kairouan,1057,1057,circa,destruction,,Banu Hilal,AbunNasr1987,low,Sacked by the Banu Hilal bedouin
+obs_0998,kairouan,2020,2020,circa,population_estimate,190000,,UN2018,low,Modern Kairouan
+obs_0999,tunis,698,698,circa,founding,,,AbunNasr1987,low,Rose as Carthage was abandoned after the Arab conquest
+obs_1000,tunis,1229,1574,circa,capital_status,Capital of the Hafsid dynasty,,AbunNasr1987,high,The Hafsid capital of Ifriqiya
+obs_1001,tunis,1574,1574,circa,conquest,,Ottoman Empire,AbunNasr1987,medium,Incorporated into the Ottoman Empire
+obs_1002,tunis,1881,1881,circa,conquest,,French Empire,AbunNasr1987,medium,Made a French protectorate
+obs_1003,tunis,2020,2020,circa,population_estimate,2400000,,UN2018,medium,Modern Tunis; capital of Tunisia
+obs_1004,cirta,-300,-300,circa,founding,,,Raven1993,low,A Numidian hill town
+obs_1005,cirta,-203,-46,circa,capital_status,Capital of Numidia,Masinissa,Raven1993,medium,Royal capital of the Numidian kingdom
+obs_1006,cirta,-46,-46,circa,conquest,,Rome,Raven1993,low,Annexed by Rome after the civil wars
+obs_1007,cirta,1837,1837,circa,conquest,,French Empire,AbunNasr1987,low,Taken by France as Constantine
+obs_1008,cirta,2020,2020,circa,population_estimate,450000,,UN2018,low,Modern Constantine
+obs_1009,tlemcen,1000,1000,circa,founding,,,AbunNasr1987,low,A Berber town of the central Maghreb
+obs_1010,tlemcen,1235,1554,circa,capital_status,Capital of the Zayyanid kingdom,,AbunNasr1987,high,Seat of the Zayyanid sultans
+obs_1011,tlemcen,1554,1554,circa,conquest,,Ottoman Empire,AbunNasr1987,low,Absorbed into Ottoman Algeria
+obs_1012,tlemcen,2020,2020,circa,population_estimate,950000,,UN2018,low,Modern Tlemcen
+obs_1013,algiers,-200,-200,circa,founding,,,Raven1993,low,The Roman town of Icosium
+obs_1014,algiers,1516,1830,circa,capital_status,Capital of the Regency of Algiers,,AbunNasr1987,high,Ottoman corsair capital of the western Mediterranean
+obs_1015,algiers,1830,1830,circa,conquest,,French Empire,AbunNasr1987,medium,Conquered by France
+obs_1016,algiers,1962,2020,circa,capital_status,Capital of Algeria,,UN2018,medium,Capital of independent Algeria
+obs_1017,algiers,2020,2020,circa,population_estimate,2800000,,UN2018,medium,Modern Algiers
+obs_1018,tripoli,-500,-500,circa,founding,,,Raven1993,low,The Phoenician port of Oea
+obs_1019,tripoli,-46,-46,circa,conquest,,Rome,Raven1993,low,Part of Roman Tripolitania
+obs_1020,tripoli,1551,1551,circa,conquest,,Ottoman Empire,AbunNasr1987,medium,Taken by the Ottomans
+obs_1021,tripoli,1911,1911,circa,conquest,,Kingdom of Italy,AbunNasr1987,medium,Seized by Italy
+obs_1022,tripoli,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Tripoli; capital of Libya
+obs_1023,niani,1100,1100,circa,founding,,,Connah2001,low,A town on the upper Niger
+obs_1024,niani,1235,1400,circa,capital_status,Capital of the Mali Empire,Sundiata,Connah2001,high,The seat of Mansa Musa's Mali
+obs_1025,niani,1400,1400,century,abandonment,,,Connah2001,low,Declined as the Mali Empire fragmented
+obs_1026,koumbi,700,700,circa,founding,,,Connah2001,low,A Sahel trade city
+obs_1027,koumbi,700,1240,circa,capital_status,Capital of the Ghana Empire,,Connah2001,high,The first great empire of the western Sahel
+obs_1028,koumbi,1240,1240,circa,conquest,,Mali Empire,Connah2001,medium,Absorbed by the rising Mali Empire
+obs_1029,koumbi,1400,1400,century,abandonment,,,Connah2001,low,Abandoned as trade routes shifted

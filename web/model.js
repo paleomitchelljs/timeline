@@ -48,6 +48,7 @@
     "Medes": "Median Empire",
     "Mongols": "Mongol Empire",
     "Aksum": "Aksumite Empire",
+    "Almohad Caliphate in Iberia": "Almohad Caliphate",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 
