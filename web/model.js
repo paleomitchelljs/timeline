@@ -32,6 +32,15 @@
     "Kingdom of Macedon": "Macedon",
     "Roman Empire": "Rome",
     "Roman Republic": "Rome",
+    // Roman provinces are part of the empire for the control layer
+    "Western Roman Empire": "Rome",
+    "Roman Britain": "Rome",
+    "Three Gauls": "Rome",
+    "Gallia Narbonensis": "Rome",
+    "Hispania Tarraconensis": "Rome",
+    "Lusitania": "Rome",
+    "Germania Inferior": "Rome",
+    "Germania Superior": "Rome",
     "Royal city of Elam": "Elam",
     "Assyrian kingdom": "Assyria",
     "Hittites": "Hittite Empire",
@@ -78,6 +87,7 @@
     for (const c of cities) cityById[c.city_id] = c;
 
     const cityInfo = {};
+    const winMap = {};   // polity -> activity window aggregated across all cities
     for (const id in byCity) {
       const evs = byCity[id].slice().sort((a, b) => a.ys - b.ys);
       const founding = evs.find(e => e.event_type === "founding");
@@ -97,35 +107,48 @@
         .map(e => ({ start: e.ys, end: e.ye }));
       const peakPop = pops.length ? Math.max(...pops.map(p => p.val)) : 0;
       cityInfo[id] = { id, start, end, control, pops, capitalSpans, peakPop };
-    }
 
-    // aggregate empires across all cities
-    const empMap = {};
-    for (const id in cityInfo) {
-      for (const c of cityInfo[id].control) {
-        const e = empMap[c.polity] || (empMap[c.polity] = { name: c.polity, start: c.year, end: c.year, cities: new Set() });
-        if (c.year < e.start) e.start = c.year;
-        if (c.year > e.end) e.end = c.year;
-        e.cities.add(id);
+      // build polity windows: start year, overall extent, and last capital year
+      for (const e of evs) {
+        const p = polityOf(e);
+        if (!p) continue;
+        const isCap = e.event_type === "capital_status";
+        const endYr = isCap ? e.ye : e.ys;
+        const w = winMap[p] || (winMap[p] = { name: p, start: e.ys, end: endYr, capitalEnd: null, cities: new Set() });
+        if (e.ys < w.start) w.start = e.ys;
+        if (endYr > w.end) w.end = endYr;
+        if (isCap) w.capitalEnd = w.capitalEnd == null ? e.ye : Math.max(w.capitalEnd, e.ye);
+        w.cities.add(id);
       }
     }
-    const empires = Object.values(empMap)
+
+    const empires = Object.values(winMap)
       .sort((a, b) => a.start - b.start || a.name.localeCompare(b.name));
     empires.forEach((e, i) => { e.color = PALETTE[i % PALETTE.length]; });
-    const empColor = {};
-    empires.forEach(e => { empColor[e.name] = e.color; });
+    const empColor = {}, polityWindow = {};
+    empires.forEach(e => {
+      empColor[e.name] = e.color;
+      polityWindow[e.name] = { start: e.start, end: e.end, capitalEnd: e.capitalEnd };
+    });
 
     const years = rows.flatMap(r => [r.ys, r.ye]);
     const domain = { min: Math.min(...years), max: Math.max(...years) };
 
-    return { cities, cityById, cityInfo, empires, empColor, domain };
+    return { cities, cityById, cityInfo, empires, empColor, polityWindow, domain };
   }
 
-  function controllerAt(info, year) {
+  // Who controls a city in a given year, as a bounded interval rather than a
+  // forever-persisting last conqueror. A polity that ever held a capital lapses to
+  // "Independent / no record" (null) once past its last attested capital year; a pure
+  // conqueror (no capital recorded) is trusted until the next recorded takeover.
+  function controllerAt(model, info, year) {
     let cur = null;
     for (const c of info.control) {
       if (c.year <= year) cur = c.polity; else break;
     }
+    if (!cur) return null;
+    const w = model.polityWindow[cur];
+    if (w && w.capitalEnd != null) return year <= w.capitalEnd ? cur : null;
     return cur;
   }
 
@@ -144,7 +167,7 @@
       if (year < info.start || year > info.end) continue;
       const c = model.cityById[id];
       if (!c || c.lat === "" || c.lon === "") continue;
-      const polity = controllerAt(info, year);
+      const polity = controllerAt(model, info, year);
       out.push({
         id, city: c, polity,
         color: polity ? model.empColor[polity] : "#7a8290",
@@ -180,7 +203,7 @@
       const info = model.cityInfo[id];
       if (year < info.start || year > info.end) continue;
       total++;
-      const p = controllerAt(info, year) || "Independent";
+      const p = controllerAt(model, info, year) || "Independent";
       counts[p] = (counts[p] || 0) + 1;
     }
     const share = {};

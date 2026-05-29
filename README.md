@@ -219,9 +219,21 @@ library only — nothing to install.
 `web/model.js` is the derived-data layer behind all three: pure functions that infer each
 city's controlling empire and population at any year, and aggregate the free-text
 `actor`/`value` columns into empires. It runs in the browser and under node, so it is
-unit-tested directly. **Empire inference is heuristic** — polity names are normalized from
-free text, so expect a few near-duplicates (`Persia` vs `Achaemenid Persia`) until a
-controlled polity vocabulary (alias map or `polities.csv`) is added.
+unit-tested directly.
+
+**Empire inference is heuristic.** Polity names are normalized from free text and folded
+through a hand-maintained **alias map** (so Rome's eight variants, the Roman provinces,
+`Achaemenid Persia`/`Persia`, etc. become one empire each). Extend the `ALIASES` table as
+new powers appear.
+
+**Control is modeled as intervals, not a forever-persisting last conqueror.** A city's
+controller in a year is the most recent takeover, but it **lapses to "Independent / no
+record"** once that empire is past its last attested capital year (a pure conqueror with
+no recorded capital is trusted until the next recorded takeover). So Rome holds Athens from
+146 BCE only to ~476 CE, not to the next stray event in 1458. The honest cost: where we
+have not yet recorded the intervening powers (the Hellenistic successor states, the
+Abbasids, medieval kingdoms…), cities show as Independent — the chart's grey band is a
+direct readout of where the dataset is still thin.
 
 Browsers block `fetch` from `file://`, so serve the repo root over HTTP:
 
@@ -258,7 +270,9 @@ moves east toward China.
 - [x] Derived-data layer (`web/model.js`): empire inference + per-year city state, unit-tested
 - [x] Visualizer v2: map time-slider/play + zoom/pan; empire-centric lifespan panel
 - [x] Polity alias map in `model.js` to de-duplicate empires (Rome, Achaemenid Persia, Macedon, …)
-- [x] Minor cities hover-only; optional shaded empire hulls on the map
+- [x] Minor cities hover-only; star icons for capitals; control-share stacked chart
+- [x] Control modeled as intervals that lapse to "Independent / no record" past an empire's window
+- [ ] Fill intervening powers (Seleucids, Parthians, Sasanians, Abbasids, medieval states) to shrink the Independent gaps
 - [ ] GIF/video export of the map animation (frame = `stateAt(year)`; encode via a small R/Python step)
 - [ ] Replace placeholder population figures with the Reba2016 georeferenced series
 

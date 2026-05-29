@@ -179,7 +179,7 @@ obs_0177,sidon,-332,-332,circa,conquest,,Macedon (Alexander III),Aubet2001,mediu
 obs_0178,sidon,2020,2020,circa,population_estimate,160000,,UN2018,medium,Modern Saida; continuously inhabited
 obs_0179,jerusalem,-3000,-3000,circa,founding,,,Finkelstein2001,low,Canaanite town in the Judean hills; named in Egyptian Execration Texts
 obs_0180,jerusalem,-1000,-586,circa,capital_status,Capital of the kingdom of Judah,David,Finkelstein2001,medium,Tradition makes David's city the capital; the early scale is debated
-obs_0181,jerusalem,-586,-586,circa,destruction,,Babylon (Nebuchadnezzar II),Finkelstein2001,high,Destruction of the First Temple and the Babylonian exile
+obs_0181,jerusalem,-586,-586,circa,destruction,,Neo-Babylonian Empire (Nebuchadnezzar II),Finkelstein2001,high,Destruction of the First Temple and the Babylonian exile
 obs_0182,jerusalem,-538,-538,circa,refounding,Persian return; Second Temple,Achaemenid Persia (Cyrus II),Finkelstein2001,medium,Exiles return and the Temple is rebuilt
 obs_0183,jerusalem,-63,-63,circa,conquest,,Rome (Pompey),Magness2012,high,Pompey takes Jerusalem; Judea becomes a Roman client
 obs_0184,jerusalem,70,70,exact,destruction,,Rome (Titus),Magness2012,high,The Second Temple is destroyed in the First Jewish-Roman War
