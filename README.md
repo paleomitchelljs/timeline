@@ -227,6 +227,8 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Bethell1984` | L. Bethell (ed.), *The Cambridge History of Latin America* (1984) |
 | `Hourani1991` | A. Hourani, *A History of the Arab Peoples* (1991) |
 | `Axworthy2008` | M. Axworthy, *A History of Iran: Empire of the Mind* (2008) |
+| `Seth2010` | M. Seth, *A History of Korea* (2010) |
+| `Reader1998` | J. Reader, *Africa: A Biography of the Continent* (1998) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -354,6 +356,6 @@ Expansion sequence (region by region):
 - [x] **Soviet Union** (1922–91) across Moscow, Leningrad, Kyiv, Vilnius, Lviv, the Central Asian SSRs, and the Warsaw-Pact capitals, each reverting to its successor state in 1989–91.
 - [x] **Greek** revision: hegemon poleis recoded as real leagues with members (Delian/Peloponnesian/Boeotian), colonies attributed to mother-cities (Corinth→Syracuse, Miletus→Pontic colonies, etc.), Tanais as a Bosporan emporium, junk descriptive "empires" removed.
 - [x] **Middle East / Muslim empires**: full Rashidun→Umayyad→Abbasid→Buyid/Seljuk→Fatimid→Ayyubid→Mamluk→Ilkhanate→Safavid→Ottoman→modern succession; new Mecca, Medina, Riyadh, Kufa, Basra, Mosul, Aleppo, Isfahan, Shiraz, Tehran.
-- [ ] Remaining audit gaps: pre-330 Byzantion; deep-time city-states (legitimately pre-imperial); a few deep-history adds (Aleppo, Miletus) carry honest early-Independent stretches
-- [ ] Hard-but-wanted empires still open: **Xiongnu** and other nomadic states (no fixed capital — needs a steppe-camp anchor)
+- [x] Hard pass on missing/under-sized empires (audit-driven, 4 tranches). **Reassignments & small-empire fixes**: grew Carolingian (2→10), Kievan Rus, Hittite, Sasanian, Chola, Tibetan; added modern capitals Ankara/Berlin so Istanbul/Cologne/Hanoi/Tabriz resolve. **Steppe**: Xiongnu, Türk Khaganate, Khazars, Scythians/Sarmatians, Huns (Attila), Chagatai, Zunghar (anchored on royal-camp/oasis cities). **Korea** added entirely (Goguryeo/Baekje/Silla/Goryeo/Joseon, N/S Korea) + Nanzhao/Dali; grew Khmer/Majapahit/Aztec/Inca. **Frontier/Africa/Americas**: Etruscans, Pontus, Armenia, Georgia, Nabataea, Palmyra (Zenobia), Ghaznavid/Ghurid; Kanem-Bornu, Oyo, Ashanti, Zulu, Wari + Cape Town/South Africa. Now 301 cities, 318 empires.
+- [ ] Remaining: a few modern nations still lack a capital city (Pakistan, Indonesia, Nigeria) so their big non-capital cities stay unassigned at 2020; pre-330 Byzantion; deep-time city-states (legitimately pre-imperial). The model's "only capitals show control at 2020" rule is a deliberate design choice worth revisiting if a denser modern map is wanted.
 ```
