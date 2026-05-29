@@ -747,3 +747,176 @@ obs_0745,cahokia,1050,1050,circa,founding,,,Pauketat2009,medium,The great Missis
 obs_0746,cahokia,1050,1350,circa,capital_status,Center of Mississippian Cahokia,,Pauketat2009,medium,The largest city north of Mexico; Monks Mound
 obs_0747,cahokia,1100,1100,circa,population_estimate,15000,,Pauketat2009,low,At its height; the largest settlement in North America
 obs_0748,cahokia,1350,1350,century,abandonment,,,Pauketat2009,medium,Mysteriously abandoned before European contact
+obs_0749,byzantium,1453,1922,circa,capital_status,Capital of the Ottoman Empire,,Runciman1965,high,The Ottoman capital for nearly five centuries
+obs_0750,londinium,1801,1947,circa,capital_status,Capital of the British Empire,,Darwin2012,high,Heart of the global British Empire
+obs_0751,colonia-agrippina,800,800,circa,conquest,,Carolingian Empire (Charlemagne),Wickham2009,low,Part of Charlemagne's Frankish empire
+obs_0752,prague,870,870,circa,founding,,,Wickham2009,low,Settlement around Prague Castle
+obs_0753,prague,1198,1526,circa,capital_status,Capital of the Kingdom of Bohemia,,Wickham2009,high,A kingdom within the Holy Roman Empire
+obs_0754,prague,1346,1346,circa,attestation,Imperial seat under Charles IV,Holy Roman Empire (Charles IV),Wickham2009,medium,Charles IV makes Prague a capital of the Empire
+obs_0755,prague,1526,1526,circa,conquest,,Habsburg Monarchy,Wickham2009,medium,Passes to the Habsburgs
+obs_0756,prague,2020,2020,circa,population_estimate,1300000,,UN2018,medium,Modern Prague
+obs_0757,vienna,100,100,circa,founding,,,Wickham2009,low,Roman frontier fort of Vindobona
+obs_0758,vienna,1438,1918,circa,capital_status,Capital of the Habsburg Monarchy,,Wickham2009,high,The Habsburg imperial capital
+obs_0759,vienna,1529,1529,circa,attestation,First Ottoman siege,Ottoman Empire,Wickham2009,medium,The Ottomans besiege Vienna but fail
+obs_0760,vienna,2020,2020,circa,population_estimate,1900000,,UN2018,medium,Modern Vienna
+obs_0761,krakow,965,965,circa,founding,,,Wickham2009,low,An early Polish town
+obs_0762,krakow,1038,1596,circa,capital_status,Capital of the Kingdom of Poland,,Wickham2009,high,The royal capital before Warsaw
+obs_0763,krakow,1241,1241,circa,attestation,Mongol raid,Mongol Empire,Morgan2007,low,Sacked in the Mongol invasion of Europe
+obs_0764,krakow,1795,1795,circa,conquest,,Habsburg Monarchy,Wickham2009,low,Annexed in the partitions of Poland
+obs_0765,krakow,2020,2020,circa,population_estimate,780000,,UN2018,low,Modern Krakow
+obs_0766,buda,1247,1247,circa,founding,,,Wickham2009,low,Fortified after the Mongol invasion
+obs_0767,buda,1361,1873,circa,capital_status,Capital of the Kingdom of Hungary,,Wickham2009,high,The Hungarian royal seat
+obs_0768,buda,1541,1541,circa,conquest,,Ottoman Empire,Wickham2009,high,Taken by the Ottomans
+obs_0769,buda,1686,1686,circa,conquest,,Habsburg Monarchy,Wickham2009,medium,Retaken by the Habsburgs
+obs_0770,buda,2020,2020,circa,population_estimate,1800000,,UN2018,medium,Modern Budapest
+obs_0771,kiev,882,882,circa,founding,,Oleg of Novgorod,Franklin1996,medium,Oleg makes Kiev the seat of the Rus
+obs_0772,kiev,882,1240,circa,capital_status,Capital of Kievan Rus,,Franklin1996,high,The first East Slavic state
+obs_0773,kiev,1240,1240,circa,destruction,,Mongol Empire (Batu),Morgan2007,high,Sacked by the Mongols; the Rus fragment
+obs_0774,kiev,1362,1362,circa,conquest,,Grand Duchy of Lithuania,Wickham2009,low,Absorbed by Lithuania
+obs_0775,kiev,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Kyiv; capital of Ukraine
+obs_0776,novgorod,859,859,circa,founding,,,Franklin1996,low,An early Rus center on the Volkhov
+obs_0777,novgorod,1136,1478,circa,capital_status,Novgorod Republic,,Franklin1996,medium,A merchant republic of the north
+obs_0778,novgorod,1478,1478,circa,conquest,,Russia,Franklin1996,medium,Annexed by Moscow under Ivan III
+obs_0779,novgorod,2020,2020,circa,population_estimate,220000,,UN2018,low,Modern Veliky Novgorod
+obs_0780,moscow,1147,1147,circa,founding,,,Franklin1996,low,First mentioned as a small town
+obs_0781,moscow,1283,2020,circa,capital_status,Capital of Russia,,Franklin1996,high,Seat of the grand duchy the tsardom and modern Russia
+obs_0782,moscow,1480,1480,circa,attestation,End of Mongol overlordship,Russia,Morgan2007,low,Ivan III throws off the Golden Horde
+obs_0783,moscow,2020,2020,circa,population_estimate,12500000,,UN2018,medium,Modern Moscow
+obs_0784,venice,421,421,circa,founding,,,Abulafia2011,low,Refugees settle the lagoon
+obs_0785,venice,697,1797,circa,capital_status,Republic of Venice,,Lane1973,high,A maritime trading republic
+obs_0786,venice,1500,1500,circa,population_estimate,150000,,Chandler1987,low,A great Mediterranean trade power
+obs_0787,venice,1797,1797,circa,conquest,,Habsburg Monarchy,Lane1973,low,The republic falls and passes to Austria
+obs_0788,venice,2020,2020,circa,population_estimate,260000,,UN2018,low,Modern Venice
+obs_0789,florence,-59,-59,circa,founding,,,Abulafia2011,low,Roman colony of Florentia
+obs_0790,florence,1115,1569,circa,capital_status,Republic of Florence,,Abulafia2011,medium,A banking republic and cradle of the Renaissance
+obs_0791,florence,1569,1859,circa,capital_status,Grand Duchy of Tuscany,,Abulafia2011,low,Under the Medici grand dukes
+obs_0792,florence,2020,2020,circa,population_estimate,700000,,UN2018,low,Modern Florence
+obs_0793,palermo,-734,-734,circa,founding,,,Abulafia2011,low,Phoenician colony of Ziz
+obs_0794,palermo,-254,-254,circa,conquest,,Rome,Beard2015,low,Taken by Rome in the First Punic War
+obs_0795,palermo,831,831,circa,conquest,,Aghlabids,Abulafia2011,medium,Capital of Arab Sicily
+obs_0796,palermo,1130,1816,circa,capital_status,Capital of the Kingdom of Sicily,Roger II,Abulafia2011,high,The Norman and later capital of Sicily
+obs_0797,palermo,2020,2020,circa,population_estimate,650000,,UN2018,low,Modern Palermo
+obs_0798,pompeii,-600,-600,circa,founding,,,Beard2015,low,An Oscan town in Campania
+obs_0799,pompeii,-80,-80,circa,conquest,,Rome (Sulla),Beard2015,low,Becomes a Roman colony
+obs_0800,pompeii,79,79,exact,destruction,,,Beard2015,high,Buried by the eruption of Mount Vesuvius
+obs_0801,pompeii,79,79,exact,abandonment,,,Beard2015,high,Entombed and abandoned
+obs_0802,granada,1013,1013,circa,founding,,,Kennedy1996,low,A Zirid town
+obs_0803,granada,1238,1492,circa,capital_status,Capital of the Emirate of Granada,,Kennedy1996,high,The last Muslim state in Iberia; the Alhambra
+obs_0804,granada,1492,1492,exact,conquest,,Crown of Castile,Kennedy1996,high,The fall of Granada completes the Reconquista
+obs_0805,granada,2020,2020,circa,population_estimate,230000,,UN2018,low,Modern Granada
+obs_0806,seville,-200,-200,circa,founding,,,Richardson1996,low,Roman Hispalis
+obs_0807,seville,712,712,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
+obs_0808,seville,1147,1248,circa,capital_status,Capital of the Almohad Caliphate in Iberia,,Kennedy1996,medium,The Almohad seat in al-Andalus
+obs_0809,seville,1248,1248,circa,conquest,,Crown of Castile (Ferdinand III),Kennedy1996,high,Retaken in the Reconquista
+obs_0810,seville,2020,2020,circa,population_estimate,1500000,,UN2018,medium,Modern Seville
+obs_0811,lisbon,-1200,-1200,circa,founding,,,Disney2009,low,A Phoenician trading post on the Tagus
+obs_0812,lisbon,714,714,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
+obs_0813,lisbon,1147,1147,circa,conquest,,Portugal (Afonso I),Disney2009,high,Captured in the Reconquista with crusader help
+obs_0814,lisbon,1255,2020,circa,capital_status,Capital of Portugal,,Disney2009,high,The royal and imperial capital
+obs_0815,lisbon,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Lisbon
+obs_0816,pergamon,-281,-281,circa,founding,,Philetaerus,Mitchell1993,low,Rose as the Attalid capital
+obs_0817,pergamon,-281,-133,circa,capital_status,Capital of the Attalid kingdom,,Mitchell1993,high,A great Hellenistic center; the Pergamon Altar
+obs_0818,pergamon,-133,-133,circa,conquest,,Rome,Mitchell1993,high,Bequeathed to Rome by Attalus III
+obs_0819,pergamon,1336,1336,circa,conquest,,Ottoman Empire,Cahen2001,low,Absorbed by the Ottomans
+obs_0820,pergamon,2020,2020,circa,population_estimate,100000,,UN2018,low,Modern Bergama
+obs_0821,konya,-300,-300,circa,founding,,,Mitchell1993,low,Hellenistic Iconium
+obs_0822,konya,1097,1308,circa,capital_status,Capital of the Sultanate of Rum,,Cahen2001,high,The Seljuk capital in Anatolia; home of Rumi
+obs_0823,konya,1466,1466,circa,conquest,,Ottoman Empire,Cahen2001,low,Absorbed by the Ottomans
+obs_0824,konya,2020,2020,circa,population_estimate,2200000,,UN2018,medium,Modern Konya
+obs_0825,nicaea,-316,-316,circa,founding,,,Mitchell1993,low,Hellenistic Nikaia
+obs_0826,nicaea,325,325,circa,attestation,First Council of Nicaea,Rome (Constantine),Mango2002,medium,The first ecumenical church council
+obs_0827,nicaea,1204,1261,circa,capital_status,Capital of the Empire of Nicaea,,Mango2002,high,The Byzantine government in exile after the Fourth Crusade
+obs_0828,nicaea,1331,1331,circa,conquest,,Ottoman Empire,Cahen2001,high,An early Ottoman conquest
+obs_0829,nicaea,2020,2020,circa,population_estimate,45000,,UN2018,low,Modern Iznik
+obs_0830,rhodes,-408,-408,circa,founding,,,Hansen2006,low,The three city-states unite to found Rhodes
+obs_0831,rhodes,-280,-280,circa,attestation,The Colossus of Rhodes,,Hansen2006,low,One of the Seven Wonders
+obs_0832,rhodes,-164,-164,circa,conquest,,Rome,Hornblower2011,low,Becomes a Roman subject
+obs_0833,rhodes,1310,1310,circa,conquest,,Knights Hospitaller,Runciman1951,medium,The crusader Knights make Rhodes their base
+obs_0834,rhodes,1522,1522,circa,conquest,,Ottoman Empire,Runciman1965,medium,Taken by Suleiman the Magnificent
+obs_0835,rhodes,2020,2020,circa,population_estimate,90000,,UN2018,low,Modern Rhodes
+obs_0836,aachen,768,768,circa,founding,,Charlemagne,Wickham2009,medium,Charlemagne builds his palace at Aachen
+obs_0837,aachen,800,843,circa,capital_status,Capital of the Carolingian Empire,Charlemagne,Wickham2009,high,The heart of Charlemagne's empire
+obs_0838,aachen,936,1531,circa,attestation,Coronation city of the Holy Roman Empire,Holy Roman Empire,Wickham2009,medium,German kings were crowned here
+obs_0839,aachen,2020,2020,circa,population_estimate,250000,,UN2018,low,Modern Aachen
+obs_0840,thanjavur,850,850,circa,founding,,Vijayalaya Chola,Thapar2002,medium,Rose as the Chola capital
+obs_0841,thanjavur,850,1279,circa,capital_status,Capital of the Chola Empire,,Thapar2002,high,A great maritime empire of southern India
+obs_0842,thanjavur,1279,1279,circa,conquest,,Pandya kingdom,Thapar2002,low,Absorbed as the Cholas fell
+obs_0843,thanjavur,1855,1855,circa,conquest,,British Empire,AsherTalbot2006,low,Annexed by the British
+obs_0844,thanjavur,2020,2020,circa,population_estimate,290000,,UN2018,low,Modern Thanjavur
+obs_0845,vijayanagara,1336,1336,circa,founding,,Harihara I,Stein1989,high,Founded as the capital of a Hindu empire
+obs_0846,vijayanagara,1336,1565,circa,capital_status,Capital of the Vijayanagara Empire,,Stein1989,high,One of the largest cities in the world
+obs_0847,vijayanagara,1500,1500,circa,population_estimate,500000,,Chandler1987,medium,Among the largest cities in the world around 1500
+obs_0848,vijayanagara,1565,1565,exact,destruction,,Deccan Sultanates,Stein1989,high,Sacked after the Battle of Talikota
+obs_0849,vijayanagara,1565,1565,circa,abandonment,,,Stein1989,medium,Abandoned to ruin
+obs_0850,lahore,1000,1000,circa,founding,,,AsherTalbot2006,low,A Ghaznavid frontier city
+obs_0851,lahore,1206,1206,circa,conquest,,Delhi Sultanate,AsherTalbot2006,low,Part of the Delhi Sultanate
+obs_0852,lahore,1524,1524,circa,conquest,,Mughal Empire,AsherTalbot2006,high,A favored Mughal capital under Akbar and Jahangir
+obs_0853,lahore,1799,1799,circa,conquest,,Sikh Empire,AsherTalbot2006,medium,Capital of Ranjit Singh's Sikh Empire
+obs_0854,lahore,1849,1849,circa,conquest,,British Empire,AsherTalbot2006,medium,Annexed by the British
+obs_0855,lahore,2020,2020,circa,population_estimate,13000000,,UN2018,medium,Modern Lahore
+obs_0856,mumbai,1500,1500,circa,founding,,,AsherTalbot2006,low,Fishing villages on seven islands
+obs_0857,mumbai,1534,1534,circa,conquest,,Portuguese Empire,AsherTalbot2006,low,Ceded to Portugal
+obs_0858,mumbai,1661,1661,circa,conquest,,British Empire,AsherTalbot2006,medium,Passed to England and built up by the East India Company
+obs_0859,mumbai,2020,2020,circa,population_estimate,20000000,,UN2018,medium,Modern Mumbai
+obs_0860,quanzhou,700,700,circa,founding,,,Mote1999,low,A port on the Fujian coast
+obs_0861,quanzhou,1087,1087,circa,attestation,Great port of Zaitun,,Mote1999,medium,One of the world's largest ports under the Song and Yuan
+obs_0862,quanzhou,1277,1277,circa,conquest,,Yuan dynasty,Mote1999,low,A cosmopolitan port under Mongol rule
+obs_0863,quanzhou,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,Declined under Ming maritime restrictions
+obs_0864,quanzhou,2020,2020,circa,population_estimate,8700000,,UN2018,medium,Modern Quanzhou
+obs_0865,shanghai,1074,1074,circa,founding,,,Mote1999,low,A market town on the Huangpu
+obs_0866,shanghai,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,A county seat under the Ming
+obs_0867,shanghai,1645,1645,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
+obs_0868,shanghai,1842,1842,circa,attestation,Treaty port concessions,British Empire,Mote1999,medium,Foreign concessions open after the Opium War
+obs_0869,shanghai,2020,2020,circa,population_estimate,27000000,,UN2018,medium,Modern Shanghai; the largest city in China
+obs_0870,sukhothai,1238,1238,circa,founding,,Si Inthrathit,Lieberman2003,medium,The first Thai kingdom
+obs_0871,sukhothai,1238,1438,circa,capital_status,Capital of the Sukhothai Kingdom,,Lieberman2003,medium,Associated with the origins of Thai script
+obs_0872,sukhothai,1438,1438,circa,conquest,,Ayutthaya,Lieberman2003,medium,Absorbed by Ayutthaya
+obs_0873,sukhothai,1500,1500,century,abandonment,,,Lieberman2003,low,Abandoned as a center of power
+obs_0874,vijaya,1000,1000,circa,founding,,,Coedes1968,low,Cham capital in central Vietnam
+obs_0875,vijaya,1000,1471,circa,capital_status,Capital of Champa,,Coedes1968,medium,The Hindu-Buddhist Cham kingdom
+obs_0876,vijaya,1471,1471,circa,destruction,,Dai Viet,Coedes1968,high,Sacked by Dai Viet; Champa effectively ends
+obs_0877,vijaya,1471,1471,circa,abandonment,,,Coedes1968,low,Abandoned as a capital
+obs_0878,manila,1258,1258,circa,founding,,,Coedes1968,low,The polity of Tondo on Manila Bay
+obs_0879,manila,1571,1571,circa,conquest,,Spanish Empire,Coedes1968,high,Legazpi makes Manila the capital of the Spanish Philippines
+obs_0880,manila,1898,1898,circa,conquest,,United States,Coedes1968,medium,Ceded to the United States after the Spanish-American War
+obs_0881,manila,2020,2020,circa,population_estimate,14000000,,UN2018,medium,Modern Manila
+obs_0882,malacca,1641,1641,circa,conquest,,Dutch Empire,Lieberman2003,medium,Taken from the Portuguese by the Dutch
+obs_0883,malacca,1824,1824,circa,conquest,,British Empire,Lieberman2003,low,Ceded to Britain under the Anglo-Dutch Treaty
+obs_0884,tabriz,700,700,circa,founding,,,Soucek2000,low,A city of Azerbaijan
+obs_0885,tabriz,1265,1335,circa,capital_status,Capital of the Ilkhanate,,Morgan2007,high,The Mongol Ilkhanate of Persia
+obs_0886,tabriz,1501,1548,circa,capital_status,First capital of Safavid Iran,,Soucek2000,medium,Shah Ismail's first capital
+obs_0887,tabriz,2020,2020,circa,population_estimate,1700000,,UN2018,medium,Modern Tabriz
+obs_0888,balkh,-2000,-2000,circa,founding,,,Soucek2000,low,Ancient Bactra; mother of cities
+obs_0889,balkh,-329,-329,circa,conquest,,Macedon (Alexander III),Soucek2000,low,Taken by Alexander in Bactria
+obs_0890,balkh,652,652,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_0891,balkh,1220,1220,circa,destruction,,Mongol Empire (Genghis Khan),Morgan2007,high,Massacred by the Mongols
+obs_0892,balkh,1850,1850,century,abandonment,,,Soucek2000,low,Long declined and largely abandoned
+obs_0893,herat,-500,-500,circa,founding,,,Soucek2000,low,An oasis city of Khorasan
+obs_0894,herat,-330,-330,circa,conquest,,Macedon (Alexander III),Soucek2000,low,Refounded by Alexander as Alexandria Ariana
+obs_0895,herat,1221,1221,circa,destruction,,Mongol Empire (Tolui),Morgan2007,medium,Sacked by the Mongols
+obs_0896,herat,1405,1507,circa,capital_status,Capital of the Timurid Empire,,Soucek2000,high,A center of Persian art under the Timurids
+obs_0897,herat,2020,2020,circa,population_estimate,570000,,UN2018,low,Modern Herat
+obs_0898,kano,999,999,circa,founding,,,Connah2001,low,A Hausa city-state and trade hub
+obs_0899,kano,1000,1805,circa,capital_status,Hausa city-state of Kano,,Connah2001,medium,A center of trans-Saharan trade and crafts
+obs_0900,kano,1805,1805,circa,conquest,,Sokoto Caliphate,Connah2001,medium,Conquered in the Fulani jihad
+obs_0901,kano,1903,1903,circa,conquest,,British Empire,Connah2001,low,Taken by the British
+obs_0902,kano,2020,2020,circa,population_estimate,4000000,,UN2018,medium,Modern Kano
+obs_0903,mogadishu,900,900,circa,founding,,,Connah2001,low,A Swahili-Somali trading city
+obs_0904,mogadishu,1000,1500,circa,capital_status,Sultanate of Mogadishu,,Connah2001,medium,A leading Indian Ocean trade port
+obs_0905,mogadishu,1500,1500,circa,attestation,Portuguese raids,Portuguese Empire,Connah2001,low,Raided but not held by the Portuguese
+obs_0906,mogadishu,2020,2020,circa,population_estimate,2500000,,UN2018,low,Modern Mogadishu; capital of Somalia
+obs_0907,tiwanaku,110,110,circa,founding,,,DAltroy2014,low,An Andean center near Lake Titicaca
+obs_0908,tiwanaku,500,1000,circa,capital_status,Center of the Tiwanaku state,,DAltroy2014,medium,A major Andean civilization
+obs_0909,tiwanaku,1000,1000,century,abandonment,,,DAltroy2014,low,Collapsed around the year 1000
+obs_0910,chan-chan,900,900,circa,founding,,,DAltroy2014,low,Capital of the Chimu on the north coast of Peru
+obs_0911,chan-chan,900,1470,circa,capital_status,Capital of the Chimu Empire,,DAltroy2014,high,The largest adobe city in the Americas
+obs_0912,chan-chan,1470,1470,circa,conquest,,Inca Empire,DAltroy2014,high,Conquered by the Inca
+obs_0913,chan-chan,1535,1535,century,abandonment,,,DAltroy2014,low,Abandoned after the Spanish conquest
+obs_0914,tula,750,750,circa,founding,,,Coe2011,low,Rose in central Mexico
+obs_0915,tula,900,1150,circa,capital_status,Capital of the Toltecs,,Coe2011,medium,The Toltec state idealized by the later Aztecs
+obs_0916,tula,1150,1150,century,abandonment,,,Coe2011,low,Collapsed in the twelfth century
+obs_0917,lima,1535,1535,exact,founding,,Pizarro,DAltroy2014,high,Founded by Pizarro as the City of Kings
+obs_0918,lima,1542,1821,circa,capital_status,Spanish Empire (Viceroyalty of Peru),,DAltroy2014,high,The seat of Spanish rule in South America
+obs_0919,lima,1821,2020,circa,capital_status,Capital of Peru,,DAltroy2014,medium,Capital of independent Peru
+obs_0920,lima,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Lima
+obs_0921,toletum,1085,1561,circa,capital_status,Capital of the Crown of Castile,,Kennedy1996,medium,Toledo serves as the Castilian royal capital until Madrid

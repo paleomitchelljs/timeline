@@ -17,9 +17,14 @@ suppressPackageStartupMessages({
   library(rnaturalearth)
 })
 
-# Clip box: the whole world now that coverage spans the Americas to Japan.
-# (Antarctica trimmed off the bottom.) Tighten if you ever want a regional render.
-bbox     <- c(xmin = -180, ymin = -58, xmax = 180, ymax = 84)
+# Use planar (not spherical/s2) geometry. With s2 on, clipping to a box that spans the
+# full -180..180 longitude collapses to empty geometries (the antimeridian edge is
+# degenerate) and the whole basemap comes out blank.
+suppressMessages(sf::sf_use_s2(FALSE))
+
+# Clip box: the whole world now that coverage spans the Americas to Japan. Kept just
+# inside +/-180 to avoid the antimeridian. (Antarctica trimmed off the bottom.)
+bbox     <- c(xmin = -179.9, ymin = -58, xmax = 179.9, ymax = 84)
 crop_box <- st_as_sfc(st_bbox(bbox, crs = 4326))
 scale    <- 50   # 1:50m medium scale; set 10 for hi-res (needs rnaturalearthhires)
 out      <- "web/basemap.geojson"

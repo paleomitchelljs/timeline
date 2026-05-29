@@ -145,14 +145,20 @@
   // "Independent / no record" (null) once past its last attested capital year; a pure
   // conqueror (no capital recorded) is trusted until the next recorded takeover.
   function controllerAt(model, info, year) {
-    let cur = null;
-    for (const c of info.control) {
-      if (c.year <= year) cur = c.polity; else break;
+    let idx = -1;
+    for (let k = 0; k < info.control.length; k++) {
+      if (info.control[k].year <= year) idx = k; else break;
     }
-    if (!cur) return null;
+    if (idx < 0) return null;
+    const cur = info.control[idx].polity;
     const w = model.polityWindow[cur];
+    // Capital-bearing empires lapse at their last attested capital year.
     if (w && w.capitalEnd != null) return year <= w.capitalEnd ? cur : null;
-    return cur;
+    // A later takeover on this city bounds the interval, so the conqueror holds until then.
+    if (idx + 1 < info.control.length) return cur;
+    // Trailing interval (no later takeover): a pure conqueror lapses to "no record"
+    // once past its own last attested activity, rather than holding the city forever.
+    return (!w || year <= w.end) ? cur : null;
   }
 
   function popAt(info, year) {

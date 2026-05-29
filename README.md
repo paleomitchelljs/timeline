@@ -208,6 +208,14 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Coe2011` | M. Coe, *Mexico: From the Olmecs to the Aztecs* / *The Maya* (2011) |
 | `DAltroy2014` | T. D'Altroy, *The Incas* (2014) |
 | `Pauketat2009` | T. Pauketat, *Cahokia: Ancient America's Great City on the Mississippi* (2009) |
+| `Wickham2009` | C. Wickham, *The Inheritance of Rome* (medieval Europe) (2009) |
+| `Franklin1996` | S. Franklin & J. Shepard, *The Emergence of Rus 750–1200* (1996) |
+| `Abulafia2011` | D. Abulafia, *The Great Sea: A Human History of the Mediterranean* (2011) |
+| `Lane1973` | F.C. Lane, *Venice: A Maritime Republic* (1973) |
+| `Disney2009` | A.R. Disney, *A History of Portugal and the Portuguese Empire* (2009) |
+| `Cahen2001` | C. Cahen, *The Formation of Turkey* (2001) |
+| `Stein1989` | B. Stein, *Vijayanagara* (1989) |
+| `Darwin2012` | J. Darwin, *Unfinished Empire: The Global Expansion of Britain* (2012) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -316,4 +324,7 @@ Expansion sequence (region by region):
 - [x] **Japan** (Nara, Kyoto, Kamakura, Edo/Tokyo, Osaka)
 - [x] **Sub-Saharan Africa** (Aksum, Djenné, Timbuktu, Gao, Ife, Benin, Great Zimbabwe, Kilwa, Mbanza Kongo)
 - [x] **The Americas** (Caral, Teotihuacan, Tikal, Monte Albán, Chichén Itzá, Tenochtitlan, Cusco, Cahokia)
+- [x] **Europe deepened** (Russia: Kiev/Novgorod/Moscow; Central Europe: Prague/Vienna/Kraków/Buda; medieval Italy & Iberia)
+- [x] Reaches nailed down: capitals recorded for the Ottoman, British, Spanish empires so their control lapses correctly (no more empires "holding" cities in 2020)
+- [ ] Ongoing: more cities per region; deepen the Umayyad→Abbasid→Mamluk and medieval-European successions
 ```
