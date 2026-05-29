@@ -1847,3 +1847,113 @@ obs_1845,cape-town,2020,2020,circa,population_estimate,4600000,,UN2018,medium,Mo
 obs_1846,huari,600,600,circa,founding,,,DAltroy2014,low,Capital of the Wari empire
 obs_1847,huari,600,1000,circa,capital_status,Capital of the Wari Empire,,DAltroy2014,high,A major Andean empire before the Inca
 obs_1848,huari,1100,1100,century,abandonment,,,DAltroy2014,low,Abandoned around the year 1000
+obs_1849,accra,1650,1650,circa,founding,,,Reader1998,low,A Ga coastal town and Atlantic trade fort
+obs_1850,accra,1874,1874,circa,conquest,,British Empire,Reader1998,low,Capital of the British Gold Coast
+obs_1851,accra,1957,2020,circa,capital_status,Capital of Ghana,,Reader1998,high,Capital of independent Ghana
+obs_1852,accra,2020,2020,circa,population_estimate,2500000,,UN2018,low,Modern Accra
+obs_1853,bamako,1700,1700,circa,founding,,,Reader1998,low,A town on the upper Niger
+obs_1854,bamako,1883,1883,circa,conquest,,French Empire,Reader1998,low,A French Sudan administrative center
+obs_1855,bamako,1960,2020,circa,capital_status,Capital of Mali,,Reader1998,high,Capital of independent Mali
+obs_1856,bamako,2020,2020,circa,population_estimate,2800000,,UN2018,low,Modern Bamako
+obs_1857,lagos,1450,1450,circa,founding,,,Reader1998,low,A Yoruba and Bini port on the lagoon
+obs_1858,lagos,1861,1861,circa,conquest,,British Empire,Reader1998,low,A British colony on the Bight of Benin
+obs_1859,lagos,1914,2020,circa,capital_status,Capital of Nigeria,,Reader1998,high,Capital and largest city of Nigeria; Abuja becomes capital in 1991
+obs_1860,lagos,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Lagos
+obs_1861,nairobi,1899,1899,circa,founding,,British Empire,Reader1998,low,Founded as a railway depot in British East Africa
+obs_1862,nairobi,1963,2020,circa,capital_status,Capital of Kenya,,Reader1998,high,Capital of independent Kenya
+obs_1863,nairobi,2020,2020,circa,population_estimate,4400000,,UN2018,medium,Modern Nairobi
+obs_1864,dar-es-salaam,1865,1865,circa,founding,,,Reader1998,low,A Zanzibari sultan's harbor town
+obs_1865,dar-es-salaam,1891,1891,circa,conquest,,Germany,Reader1998,low,Capital of German East Africa
+obs_1866,dar-es-salaam,1919,1919,circa,conquest,,British Empire,Reader1998,low,Capital of British Tanganyika
+obs_1867,dar-es-salaam,1961,2020,circa,capital_status,Capital of Tanzania,,Reader1998,high,Chief city of Tanzania; Dodoma is the official capital from 1996
+obs_1868,dar-es-salaam,2020,2020,circa,population_estimate,7000000,,UN2018,medium,Modern Dar es Salaam
+obs_1869,addis-ababa,1886,1886,circa,founding,,Menelik II,Reader1998,low,Founded by Menelik II in the highlands
+obs_1870,addis-ababa,1889,2020,circa,capital_status,Capital of Ethiopia,Menelik II,Reader1998,high,Capital of the Ethiopian Empire and modern Ethiopia
+obs_1871,addis-ababa,2020,2020,circa,population_estimate,5000000,,UN2018,medium,Modern Addis Ababa
+obs_1872,ottawa,1826,1826,circa,founding,,British Empire,Darwin2012,low,Founded as Bytown on the Ottawa River
+obs_1873,ottawa,1867,2020,circa,capital_status,Capital of Canada,,Darwin2012,high,Capital of the Dominion of Canada
+obs_1874,ottawa,2020,2020,circa,population_estimate,1400000,,UN2018,low,Modern Ottawa
+obs_1875,kabul,-1500,-1500,circa,founding,,,Beckwith2009,low,Ancient city of the Hindu Kush
+obs_1876,kabul,1219,1219,circa,conquest,,Mongol Empire,Morgan2007,low,Sacked by the Mongols
+obs_1877,kabul,1504,1504,circa,conquest,,Mughal Empire,AsherTalbot2006,low,Babur's base before the conquest of India
+obs_1878,kabul,1776,2020,circa,capital_status,Capital of Afghanistan,,Axworthy2008,high,Capital of the Durrani realm and of modern Afghanistan
+obs_1879,kabul,2020,2020,circa,population_estimate,4400000,,UN2018,medium,Modern Kabul
+obs_1880,islamabad,1960,1960,circa,founding,,,AsherTalbot2006,low,Purpose-built as the new Pakistani capital
+obs_1881,islamabad,1967,2020,circa,capital_status,Capital of Pakistan,,AsherTalbot2006,high,Capital of Pakistan
+obs_1882,islamabad,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Islamabad
+obs_1883,beirut,-1500,-1500,circa,founding,,,Hourani1991,low,Ancient Phoenician Berytus
+obs_1884,beirut,14,14,circa,conquest,,Rome,Beard2015,low,The Roman colony of Berytus
+obs_1885,beirut,635,635,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_1886,beirut,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,low,An Ottoman port of the Levant
+obs_1887,beirut,1943,2020,circa,capital_status,Capital of Lebanon,,Hourani1991,high,Capital of independent Lebanon
+obs_1888,beirut,2020,2020,circa,population_estimate,2400000,,UN2018,medium,Modern Beirut
+obs_1889,bangkok,1782,1782,circa,founding,,Rama I,Lieberman2003,medium,Founded as the Rattanakosin capital of Siam
+obs_1890,bangkok,1782,2020,circa,capital_status,Capital of Thailand,Rama I,Lieberman2003,high,Capital of Siam and modern Thailand
+obs_1891,bangkok,2020,2020,circa,population_estimate,10500000,,UN2018,medium,Modern Bangkok
+obs_1892,jakarta,1527,1527,circa,founding,,,Lieberman2003,low,The port of Sunda Kelapa renamed Jayakarta
+obs_1893,jakarta,1619,1619,circa,conquest,,Dutch Empire,Lieberman2003,medium,Batavia the seat of the Dutch East Indies
+obs_1894,jakarta,1945,2020,circa,capital_status,Capital of Indonesia,,Lieberman2003,high,Capital of independent Indonesia
+obs_1895,jakarta,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Jakarta
+obs_1896,kuala-lumpur,1857,1857,circa,founding,,,Lieberman2003,low,A tin-mining town in the Klang valley
+obs_1897,kuala-lumpur,1880,1880,circa,conquest,,British Empire,Lieberman2003,low,Capital of British Malaya
+obs_1898,kuala-lumpur,1957,2020,circa,capital_status,Capital of Malaysia,,Lieberman2003,high,Capital of independent Malaysia
+obs_1899,kuala-lumpur,2020,2020,circa,population_estimate,8000000,,UN2018,medium,Modern Kuala Lumpur
+obs_1900,ramallah,1550,1550,circa,founding,,,Hourani1991,low,A hill town north of Jerusalem
+obs_1901,ramallah,1917,1917,circa,conquest,,British Empire,Hourani1991,low,Under the British Mandate for Palestine
+obs_1902,ramallah,1994,2020,circa,capital_status,Capital of the State of Palestine,,Hourani1991,medium,Administrative seat of the Palestinian Authority
+obs_1903,ramallah,2020,2020,circa,population_estimate,350000,,UN2018,low,Modern Ramallah area
+obs_1904,athens,1834,2020,circa,capital_status,Capital of Greece,,Hornblower2011,high,Capital of the modern Greek state
+obs_1905,mogadishu,1960,2020,circa,capital_status,Capital of Somalia,,Reader1998,high,Capital of independent Somalia
+obs_1906,varanasi,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1907,ujjain,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1908,madurai,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1909,mathura,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1910,agra,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1911,kolkata,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1912,thanjavur,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1913,mumbai,1947,1947,circa,conquest,,Republic of India,AsherTalbot2006,low,Part of independent India
+obs_1914,hakata,1945,1945,circa,conquest,,Japan,Totman2000,low,Part of postwar Japan
+obs_1915,nara,1945,1945,circa,conquest,,Japan,Totman2000,low,Part of postwar Japan
+obs_1916,kyoto,1945,1945,circa,conquest,,Japan,Totman2000,low,Part of postwar Japan
+obs_1917,kamakura,1945,1945,circa,conquest,,Japan,Totman2000,low,Part of postwar Japan
+obs_1918,osaka,1945,1945,circa,conquest,,Japan,Totman2000,low,Part of postwar Japan
+obs_1919,dunhuang,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Modern Dunhuang in Gansu
+obs_1920,khotan,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Modern Hotan in Xinjiang
+obs_1921,kucha,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Modern Kucha in Xinjiang
+obs_1922,alexandria,1952,1952,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Egypt's great Mediterranean city
+obs_1923,thebes,1952,1952,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Modern Luxor in Egypt
+obs_1924,elephantine,1952,1952,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Modern Aswan in Egypt
+obs_1925,argos,1832,1832,circa,conquest,,Greece,Hornblower2011,low,Part of the modern Greek state
+obs_1926,larissa,1881,1881,circa,conquest,,Greece,Hornblower2011,low,Joined Greece in 1881
+obs_1927,thessalonica,1913,1913,circa,conquest,,Greece,Davies1996,low,Joined Greece in the Balkan Wars
+obs_1928,rhodes,1947,1947,circa,conquest,,Greece,Davies1996,low,The Dodecanese joins Greece
+obs_1929,pergamon,1923,1923,circa,conquest,,Turkey,Davies1996,low,Part of the Turkish Republic
+obs_1930,nicaea,1923,1923,circa,conquest,,Turkey,Davies1996,low,Part of the Turkish Republic as Iznik
+obs_1931,arbela,1932,1932,circa,conquest,,Iraq,Hourani1991,low,Erbil in modern Iraqi Kurdistan
+obs_1932,kairouan,1956,1956,circa,conquest,,Tunisia,AbunNasr1987,low,Part of independent Tunisia
+obs_1933,aachen,1871,1871,circa,conquest,,Germany,Davies1996,low,Part of the unified German Empire
+obs_1934,gyeongju,1948,1948,circa,conquest,,South Korea,Seth2010,low,Part of the Republic of Korea
+obs_1935,kongo,1975,1975,circa,conquest,,Angola,Reader1998,low,Mbanza-Kongo in independent Angola
+obs_1936,panticapaeum,2014,2014,circa,conquest,,Russia,Davies1996,low,Kerch under Russian administration of Crimea
+obs_1937,djenne,1960,1960,circa,conquest,,Mali,Reader1998,low,Part of independent Mali
+obs_1938,timbuktu,1960,1960,circa,conquest,,Mali,Reader1998,low,Part of independent Mali
+obs_1939,gao,1960,1960,circa,conquest,,Mali,Reader1998,low,Part of independent Mali
+obs_1940,ife,1960,1960,circa,conquest,,Nigeria,Reader1998,low,Part of independent Nigeria
+obs_1941,benin,1960,1960,circa,conquest,,Nigeria,Reader1998,low,Part of independent Nigeria
+obs_1942,kano,1960,1960,circa,conquest,,Nigeria,Reader1998,low,Part of independent Nigeria
+obs_1943,mombasa,1963,1963,circa,conquest,,Kenya,Reader1998,low,Part of independent Kenya
+obs_1944,zanzibar,1964,1964,circa,conquest,,Tanzania,Reader1998,low,United with Tanganyika to form Tanzania
+obs_1945,gondar,1889,1889,circa,conquest,,Ethiopia,Reader1998,low,Part of modern Ethiopia
+obs_1946,lalibela,1889,1889,circa,conquest,,Ethiopia,Reader1998,low,Part of modern Ethiopia
+obs_1947,harar,1889,1889,circa,conquest,,Ethiopia,Reader1998,low,Annexed by Menelik II into Ethiopia
+obs_1948,kandahar,1747,1747,circa,conquest,,Afghanistan,Axworthy2008,low,Part of the Afghan state
+obs_1949,ghazni,1747,1747,circa,conquest,,Afghanistan,Axworthy2008,low,Part of the Afghan state
+obs_1950,herat,1747,1747,circa,conquest,,Afghanistan,Axworthy2008,low,Part of the Afghan state
+obs_1951,lahore,1947,1947,circa,conquest,,Pakistan,AsherTalbot2006,low,A great city of independent Pakistan
+obs_1952,byblos,1943,1943,circa,conquest,,Lebanon,Hourani1991,low,Part of independent Lebanon
+obs_1953,tyre,1943,1943,circa,conquest,,Lebanon,Hourani1991,low,Part of independent Lebanon
+obs_1954,sidon,1943,1943,circa,conquest,,Lebanon,Hourani1991,low,Part of independent Lebanon
+obs_1955,lopburi,1782,1782,circa,conquest,,Thailand,Lieberman2003,low,Part of Rattanakosin Siam and modern Thailand
+obs_1956,palembang,1945,1945,circa,conquest,,Indonesia,Lieberman2003,low,Part of independent Indonesia
+obs_1957,malacca,1957,1957,circa,conquest,,Malaysia,Lieberman2003,low,Part of independent Malaysia
+obs_1958,jericho,1994,1994,circa,conquest,,State of Palestine,Hourani1991,low,Under Palestinian Authority control after the Oslo Accords
