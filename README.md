@@ -333,5 +333,6 @@ Expansion sequence (region by region):
 - [x] North Africa & the Maghreb (Cairo, Fez, Marrakesh, Kairouan, Tunis, Algiers, Tripoli, Volubilis, Cirta, Tlemcen, Sijilmasa) + Sahel capitals (Niani/Mali, Koumbi Saleh/Ghana)
 - [x] Swahili coast & Horn (Mombasa, Zanzibar, Sofala, Gondar, Harar, Lalibela, Luanda); Greece deepened (Delphi, Olympia, Pylos, Larissa, Eretria)
 - [x] Empire-tag audit: HRE made a real controller; British East India Company → British Empire; Neo-Assyrian → Assyria; First Crusade → Crusaders; revolts (Iceni) no longer confer control
+- [x] Founding-control fix: a city founded by a recognized empire is controlled by it from its founding (auto-fixed Philippi, Nishapur); plus the Carthaginian network (Oea/Tripoli, Leptis, Utica, Gades, Carthago Nova, Palermo) so Carthage is a real 7-city empire
 - [ ] Ongoing: more cities per region; deepen the Umayyad→Abbasid→Mamluk and medieval-European successions
 ```

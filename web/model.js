@@ -52,6 +52,7 @@
     "British East India Company": "British Empire",
     "Neo-Assyrian Empire": "Assyria",
     "First Crusade": "Crusaders",
+    "Carthage": "Carthaginian Empire",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 
@@ -125,6 +126,27 @@
         if (e.ys < w.start) w.start = e.ys;
         if (endYr > w.end) w.end = endYr;
         if (isCap) w.capitalEnd = w.capitalEnd == null ? e.ye : Math.max(w.capitalEnd, e.ye);
+        w.cities.add(id);
+      }
+    }
+
+    // A city founded by a polity that is a recognized empire elsewhere is controlled by it
+    // from that year — so an imperial founder isn't shown as "Independent" over its own
+    // foundation. Persons (not in the empire set) are ignored. Refoundings are excluded:
+    // the restorer (e.g. Constantine refounding Byzantium) often isn't the lasting power.
+    const empireNames = new Set(Object.keys(winMap));
+    for (const id in byCity) {
+      for (const e of byCity[id]) {
+        if (e.event_type !== "founding") continue;
+        const name = canon(normalizePolity(e.actor));
+        if (!name || !empireNames.has(name)) continue;
+        const info = cityInfo[id];
+        if (info.control.some(c => c.year === e.ys && c.polity === name)) continue;
+        info.control.push({ year: e.ys, polity: name });
+        info.control.sort((a, b) => a.year - b.year);
+        const w = winMap[name];
+        if (e.ys < w.start) w.start = e.ys;
+        if (e.ys > w.end) w.end = e.ys;
         w.cities.add(id);
       }
     }
