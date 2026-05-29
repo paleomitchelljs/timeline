@@ -408,11 +408,11 @@ obs_0406,toletum,711,711,circa,conquest,,Umayyad Caliphate,Kennedy1996,medium,Fa
 obs_0407,toletum,1085,1085,exact,conquest,,Crown of Castile (Alfonso VI),Collins2004,high,Retaken in the Reconquista as a great Castilian capital
 obs_0408,toletum,2020,2020,circa,population_estimate,85000,,UN2018,low,Modern Toledo
 obs_0409,londinium,47,47,circa,founding,,,Salway1981,low,Founded by the Romans on the Thames
-obs_0410,londinium,60,60,circa,attestation,Boudican revolt,Iceni (Boudica),Salway1981,medium,Burned in the Boudican revolt but soon retaken
+obs_0410,londinium,60,60,circa,destruction,,Iceni (Boudica),Salway1981,medium,Burned in the Boudican revolt
 obs_0411,londinium,100,410,circa,capital_status,Capital of Roman Britain,,Salway1981,medium,Provincial capital after rebuilding
 obs_0412,londinium,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern London
 obs_0413,camulodunum,-10,-10,circa,founding,,,Salway1981,low,Stronghold of the Trinovantes and first Roman colony in Britain
-obs_0414,camulodunum,60,60,circa,attestation,Boudican revolt,Iceni (Boudica),Salway1981,medium,Destroyed in the Boudican revolt but soon retaken
+obs_0414,camulodunum,60,60,circa,destruction,,Iceni (Boudica),Salway1981,medium,Destroyed in the Boudican revolt
 obs_0415,camulodunum,2020,2020,circa,population_estimate,120000,,UN2018,low,Modern Colchester
 obs_0416,eboracum,71,71,circa,founding,,,Salway1981,low,Roman legionary fortress in northern Britain
 obs_0417,eboracum,306,306,exact,attestation,Constantine proclaimed emperor,Rome (Constantine),Salway1981,medium,Constantine the Great was proclaimed emperor at Eboracum

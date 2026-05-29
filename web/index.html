@@ -421,6 +421,15 @@ function renderSankey(model) {
   CP.forEach((y, i) => { const t = el("text", { x: colX(i), y: 14, "text-anchor": "middle", "font-size": 10 }, axis); t.textContent = fmtYear(y); });
 
   const ribbonG = el("g", {}, svg);
+  const nodeEls = [], ribbonEls = [];
+  let highlighted = null;
+  function setHighlight(name) {
+    highlighted = (highlighted === name) ? null : name;
+    for (const n of nodeEls) n.el.style.opacity = (!highlighted || n.name === highlighted) ? 1 : 0.12;
+    for (const r of ribbonEls) r.el.style.opacity = (!highlighted) ? 1 : (r.src === highlighted || r.dst === highlighted) ? 1 : 0.06;
+  }
+  svg.addEventListener("click", () => setHighlight(null));   // background click clears
+
   for (let i = 0; i < rsnaps.length - 1; i++) {
     const a = rsnaps[i], b = rsnaps[i + 1], srcN = nodes[i], dstN = nodes[i + 1];
     const f = {};
@@ -436,6 +445,9 @@ function renderSankey(model) {
       const d = `M${x0},${fl.sy} C${xm},${fl.sy} ${xm},${fl.dy} ${x1},${fl.dy} L${x1},${fl.dy + w} C${xm},${fl.dy + w} ${xm},${fl.sy + w} ${x0},${fl.sy + w} Z`;
       const path = el("path", { d, fill: colorOf(fl.s), "fill-opacity": fl.s === "Independent" ? .16 : .34 }, ribbonG);
       path.style.cursor = "pointer";
+      ribbonEls.push({ el: path, src: fl.s, dst: fl.d });
+      const srcName = fl.s;
+      path.addEventListener("click", e => { e.stopPropagation(); setHighlight(srcName); });
       bindTip(path, `<b>${fl.s} → ${fl.d}</b><br><span class="meta">${fl.c} cit${fl.c === 1 ? "y" : "ies"}</span>`);
     }
   }
@@ -446,6 +458,9 @@ function renderSankey(model) {
       const n = map[k];
       const r = el("rect", { x: n.x - nw / 2, y: n.yTop, width: nw, height: Math.max(1, n.h), fill: colorOf(k) }, nodeG);
       r.style.cursor = "pointer";
+      nodeEls.push({ el: r, name: k });
+      const nodeName = k;
+      r.addEventListener("click", e => { e.stopPropagation(); setHighlight(nodeName); });
       bindTip(r, `<b>${k}</b><br><span class="meta">${fmtYear(CP[ci])} · ${n.count} cit${n.count === 1 ? "y" : "ies"}</span>`);
       if (ci === nodes.length - 1) { const t = el("text", { x: n.x + nw / 2 + 4, y: n.yTop + n.h / 2 + 3, "font-size": 9 }, nodeG); t.setAttribute("fill", "#cfd3da"); t.textContent = k; }
     }

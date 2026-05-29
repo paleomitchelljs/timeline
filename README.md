@@ -219,6 +219,7 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Beckwith2009` | C. Beckwith, *Empires of the Silk Road* (2009) |
 | `Brett2017` | M. Brett, *The Fatimid Empire* (2017) |
 | `AbunNasr1987` | J. Abun-Nasr, *A History of the Maghrib in the Islamic Period* (1987) |
+| `Henze2000` | P. Henze, *Layers of Time: A History of Ethiopia* (2000) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -330,5 +331,7 @@ Expansion sequence (region by region):
 - [x] **Europe deepened** (Russia: Kiev/Novgorod/Moscow; Central Europe: Prague/Vienna/Kraków/Buda; medieval Italy & Iberia)
 - [x] Reaches nailed down: capitals recorded for the Ottoman, British, Spanish empires so their control lapses correctly (no more empires "holding" cities in 2020)
 - [x] North Africa & the Maghreb (Cairo, Fez, Marrakesh, Kairouan, Tunis, Algiers, Tripoli, Volubilis, Cirta, Tlemcen, Sijilmasa) + Sahel capitals (Niani/Mali, Koumbi Saleh/Ghana)
+- [x] Swahili coast & Horn (Mombasa, Zanzibar, Sofala, Gondar, Harar, Lalibela, Luanda); Greece deepened (Delphi, Olympia, Pylos, Larissa, Eretria)
+- [x] Empire-tag audit: HRE made a real controller; British East India Company → British Empire; Neo-Assyrian → Assyria; First Crusade → Crusaders; revolts (Iceni) no longer confer control
 - [ ] Ongoing: more cities per region; deepen the Umayyad→Abbasid→Mamluk and medieval-European successions
 ```

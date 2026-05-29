@@ -49,6 +49,9 @@
     "Mongols": "Mongol Empire",
     "Aksum": "Aksumite Empire",
     "Almohad Caliphate in Iberia": "Almohad Caliphate",
+    "British East India Company": "British Empire",
+    "Neo-Assyrian Empire": "Assyria",
+    "First Crusade": "Crusaders",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 
