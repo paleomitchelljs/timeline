@@ -42,6 +42,7 @@
     "Germania Inferior": "Rome",
     "Germania Superior": "Rome",
     "Royal city of Elam": "Elam",
+    "Second city of the Byzantine Empire": "Byzantine Empire",
     "Assyrian kingdom": "Assyria",
     "Hittites": "Hittite Empire",
     "Medes": "Median Empire",

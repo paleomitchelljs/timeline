@@ -222,7 +222,7 @@ obs_0220,hattusa,-1650,-1180,circa,capital_status,Capital of the Hittite Empire,
 obs_0221,hattusa,-1180,-1180,circa,destruction,,,Bryce2005,medium,Destroyed amid the Late Bronze Age collapse and never reoccupied as a capital
 obs_0222,gordion,-2300,-2300,circa,founding,,,Mitchell1993,low,Settlement on the Sangarius that became the Phrygian capital
 obs_0223,gordion,-900,-700,circa,capital_status,Capital of Phrygia,,Mitchell1993,medium,The royal city associated with King Midas
-obs_0224,gordion,-700,-700,circa,destruction,,Cimmerians,Mitchell1993,low,Sacked by the Cimmerians around the time of Midas
+obs_0224,gordion,-700,-700,circa,attestation,Cimmerian sack,Cimmerians,Mitchell1993,low,Sacked by the Cimmerians around the time of Midas but not held
 obs_0225,gordion,-333,-333,circa,attestation,Alexander and the Gordian Knot,Macedon (Alexander III),Mitchell1993,low,Alexander cut the Gordian Knot here on his march east
 obs_0226,gordion,100,100,century,abandonment,,,Mitchell1993,low,Dwindled to a village under Roman rule
 obs_0227,sardis,-1500,-1500,circa,founding,,,Roosevelt2009,low,Bronze Age origins; later the Lydian capital
@@ -309,17 +309,17 @@ obs_0307,soba,1504,1504,circa,destruction,,Funj Sultanate,Welsby2002,low,Destroy
 obs_0308,panticapaeum,-600,-600,circa,founding,,,Tsetskhladze2008,low,Milesian colony on the Cimmerian Bosporus
 obs_0309,panticapaeum,-480,370,circa,capital_status,Capital of the Bosporan Kingdom,,Tsetskhladze2008,medium,A Greek kingdom that shipped grain to Athens
 obs_0310,panticapaeum,14,14,circa,conquest,,Rome,Tsetskhladze2008,low,Becomes a Roman client kingdom
-obs_0311,panticapaeum,370,370,circa,destruction,,Huns,Tsetskhladze2008,low,Devastated by the Huns; later the Byzantine town of Bosporos
+obs_0311,panticapaeum,370,370,circa,attestation,Hunnic sack,Huns,Tsetskhladze2008,low,Devastated by the Huns; later the Byzantine town of Bosporos
 obs_0312,panticapaeum,2020,2020,circa,population_estimate,150000,,UN2018,low,Modern Kerch
 obs_0313,olbia,-600,-600,circa,founding,,,Tsetskhladze2008,low,Milesian colony on the Black Sea steppe
-obs_0314,olbia,-50,-50,circa,destruction,,Getae,Tsetskhladze2008,low,Sacked by the Getae and only partly rebuilt
+obs_0314,olbia,-50,-50,circa,attestation,Getic sack,Getae,Tsetskhladze2008,low,Sacked by the Getae and only partly rebuilt
 obs_0315,olbia,350,350,century,abandonment,,,Tsetskhladze2008,low,Abandoned under Gothic and Hunnic pressure
 obs_0316,chersonesus,-422,-422,circa,founding,,,Tsetskhladze2008,low,Dorian colony in the southwestern Crimea
 obs_0317,chersonesus,-63,-63,circa,conquest,,Rome,Tsetskhladze2008,low,Drawn under Roman protection against the steppe
 obs_0318,chersonesus,988,988,circa,attestation,Byzantine Cherson,,Mango2002,low,A major Byzantine port and place of exile
 obs_0319,chersonesus,1399,1399,circa,abandonment,,,Tsetskhladze2008,low,Destroyed by Nogai raids and abandoned
 obs_0320,tanais,-300,-300,circa,founding,,,Tsetskhladze2008,low,Greek-Sarmatian emporium at the mouth of the Don
-obs_0321,tanais,250,250,circa,destruction,,Goths,Tsetskhladze2008,low,Sacked during the Gothic incursions
+obs_0321,tanais,250,250,circa,attestation,Gothic sack,Goths,Tsetskhladze2008,low,Sacked during the Gothic incursions
 obs_0322,tanais,500,500,century,abandonment,,,Tsetskhladze2008,low,Abandoned in late antiquity
 obs_0323,carthage,-814,-814,circa,founding,,,Miles2010,medium,Founded by colonists from Tyre
 obs_0324,carthage,-650,-146,circa,capital_status,Capital of the Carthaginian Empire,,Miles2010,high,The dominant power of the western Mediterranean
@@ -426,7 +426,7 @@ obs_0424,augusta-treverorum,285,400,circa,capital_status,Imperial capital of the
 obs_0425,augusta-treverorum,2020,2020,circa,population_estimate,110000,,UN2018,low,Modern Trier
 obs_0426,mogontiacum,-13,-13,circa,founding,,,King1990,low,Roman legionary base on the Rhine
 obs_0427,mogontiacum,90,400,circa,capital_status,Capital of Germania Superior,,King1990,low,Chief Roman city of the upper Rhine
-obs_0428,mogontiacum,451,451,circa,conquest,,Huns (Attila),King1990,low,Sacked during Attila's invasion of Gaul
+obs_0428,mogontiacum,451,451,circa,attestation,Sacked by the Huns,Huns (Attila),King1990,low,Sacked during Attila's invasion of Gaul but not held
 obs_0429,mogontiacum,2020,2020,circa,population_estimate,220000,,UN2018,low,Modern Mainz
 obs_0430,mohenjo-daro,-2600,-2600,circa,founding,,,Possehl2002,low,One of the great cities of the Indus Valley civilization
 obs_0431,mohenjo-daro,-2200,-2200,circa,population_estimate,40000,,Possehl2002,low,A planned city with a grid and covered drains and the Great Bath
@@ -463,3 +463,98 @@ obs_0461,delhi,1700,1700,circa,population_estimate,600000,,Chandler1987,low,Amon
 obs_0462,delhi,1803,1803,circa,conquest,,British East India Company,AsherTalbot2006,medium,Occupied by the British after the decline of the Mughals
 obs_0463,delhi,1911,2020,circa,capital_status,Capital of the Republic of India,,AsherTalbot2006,high,New Delhi made the capital in 1911 then capital of independent India
 obs_0464,delhi,2020,2020,circa,population_estimate,30000000,,UN2018,medium,Modern Delhi; among the largest cities in the world
+obs_0465,antioch,-300,-300,circa,founding,,Seleucus I,Downey1961,medium,Founded as the western capital of the Seleucid Empire
+obs_0466,antioch,-300,-63,circa,capital_status,Capital of the Seleucid Empire,Seleucus I,Downey1961,high,The Seleucid royal seat in Syria
+obs_0467,antioch,-63,-63,circa,conquest,,Rome (Pompey),Downey1961,high,Annexed with Syria into the Roman Empire
+obs_0468,antioch,100,100,circa,population_estimate,250000,,Chandler1987,low,One of the three great cities of the Roman East
+obs_0469,antioch,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,Passes to the eastern Roman empire at the partition
+obs_0470,antioch,540,540,circa,attestation,Sack by Khosrow I,Sasanian Empire (Khosrow I),Daryaee2009,low,Briefly sacked by the Sasanians before Justinian rebuilt it
+obs_0471,antioch,637,637,circa,conquest,,Rashidun Caliphate,Kennedy2004,high,Taken in the Arab conquest of Syria
+obs_0472,antioch,969,969,circa,conquest,,Byzantine Empire,Mango2002,medium,Reconquered by Byzantium
+obs_0473,antioch,1098,1098,circa,conquest,,Crusaders (Principality of Antioch),Runciman1951,medium,Captured in the First Crusade
+obs_0474,antioch,1268,1268,circa,conquest,,Mamluk Sultanate,Runciman1951,low,Sacked by the Mamluks and reduced to a town
+obs_0475,antioch,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,low,Absorbed into the Ottoman Empire
+obs_0476,antioch,2020,2020,circa,population_estimate,400000,,UN2018,low,Modern Antakya
+obs_0477,seleucia,-305,-305,circa,founding,,Seleucus I,Kuhrt1995,medium,Seleucid eastern capital on the Tigris
+obs_0478,seleucia,-305,-141,circa,capital_status,Eastern capital of the Seleucid Empire,,Kuhrt1995,medium,A great Greek city of Mesopotamia
+obs_0479,seleucia,-141,-141,circa,conquest,,Parthian Empire,Kuhrt1995,medium,Taken by the Parthians; the court moves to Ctesiphon opposite
+obs_0480,seleucia,165,165,circa,destruction,,Rome (Avidius Cassius),Kuhrt1995,low,Sacked by a Roman army
+obs_0481,seleucia,300,300,century,abandonment,,,Kuhrt1995,low,Eclipsed by Ctesiphon and abandoned
+obs_0482,ctesiphon,-120,-120,circa,founding,,,Kuhrt1995,low,Parthian royal city across the Tigris from Seleucia
+obs_0483,ctesiphon,-120,224,circa,capital_status,Capital of the Parthian Empire,,Kuhrt1995,high,The Parthian royal seat
+obs_0484,ctesiphon,224,637,circa,capital_status,Capital of the Sasanian Empire,,Daryaee2009,high,Imperial capital of Sasanian Persia
+obs_0485,ctesiphon,540,540,circa,population_estimate,500000,,Chandler1987,low,Among the largest cities in the world
+obs_0486,ctesiphon,637,637,circa,conquest,,Rashidun Caliphate,Kennedy2004,high,Falls in the Arab conquest of Mesopotamia
+obs_0487,ctesiphon,800,800,century,abandonment,,,Kennedy2004,low,Abandoned as nearby Baghdad rose
+obs_0488,baghdad,762,762,exact,founding,,Abbasid Caliphate (al-Mansur),Kennedy2004,high,Founded as the round city capital of the Abbasid Caliphate
+obs_0489,baghdad,762,1258,circa,capital_status,Capital of the Abbasid Caliphate,,Kennedy2004,high,The center of the Islamic golden age
+obs_0490,baghdad,900,900,circa,population_estimate,900000,,Chandler1987,medium,Probably the largest city in the world in its golden age
+obs_0491,baghdad,1258,1258,exact,destruction,,Mongols (Hulagu),Kennedy2004,high,The Mongol sack ends the Abbasid Caliphate
+obs_0492,baghdad,1534,1534,circa,conquest,,Ottoman Empire,Kennedy2004,low,Incorporated into the Ottoman Empire
+obs_0493,baghdad,2020,2020,circa,population_estimate,7000000,,UN2018,medium,Modern Baghdad; capital of Iraq
+obs_0494,babylon,-311,-311,circa,conquest,,Seleucid Empire,Kuhrt1995,medium,Held by the Seleucids until Seleucia drew off its people
+obs_0495,babylon,-141,-141,circa,conquest,,Parthian Empire,Kuhrt1995,low,Passes to the Parthians
+obs_0496,susa,-311,-311,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid city
+obs_0497,susa,-147,-147,circa,conquest,,Parthian Empire,Kuhrt1995,low,Taken by the Parthians
+obs_0498,susa,224,224,circa,conquest,,Sasanian Empire,Daryaee2009,medium,Rebuilt under the Sasanians
+obs_0499,susa,638,638,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the Arab conquest
+obs_0500,ecbatana,-311,-311,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid provincial city
+obs_0501,ecbatana,-147,-147,circa,conquest,,Parthian Empire,Kuhrt1995,low,A Parthian summer capital
+obs_0502,ecbatana,224,224,circa,conquest,,Sasanian Empire,Daryaee2009,low,Under Sasanian rule
+obs_0503,ecbatana,642,642,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the Arab conquest
+obs_0504,ecbatana,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid provincial city
+obs_0505,uruk,-311,-311,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid temple city
+obs_0506,uruk,-141,-141,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian rule until its decline
+obs_0507,nippur,-311,-311,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid settlement
+obs_0508,nippur,224,224,circa,conquest,,Sasanian Empire,Daryaee2009,low,Under Sasanian rule with a Jewish and Mandaean community
+obs_0509,jerusalem,-538,-538,circa,conquest,,Achaemenid Persia (Cyrus II),Briant2002,medium,Under Persian rule after the return from exile
+obs_0510,jerusalem,-332,-332,circa,conquest,,Macedon (Alexander III),Hornblower2011,low,Passes to Alexander
+obs_0511,jerusalem,-301,-301,circa,conquest,,Ptolemaic Egypt,Fraser1972,low,Held by Ptolemaic Egypt
+obs_0512,jerusalem,-198,-198,circa,conquest,,Seleucid Empire,Kuhrt1995,medium,Seized by the Seleucids; later the Maccabean revolt
+obs_0513,jerusalem,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,A Byzantine Christian city
+obs_0514,jerusalem,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,medium,Incorporated into the Ottoman Empire
+obs_0515,damascus,-539,-539,circa,conquest,,Achaemenid Persia (Cyrus II),Briant2002,low,Under Persian rule
+obs_0516,damascus,-332,-332,circa,conquest,,Macedon (Alexander III),Hornblower2011,low,Taken by Alexander
+obs_0517,damascus,-300,-300,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid city before Roman Syria
+obs_0518,damascus,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine provincial city
+obs_0519,damascus,635,635,circa,conquest,,Rashidun Caliphate,Kennedy2004,high,Taken in the Arab conquest just before becoming the Umayyad capital
+obs_0520,damascus,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Loses the caliphal capital to Baghdad under the Abbasids
+obs_0521,damascus,1516,1516,circa,conquest,,Ottoman Empire,Kennedy2004,medium,Incorporated into the Ottoman Empire
+obs_0522,tyre,-274,-274,circa,conquest,,Ptolemaic Egypt,Fraser1972,low,Held by Ptolemaic Egypt
+obs_0523,tyre,-198,-198,circa,conquest,,Seleucid Empire,Kuhrt1995,low,Passes to the Seleucids
+obs_0524,tyre,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine port
+obs_0525,tyre,640,640,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the Arab conquest
+obs_0526,tyre,1124,1124,circa,conquest,,Crusaders (Kingdom of Jerusalem),Runciman1951,medium,Captured by the Crusaders
+obs_0527,tyre,1291,1291,circa,conquest,,Mamluk Sultanate,Runciman1951,low,Retaken by the Mamluks at the end of the Crusades
+obs_0528,sidon,-286,-286,circa,conquest,,Ptolemaic Egypt,Fraser1972,low,Held by Ptolemaic Egypt
+obs_0529,sidon,-198,-198,circa,conquest,,Seleucid Empire,Kuhrt1995,low,Passes to the Seleucids
+obs_0530,sidon,-64,-64,circa,conquest,,Rome (Pompey),Fraser1972,low,Absorbed into Roman Syria
+obs_0531,sidon,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine port
+obs_0532,sidon,637,637,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_0533,sardis,-281,-281,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid city after the battle of Corupedium
+obs_0534,sardis,-133,-133,circa,conquest,,Rome,Mitchell1993,low,Bequeathed to Rome with the kingdom of Pergamon
+obs_0535,sardis,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine city until the Turkish conquests
+obs_0536,ephesus,-334,-334,circa,conquest,,Macedon (Alexander III),Mitchell1993,low,Liberated by Alexander
+obs_0537,ephesus,-281,-281,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid then Attalid city
+obs_0538,ephesus,-133,-133,circa,conquest,,Rome,Mitchell1993,low,Capital of the Roman province of Asia
+obs_0539,ephesus,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A great Byzantine city until its harbor silted
+obs_0540,alexandria,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,Chief city of Byzantine Egypt
+obs_0541,alexandria,641,641,circa,conquest,,Rashidun Caliphate,Kennedy2004,high,Taken in the Arab conquest; the capital moves to Fustat
+obs_0542,memphis,-525,-525,circa,conquest,,Achaemenid Persia (Cambyses II),Briant2002,medium,Persia conquers Egypt at the battle of Pelusium
+obs_0543,memphis,-332,-332,circa,conquest,,Macedon (Alexander III),Shaw2000,low,Alexander is welcomed as pharaoh at Memphis
+obs_0544,memphis,-305,-305,circa,conquest,,Ptolemaic Egypt,Fraser1972,low,A Ptolemaic religious center beside the new capital Alexandria
+obs_0545,memphis,641,641,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Its stone later quarried for nearby Fustat and Cairo
+obs_0546,thebes,-305,-305,circa,conquest,,Ptolemaic Egypt,Fraser1972,low,Under Ptolemaic rule
+obs_0547,thebes,-30,-30,circa,conquest,,Rome,Shaw2000,low,Part of Roman Egypt
+obs_0548,thebes,641,641,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest; the area continues as Luxor
+obs_0549,elephantine,-305,-305,circa,conquest,,Ptolemaic Egypt,Fraser1972,low,A Ptolemaic frontier town
+obs_0550,elephantine,641,641,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest; continues as Aswan
+obs_0551,athens,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine town in the eastern empire
+obs_0552,corinth,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine city of Greece
+obs_0553,argos,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine town
+obs_0554,sidon,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,low,Incorporated into the Ottoman Empire
+obs_0555,alexandria,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,low,Ottoman Egypt after the fall of the Mamluks
+obs_0556,thebes,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,low,Ottoman Egypt; the district around Luxor
+obs_0557,elephantine,1517,1517,circa,conquest,,Ottoman Empire,Kennedy2004,low,Ottoman Egypt; continues as Aswan
+obs_0558,susa,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid provincial town before the Mongol period
+obs_0559,nippur,638,638,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest before its final decline

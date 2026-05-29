@@ -191,6 +191,9 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Possehl2002` | G. Possehl, *The Indus Civilization: A Contemporary Perspective* (2002) |
 | `Thapar2002` | R. Thapar, *Early India: From the Origins to AD 1300* (2002) |
 | `AsherTalbot2006` | C. Asher & C. Talbot, *India before Europe* (2006) |
+| `Downey1961` | G. Downey, *A History of Antioch in Syria* (1961) |
+| `Kuhrt1995` | A. Kuhrt, *The Ancient Near East c. 3000–330 BC* (1995) |
+| `Daryaee2009` | T. Daryaee, *Sasanian Persia* (2009) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -272,7 +275,8 @@ moves east toward China.
 - [x] Polity alias map in `model.js` to de-duplicate empires (Rome, Achaemenid Persia, Macedon, …)
 - [x] Minor cities hover-only; star icons for capitals; control-share stacked chart
 - [x] Control modeled as intervals that lapse to "Independent / no record" past an empire's window
-- [ ] Fill intervening powers (Seleucids, Parthians, Sasanians, Abbasids, medieval states) to shrink the Independent gaps
+- [x] Intervening powers: anchor capitals (Antioch, Seleucia, Ctesiphon, Baghdad) + Seleucid/Ptolemaic/Parthian/Sasanian/Byzantine/Rashidun/Abbasid/Ottoman chains
+- [ ] Deepen remaining gaps (Umayyad→Abbasid→Mamluk Levant, medieval Europe, Central Asia)
 - [ ] GIF/video export of the map animation (frame = `stateAt(year)`; encode via a small R/Python step)
 - [ ] Replace placeholder population figures with the Reba2016 georeferenced series
 
