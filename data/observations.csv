@@ -678,3 +678,72 @@ obs_0676,osaka,645,645,circa,founding,,,Totman2000,low,The ancient port of Naniw
 obs_0677,osaka,1583,1615,circa,capital_status,Toyotomi domain,Toyotomi Hideyoshi,Totman2000,low,Hideyoshi builds Osaka Castle as his seat
 obs_0678,osaka,1700,1700,circa,population_estimate,400000,,Chandler1987,low,A great merchant city of Tokugawa Japan
 obs_0679,osaka,2020,2020,circa,population_estimate,19000000,,UN2018,medium,Modern Osaka
+obs_0680,aksum,100,100,circa,founding,,,Phillipson2012,low,Rose as a trading kingdom in the Ethiopian highlands
+obs_0681,aksum,100,940,circa,capital_status,Capital of the Aksumite Empire,,Phillipson2012,high,A Christian power trading across the Red Sea
+obs_0682,aksum,350,350,circa,population_estimate,20000,,Connah2001,low,A monumental city of carved stelae
+obs_0683,aksum,940,940,century,abandonment,,,Phillipson2012,low,The capital declined and shifted south
+obs_0684,djenne,-250,-250,circa,founding,,,Connah2001,low,Djenne-Djeno; one of the earliest sub-Saharan urban sites
+obs_0685,djenne,1250,1250,circa,conquest,,Mali Empire,Connah2001,low,A trade and scholarship city of the Mali Empire
+obs_0686,djenne,1473,1473,circa,conquest,,Songhai Empire,Connah2001,low,Annexed by Songhai
+obs_0687,djenne,1591,1591,circa,conquest,,Saadi Morocco,Connah2001,low,Taken in the Moroccan invasion
+obs_0688,djenne,2020,2020,circa,population_estimate,35000,,UN2018,low,Modern Djenne
+obs_0689,timbuktu,1100,1100,circa,founding,,,Connah2001,low,Founded as a Saharan trade entrepot
+obs_0690,timbuktu,1325,1325,circa,conquest,,Mali Empire,Connah2001,medium,Incorporated by Mansa Musa's Mali
+obs_0691,timbuktu,1375,1375,circa,population_estimate,50000,,Chandler1987,low,A famed center of trade and Islamic learning
+obs_0692,timbuktu,1468,1468,circa,conquest,,Songhai Empire,Connah2001,medium,Taken by Songhai under Sonni Ali
+obs_0693,timbuktu,1591,1591,circa,conquest,,Saadi Morocco,Connah2001,medium,Sacked in the Moroccan invasion; its scholars dispersed
+obs_0694,timbuktu,2020,2020,circa,population_estimate,55000,,UN2018,low,Modern Timbuktu
+obs_0695,gao,700,700,circa,founding,,,Connah2001,low,A trade town on the Niger bend
+obs_0696,gao,1340,1340,circa,conquest,,Mali Empire,Connah2001,low,Under the Mali Empire
+obs_0697,gao,1430,1591,circa,capital_status,Capital of the Songhai Empire,,Connah2001,high,The largest of the West African empires
+obs_0698,gao,1591,1591,circa,conquest,,Saadi Morocco,Connah2001,medium,The Moroccan conquest ends the Songhai Empire
+obs_0699,gao,2020,2020,circa,population_estimate,90000,,UN2018,low,Modern Gao
+obs_0700,ife,1000,1000,circa,founding,,,Connah2001,low,Yoruba holy city
+obs_0701,ife,1100,1420,circa,capital_status,Center of the Ife kingdom,,Connah2001,medium,Famed for naturalistic bronze and terracotta art
+obs_0702,ife,2020,2020,circa,population_estimate,500000,,UN2018,low,Modern Ile-Ife
+obs_0703,benin,1180,1180,circa,founding,,,Connah2001,low,Capital of the Edo Kingdom of Benin
+obs_0704,benin,1180,1897,circa,capital_status,Capital of the Kingdom of Benin,,Connah2001,high,Renowned for its earthworks and brass plaques
+obs_0705,benin,1897,1897,exact,conquest,,British Empire,Connah2001,high,Sacked in the British punitive expedition; the bronzes looted
+obs_0706,benin,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Benin City
+obs_0707,zimbabwe,1100,1100,circa,founding,,,Connah2001,low,Stone-walled capital on the Zimbabwe plateau
+obs_0708,zimbabwe,1100,1450,circa,capital_status,Capital of the Kingdom of Zimbabwe,,Connah2001,high,A gold-trading state; the Great Enclosure
+obs_0709,zimbabwe,1450,1450,century,abandonment,,,Connah2001,low,Abandoned as trade and power shifted north
+obs_0710,kilwa,1000,1000,circa,founding,,,Connah2001,low,Swahili coast trading town
+obs_0711,kilwa,1100,1500,circa,capital_status,Capital of the Kilwa Sultanate,,Connah2001,medium,Controlled the southern gold trade of the Swahili coast
+obs_0712,kilwa,1505,1505,circa,conquest,,Portuguese Empire,Connah2001,medium,Seized by the Portuguese
+obs_0713,kilwa,1600,1600,century,abandonment,,,Connah2001,low,Declined after the Portuguese disruption
+obs_0714,kongo,1390,1390,circa,founding,,,Connah2001,low,Capital of the Kingdom of Kongo
+obs_0715,kongo,1390,1665,circa,capital_status,Capital of the Kingdom of Kongo,,Connah2001,medium,A centralized kingdom that adopted Christianity
+obs_0716,kongo,2020,2020,circa,population_estimate,150000,,UN2018,low,Modern Mbanza-Kongo
+obs_0717,caral,-2600,-2600,circa,founding,,,Shady2008,medium,The oldest known city in the Americas
+obs_0718,caral,-2600,-1800,circa,capital_status,Center of the Norte Chico,,Shady2008,medium,Monumental platform mounds on the Peruvian coast
+obs_0719,caral,-1800,-1800,century,abandonment,,,Shady2008,low,Abandoned in the second millennium BCE
+obs_0720,teotihuacan,-100,-100,circa,founding,,,Coe2011,low,Rose in the Valley of Mexico
+obs_0721,teotihuacan,1,550,circa,capital_status,Center of Teotihuacan,,Coe2011,high,The largest city in the pre-Columbian Americas
+obs_0722,teotihuacan,450,450,circa,population_estimate,125000,,Chandler1987,low,Among the largest cities in the world in its era
+obs_0723,teotihuacan,550,550,circa,destruction,,,Coe2011,medium,Its center burned and the city collapsed
+obs_0724,teotihuacan,750,750,century,abandonment,,,Coe2011,low,Largely abandoned
+obs_0725,tikal,-400,-400,circa,founding,,,Coe2011,low,A Maya city in the Peten lowlands
+obs_0726,tikal,200,869,circa,capital_status,Classic Maya city-state of Tikal,,Coe2011,medium,A dominant power of the Classic Maya
+obs_0727,tikal,750,750,circa,population_estimate,60000,,Chandler1987,low,At its Classic-period height
+obs_0728,tikal,900,900,century,abandonment,,,Coe2011,medium,Abandoned in the Classic Maya collapse
+obs_0729,monte-alban,-500,-500,circa,founding,,,Coe2011,low,Zapotec hilltop capital
+obs_0730,monte-alban,-500,800,circa,capital_status,Capital of the Zapotec state,,Coe2011,medium,Dominated the Oaxaca valley
+obs_0731,monte-alban,800,800,century,abandonment,,,Coe2011,low,Abandoned around the end of the Classic period
+obs_0732,chichen-itza,600,600,circa,founding,,,Coe2011,low,A city of the northern Yucatan
+obs_0733,chichen-itza,800,1200,circa,capital_status,Dominant Maya-Toltec city,,Coe2011,medium,The leading power of the post-Classic northern Maya
+obs_0734,chichen-itza,1250,1250,century,abandonment,,,Coe2011,low,Declined as power shifted to Mayapan
+obs_0735,tenochtitlan,1325,1325,circa,founding,,,Coe2011,medium,Founded on an island in Lake Texcoco
+obs_0736,tenochtitlan,1428,1521,circa,capital_status,Capital of the Aztec Empire,,Coe2011,high,Seat of the Triple Alliance
+obs_0737,tenochtitlan,1500,1500,circa,population_estimate,200000,,Chandler1987,medium,Among the largest cities in the world at contact
+obs_0738,tenochtitlan,1521,1521,exact,conquest,,Spanish Empire (Cortes),Coe2011,high,Destroyed by Cortes and rebuilt as Mexico City
+obs_0739,tenochtitlan,2020,2020,circa,population_estimate,21000000,,UN2018,medium,Modern Mexico City
+obs_0740,cusco,1200,1200,circa,founding,,,DAltroy2014,low,The Inca settle the Cusco valley
+obs_0741,cusco,1438,1533,circa,capital_status,Capital of the Inca Empire,Pachacuti,DAltroy2014,high,The heart of the largest empire of the pre-Columbian Americas
+obs_0742,cusco,1500,1500,circa,population_estimate,100000,,Chandler1987,low,The imperial Inca capital
+obs_0743,cusco,1533,1533,exact,conquest,,Spanish Empire (Pizarro),DAltroy2014,high,Seized by Pizarro
+obs_0744,cusco,2020,2020,circa,population_estimate,430000,,UN2018,low,Modern Cusco
+obs_0745,cahokia,1050,1050,circa,founding,,,Pauketat2009,medium,The great Mississippian city by the Mississippi
+obs_0746,cahokia,1050,1350,circa,capital_status,Center of Mississippian Cahokia,,Pauketat2009,medium,The largest city north of Mexico; Monks Mound
+obs_0747,cahokia,1100,1100,circa,population_estimate,15000,,Pauketat2009,low,At its height; the largest settlement in North America
+obs_0748,cahokia,1350,1350,century,abandonment,,,Pauketat2009,medium,Mysteriously abandoned before European contact

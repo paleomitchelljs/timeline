@@ -72,6 +72,11 @@
   <div class="legend" id="share-legend"></div>
 </section>
 
+<section id="sankey-sec">
+  <h2>How control passed between empires</h2>
+  <svg id="sankey"></svg>
+</section>
+
 <section id="emp-sec">
   <h2>Empires &amp; polities</h2>
   <svg id="empires"></svg>
@@ -102,6 +107,7 @@ const REGION_COLOR = {
   "india": "#ff7043",
   "china": "#d32f2f", "southeast-asia": "#00897b",
   "steppe": "#827717", "japan": "#c2185b",
+  "africa": "#f9a825", "americas": "#5e35b1",
 };
 
 function el(name, attrs = {}, parent = null) {
@@ -369,6 +375,81 @@ function renderControlShare(model) {
   };
 }
 
+// alluvial / Sankey: cities flowing between controlling empires across time checkpoints
+function renderSankey(model) {
+  const svg = document.getElementById("sankey");
+  const CP = [-5000, -3000, -2000, -1000, -500, -200, 1, 300, 600, 900, 1200, 1500, 1800, 2020];
+  const { snaps } = TimelineModel.controlFlows(model, CP);
+
+  // top controllers by peak column count (excluding Independent); rest become "Other"
+  const peak = {};
+  for (const s of snaps) { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; for (const k in c) peak[k] = Math.max(peak[k] || 0, c[k]); }
+  const shown = new Set(Object.keys(peak).filter(k => k !== "Independent").sort((a, b) => peak[b] - peak[a]).slice(0, 12));
+  const lab = n => n === "Independent" ? "Independent" : (shown.has(n) ? n : "Other");
+  const rsnaps = snaps.map(s => { const o = {}; for (const id in s) o[id] = lab(s[id]); return o; });
+  const cols = rsnaps.map(s => { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; return c; });
+  const maxTotal = Math.max(...cols.map(c => Object.values(c).reduce((a, b) => a + b, 0)));
+
+  // stable vertical order (by peak), with Other and Independent pushed to the bottom
+  const seen = new Set(), order = [];
+  for (const c of cols) for (const k of Object.keys(c).sort((a, b) => (peak[b] || 0) - (peak[a] || 0))) if (!seen.has(k)) { seen.add(k); order.push(k); }
+  const tail = ["Other", "Independent"].filter(x => seen.has(x));
+  const ord = order.filter(x => !tail.includes(x)).concat(tail);
+  const rank = {}; ord.forEach((k, i) => rank[k] = i);
+
+  const M = { top: 24, right: 130, bottom: 10, left: 10 }, W = 1120, H = 540;
+  const innerW = W - M.left - M.right, innerH = H - M.top - M.bottom;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
+  const nw = 12, gap = 3;
+  const scale = (innerH - 14 * gap) / maxTotal;
+  const colX = i => M.left + nw / 2 + i * (innerW - nw) / (CP.length - 1);
+  const colorOf = k => k === "Independent" ? "#363b47" : k === "Other" ? "#586070" : (model.empColor[k] || "#888");
+
+  const nodes = cols.map((c, ci) => {
+    const present = Object.keys(c).sort((a, b) => rank[a] - rank[b]);
+    const total = present.reduce((s, k) => s + c[k], 0);
+    const blockH = total * scale + (present.length - 1) * gap;
+    let y = M.top + (innerH - blockH) / 2;
+    const map = {};
+    for (const k of present) { const h = c[k] * scale; map[k] = { x: colX(ci), yTop: y, h, count: c[k] }; y += h + gap; }
+    return map;
+  });
+
+  const axis = el("g", { class: "axis" }, svg);
+  CP.forEach((y, i) => { const t = el("text", { x: colX(i), y: 14, "text-anchor": "middle", "font-size": 10 }, axis); t.textContent = fmtYear(y); });
+
+  const ribbonG = el("g", {}, svg);
+  for (let i = 0; i < rsnaps.length - 1; i++) {
+    const a = rsnaps[i], b = rsnaps[i + 1], srcN = nodes[i], dstN = nodes[i + 1];
+    const f = {};
+    for (const id in a) if (id in b) { const s = a[id], d = b[id]; (f[s] || (f[s] = {}))[d] = ((f[s][d]) || 0) + 1; }
+    const list = [];
+    for (const s in f) for (const d in f[s]) list.push({ s, d, c: f[s][d] });
+    const bySrc = {}, byDst = {};
+    list.forEach(fl => { (bySrc[fl.s] || (bySrc[fl.s] = [])).push(fl); (byDst[fl.d] || (byDst[fl.d] = [])).push(fl); });
+    for (const s in bySrc) { bySrc[s].sort((p, q) => rank[p.d] - rank[q.d]); let off = srcN[s].yTop; for (const fl of bySrc[s]) { fl.sy = off; off += fl.c * scale; } }
+    for (const d in byDst) { byDst[d].sort((p, q) => rank[p.s] - rank[q.s]); let off = dstN[d].yTop; for (const fl of byDst[d]) { fl.dy = off; off += fl.c * scale; } }
+    for (const fl of list) {
+      const x0 = srcN[fl.s].x + nw / 2, x1 = dstN[fl.d].x - nw / 2, w = fl.c * scale, xm = (x0 + x1) / 2;
+      const d = `M${x0},${fl.sy} C${xm},${fl.sy} ${xm},${fl.dy} ${x1},${fl.dy} L${x1},${fl.dy + w} C${xm},${fl.dy + w} ${xm},${fl.sy + w} ${x0},${fl.sy + w} Z`;
+      const path = el("path", { d, fill: colorOf(fl.s), "fill-opacity": fl.s === "Independent" ? .16 : .34 }, ribbonG);
+      path.style.cursor = "pointer";
+      bindTip(path, `<b>${fl.s} → ${fl.d}</b><br><span class="meta">${fl.c} cit${fl.c === 1 ? "y" : "ies"}</span>`);
+    }
+  }
+
+  const nodeG = el("g", {}, svg);
+  nodes.forEach((map, ci) => {
+    for (const k in map) {
+      const n = map[k];
+      const r = el("rect", { x: n.x - nw / 2, y: n.yTop, width: nw, height: Math.max(1, n.h), fill: colorOf(k) }, nodeG);
+      r.style.cursor = "pointer";
+      bindTip(r, `<b>${k}</b><br><span class="meta">${fmtYear(CP[ci])} · ${n.count} cit${n.count === 1 ? "y" : "ies"}</span>`);
+      if (ci === nodes.length - 1) { const t = el("text", { x: n.x + nw / 2 + 4, y: n.yTop + n.h / 2 + 3, "font-size": 9 }, nodeG); t.setAttribute("fill", "#cfd3da"); t.textContent = k; }
+    }
+  });
+}
+
 // empire-centric lifespans — rows scale with #polities, not #cities
 function renderEmpires(model) {
   const svg = document.getElementById("empires");
@@ -458,6 +539,7 @@ function renderPopulation(model) {
 
     const mapView = setupMap(model, basemap);
     const shareView = renderControlShare(model);
+    renderSankey(model);
     renderEmpires(model);
     renderPopulation(model);
 

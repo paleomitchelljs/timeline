@@ -202,6 +202,12 @@ Citation keys used in `source`. Expand this list as coverage grows.
 | `Morgan2007` | D. Morgan, *The Mongols* (2007) |
 | `Soucek2000` | S. Soucek, *A History of Inner Asia* (2000) |
 | `Totman2000` | C. Totman, *A History of Japan* (2000) |
+| `Phillipson2012` | D. Phillipson, *Foundations of an African Civilisation: Aksum* (2012) |
+| `Connah2001` | G. Connah, *African Civilizations* (2001) |
+| `Shady2008` | R. Shady Solís, on Caral and the Norte Chico (2008) |
+| `Coe2011` | M. Coe, *Mexico: From the Olmecs to the Aztecs* / *The Maya* (2011) |
+| `DAltroy2014` | T. D'Altroy, *The Incas* (2014) |
+| `Pauketat2009` | T. Pauketat, *Cahokia: Ancient America's Great City on the Mississippi* (2009) |
 
 Most early dates are approximate and several follow the contested "middle chronology."
 The seed data is deliberately conservative on `confidence`; tighten it as sources firm up.
@@ -264,9 +270,9 @@ physical layers, clipped and simplified — no political borders):
 Rscript tools/make_basemap.R      # needs: install.packages(c("sf","rnaturalearth","rnaturalearthdata"))
 ```
 
+The script now renders the **whole world** (coverage runs from the Americas to Japan).
 The geometry is **modern**: in antiquity the Persian Gulf reached further north, so Ur and
-Eridu — coastal then — render inland. Widen the `bbox`/`xmax` in the script as coverage
-moves east toward China.
+Eridu — coastal then — render inland.
 
 ## Roadmap
 
@@ -308,5 +314,6 @@ Expansion sequence (region by region):
 - [x] **Southeast Asia** (Angkor, Bagan, Ayutthaya, Palembang, Thang Long, Malacca)
 - [x] **Steppe / Central Asia** (Karakorum, Samarkand, Bukhara, Merv, Sarai) — the Mongol thread
 - [x] **Japan** (Nara, Kyoto, Kamakura, Edo/Tokyo, Osaka)
-- [ ] Sub-Saharan Africa and the Americas
+- [x] **Sub-Saharan Africa** (Aksum, Djenné, Timbuktu, Gao, Ife, Benin, Great Zimbabwe, Kilwa, Mbanza Kongo)
+- [x] **The Americas** (Caral, Teotihuacan, Tikal, Monte Albán, Chichén Itzá, Tenochtitlan, Cusco, Cahokia)
 ```

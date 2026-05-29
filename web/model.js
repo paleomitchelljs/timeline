@@ -47,6 +47,7 @@
     "Hittites": "Hittite Empire",
     "Medes": "Median Empire",
     "Mongols": "Mongol Empire",
+    "Aksum": "Aksumite Empire",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 
@@ -213,5 +214,40 @@
     return { share, total };
   }
 
-  return { build, stateAt, controllerAt, popAt, empiresActiveAt, isMajorAt, isCapitalAt, shareAt, normalizePolity, polityOf };
+  // Snapshot: every present city's controller (or "Independent") in a given year.
+  function controlSnapshot(model, year) {
+    const snap = {};
+    for (const id in model.cityInfo) {
+      const info = model.cityInfo[id];
+      if (year < info.start || year > info.end) continue;
+      snap[id] = controllerAt(model, info, year) || "Independent";
+    }
+    return snap;
+  }
+
+  // For a Sankey/alluvial: at each checkpoint, who controls how many cities; and
+  // between consecutive checkpoints, how many cities flow from controller A to B.
+  function controlFlows(model, checkpoints) {
+    const snaps = checkpoints.map(y => controlSnapshot(model, y));
+    const columns = snaps.map(s => {
+      const c = {};
+      for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1;
+      return c;
+    });
+    const flows = [];
+    for (let i = 0; i < snaps.length - 1; i++) {
+      const a = snaps[i], b = snaps[i + 1], f = {};
+      for (const id in a) if (id in b) { const k = a[id] + "" + b[id]; f[k] = (f[k] || 0) + 1; }
+      flows.push(Object.entries(f).map(([k, v]) => {
+        const ix = k.indexOf("");
+        return { src: k.slice(0, ix), dst: k.slice(ix + 1), count: v };
+      }));
+    }
+    return { checkpoints, snaps, columns, flows };
+  }
+
+  return {
+    build, stateAt, controllerAt, popAt, empiresActiveAt, isMajorAt, isCapitalAt,
+    shareAt, controlSnapshot, controlFlows, normalizePolity, polityOf,
+  };
 });

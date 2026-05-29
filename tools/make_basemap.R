@@ -17,9 +17,9 @@ suppressPackageStartupMessages({
   library(rnaturalearth)
 })
 
-# Clip box: generous Old-World core (Iberia -> India), covering the near-term
-# roadmap. Widen xmax toward ~120 when coverage reaches East/Southeast Asia.
-bbox     <- c(xmin = -12, ymin = 5, xmax = 75, ymax = 55)
+# Clip box: the whole world now that coverage spans the Americas to Japan.
+# (Antarctica trimmed off the bottom.) Tighten if you ever want a regional render.
+bbox     <- c(xmin = -180, ymin = -58, xmax = 180, ymax = 84)
 crop_box <- st_as_sfc(st_bbox(bbox, crs = 4326))
 scale    <- 50   # 1:50m medium scale; set 10 for hi-res (needs rnaturalearthhires)
 out      <- "web/basemap.geojson"
@@ -40,7 +40,7 @@ prep <- function(x, kind, keep_name = FALSE) {
   x  <- st_make_valid(x)
   x  <- suppressWarnings(st_intersection(x, crop_box))
   if (nrow(x) == 0) return(NULL)
-  x  <- st_simplify(x, dTolerance = 0.02, preserveTopology = TRUE)
+  x  <- st_simplify(x, dTolerance = 0.08, preserveTopology = TRUE)   # coarser for a world-scale file
   nm <- if (keep_name && "name" %in% names(x)) as.character(x$name) else NA_character_
   st_sf(kind = kind, name = nm, geometry = st_geometry(x))
 }
