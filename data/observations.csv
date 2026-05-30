@@ -64,7 +64,7 @@ obs_0067,sippar,-3000,-2900,circa,founding,,,Beaulieu2018,low,Cult center of the
 obs_0068,sippar,-600,-539,century,capital_status,Ebabbar temple economy,,Beaulieu2018,medium,A major Neo-Babylonian temple archive comes from the Ebabbar
 obs_0069,sippar,-300,-300,century,abandonment,,,Roaf1990,low,Occupied into the Persian period then abandoned
 obs_0070,babylon,-2300,-2300,century,founding,,,George1992,low,First attested as a town under Shar-kali-sharri of Akkad
-obs_0071,babylon,-1792,-1750,circa,capital_status,First (Amorite) Dynasty of Babylon,Hammurabi,VanDeMieroop2004,high,Hammurabi makes Babylon the capital of a unified Mesopotamia
+obs_0071,babylon,-1894,-1595,circa,capital_status,First (Amorite) Dynasty of Babylon,Hammurabi,VanDeMieroop2004,high,The First Dynasty of Babylon; Hammurabi unified Mesopotamia at its height before the Hittite sack
 obs_0072,babylon,-1595,-1595,circa,destruction,,Hittites (Mursili I),Beaulieu2018,medium,Mursili I sacks Babylon; the First Dynasty ends
 obs_0073,babylon,-1595,-1155,circa,capital_status,Kassite Dynasty (Karduniash),,Beaulieu2018,medium,Kassite kings rule Babylonia from Babylon for four centuries
 obs_0074,babylon,-689,-689,circa,destruction,,Assyria (Sennacherib),Beaulieu2018,high,Sennacherib razes and floods the city after a revolt
@@ -3068,3 +3068,156 @@ obs_3081,aden,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayy
 obs_3082,aden,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids before the local Yemeni dynasties
 obs_3083,aleppo,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad city of northern Syria
 obs_3084,aleppo,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids before the Hamdanids
+obs_3085,seville,-200,-200,circa,conquest,,Rome,Beard2015,medium,Roman Hispalis on the Guadalquivir
+obs_3086,seville,472,472,circa,conquest,,Visigothic Kingdom,Wickham2009,low,A city of the Visigothic kingdom
+obs_3087,corduba,-169,-169,circa,conquest,,Rome,Beard2015,medium,Founded as Roman Corduba; capital of Hispania Baetica
+obs_3088,corduba,572,572,circa,conquest,,Visigothic Kingdom,Wickham2009,low,Taken by the Visigoths under Leovigild
+obs_3089,lisbon,-237,-237,circa,conquest,,Carthaginian Empire,Beard2015,low,Within the Carthaginian sphere of Iberia
+obs_3090,lisbon,-138,-138,circa,conquest,,Rome,Beard2015,medium,Roman Olisipo on the Tagus
+obs_3091,lisbon,469,469,circa,conquest,,Visigothic Kingdom,Wickham2009,low,Held by the Suebi and then the Visigoths
+obs_3092,florence,-59,-59,circa,conquest,,Rome,Beard2015,medium,Founded as the Roman colony of Florentia
+obs_3093,florence,962,962,circa,conquest,,Holy Roman Empire,Wickham2009,low,A margravial city within the Holy Roman Empire
+obs_3094,mediolanum,-222,-222,circa,conquest,,Rome,Beard2015,medium,Taken by Rome from the Insubres
+obs_3095,ravenna,-89,-89,circa,conquest,,Rome,Beard2015,low,A Roman town before it became an imperial capital
+obs_3096,luoyang,-1046,-771,circa,capital_status,Capital of the Zhou dynasty,,Lewis2007,medium,The Western Zhou ritual capital of Chengzhou
+obs_3097,memphis,-3100,-2686,circa,capital_status,Capital of Early Dynastic Egypt,,Shaw2000,high,Capital of the newly unified Egypt from the First Dynasty
+obs_3098,heliopolis,-3000,-3000,circa,conquest,,Early Dynastic Egypt,Shaw2000,medium,The sun cult center within unified Early Dynastic Egypt
+obs_3099,elephantine,-3000,-3000,circa,conquest,,Early Dynastic Egypt,Shaw2000,medium,The southern frontier town of unified Egypt
+obs_3100,oslo,1040,1040,circa,conquest,,Norway,Wickham2009,medium,Founded as a town of the kingdom of Norway
+obs_3101,reykjavik,1262,1262,circa,conquest,,Norway,Wickham2009,low,Iceland submits to the Norwegian crown
+obs_3102,helsinki,1550,1550,circa,conquest,,Sweden,Wickham2009,medium,Founded by Sweden on the Gulf of Finland
+obs_3103,luxembourg,963,963,circa,conquest,,Holy Roman Empire,Wickham2009,medium,A county of the Holy Roman Empire
+obs_3104,brussels,979,979,circa,conquest,,Holy Roman Empire,Wickham2009,low,A town of the duchy of Brabant in the Empire
+obs_3105,berlin,1237,1237,circa,conquest,,Holy Roman Empire,Wickham2009,medium,A town of Brandenburg within the Holy Roman Empire
+obs_3106,amsterdam,1275,1275,circa,conquest,,Holy Roman Empire,Wickham2009,low,A town of the county of Holland in the Empire
+obs_3107,venice,540,540,circa,conquest,,Byzantine Empire,Mango2002,medium,Within the Byzantine Exarchate before its independence
+obs_3108,prague,1002,1002,circa,conquest,,Holy Roman Empire,Wickham2009,low,The duchy of Bohemia as a fief of the Empire
+obs_3109,lagos,1450,1450,circa,conquest,,Kingdom of Benin,Reader1998,medium,The port of Eko under the kingdom of Benin
+obs_3110,ankara,-546,-546,circa,conquest,,Achaemenid Persia,Briant2002,low,The Phrygian town of Ancyra under Persia
+obs_3111,ankara,-333,-333,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander before the Galatian settlement
+obs_3112,hiroshima,1603,1603,circa,conquest,,Tokugawa shogunate,Totman2000,medium,A castle town of the Asano domain under the shogunate
+obs_3113,tehran,1501,1501,circa,conquest,,Safavid Empire,Axworthy2008,low,A walled town under the Safavids before it became the capital
+obs_3114,liaoyang,100,100,circa,conquest,,Han dynasty,Lewis2007,low,A Han commandery town of Liaodong
+obs_3115,liaoyang,238,238,circa,conquest,,Cao Wei,Lewis2007,low,Taken by Cao Wei from the Gongsun warlords
+obs_3116,kish,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,A northern city of the Ur III state
+obs_3117,larsa,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,Within the Ur III state
+obs_3118,umma,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,medium,A provincial center of the Ur III state
+obs_3119,lagash,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,medium,A wealthy province of the Ur III state
+obs_3120,sippar,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,A northern city of the Ur III state
+obs_3122,assur,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,An Ur III governor held Assur
+obs_3123,mari,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,Loosely within the Ur III sphere on the middle Euphrates
+obs_3124,ur,-2017,-2017,circa,conquest,,First Dynasty of Isin,Kuhrt1995,medium,Held by Isin after the fall of the Ur III state
+obs_3125,uruk,-2017,-2017,circa,conquest,,First Dynasty of Isin,Kuhrt1995,low,Under the kings of Isin
+obs_3126,nippur,-2017,-2017,circa,conquest,,First Dynasty of Isin,Kuhrt1995,medium,The cult city legitimizing the kings of Isin
+obs_3127,eridu,-2017,-2017,circa,conquest,,First Dynasty of Isin,Kuhrt1995,low,Within the realm of Isin
+obs_3128,lagash,-2017,-2017,circa,conquest,,First Dynasty of Isin,Kuhrt1995,low,Within the realm of Isin
+obs_3129,kish,-2017,-2017,circa,conquest,,First Dynasty of Isin,Kuhrt1995,low,Within the realm of Isin
+obs_3130,ur,-1900,-1900,circa,conquest,,Larsa,Kuhrt1995,medium,Taken by Larsa in its rivalry with Isin
+obs_3131,uruk,-1900,-1900,circa,conquest,,Larsa,Kuhrt1995,low,Contested by Larsa in the south
+obs_3132,nippur,-1900,-1900,circa,conquest,,Larsa,Kuhrt1995,low,Held by Larsa for a time
+obs_3133,umma,-1900,-1900,circa,conquest,,Larsa,Kuhrt1995,low,Within the deep-south realm of Larsa
+obs_3134,lagash,-1900,-1900,circa,conquest,,Larsa,Kuhrt1995,low,Within the realm of Larsa
+obs_3137,ur,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander with Babylonia
+obs_3138,uruk,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander with Babylonia
+obs_3139,nippur,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander with Babylonia
+obs_3140,kish,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander with Babylonia
+obs_3141,larsa,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander with Babylonia
+obs_3142,sippar,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander with Babylonia
+obs_3143,arbela,-331,-331,circa,conquest,,Macedon,Hornblower2011,medium,Alexander won Gaugamela near Arbela and took Assyria
+obs_3144,nineveh,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander after Gaugamela
+obs_3145,acre,-332,-332,circa,conquest,,Macedon,Hornblower2011,low,Submitted to Alexander on the Phoenician coast
+obs_3146,beirut,-332,-332,circa,conquest,,Macedon,Hornblower2011,low,Submitted to Alexander on the Phoenician coast
+obs_3147,kabul,-329,-329,circa,conquest,,Macedon,Hornblower2011,medium,Taken by Alexander in the Paropamisadae
+obs_3148,elephantine,-332,-332,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander with Egypt
+obs_3149,heliopolis,-332,-332,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander with Egypt
+obs_3150,thebes,-332,-332,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander with Egypt
+obs_3151,rey,-330,-330,circa,conquest,,Macedon,Hornblower2011,low,Alexander passed through Rhagae in pursuit of Darius
+obs_3152,pasargadae,-330,-330,circa,conquest,,Macedon,Hornblower2011,medium,Alexander visited the tomb of Cyrus at Pasargadae
+obs_3153,pasargadae,-546,-546,circa,conquest,,Achaemenid Persia,Briant2002,high,The first capital of Cyrus the Great
+obs_3154,samarkand,-540,-540,circa,conquest,,Achaemenid Persia,Briant2002,medium,Maracanda the chief city of the Sogdiana satrapy
+obs_3155,arbela,-612,-612,circa,conquest,,Median Empire,Kuhrt1995,low,Within the Median heartland after the fall of Assyria
+obs_3156,kabul,-180,-180,circa,conquest,,Indo-Greek Kingdom,Beckwith2009,medium,Under the Indo-Greek kings after the Mauryas
+obs_3157,kabul,1260,1260,circa,conquest,,Chagatai Khanate,Morgan2007,low,Within the Chagatai ulus after the Mongol conquest
+obs_3158,luoyang,-202,-202,circa,conquest,,Han dynasty,Lewis2007,medium,A principal city of the Western Han
+obs_3159,thessalonica,-315,-315,circa,conquest,,Macedon,Hornblower2011,medium,Founded by Cassander as a Macedonian city
+obs_3160,thessalonica,-168,-168,circa,conquest,,Rome,Beard2015,medium,Taken by Rome with the fall of Macedon
+obs_3161,neapolis,493,493,circa,conquest,,Ostrogothic Kingdom,Wickham2009,low,Under the Ostrogoths
+obs_3162,neapolis,535,535,circa,conquest,,Byzantine Empire,Mango2002,medium,Recovered by Byzantium in the Gothic War
+obs_3163,scythian-neapolis,-300,-300,circa,conquest,,Scythians,Tsetskhladze2008,medium,Founded as the capital of the late Scythian kingdom
+obs_3164,florence,493,493,circa,conquest,,Ostrogothic Kingdom,Wickham2009,low,Under the Ostrogoths
+obs_3165,florence,570,570,circa,conquest,,Lombards,Wickham2009,low,A Lombard town of Tuscia
+obs_3166,florence,774,774,circa,conquest,,Carolingian Empire,Wickham2009,low,Within the Carolingian march of Tuscany
+obs_3167,mediolanum,1800,1800,circa,conquest,,French Empire,Darwin2012,medium,Capital of Napoleon's Cisalpine and Italian republics
+obs_3168,mediolanum,1815,1815,circa,conquest,,Habsburg Monarchy,Darwin2012,medium,Capital of Austrian Lombardy-Venetia
+obs_3169,ravenna,856,856,circa,conquest,,Papal States,Wickham2009,low,Held within the Papal States after the Carolingians
+obs_3170,ravenna,1441,1441,circa,conquest,,Republic of Venice,Abulafia2011,medium,Ruled by Venice
+obs_3171,ravenna,1509,1509,circa,conquest,,Papal States,Abulafia2011,low,Returned to the Papal States until Italian unification
+obs_3172,girsu,-2017,-2017,circa,conquest,,First Dynasty of Isin,Kuhrt1995,low,Held by Isin after the fall of Ur III
+obs_3173,girsu,-1900,-1900,circa,conquest,,Larsa,Kuhrt1995,low,Within the realm of Larsa
+obs_3174,girsu,-1763,-1763,circa,conquest,,Babylon,Kuhrt1995,low,Annexed by Hammurabi before its long decline
+obs_3175,nineveh,-2100,-2100,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,An Ur III provincial town
+obs_3176,nineveh,-1500,-1500,circa,conquest,,Mitanni,Kuhrt1995,low,Under the Hurrian kingdom of Mitanni
+obs_3177,isin,-1763,-1763,circa,conquest,,Babylon,Kuhrt1995,low,Annexed by Hammurabi
+obs_3178,isin,-1595,-1595,circa,conquest,,Kassite Dynasty,Kuhrt1995,low,A town of Kassite Babylonia
+obs_3179,babylon,-729,-729,circa,conquest,,Assyria,Frahm2017,medium,The Assyrian kings took the kingship of Babylon
+obs_3180,assur,-1500,-1500,circa,conquest,,Mitanni,Kuhrt1995,low,A vassal of the Hurrian kingdom of Mitanni
+obs_3181,harran,-1500,-1500,circa,conquest,,Mitanni,Kuhrt1995,low,Within the Hurrian kingdom of Mitanni
+obs_3182,aleppo,-608,-608,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Held by Babylon after the fall of Assyria
+obs_3183,aleppo,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,A city of Persian Syria
+obs_3184,aleppo,-333,-333,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander
+obs_3185,susa,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,high,Cyrus took Susa; Darius made it an imperial capital
+obs_3186,heliopolis,-715,-715,circa,conquest,,Kushite 25th Dynasty,Shaw2000,low,Held by the Kushite pharaohs
+obs_3187,trapezus,-493,-493,circa,conquest,,Achaemenid Persia,Briant2002,low,A Greek port within the Persian empire
+obs_3188,trapezus,-281,-281,circa,conquest,,Kingdom of Pontus,Hornblower2011,low,Within the kingdom of Pontus
+obs_3189,sinope,-493,-493,circa,conquest,,Achaemenid Persia,Briant2002,low,A Greek port within the Persian empire
+obs_3190,izmir,1097,1097,circa,conquest,,Byzantine Empire,Mango2002,medium,Recovered by Byzantium during the First Crusade
+obs_3191,argos,1463,1463,circa,conquest,,Ottoman Empire,Mango2002,medium,Taken by the Ottomans
+obs_3192,yerevan,1387,1387,circa,conquest,,Timurid Empire,Beckwith2009,low,Taken by Timur
+obs_3193,bukhara,-329,-329,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander in Sogdiana
+obs_3194,bukhara,-305,-305,circa,conquest,,Seleucid Empire,Hornblower2011,low,Within the Seleucid east
+obs_3195,samarkand,-305,-305,circa,conquest,,Seleucid Empire,Hornblower2011,low,Within the Seleucid east before the Greco-Bactrian secession
+obs_3196,isfahan,1387,1387,circa,conquest,,Timurid Empire,Beckwith2009,low,Taken by Timur
+obs_3197,isfahan,1503,1503,circa,conquest,,Safavid Empire,Axworthy2008,medium,Taken by the Safavids before becoming their capital
+obs_3198,ecbatana,1736,1736,circa,conquest,,Iran,Axworthy2008,low,Under Afsharid and Qajar Iran
+obs_3199,pataliputra,-185,-73,circa,capital_status,Capital of the Shunga Empire,,Thapar2002,medium,Seat of the Shunga dynasty after the Mauryas
+obs_3200,varanasi,-185,-185,circa,conquest,,Shunga Empire,Thapar2002,low,Within the Shunga realm
+obs_3201,kaushambi,-185,-185,circa,conquest,,Shunga Empire,Thapar2002,low,Within the Shunga realm
+obs_3202,mathura,-185,-185,circa,conquest,,Shunga Empire,Thapar2002,low,Within the Shunga realm before the Indo-Greeks and Kushans
+obs_3203,taxila,-185,-185,circa,conquest,,Indo-Greek Kingdom,Beckwith2009,medium,A seat of the Indo-Greek kings
+obs_3204,ujjain,-185,-185,circa,conquest,,Shunga Empire,Thapar2002,low,Within the Shunga realm
+obs_3205,multan,-180,-180,circa,conquest,,Indo-Greek Kingdom,Beckwith2009,low,Under the Indo-Greek kings
+obs_3206,multan,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid frontier town before the Ismaili emirate
+obs_3207,kandahar,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid frontier town of Zabulistan
+obs_3208,peshawar,1187,1187,circa,conquest,,Ghurid Sultanate,Beckwith2009,low,Under the Ghurids
+obs_3209,peshawar,1221,1221,circa,conquest,,Mongol Empire,Morgan2007,low,Raided and held in the Mongol period
+obs_3210,peshawar,1383,1383,circa,conquest,,Timurid Empire,Beckwith2009,low,Within the Timurid realm
+obs_3211,emerita-augusta,469,469,circa,conquest,,Visigothic Kingdom,Wickham2009,medium,A chief city of Visigothic Lusitania
+obs_3212,corduba,1091,1091,circa,conquest,,Almoravid Empire,Kennedy1996,low,Annexed by the Almoravids
+obs_3213,corduba,1149,1149,circa,conquest,,Almohad Caliphate,Kennedy1996,low,Under the Almohads before the Castilian conquest
+obs_3214,tangier,950,950,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,low,Held by Cordoba across the strait
+obs_3215,tangier,1073,1073,circa,conquest,,Almoravid Empire,AbunNasr1987,low,Within the Almoravid realm
+obs_3216,marrakesh,1269,1269,circa,conquest,,Marinid Sultanate,AbunNasr1987,medium,Held by the Marinids after the Almohads
+obs_3217,rabat,1554,1554,circa,conquest,,Saadi Morocco,AbunNasr1987,low,Within Saadi Morocco
+obs_3218,djenne,1893,1893,circa,conquest,,French Empire,Darwin2012,medium,Taken in the French conquest of the western Sudan
+obs_3219,timbuktu,1893,1893,circa,conquest,,French Empire,Darwin2012,medium,Occupied by France
+obs_3220,gao,1893,1893,circa,conquest,,French Empire,Darwin2012,low,Taken in the French conquest of the Niger bend
+obs_3221,mogadishu,1905,1905,circa,conquest,,Kingdom of Italy,Darwin2012,medium,The capital of Italian Somaliland
+obs_3222,kongo,1885,1885,circa,conquest,,Portuguese Empire,Reader1998,low,Absorbed into Portuguese Angola
+obs_3223,vienna,803,803,circa,conquest,,Carolingian Empire,Wickham2009,low,Within the Carolingian march against the Avars
+obs_3224,vienna,976,976,circa,conquest,,Holy Roman Empire,Wickham2009,medium,Seat of the Babenberg march of the Empire
+obs_3225,augusta-treverorum,509,509,circa,conquest,,Franks,Wickham2009,medium,A chief city of the Merovingian Franks
+obs_3226,mogontiacum,509,509,circa,conquest,,Franks,Wickham2009,low,A Frankish city on the Rhine
+obs_3227,minsk,1569,1569,circa,conquest,,Polish-Lithuanian Commonwealth,Wickham2009,medium,Within the Polish-Lithuanian Commonwealth
+obs_3228,dublin,1707,1707,circa,conquest,,United Kingdom,Darwin2012,medium,Under the British crown until Irish independence
+obs_3229,nara,1336,1336,circa,conquest,,Japan,Totman2000,low,Under the Ashikaga shogunate and the imperial court
+obs_3230,hakata,1336,1336,circa,conquest,,Japan,Totman2000,low,A trading port through the medieval era
+obs_3231,osaka,1336,1336,circa,conquest,,Japan,Totman2000,low,Under the Ashikaga shogunate
+obs_3232,panticapaeum,530,530,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine Bosporan town
+obs_3233,panticapaeum,965,965,circa,conquest,,Byzantine Empire,Mango2002,low,Returned to Byzantium after the fall of the Khazars
+obs_3234,panticapaeum,1475,1475,circa,conquest,,Ottoman Empire,Mango2002,medium,Taken by the Ottomans with the Crimean coast
+obs_3235,panticapaeum,1783,1783,circa,conquest,,Russia,Darwin2012,medium,Annexed by Russia with the Crimea
+obs_3236,panticapaeum,1922,1922,circa,conquest,,Soviet Union,UN2018,low,Part of the Soviet Union
+obs_3237,panticapaeum,1991,1991,circa,conquest,,Ukraine,UN2018,low,Part of independent Ukraine
+obs_3238,lhasa,1270,1270,circa,conquest,,Yuan dynasty,Mote1999,medium,Tibet under Mongol Yuan overlordship through the Sakya regime
+obs_3239,peshawar,-180,-180,circa,conquest,,Indo-Greek Kingdom,Beckwith2009,medium,A seat of the Indo-Greek kings of Gandhara
+obs_3240,medina,1269,1269,circa,conquest,,Mamluk Sultanate,Kennedy2004,low,The Hejaz under Mamluk suzerainty

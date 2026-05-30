@@ -60,6 +60,10 @@
     "Carthage": "Carthaginian Empire",
     "Northern Song dynasty": "Song dynasty",
     "Southern Song dynasty": "Song dynasty",
+    // Old Babylonian empire: the city's own dynasty and its conquests are one polity
+    "First (Amorite) Dynasty of Babylon": "Babylon",
+    // the Larsa kingdom of the Isin-Larsa period
+    "Larsa dynasty": "Larsa",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 
