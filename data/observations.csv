@@ -1023,8 +1023,8 @@ obs_1020,tripoli,1551,1551,circa,conquest,,Ottoman Empire,AbunNasr1987,medium,Ta
 obs_1021,tripoli,1911,1911,circa,conquest,,Kingdom of Italy,AbunNasr1987,medium,Seized by Italy
 obs_1022,tripoli,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Tripoli; capital of Libya
 obs_1023,niani,1100,1100,circa,founding,,,Connah2001,low,A town on the upper Niger
-obs_1024,niani,1235,1400,circa,capital_status,Capital of the Mali Empire,Sundiata,Connah2001,high,The seat of Mansa Musa's Mali
-obs_1025,niani,1400,1400,century,abandonment,,,Connah2001,low,Declined as the Mali Empire fragmented
+obs_1024,niani,1235,1600,circa,capital_status,Capital of the Mali Empire,Sundiata,Connah2001,high,Capital of Mali from Sundiata until the empire's final collapse
+obs_1025,niani,1610,1610,century,abandonment,,,Connah2001,low,Abandoned after the collapse of the Mali Empire
 obs_1026,koumbi,700,700,circa,founding,,,Connah2001,low,A Sahel trade city
 obs_1027,koumbi,700,1240,circa,capital_status,Capital of the Ghana Empire,,Connah2001,high,The first great empire of the western Sahel
 obs_1028,koumbi,1240,1240,circa,conquest,,Mali Empire,Connah2001,medium,Absorbed by the rising Mali Empire
@@ -3221,3 +3221,61 @@ obs_3237,panticapaeum,1991,1991,circa,conquest,,Ukraine,UN2018,low,Part of indep
 obs_3238,lhasa,1270,1270,circa,conquest,,Yuan dynasty,Mote1999,medium,Tibet under Mongol Yuan overlordship through the Sakya regime
 obs_3239,peshawar,-180,-180,circa,conquest,,Indo-Greek Kingdom,Beckwith2009,medium,A seat of the Indo-Greek kings of Gandhara
 obs_3240,medina,1269,1269,circa,conquest,,Mamluk Sultanate,Kennedy2004,low,The Hejaz under Mamluk suzerainty
+obs_3241,yerevan,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,medium,Within the Mongol Ilkhanate of Persia
+obs_3242,tbilisi,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,medium,Georgia as a vassal of the Ilkhanate
+obs_3243,baku,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Shirvan under Ilkhanid overlordship
+obs_3244,herat,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,medium,Rebuilt under the Kartids as vassals of the Ilkhanate
+obs_3245,merv,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Within the Khurasan domain of the Ilkhanate
+obs_3246,nishapur,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Within the Khurasan domain of the Ilkhanate
+obs_3247,rey,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,An Ilkhanid-era town before its final decline
+obs_3248,ghazni,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Kartids as vassals of the Ilkhanate
+obs_3249,kandahar,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Kartids as vassals of the Ilkhanate
+obs_3250,tashkent,1260,1260,circa,conquest,,Chagatai Khanate,Morgan2007,medium,Within the Chagatai ulus
+obs_3251,balkh,1260,1260,circa,conquest,,Chagatai Khanate,Morgan2007,low,Contested ground of the Chagatai ulus
+obs_3252,urgench,1240,1240,circa,conquest,,Golden Horde,Morgan2007,medium,Khwarezm under the Jochid Golden Horde
+obs_3253,panticapaeum,1240,1240,circa,conquest,,Golden Horde,Morgan2007,medium,Eastern Crimea under the Golden Horde
+obs_3254,karakorum,1271,1271,circa,conquest,,Yuan dynasty,Morgan2007,medium,The old Mongol capital within the Yuan realm
+obs_3255,maragheh,600,600,circa,founding,,,Axworthy2008,low,A town of Sasanian Azerbaijan
+obs_3256,maragheh,642,642,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Persia
+obs_3257,maragheh,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid town of Azerbaijan
+obs_3258,maragheh,1055,1055,circa,conquest,,Seljuk Empire,Beckwith2009,low,Under the Seljuks
+obs_3259,maragheh,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,high,Hulagu made Maragheh his first capital
+obs_3260,maragheh,1258,1265,circa,capital_status,Capital of the Ilkhanate,,Morgan2007,high,The first Ilkhanid capital with its great observatory
+obs_3261,maragheh,1393,1393,circa,conquest,,Timurid Empire,Beckwith2009,low,Taken by Timur
+obs_3262,maragheh,1503,1503,circa,conquest,,Safavid Empire,Axworthy2008,low,A Safavid town of Azerbaijan
+obs_3263,maragheh,1736,1736,circa,conquest,,Iran,Axworthy2008,low,Part of Afsharid and later Iran
+obs_3264,maragheh,2020,2020,circa,population_estimate,160000,,UN2018,low,Modern Maragheh
+obs_3265,sultaniyya,1305,1305,circa,founding,,Ilkhanate,Morgan2007,high,Built by the Ilkhan Oljaitu as a new capital
+obs_3266,sultaniyya,1305,1335,circa,capital_status,Capital of the Ilkhanate,,Morgan2007,high,Oljaitu's capital crowned by its great dome
+obs_3267,sultaniyya,1384,1384,circa,conquest,,Timurid Empire,Beckwith2009,low,Taken by Timur as the Ilkhanate dissolved
+obs_3268,sultaniyya,1503,1503,circa,conquest,,Safavid Empire,Axworthy2008,low,A declining town under the Safavids
+obs_3269,sultaniyya,1700,1700,circa,abandonment,,,Axworthy2008,medium,Long declined to a village after the Ilkhanate
+obs_3270,almaliq,1210,1210,circa,founding,,,Soucek2000,low,A Karluk town of the Ili valley
+obs_3271,almaliq,1211,1211,circa,conquest,,Mongol Empire,Morgan2007,medium,Submitted to Genghis Khan
+obs_3272,almaliq,1242,1340,circa,capital_status,Capital of the Chagatai Khanate,,Morgan2007,high,The seat of the Chagatai khans
+obs_3273,almaliq,1340,1340,circa,conquest,,Chagatai Khanate,Morgan2007,low,Held by the Chagatai khans before its decline
+obs_3274,almaliq,1400,1400,circa,abandonment,,,Soucek2000,medium,Declined as Moghulistan fragmented
+obs_3275,shangdu,1256,1256,circa,founding,,Mongol Empire,Morgan2007,high,Built by Kublai as his princely seat of Kaiping
+obs_3276,shangdu,1271,1369,circa,capital_status,Summer capital of the Yuan dynasty,,Mote1999,high,Kublai's summer capital; Marco Polo's Xanadu
+obs_3277,shangdu,1369,1369,circa,destruction,,Ming dynasty,Mote1999,high,Burned by the Ming as the Yuan fell
+obs_3278,shangdu,1430,1430,circa,abandonment,,,Mote1999,medium,Abandoned to the steppe
+obs_3279,bolghar,700,700,circa,founding,,,Morgan2007,low,A trading town of the middle Volga
+obs_3280,bolghar,922,1236,circa,capital_status,Capital of Volga Bulgaria,,Morgan2007,medium,Capital of the Muslim Volga Bulgar state
+obs_3281,bolghar,1236,1236,circa,conquest,,Mongol Empire,Morgan2007,medium,Conquered in the Mongol campaign against the Volga
+obs_3282,bolghar,1240,1240,circa,conquest,,Golden Horde,Morgan2007,high,An early seat of the Golden Horde before Sarai
+obs_3283,bolghar,1430,1430,circa,abandonment,,,Morgan2007,medium,Declined as the Horde fragmented
+obs_3284,astrakhan,1240,1240,circa,founding,,Golden Horde,Morgan2007,medium,The lower-Volga town of Hajji Tarkhan
+obs_3285,astrakhan,1466,1556,circa,capital_status,Capital of the Astrakhan Khanate,,Soucek2000,high,Seat of the khanate that succeeded the Horde
+obs_3286,astrakhan,1556,1556,circa,conquest,,Russia,Soucek2000,high,Annexed by Ivan the Terrible
+obs_3287,astrakhan,2020,2020,circa,population_estimate,530000,,UN2018,low,Modern Astrakhan
+obs_3288,caffa,1266,1266,circa,founding,,Republic of Genoa,Abulafia2011,high,Founded as Genoa's great Black Sea trade colony
+obs_3289,caffa,1266,1475,circa,capital_status,Capital of Genoese Gazaria,Republic of Genoa,Abulafia2011,medium,Head of the Genoese colonies of the Black Sea
+obs_3290,caffa,1475,1475,circa,conquest,,Ottoman Empire,Abulafia2011,high,Taken by the Ottomans
+obs_3291,caffa,1783,1783,circa,conquest,,Russia,Darwin2012,medium,Annexed by Russia with the Crimea
+obs_3292,caffa,2020,2020,circa,population_estimate,70000,,UN2018,low,Modern Feodosia
+obs_3293,vladimir,1108,1108,circa,founding,,Kievan Rus,Morgan2007,medium,Founded on the Klyazma in the Rus northeast
+obs_3294,vladimir,1157,1238,circa,capital_status,Capital of Vladimir-Suzdal,,Morgan2007,medium,The senior seat of the Rus grand princes
+obs_3295,vladimir,1238,1238,circa,destruction,,Mongol Empire,Morgan2007,high,Sacked in the Mongol invasion of the Rus
+obs_3296,vladimir,1240,1240,circa,conquest,,Golden Horde,Morgan2007,high,The grand principality held under the Golden Horde yoke
+obs_3297,vladimir,1389,1389,circa,conquest,,Russia,Morgan2007,medium,Absorbed by rising Moscow
+obs_3298,vladimir,2020,2020,circa,population_estimate,350000,,UN2018,low,Modern Vladimir

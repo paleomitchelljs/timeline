@@ -73,7 +73,11 @@
 </section>
 
 <section id="share-sec">
-  <h2>Share of cities under each empire</h2>
+  <h2>Empire extent over time</h2>
+  <div class="controls">
+    <button id="sh-rel" class="active" title="each empire scaled to its own maximum extent — unbiased by how densely each region is mapped">Each empire vs its peak</button>
+    <button id="sh-abs" title="share of all mapped cities — biased by regional sampling depth">% of all cities</button>
+  </div>
   <svg id="share"></svg>
   <div class="legend" id="share-legend"></div>
 </section>
@@ -224,7 +228,7 @@ function rescaleMarkers() {
   for (const g of MAP.markerG.children) {
     g.setAttribute("transform", `translate(${g.dataset.cx},${g.dataset.cy}) scale(${s})`);
     const lab = g.querySelector(".clabel");
-    if (lab) lab.style.display = showLabels ? "" : "none";
+    if (lab) lab.style.display = (showLabels || lab.classList.contains("sel")) ? "" : "none";
   }
 }
 function bindMapControls() {
@@ -288,7 +292,7 @@ function setupMap(model, basemap, onSelect) {
   if (basemap) drawBasemap(baseG, basemap, x, y);
   const hullG = el("g", {}, svg);
   const markerG = el("g", {}, svg);
-  MAP.markerG = markerG;
+  MAP.markerG = markerG; MAP.selectedCity = null;
   let lastYear = 0, selectedPolity = null;
 
   function drawHull(year) {
@@ -321,24 +325,30 @@ function setupMap(model, basemap, onSelect) {
       const capital = TimelineModel.isCapitalAt(info, year);
       const nm = TimelineModel.nameAt(model, sg.id, year);   // period-appropriate name
       const r = 4.5;   // base marker size in screen px; rescaleMarkers() keeps it constant on zoom
+      const isSel = sg.id === MAP.selectedCity;   // the clicked city: enlarged + persistent label
       // each city is a group pinned at (cx,cy); its glyph is drawn around the local origin so a
       // counter-scale on zoom keeps the point/star/label a constant on-screen size
       const mk = el("g", { class: "marker" }, markerG);
       mk.dataset.cx = cx.toFixed(2); mk.dataset.cy = cy.toFixed(2);
+      if (isSel) el("circle", { cx: 0, cy: 0, r: r + 4.5, fill: "none", stroke: "#fff", "stroke-width": 1.5, "stroke-opacity": .9 }, mk);
+      const rr = isSel ? r + 2 : r;
       // capitals are drawn as stars, ordinary cities as circles
       const node = capital
-        ? el("path", { d: starPath(0, 0, r + 1.5), fill: sg.color, "fill-opacity": .85, stroke: sg.color, "stroke-width": 1 }, mk)
-        : el("circle", { cx: 0, cy: 0, r, fill: sg.color, "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, mk);
+        ? el("path", { d: starPath(0, 0, rr + 1.5), fill: sg.color, "fill-opacity": .85, stroke: sg.color, "stroke-width": 1 }, mk)
+        : el("circle", { cx: 0, cy: 0, r: rr, fill: sg.color, "fill-opacity": isSel ? .9 : .6, stroke: sg.color, "stroke-width": 1 }, mk);
       node.style.cursor = "pointer";
       const pol = sg.polity;
       node.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(sg.id, pol); });
       bindTip(node, `<b>${nm}</b>${capital ? " &#9733;" : ""}<br><span class="meta">${sg.polity || "independent / no record"}</span>`
         + (sg.pop ? `<br><span class="meta">~${sg.pop.toLocaleString()}</span>` : "")
         + `<br><span class="meta">${regionLabel(c.region)}</span>`);
-      // minor cities are hover-only; label major cities (sizable or a capital that year)
-      if (TimelineModel.isMajorAt(info, year)) {
-        const lab = el("text", { x: r + 3, y: 3, "font-size": 10, class: "clabel" }, mk);
-        lab.setAttribute("fill", "#cfd3da"); lab.style.display = "none"; lab.textContent = nm;
+      // minor cities are hover-only; major cities label once zoomed in; the selected city always
+      // keeps a bold white label at any zoom
+      if (isSel || TimelineModel.isMajorAt(info, year)) {
+        const lab = el("text", { x: rr + 4, y: 3, "font-size": isSel ? 11 : 10, class: isSel ? "clabel sel" : "clabel" }, mk);
+        lab.setAttribute("fill", isSel ? "#fff" : "#cfd3da");
+        if (isSel) lab.setAttribute("font-weight", "650");
+        lab.style.display = isSel ? "" : "none"; lab.textContent = nm;
       }
     }
     rescaleMarkers();
@@ -356,88 +366,118 @@ function setupMap(model, basemap, onSelect) {
     }
   }
   function setHull(name) { selectedPolity = name; drawHull(lastYear); }
-  return { update, setHull };
+  function setSelectedCity(id) { MAP.selectedCity = id; update(lastYear); }
+  return { update, setHull, setSelectedCity };
 }
 
-// stacked area: fraction of all cities each empire controls over time (sums to 1)
+// Empire extent over time, in two modes:
+//   relative — each empire scaled to its OWN peak extent (a ridgeline). Honest about timing and
+//              shape and unbiased by how densely we happen to have mapped each region.
+//   share    — stacked fraction of all mapped cities (kept as a toggle; biased by sampling depth).
 function renderControlShare(model) {
-  const svg = document.getElementById("share");
-  // Start at the first recorded empire so the chart isn't mostly empty prehistory.
+  const svg = document.getElementById("share"), W = 1120;
+  const legend = document.getElementById("share-legend");
   const firstControl = model.empires.length ? Math.min(...model.empires.map(e => e.start)) : model.domain.min;
   const minY = firstControl, maxY = model.domain.max;
   const N = 260, step = (maxY - minY) / N;
   const samples = [];
   for (let i = 0; i <= N; i++) samples.push(Math.round(minY + i * step));
-  const shares = samples.map(yr => TimelineModel.shareAt(model, yr).share);
+  const ss = samples.map(yr => TimelineModel.shareAt(model, yr));
+  const shares = ss.map(s => s.share);
+  const counts = ss.map(s => { const c = {}; for (const p in s.share) c[p] = Math.round(s.share[p] * s.total); return c; });
 
-  const peak = {};
+  const peak = {};                                   // peak share — selects which empires to show
   for (const s of shares) for (const p in s) peak[p] = Math.max(peak[p] || 0, s[p]);
-  const shown = Object.keys(peak)
-    .filter(p => p !== "Independent" && peak[p] >= 0.03)
-    .sort((a, b) => peak[b] - peak[a]).slice(0, 16);
+  const peakCount = {}, peakYear = {};               // peak city count and the year it occurred
+  counts.forEach((c, i) => { for (const p in c) if ((c[p] || 0) > (peakCount[p] || 0)) { peakCount[p] = c[p]; peakYear[p] = samples[i]; } });
+  const shown = Object.keys(peak).filter(p => p !== "Independent" && peak[p] >= 0.03).sort((a, b) => peak[b] - peak[a]).slice(0, 16);
   const shownSet = new Set(shown);
   const firstYear = {};
-  for (const p of shown) for (let i = 0; i < samples.length; i++) if ((shares[i][p] || 0) > 0) { firstYear[p] = samples[i]; break; }
-  const empires = shown.slice().sort((a, b) => (firstYear[a] ?? 0) - (firstYear[b] ?? 0));
-  const layers = ["Independent", ...empires, "Other"];
+  for (const pol in peakCount) for (let i = 0; i < samples.length; i++) if ((counts[i][pol] || 0) > 0) { firstYear[pol] = samples[i]; break; }
   const colorOf = l => l === "Independent" ? "#363b47" : l === "Other" ? "#586070" : (model.empColor[l] || "#888");
-  const valAt = (l, i) => {
-    if (l === "Independent") return shares[i]["Independent"] || 0;
-    if (l === "Other") { let o = 0; for (const p in shares[i]) if (p !== "Independent" && !shownSet.has(p)) o += shares[i][p]; return o; }
-    return shares[i][l] || 0;
-  };
 
-  const M = { top: 10, right: 24, bottom: 30, left: 40 }, W = 1120, H = 300;
-  const innerW = W - M.left - M.right, innerH = H - M.top - M.bottom;
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
-  const x = yr => M.left + (yr - minY) / (maxY - minY) * innerW;
-  const yv = v => M.top + innerH * (1 - v);
+  let mode = "relative", bandEls = [], marker = null, curYear = minY, curX = () => 0, onSeek = null;
 
-  const axis = el("g", { class: "axis" }, svg);
-  for (const t of [0, 0.25, 0.5, 0.75, 1]) {
-    el("line", { x1: M.left, y1: yv(t), x2: W - M.right, y2: yv(t) }, axis);
-    const l = el("text", { x: M.left - 6, y: yv(t) + 4, "text-anchor": "end" }, axis); l.textContent = t;
-  }
-  for (const t of yearTicks(minY, maxY, 1000)) {
-    const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis); l.textContent = fmtYear(t);
+  function placeMarker(y1, y2) {
+    marker = el("line", { x1: curX(curYear), y1, x2: curX(curYear), y2, stroke: "#fff", "stroke-width": 1.2, "stroke-opacity": .85 }, svg);
   }
 
-  const bandEls = [];
-  let cum = samples.map(() => 0);
-  for (const layer of layers) {
-    const top = samples.map((_, i) => cum[i] + valAt(layer, i));
-    const ptsTop = samples.map((s, i) => `${x(s).toFixed(1)},${yv(top[i]).toFixed(1)}`);
-    const ptsBot = samples.map((s, i) => `${x(s).toFixed(1)},${yv(cum[i]).toFixed(1)}`).reverse();
-    const fill = colorOf(layer);
-    const poly = el("polygon", { points: ptsTop.concat(ptsBot).join(" "), fill,
-      "fill-opacity": (layer === "Independent" || layer === "Other") ? .55 : .85 }, svg);
-    bandEls.push({ el: poly, layer });
-    if (layer !== "Independent" && layer !== "Other") {
-      poly.style.cursor = "pointer";
-      bindTip(poly, `<b>${layer}</b><br><span class="meta">peak ${Math.round(peak[layer] * 100)}% of all cities</span>`);
+  // ridgeline: one lane per empire, each normalized to its own peak extent
+  function drawRelative() {
+    legend.innerHTML = "";
+    // union of top-by-share (catches ancient empires, big in their sparsely-mapped era) and
+    // top-by-count (catches large modern empires) — so every era is represented; each lane is
+    // then normalized to its OWN peak, so size bias never enters the display
+    const byShare = Object.keys(peak).filter(e => e !== "Independent" && peak[e] >= 0.03).sort((a, b) => peak[b] - peak[a]).slice(0, 18);
+    const byCount = Object.keys(peakCount).filter(e => e !== "Independent" && peakCount[e] >= 5).sort((a, b) => peakCount[b] - peakCount[a]).slice(0, 22);
+    const emps = [...new Set([...byShare, ...byCount])].sort((a, b) => (peakYear[a] - peakYear[b]) || (firstYear[a] - firstYear[b]));
+    const M = { top: 16, right: 150, bottom: 28, left: 12 }, laneH = 18;
+    const H = M.top + M.bottom + Math.max(1, emps.length) * laneH;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = ""; bandEls = [];
+    const x = yr => M.left + (yr - minY) / (maxY - minY) * (W - M.left - M.right);
+    curX = x;
+    const axis = el("g", { class: "axis" }, svg);
+    for (const t of yearTicks(minY, maxY, 1000)) {
+      el("line", { x1: x(t), y1: M.top, x2: x(t), y2: H - M.bottom, stroke: "#1b2027" }, axis);
+      const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis); l.textContent = fmtYear(t);
     }
-    cum = top;
+    emps.forEach((emp, li) => {
+      const base = M.top + (li + 1) * laneH, peakC = peakCount[emp] || 1, amp = laneH * 1.8;
+      const top = samples.map((s, i) => `${x(s).toFixed(1)},${(base - (counts[i][emp] || 0) / peakC * amp).toFixed(1)}`);
+      const d = `M${x(minY).toFixed(1)},${base.toFixed(1)} L` + top.join(" L") + ` L${x(maxY).toFixed(1)},${base.toFixed(1)} Z`;
+      const fill = colorOf(emp);
+      const poly = el("path", { d, fill, "fill-opacity": .72, stroke: fill, "stroke-width": 1 }, svg);
+      poly.style.cursor = "pointer";
+      bandEls.push({ el: poly, layer: emp });
+      bindTip(poly, `<b>${emp}</b><br><span class="meta">peak ${peakC} cit${peakC === 1 ? "y" : "ies"} c.${fmtYear(peakYear[emp])} · from ${fmtYear(firstYear[emp])}</span>`);
+      const lab = el("text", { x: W - M.right + 8, y: base - 2, "font-size": 10 }, svg); lab.setAttribute("fill", fill); lab.textContent = emp;
+    });
+    placeMarker(M.top, H - M.bottom);
   }
 
-  let onSeek = null;
-  const marker = el("line", { x1: x(minY), y1: M.top, x2: x(minY), y2: H - M.bottom, stroke: "#fff", "stroke-width": 1.2, "stroke-opacity": .85 }, svg);
+  // stacked share of all mapped cities (sums to 1 with Independent)
+  function drawShare() {
+    const M = { top: 10, right: 24, bottom: 30, left: 40 }, H = 300;
+    const innerW = W - M.left - M.right, innerH = H - M.top - M.bottom;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = ""; bandEls = [];
+    const x = yr => M.left + (yr - minY) / (maxY - minY) * innerW, yv = v => M.top + innerH * (1 - v);
+    curX = x;
+    const empires = shown.slice().sort((a, b) => (firstYear[a] ?? 0) - (firstYear[b] ?? 0));
+    const layers = ["Independent", ...empires, "Other"];
+    const valAt = (l, i) => l === "Independent" ? (shares[i]["Independent"] || 0)
+      : l === "Other" ? Object.keys(shares[i]).reduce((o, p) => o + ((p !== "Independent" && !shownSet.has(p)) ? shares[i][p] : 0), 0)
+      : (shares[i][l] || 0);
+    const axis = el("g", { class: "axis" }, svg);
+    for (const t of [0, 0.25, 0.5, 0.75, 1]) { el("line", { x1: M.left, y1: yv(t), x2: W - M.right, y2: yv(t) }, axis); const l = el("text", { x: M.left - 6, y: yv(t) + 4, "text-anchor": "end" }, axis); l.textContent = t; }
+    for (const t of yearTicks(minY, maxY, 1000)) { const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis); l.textContent = fmtYear(t); }
+    let cum = samples.map(() => 0);
+    for (const layer of layers) {
+      const top = samples.map((_, i) => cum[i] + valAt(layer, i));
+      const ptsTop = samples.map((s, i) => `${x(s).toFixed(1)},${yv(top[i]).toFixed(1)}`);
+      const ptsBot = samples.map((s, i) => `${x(s).toFixed(1)},${yv(cum[i]).toFixed(1)}`).reverse();
+      const poly = el("polygon", { points: ptsTop.concat(ptsBot).join(" "), fill: colorOf(layer), "fill-opacity": (layer === "Independent" || layer === "Other") ? .55 : .85 }, svg);
+      bandEls.push({ el: poly, layer });
+      if (layer !== "Independent" && layer !== "Other") { poly.style.cursor = "pointer"; bindTip(poly, `<b>${layer}</b><br><span class="meta">peak ${Math.round(peak[layer] * 100)}% of mapped cities</span>`); }
+      cum = top;
+    }
+    legend.innerHTML = "";
+    for (const layer of [...empires, "Other"]) {
+      const sp = document.createElement("span"), sw = document.createElement("span");
+      sw.style.cssText = `width:12px;height:12px;border-radius:2px;background:${colorOf(layer)}`;
+      sp.appendChild(sw); sp.appendChild(document.createTextNode(layer)); legend.appendChild(sp);
+    }
+    placeMarker(M.top, H - M.bottom);
+  }
+
   svg.style.cursor = "crosshair";
-  svg.addEventListener("click", e => {
-    const rect = svg.getBoundingClientRect();
-    const yr = Math.round(minY + ((e.clientX - rect.left) / rect.width) * (maxY - minY));
-    if (onSeek) onSeek(yr);
-  });
-
-  const legend = document.getElementById("share-legend"); legend.innerHTML = "";
-  for (const layer of [...empires, "Other"]) {
-    const sp = document.createElement("span"), sw = document.createElement("span");
-    sw.style.cssText = `width:12px;height:12px;border-radius:2px;background:${colorOf(layer)}`;
-    sp.appendChild(sw); sp.appendChild(document.createTextNode(layer)); legend.appendChild(sp);
-  }
+  svg.addEventListener("click", e => { const rect = svg.getBoundingClientRect(); const yr = Math.round(minY + ((e.clientX - rect.left) / rect.width) * (maxY - minY)); if (onSeek) onSeek(yr); });
+  function render() { if (mode === "relative") drawRelative(); else drawShare(); }
+  render();
 
   return {
-    update(year) { const xx = x(Math.max(minY, Math.min(maxY, year))); marker.setAttribute("x1", xx); marker.setAttribute("x2", xx); },
+    update(year) { curYear = Math.max(minY, Math.min(maxY, year)); if (marker) { const xx = curX(curYear); marker.setAttribute("x1", xx); marker.setAttribute("x2", xx); } },
     setSeek(fn) { onSeek = fn; },
+    setMode(m) { mode = m; render(); },
     highlight(name) { for (const b of bandEls) b.el.style.opacity = (!name || b.layer === name) ? 1 : 0.12; },
   };
 }
@@ -743,10 +783,12 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
   let basemap = null, rawCities = null, rawObs = null, rawNames = null;
   let mapView = null, shareView = null, sankeyView = null, empiresView = null;
   let timer = null, curStep = 100, selected = null;
-  let sankeyMode = "flows", selectedCity = null;
+  let sankeyMode = "flows", selectedCity = null, shareMode = "relative";
   const skFlowsBtn = document.getElementById("sk-flows");
   const skCityBtn = document.getElementById("sk-city");
   const skHint = document.getElementById("sk-hint");
+  const shRelBtn = document.getElementById("sh-rel");
+  const shAbsBtn = document.getElementById("sh-abs");
   const slider = document.getElementById("year");
   const label = document.getElementById("yearlabel");
   const playBtn = document.getElementById("play");
@@ -767,6 +809,7 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
   // mode it traces the clicked city through its rulers in the Sankey panel.
   function onMapClick(cityId, polity) {
     selectedCity = cityId;
+    if (mapView) mapView.setSelectedCity(cityId);   // enlarge + persistently label the clicked city
     if (sankeyMode === "city") { if (sankeyView) sankeyView.showCity(cityId); }
     else selectEmpire(polity);
   }
@@ -779,12 +822,21 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
   }
   skFlowsBtn.addEventListener("click", () => setSankeyMode("flows"));
   skCityBtn.addEventListener("click", () => setSankeyMode("city"));
+  function setShareMode(m) {
+    shareMode = m;
+    shRelBtn.classList.toggle("active", m === "relative");
+    shAbsBtn.classList.toggle("active", m === "share");
+    if (shareView) shareView.setMode(m);
+  }
+  shRelBtn.addEventListener("click", () => setShareMode("relative"));
+  shAbsBtn.addEventListener("click", () => setShareMode("share"));
 
   function showModel(model) {
     if (timer) { clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
     selected = null; selectedCity = null;
     mapView = setupMap(model, basemap, onMapClick);
     shareView = renderControlShare(model);
+    shareView.setMode(shareMode);
     sankeyView = renderSankey(model, selectEmpire);
     sankeyView.setMode(sankeyMode, selectedCity);
     empiresView = renderEmpires(model);
