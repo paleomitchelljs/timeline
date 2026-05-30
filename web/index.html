@@ -34,6 +34,7 @@
     border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 13px; min-width: 34px;
   }
   .controls button:hover { background: #2c313f; }
+  .controls button.active { background: #2f3647; border-color: #64b5f6; color: #fff; }
   .controls input[type=range] { flex: 1; accent-color: #64b5f6; }
   .controls .chk { display: inline-flex; align-items: center; gap: 5px; color: var(--muted); font-size: 12.5px; cursor: pointer; }
   #yearlabel { font-variant-numeric: tabular-nums; min-width: 84px; text-align: right; color: var(--ink); font-weight: 600; }
@@ -78,6 +79,11 @@
 
 <section id="sankey-sec">
   <h2>How control passed between empires</h2>
+  <div class="controls">
+    <button id="sk-flows" class="active" title="all cities flowing between empires over time">Empire flows</button>
+    <button id="sk-city" title="trace one city through the empires that ruled it">City timeline</button>
+    <span class="chk" id="sk-hint" hidden>Click a city on the map to trace it</span>
+  </div>
   <svg id="sankey"></svg>
 </section>
 
@@ -208,6 +214,13 @@ function starPath(cx, cy, r) {
 // are rebuilt for a different region.
 const MAP = { svg: null, vb: null, home: null, W: 1120, H: 540 };
 function applyVB() { if (MAP.svg && MAP.vb) MAP.svg.setAttribute("viewBox", `${MAP.vb.x} ${MAP.vb.y} ${MAP.vb.w} ${MAP.vb.h}`); }
+// Markers are pinned at their map coordinates but counter-scaled by the inverse of the zoom,
+// so points, stars, and labels keep a constant on-screen size instead of ballooning as you zoom in.
+function rescaleMarkers() {
+  if (!MAP.markerG || !MAP.vb) return;
+  const s = MAP.vb.w / MAP.W;
+  for (const g of MAP.markerG.children) g.setAttribute("transform", `translate(${g.dataset.cx},${g.dataset.cy}) scale(${s})`);
+}
 function bindMapControls() {
   const svg = document.getElementById("map");
   svg.addEventListener("wheel", e => {
@@ -220,7 +233,7 @@ function bindMapControls() {
     MAP.vb.w = Math.min(MAP.W * 1.4, Math.max(MAP.W * 0.04, MAP.vb.w * f));
     MAP.vb.h = Math.min(MAP.H * 1.4, Math.max(MAP.H * 0.04, MAP.vb.h * f));
     MAP.vb.x = ptx - px * MAP.vb.w; MAP.vb.y = pty - py * MAP.vb.h;
-    applyVB();
+    applyVB(); rescaleMarkers();
   }, { passive: false });
   let drag = null;
   svg.addEventListener("mousedown", e => { drag = { x: e.clientX, y: e.clientY }; });
@@ -232,7 +245,7 @@ function bindMapControls() {
     drag = { x: e.clientX, y: e.clientY }; applyVB();
   });
   window.addEventListener("mouseup", () => { drag = null; });
-  document.getElementById("zoomreset").addEventListener("click", () => { if (MAP.home) { MAP.vb = { ...MAP.home }; applyVB(); } });
+  document.getElementById("zoomreset").addEventListener("click", () => { if (MAP.home) { MAP.vb = { ...MAP.home }; applyVB(); rescaleMarkers(); } });
 }
 
 // convex hull (Andrew's monotone chain) over {x,y} screen points
@@ -269,6 +282,7 @@ function setupMap(model, basemap, onSelect) {
   if (basemap) drawBasemap(baseG, basemap, x, y);
   const hullG = el("g", {}, svg);
   const markerG = el("g", {}, svg);
+  MAP.markerG = markerG;
   let lastYear = 0, selectedPolity = null;
 
   function drawHull(year) {
@@ -300,23 +314,28 @@ function setupMap(model, basemap, onSelect) {
       const cx = x(+c.lon), cy = y(+c.lat);
       const capital = TimelineModel.isCapitalAt(info, year);
       const nm = TimelineModel.nameAt(model, sg.id, year);   // period-appropriate name
-      const r = 4.5;   // uniform marker size (population is shown in its own panel)
+      const r = 4.5;   // base marker size in screen px; rescaleMarkers() keeps it constant on zoom
+      // each city is a group pinned at (cx,cy); its glyph is drawn around the local origin so a
+      // counter-scale on zoom keeps the point/star/label a constant on-screen size
+      const mk = el("g", { class: "marker" }, markerG);
+      mk.dataset.cx = cx.toFixed(2); mk.dataset.cy = cy.toFixed(2);
       // capitals are drawn as stars, ordinary cities as circles
       const node = capital
-        ? el("path", { d: starPath(cx, cy, r + 1.5), fill: sg.color, "fill-opacity": .85, stroke: sg.color, "stroke-width": 1 }, markerG)
-        : el("circle", { cx, cy, r, fill: sg.color, "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, markerG);
+        ? el("path", { d: starPath(0, 0, r + 1.5), fill: sg.color, "fill-opacity": .85, stroke: sg.color, "stroke-width": 1 }, mk)
+        : el("circle", { cx: 0, cy: 0, r, fill: sg.color, "fill-opacity": .6, stroke: sg.color, "stroke-width": 1 }, mk);
       node.style.cursor = "pointer";
       const pol = sg.polity;
-      node.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(pol); });
+      node.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(sg.id, pol); });
       bindTip(node, `<b>${nm}</b>${capital ? " &#9733;" : ""}<br><span class="meta">${sg.polity || "independent / no record"}</span>`
         + (sg.pop ? `<br><span class="meta">~${sg.pop.toLocaleString()}</span>` : "")
         + `<br><span class="meta">${regionLabel(c.region)}</span>`);
       // minor cities are hover-only; label major cities (sizable or a capital that year)
       if (TimelineModel.isMajorAt(info, year)) {
-        const lab = el("text", { x: cx + r + 3, y: cy + 3, "font-size": 10 }, markerG);
+        const lab = el("text", { x: r + 3, y: 3, "font-size": 10 }, mk);
         lab.setAttribute("fill", "#cfd3da"); lab.textContent = nm;
       }
     }
+    rescaleMarkers();
     drawHull(year);
     legendBox.innerHTML = "";
     const active = TimelineModel.empiresActiveAt(model, year)
@@ -418,94 +437,190 @@ function renderControlShare(model) {
 }
 
 // alluvial / Sankey: cities flowing between controlling empires across time checkpoints
+// The Sankey panel has two views over the same SVG: the empire-flows alluvial (default) and a
+// single-city timeline (setMode("city") + showCity(id)) that traces one city through its rulers.
 function renderSankey(model, onSelect) {
   const svg = document.getElementById("sankey");
-  const ALL_CP = [-3000, -2500, -2000, -1500, -1000, -500, -330, -200, 1, 117, 300, 476, 650, 900, 1100, 1260, 1450, 1600, 1800, 2020];
-  const CP = ALL_CP.filter(y => y >= model.domain.min && y <= model.domain.max);
-  if (CP.length < 2) { document.getElementById("sankey").innerHTML = ""; return; }
-  const { snaps } = TimelineModel.controlFlows(model, CP);
-
-  // top controllers by peak column count (excluding Independent); rest become "Other"
-  const peak = {};
-  for (const s of snaps) { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; for (const k in c) peak[k] = Math.max(peak[k] || 0, c[k]); }
-  const shown = new Set(Object.keys(peak).filter(k => k !== "Independent").sort((a, b) => peak[b] - peak[a]).slice(0, 26));
-  const lab = n => n === "Independent" ? "Independent" : (shown.has(n) ? n : "Other");
-  const rsnaps = snaps.map(s => { const o = {}; for (const id in s) o[id] = lab(s[id]); return o; });
-  const cols = rsnaps.map(s => { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; return c; });
-  const maxTotal = Math.max(...cols.map(c => Object.values(c).reduce((a, b) => a + b, 0)));
-
-  // stable vertical order (by peak), with Other and Independent pushed to the bottom
-  const seen = new Set(), order = [];
-  for (const c of cols) for (const k of Object.keys(c).sort((a, b) => (peak[b] || 0) - (peak[a] || 0))) if (!seen.has(k)) { seen.add(k); order.push(k); }
-  const tail = ["Other", "Independent"].filter(x => seen.has(x));
-  const ord = order.filter(x => !tail.includes(x)).concat(tail);
-  const rank = {}; ord.forEach((k, i) => rank[k] = i);
-
-  const M = { top: 24, right: 130, bottom: 10, left: 10 }, W = 1120, H = 540;
-  const innerW = W - M.left - M.right, innerH = H - M.top - M.bottom;
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
-  const nw = 12, gap = 3;
-  const scale = (innerH - 14 * gap) / maxTotal;
-  const colX = i => M.left + nw / 2 + i * (innerW - nw) / (CP.length - 1);
+  const W = 1120, H = 540;
   const colorOf = k => k === "Independent" ? "#363b47" : k === "Other" ? "#586070" : (model.empColor[k] || "#888");
+  let nodeEls = [], ribbonEls = [];
+  let mode = "flows", cityId = null;
 
-  const nodes = cols.map((c, ci) => {
-    const present = Object.keys(c).sort((a, b) => rank[a] - rank[b]);
-    const total = present.reduce((s, k) => s + c[k], 0);
-    const blockH = total * scale + (present.length - 1) * gap;
-    let y = M.top + (innerH - blockH) / 2;
-    const map = {};
-    for (const k of present) { const h = c[k] * scale; map[k] = { x: colX(ci), yTop: y, h, count: c[k] }; y += h + gap; }
-    return map;
-  });
-
-  const axis = el("g", { class: "axis" }, svg);
-  CP.forEach((y, i) => { const t = el("text", { x: colX(i), y: 14, "text-anchor": "middle", "font-size": 10 }, axis); t.textContent = fmtYear(y); });
-
-  const ribbonG = el("g", {}, svg);
-  const nodeEls = [], ribbonEls = [];
   function highlight(name) {
+    if (mode !== "flows") return;
     for (const n of nodeEls) n.el.style.opacity = (!name || n.name === name) ? 1 : 0.12;
     for (const r of ribbonEls) r.el.style.opacity = (!name) ? 1 : (r.src === name || r.dst === name) ? 1 : 0.06;
   }
-  svg.addEventListener("click", () => { if (onSelect) onSelect(null); });   // background click clears
 
-  for (let i = 0; i < rsnaps.length - 1; i++) {
-    const a = rsnaps[i], b = rsnaps[i + 1], srcN = nodes[i], dstN = nodes[i + 1];
-    const f = {};
-    for (const id in a) if (id in b) { const s = a[id], d = b[id]; (f[s] || (f[s] = {}))[d] = ((f[s][d]) || 0) + 1; }
-    const list = [];
-    for (const s in f) for (const d in f[s]) list.push({ s, d, c: f[s][d] });
-    const bySrc = {}, byDst = {};
-    list.forEach(fl => { (bySrc[fl.s] || (bySrc[fl.s] = [])).push(fl); (byDst[fl.d] || (byDst[fl.d] = [])).push(fl); });
-    for (const s in bySrc) { bySrc[s].sort((p, q) => rank[p.d] - rank[q.d]); let off = srcN[s].yTop; for (const fl of bySrc[s]) { fl.sy = off; off += fl.c * scale; } }
-    for (const d in byDst) { byDst[d].sort((p, q) => rank[p.s] - rank[q.s]); let off = dstN[d].yTop; for (const fl of byDst[d]) { fl.dy = off; off += fl.c * scale; } }
-    for (const fl of list) {
-      const x0 = srcN[fl.s].x + nw / 2, x1 = dstN[fl.d].x - nw / 2, w = fl.c * scale, xm = (x0 + x1) / 2;
-      const d = `M${x0},${fl.sy} C${xm},${fl.sy} ${xm},${fl.dy} ${x1},${fl.dy} L${x1},${fl.dy + w} C${xm},${fl.dy + w} ${xm},${fl.sy + w} ${x0},${fl.sy + w} Z`;
-      const path = el("path", { d, fill: colorOf(fl.s), "fill-opacity": fl.s === "Independent" ? .16 : .34 }, ribbonG);
-      path.style.cursor = "pointer";
-      ribbonEls.push({ el: path, src: fl.s, dst: fl.d });
-      const srcName = fl.s;
-      path.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(srcName); });
-      bindTip(path, `<b>${fl.s} → ${fl.d}</b><br><span class="meta">${fl.c} cit${fl.c === 1 ? "y" : "ies"}</span>`);
+  // ---- view 1: empire flows (all cities) ----
+  function drawFlows() {
+    svg.innerHTML = ""; nodeEls = []; ribbonEls = [];
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const ALL_CP = [-3000, -2500, -2000, -1500, -1000, -500, -330, -200, 1, 117, 300, 476, 650, 900, 1100, 1260, 1450, 1600, 1800, 2020];
+    const CP = ALL_CP.filter(y => y >= model.domain.min && y <= model.domain.max);
+    if (CP.length < 2) return;
+    const { snaps } = TimelineModel.controlFlows(model, CP);
+
+    // top controllers by peak column count (excluding Independent); rest become "Other"
+    const peak = {};
+    for (const s of snaps) { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; for (const k in c) peak[k] = Math.max(peak[k] || 0, c[k]); }
+    const shown = new Set(Object.keys(peak).filter(k => k !== "Independent").sort((a, b) => peak[b] - peak[a]).slice(0, 26));
+    const lab = n => n === "Independent" ? "Independent" : (shown.has(n) ? n : "Other");
+    const rsnaps = snaps.map(s => { const o = {}; for (const id in s) o[id] = lab(s[id]); return o; });
+    const cols = rsnaps.map(s => { const c = {}; for (const id in s) c[s[id]] = (c[s[id]] || 0) + 1; return c; });
+    const maxTotal = Math.max(...cols.map(c => Object.values(c).reduce((a, b) => a + b, 0)));
+
+    // stable vertical order (by peak), with Other and Independent pushed to the bottom
+    const seen = new Set(), order = [];
+    for (const c of cols) for (const k of Object.keys(c).sort((a, b) => (peak[b] || 0) - (peak[a] || 0))) if (!seen.has(k)) { seen.add(k); order.push(k); }
+    const tail = ["Other", "Independent"].filter(x => seen.has(x));
+    const ord = order.filter(x => !tail.includes(x)).concat(tail);
+    const rank = {}; ord.forEach((k, i) => rank[k] = i);
+
+    const M = { top: 24, right: 130, bottom: 10, left: 10 };
+    const innerW = W - M.left - M.right, innerH = H - M.top - M.bottom;
+    const nw = 12, gap = 3;
+    const scale = (innerH - 14 * gap) / maxTotal;
+    const colX = i => M.left + nw / 2 + i * (innerW - nw) / (CP.length - 1);
+
+    const nodes = cols.map((c, ci) => {
+      const present = Object.keys(c).sort((a, b) => rank[a] - rank[b]);
+      const total = present.reduce((s, k) => s + c[k], 0);
+      const blockH = total * scale + (present.length - 1) * gap;
+      let y = M.top + (innerH - blockH) / 2;
+      const map = {};
+      for (const k of present) { const h = c[k] * scale; map[k] = { x: colX(ci), yTop: y, h, count: c[k] }; y += h + gap; }
+      return map;
+    });
+
+    const axis = el("g", { class: "axis" }, svg);
+    CP.forEach((y, i) => { const t = el("text", { x: colX(i), y: 14, "text-anchor": "middle", "font-size": 10 }, axis); t.textContent = fmtYear(y); });
+
+    const ribbonG = el("g", {}, svg);
+    for (let i = 0; i < rsnaps.length - 1; i++) {
+      const a = rsnaps[i], b = rsnaps[i + 1], srcN = nodes[i], dstN = nodes[i + 1];
+      const f = {};
+      for (const id in a) if (id in b) { const s = a[id], d = b[id]; (f[s] || (f[s] = {}))[d] = ((f[s][d]) || 0) + 1; }
+      const list = [];
+      for (const s in f) for (const d in f[s]) list.push({ s, d, c: f[s][d] });
+      const bySrc = {}, byDst = {};
+      list.forEach(fl => { (bySrc[fl.s] || (bySrc[fl.s] = [])).push(fl); (byDst[fl.d] || (byDst[fl.d] = [])).push(fl); });
+      for (const s in bySrc) { bySrc[s].sort((p, q) => rank[p.d] - rank[q.d]); let off = srcN[s].yTop; for (const fl of bySrc[s]) { fl.sy = off; off += fl.c * scale; } }
+      for (const d in byDst) { byDst[d].sort((p, q) => rank[p.s] - rank[q.s]); let off = dstN[d].yTop; for (const fl of byDst[d]) { fl.dy = off; off += fl.c * scale; } }
+      for (const fl of list) {
+        const x0 = srcN[fl.s].x + nw / 2, x1 = dstN[fl.d].x - nw / 2, w = fl.c * scale, xm = (x0 + x1) / 2;
+        const d = `M${x0},${fl.sy} C${xm},${fl.sy} ${xm},${fl.dy} ${x1},${fl.dy} L${x1},${fl.dy + w} C${xm},${fl.dy + w} ${xm},${fl.sy + w} ${x0},${fl.sy + w} Z`;
+        const path = el("path", { d, fill: colorOf(fl.s), "fill-opacity": fl.s === "Independent" ? .16 : .34 }, ribbonG);
+        path.style.cursor = "pointer";
+        ribbonEls.push({ el: path, src: fl.s, dst: fl.d });
+        const srcName = fl.s;
+        path.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(srcName); });
+        bindTip(path, `<b>${fl.s} → ${fl.d}</b><br><span class="meta">${fl.c} cit${fl.c === 1 ? "y" : "ies"}</span>`);
+      }
+    }
+
+    const nodeG = el("g", {}, svg);
+    nodes.forEach((map, ci) => {
+      for (const k in map) {
+        const n = map[k];
+        const r = el("rect", { x: n.x - nw / 2, y: n.yTop, width: nw, height: Math.max(1, n.h), fill: colorOf(k) }, nodeG);
+        r.style.cursor = "pointer";
+        nodeEls.push({ el: r, name: k });
+        const nodeName = k;
+        r.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(nodeName); });
+        bindTip(r, `<b>${k}</b><br><span class="meta">${fmtYear(CP[ci])} · ${n.count} cit${n.count === 1 ? "y" : "ies"}</span>`);
+        if (ci === nodes.length - 1) { const t = el("text", { x: n.x + nw / 2 + 4, y: n.yTop + n.h / 2 + 3, "font-size": 9 }, nodeG); t.setAttribute("fill", "#cfd3da"); t.textContent = k; }
+      }
+    });
+  }
+
+  // ---- view 2: one city's control timeline, founding → present ----
+  function niceTicks(lo, hi) {
+    const raw = (hi - lo) / 6 || 1;
+    const mag = Math.pow(10, Math.floor(Math.log10(raw)));
+    const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => s >= raw) || mag * 10;
+    const out = [];
+    for (let y = Math.ceil(lo / step) * step; y <= hi; y += step) out.push(Math.round(y));
+    return out;
+  }
+  function drawCity(id) {
+    svg.innerHTML = ""; nodeEls = []; ribbonEls = [];
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    const info = id && model.cityInfo[id], city = id && model.cityById[id];
+    if (!info || !city) {
+      const t = el("text", { x: W / 2, y: H / 2, "text-anchor": "middle", "font-size": 14 }, svg);
+      t.setAttribute("fill", "#8a92a3"); t.textContent = "Click a city on the map to trace its rulers over time";
+      return;
+    }
+    const segs = TimelineModel.cityControlTimeline(model, id);
+    const M = { top: 58, right: 150, bottom: 34, left: 16 };
+    const span = Math.max(1, info.end - info.start);
+    const x = yr => M.left + (yr - info.start) / span * (W - M.left - M.right);
+
+    // one horizontal lane per distinct controller, in order of first appearance
+    const laneOf = {}, lanes = [];
+    for (const s of segs) { const k = s.polity || "Independent"; if (!(k in laneOf)) { laneOf[k] = lanes.length; lanes.push(k); } }
+    const laneN = Math.max(1, lanes.length);
+    const laneH = (H - M.top - M.bottom) / laneN;
+    const laneY = i => M.top + (i + 0.5) * laneH;
+    const bandH = Math.max(7, Math.min(26, laneH - 8));
+
+    const ruled = segs.filter(s => s.polity).length;
+    const title = el("text", { x: M.left, y: 26, "font-size": 15 }, svg);
+    title.setAttribute("fill", "#e9ecf2"); title.setAttribute("font-weight", "650");
+    title.textContent = `${city.canonical_name}  ·  ${fmtYear(info.start)} – ${fmtYear(info.end)}`;
+    const sub = el("text", { x: M.left, y: 44, "font-size": 11 }, svg);
+    sub.setAttribute("fill", "#8a92a3"); sub.textContent = `${ruled} spell${ruled === 1 ? "" : "s"} of recorded rule across ${lanes.filter(k => k !== "Independent").length} polities`;
+
+    // lane labels on the right
+    const labG = el("g", {}, svg);
+    lanes.forEach((k, i) => {
+      const t = el("text", { x: W - M.right + 8, y: laneY(i) + 3, "font-size": 10 }, labG);
+      t.setAttribute("fill", k === "Independent" ? "#6b7384" : (model.empColor[k] || "#cfd3da")); t.textContent = k;
+    });
+
+    // connectors trace the hop from one ruler's lane to the next
+    const linkG = el("g", {}, svg);
+    for (let i = 0; i < segs.length - 1; i++) {
+      const ya = laneY(laneOf[segs[i].polity || "Independent"]);
+      const yb = laneY(laneOf[segs[i + 1].polity || "Independent"]);
+      if (ya === yb) continue;
+      const xx = x(segs[i + 1].start);
+      el("line", { x1: xx, y1: ya, x2: xx, y2: yb, stroke: "#3a414f", "stroke-width": 1.5 }, linkG);
+    }
+
+    // a colored bar per spell of control
+    const barG = el("g", {}, svg);
+    for (const s of segs) {
+      const k = s.polity || "Independent";
+      const x0 = x(s.start), w = Math.max(1.5, x(s.end) - x0), y = laneY(laneOf[k]);
+      const rect = el("rect", { x: x0, y: y - bandH / 2, width: w, height: bandH, rx: 3, fill: colorOf(k), "fill-opacity": k === "Independent" ? .3 : .85 }, barG);
+      rect.style.cursor = s.polity ? "pointer" : "default";
+      const pol = s.polity;
+      if (pol) rect.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(pol); });
+      bindTip(rect, `<b>${k}</b><br><span class="meta">${fmtYear(s.start)} – ${fmtYear(s.end)} · ${s.end - s.start} yr</span>`);
+      if (w > 46) { const t = el("text", { x: x0 + 4, y: y + 3, "font-size": 9 }, barG); t.setAttribute("fill", k === "Independent" ? "#aab2c0" : "#10131a"); t.textContent = k; }
+    }
+
+    // year axis
+    const axis = el("g", { class: "axis" }, svg);
+    const baseY = H - M.bottom + 6;
+    el("line", { x1: M.left, y1: baseY, x2: W - M.right, y2: baseY, stroke: "#2a2f3a" }, axis);
+    for (const yr of niceTicks(info.start, info.end)) {
+      const tx = x(yr);
+      el("line", { x1: tx, y1: baseY, x2: tx, y2: baseY + 4, stroke: "#2a2f3a" }, axis);
+      const t = el("text", { x: tx, y: baseY + 16, "text-anchor": "middle", "font-size": 10 }, axis); t.textContent = fmtYear(yr);
     }
   }
 
-  const nodeG = el("g", {}, svg);
-  nodes.forEach((map, ci) => {
-    for (const k in map) {
-      const n = map[k];
-      const r = el("rect", { x: n.x - nw / 2, y: n.yTop, width: nw, height: Math.max(1, n.h), fill: colorOf(k) }, nodeG);
-      r.style.cursor = "pointer";
-      nodeEls.push({ el: r, name: k });
-      const nodeName = k;
-      r.addEventListener("click", e => { e.stopPropagation(); if (onSelect) onSelect(nodeName); });
-      bindTip(r, `<b>${k}</b><br><span class="meta">${fmtYear(CP[ci])} · ${n.count} cit${n.count === 1 ? "y" : "ies"}</span>`);
-      if (ci === nodes.length - 1) { const t = el("text", { x: n.x + nw / 2 + 4, y: n.yTop + n.h / 2 + 3, "font-size": 9 }, nodeG); t.setAttribute("fill", "#cfd3da"); t.textContent = k; }
-    }
-  });
-  return { highlight };
+  svg.addEventListener("click", () => { if (mode === "flows" && onSelect) onSelect(null); });   // background click clears (flows only)
+
+  function render() { if (mode === "city") drawCity(cityId); else drawFlows(); }
+  function setMode(m, id) { mode = m; if (id !== undefined) cityId = id; render(); }
+  function showCity(id) { cityId = id; if (mode === "city") drawCity(id); }
+
+  drawFlows();
+  return { highlight, setMode, showCity };
 }
 
 // empire-centric lifespans — rows scale with #polities, not #cities
@@ -622,6 +737,10 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
   let basemap = null, rawCities = null, rawObs = null, rawNames = null;
   let mapView = null, shareView = null, sankeyView = null, empiresView = null;
   let timer = null, curStep = 100, selected = null;
+  let sankeyMode = "flows", selectedCity = null;
+  const skFlowsBtn = document.getElementById("sk-flows");
+  const skCityBtn = document.getElementById("sk-city");
+  const skHint = document.getElementById("sk-hint");
   const slider = document.getElementById("year");
   const label = document.getElementById("yearlabel");
   const playBtn = document.getElementById("play");
@@ -638,12 +757,30 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
     if (empiresView) empiresView.highlight(selected);
   }
 
+  // Clicking a city: in flows mode it highlights that city's empire (as before); in city-timeline
+  // mode it traces the clicked city through its rulers in the Sankey panel.
+  function onMapClick(cityId, polity) {
+    selectedCity = cityId;
+    if (sankeyMode === "city") { if (sankeyView) sankeyView.showCity(cityId); }
+    else selectEmpire(polity);
+  }
+  function setSankeyMode(m) {
+    sankeyMode = m;
+    skFlowsBtn.classList.toggle("active", m === "flows");
+    skCityBtn.classList.toggle("active", m === "city");
+    skHint.hidden = (m !== "city");
+    if (sankeyView) sankeyView.setMode(m, selectedCity);
+  }
+  skFlowsBtn.addEventListener("click", () => setSankeyMode("flows"));
+  skCityBtn.addEventListener("click", () => setSankeyMode("city"));
+
   function showModel(model) {
     if (timer) { clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
-    selected = null;
-    mapView = setupMap(model, basemap, selectEmpire);
+    selected = null; selectedCity = null;
+    mapView = setupMap(model, basemap, onMapClick);
     shareView = renderControlShare(model);
     sankeyView = renderSankey(model, selectEmpire);
+    sankeyView.setMode(sankeyMode, selectedCity);
     empiresView = renderEmpires(model);
     renderPopulation(model);
     shareView.setSeek(yr => { slider.value = yr; setYear(yr); });

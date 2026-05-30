@@ -305,8 +305,36 @@
     return { checkpoints, snaps, columns, flows };
   }
 
+  // A single city's whole control history as contiguous intervals from founding to its end,
+  // collapsing equal neighbors. Gaps where no empire is attested surface as polity === null
+  // ("Independent / no record"). Breakpoints are the control events plus the years a capital-
+  // bearing or trailing polity lapses, so the same rules as the map produce the same answer.
+  function cityControlTimeline(model, id) {
+    const info = model.cityInfo[id];
+    if (!info) return [];
+    const lo = info.start, hi = info.end;
+    if (hi <= lo) return [{ polity: controllerAt(model, info, lo), start: lo, end: hi }];
+    const marks = new Set([lo, hi]);
+    for (const c of info.control) {
+      if (c.year > lo && c.year < hi) marks.add(c.year);
+      const w = model.polityWindow[c.polity];
+      const lapse = (w && (w.capitalEnd != null ? w.capitalEnd : w.end)) + 1;
+      if (Number.isFinite(lapse) && lapse > lo && lapse < hi) marks.add(lapse);
+    }
+    const ys = [...marks].sort((a, b) => a - b);
+    const segs = [];
+    for (let i = 0; i < ys.length - 1; i++) {
+      const a = ys[i], pol = controllerAt(model, info, a);   // controller over [a, ys[i+1])
+      const last = segs[segs.length - 1];
+      if (last && last.polity === pol) last.end = ys[i + 1];
+      else segs.push({ polity: pol, start: a, end: ys[i + 1] });
+    }
+    if (segs.length) segs[segs.length - 1].end = hi;
+    return segs;
+  }
+
   return {
     build, stateAt, controllerAt, popAt, empiresActiveAt, isMajorAt, isCapitalAt,
-    shareAt, controlSnapshot, controlFlows, nameAt, normalizePolity, polityOf,
+    shareAt, controlSnapshot, controlFlows, cityControlTimeline, nameAt, normalizePolity, polityOf,
   };
 });
