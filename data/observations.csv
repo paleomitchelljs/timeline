@@ -1957,3 +1957,378 @@ obs_1955,lopburi,1782,1782,circa,conquest,,Thailand,Lieberman2003,low,Part of Ra
 obs_1956,palembang,1945,1945,circa,conquest,,Indonesia,Lieberman2003,low,Part of independent Indonesia
 obs_1957,malacca,1957,1957,circa,conquest,,Malaysia,Lieberman2003,low,Part of independent Malaysia
 obs_1958,jericho,1994,1994,circa,conquest,,State of Palestine,Hourani1991,low,Under Palestinian Authority control after the Oslo Accords
+obs_1959,amsterdam,1275,1275,circa,founding,,,Davies1996,low,A fishing village on the Amstel
+obs_1960,amsterdam,1581,1581,circa,conquest,,Dutch Empire,Davies1996,medium,Chief city of the Dutch Republic and its trading empire
+obs_1961,amsterdam,1815,2020,circa,capital_status,Capital of the Netherlands,,Davies1996,high,Capital of the Kingdom of the Netherlands
+obs_1962,amsterdam,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Amsterdam
+obs_1963,brussels,979,979,circa,founding,,,Davies1996,low,A fortified town on the Senne
+obs_1964,brussels,1482,1482,circa,conquest,,Habsburg Monarchy,Davies1996,low,Part of the Habsburg Low Countries
+obs_1965,brussels,1830,2020,circa,capital_status,Capital of Belgium,,Davies1996,high,Capital of independent Belgium
+obs_1966,brussels,2020,2020,circa,population_estimate,2100000,,UN2018,low,Modern Brussels
+obs_1967,luxembourg,963,963,circa,founding,,,Davies1996,low,County seat in the Ardennes
+obs_1968,luxembourg,1482,1482,circa,conquest,,Habsburg Monarchy,Davies1996,low,Part of the Habsburg Low Countries
+obs_1969,luxembourg,1867,2020,circa,capital_status,Capital of Luxembourg,,Davies1996,high,Capital of the Grand Duchy of Luxembourg
+obs_1970,luxembourg,2020,2020,circa,population_estimate,130000,,UN2018,low,Modern Luxembourg City
+obs_1971,bern,1191,1191,circa,founding,,,Davies1996,low,A Zahringen town on the Aare
+obs_1972,bern,1353,1353,circa,conquest,,Swiss Confederacy,Davies1996,low,Joins the Swiss Confederacy
+obs_1973,bern,1848,2020,circa,capital_status,Capital of Switzerland,,Davies1996,high,Federal seat of Switzerland
+obs_1974,bern,2020,2020,circa,population_estimate,430000,,UN2018,low,Modern Bern
+obs_1975,stockholm,1252,1252,circa,founding,,Birger Jarl,Davies1996,low,Founded to guard Lake Malaren
+obs_1976,stockholm,1523,2020,circa,capital_status,Capital of Sweden,Gustav Vasa,Davies1996,high,Capital of Sweden from the Vasa dynasty
+obs_1977,stockholm,2020,2020,circa,population_estimate,1600000,,UN2018,low,Modern Stockholm
+obs_1978,oslo,1040,1040,circa,founding,,Harald Hardrada,Sawyer1997,low,Founded as a Norwegian trading town
+obs_1979,oslo,1397,1397,circa,conquest,,Denmark,Davies1996,low,Under the Danish crown in the Kalmar Union
+obs_1980,oslo,1814,2020,circa,capital_status,Capital of Norway,,Davies1996,high,Capital of independent Norway as Christiania
+obs_1981,oslo,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Oslo
+obs_1982,copenhagen,1167,1167,circa,founding,,Absalon,Davies1996,low,Founded as a fortified harbor
+obs_1983,copenhagen,1443,2020,circa,capital_status,Capital of Denmark,,Davies1996,high,Capital of Denmark
+obs_1984,copenhagen,2020,2020,circa,population_estimate,1400000,,UN2018,low,Modern Copenhagen
+obs_1985,helsinki,1550,1550,circa,founding,,Gustav Vasa,Davies1996,low,Founded by Sweden on the Gulf of Finland
+obs_1986,helsinki,1809,1809,circa,conquest,,Russia,Davies1996,medium,Capital of the Russian Grand Duchy of Finland
+obs_1987,helsinki,1917,2020,circa,capital_status,Capital of Finland,,Davies1996,high,Capital of independent Finland
+obs_1988,helsinki,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Helsinki
+obs_1989,reykjavik,874,874,circa,founding,,Ingolfr Arnarson,Sawyer1997,low,The first Norse settlement in Iceland
+obs_1990,reykjavik,1397,1397,circa,conquest,,Denmark,Davies1996,low,Under the Danish crown
+obs_1991,reykjavik,1944,2020,circa,capital_status,Capital of Iceland,,Davies1996,high,Capital of the Republic of Iceland
+obs_1992,reykjavik,2020,2020,circa,population_estimate,230000,,UN2018,low,Modern Reykjavik
+obs_1993,kinshasa,1881,1881,circa,founding,,Henry Morton Stanley,Reader1998,low,Founded as Leopoldville on the Congo
+obs_1994,kinshasa,1885,1885,circa,conquest,,Congo Free State,Reader1998,high,Leopold II's personal colonial state
+obs_1995,kinshasa,1908,1908,circa,conquest,,Belgian Congo,Reader1998,high,Annexed by Belgium as the Belgian Congo
+obs_1996,kinshasa,1960,2020,circa,capital_status,Capital of the Democratic Republic of the Congo,,Reader1998,high,Capital of independent Congo
+obs_1997,kinshasa,2020,2020,circa,population_estimate,14000000,,UN2018,medium,Modern Kinshasa
+obs_1998,lubumbashi,1910,1910,circa,founding,,,Reader1998,low,Founded as Elisabethville in the Katanga copper belt
+obs_1999,lubumbashi,1910,1910,circa,conquest,,Belgian Congo,Reader1998,medium,A mining center of the Belgian Congo
+obs_2000,lubumbashi,1960,1960,circa,conquest,,Democratic Republic of the Congo,Reader1998,low,Part of independent Congo
+obs_2001,lubumbashi,2020,2020,circa,population_estimate,2500000,,UN2018,low,Modern Lubumbashi
+obs_2002,bucharest,1459,1459,circa,founding,,,Davies1996,low,A Wallachian town on the Dambovita
+obs_2003,bucharest,1462,1462,circa,conquest,,Ottoman Empire,Davies1996,low,Seat of Ottoman-vassal Wallachia
+obs_2004,bucharest,1862,2020,circa,capital_status,Capital of Romania,,Davies1996,high,Capital of unified Romania
+obs_2005,bucharest,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Bucharest
+obs_2006,minsk,1067,1067,circa,founding,,,Davies1996,low,An early town of the Rus
+obs_2007,minsk,1242,1242,circa,conquest,,Grand Duchy of Lithuania,Davies1996,low,Part of Lithuania and then Poland-Lithuania
+obs_2008,minsk,1793,1793,circa,conquest,,Russia,Davies1996,low,Annexed in the partitions of Poland
+obs_2009,minsk,1922,1922,circa,conquest,,Soviet Union,Davies1996,low,Capital of the Byelorussian SSR
+obs_2010,minsk,1991,2020,circa,capital_status,Capital of Belarus,,Davies1996,high,Capital of independent Belarus
+obs_2011,minsk,2020,2020,circa,population_estimate,2000000,,UN2018,low,Modern Minsk
+obs_2012,bratislava,907,907,circa,founding,,,Davies1996,low,A town on the Danube
+obs_2013,bratislava,1000,1000,circa,conquest,,Kingdom of Hungary,Davies1996,low,Part of the kingdom of Hungary
+obs_2014,bratislava,1918,1918,circa,conquest,,Czechoslovakia,Davies1996,low,Part of Czechoslovakia
+obs_2015,bratislava,1993,2020,circa,capital_status,Capital of Slovakia,,Davies1996,high,Capital of independent Slovakia
+obs_2016,bratislava,2020,2020,circa,population_estimate,440000,,UN2018,low,Modern Bratislava
+obs_2017,ljubljana,1144,1144,circa,founding,,,Davies1996,low,A Carniolan town
+obs_2018,ljubljana,1335,1335,circa,conquest,,Habsburg Monarchy,Davies1996,low,Part of the Habsburg lands
+obs_2019,ljubljana,1918,1918,circa,conquest,,Yugoslavia,Davies1996,low,Part of Yugoslavia
+obs_2020,ljubljana,1991,2020,circa,capital_status,Capital of Slovenia,,Davies1996,high,Capital of independent Slovenia
+obs_2021,ljubljana,2020,2020,circa,population_estimate,290000,,UN2018,low,Modern Ljubljana
+obs_2022,zagreb,1094,1094,circa,founding,,,Davies1996,low,A Croatian bishopric
+obs_2023,zagreb,1102,1102,circa,conquest,,Kingdom of Hungary,Davies1996,low,Croatia in union with Hungary
+obs_2024,zagreb,1918,1918,circa,conquest,,Yugoslavia,Davies1996,low,Part of Yugoslavia
+obs_2025,zagreb,1991,2020,circa,capital_status,Capital of Croatia,,Davies1996,high,Capital of independent Croatia
+obs_2026,zagreb,2020,2020,circa,population_estimate,800000,,UN2018,low,Modern Zagreb
+obs_2027,sarajevo,1461,1461,circa,founding,,,Davies1996,low,Founded as an Ottoman town
+obs_2028,sarajevo,1461,1461,circa,conquest,,Ottoman Empire,Davies1996,low,An Ottoman city of Bosnia
+obs_2029,sarajevo,1878,1878,circa,conquest,,Habsburg Monarchy,Davies1996,low,Occupied by Austria-Hungary
+obs_2030,sarajevo,1918,1918,circa,conquest,,Yugoslavia,Davies1996,low,Part of Yugoslavia
+obs_2031,sarajevo,1992,2020,circa,capital_status,Capital of Bosnia and Herzegovina,,Davies1996,high,Capital of independent Bosnia
+obs_2032,sarajevo,2020,2020,circa,population_estimate,420000,,UN2018,low,Modern Sarajevo
+obs_2033,skopje,-300,-300,circa,founding,,,Davies1996,low,Ancient Scupi in Macedonia
+obs_2034,skopje,28,28,circa,conquest,,Rome,Davies1996,low,A Roman provincial town
+obs_2035,skopje,1392,1392,circa,conquest,,Ottoman Empire,Davies1996,low,An Ottoman city
+obs_2036,skopje,1913,1913,circa,conquest,,Yugoslavia,Davies1996,low,Part of Serbia and then Yugoslavia
+obs_2037,skopje,1991,2020,circa,capital_status,Capital of North Macedonia,,Davies1996,high,Capital of North Macedonia
+obs_2038,skopje,2020,2020,circa,population_estimate,540000,,UN2018,low,Modern Skopje
+obs_2039,tirana,1614,1614,circa,founding,,,Davies1996,low,Founded as an Ottoman town
+obs_2040,tirana,1614,1614,circa,conquest,,Ottoman Empire,Davies1996,low,An Ottoman town of Albania
+obs_2041,tirana,1920,2020,circa,capital_status,Capital of Albania,,Davies1996,high,Capital of independent Albania
+obs_2042,tirana,2020,2020,circa,population_estimate,880000,,UN2018,low,Modern Tirana
+obs_2043,chisinau,1436,1436,circa,founding,,,Davies1996,low,A Moldavian town
+obs_2044,chisinau,1538,1538,circa,conquest,,Ottoman Empire,Davies1996,low,Under Ottoman-vassal Moldavia
+obs_2045,chisinau,1812,1812,circa,conquest,,Russia,Davies1996,low,Annexed by Russia as Bessarabia
+obs_2046,chisinau,1940,1940,circa,conquest,,Soviet Union,Davies1996,low,Capital of the Moldavian SSR
+obs_2047,chisinau,1991,2020,circa,capital_status,Capital of Moldova,,Davies1996,high,Capital of independent Moldova
+obs_2048,chisinau,2020,2020,circa,population_estimate,530000,,UN2018,low,Modern Chisinau
+obs_2049,riga,1201,1201,circa,founding,,,Davies1996,low,Founded by German crusaders on the Daugava
+obs_2050,riga,1621,1621,circa,conquest,,Sweden,Davies1996,low,A Swedish Baltic port
+obs_2051,riga,1710,1710,circa,conquest,,Russia,Davies1996,low,Annexed by Russia
+obs_2052,riga,1940,1940,circa,conquest,,Soviet Union,Davies1996,low,Capital of the Latvian SSR
+obs_2053,riga,1991,2020,circa,capital_status,Capital of Latvia,,Davies1996,high,Capital of independent Latvia
+obs_2054,riga,2020,2020,circa,population_estimate,630000,,UN2018,low,Modern Riga
+obs_2055,tallinn,1219,1219,circa,founding,,Valdemar II,Davies1996,low,Founded by Denmark as Reval
+obs_2056,tallinn,1561,1561,circa,conquest,,Sweden,Davies1996,low,A Swedish Baltic port
+obs_2057,tallinn,1710,1710,circa,conquest,,Russia,Davies1996,low,Annexed by Russia
+obs_2058,tallinn,1940,1940,circa,conquest,,Soviet Union,Davies1996,low,Capital of the Estonian SSR
+obs_2059,tallinn,1991,2020,circa,capital_status,Capital of Estonia,,Davies1996,high,Capital of independent Estonia
+obs_2060,tallinn,2020,2020,circa,population_estimate,440000,,UN2018,low,Modern Tallinn
+obs_2061,nicosia,-300,-300,circa,founding,,,Davies1996,low,Ancient Ledra in Cyprus
+obs_2062,nicosia,1191,1191,circa,conquest,,Crusaders,Davies1996,low,Capital of the Lusignan kingdom of Cyprus
+obs_2063,nicosia,1571,1571,circa,conquest,,Ottoman Empire,Davies1996,low,Taken by the Ottomans
+obs_2064,nicosia,1878,1878,circa,conquest,,British Empire,Davies1996,low,Under British administration
+obs_2065,nicosia,1960,2020,circa,capital_status,Capital of Cyprus,,Davies1996,high,Capital of the Republic of Cyprus
+obs_2066,nicosia,2020,2020,circa,population_estimate,330000,,UN2018,low,Modern Nicosia
+obs_2067,valletta,1566,1566,circa,founding,,Knights Hospitaller,Abulafia2011,low,Built by the Knights of St John
+obs_2068,valletta,1566,1798,circa,capital_status,Capital of the Knights Hospitaller,,Abulafia2011,medium,Seat of the Knights of Malta
+obs_2069,valletta,1800,1800,circa,conquest,,British Empire,Darwin2012,low,A British naval base
+obs_2070,valletta,1964,2020,circa,capital_status,Capital of Malta,,Darwin2012,high,Capital of independent Malta
+obs_2071,valletta,2020,2020,circa,population_estimate,110000,,UN2018,low,Modern Valletta
+obs_2072,bogota,1538,1538,circa,founding,,Spanish Empire,Bethell1984,low,Founded by the Spanish as Santa Fe de Bogota
+obs_2073,bogota,1819,1819,circa,conquest,,Gran Colombia,Bethell1984,medium,Capital of Bolivar's Gran Colombia
+obs_2074,bogota,1831,2020,circa,capital_status,Capital of Colombia,,Bethell1984,high,Capital of Colombia
+obs_2075,bogota,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Bogota
+obs_2076,caracas,1567,1567,circa,founding,,Spanish Empire,Bethell1984,low,Founded by the Spanish
+obs_2077,caracas,1819,1819,circa,conquest,,Gran Colombia,Bethell1984,low,Part of Gran Colombia
+obs_2078,caracas,1830,2020,circa,capital_status,Capital of Venezuela,,Bethell1984,high,Capital of Venezuela
+obs_2079,caracas,2020,2020,circa,population_estimate,2900000,,UN2018,low,Modern Caracas
+obs_2080,santiago,1541,1541,circa,founding,,Spanish Empire,Bethell1984,low,Founded by Pedro de Valdivia
+obs_2081,santiago,1818,2020,circa,capital_status,Capital of Chile,,Bethell1984,high,Capital of Chile
+obs_2082,santiago,2020,2020,circa,population_estimate,6800000,,UN2018,medium,Modern Santiago
+obs_2083,la-paz,1548,1548,circa,founding,,Spanish Empire,Bethell1984,low,Founded by the Spanish on the altiplano
+obs_2084,la-paz,1825,2020,circa,capital_status,Seat of government of Bolivia,,Bethell1984,high,Seat of government of Bolivia
+obs_2085,la-paz,2020,2020,circa,population_estimate,1900000,,UN2018,low,Modern La Paz
+obs_2086,montevideo,1724,1724,circa,founding,,Spanish Empire,Bethell1984,low,Founded by the Spanish on the Rio de la Plata
+obs_2087,montevideo,1828,2020,circa,capital_status,Capital of Uruguay,,Bethell1984,high,Capital of Uruguay
+obs_2088,montevideo,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Montevideo
+obs_2089,asuncion,1537,1537,circa,founding,,Spanish Empire,Bethell1984,low,An early Spanish settlement on the Paraguay
+obs_2090,asuncion,1811,2020,circa,capital_status,Capital of Paraguay,,Bethell1984,high,Capital of Paraguay
+obs_2091,asuncion,2020,2020,circa,population_estimate,2300000,,UN2018,low,Modern Asuncion
+obs_2092,guatemala-city,1776,1776,circa,founding,,Spanish Empire,Bethell1984,low,Founded as the capital of Spanish Central America
+obs_2093,guatemala-city,1847,2020,circa,capital_status,Capital of Guatemala,,Bethell1984,high,Capital of Guatemala
+obs_2094,guatemala-city,2020,2020,circa,population_estimate,3000000,,UN2018,low,Modern Guatemala City
+obs_2095,san-salvador,1525,1525,circa,founding,,Spanish Empire,Bethell1984,low,Founded by the Spanish
+obs_2096,san-salvador,1841,2020,circa,capital_status,Capital of El Salvador,,Bethell1984,high,Capital of El Salvador
+obs_2097,san-salvador,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern San Salvador
+obs_2098,tegucigalpa,1578,1578,circa,founding,,Spanish Empire,Bethell1984,low,A Spanish mining town
+obs_2099,tegucigalpa,1880,2020,circa,capital_status,Capital of Honduras,,Bethell1984,high,Capital of Honduras
+obs_2100,tegucigalpa,2020,2020,circa,population_estimate,1400000,,UN2018,low,Modern Tegucigalpa
+obs_2101,managua,1819,1819,circa,founding,,Spanish Empire,Bethell1984,low,A lakeside town
+obs_2102,managua,1852,2020,circa,capital_status,Capital of Nicaragua,,Bethell1984,high,Capital of Nicaragua
+obs_2103,managua,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Managua
+obs_2104,san-jose,1738,1738,circa,founding,,Spanish Empire,Bethell1984,low,Founded in the Costa Rican highlands
+obs_2105,san-jose,1823,2020,circa,capital_status,Capital of Costa Rica,,Bethell1984,high,Capital of Costa Rica
+obs_2106,san-jose,2020,2020,circa,population_estimate,1400000,,UN2018,low,Modern San Jose
+obs_2107,panama-city,1519,1519,circa,founding,,Spanish Empire,Bethell1984,low,Founded by the Spanish on the Pacific
+obs_2108,panama-city,1821,1821,circa,conquest,,Gran Colombia,Bethell1984,low,Part of Colombia after independence
+obs_2109,panama-city,1903,2020,circa,capital_status,Capital of Panama,,Bethell1984,high,Capital of Panama
+obs_2110,panama-city,2020,2020,circa,population_estimate,1900000,,UN2018,low,Modern Panama City
+obs_2111,santo-domingo,1496,1496,circa,founding,,Spanish Empire,Bethell1984,medium,The oldest European city in the Americas
+obs_2112,santo-domingo,1844,2020,circa,capital_status,Capital of the Dominican Republic,,Bethell1984,high,Capital of the Dominican Republic
+obs_2113,santo-domingo,2020,2020,circa,population_estimate,3000000,,UN2018,low,Modern Santo Domingo
+obs_2114,port-au-prince,1749,1749,circa,founding,,French Empire,Bethell1984,low,Capital of French Saint-Domingue
+obs_2115,port-au-prince,1804,2020,circa,capital_status,Capital of Haiti,,Bethell1984,high,Capital of Haiti the first Black republic
+obs_2116,port-au-prince,2020,2020,circa,population_estimate,2800000,,UN2018,low,Modern Port-au-Prince
+obs_2117,kingston,1692,1692,circa,founding,,British Empire,Darwin2012,low,Founded by the British after Port Royal's destruction
+obs_2118,kingston,1962,2020,circa,capital_status,Capital of Jamaica,,Darwin2012,high,Capital of independent Jamaica
+obs_2119,kingston,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Kingston
+obs_2120,toronto,1793,1793,circa,founding,,British Empire,Darwin2012,low,Founded as York in Upper Canada
+obs_2121,toronto,1867,1867,circa,conquest,,Canada,Darwin2012,low,Part of the Dominion of Canada
+obs_2122,toronto,2020,2020,circa,population_estimate,6200000,,UN2018,medium,Modern Toronto
+obs_2123,chicago,1833,1833,circa,founding,,United States,Taylor2001,low,Founded on Lake Michigan
+obs_2124,chicago,2020,2020,circa,population_estimate,8900000,,UN2018,medium,Modern Chicago
+obs_2125,los-angeles,1781,1781,circa,founding,,Spanish Empire,Bethell1984,low,Founded by Spain in Alta California
+obs_2126,los-angeles,1848,1848,circa,conquest,,United States,Taylor2001,medium,Ceded to the United States after the Mexican War
+obs_2127,los-angeles,2020,2020,circa,population_estimate,13000000,,UN2018,medium,Modern Los Angeles
+obs_2128,manila,1946,2020,circa,capital_status,Capital of the Philippines,,Coedes1968,high,Capital of the independent Philippines
+obs_2129,dhaka,1610,1610,circa,founding,,Mughal Empire,AsherTalbot2006,low,A Mughal provincial city in Bengal
+obs_2130,dhaka,1757,1757,circa,conquest,,British Empire,AsherTalbot2006,low,Part of British Bengal
+obs_2131,dhaka,1947,1947,circa,conquest,,Pakistan,AsherTalbot2006,low,Capital of East Pakistan
+obs_2132,dhaka,1971,2020,circa,capital_status,Capital of Bangladesh,,AsherTalbot2006,high,Capital of independent Bangladesh
+obs_2133,dhaka,2020,2020,circa,population_estimate,21000000,,UN2018,medium,Modern Dhaka
+obs_2134,colombo,1505,1505,circa,founding,,Portuguese Empire,Lieberman2003,low,A Portuguese trading port on Ceylon
+obs_2135,colombo,1656,1656,circa,conquest,,Dutch Empire,Lieberman2003,low,Taken by the Dutch
+obs_2136,colombo,1796,1796,circa,conquest,,British Empire,Darwin2012,low,Capital of British Ceylon
+obs_2137,colombo,1948,2020,circa,capital_status,Capital of Sri Lanka,,Darwin2012,high,Chief city of independent Sri Lanka
+obs_2138,colombo,2020,2020,circa,population_estimate,5600000,,UN2018,medium,Modern Colombo
+obs_2139,kathmandu,723,723,circa,founding,,,Lieberman2003,low,A Himalayan town of the Kathmandu valley
+obs_2140,kathmandu,1768,2020,circa,capital_status,Capital of Nepal,Prithvi Narayan Shah,Lieberman2003,high,Capital of unified Nepal
+obs_2141,kathmandu,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Kathmandu
+obs_2142,phnom-penh,1372,1372,circa,founding,,,Lieberman2003,low,A Cambodian river town that succeeded Angkor
+obs_2143,phnom-penh,1863,1863,circa,conquest,,French Empire,Lieberman2003,low,Capital of the French protectorate of Cambodia
+obs_2144,phnom-penh,1953,2020,circa,capital_status,Capital of Cambodia,,Lieberman2003,high,Capital of independent Cambodia
+obs_2145,phnom-penh,2020,2020,circa,population_estimate,2100000,,UN2018,low,Modern Phnom Penh
+obs_2146,vientiane,1560,1560,circa,founding,,,Lieberman2003,low,Capital of the Lao kingdom of Lan Xang
+obs_2147,vientiane,1893,1893,circa,conquest,,French Empire,Lieberman2003,low,Capital of French Laos
+obs_2148,vientiane,1953,2020,circa,capital_status,Capital of Laos,,Lieberman2003,high,Capital of independent Laos
+obs_2149,vientiane,2020,2020,circa,population_estimate,950000,,UN2018,low,Modern Vientiane
+obs_2150,yangon,1755,1755,circa,founding,,Konbaung Burma,Lieberman2003,low,Founded by the Konbaung dynasty as Rangoon
+obs_2151,yangon,1852,1852,circa,conquest,,British Empire,Darwin2012,medium,Capital of British Burma
+obs_2152,yangon,1948,2020,circa,capital_status,Capital of Myanmar,,Lieberman2003,high,Chief city of Myanmar; Naypyidaw is the capital from 2006
+obs_2153,yangon,2020,2020,circa,population_estimate,5400000,,UN2018,medium,Modern Yangon
+obs_2154,ulaanbaatar,1639,1639,circa,founding,,,Beckwith2009,low,Founded as a Buddhist monastery town
+obs_2155,ulaanbaatar,1691,1691,circa,conquest,,Qing dynasty,Mote1999,low,Outer Mongolia under the Qing
+obs_2156,ulaanbaatar,1924,2020,circa,capital_status,Capital of Mongolia,,Beckwith2009,high,Capital of independent Mongolia
+obs_2157,ulaanbaatar,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Ulaanbaatar
+obs_2158,astana,1830,1830,circa,founding,,Russia,Soucek2000,low,Founded as a Russian fort on the steppe
+obs_2159,astana,1920,1920,circa,conquest,,Soviet Union,Soucek2000,low,Part of the Kazakh SSR
+obs_2160,astana,1997,2020,circa,capital_status,Capital of Kazakhstan,,Soucek2000,high,Made the capital of independent Kazakhstan
+obs_2161,astana,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Astana
+obs_2162,bishkek,1825,1825,circa,founding,,,Soucek2000,low,A Kokand fort in the Chu valley
+obs_2163,bishkek,1862,1862,circa,conquest,,Russia,Soucek2000,low,Taken by Russia
+obs_2164,bishkek,1926,1926,circa,conquest,,Soviet Union,Soucek2000,low,Capital of the Kirghiz SSR
+obs_2165,bishkek,1991,2020,circa,capital_status,Capital of Kyrgyzstan,,Soucek2000,high,Capital of independent Kyrgyzstan
+obs_2166,bishkek,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Bishkek
+obs_2167,dushanbe,1900,1900,circa,founding,,,Soucek2000,low,A market town of the upper Amu Darya basin
+obs_2168,dushanbe,1929,1929,circa,conquest,,Soviet Union,Soucek2000,low,Capital of the Tajik SSR
+obs_2169,dushanbe,1991,2020,circa,capital_status,Capital of Tajikistan,,Soucek2000,high,Capital of independent Tajikistan
+obs_2170,dushanbe,2020,2020,circa,population_estimate,900000,,UN2018,low,Modern Dushanbe
+obs_2171,ashgabat,1881,1881,circa,founding,,Russia,Soucek2000,low,Founded as a Russian garrison in Turkmen lands
+obs_2172,ashgabat,1924,1924,circa,conquest,,Soviet Union,Soucek2000,low,Capital of the Turkmen SSR
+obs_2173,ashgabat,1991,2020,circa,capital_status,Capital of Turkmenistan,,Soucek2000,high,Capital of independent Turkmenistan
+obs_2174,ashgabat,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Ashgabat
+obs_2175,baku,800,800,circa,founding,,,Axworthy2008,low,A Caspian port of Shirvan
+obs_2176,baku,1501,1501,circa,conquest,,Safavid Empire,Axworthy2008,low,Contested by Safavid Persia
+obs_2177,baku,1806,1806,circa,conquest,,Russia,Davies1996,medium,Annexed by Russia; later a great oil city
+obs_2178,baku,1920,1920,circa,conquest,,Soviet Union,Davies1996,low,Capital of the Azerbaijan SSR
+obs_2179,baku,1991,2020,circa,capital_status,Capital of Azerbaijan,,Davies1996,high,Capital of independent Azerbaijan
+obs_2180,baku,2020,2020,circa,population_estimate,2300000,,UN2018,low,Modern Baku
+obs_2181,sanaa,-500,-500,circa,founding,,,Hourani1991,low,Ancient highland city of Yemen
+obs_2182,sanaa,628,628,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Brought into the early Islamic state
+obs_2183,sanaa,1538,1538,circa,conquest,,Ottoman Empire,Hourani1991,low,Contested by the Ottomans and local imams
+obs_2184,sanaa,1918,2020,circa,capital_status,Capital of Yemen,,Hourani1991,high,Capital of Yemen
+obs_2185,sanaa,2020,2020,circa,population_estimate,3000000,,UN2018,low,Modern Sanaa
+obs_2186,muscat,700,700,circa,founding,,,Hourani1991,low,A port on the Gulf of Oman
+obs_2187,muscat,1698,1890,circa,capital_status,Capital of the Omani Empire,,Hourani1991,high,Seat of the Omani maritime empire
+obs_2188,muscat,1970,2020,circa,capital_status,Capital of Oman,,Hourani1991,high,Capital of the modern sultanate of Oman
+obs_2189,muscat,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Muscat
+obs_2190,doha,1825,1825,circa,founding,,,Hourani1991,low,A pearling town on the Qatar peninsula
+obs_2191,doha,1916,1916,circa,conquest,,British Empire,Hourani1991,low,A British protectorate on the Gulf
+obs_2192,doha,1971,2020,circa,capital_status,Capital of Qatar,,Hourani1991,high,Capital of independent Qatar
+obs_2193,doha,2020,2020,circa,population_estimate,2400000,,UN2018,low,Modern Doha
+obs_2194,abu-dhabi,1761,1761,circa,founding,,,Hourani1991,low,Founded by the Bani Yas on the Gulf
+obs_2195,abu-dhabi,1892,1892,circa,conquest,,British Empire,Hourani1991,low,Part of the British Trucial States
+obs_2196,abu-dhabi,1971,2020,circa,capital_status,Capital of the United Arab Emirates,,Hourani1991,high,Capital of the United Arab Emirates
+obs_2197,abu-dhabi,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Abu Dhabi
+obs_2198,dubai,1799,1799,circa,founding,,,Hourani1991,low,A Bani Yas fishing village on the creek
+obs_2199,dubai,1892,1892,circa,conquest,,British Empire,Hourani1991,low,Part of the British Trucial States
+obs_2200,dubai,1971,1971,circa,conquest,,United Arab Emirates,Hourani1991,medium,A glittering trade and finance megacity of the UAE
+obs_2201,dubai,2020,2020,circa,population_estimate,3300000,,UN2018,medium,Modern Dubai
+obs_2202,kuwait-city,1716,1716,circa,founding,,,Hourani1991,low,Founded by the Bani Utbah at the head of the Gulf
+obs_2203,kuwait-city,1899,1899,circa,conquest,,British Empire,Hourani1991,low,A British protectorate
+obs_2204,kuwait-city,1961,2020,circa,capital_status,Capital of Kuwait,,Hourani1991,high,Capital of independent Kuwait
+obs_2205,kuwait-city,2020,2020,circa,population_estimate,3000000,,UN2018,low,Modern Kuwait City
+obs_2206,manama,1783,1783,circa,founding,,,Hourani1991,low,Seat of the Al Khalifa on Bahrain
+obs_2207,manama,1880,1880,circa,conquest,,British Empire,Hourani1991,low,A British protectorate on the Gulf
+obs_2208,manama,1971,2020,circa,capital_status,Capital of Bahrain,,Hourani1991,high,Capital of independent Bahrain
+obs_2209,manama,2020,2020,circa,population_estimate,700000,,UN2018,low,Modern Manama
+obs_2210,amman,-1200,-1200,circa,founding,,,Hourani1991,low,Ancient Rabbath-Ammon of the Ammonites
+obs_2211,amman,14,14,circa,conquest,,Rome,Beard2015,low,The Roman city of Philadelphia of the Decapolis
+obs_2212,amman,635,635,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_2213,amman,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,low,An Ottoman town east of the Jordan
+obs_2214,amman,1946,2020,circa,capital_status,Capital of Jordan,,Hourani1991,high,Capital of the Hashemite Kingdom of Jordan
+obs_2215,amman,2020,2020,circa,population_estimate,4000000,,UN2018,medium,Modern Amman
+obs_2216,khartoum,1821,1821,circa,founding,,,Reader1998,low,Founded as an Egyptian garrison at the Nile confluence
+obs_2217,khartoum,1899,1899,circa,conquest,,British Empire,Reader1998,low,Capital of the Anglo-Egyptian Sudan
+obs_2218,khartoum,1956,2020,circa,capital_status,Capital of Sudan,,Reader1998,high,Capital of independent Sudan
+obs_2219,khartoum,2020,2020,circa,population_estimate,6000000,,UN2018,medium,Modern Khartoum
+obs_2220,juba,1922,1922,circa,founding,,British Empire,Reader1998,low,A British outpost on the White Nile
+obs_2221,juba,2011,2020,circa,capital_status,Capital of South Sudan,,Reader1998,high,Capital of South Sudan
+obs_2222,juba,2020,2020,circa,population_estimate,500000,,UN2018,low,Modern Juba
+obs_2223,dakar,1857,1857,circa,founding,,French Empire,Reader1998,low,Founded by France on Cape Verde peninsula
+obs_2224,dakar,1960,2020,circa,capital_status,Capital of Senegal,,Reader1998,high,Capital of independent Senegal
+obs_2225,dakar,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Dakar
+obs_2226,abidjan,1900,1900,circa,founding,,French Empire,Reader1998,low,A French colonial port
+obs_2227,abidjan,1960,2020,circa,capital_status,Capital of Ivory Coast,,Reader1998,high,Chief city of Ivory Coast; Yamoussoukro the official capital from 1983
+obs_2228,abidjan,2020,2020,circa,population_estimate,5000000,,UN2018,medium,Modern Abidjan
+obs_2229,conakry,1885,1885,circa,founding,,French Empire,Reader1998,low,A French colonial port
+obs_2230,conakry,1958,2020,circa,capital_status,Capital of Guinea,,Reader1998,high,Capital of independent Guinea
+obs_2231,conakry,2020,2020,circa,population_estimate,2000000,,UN2018,low,Modern Conakry
+obs_2232,niamey,1900,1900,circa,founding,,French Empire,Reader1998,low,A French colonial post on the Niger
+obs_2233,niamey,1960,2020,circa,capital_status,Capital of Niger,,Reader1998,high,Capital of independent Niger
+obs_2234,niamey,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Niamey
+obs_2235,ndjamena,1900,1900,circa,founding,,French Empire,Reader1998,low,Founded as Fort-Lamy
+obs_2236,ndjamena,1960,2020,circa,capital_status,Capital of Chad,,Reader1998,high,Capital of independent Chad
+obs_2237,ndjamena,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern N'Djamena
+obs_2238,yaounde,1888,1888,circa,founding,,Germany,Reader1998,low,Founded in German Kamerun
+obs_2239,yaounde,1919,1919,circa,conquest,,French Empire,Reader1998,low,Capital of French Cameroon
+obs_2240,yaounde,1960,2020,circa,capital_status,Capital of Cameroon,,Reader1998,high,Capital of independent Cameroon
+obs_2241,yaounde,2020,2020,circa,population_estimate,3500000,,UN2018,medium,Modern Yaounde
+obs_2242,libreville,1843,1843,circa,founding,,French Empire,Reader1998,low,A French settlement for freed slaves
+obs_2243,libreville,1960,2020,circa,capital_status,Capital of Gabon,,Reader1998,high,Capital of independent Gabon
+obs_2244,libreville,2020,2020,circa,population_estimate,800000,,UN2018,low,Modern Libreville
+obs_2245,bangui,1889,1889,circa,founding,,French Empire,Reader1998,low,A French post on the Ubangi
+obs_2246,bangui,1960,2020,circa,capital_status,Capital of the Central African Republic,,Reader1998,high,Capital of the Central African Republic
+obs_2247,bangui,2020,2020,circa,population_estimate,900000,,UN2018,low,Modern Bangui
+obs_2248,brazzaville,1880,1880,circa,founding,,French Empire,Reader1998,low,Founded by Pierre de Brazza on the Congo
+obs_2249,brazzaville,1960,2020,circa,capital_status,Capital of the Republic of the Congo,,Reader1998,high,Capital of the Republic of the Congo
+obs_2250,brazzaville,2020,2020,circa,population_estimate,2400000,,UN2018,low,Modern Brazzaville
+obs_2251,kampala,1890,1890,circa,founding,,British Empire,Reader1998,low,Grew around the British fort and the Buganda court
+obs_2252,kampala,1962,2020,circa,capital_status,Capital of Uganda,,Reader1998,high,Capital of independent Uganda
+obs_2253,kampala,2020,2020,circa,population_estimate,3500000,,UN2018,medium,Modern Kampala
+obs_2254,kigali,1907,1907,circa,founding,,Germany,Reader1998,low,Founded in German East Africa
+obs_2255,kigali,1919,1919,circa,conquest,,Belgium,Reader1998,low,Part of Belgian Ruanda-Urundi
+obs_2256,kigali,1962,2020,circa,capital_status,Capital of Rwanda,,Reader1998,high,Capital of independent Rwanda
+obs_2257,kigali,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Kigali
+obs_2258,bujumbura,1871,1871,circa,founding,,Germany,Reader1998,low,A post in German East Africa
+obs_2259,bujumbura,1919,1919,circa,conquest,,Belgium,Reader1998,low,Part of Belgian Ruanda-Urundi
+obs_2260,bujumbura,1962,2020,circa,capital_status,Capital of Burundi,,Reader1998,high,Chief city of independent Burundi
+obs_2261,bujumbura,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Bujumbura
+obs_2262,lusaka,1905,1905,circa,founding,,British Empire,Reader1998,low,A railway town in Northern Rhodesia
+obs_2263,lusaka,1964,2020,circa,capital_status,Capital of Zambia,,Reader1998,high,Capital of independent Zambia
+obs_2264,lusaka,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Lusaka
+obs_2265,harare,1890,1890,circa,founding,,British Empire,Reader1998,low,Founded as Salisbury in Rhodesia
+obs_2266,harare,1980,2020,circa,capital_status,Capital of Zimbabwe,,Reader1998,high,Capital of independent Zimbabwe
+obs_2267,harare,2020,2020,circa,population_estimate,2100000,,UN2018,low,Modern Harare
+obs_2268,lilongwe,1900,1900,circa,founding,,British Empire,Reader1998,low,A town in the Nyasaland protectorate
+obs_2269,lilongwe,1975,2020,circa,capital_status,Capital of Malawi,,Reader1998,high,Capital of Malawi
+obs_2270,lilongwe,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Lilongwe
+obs_2271,maputo,1781,1781,circa,founding,,Portuguese Empire,Reader1998,low,Founded as Lourenco Marques by Portugal
+obs_2272,maputo,1975,2020,circa,capital_status,Capital of Mozambique,,Reader1998,high,Capital of independent Mozambique
+obs_2273,maputo,2020,2020,circa,population_estimate,2700000,,UN2018,medium,Modern Maputo
+obs_2274,antananarivo,1610,1610,circa,founding,,,Reader1998,low,Royal city of the Merina kingdom
+obs_2275,antananarivo,1897,1897,circa,conquest,,French Empire,Reader1998,low,Capital of French Madagascar
+obs_2276,antananarivo,1960,2020,circa,capital_status,Capital of Madagascar,,Reader1998,high,Capital of independent Madagascar
+obs_2277,antananarivo,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Antananarivo
+obs_2278,windhoek,1890,1890,circa,founding,,Germany,Reader1998,low,Founded in German South-West Africa
+obs_2279,windhoek,1915,1915,circa,conquest,,South Africa,Reader1998,low,Under South African administration
+obs_2280,windhoek,1990,2020,circa,capital_status,Capital of Namibia,,Reader1998,high,Capital of independent Namibia
+obs_2281,windhoek,2020,2020,circa,population_estimate,430000,,UN2018,low,Modern Windhoek
+obs_2282,gaborone,1890,1890,circa,founding,,British Empire,Reader1998,low,A British post in Bechuanaland
+obs_2283,gaborone,1966,2020,circa,capital_status,Capital of Botswana,,Reader1998,high,Capital of independent Botswana
+obs_2284,gaborone,2020,2020,circa,population_estimate,250000,,UN2018,low,Modern Gaborone
+obs_2285,johannesburg,1886,1886,circa,founding,,British Empire,Reader1998,low,Founded in the Witwatersrand gold rush
+obs_2286,johannesburg,1910,1910,circa,conquest,,South Africa,Reader1998,low,The largest city of the Union of South Africa
+obs_2287,johannesburg,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern Johannesburg
+obs_2288,asmara,1890,1890,circa,founding,,Kingdom of Italy,Reader1998,low,Capital of Italian Eritrea
+obs_2289,asmara,1941,1941,circa,conquest,,British Empire,Reader1998,low,Under British administration
+obs_2290,asmara,1993,2020,circa,capital_status,Capital of Eritrea,,Reader1998,high,Capital of independent Eritrea
+obs_2291,asmara,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Asmara
+obs_2292,nouakchott,1958,1958,circa,founding,,French Empire,Reader1998,low,Built as the capital of Mauritania
+obs_2293,nouakchott,1960,2020,circa,capital_status,Capital of Mauritania,,Reader1998,high,Capital of independent Mauritania
+obs_2294,nouakchott,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Nouakchott
+obs_2295,cotonou,1830,1830,circa,founding,,French Empire,Reader1998,low,A port of the kingdom of Dahomey taken by France
+obs_2296,cotonou,1960,2020,circa,capital_status,Capital of Benin,,Reader1998,high,Chief city of the Republic of Benin
+obs_2297,cotonou,2020,2020,circa,population_estimate,2400000,,UN2018,low,Modern Cotonou
+obs_2298,lome,1897,1897,circa,founding,,Germany,Reader1998,low,Capital of German Togoland
+obs_2299,lome,1919,1919,circa,conquest,,French Empire,Reader1998,low,Capital of French Togo
+obs_2300,lome,1960,2020,circa,capital_status,Capital of Togo,,Reader1998,high,Capital of independent Togo
+obs_2301,lome,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Lome
+obs_2302,freetown,1792,1792,circa,founding,,British Empire,Reader1998,low,Founded as a settlement for freed slaves
+obs_2303,freetown,1961,2020,circa,capital_status,Capital of Sierra Leone,,Reader1998,high,Capital of independent Sierra Leone
+obs_2304,freetown,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Freetown
+obs_2305,monrovia,1822,1822,circa,founding,,,Reader1998,low,Founded by the American Colonization Society for freed slaves
+obs_2306,monrovia,1847,2020,circa,capital_status,Capital of Liberia,,Reader1998,high,Capital of Liberia
+obs_2307,monrovia,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Monrovia
+obs_2308,canberra,1913,1913,circa,founding,,British Empire,Darwin2012,low,Built as the federal capital of Australia
+obs_2309,canberra,1927,2020,circa,capital_status,Capital of Australia,,Darwin2012,high,Capital of the Commonwealth of Australia
+obs_2310,canberra,2020,2020,circa,population_estimate,460000,,UN2018,low,Modern Canberra
+obs_2311,sydney,1788,1788,circa,founding,,British Empire,Darwin2012,medium,Founded as a British penal colony at Port Jackson
+obs_2312,sydney,1901,1901,circa,conquest,,Australia,Darwin2012,low,Largest city of the Commonwealth of Australia
+obs_2313,sydney,2020,2020,circa,population_estimate,5300000,,UN2018,medium,Modern Sydney
+obs_2314,melbourne,1835,1835,circa,founding,,British Empire,Darwin2012,low,Founded on the Yarra
+obs_2315,melbourne,1901,1901,circa,conquest,,Australia,Darwin2012,low,Briefly the seat of the Australian parliament
+obs_2316,melbourne,2020,2020,circa,population_estimate,5000000,,UN2018,medium,Modern Melbourne
+obs_2317,wellington,1839,1839,circa,founding,,British Empire,Darwin2012,low,Founded by the New Zealand Company
+obs_2318,wellington,1865,2020,circa,capital_status,Capital of New Zealand,,Darwin2012,high,Capital of New Zealand
+obs_2319,wellington,2020,2020,circa,population_estimate,420000,,UN2018,low,Modern Wellington
+obs_2320,auckland,1840,1840,circa,founding,,British Empire,Darwin2012,low,An early capital of colonial New Zealand
+obs_2321,auckland,1907,1907,circa,conquest,,New Zealand,Darwin2012,low,Largest city of New Zealand
+obs_2322,auckland,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Auckland
+obs_2323,port-moresby,1873,1873,circa,founding,,British Empire,Darwin2012,low,A British New Guinea port
+obs_2324,port-moresby,1906,1906,circa,conquest,,Australia,Darwin2012,low,Administered by Australia
+obs_2325,port-moresby,1975,2020,circa,capital_status,Capital of Papua New Guinea,,Darwin2012,high,Capital of independent Papua New Guinea
+obs_2326,port-moresby,2020,2020,circa,population_estimate,400000,,UN2018,low,Modern Port Moresby
+obs_2327,suva,1882,1882,circa,founding,,British Empire,Darwin2012,low,Capital of the British colony of Fiji
+obs_2328,suva,1970,2020,circa,capital_status,Capital of Fiji,,Darwin2012,high,Capital of independent Fiji
+obs_2329,suva,2020,2020,circa,population_estimate,200000,,UN2018,low,Modern Suva
+obs_2330,honolulu,1800,1800,circa,founding,,Kingdom of Hawaii,Darwin2012,low,Seat of the Kingdom of Hawaii under Kamehameha
+obs_2331,honolulu,1845,1898,circa,capital_status,Capital of the Kingdom of Hawaii,,Darwin2012,medium,Capital of the independent Hawaiian kingdom
+obs_2332,honolulu,1898,1898,circa,conquest,,United States,Taylor2001,medium,Annexed by the United States
+obs_2333,honolulu,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Honolulu

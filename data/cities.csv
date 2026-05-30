@@ -182,6 +182,104 @@ bangkok,Bangkok,Bangkok,13.7500,100.5000,southeast-asia,Rattanakosin capital of 
 jakarta,Jakarta,Jakarta,-6.2100,106.8500,southeast-asia,Dutch Batavia and capital of Indonesia
 kuala-lumpur,Kuala Lumpur,Kuala Lumpur,3.1400,101.6900,southeast-asia,Tin-mining town and capital of Malaysia
 ramallah,Ramallah,Ramallah,31.9000,35.2000,levant-inland,Administrative seat of the Palestinian Authority
+amsterdam,Amsterdam,Amsterdam,52.3700,4.9000,germania,Trading heart of the Dutch empire and capital of the Netherlands
+brussels,Brussels,Brussels,50.8500,4.3500,germania,Capital of Belgium and seat of its Congo empire
+luxembourg,Luxembourg,Luxembourg,49.6100,6.1300,germania,Capital of the Grand Duchy of Luxembourg
+bern,Bern,Bern,46.9500,7.4500,europe-central,Federal seat of Switzerland
+stockholm,Stockholm,Stockholm,59.3300,18.0700,northern-europe,Capital of Sweden
+oslo,Oslo,Oslo,59.9100,10.7500,northern-europe,Capital of Norway
+copenhagen,Copenhagen,Copenhagen,55.6800,12.5700,northern-europe,Capital of Denmark
+helsinki,Helsinki,Helsinki,60.1700,24.9400,northern-europe,Capital of Finland
+reykjavik,Reykjavik,Reykjavik,64.1500,-21.9400,northern-europe,Capital of Iceland
+kinshasa,Kinshasa,Kinshasa,-4.3200,15.3200,africa,Leopoldville and capital of the Democratic Republic of the Congo
+lubumbashi,Lubumbashi,Lubumbashi,-11.6600,27.4800,africa,Copper-belt city of the Belgian Congo
+bucharest,Bucharest,Bucharest,44.4300,26.1000,europe-east,Capital of Romania
+minsk,Minsk,Minsk,53.9000,27.5700,europe-east,Capital of Belarus
+bratislava,Bratislava,Bratislava,48.1500,17.1100,europe-central,Capital of Slovakia
+ljubljana,Ljubljana,Ljubljana,46.0600,14.5100,europe-central,Capital of Slovenia
+zagreb,Zagreb,Zagreb,45.8100,15.9800,europe-central,Capital of Croatia
+sarajevo,Sarajevo,Sarajevo,43.8600,18.4100,europe-east,Capital of Bosnia and Herzegovina
+skopje,Skopje,Skopje,41.9900,21.4300,europe-east,Capital of North Macedonia
+tirana,Tirana,Tirana,41.3300,19.8200,europe-east,Capital of Albania
+chisinau,Chisinau,Chisinau,47.0100,28.8600,europe-east,Capital of Moldova
+riga,Riga,Riga,56.9500,24.1100,europe-east,Capital of Latvia
+tallinn,Tallinn,Tallinn,59.4400,24.7500,europe-east,Capital of Estonia
+nicosia,Nicosia,Nicosia,35.1700,33.3600,anatolia,Capital of Cyprus
+valletta,Valletta,Valletta,35.9000,14.5100,italy,Fortress capital of the Knights of Malta and of Malta
+bogota,Bogota,Bogota,4.6100,-74.0800,americas,Capital of Gran Colombia and of Colombia
+caracas,Caracas,Caracas,10.4900,-66.8800,americas,Capital of Venezuela
+santiago,Santiago,Santiago,-33.4500,-70.6700,americas,Capital of Chile
+la-paz,La Paz,La Paz,-16.5000,-68.1500,americas,Seat of government of Bolivia
+montevideo,Montevideo,Montevideo,-34.9000,-56.1900,americas,Capital of Uruguay
+asuncion,Asuncion,Asuncion,-25.3000,-57.6300,americas,Capital of Paraguay
+guatemala-city,Guatemala City,Guatemala City,14.6300,-90.5100,americas,Capital of Spanish Central America and of Guatemala
+san-salvador,San Salvador,San Salvador,13.6900,-89.2200,americas,Capital of El Salvador
+tegucigalpa,Tegucigalpa,Tegucigalpa,14.0700,-87.1900,americas,Capital of Honduras
+managua,Managua,Managua,12.1100,-86.2400,americas,Capital of Nicaragua
+san-jose,San Jose,San Jose,9.9300,-84.0800,americas,Capital of Costa Rica
+panama-city,Panama City,Panama City,8.9800,-79.5200,americas,Capital of Panama
+santo-domingo,Santo Domingo,Santo Domingo,18.4900,-69.9300,americas,Oldest European city in the Americas and capital of the Dominican Republic
+port-au-prince,Port-au-Prince,Port-au-Prince,18.5900,-72.3100,americas,Capital of Haiti the first Black republic
+kingston,Kingston,Kingston,17.9900,-76.7900,americas,Capital of Jamaica
+toronto,Toronto,Toronto,43.6500,-79.3800,americas,Largest city of Canada
+chicago,Chicago,Chicago,41.8800,-87.6300,americas,Great industrial metropolis of the American Midwest
+los-angeles,Los Angeles,Los Angeles,34.0500,-118.2400,americas,Pacific megacity of the United States
+dhaka,Dhaka,Dhaka,23.8100,90.4100,india,Mughal Bengal city and capital of Bangladesh
+colombo,Colombo,Colombo,6.9300,79.8600,india,Colonial port and chief city of Sri Lanka
+kathmandu,Kathmandu,Kathmandu,27.7000,85.3200,india,Capital of Nepal in the Himalaya
+phnom-penh,Phnom Penh,Phnom Penh,11.5600,104.9200,southeast-asia,Capital of Cambodia after Angkor
+vientiane,Vientiane,Vientiane,17.9700,102.6300,southeast-asia,Capital of Lan Xang and of Laos
+yangon,Yangon,Yangon,16.8700,96.2000,southeast-asia,Konbaung port and chief city of Myanmar
+ulaanbaatar,Ulaanbaatar,Ulaanbaatar,47.9200,106.9200,steppe,Capital of Mongolia
+astana,Astana,Astana,51.1700,71.4300,steppe,Capital of Kazakhstan
+bishkek,Bishkek,Bishkek,42.8700,74.5900,steppe,Capital of Kyrgyzstan
+dushanbe,Dushanbe,Dushanbe,38.5600,68.7900,steppe,Capital of Tajikistan
+ashgabat,Ashgabat,Ashgabat,37.9500,58.3800,steppe,Capital of Turkmenistan
+baku,Baku,Baku,40.4100,49.8700,caucasus,Caspian oil city and capital of Azerbaijan
+sanaa,Sanaa,Sanaa,15.3700,44.1900,arabia,Ancient highland city and capital of Yemen
+muscat,Muscat,Muscat,23.5900,58.4100,arabia,Capital of the Omani empire and of Oman
+doha,Doha,Doha,25.2900,51.5300,arabia,Capital of Qatar
+abu-dhabi,Abu Dhabi,Abu Dhabi,24.4500,54.3800,arabia,Capital of the United Arab Emirates
+dubai,Dubai,Dubai,25.2000,55.2700,arabia,Gulf trade megacity of the United Arab Emirates
+kuwait-city,Kuwait City,Kuwait City,29.3800,47.9900,arabia,Capital of Kuwait
+manama,Manama,Manama,26.2300,50.5900,arabia,Capital of Bahrain
+amman,Amman,Amman,31.9500,35.9300,levant-inland,Ancient Philadelphia and capital of Jordan
+khartoum,Khartoum,Khartoum,15.5000,32.5600,africa,Capital of Sudan at the Nile confluence
+juba,Juba,Juba,4.8500,31.5800,africa,Capital of South Sudan
+dakar,Dakar,Dakar,14.6900,-17.4400,africa,Atlantic port and capital of Senegal
+abidjan,Abidjan,Abidjan,5.3600,-4.0100,africa,Chief city of Ivory Coast
+conakry,Conakry,Conakry,9.5100,-13.7100,africa,Capital of Guinea
+niamey,Niamey,Niamey,13.5100,2.1100,africa,Capital of Niger
+ndjamena,N'Djamena,N'Djamena,12.1300,15.0600,africa,Capital of Chad
+yaounde,Yaounde,Yaounde,3.8500,11.5000,africa,Capital of Cameroon
+libreville,Libreville,Libreville,0.4200,9.4700,africa,Capital of Gabon
+bangui,Bangui,Bangui,4.3600,18.5600,africa,Capital of the Central African Republic
+brazzaville,Brazzaville,Brazzaville,-4.2700,15.2800,africa,Capital of the Republic of the Congo
+kampala,Kampala,Kampala,0.3500,32.5800,africa,Capital of Uganda
+kigali,Kigali,Kigali,-1.9500,30.0600,africa,Capital of Rwanda
+bujumbura,Bujumbura,Bujumbura,-3.3800,29.3600,africa,Largest city of Burundi
+lusaka,Lusaka,Lusaka,-15.4200,28.2800,africa,Capital of Zambia
+harare,Harare,Harare,-17.8300,31.0500,africa,Capital of Zimbabwe
+lilongwe,Lilongwe,Lilongwe,-13.9800,33.7900,africa,Capital of Malawi
+maputo,Maputo,Maputo,-25.9700,32.5800,africa,Capital of Mozambique
+antananarivo,Antananarivo,Antananarivo,-18.8800,47.5100,africa,Merina royal city and capital of Madagascar
+windhoek,Windhoek,Windhoek,-22.5700,17.0800,africa,Capital of Namibia
+gaborone,Gaborone,Gaborone,-24.6500,25.9100,africa,Capital of Botswana
+johannesburg,Johannesburg,Johannesburg,-26.2000,28.0500,africa,Gold-rush metropolis of South Africa
+asmara,Asmara,Asmara,15.3400,38.9300,africa,Italian colonial city and capital of Eritrea
+nouakchott,Nouakchott,Nouakchott,18.0900,-15.9800,africa,Capital of Mauritania
+cotonou,Cotonou,Cotonou,6.3700,2.4200,africa,Chief city of the Republic of Benin
+lome,Lome,Lome,6.1700,1.2300,africa,Capital of Togo
+freetown,Freetown,Freetown,8.4800,-13.2300,africa,Freed-slave settlement and capital of Sierra Leone
+monrovia,Monrovia,Monrovia,6.3000,-10.8000,africa,Capital of Liberia founded by freed American slaves
+canberra,Canberra,Canberra,-35.2800,149.1300,oceania,Purpose-built capital of Australia
+sydney,Sydney,Sydney,-33.8700,151.2100,oceania,First British settlement and largest city of Australia
+melbourne,Melbourne,Melbourne,-37.8100,144.9600,oceania,Major metropolis of southern Australia
+wellington,Wellington,Wellington,-41.2900,174.7800,oceania,Capital of New Zealand
+auckland,Auckland,Auckland,-36.8500,174.7600,oceania,Largest city of New Zealand
+port-moresby,Port Moresby,Port Moresby,-9.4400,147.1800,oceania,Capital of Papua New Guinea
+suva,Suva,Suva,-18.1400,178.4400,oceania,Capital of Fiji
+honolulu,Honolulu,Honolulu,21.3100,-157.8600,oceania,Capital of the Kingdom of Hawaii and chief city of Hawaii
 antioch,Antioch,Antakya,36.2000,36.1600,levant-coast,Seleucid capital and one of the great cities of the Roman and Byzantine East
 seleucia,Seleucia,Tell Umar,33.0900,44.5200,mesopotamia-akkad,Eastern capital of the Seleucid Empire on the Tigris
 ctesiphon,Ctesiphon,Salman Pak,33.0900,44.5800,mesopotamia-akkad,Capital of the Parthian and Sasanian empires

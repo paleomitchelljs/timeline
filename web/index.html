@@ -111,7 +111,7 @@ const REGION_COLOR = {
   "india": "#ff7043",
   "china": "#d32f2f", "korea": "#7e57c2", "southeast-asia": "#00897b",
   "steppe": "#827717", "japan": "#c2185b",
-  "africa": "#f9a825", "americas": "#5e35b1",
+  "africa": "#f9a825", "americas": "#5e35b1", "oceania": "#26a69a",
   "europe-central": "#9ccc65", "europe-east": "#5d4037",
   "northern-europe": "#4fc3f7",
 };
@@ -606,6 +606,7 @@ const MACRO = [
   ["Pontic Steppe", ["pontic-steppe"]],
   ["Italy", ["italy"]],
   ["Western Europe", ["gaul", "iberia", "britannia", "germania"]],
+  ["Northern Europe", ["northern-europe"]],
   ["Central & Eastern Europe", ["europe-central", "europe-east"]],
   ["South Asia", ["india"]],
   ["East Asia", ["china", "japan", "korea"]],
@@ -613,6 +614,7 @@ const MACRO = [
   ["North Africa", ["north-africa"]],
   ["Sub-Saharan Africa", ["africa"]],
   ["Americas", ["americas"]],
+  ["Oceania", ["oceania"]],
 ];
 const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.startsWith(p + "-"));
 
