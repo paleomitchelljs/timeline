@@ -28,6 +28,7 @@
   .axis text { fill: var(--muted); font-size: 11px; }
   .axis line { stroke: var(--grid); }
   .rowlabel { fill: var(--ink); }
+  .clabel { pointer-events: none; }
   .controls { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
   .controls button {
     background: #232733; color: var(--ink); border: 1px solid var(--line);
@@ -219,7 +220,12 @@ function applyVB() { if (MAP.svg && MAP.vb) MAP.svg.setAttribute("viewBox", `${M
 function rescaleMarkers() {
   if (!MAP.markerG || !MAP.vb) return;
   const s = MAP.vb.w / MAP.W;
-  for (const g of MAP.markerG.children) g.setAttribute("transform", `translate(${g.dataset.cx},${g.dataset.cy}) scale(${s})`);
+  const showLabels = s < 0.45;   // names declutter the overview: shown only once zoomed in (hover shows them at any level)
+  for (const g of MAP.markerG.children) {
+    g.setAttribute("transform", `translate(${g.dataset.cx},${g.dataset.cy}) scale(${s})`);
+    const lab = g.querySelector(".clabel");
+    if (lab) lab.style.display = showLabels ? "" : "none";
+  }
 }
 function bindMapControls() {
   const svg = document.getElementById("map");
@@ -331,8 +337,8 @@ function setupMap(model, basemap, onSelect) {
         + `<br><span class="meta">${regionLabel(c.region)}</span>`);
       // minor cities are hover-only; label major cities (sizable or a capital that year)
       if (TimelineModel.isMajorAt(info, year)) {
-        const lab = el("text", { x: r + 3, y: 3, "font-size": 10 }, mk);
-        lab.setAttribute("fill", "#cfd3da"); lab.textContent = nm;
+        const lab = el("text", { x: r + 3, y: 3, "font-size": 10, class: "clabel" }, mk);
+        lab.setAttribute("fill", "#cfd3da"); lab.style.display = "none"; lab.textContent = nm;
       }
     }
     rescaleMarkers();

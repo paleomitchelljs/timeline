@@ -2949,3 +2949,122 @@ obs_2962,vientiane,1779,1779,circa,conquest,,Thailand,Lieberman2003,medium,Sacke
 obs_2963,changan,-1046,-771,circa,capital_status,Capital of the Zhou dynasty,,Lewis2007,medium,The Western Zhou royal capital at Haojing in the Wei valley
 obs_2964,changan,-677,-677,circa,conquest,,Qin dynasty,Lewis2007,low,The Wei valley becomes the heartland of rising Qin
 obs_2965,hakata,700,700,circa,conquest,,Japan,Totman2000,low,The court's gateway port for trade with the mainland
+obs_2966,datong,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,A Han frontier county at Pingcheng
+obs_2967,datong,535,535,circa,conquest,,Northern Qi,Lewis2007,low,Held by Eastern Wei and then Northern Qi
+obs_2968,datong,581,581,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
+obs_2969,datong,618,618,circa,conquest,,Tang dynasty,Mote1999,medium,The Tang prefecture of Yunzhou until the Sixteen Prefectures were ceded to the Liao
+obs_2970,datong,1271,1271,circa,conquest,,Yuan dynasty,Mote1999,low,The Datong route under the Yuan
+obs_2971,pergamon,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,A Byzantine city of western Anatolia
+obs_2972,larissa,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,A Byzantine city of Thessaly
+obs_2973,skopje,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,A Byzantine city of the central Balkans
+obs_2974,skopje,1282,1282,circa,conquest,,Kingdom of Serbia,Mango2002,medium,Taken by Serbia and later a seat of Dushan's empire
+obs_2975,rhodes,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,A Byzantine island before the Knights Hospitaller
+obs_2976,trapezus,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,A Byzantine port before the Empire of Trebizond
+obs_2977,sidon,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad coastal town
+obs_2978,sidon,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_2979,sidon,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,Under Fatimid Egypt
+obs_2980,sidon,1110,1110,circa,conquest,,Crusaders,Mango2002,medium,Taken by the Crusaders
+obs_2981,sidon,1291,1291,circa,conquest,,Mamluk Sultanate,Kennedy2004,low,Retaken by the Mamluks
+obs_2982,tyre,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad coastal town
+obs_2983,tyre,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_2984,tyre,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,A prosperous Fatimid port before the Crusaders
+obs_2985,acre,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad coastal town
+obs_2986,acre,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_2987,acre,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,A Fatimid port before the Crusaders
+obs_2988,gaza,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad town on the coastal road
+obs_2989,gaza,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_2990,gaza,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,Under Fatimid Egypt before the Crusaders
+obs_2991,alexandria,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,A great port of the Umayyad caliphate
+obs_2992,alexandria,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_2993,alexandria,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,medium,A chief port of Fatimid Egypt
+obs_2994,alexandria,1171,1171,circa,conquest,,Ayyubid Sultanate,Kennedy2004,low,Under Saladin's Ayyubids
+obs_2995,alexandria,1250,1250,circa,conquest,,Mamluk Sultanate,Kennedy2004,medium,A great Mamluk trade port
+obs_2996,amman,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,An Umayyad district with desert palaces nearby
+obs_2997,amman,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_2998,amman,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,Under Fatimid overlordship
+obs_2999,amman,1263,1263,circa,conquest,,Mamluk Sultanate,Kennedy2004,low,A minor Mamluk town
+obs_3000,thebes,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad district of Upper Egypt
+obs_3001,thebes,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_3002,thebes,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,Under Fatimid Egypt
+obs_3003,thebes,1174,1174,circa,conquest,,Ayyubid Sultanate,Kennedy2004,low,Under the Ayyubids
+obs_3004,thebes,1250,1250,circa,conquest,,Mamluk Sultanate,Kennedy2004,low,Under the Mamluks before the Ottomans
+obs_3005,cairo,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Fustat as an Umayyad garrison capital of Egypt
+obs_3006,cairo,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Fustat under the Abbasids before Cairo was founded
+obs_3007,tbilisi,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Seat of the Arab emirate of Tbilisi
+obs_3008,tbilisi,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,The emirate under Abbasid suzerainty
+obs_3009,tbilisi,1080,1080,circa,conquest,,Seljuk Empire,Beckwith2009,low,Held by the Seljuks before the Georgian reconquest
+obs_3010,yerevan,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,Under Umayyad Armenia
+obs_3011,yerevan,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under Abbasid Armenia
+obs_3012,memphis,-30,-30,circa,conquest,,Rome,Beard2015,low,A town of Roman Egypt
+obs_3013,memphis,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A declining Byzantine town before the Arab conquest
+obs_3014,memphis,-747,-747,circa,conquest,,Kushite 25th Dynasty,Shaw2000,low,Held by the Kushite pharaohs
+obs_3015,elephantine,-747,-747,circa,conquest,,Kushite 25th Dynasty,Shaw2000,low,Held by the Kushite pharaohs
+obs_3016,elephantine,-525,-525,circa,conquest,,Achaemenid Persia,Briant2002,medium,A Persian garrison with a Jewish military colony
+obs_3017,elephantine,-30,-30,circa,conquest,,Rome,Beard2015,low,A frontier town of Roman Egypt
+obs_3018,elephantine,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine frontier town at the cataract
+obs_3019,elephantine,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad frontier town facing Nubia
+obs_3020,elephantine,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_3021,elephantine,969,969,circa,conquest,,Fatimid Caliphate,Kennedy2004,low,Under Fatimid Egypt
+obs_3022,elephantine,1250,1250,circa,conquest,,Mamluk Sultanate,Kennedy2004,low,Under the Mamluks before the Ottomans
+obs_3023,seville,756,756,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,medium,A great city of al-Andalus under Cordoba
+obs_3024,seville,1091,1091,circa,conquest,,Almoravid Empire,Kennedy1996,low,Annexed by the Almoravids
+obs_3025,lisbon,756,756,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,low,A port of al-Andalus under Cordoba
+obs_3026,lisbon,1093,1093,circa,conquest,,Almoravid Empire,Kennedy1996,low,Under the Almoravids before the Christian conquest
+obs_3027,toletum,756,756,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,medium,A frontier capital of al-Andalus under Cordoba
+obs_3028,tarraco,756,756,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,low,A thinly held frontier town of al-Andalus
+obs_3029,carthago-nova,756,756,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,low,A port of al-Andalus under Cordoba
+obs_3030,carthago-nova,1092,1092,circa,conquest,,Almoravid Empire,Kennedy1996,low,Under the Almoravids
+obs_3031,carthago-nova,1172,1172,circa,conquest,,Almohad Caliphate,Kennedy1996,low,Under the Almohads before the Castilian conquest
+obs_3032,emerita-augusta,756,756,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,low,A city of al-Andalus under Cordoba
+obs_3033,emerita-augusta,1094,1094,circa,conquest,,Almoravid Empire,Kennedy1996,low,Under the Almoravids
+obs_3034,emerita-augusta,1147,1147,circa,conquest,,Almohad Caliphate,Kennedy1996,low,Under the Almohads before the Christian conquest
+obs_3035,gades,756,756,circa,conquest,,Umayyad Caliphate of Cordoba,Kennedy1996,low,A port of al-Andalus under Cordoba
+obs_3036,gades,1091,1091,circa,conquest,,Almoravid Empire,Kennedy1996,low,Under the Almoravids
+obs_3037,gades,1147,1147,circa,conquest,,Almohad Caliphate,Kennedy1996,low,Under the Almohads before the Castilian conquest
+obs_3038,algiers,909,909,circa,conquest,,Fatimid Caliphate,Kennedy1996,low,Taken by the Fatimids from the Aghlabids
+obs_3039,palermo,535,535,circa,conquest,,Byzantine Empire,Mango2002,medium,Reconquered for Byzantium by Belisarius
+obs_3040,palermo,909,909,circa,conquest,,Fatimid Caliphate,Kennedy1996,medium,Passed to the Fatimids and their Kalbid emirs
+obs_3041,hangzhou,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,A great Ming city of the lower Yangtze
+obs_3042,hangzhou,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
+obs_3043,quanzhou,1646,1646,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
+obs_3044,samarkand,100,100,circa,conquest,,Kushan Empire,Beckwith2009,low,On the fringe of the Kushan realm
+obs_3045,samarkand,260,260,circa,conquest,,Sasanian Empire,Beckwith2009,low,Under Sasanian and Sogdian rule
+obs_3046,samarkand,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,medium,A great city of the Abbasid east
+obs_3047,samarkand,900,900,circa,conquest,,Samanid Empire,Beckwith2009,medium,A jewel of the Samanid realm
+obs_3048,samarkand,1000,1000,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,low,Under the Kara-Khanids
+obs_3049,samarkand,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,high,Sacked by Genghis Khan
+obs_3050,samarkand,1500,1500,circa,conquest,,Khanate of Bukhara,Soucek2000,medium,Under the Shaybanid Khanate of Bukhara
+obs_3051,tashkent,1006,1006,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,low,Under the Kara-Khanids
+obs_3052,tashkent,1500,1500,circa,conquest,,Khanate of Bukhara,Soucek2000,low,Under the Shaybanid Khanate of Bukhara
+obs_3053,fuzhou,222,222,circa,conquest,,Eastern Wu,Lewis2007,low,Under Eastern Wu
+obs_3054,fuzhou,420,420,circa,conquest,,Southern dynasties,Lewis2007,low,A southern-dynasties coastal town
+obs_3055,fuzhou,589,589,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
+obs_3056,taiyuan,220,220,circa,conquest,,Cao Wei,Lewis2007,low,A city of Cao Wei
+obs_3057,taiyuan,396,396,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei
+obs_3058,taiyuan,550,550,circa,conquest,,Northern Qi,Lewis2007,low,A stronghold of the Northern Qi
+obs_3059,taiyuan,581,581,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
+obs_3060,uruk,-729,-729,circa,conquest,,Assyria,Frahm2017,low,Brought under Assyrian control with Babylonia
+obs_3061,kish,-729,-729,circa,conquest,,Assyria,Frahm2017,low,Brought under Assyrian control with Babylonia
+obs_3062,ur,-729,-729,circa,conquest,,Assyria,Frahm2017,low,Brought under Assyrian control with Babylonia
+obs_3063,nippur,-729,-729,circa,conquest,,Assyria,Frahm2017,low,Brought under Assyrian control with Babylonia
+obs_3064,larsa,-729,-729,circa,conquest,,Assyria,Frahm2017,low,Brought under Assyrian control with Babylonia
+obs_3065,aleppo,-64,-64,circa,conquest,,Rome,Beard2015,medium,A great city of Roman Syria
+obs_3066,tyre,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,low,Part of Ottoman Syria
+obs_3067,shiraz,1062,1062,circa,conquest,,Seljuk Empire,Beckwith2009,low,Under the Seljuks
+obs_3068,shiraz,1393,1393,circa,conquest,,Timurid Empire,Beckwith2009,medium,Taken by Timur
+obs_3069,shiraz,1503,1503,circa,conquest,,Safavid Empire,Axworthy2008,medium,A Safavid city famed for poets and gardens
+obs_3070,ghazni,1383,1383,circa,conquest,,Timurid Empire,Beckwith2009,low,Within the Timurid realm
+obs_3071,ghazni,1526,1526,circa,conquest,,Mughal Empire,AsherTalbot2006,low,A Mughal frontier town
+obs_3072,akragas,535,535,circa,conquest,,Byzantine Empire,Mango2002,low,Reconquered for Byzantium under Justinian
+obs_3073,akragas,909,909,circa,conquest,,Fatimid Caliphate,Kennedy1996,low,Under Fatimid and Kalbid Sicily
+obs_3074,akragas,1087,1087,circa,conquest,,Kingdom of Sicily,Abulafia2011,medium,Taken by the Normans of Sicily
+obs_3075,hippo-regius,909,909,circa,conquest,,Fatimid Caliphate,Kennedy1996,low,Under the Fatimids and Zirids
+obs_3076,hippo-regius,1152,1152,circa,conquest,,Almohad Caliphate,Kennedy1996,low,Under the Almohads
+obs_3077,hippo-regius,1235,1235,circa,conquest,,Hafsid dynasty,AbunNasr1987,low,Within the Hafsid realm of Ifriqiya
+obs_3078,hippo-regius,1574,1574,circa,conquest,,Ottoman Empire,AbunNasr1987,low,Part of Ottoman Algeria
+obs_3079,uruk,-1763,-1763,circa,conquest,,Babylon,Kuhrt1995,low,Annexed by Hammurabi of Babylon
+obs_3080,nippur,-1763,-1763,circa,conquest,,Babylon,Kuhrt1995,low,Annexed by Hammurabi of Babylon
+obs_3081,aden,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad port of Yemen
+obs_3082,aden,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids before the local Yemeni dynasties
+obs_3083,aleppo,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad city of northern Syria
+obs_3084,aleppo,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids before the Hamdanids
