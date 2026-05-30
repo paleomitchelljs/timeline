@@ -1422,7 +1422,7 @@ obs_1419,brasilia,2020,2020,circa,population_estimate,4700000,,UN2018,low,Modern
 obs_1420,buenos-aires,1580,1580,circa,founding,,Spanish Empire,Bethell1984,medium,Refounded as a Spanish port and later seat of the Rio de la Plata viceroyalty
 obs_1421,buenos-aires,1810,2020,circa,capital_status,Capital of Argentina,,Bethell1984,high,Capital after the May Revolution and independence
 obs_1422,buenos-aires,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Buenos Aires
-obs_1423,havana,1535,1535,circa,conquest,,New Spain,Bethell1984,low,Administered within the viceroyalty of New Spain
+obs_1423,havana,1535,1535,circa,conquest,,Spanish Empire,Bethell1984,low,A Spanish stronghold administered within the viceroyalty of New Spain
 obs_1424,tripoli,439,439,circa,conquest,,Vandals,Raven1993,low,Taken by the Vandals from Roman Africa
 obs_1425,tripoli,533,533,circa,conquest,,Byzantine Empire,Raven1993,low,Recovered in the Byzantine reconquest
 obs_1426,tripoli,643,643,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,Taken in the Arab conquest of the Maghrib
@@ -2332,3 +2332,288 @@ obs_2330,honolulu,1800,1800,circa,founding,,Kingdom of Hawaii,Darwin2012,low,Sea
 obs_2331,honolulu,1845,1898,circa,capital_status,Capital of the Kingdom of Hawaii,,Darwin2012,medium,Capital of the independent Hawaiian kingdom
 obs_2332,honolulu,1898,1898,circa,conquest,,United States,Taylor2001,medium,Annexed by the United States
 obs_2333,honolulu,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Honolulu
+obs_2334,byzantium,73,73,circa,conquest,,Rome,Mango2002,medium,Byzantion annexed into the Roman Empire under Vespasian
+obs_2335,arbela,-141,-141,circa,conquest,,Parthian Empire,Daryaee2009,low,Adiabene under Parthian overlordship
+obs_2336,wuhan,223,223,circa,founding,,Eastern Wu,Mote1999,low,Founded as Wuchang on the Yangtze
+obs_2337,wuhan,1364,1364,circa,conquest,,Ming dynasty,Mote1999,low,A Ming provincial city
+obs_2338,wuhan,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Held by the Qing
+obs_2339,wuhan,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A great industrial center of modern China
+obs_2340,wuhan,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Wuhan
+obs_2341,chongqing,-316,-316,circa,founding,,Qin dynasty,Lewis2007,low,Founded in the Qin conquest of Ba
+obs_2342,chongqing,1937,1945,circa,capital_status,Capital of the Republic of China,,Mote1999,high,Wartime capital of Nationalist China
+obs_2343,chongqing,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A vast Yangtze metropolis
+obs_2344,chongqing,2020,2020,circa,population_estimate,16000000,,UN2018,medium,Modern Chongqing
+obs_2345,tianjin,1404,1404,circa,founding,,Ming dynasty,Mote1999,low,Founded as a Ming garrison guarding the capital
+obs_2346,tianjin,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,A Qing port; later a treaty port with foreign concessions
+obs_2347,tianjin,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A great northern port of modern China
+obs_2348,tianjin,2020,2020,circa,population_estimate,14000000,,UN2018,medium,Modern Tianjin
+obs_2349,shenyang,-300,-300,circa,founding,,,Mote1999,low,An ancient town of the Liao plain
+obs_2350,shenyang,1625,1644,circa,capital_status,Capital of the Qing dynasty,Nurhaci,Mote1999,high,Mukden the early Manchu capital before Beijing
+obs_2351,shenyang,1931,1931,circa,conquest,,Empire of Japan,Totman2000,medium,Seized in the Mukden Incident; capital of Manchukuo's heartland
+obs_2352,shenyang,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A heavy-industry hub of modern China
+obs_2353,shenyang,2020,2020,circa,population_estimate,8000000,,UN2018,medium,Modern Shenyang
+obs_2354,harbin,1898,1898,circa,founding,,Russia,Soucek2000,low,Founded as a Russian railway town in Manchuria
+obs_2355,harbin,1932,1932,circa,conquest,,Empire of Japan,Totman2000,low,Part of Japanese Manchukuo
+obs_2356,harbin,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A great city of northeastern China
+obs_2357,harbin,2020,2020,circa,population_estimate,10000000,,UN2018,medium,Modern Harbin
+obs_2358,nagoya,1610,1610,circa,founding,,Tokugawa shogunate,Totman2000,low,Castle city of the Owari Tokugawa
+obs_2359,nagoya,1868,1868,circa,conquest,,Empire of Japan,Totman2000,low,An industrial city of the Meiji empire
+obs_2360,nagoya,1945,1945,circa,conquest,,Japan,Totman2000,low,A great industrial metropolis of Japan
+obs_2361,nagoya,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern Nagoya
+obs_2362,hiroshima,1589,1589,circa,founding,,,Totman2000,low,Founded as a castle town on the delta
+obs_2363,hiroshima,1868,1868,circa,conquest,,Empire of Japan,Totman2000,low,A military city of the Meiji empire
+obs_2364,hiroshima,1945,1945,exact,attestation,Atomic bombing,United States,Totman2000,high,Destroyed by the first atomic bomb used in war
+obs_2365,hiroshima,1945,1945,circa,conquest,,Japan,Totman2000,low,Rebuilt as a city of postwar Japan
+obs_2366,hiroshima,2020,2020,circa,population_estimate,2000000,,UN2018,low,Modern Hiroshima
+obs_2367,sapporo,1868,1868,circa,founding,,Empire of Japan,Totman2000,low,Founded in the Meiji colonization of Hokkaido
+obs_2368,sapporo,1945,1945,circa,conquest,,Japan,Totman2000,low,Capital of Hokkaido in postwar Japan
+obs_2369,sapporo,2020,2020,circa,population_estimate,2600000,,UN2018,low,Modern Sapporo
+obs_2370,hue,1306,1306,circa,founding,,Dai Viet,Lieberman2003,low,A frontier town won from Champa
+obs_2371,hue,1802,1945,circa,capital_status,Capital of Vietnam,Gia Long,Lieberman2003,high,Imperial capital of the Nguyen dynasty
+obs_2372,hue,1883,1883,circa,conquest,,French Empire,Lieberman2003,low,Seat of the French protectorate of Annam
+obs_2373,hue,1945,1945,circa,conquest,,Vietnam,Lieberman2003,low,Part of independent Vietnam
+obs_2374,hue,2020,2020,circa,population_estimate,650000,,UN2018,low,Modern Hue
+obs_2375,ho-chi-minh-city,1698,1698,circa,founding,,Dai Viet,Lieberman2003,low,Vietnamese Saigon won from the Khmer
+obs_2376,ho-chi-minh-city,1859,1859,circa,conquest,,French Empire,Lieberman2003,medium,Capital of French Cochinchina
+obs_2377,ho-chi-minh-city,1955,1975,circa,capital_status,Capital of South Vietnam,,Lieberman2003,high,Capital of the Republic of Vietnam
+obs_2378,ho-chi-minh-city,1976,2020,circa,conquest,,Vietnam,Lieberman2003,medium,Renamed Ho Chi Minh City in reunified Vietnam
+obs_2379,ho-chi-minh-city,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern Ho Chi Minh City
+obs_2380,busan,1400,1400,circa,founding,,Joseon,Seth2010,low,A southern port of Joseon Korea
+obs_2381,busan,1910,1910,circa,conquest,,Empire of Japan,Seth2010,low,A port under Japanese rule
+obs_2382,busan,1948,1948,circa,conquest,,South Korea,Seth2010,low,A great port of the Republic of Korea
+obs_2383,busan,2020,2020,circa,population_estimate,3400000,,UN2018,medium,Modern Busan
+obs_2384,incheon,1883,1883,circa,founding,,Joseon,Seth2010,low,Opened as a treaty port near Seoul
+obs_2385,incheon,1910,1910,circa,conquest,,Empire of Japan,Seth2010,low,A port under Japanese rule
+obs_2386,incheon,1948,1948,circa,conquest,,South Korea,Seth2010,low,Gateway port to Seoul
+obs_2387,incheon,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Incheon
+obs_2388,chiang-mai,1296,1296,circa,founding,,,Lieberman2003,low,Founded by King Mangrai
+obs_2389,chiang-mai,1296,1558,circa,capital_status,Capital of Lan Na,Mangrai,Lieberman2003,high,Capital of the Lan Na kingdom
+obs_2390,chiang-mai,1558,1558,circa,conquest,,Konbaung Burma,Lieberman2003,low,Taken by the Burmese
+obs_2391,chiang-mai,1774,1774,circa,conquest,,Thailand,Lieberman2003,low,Brought under Siam and modern Thailand
+obs_2392,chiang-mai,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Chiang Mai
+obs_2393,mandalay,1857,1857,circa,founding,,Konbaung Burma,Lieberman2003,medium,Built as the last royal capital of Burma
+obs_2394,mandalay,1857,1885,circa,capital_status,Capital of Konbaung Burma,Mindon,Lieberman2003,high,The last Burmese royal capital
+obs_2395,mandalay,1885,1885,circa,conquest,,British Empire,Darwin2012,medium,Annexed at the end of the Third Anglo-Burmese War
+obs_2396,mandalay,1948,1948,circa,conquest,,Myanmar,Lieberman2003,low,A great city of independent Myanmar
+obs_2397,mandalay,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Mandalay
+obs_2398,bago,825,825,circa,founding,,,Lieberman2003,low,An early Mon city of lower Burma
+obs_2399,bago,1369,1539,circa,capital_status,Capital of the Hanthawaddy Kingdom,,Lieberman2003,high,Capital of the Mon kingdom of Pegu
+obs_2400,bago,1757,1757,circa,conquest,,Konbaung Burma,Lieberman2003,low,Destroyed and absorbed by the Konbaung
+obs_2401,bago,1948,1948,circa,conquest,,Myanmar,Lieberman2003,low,Part of independent Myanmar
+obs_2402,bago,2020,2020,circa,population_estimate,490000,,UN2018,low,Modern Bago
+obs_2403,ava,1365,1365,circa,founding,,,Lieberman2003,low,Founded on the Irrawaddy
+obs_2404,ava,1365,1752,circa,capital_status,Capital of the Kingdom of Ava,,Lieberman2003,high,The long-time Burmese royal capital
+obs_2405,ava,1752,1752,circa,conquest,,Konbaung Burma,Lieberman2003,low,Eclipsed by the rising Konbaung
+obs_2406,ava,1841,1841,circa,abandonment,,,Lieberman2003,low,Abandoned for nearby Amarapura and Mandalay
+obs_2407,naukratis,-620,-620,circa,founding,,Miletus,Boardman1999,medium,The great Greek emporion in Saite Egypt
+obs_2408,naukratis,-525,-525,circa,conquest,,Achaemenid Persia,Boardman1999,low,Under Persian Egypt
+obs_2409,naukratis,-332,-332,circa,conquest,,Macedon,Boardman1999,low,Eclipsed by Alexandria under the Ptolemies
+obs_2410,naukratis,-100,-100,century,abandonment,,,Boardman1999,low,Faded as Alexandria rose
+obs_2411,emporion,-575,-575,circa,founding,,Phocaea,Boardman1999,low,A Phocaean trading colony on the Iberian coast
+obs_2412,emporion,-218,-218,circa,conquest,,Rome,Beard2015,medium,A Roman bridgehead in the Second Punic War
+obs_2413,emporion,700,700,century,abandonment,,,Boardman1999,low,Declined in late antiquity
+obs_2414,pithekoussai,-750,-750,circa,founding,,Euboea,Boardman1999,medium,The earliest Greek emporion in the west on Ischia
+obs_2415,pithekoussai,-400,-400,century,abandonment,,,Boardman1999,low,Eclipsed by the mainland colonies
+obs_2416,cumae,-740,-740,circa,founding,,Euboea,Boardman1999,medium,The first Greek colony on the Italian mainland
+obs_2417,cumae,-421,-421,circa,conquest,,Samnites,Boardman1999,low,Taken by the Oscan Samnites
+obs_2418,cumae,-338,-338,circa,conquest,,Rome,Beard2015,low,Absorbed into the Roman state
+obs_2419,cumae,1207,1207,century,abandonment,,,Boardman1999,low,Abandoned in the Middle Ages
+obs_2420,al-mina,-800,-800,circa,founding,,Euboea,Boardman1999,medium,An early Greek-Levantine emporion at the Orontes mouth
+obs_2421,al-mina,-333,-333,circa,conquest,,Macedon,Boardman1999,low,Eclipsed by Seleucid Antioch and its port
+obs_2422,al-mina,-300,-300,century,abandonment,,,Boardman1999,low,Abandoned as Antioch's harbor rose
+obs_2423,trapezus,-756,-756,circa,founding,,Miletus,Boardman1999,low,A Milesian colony on the Black Sea
+obs_2424,trapezus,-63,-63,circa,conquest,,Rome,Beard2015,low,A Roman Black Sea port
+obs_2425,trapezus,1204,1461,circa,capital_status,Capital of the Empire of Trebizond,,Mango2002,high,Capital of a Byzantine successor empire
+obs_2426,trapezus,1461,1461,circa,conquest,,Ottoman Empire,Mango2002,medium,Conquered by Mehmed II
+obs_2427,trapezus,1923,1923,circa,conquest,,Turkey,Davies1996,low,Part of the Turkish Republic
+obs_2428,trapezus,2020,2020,circa,population_estimate,810000,,UN2018,low,Modern Trabzon
+obs_2429,akragas,-582,-582,circa,founding,,,Boardman1999,low,A wealthy Greek colony of southern Sicily
+obs_2430,akragas,-406,-406,circa,conquest,,Carthaginian Empire,Miles2010,low,Sacked by Carthage
+obs_2431,akragas,-210,-210,circa,conquest,,Rome,Beard2015,low,Taken by Rome in the Punic Wars
+obs_2432,akragas,1860,1860,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy as Agrigento
+obs_2433,akragas,2020,2020,circa,population_estimate,60000,,UN2018,low,Modern Agrigento
+obs_2434,sybaris,-720,-720,circa,founding,,Achaea,Boardman1999,low,A famously wealthy Achaean colony of Magna Graecia
+obs_2435,sybaris,-510,-510,circa,destruction,,Croton,Boardman1999,medium,Destroyed by rival Croton
+obs_2436,sybaris,-510,-510,circa,abandonment,,,Boardman1999,low,Abandoned after its destruction
+obs_2437,sippar,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Absorbed into Sargon's Akkadian empire
+obs_2438,sippar,-1763,-1763,circa,conquest,,Babylon,Kuhrt1995,low,Taken by Hammurabi as a great cult city of Shamash
+obs_2439,sippar,-1595,-1595,circa,conquest,,Kassite Dynasty,Kuhrt1995,low,A temple city of Kassite Babylonia
+obs_2440,sippar,-729,-729,circa,conquest,,Assyria,Frahm2017,low,Brought under Assyrian control with Babylonia
+obs_2441,sippar,-626,-626,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,medium,A flourishing Neo-Babylonian cult city of the Ebabbar
+obs_2442,sippar,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,medium,Taken by Cyrus with the fall of Babylon
+obs_2443,eridu,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Nominally within the Akkadian empire
+obs_2444,eridu,-2112,-2112,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,The Enki temple was restored under the Ur III kings
+obs_2445,adab,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Incorporated into the Akkadian empire
+obs_2446,adab,-2112,-2112,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,A provincial city of the Ur III state
+obs_2447,shuruppak,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Came under Akkadian control before its decline
+obs_2448,troy,-546,-546,circa,conquest,,Achaemenid Persia,Briant2002,low,The Troad passed to Persia with the conquest of Lydia
+obs_2449,troy,-334,-334,circa,conquest,,Macedon,Hornblower2011,medium,Alexander sacrificed at Ilion at the outset of his campaign
+obs_2450,troy,-281,-281,circa,conquest,,Seleucid Empire,Hornblower2011,low,Ilion in the Seleucid sphere after Corupedium
+obs_2451,troy,-85,-85,circa,conquest,,Rome,Beard2015,medium,Fimbria sacked Ilion which Rome cherished as ancestral Ilium
+obs_2452,troy,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A declining Byzantine bishopric before abandonment
+obs_2453,kish,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,medium,Absorbed into the empire of Sargon who rose from Kish
+obs_2454,kish,-1763,-1763,circa,conquest,,Babylon,Kuhrt1995,low,Part of Hammurabi's Babylonia
+obs_2455,kish,-1595,-1595,circa,conquest,,Kassite Dynasty,Kuhrt1995,low,A town of Kassite Babylonia
+obs_2456,kish,-626,-626,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,A Neo-Babylonian town near Babylon
+obs_2457,kish,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Taken by Cyrus with Babylonia
+obs_2458,kish,-311,-311,circa,conquest,,Seleucid Empire,Hornblower2011,low,Occupied in the Seleucid period
+obs_2459,kish,-141,-141,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian rule
+obs_2460,kish,224,224,circa,conquest,,Sasanian Empire,Kuhrt1995,low,A Sasanian-era settlement before its early Islamic abandonment
+obs_2461,girsu,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Incorporated into the Akkadian empire
+obs_2462,girsu,-2112,-2112,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,medium,A major provincial center of the Ur III state
+obs_2463,girsu,-311,-311,circa,conquest,,Seleucid Empire,Hornblower2011,low,A small Hellenistic settlement at Telloh before abandonment
+obs_2464,nineveh,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Naram-Sin built at the Ishtar temple of Nineveh
+obs_2465,nineveh,-1363,-1363,circa,conquest,,Assyria,Frahm2017,medium,A principal city of the Assyrian kingdom
+obs_2466,nineveh,-610,-610,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Held by Babylon after the sack of Nineveh
+obs_2467,nineveh,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,A minor town under Persian rule
+obs_2468,nineveh,-312,-312,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid settlement on the Tigris
+obs_2469,nineveh,-141,-141,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian rule
+obs_2470,nineveh,226,226,circa,conquest,,Sasanian Empire,Kuhrt1995,low,A Sasanian town opposite the future Mosul
+obs_2471,harran,-1300,-1300,circa,conquest,,Assyria,Frahm2017,medium,A Middle Assyrian provincial city and cult center of Sin
+obs_2472,harran,-610,-610,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,medium,Nabonidus rebuilt the temple of Sin at Harran
+obs_2473,harran,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Under Persian rule
+obs_2474,harran,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander
+obs_2475,harran,-312,-312,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid town known as Carrhae
+obs_2476,harran,-53,-53,circa,conquest,,Parthian Empire,Kuhrt1995,medium,Site of Crassus's defeat at Carrhae and long contested with Rome
+obs_2477,harran,260,260,circa,conquest,,Sasanian Empire,Kuhrt1995,low,A contested frontier town under the Sasanians
+obs_2478,harran,640,640,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the Arab conquest of the Jazira
+obs_2479,harran,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,An Umayyad city of the Jazira which Marwan II later made his capital
+obs_2480,harran,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid town and seat of learning
+obs_2481,larsa,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Within the Akkadian empire
+obs_2482,larsa,-1595,-1595,circa,conquest,,Kassite Dynasty,Kuhrt1995,low,A city of Kassite Babylonia
+obs_2483,larsa,-626,-626,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,A Neo-Babylonian cult town of the sun god
+obs_2484,larsa,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Taken by Cyrus with Babylonia
+obs_2485,larsa,-311,-311,circa,conquest,,Seleucid Empire,Hornblower2011,low,Minor occupation in the Seleucid period before abandonment
+obs_2486,mari,-2300,-2300,circa,conquest,,Akkadian Empire,Kuhrt1995,medium,Held by the Akkadian kings with governors at Mari
+obs_2487,mari,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,A village under Persian rule
+obs_2488,mari,-311,-311,circa,conquest,,Seleucid Empire,Hornblower2011,low,A small Hellenistic settlement before final abandonment
+obs_2489,ur,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,medium,Incorporated into the Akkadian empire under Sargon
+obs_2490,ur,-1595,-1595,circa,conquest,,Kassite Dynasty,Kuhrt1995,low,The Kassite kings maintained the temples of Ur
+obs_2491,ur,-626,-626,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,medium,Nabonidus rebuilt the ziggurat and temples of Ur
+obs_2492,ur,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Under Persian rule before the Euphrates shifted away
+obs_2493,nippur,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Within the Akkadian empire with the Ekur patronized by Akkad
+obs_2494,nippur,-2112,-2112,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,medium,A central cult city of the Ur III state
+obs_2495,nippur,-1595,-1595,circa,conquest,,Kassite Dynasty,Kuhrt1995,medium,Flourished under Kassite patronage of the Enlil cult
+obs_2496,nippur,-626,-626,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,A Neo-Babylonian cult town
+obs_2497,nippur,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Under Persian rule when the Murashu archive was written
+obs_2498,nippur,-141,-141,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian rule
+obs_2499,uruk,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,medium,Sargon defeated Lugalzagesi and took Uruk into his empire
+obs_2500,uruk,-2112,-2112,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,low,A city of the Ur III state
+obs_2501,uruk,-1595,-1595,circa,conquest,,Kassite Dynasty,Kuhrt1995,low,An Eanna temple city under Kassite Babylonia
+obs_2502,uruk,-626,-626,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,medium,A great Neo-Babylonian cult city of the Eanna
+obs_2503,uruk,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,medium,Taken by Cyrus with the Eanna continuing under Persian rule
+obs_2504,uruk,224,224,circa,conquest,,Sasanian Empire,Kuhrt1995,low,A Sasanian-era settlement before its abandonment
+obs_2505,merv,-281,-281,circa,conquest,,Seleucid Empire,Hornblower2011,low,Refounded as Antiochia Margiana by the Seleucids
+obs_2506,merv,-150,-150,circa,conquest,,Parthian Empire,Kuhrt1995,medium,A key eastern city of the Parthian empire
+obs_2507,merv,224,224,circa,conquest,,Sasanian Empire,Kuhrt1995,medium,A great Sasanian frontier city and East Syriac metropolitan seat
+obs_2508,merv,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,An Umayyad center of Khorasan and base for Qutayba ibn Muslim's conquest of Transoxiana
+obs_2509,merv,748,748,circa,conquest,,Abbasid Caliphate,Kennedy2004,medium,The Abbasid revolution was launched from Merv under Abu Muslim
+obs_2510,merv,1037,1037,circa,conquest,,Seljuk Empire,Beckwith2009,medium,A capital of the Great Seljuk empire under Sultan Sanjar
+obs_2511,merv,1380,1380,circa,conquest,,Timurid Empire,Beckwith2009,low,A modest town rebuilt under Timurid rule
+obs_2512,balkh,-550,-550,circa,conquest,,Achaemenid Persia,Briant2002,medium,The Achaemenid satrapy of Bactria centered on Bactra
+obs_2513,balkh,-305,-305,circa,conquest,,Seleucid Empire,Hornblower2011,low,Within the Seleucid east before the Greco-Bactrian secession
+obs_2514,balkh,50,50,circa,conquest,,Kushan Empire,Beckwith2009,medium,A major city and Buddhist center of the Kushan empire
+obs_2515,balkh,250,250,circa,conquest,,Sasanian Empire,Kuhrt1995,low,Under Sasanian and Kushano-Sasanian rule
+obs_2516,balkh,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad town of Tukharistan
+obs_2517,balkh,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid city and home of the Barmakid viziers
+obs_2518,balkh,998,998,circa,conquest,,Ghaznavid Empire,Beckwith2009,medium,A great city under the Ghaznavids
+obs_2519,balkh,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,low,Rebuilt within the Timurid realm
+obs_2520,herat,-500,-500,circa,conquest,,Achaemenid Persia,Briant2002,medium,The district of Aria under the Achaemenids
+obs_2521,herat,-305,-305,circa,conquest,,Seleucid Empire,Hornblower2011,low,Within the Seleucid east
+obs_2522,herat,-150,-150,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian and Indo-Parthian rule
+obs_2523,herat,224,224,circa,conquest,,Sasanian Empire,Kuhrt1995,medium,A frontier city of the Sasanian northeast
+obs_2524,herat,652,652,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the Arab conquest of Khorasan
+obs_2538,herat,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad city of Khorasan
+obs_2525,herat,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid city of Khorasan
+obs_2526,herat,998,998,circa,conquest,,Ghaznavid Empire,Beckwith2009,low,Under the Ghaznavids
+obs_2527,herat,1040,1040,circa,conquest,,Seljuk Empire,Beckwith2009,low,Taken by the Seljuks after Dandanaqan
+obs_2528,herat,1381,1381,circa,conquest,,Timurid Empire,Beckwith2009,high,Timur took Herat which became the brilliant Timurid capital under Shah Rukh
+obs_2529,herat,1510,1510,circa,conquest,,Safavid Empire,Axworthy2008,medium,Held by Safavid Persia and long contested with the Uzbeks
+obs_2530,tashkent,560,560,circa,conquest,,Turk Khaganate,Beckwith2009,low,Within the Western Turkic realm
+obs_2531,tashkent,712,712,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,Qutayba ibn Muslim campaigned into Chach
+obs_2532,tashkent,900,900,circa,conquest,,Samanid Empire,Beckwith2009,low,A frontier town of the Samanid emirate
+obs_2533,tashkent,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,low,Within the Timurid realm
+obs_2534,otrar,900,900,circa,conquest,,Samanid Empire,Beckwith2009,low,The town of Farab within the Samanid lands
+obs_2535,otrar,1000,1000,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,low,Under the Kara-Khanids
+obs_2536,otrar,1260,1260,circa,conquest,,Chagatai Khanate,Morgan2007,low,Within the Chagatai ulus
+obs_2537,otrar,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,medium,A town of the Timurid realm where Timur died in 1405
+obs_2539,thebes,-747,-747,circa,conquest,,Kushite 25th Dynasty,Shaw2000,medium,The Kushite pharaohs of the 25th Dynasty ruled from and over Thebes
+obs_2540,thebes,-525,-525,circa,conquest,,Achaemenid Persia,Briant2002,medium,Cambyses conquered Egypt and Thebes passed under Persian rule
+obs_2541,tyre,-730,-730,circa,conquest,,Assyria,Frahm2017,low,A tributary city-state under Assyrian overlordship
+obs_2542,tyre,-585,-585,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,medium,Submitted to Nebuchadnezzar II after a thirteen-year siege
+obs_2543,tyre,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,medium,A Persian naval city of the fifth satrapy
+obs_2544,sidon,-730,-730,circa,conquest,,Assyria,Frahm2017,low,A tributary city-state under Assyrian overlordship
+obs_2545,sidon,-585,-585,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Under Neo-Babylonian overlordship
+obs_2546,sidon,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,medium,The chief Phoenician naval base of the Persian empire
+obs_2547,byblos,-730,-730,circa,conquest,,Assyria,Frahm2017,low,A tributary city-state under Assyrian overlordship
+obs_2548,byblos,-585,-585,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Under Neo-Babylonian overlordship
+obs_2549,byblos,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,A Phoenician city of the Persian empire
+obs_2550,byblos,-301,-301,circa,conquest,,Ptolemaic Egypt,Hornblower2011,low,Held by Ptolemaic Egypt after the wars of the Diadochi
+obs_2551,byblos,-198,-198,circa,conquest,,Seleucid Empire,Hornblower2011,low,Passed to the Seleucids with Coele-Syria
+obs_2552,byblos,-64,-64,circa,conquest,,Rome,Beard2015,low,Incorporated into Roman Syria by Pompey
+obs_2553,byblos,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine coastal town
+obs_2554,byblos,637,637,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of the Levant
+obs_2555,byblos,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad coastal town
+obs_2556,byblos,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under Abbasid and later Fatimid rule
+obs_2557,byblos,1266,1266,circa,conquest,,Mamluk Sultanate,Abulafia2011,low,Retaken by the Mamluks after the Crusader lordship of Gibelet
+obs_2558,byblos,1516,1516,circa,conquest,,Ottoman Empire,Abulafia2011,low,Part of Ottoman Syria
+obs_2559,chengdu,263,263,circa,conquest,,Cao Wei,Lewis2007,medium,Wei conquered Shu Han and annexed Sichuan
+obs_2560,chengdu,266,266,circa,conquest,,Western Jin,Lewis2007,medium,Passed to the Jin with the reunification of China
+obs_2561,chengdu,304,304,circa,conquest,,Cheng-Han,Lewis2007,medium,Li Xiong founded the Cheng-Han kingdom at Chengdu
+obs_2562,chengdu,347,347,circa,conquest,,Eastern Jin,Lewis2007,medium,Huan Wen reconquered Sichuan for the Eastern Jin
+obs_2563,chengdu,420,420,circa,conquest,,Southern dynasties,Lewis2007,low,Held by the southern dynasties based at Jiankang
+obs_2564,chengdu,553,553,circa,conquest,,Western Wei,Lewis2007,medium,Western Wei conquered Sichuan from the south
+obs_2565,chengdu,581,581,circa,conquest,,Sui dynasty,Lewis2007,medium,Absorbed into the reunified Sui empire
+obs_2566,changan,220,220,circa,conquest,,Cao Wei,Lewis2007,low,A western city of Cao Wei
+obs_2567,changan,266,266,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
+obs_2568,changan,316,316,circa,conquest,,Han-Zhao,Lewis2007,medium,The Han-Zhao sacked Changan ending the Western Jin
+obs_2569,changan,351,351,circa,conquest,,Former Qin,Lewis2007,medium,Capital of the Former Qin under Fu Jian
+obs_2570,changan,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei in its unification of the north
+obs_2571,changan,535,535,circa,conquest,,Western Wei,Lewis2007,medium,Capital of the Western Wei
+obs_2572,changan,557,557,circa,conquest,,Northern Zhou,Lewis2007,medium,Capital of the Northern Zhou
+obs_2573,luoyang,220,220,circa,conquest,,Cao Wei,Lewis2007,medium,Capital of Cao Wei
+obs_2574,luoyang,266,266,circa,conquest,,Western Jin,Lewis2007,medium,Capital of the Western Jin
+obs_2575,luoyang,311,311,circa,conquest,,Han-Zhao,Lewis2007,medium,The Han-Zhao sacked Luoyang ending Jin rule in the north
+obs_2576,luoyang,357,357,circa,conquest,,Former Qin,Lewis2007,low,Held by the Former Qin
+obs_2577,luoyang,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei before becoming its capital
+obs_2578,luoyang,534,534,circa,conquest,,Northern Qi,Lewis2007,low,Held by Eastern Wei and Northern Qi after the capital moved to Ye
+obs_2579,luoyang,581,581,circa,conquest,,Sui dynasty,Lewis2007,low,Under the Sui before becoming its eastern capital
+obs_2580,kaifeng,220,220,circa,conquest,,Cao Wei,Lewis2007,low,A city of Cao Wei
+obs_2581,kaifeng,266,266,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
+obs_2582,kaifeng,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei
+obs_2583,kaifeng,550,550,circa,conquest,,Northern Qi,Lewis2007,low,Under the Northern Qi
+obs_2584,kaifeng,589,589,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
+obs_2585,kaifeng,618,618,circa,conquest,,Tang dynasty,Mote1999,low,A Tang prefecture on the canal
+obs_2586,beijing,220,220,circa,conquest,,Cao Wei,Lewis2007,low,The Youzhou frontier under Cao Wei
+obs_2587,beijing,266,266,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
+obs_2588,beijing,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei
+obs_2589,beijing,550,550,circa,conquest,,Northern Qi,Lewis2007,low,Under the Northern Qi
+obs_2590,beijing,618,618,circa,conquest,,Tang dynasty,Mote1999,low,The Tang frontier town of Youzhou
+obs_2591,beijing,938,938,circa,conquest,,Liao dynasty,Mote1999,medium,Made the southern capital of the Liao as Nanjing
+obs_2592,guangzhou,226,226,circa,conquest,,Eastern Wu,Lewis2007,low,The southern port under Eastern Wu
+obs_2593,guangzhou,280,280,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
+obs_2594,guangzhou,317,317,circa,conquest,,Southern dynasties,Lewis2007,low,Held by the southern dynasties as the port of Panyu
+obs_2595,wuhan,280,280,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
+obs_2596,wuhan,317,317,circa,conquest,,Southern dynasties,Lewis2007,low,A military town of the southern dynasties on the Yangtze
+obs_2597,wuhan,589,589,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
+obs_2598,wuhan,621,621,circa,conquest,,Tang dynasty,Mote1999,low,A Tang city on the Yangtze
+obs_2599,wuhan,960,960,circa,conquest,,Song dynasty,Mote1999,low,Under the Song
+obs_2600,wuhan,1279,1279,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Yuan
+obs_2601,chongqing,-201,-201,circa,conquest,,Han dynasty,Lewis2007,low,The Ba commandery under the Han
+obs_2602,chongqing,221,221,circa,conquest,,Shu Han,Lewis2007,low,An eastern city of Shu Han
+obs_2603,chongqing,263,263,circa,conquest,,Western Jin,Lewis2007,low,Passed to the Jin with the fall of Shu
+obs_2604,chongqing,304,304,circa,conquest,,Cheng-Han,Lewis2007,low,Within the Cheng-Han kingdom
+obs_2605,chongqing,347,347,circa,conquest,,Eastern Jin,Lewis2007,low,Recovered by the Eastern Jin
+obs_2606,chongqing,420,420,circa,conquest,,Southern dynasties,Lewis2007,low,Held by the southern dynasties
+obs_2607,chongqing,553,553,circa,conquest,,Western Wei,Lewis2007,low,Taken with Sichuan by the Western Wei
+obs_2608,chongqing,581,581,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
+obs_2609,chongqing,620,620,circa,conquest,,Tang dynasty,Mote1999,low,A Tang prefecture on the Yangtze
+obs_2610,chongqing,965,965,circa,conquest,,Song dynasty,Mote1999,low,Under the Song
+obs_2611,chongqing,1279,1279,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Yuan
+obs_2612,chongqing,1371,1371,circa,conquest,,Ming dynasty,Mote1999,low,Under the Ming as Chongqing prefecture
+obs_2613,chongqing,1646,1646,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
+obs_2614,nanjing,280,280,circa,conquest,,Western Jin,Lewis2007,medium,Taken by the Western Jin with the conquest of Wu in 280
+obs_2615,dunhuang,280,280,circa,conquest,,Western Jin,Lewis2007,low,A Western Jin frontier commandery on the Silk Road
+obs_2616,dunhuang,442,442,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Brought under the Northern Wei with the conquest of the Northern Liang
+obs_2617,dunhuang,581,581,circa,conquest,,Sui dynasty,Lewis2007,low,Under the Sui
+obs_2618,dunhuang,619,619,circa,conquest,,Tang dynasty,Mote1999,low,A Tang garrison town and Buddhist center at the Mogao caves
