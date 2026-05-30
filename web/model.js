@@ -84,8 +84,15 @@
         p = (o.value && o.value.trim()) ? o.value.trim() : normalizePolity(o.actor); break;
       case "destruction":          // the destroyer typically takes control
         p = normalizePolity(o.actor); break;
-      case "capital_status":
-        p = NON_EMPIRE.test(o.value || "") ? null : normalizePolity(o.value); break;
+      case "capital_status": {
+        // Normalize first, then test NON_EMPIRE on the extracted name — so a function word
+        // only suppresses control when it IS the whole descriptor ("Cult center of Ra"), not
+        // when it merely modifies a named empire ("Administrative capital of the Achaemenid
+        // Empire" must still yield Achaemenid Persia, not null).
+        const name = normalizePolity(o.value);
+        p = (name && NON_EMPIRE.test(name)) ? null : name;
+        break;
+      }
       // founding / refounding / abandonment / attestation / population imply no control
     }
     return canon(p);
