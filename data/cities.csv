@@ -473,3 +473,57 @@ bolghar,Bolghar,Bolgar,54.9800,49.0300,steppe,Capital of Volga Bulgaria and an e
 astrakhan,Astrakhan,Astrakhan,46.3500,48.0400,steppe,Lower-Volga city of the Golden Horde and its successor khanate
 caffa,Caffa,Feodosia,45.0300,35.3800,pontic-steppe,Genoese Black Sea trade colony in the Golden Horde sphere
 vladimir,Vladimir,Vladimir,56.1300,40.4000,europe-east,Senior Rus principality under the Golden Horde yoke
+carchemish,Carchemish,Karkamis,36.8300,38.0100,levant-inland,Bronze Age city and Hittite viceroyalty on the Euphrates
+tushpa,Tushpa,Van,38.5000,43.4000,anatolia,Capital of the kingdom of Urartu by Lake Van
+samaria,Samaria,Sebastia,32.2800,35.1900,levant-inland,Capital of the kingdom of Israel; rebuilt by Herod as Sebaste
+tarsus,Tarsus,Tarsus,36.9200,34.8950,anatolia,Cilician city of Hittite Kizzuwatna and birthplace of St Paul
+nicomedia,Nicomedia,Izmit,40.7650,29.9400,anatolia,Bithynian capital and Diocletian's eastern Roman capital
+hazor,Hazor,Tel Hazor,33.0170,35.5680,levant-inland,Largest Canaanite city-state; later destroyed by Assyria
+hegra,Hegra,Mada'in Salih,26.7900,37.9500,arabia,Second city of the Nabataeans with rock-cut tombs on the incense road
+dadan,Dadan,Al-Ula,26.6160,37.9200,arabia,Capital of the Dadanite and Lihyanite kingdoms of northwest Arabia
+tayma,Tayma,Tayma,27.6300,38.4800,arabia,Ancient oasis where the Babylonian king Nabonidus resided a decade
+marib,Marib,Marib,15.4200,45.3300,arabia,Capital of Saba and site of the Great Dam
+shabwa,Shabwa,Shabwa,15.3700,47.0100,arabia,Capital of the Hadramawt kingdom on the incense route
+sohar,Sohar,Sohar,24.3500,56.7100,arabia,Great medieval Omani port and gateway of Indian Ocean trade
+mleiha,Mleiha,Mleiha,25.1300,55.8500,arabia,Pre-Islamic caravan center of the Oman peninsula
+najran,Najran,Najran,17.4900,44.1300,arabia,Oasis of the Christian martyrs on the Yemeni frontier
+qaryat-al-faw,Qaryat al-Faw,Qaryat al-Faw,19.7500,45.1800,arabia,Caravan capital of the kingdom of Kindah
+dvin,Dvin,Dvin,40.0000,44.5800,caucasus,Long-time capital of medieval Armenia
+ani,Ani,Ani,40.5070,43.5720,caucasus,Bagratid Armenian capital famed as the city of a thousand churches
+derbent,Derbent,Derbent,42.0600,48.2900,caucasus,The Caspian Gates; Sasanian wall-fortress guarding the steppe
+chavin,Chavin de Huantar,Chavin,-9.5900,-77.1800,americas,The great early Andean religious center
+cajamarca,Cajamarca,Cajamarca,-7.1600,-78.5100,americas,Andean highland city where Pizarro seized the Inca Atahualpa
+pachacamac,Pachacamac,Pachacamac,-12.2600,-76.9000,americas,Great coastal oracle and pilgrimage center near Lima
+palenque,Palenque,Palenque,17.4830,-92.0460,americas,Classic Maya city of Pakal in the western lowlands
+calakmul,Calakmul,Calakmul,18.1050,-89.8110,americas,Maya superpower and great rival of Tikal
+copan,Copan,Copan,14.8400,-89.1400,americas,Classic Maya capital of the southeast and its sculpture
+sri-ksetra,Sri Ksetra,Pyay,18.8100,95.2900,southeast-asia,Greatest of the Pyu city-states of early Burma
+yogyakarta,Yogyakarta,Yogyakarta,-7.8000,110.3600,southeast-asia,Heart of the Medang and Mataram kingdoms; Borobudur and Prambanan
+kedah,Kedah,Kedah,6.1200,100.3700,southeast-asia,Ancient Indianized port of the Bujang Valley on the Malay isthmus
+indrapura,Indrapura,Dong Duong,15.7800,108.3400,southeast-asia,Northern capital of Champa near the Cham temples of My Son
+mashhad,Mashhad,Mashhad,36.3000,59.6100,iran-zagros,Great Khorasan city grown around the shrine of Imam Reza
+yazd,Yazd,Yazd,31.9000,54.3700,iran-zagros,Desert oasis and stronghold of Zoroastrian Persia
+qom,Qom,Qom,34.6400,50.8800,iran-zagros,Shia holy city of the shrine of Fatima Masumeh
+qazvin,Qazvin,Qazvin,36.2700,50.0000,iran-zagros,A Safavid capital before the move to Isfahan
+khiva,Khiva,Khiva,41.3800,60.3600,steppe,Khwarezm oasis and capital of the Khanate of Khiva
+kokand,Kokand,Kokand,40.5200,70.9400,steppe,Capital of the Khanate of Kokand in the Fergana valley
+termez,Termez,Termez,37.2200,67.2800,steppe,Ancient Oxus city and Buddhist center of Bactria
+zafar,Zafar,Zafar,14.2100,44.4000,arabia,Highland capital of the Himyarite kingdom
+timna,Timna,Timna,15.0000,45.8500,arabia,Capital of the incense kingdom of Qataban
+qana,Qana,Bir Ali,14.0000,48.3000,arabia,Frankincense port of the Hadramawt kingdom
+sirwah,Sirwah,Sirwah,15.4300,45.0000,arabia,Early capital of Saba west of Marib
+benin-city,Benin City,Benin City,6.3400,5.6200,africa,Walled capital of the Kingdom of Benin famed for its bronzes
+mapungubwe,Mapungubwe,Mapungubwe,-22.1900,29.3900,africa,First great kingdom of southern Africa before Great Zimbabwe
+nan-madol,Nan Madol,Nan Madol,6.8420,158.3340,oceania,Megalithic island capital of the Saudeleur dynasty of Pohnpei
+mua,Mua,Lapaha,-21.1880,-175.0760,oceania,Capital of the Tui Tonga maritime empire
+rapa-nui,Rapa Nui,Easter Island,-27.1130,-109.3500,oceania,Remote Polynesian island of the moai statues
+chaco-canyon,Chaco Canyon,Chaco Canyon,36.0610,-107.9560,americas,Ancestral Puebloan ceremonial center of the great houses
+mesa-verde,Mesa Verde,Mesa Verde,37.2310,-108.4620,americas,Ancestral Puebloan cliff-dwelling center of the Colorado plateau
+moundville,Moundville,Moundville,32.9980,-87.6300,americas,Major Mississippian mound center on the Black Warrior River
+bigo,Bigo,Bigo bya Mugenyi,0.5000,31.5000,africa,Great earthworks capital of the Kitara empire of the Great Lakes
+musumba,Musumba,Musumba,-10.8000,22.4000,africa,Capital of the Lunda Empire of the central African savanna
+kuba,Nsheng,Mushenge,-4.6000,22.4000,africa,Royal capital of the Kuba Kingdom famed for its art
+ordu-baliq,Ordu-Baliq,Karabalgasun,47.4200,102.6600,steppe,Capital of the Uyghur Khaganate in the Orkhon valley
+tobolsk,Tobolsk,Tobolsk,58.2000,68.2500,steppe,Gateway of the Russian conquest of Siberia
+yakutsk,Yakutsk,Yakutsk,62.0300,129.7300,steppe,Russian fort that opened the far northeast of Siberia
+irkutsk,Irkutsk,Irkutsk,52.2900,104.3000,steppe,Russian city of Lake Baikal on the road to China

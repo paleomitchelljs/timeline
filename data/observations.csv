@@ -3279,3 +3279,340 @@ obs_3295,vladimir,1238,1238,circa,destruction,,Mongol Empire,Morgan2007,high,Sac
 obs_3296,vladimir,1240,1240,circa,conquest,,Golden Horde,Morgan2007,high,The grand principality held under the Golden Horde yoke
 obs_3297,vladimir,1389,1389,circa,conquest,,Russia,Morgan2007,medium,Absorbed by rising Moscow
 obs_3298,vladimir,2020,2020,circa,population_estimate,350000,,UN2018,low,Modern Vladimir
+obs_3299,ephesus,-560,-560,circa,conquest,,Lydia,Hornblower2011,medium,Croesus's Ephesus; he funded the great Temple of Artemis
+obs_3300,gordion,-600,-600,circa,conquest,,Lydia,Hornblower2011,medium,Lydia absorbed Phrygia after the Cimmerian collapse
+obs_3301,gordion,-546,-546,circa,conquest,,Achaemenid Persia,Briant2002,low,Taken by Cyrus with the fall of Lydia
+obs_3302,gordion,-333,-333,circa,conquest,,Macedon,Hornblower2011,medium,Alexander cut the Gordian Knot here
+obs_3303,gordion,-300,-300,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid town before its decline
+obs_3304,ankara,-590,-590,circa,conquest,,Lydia,Hornblower2011,low,Lydian-held former Phrygia reaching to the Halys
+obs_3305,carchemish,-3000,-3000,circa,founding,,,Kuhrt1995,low,An ancient city commanding a Euphrates crossing
+obs_3306,carchemish,-1500,-1500,circa,conquest,,Mitanni,Kuhrt1995,low,A city of the Hurrian kingdom of Mitanni
+obs_3307,carchemish,-1340,-1340,circa,conquest,,Hittite Empire,Bryce2005,high,A Hittite viceroyalty governing Syria
+obs_3308,carchemish,-717,-717,circa,conquest,,Assyria,Frahm2017,medium,The last neo-Hittite state annexed by Sargon II
+obs_3309,carchemish,-605,-605,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,high,Site of Nebuchadnezzar's victory over Egypt
+obs_3310,carchemish,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Under Persian rule
+obs_3311,carchemish,-300,-300,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid town
+obs_3312,carchemish,-64,-64,circa,conquest,,Rome,Beard2015,low,Incorporated into Roman Syria
+obs_3313,carchemish,700,700,circa,abandonment,,,Kennedy2004,low,Declined to a village on the frontier
+obs_3314,tushpa,-840,-840,circa,founding,,,Kuhrt1995,medium,Founded as the Urartian royal capital
+obs_3315,tushpa,-840,-590,circa,capital_status,Capital of Urartu,,Kuhrt1995,high,The fortress capital of the kingdom of Urartu
+obs_3316,tushpa,-590,-590,circa,conquest,,Median Empire,Kuhrt1995,low,Absorbed by the Medes with the fall of Urartu
+obs_3317,tushpa,-550,-550,circa,conquest,,Achaemenid Persia,Briant2002,low,The satrapy of Armenia under Persia
+obs_3318,tushpa,-190,-190,circa,conquest,,Kingdom of Armenia,Hornblower2011,medium,Within the kingdom of Armenia
+obs_3319,tushpa,252,252,circa,conquest,,Sasanian Empire,Axworthy2008,low,Contested between Rome and Sasanian Persia
+obs_3320,tushpa,387,387,circa,conquest,,Byzantine Empire,Mango2002,low,Byzantine Armenia after the partition
+obs_3321,tushpa,640,640,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Armenia
+obs_3322,tushpa,1071,1071,circa,conquest,,Seljuk Empire,Beckwith2009,low,Taken by the Seljuks after Manzikert
+obs_3323,tushpa,1548,1548,circa,conquest,,Ottoman Empire,Hourani1991,low,Long contested before Ottoman control of Van
+obs_3324,tushpa,1923,1923,circa,conquest,,Turkey,Mango2002,medium,Part of the Turkish Republic
+obs_3325,tushpa,2020,2020,circa,population_estimate,370000,,UN2018,low,Modern Van
+obs_3326,samaria,-880,-880,circa,founding,,,Kuhrt1995,high,Founded by Omri as the capital of Israel
+obs_3327,samaria,-880,-720,circa,capital_status,Capital of the Kingdom of Israel,,Kuhrt1995,high,Royal capital of the northern kingdom of Israel
+obs_3328,samaria,-720,-720,circa,conquest,,Assyria,Frahm2017,high,Sargon II destroyed Israel and deported its people
+obs_3329,samaria,-605,-605,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Under Neo-Babylonian rule
+obs_3330,samaria,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,A Persian province alongside Judah
+obs_3331,samaria,-332,-332,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander
+obs_3332,samaria,-200,-200,circa,conquest,,Seleucid Empire,Hornblower2011,low,Under the Seleucids
+obs_3333,samaria,-63,-63,circa,conquest,,Rome,Beard2015,medium,Rebuilt by Herod as Sebaste under Rome
+obs_3334,samaria,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine town of Palestine
+obs_3335,samaria,640,640,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_3336,samaria,900,900,circa,abandonment,,,Kennedy2004,low,Declined to a village
+obs_3337,ugarit,-1340,-1340,circa,conquest,,Hittite Empire,Bryce2005,high,A wealthy Hittite vassal port until the Bronze Age collapse
+obs_3338,troy,-1300,-1300,circa,conquest,,Hittite Empire,Bryce2005,medium,Wilusa a vassal in the Hittite sphere
+obs_3339,aleppo,-1500,-1500,circa,conquest,,Mitanni,Kuhrt1995,low,Held by Mitanni between Yamhad and the Hittites
+obs_3340,nineveh,-612,-612,circa,conquest,,Median Empire,Kuhrt1995,medium,Sacked by the Medes and Babylonians
+obs_3341,yerevan,-585,-585,circa,conquest,,Median Empire,Kuhrt1995,low,The Armenian highlands under the Medes
+obs_3342,harran,-610,-610,circa,conquest,,Median Empire,Kuhrt1995,low,Contested by the Medes after the fall of Assyria
+obs_3343,ankara,-700,-700,circa,conquest,,Phrygia,Hornblower2011,medium,The Phrygian town of Ancyra
+obs_3344,ephesus,-188,-188,circa,conquest,,Attalid kingdom,Hornblower2011,medium,Ceded to Pergamon after the Peace of Apamea
+obs_3345,sardis,-188,-188,circa,conquest,,Attalid kingdom,Hornblower2011,medium,A chief city of the Attalid kingdom
+obs_3346,izmir,-188,-188,circa,conquest,,Attalid kingdom,Hornblower2011,low,Within the Attalid kingdom of Pergamon
+obs_3347,hippo-regius,-150,-150,circa,conquest,,Numidia,Raven1993,medium,A royal residence of Numidia
+obs_3348,napata,-656,-656,circa,conquest,,Kingdom of Kush,Reader1998,medium,Capital of the Kushite kingdom after its retreat from Egypt
+obs_3349,kaushambi,-490,-490,circa,conquest,,Magadha,Thapar2002,medium,Vatsa annexed by the rising kingdom of Magadha
+obs_3350,tarsus,-2000,-2000,circa,founding,,,Bryce2005,low,An ancient city of the Cilician plain
+obs_3351,tarsus,-1400,-1400,circa,conquest,,Hittite Empire,Bryce2005,medium,Within the Hittite land of Kizzuwatna
+obs_3352,tarsus,-546,-546,circa,conquest,,Achaemenid Persia,Briant2002,low,A satrapal city of Cilicia under Persia
+obs_3353,tarsus,-333,-333,circa,conquest,,Macedon,Hornblower2011,low,Taken by Alexander
+obs_3354,tarsus,-300,-300,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid city of Cilicia
+obs_3355,tarsus,-67,-67,circa,conquest,,Rome,Beard2015,medium,Capital of Roman Cilicia; birthplace of St Paul
+obs_3356,tarsus,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine city of Cilicia
+obs_3357,tarsus,637,637,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_3358,tarsus,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,A fortified Abbasid frontier town facing Byzantium
+obs_3359,tarsus,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,low,Part of the Ottoman empire
+obs_3360,tarsus,1923,1923,circa,conquest,,Turkey,Mango2002,medium,Part of the Turkish Republic
+obs_3361,tarsus,2020,2020,circa,population_estimate,350000,,UN2018,low,Modern Tarsus
+obs_3362,nicomedia,-264,-264,circa,founding,,Bithynia,Hornblower2011,medium,Founded as the capital of the kingdom of Bithynia
+obs_3363,nicomedia,-74,-74,circa,conquest,,Rome,Beard2015,medium,Passed to Rome with the Bithynian bequest
+obs_3364,nicomedia,286,330,circa,capital_status,Eastern capital of the Roman Empire,Diocletian,Mango2002,high,Diocletian's eastern imperial capital before Constantinople
+obs_3365,nicomedia,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A great Byzantine city of the Marmara
+obs_3366,nicomedia,1337,1337,circa,conquest,,Ottoman Empire,Mango2002,medium,Taken by the early Ottomans
+obs_3367,nicomedia,1923,1923,circa,conquest,,Turkey,Mango2002,low,The industrial city of Izmit in modern Turkey
+obs_3368,nicomedia,2020,2020,circa,population_estimate,420000,,UN2018,low,Modern Izmit
+obs_3369,hazor,-2700,-2700,circa,founding,,,Kuhrt1995,low,A great Canaanite city of the upper Jordan
+obs_3370,hazor,-1457,-1457,circa,conquest,,New Kingdom,Shaw2000,low,Under Egyptian New Kingdom overlordship
+obs_3371,hazor,-950,-950,circa,conquest,,Kingdom of Israel,Kuhrt1995,medium,Fortified by the kings of Israel
+obs_3372,hazor,-732,-732,circa,destruction,,Assyria,Frahm2017,high,Destroyed by Tiglath-Pileser III
+obs_3373,hazor,-700,-700,circa,abandonment,,,Kuhrt1995,low,Never rebuilt after the Assyrian conquest
+obs_3374,hegra,-500,-500,circa,founding,,,Hoyland2001,low,An oasis town of the northern Hijaz
+obs_3375,hegra,-400,-400,circa,conquest,,Kingdom of Lihyan,Hoyland2001,low,Within the Lihyanite realm
+obs_3376,hegra,-100,-100,circa,conquest,,Nabataean Kingdom,Hoyland2001,high,The southern capital of the Nabataeans
+obs_3377,hegra,106,106,circa,conquest,,Rome,Beard2015,medium,Annexed with Nabataea into Provincia Arabia
+obs_3378,hegra,400,400,circa,abandonment,,,Hoyland2001,low,Declined as trade routes shifted
+obs_3379,dadan,-800,-800,circa,founding,,,Hoyland2001,low,An oasis of the northern Hijaz
+obs_3380,dadan,-600,-100,circa,capital_status,Capital of the Kingdom of Lihyan,,Hoyland2001,high,Seat of the Dadanite and Lihyanite kings
+obs_3381,dadan,-100,-100,circa,conquest,,Nabataean Kingdom,Hoyland2001,medium,Absorbed by the Nabataeans
+obs_3382,dadan,200,200,circa,abandonment,,,Hoyland2001,low,Eclipsed by neighboring Hegra
+obs_3383,tayma,-1100,-1100,circa,founding,,,Hoyland2001,low,A great oasis of northwest Arabia
+obs_3384,tayma,-552,-552,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,high,Where Nabonidus made his desert residence for a decade
+obs_3385,tayma,-400,-400,circa,conquest,,Kingdom of Lihyan,Hoyland2001,low,Within the Lihyanite sphere
+obs_3386,tayma,-100,-100,circa,conquest,,Nabataean Kingdom,Hoyland2001,low,Under Nabataean control
+obs_3387,tayma,300,300,circa,abandonment,,,Hoyland2001,low,Declined in late antiquity
+obs_3388,marib,-1200,-1200,circa,founding,,,Hoyland2001,medium,The great oasis capital of southern Arabia
+obs_3389,marib,-900,-110,circa,capital_status,Capital of the Sabaean kingdom,,Hoyland2001,high,Capital of Saba and seat of its famous dam
+obs_3390,marib,-110,-110,circa,conquest,,Himyarite Kingdom,Hoyland2001,medium,Absorbed into Himyar
+obs_3391,marib,525,525,circa,conquest,,Aksumite Empire,Reader1998,low,Held during the Aksumite occupation of Yemen
+obs_3392,marib,575,575,circa,conquest,,Sasanian Empire,Axworthy2008,low,Under Sasanian Yemen as the dam failed
+obs_3393,marib,600,600,circa,abandonment,,,Hoyland2001,medium,Abandoned after the final breach of the Great Dam
+obs_3394,shabwa,-1000,-1000,circa,founding,,,Hoyland2001,low,A caravan city of the incense route
+obs_3395,shabwa,-800,300,circa,capital_status,Capital of Hadramawt,,Hoyland2001,high,Capital of the Hadramawt kingdom until its absorption by Himyar
+obs_3396,shabwa,300,300,circa,conquest,,Himyarite Kingdom,Hoyland2001,medium,Absorbed into Himyar
+obs_3397,shabwa,500,500,circa,abandonment,,,Hoyland2001,low,Declined with the incense trade
+obs_3398,sohar,-500,-500,circa,founding,,,Hourani1991,low,A port of the Oman coast
+obs_3399,sohar,-500,-500,circa,conquest,,Achaemenid Persia,Briant2002,low,The satrapy of Maka under Persia
+obs_3400,sohar,-150,-150,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian influence on the Gulf
+obs_3401,sohar,240,240,circa,conquest,,Sasanian Empire,Axworthy2008,low,A Sasanian port of Mazun
+obs_3402,sohar,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Came to Islam early under the Prophet
+obs_3403,sohar,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,medium,A great Indian Ocean port called the gateway to China
+obs_3404,sohar,1507,1507,circa,conquest,,Portuguese Empire,Darwin2012,medium,Seized by the Portuguese
+obs_3405,sohar,1650,1650,circa,conquest,,Omani Empire,Hourani1991,medium,Recovered by the Omani Yaruba
+obs_3406,sohar,1970,1970,circa,conquest,,Oman,UN2018,medium,Part of the Sultanate of Oman
+obs_3407,sohar,2020,2020,circa,population_estimate,200000,,UN2018,low,Modern Sohar
+obs_3408,mleiha,-300,-300,circa,founding,,,Hoyland2001,medium,Caravan capital of the southeast Arabian interior
+obs_3409,mleiha,240,240,circa,conquest,,Sasanian Empire,Axworthy2008,low,Came under Sasanian overlordship
+obs_3410,mleiha,300,300,circa,abandonment,,,Hoyland2001,medium,Abandoned as coastal ports rose
+obs_3411,najran,-500,-500,circa,founding,,,Hoyland2001,low,A caravan oasis of the Yemeni frontier
+obs_3412,najran,100,100,circa,conquest,,Himyarite Kingdom,Hoyland2001,low,Within Himyar; later a noted Christian community
+obs_3413,najran,525,525,circa,conquest,,Aksumite Empire,Reader1998,low,Held during the Aksumite intervention
+obs_3414,najran,631,631,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Came to Islam under the Prophet
+obs_3415,najran,1934,1934,circa,conquest,,Saudi Arabia,UN2018,medium,Annexed by Saudi Arabia
+obs_3416,najran,2020,2020,circa,population_estimate,380000,,UN2018,low,Modern Najran
+obs_3417,qaryat-al-faw,-300,-300,circa,founding,,,Hoyland2001,medium,A caravan city of central Arabia
+obs_3418,qaryat-al-faw,-100,400,circa,capital_status,Capital of the Kingdom of Kindah,,Hoyland2001,high,Seat of the kingdom of Kindah
+obs_3419,qaryat-al-faw,500,500,circa,abandonment,,,Hoyland2001,low,Abandoned as the caravan trade declined
+obs_3420,dvin,335,335,circa,founding,,,Hourani1991,medium,Founded as the capital of Armenia
+obs_3421,dvin,428,428,circa,conquest,,Sasanian Empire,Axworthy2008,medium,Seat of the Persian marzpan of Armenia
+obs_3422,dvin,640,640,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Armenia
+obs_3423,dvin,884,884,circa,conquest,,Bagratid Armenia,Hourani1991,medium,Held under the Bagratid kingdom of Armenia
+obs_3424,dvin,1064,1064,circa,conquest,,Seljuk Empire,Beckwith2009,low,Taken by the Seljuks
+obs_3425,dvin,1236,1236,circa,conquest,,Mongol Empire,Morgan2007,low,Sacked by the Mongols
+obs_3426,dvin,1400,1400,circa,abandonment,,,Morgan2007,low,Abandoned after the Mongol and Timurid wars
+obs_3427,ani,961,961,circa,founding,,Bagratid Armenia,Hourani1991,high,Made the Bagratid capital of Armenia
+obs_3428,ani,961,1045,circa,capital_status,Capital of Bagratid Armenia,,Hourani1991,high,The city of a thousand churches
+obs_3429,ani,1045,1045,circa,conquest,,Byzantine Empire,Mango2002,medium,Annexed by Byzantium
+obs_3430,ani,1064,1064,circa,conquest,,Seljuk Empire,Beckwith2009,medium,Sacked by Alp Arslan's Seljuks
+obs_3431,ani,1199,1199,circa,conquest,,Kingdom of Georgia,Hourani1991,medium,Recovered by Georgia under the Zakarids
+obs_3432,ani,1236,1236,circa,conquest,,Mongol Empire,Morgan2007,low,Taken by the Mongols
+obs_3433,ani,1350,1350,circa,abandonment,,,Morgan2007,medium,Abandoned after earthquakes and the shift of trade
+obs_3434,derbent,300,300,circa,founding,,,Axworthy2008,medium,The Sasanian fortress of the Caspian Gates
+obs_3435,derbent,300,300,circa,conquest,,Sasanian Empire,Axworthy2008,high,The great wall-fortress sealing the Caucasus passage
+obs_3436,derbent,654,654,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken as the Arab frontier against the Khazars
+obs_3437,derbent,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid frontier stronghold
+obs_3438,derbent,1075,1075,circa,conquest,,Seljuk Empire,Beckwith2009,low,Under the Seljuks
+obs_3439,derbent,1239,1239,circa,conquest,,Golden Horde,Morgan2007,low,Contested on the Golden Horde frontier
+obs_3440,derbent,1500,1500,circa,conquest,,Safavid Empire,Axworthy2008,medium,A Safavid stronghold on the Caspian
+obs_3441,derbent,1813,1813,circa,conquest,,Russia,Darwin2012,medium,Ceded to Russia by the Treaty of Gulistan
+obs_3442,derbent,2020,2020,circa,population_estimate,120000,,UN2018,low,Modern Derbent
+obs_3443,chavin,-1200,-1200,circa,founding,,,DAltroy2014,low,An early ceremonial center of the Andes
+obs_3444,chavin,-900,-200,circa,capital_status,Center of the Chavin culture,,DAltroy2014,high,The great pan-Andean cult center
+obs_3445,chavin,-200,-200,circa,abandonment,,,DAltroy2014,medium,Declined as the Chavin cult faded
+obs_3446,cajamarca,200,200,circa,founding,,,DAltroy2014,low,A highland center of the northern Andes
+obs_3447,cajamarca,700,700,circa,conquest,,Wari Empire,DAltroy2014,medium,Within the Wari empire
+obs_3448,cajamarca,1460,1460,circa,conquest,,Inca Empire,DAltroy2014,medium,Annexed by the Inca
+obs_3449,cajamarca,1532,1532,circa,conquest,,Spanish Empire,Bethell1984,high,Where Pizarro captured and executed Atahualpa
+obs_3450,cajamarca,2020,2020,circa,population_estimate,280000,,UN2018,low,Modern Cajamarca
+obs_3451,pachacamac,200,200,circa,founding,,,DAltroy2014,medium,A coastal oracle and pilgrimage center
+obs_3452,pachacamac,700,700,circa,conquest,,Wari Empire,DAltroy2014,low,Within the Wari sphere
+obs_3453,pachacamac,1470,1470,circa,conquest,,Inca Empire,DAltroy2014,medium,Incorporated by the Inca who built a sun temple
+obs_3454,pachacamac,1533,1533,circa,conquest,,Spanish Empire,Bethell1984,high,Plundered by the Spanish
+obs_3455,pachacamac,1540,1540,circa,abandonment,,,Bethell1984,medium,Abandoned after the conquest
+obs_3456,palenque,226,226,circa,founding,,,Coe2011,low,A Maya center of the western lowlands
+obs_3457,palenque,600,800,circa,capital_status,Classic Maya city-state of Palenque,,Coe2011,high,The court of Pakal the Great
+obs_3458,palenque,900,900,circa,abandonment,,,Coe2011,high,Abandoned in the Classic Maya collapse
+obs_3459,calakmul,-300,-300,circa,founding,,,Coe2011,low,An early Maya settlement of the Peten
+obs_3460,calakmul,250,900,circa,capital_status,Classic Maya city-state of Calakmul,,Coe2011,high,Seat of the Kaan dynasty and rival of Tikal
+obs_3461,calakmul,900,900,circa,abandonment,,,Coe2011,high,Abandoned in the Classic Maya collapse
+obs_3462,copan,100,100,circa,founding,,,Coe2011,low,A Maya center of the southeastern frontier
+obs_3463,copan,426,820,circa,capital_status,Classic Maya city-state of Copan,,Coe2011,high,A great Maya royal city famed for its sculpture
+obs_3464,copan,900,900,circa,abandonment,,,Coe2011,high,Abandoned in the Classic Maya collapse
+obs_3465,sri-ksetra,100,100,circa,founding,,,Lieberman2003,low,An early Pyu settlement of the Irrawaddy
+obs_3466,sri-ksetra,400,832,circa,capital_status,Capital of the Pyu city-states,,Lieberman2003,high,The greatest of the Pyu city-states
+obs_3467,sri-ksetra,900,900,circa,abandonment,,,Lieberman2003,medium,Declined before the rise of Pagan
+obs_3468,yogyakarta,700,700,circa,founding,,,Coedes1968,low,The Kedu plain of central Java
+obs_3469,yogyakarta,732,929,circa,capital_status,Capital of the Medang kingdom,,Coedes1968,high,The Sailendra and Mataram court that built Borobudur and Prambanan
+obs_3470,yogyakarta,1293,1293,circa,conquest,,Majapahit,Coedes1968,low,Within the Majapahit sphere
+obs_3471,yogyakarta,1587,1587,circa,conquest,,Mataram Sultanate,Lieberman2003,medium,Heart of the Mataram Sultanate
+obs_3472,yogyakarta,1755,1755,circa,conquest,,Dutch Empire,Lieberman2003,medium,A Dutch-protected court after the partition of Mataram
+obs_3473,yogyakarta,1945,1945,circa,conquest,,Indonesia,UN2018,medium,A cradle of the Indonesian republic
+obs_3474,yogyakarta,2020,2020,circa,population_estimate,420000,,UN2018,low,Modern Yogyakarta
+obs_3475,kedah,200,200,circa,founding,,,Coedes1968,low,An Indianized port of the Bujang Valley
+obs_3476,kedah,700,700,circa,conquest,,Srivijaya,Coedes1968,medium,A port within the Srivijaya thalassocracy
+obs_3477,kedah,1370,1370,circa,conquest,,Majapahit,Coedes1968,low,Claimed by Majapahit
+obs_3478,kedah,1400,1400,circa,conquest,,Malacca Sultanate,Lieberman2003,low,Within the Malacca sphere
+obs_3479,kedah,1821,1821,circa,conquest,,Thailand,Lieberman2003,medium,A tributary state under Siam
+obs_3480,kedah,1909,1909,circa,conquest,,British Empire,Darwin2012,medium,Transferred to British Malaya
+obs_3481,kedah,1957,1957,circa,conquest,,Malaysia,UN2018,medium,A state of independent Malaysia
+obs_3482,kedah,2020,2020,circa,population_estimate,2100000,,UN2018,low,Modern Kedah state
+obs_3483,indrapura,200,200,circa,founding,,,Coedes1968,low,An early Cham settlement of Amaravati
+obs_3484,indrapura,875,982,circa,capital_status,Capital of Champa,,Coedes1968,high,The northern capital of Champa
+obs_3485,indrapura,982,982,circa,conquest,,Dai Viet,Coedes1968,medium,Sacked by Dai Viet
+obs_3486,indrapura,1100,1100,circa,abandonment,,,Coedes1968,medium,Abandoned as Champa retreated south to Vijaya
+obs_3487,mashhad,818,818,circa,founding,,Abbasid Caliphate,Kennedy2004,medium,Grew around the shrine of the Imam Reza
+obs_3488,mashhad,1037,1037,circa,conquest,,Seljuk Empire,Beckwith2009,low,Under the Seljuks of Khorasan
+obs_3489,mashhad,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Spared as nearby Tus was destroyed by the Mongols
+obs_3490,mashhad,1383,1383,circa,conquest,,Timurid Empire,Beckwith2009,medium,Flourished as a Timurid pilgrimage city
+obs_3491,mashhad,1501,1501,circa,conquest,,Safavid Empire,Axworthy2008,medium,A holy city patronized by the Safavids
+obs_3492,mashhad,1736,1736,circa,conquest,,Iran,Axworthy2008,high,Nader Shah's capital and a great city of modern Iran
+obs_3493,mashhad,2020,2020,circa,population_estimate,3300000,,UN2018,medium,Modern Mashhad
+obs_3494,yazd,300,300,circa,founding,,,Axworthy2008,low,A Sasanian desert town
+obs_3495,yazd,300,300,circa,conquest,,Sasanian Empire,Axworthy2008,low,A Zoroastrian center of Sasanian Persia
+obs_3496,yazd,642,642,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest; long a Zoroastrian refuge
+obs_3497,yazd,1050,1050,circa,conquest,,Seljuk Empire,Beckwith2009,low,Under the Seljuks
+obs_3498,yazd,1230,1230,circa,conquest,,Mongol Empire,Morgan2007,low,Submitted to the Mongols
+obs_3499,yazd,1383,1383,circa,conquest,,Timurid Empire,Beckwith2009,low,A Timurid textile city
+obs_3500,yazd,1501,1501,circa,conquest,,Safavid Empire,Axworthy2008,low,Under the Safavids
+obs_3501,yazd,1736,1736,circa,conquest,,Iran,Axworthy2008,low,Part of modern Iran
+obs_3502,yazd,2020,2020,circa,population_estimate,530000,,UN2018,low,Modern Yazd
+obs_3503,qom,712,712,circa,founding,,,Kennedy2004,low,An Arab garrison town that became a Shia center
+obs_3504,qom,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,A center of Shia learning under the Abbasids
+obs_3505,qom,1050,1050,circa,conquest,,Seljuk Empire,Beckwith2009,low,Under the Seljuks
+obs_3506,qom,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Sacked by the Mongols
+obs_3507,qom,1501,1501,circa,conquest,,Safavid Empire,Axworthy2008,medium,A holy city patronized by the Safavids
+obs_3508,qom,1736,1736,circa,conquest,,Iran,Axworthy2008,medium,A great pilgrimage and clerical city of modern Iran
+obs_3509,qom,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Qom
+obs_3510,qazvin,250,250,circa,founding,,,Axworthy2008,low,A Sasanian foundation guarding the Caspian approaches
+obs_3511,qazvin,250,250,circa,conquest,,Sasanian Empire,Axworthy2008,low,A Sasanian town
+obs_3512,qazvin,644,644,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
+obs_3513,qazvin,1050,1050,circa,conquest,,Seljuk Empire,Beckwith2009,low,Under the Seljuks
+obs_3514,qazvin,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Submitted to the Mongols
+obs_3515,qazvin,1555,1598,circa,capital_status,Capital of the Safavid Empire,,Axworthy2008,high,The Safavid capital before the move to Isfahan
+obs_3516,qazvin,1736,1736,circa,conquest,,Iran,Axworthy2008,low,Part of modern Iran
+obs_3517,qazvin,2020,2020,circa,population_estimate,400000,,UN2018,low,Modern Qazvin
+obs_3518,khiva,600,600,circa,founding,,,Soucek2000,low,An oasis town of Khwarezm
+obs_3519,khiva,900,900,circa,conquest,,Samanid Empire,Beckwith2009,low,Within the Samanid realm
+obs_3520,khiva,1221,1221,circa,conquest,,Mongol Empire,Morgan2007,low,Conquered with Khwarezm by the Mongols
+obs_3521,khiva,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,low,Within the Timurid realm
+obs_3522,khiva,1511,1873,circa,capital_status,Capital of the Khanate of Khiva,,Soucek2000,high,Seat of the Khivan khans
+obs_3523,khiva,1873,1873,circa,conquest,,Russia,Darwin2012,medium,A Russian protectorate
+obs_3524,khiva,1991,1991,circa,conquest,,Uzbekistan,UN2018,medium,Part of independent Uzbekistan
+obs_3525,khiva,2020,2020,circa,population_estimate,90000,,UN2018,low,Modern Khiva
+obs_3526,kokand,1000,1000,circa,founding,,,Soucek2000,low,A town of the Fergana valley
+obs_3527,kokand,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Within the Chagatai lands after the Mongol conquest
+obs_3528,kokand,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,low,Within the Timurid realm
+obs_3529,kokand,1709,1876,circa,capital_status,Capital of the Khanate of Kokand,,Soucek2000,high,Seat of the Kokand khans of Fergana
+obs_3530,kokand,1876,1876,circa,conquest,,Russia,Darwin2012,medium,Annexed by Russia
+obs_3531,kokand,1991,1991,circa,conquest,,Uzbekistan,UN2018,low,Part of independent Uzbekistan
+obs_3532,kokand,2020,2020,circa,population_estimate,250000,,UN2018,low,Modern Kokand
+obs_3533,termez,-300,-300,circa,founding,,,Beckwith2009,low,An ancient crossing of the Oxus
+obs_3534,termez,100,100,circa,conquest,,Kushan Empire,Beckwith2009,medium,A Buddhist center of the Kushan empire
+obs_3535,termez,250,250,circa,conquest,,Sasanian Empire,Beckwith2009,low,Under Sasanian and Hephthalite rule
+obs_3536,termez,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid town on the Oxus
+obs_3537,termez,900,900,circa,conquest,,Samanid Empire,Beckwith2009,low,Within the Samanid realm
+obs_3538,termez,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,medium,Destroyed by Genghis Khan
+obs_3539,termez,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,low,Rebuilt under the Timurids
+obs_3540,termez,1700,1700,circa,abandonment,,,Soucek2000,low,Declined to a village
+obs_3541,zafar,-110,-110,circa,founding,,,Hoyland2001,medium,The highland capital of Himyar
+obs_3542,zafar,-110,525,circa,capital_status,Capital of the Himyarite Kingdom,,Hoyland2001,high,Royal seat of the kings of Himyar
+obs_3543,zafar,525,525,circa,conquest,,Aksumite Empire,Reader1998,medium,Sacked during the Aksumite conquest of Yemen
+obs_3544,zafar,600,600,circa,abandonment,,,Hoyland2001,medium,Abandoned as Himyar fell
+obs_3545,timna,-800,-800,circa,founding,,,Hoyland2001,low,A caravan city of the incense route
+obs_3546,timna,-600,100,circa,capital_status,Capital of Qataban,,Hoyland2001,high,Capital of the incense kingdom of Qataban
+obs_3547,timna,100,100,circa,conquest,,Himyarite Kingdom,Hoyland2001,medium,Absorbed into Himyar
+obs_3548,timna,200,200,circa,abandonment,,,Hoyland2001,low,Burned and abandoned
+obs_3549,qana,-100,-100,circa,founding,,,Hoyland2001,low,The frankincense port of Hadramawt
+obs_3550,qana,-100,-100,circa,conquest,,Hadramawt,Hoyland2001,medium,Hadramawt's outlet to the sea
+obs_3551,qana,300,300,circa,conquest,,Himyarite Kingdom,Hoyland2001,low,Under Himyar with the rest of Yemen
+obs_3552,qana,600,600,circa,abandonment,,,Hoyland2001,low,Declined with the incense trade
+obs_3553,sirwah,-900,-900,circa,founding,,,Hoyland2001,medium,An early Sabaean center west of Marib
+obs_3554,sirwah,-800,-800,circa,conquest,,Sabaean kingdom,Hoyland2001,medium,An early royal seat of Saba
+obs_3555,sirwah,200,200,circa,abandonment,,,Hoyland2001,low,Eclipsed by Marib
+obs_3556,benin-city,900,900,circa,founding,,,Reader1998,low,An early Edo settlement in the forest
+obs_3557,benin-city,1180,1897,circa,capital_status,Capital of the Kingdom of Benin,,Reader1998,high,Walled capital of the Edo kingdom famed for its bronzes
+obs_3558,benin-city,1897,1897,circa,conquest,,British Empire,Darwin2012,high,Sacked in the British Benin Expedition
+obs_3559,benin-city,1960,1960,circa,conquest,,Nigeria,UN2018,medium,Part of independent Nigeria
+obs_3560,benin-city,2020,2020,circa,population_estimate,1500000,,UN2018,medium,Modern Benin City
+obs_3561,mapungubwe,1075,1075,circa,founding,,,Reader1998,medium,The first great kingdom of the Limpopo
+obs_3562,mapungubwe,1075,1220,circa,capital_status,Capital of the Kingdom of Mapungubwe,,Reader1998,high,Southern Africa's earliest state before Great Zimbabwe
+obs_3563,mapungubwe,1220,1220,circa,abandonment,,,Reader1998,medium,Abandoned as power shifted to Great Zimbabwe
+obs_3564,nan-madol,1100,1100,circa,founding,,,Kirch2000,medium,A coral-islet city rises off Pohnpei
+obs_3565,nan-madol,1100,1628,circa,capital_status,Capital of the Saudeleur dynasty,,Kirch2000,high,Seat of the Saudeleur lords of Pohnpei
+obs_3566,nan-madol,1628,1628,circa,abandonment,,,Kirch2000,medium,Abandoned after the fall of the Saudeleur dynasty
+obs_3567,mua,950,950,circa,founding,,,Kirch2000,low,A chiefly center on Tongatapu
+obs_3568,mua,1200,1535,circa,capital_status,Capital of the Tui Tonga empire,,Kirch2000,high,Seat of the Tui Tonga maritime empire
+obs_3569,mua,1800,1800,circa,abandonment,,,Kirch2000,low,Declined as the old capital
+obs_3570,rapa-nui,1100,1100,circa,founding,,,Kirch2000,medium,Polynesians settle the remote island
+obs_3571,rapa-nui,1100,1722,circa,capital_status,Center of Rapa Nui,,Kirch2000,medium,The moai-building island society
+obs_3572,rapa-nui,1888,1888,circa,conquest,,Chile,UN2018,medium,Annexed by Chile
+obs_3573,rapa-nui,2020,2020,circa,population_estimate,8000,,UN2018,low,Modern Rapa Nui
+obs_3574,chaco-canyon,850,850,circa,founding,,,Fagan2005,low,Great houses rise in the canyon
+obs_3575,chaco-canyon,900,1150,circa,capital_status,Center of the Chaco culture,,Fagan2005,high,Hub of the Ancestral Puebloan world
+obs_3576,chaco-canyon,1250,1250,circa,abandonment,,,Fagan2005,medium,Abandoned in a great drought
+obs_3577,mesa-verde,600,600,circa,founding,,,Fagan2005,low,Ancestral Puebloan farmers settle the mesa
+obs_3578,mesa-verde,1190,1285,circa,capital_status,Center of Ancestral Mesa Verde,,Fagan2005,high,The great cliff dwellings of the Colorado plateau
+obs_3579,mesa-verde,1300,1300,circa,abandonment,,,Fagan2005,medium,Abandoned as the Puebloans migrated south
+obs_3580,moundville,1120,1120,circa,founding,,,Fagan2005,low,A Mississippian town on the Black Warrior
+obs_3581,moundville,1200,1450,circa,capital_status,Center of Mississippian Moundville,,Fagan2005,high,A great mound center of the Southeast
+obs_3582,moundville,1500,1500,circa,abandonment,,,Fagan2005,medium,Largely abandoned before European contact
+obs_3583,bigo,1300,1300,circa,founding,,,Connah2001,medium,Great earthworks of the Great Lakes
+obs_3584,bigo,1300,1500,circa,capital_status,Center of the Kitara empire,,Connah2001,medium,Seat associated with the Chwezi rulers of Kitara
+obs_3585,bigo,1550,1550,circa,abandonment,,,Connah2001,medium,Abandoned as Bunyoro and Buganda rose
+obs_3586,musumba,1660,1660,circa,founding,,,Reader1998,low,The royal town of the Lunda
+obs_3587,musumba,1660,1884,circa,capital_status,Capital of the Lunda Empire,,Reader1998,high,Seat of the mwaant yaav of the Lunda
+obs_3588,musumba,1885,1885,circa,conquest,,Congo Free State,Reader1998,low,Claimed by the Congo Free State
+obs_3589,musumba,1960,1960,circa,conquest,,Democratic Republic of the Congo,UN2018,low,Part of the independent Congo
+obs_3590,kuba,1625,1625,circa,founding,,,Reader1998,medium,Founded as the Kuba royal capital
+obs_3591,kuba,1625,1900,circa,capital_status,Capital of the Kuba Kingdom,,Reader1998,high,Seat of the Kuba kings famed for their art
+obs_3592,kuba,1900,1900,circa,conquest,,Congo Free State,Reader1998,low,Brought under the Congo Free State
+obs_3593,kuba,1960,1960,circa,conquest,,Democratic Republic of the Congo,UN2018,low,Part of the independent Congo
+obs_3594,ordu-baliq,744,744,circa,founding,,Uyghur Khaganate,Beckwith2009,medium,Founded as the Uyghur imperial capital
+obs_3595,ordu-baliq,744,840,circa,capital_status,Capital of the Uyghur Khaganate,,Beckwith2009,high,The great steppe capital on the Orkhon
+obs_3596,ordu-baliq,840,840,circa,destruction,,,Beckwith2009,high,Sacked by the Yenisei Kyrgyz
+obs_3597,ordu-baliq,900,900,circa,abandonment,,,Beckwith2009,medium,Abandoned to the steppe
+obs_3598,tobolsk,1495,1495,circa,founding,,,Soucek2000,low,Near Qashliq the seat of the Khanate of Sibir
+obs_3599,tobolsk,1495,1495,circa,conquest,,Khanate of Sibir,Soucek2000,medium,Within the Khanate of Sibir
+obs_3600,tobolsk,1587,1587,circa,conquest,,Russia,Darwin2012,high,Founded by Russia as the capital of Siberia
+obs_3601,tobolsk,1922,1922,circa,conquest,,Soviet Union,UN2018,low,Part of the Soviet Union
+obs_3602,tobolsk,1991,1991,circa,conquest,,Russia,UN2018,low,Part of the Russian Federation
+obs_3603,tobolsk,2020,2020,circa,population_estimate,100000,,UN2018,low,Modern Tobolsk
+obs_3604,yakutsk,1632,1632,circa,founding,,Russia,Darwin2012,medium,Founded as a Russian ostrog on the Lena
+obs_3605,yakutsk,1922,1922,circa,conquest,,Soviet Union,UN2018,low,Part of the Soviet Union
+obs_3606,yakutsk,1991,1991,circa,conquest,,Russia,UN2018,low,Part of the Russian Federation
+obs_3607,yakutsk,2020,2020,circa,population_estimate,360000,,UN2018,low,Modern Yakutsk
+obs_3608,irkutsk,1661,1661,circa,founding,,Russia,Darwin2012,medium,Founded as a Russian fort near Lake Baikal
+obs_3609,irkutsk,1922,1922,circa,conquest,,Soviet Union,UN2018,low,Part of the Soviet Union
+obs_3610,irkutsk,1991,1991,circa,conquest,,Russia,UN2018,low,Part of the Russian Federation
+obs_3611,irkutsk,2020,2020,circa,population_estimate,620000,,UN2018,low,Modern Irkutsk
+obs_3612,najran,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,An Umayyad district of the southern Hijaz
+obs_3613,najran,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_3614,najran,1229,1229,circa,conquest,,Rasulid Sultanate,Hourani1991,low,Within the Rasulid sultanate of Yemen
+obs_3615,najran,1538,1538,circa,conquest,,Ottoman Empire,Hourani1991,low,A contested frontier district under the Ottomans
+obs_3616,tarsus,-700,-700,circa,conquest,,Assyria,Frahm2017,medium,A city of Assyrian Cilicia under Sennacherib
+obs_3617,tarsus,-605,-605,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Held briefly by Babylon after Assyria
+obs_3618,tushpa,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under Abbasid Armenia
+obs_3619,tushpa,900,900,circa,conquest,,Bagratid Armenia,Hourani1991,medium,Within the Armenian kingdom of Vaspurakan
+obs_3620,tushpa,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mongol Ilkhanate
+obs_3621,tushpa,1502,1502,circa,conquest,,Safavid Empire,Axworthy2008,low,Contested between Safavids and Ottomans
+obs_3622,yazd,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_3623,yazd,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mongol Ilkhanate
+obs_3624,qazvin,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under the Abbasids
+obs_3625,qazvin,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mongol Ilkhanate
+obs_3626,qazvin,1393,1393,circa,conquest,,Timurid Empire,Beckwith2009,low,Taken by Timur
+obs_3627,khotan,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Submitted to the Mongols
+obs_3628,khotan,1280,1280,circa,conquest,,Chagatai Khanate,Morgan2007,low,Within the Chagatai ulus and later Moghulistan
+obs_3629,khotan,1680,1680,circa,conquest,,Zunghar Khanate,Soucek2000,low,Under Zunghar overlordship
+obs_3630,khotan,1759,1759,circa,conquest,,Qing dynasty,Mote1999,medium,Annexed by the Qing conquest of the Tarim
+obs_3631,kucha,1280,1280,circa,conquest,,Chagatai Khanate,Morgan2007,low,Within the Chagatai ulus and later Moghulistan
+obs_3632,kucha,1680,1680,circa,conquest,,Zunghar Khanate,Soucek2000,low,Under Zunghar overlordship
+obs_3633,balkh,1505,1505,circa,conquest,,Khanate of Bukhara,Soucek2000,medium,Under the Shaybanid Khanate of Bukhara
+obs_3634,balkh,1751,1751,circa,conquest,,Afghanistan,Beckwith2009,medium,Annexed by the Afghan Durrani state
+obs_3635,cajamarca,1824,1824,circa,conquest,,Peru,UN2018,medium,Part of independent Peru
