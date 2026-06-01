@@ -3616,3 +3616,641 @@ obs_3632,kucha,1680,1680,circa,conquest,,Zunghar Khanate,Soucek2000,low,Under Zu
 obs_3633,balkh,1505,1505,circa,conquest,,Khanate of Bukhara,Soucek2000,medium,Under the Shaybanid Khanate of Bukhara
 obs_3634,balkh,1751,1751,circa,conquest,,Afghanistan,Beckwith2009,medium,Annexed by the Afghan Durrani state
 obs_3635,cajamarca,1824,1824,circa,conquest,,Peru,UN2018,medium,Part of independent Peru
+obs_3636,meknes,1061,1061,circa,founding,,Almoravids,AbunNasr1987,medium,Founded by the Almoravids as a fortress; named for the Miknasa Berbers
+obs_3637,meknes,1672,1727,circa,capital_status,Capital of Alaouite Morocco under Moulay Ismail,,AbunNasr1987,high,Moulay Ismail's imperial capital; the vast kasbah and monumental gates
+obs_3638,meknes,1912,1912,circa,conquest,,French Empire,AbunNasr1987,low,Under the French protectorate
+obs_3639,meknes,1956,1956,circa,conquest,,Morocco,AbunNasr1987,low,Part of independent Morocco
+obs_3640,meknes,2020,2020,circa,population_estimate,630000,,UN2018,low,Modern Meknes
+obs_3641,chellah,-300,-300,circa,founding,,,Raven1993,low,Mauretanian town of Sala on the Bou Regreg estuary
+obs_3642,chellah,44,44,circa,conquest,,Rome,Raven1993,medium,Sala Colonia; the southernmost Atlantic city of Mauretania Tingitana
+obs_3643,chellah,1100,1100,century,abandonment,,,AbunNasr1987,low,Abandoned as its people moved across the river to found Sale
+obs_3644,chellah,1339,1339,circa,refounding,,Marinid Sultanate,AbunNasr1987,medium,Refounded by Abu al-Hasan as the Marinid royal necropolis
+obs_3645,ait-ben-haddou,1600,1600,circa,founding,,,AbunNasr1987,low,Fortified ksar on the Marrakesh-Sahara caravan route; oldest surviving kasbahs date to the 17th century
+obs_3646,ait-ben-haddou,1912,1912,circa,conquest,,French Empire,AbunNasr1987,low,Within the French protectorate; the south administered through the Glaoui of Telouet
+obs_3647,ait-ben-haddou,1956,1956,circa,conquest,,Morocco,AbunNasr1987,low,Part of independent Morocco
+obs_3648,lamu,1200,1200,circa,founding,,,Connah2001,low,Swahili stone-town of the Lamu archipelago
+obs_3649,lamu,1600,1850,circa,capital_status,Town-state of Lamu,,Connah2001,low,A prosperous Swahili port in its golden age
+obs_3650,lamu,1890,1890,circa,conquest,,British Empire,Darwin2012,low,Brought under the British East Africa protectorate
+obs_3651,lamu,1963,1963,circa,conquest,,Kenya,Reader1998,low,Part of independent Kenya
+obs_3652,malindi,1200,1200,circa,founding,,,Connah2001,low,Swahili coast trading town
+obs_3653,malindi,1498,1498,circa,attestation,Welcomed Vasco da Gama,,Disney2009,medium,Gave da Gama an Indian Ocean pilot for the crossing to India
+obs_3654,malindi,1700,1700,century,abandonment,,,Connah2001,low,Declined as power shifted to Mombasa and Zanzibar
+obs_3655,malindi,1963,1963,circa,conquest,,Kenya,Reader1998,low,Part of independent Kenya
+obs_3656,gede,1100,1100,circa,founding,,,Connah2001,low,Swahili stone-town near the Kenyan coast
+obs_3657,gede,1400,1400,circa,attestation,Walled town of coral-stone houses and mosques,,Connah2001,low,At its prosperous height
+obs_3658,gede,1650,1650,circa,abandonment,,,Connah2001,low,Mysteriously abandoned in the 17th century
+obs_3659,pate,1300,1300,circa,founding,,,Connah2001,low,Swahili town of the Lamu archipelago
+obs_3660,pate,1600,1800,circa,capital_status,Pate Sultanate,,Connah2001,medium,Dominant power of the northern Swahili coast
+obs_3661,pate,1850,1850,circa,abandonment,,,Connah2001,low,Declined as Lamu and Zanzibar rose
+obs_3662,manda,800,800,circa,founding,,,Connah2001,low,One of the earliest Swahili stone-towns
+obs_3663,manda,1000,1000,circa,attestation,Indian Ocean trade with the Persian Gulf,,Connah2001,low,Early prosperity from the Gulf trade
+obs_3664,manda,1400,1400,circa,abandonment,,,Connah2001,low,Abandoned as Pate and Lamu rose
+obs_3665,shanga,760,760,circa,founding,,,Connah2001,low,Among the earliest Swahili settlements; early evidence of coastal Islam
+obs_3666,shanga,1000,1000,circa,attestation,Successive timber and stone mosques,,Connah2001,low,A small Indian Ocean trade town
+obs_3667,shanga,1425,1425,circa,abandonment,,,Connah2001,low,Abandoned in the 15th century
+obs_3668,barawa,900,900,circa,founding,,,Connah2001,low,Swahili-Somali town of the Benadir coast
+obs_3669,barawa,1507,1507,circa,conquest,,Portuguese Empire,Disney2009,medium,Sacked by the Portuguese
+obs_3670,barawa,1905,1905,circa,conquest,,Italian Empire,Reader1998,low,Absorbed into Italian Somaliland
+obs_3671,adulis,-250,-250,circa,founding,,,Phillipson2012,low,Red Sea port and Ptolemaic elephant-hunting station
+obs_3672,adulis,100,700,circa,attestation,Chief port of the kingdom of Aksum,,Phillipson2012,medium,Aksum's outlet to the Red Sea and Indian Ocean trade
+obs_3673,adulis,700,700,circa,abandonment,,,Phillipson2012,low,Declined with Aksum after the rise of Islam
+obs_3674,zeila,900,900,circa,founding,,,Connah2001,low,Islamic port of the Horn and gateway to the Ethiopian interior
+obs_3675,zeila,1300,1500,circa,capital_status,A capital of the Adal Sultanate,,Connah2001,medium,Center of Muslim power against Christian Ethiopia
+obs_3676,zeila,1884,1884,circa,conquest,,British Empire,Darwin2012,low,Brought into British Somaliland
+obs_3677,suakin,1000,1000,circa,founding,,,Connah2001,low,Coral-built Red Sea port of the Sudanese coast
+obs_3678,suakin,1517,1517,circa,conquest,,Ottoman Empire,Hourani1991,medium,Ottoman Red Sea port and pilgrimage harbor
+obs_3679,suakin,1905,1905,circa,abandonment,,,Reader1998,low,Eclipsed by the new harbor at Port Sudan
+obs_3680,aydhab,900,900,circa,founding,,,Kennedy2004,low,Red Sea pilgrimage and India-trade port
+obs_3681,aydhab,1183,1183,circa,attestation,Entrepot described by Ibn Jubayr,,Kennedy2004,medium,At the height of its pilgrim and Indian Ocean trade
+obs_3682,aydhab,1426,1426,circa,destruction,,Mamluk Sultanate,Kennedy2004,medium,Destroyed by the Mamluk sultan Barsbay
+obs_3683,massawa,1000,1000,circa,founding,,,Connah2001,low,Red Sea port serving the Ethiopian highlands
+obs_3684,massawa,1557,1557,circa,conquest,,Ottoman Empire,Hourani1991,medium,Ottoman Red Sea outpost
+obs_3685,massawa,1885,1885,circa,conquest,,Italian Empire,Reader1998,low,Italian foothold that grew into the colony of Eritrea
+obs_3686,berbera,900,900,circa,founding,,,Connah2001,low,Gulf of Aden port and seasonal trade fair
+obs_3687,berbera,1884,1884,circa,conquest,,British Empire,Darwin2012,low,Capital of British Somaliland
+obs_3688,berbera,1960,1960,circa,conquest,,Somalia,Reader1998,low,Part of independent Somalia
+obs_3689,mahdia,921,921,circa,founding,,Fatimid Caliphate,AbunNasr1987,high,Founded as the first Fatimid capital on a fortified peninsula
+obs_3690,mahdia,921,973,circa,capital_status,Capital of the Fatimid Caliphate,,AbunNasr1987,high,Before the Fatimids moved their capital to Cairo
+obs_3691,mahdia,1057,1148,circa,capital_status,Zirid capital,,AbunNasr1987,medium,Zirid refuge after the Hilalian invasions
+obs_3692,mahdia,1574,1574,circa,conquest,,Ottoman Empire,AbunNasr1987,medium,Brought under Ottoman Tunis
+obs_3693,ceuta,-300,-300,circa,founding,,,Raven1993,low,Phoenician and Roman Septem on the strait
+obs_3694,ceuta,711,711,circa,attestation,Springboard of the conquest of Iberia,,AbunNasr1987,medium,Tariq ibn Ziyad crossed from here into Visigothic Spain
+obs_3695,ceuta,1415,1415,circa,conquest,,Portuguese Empire,Disney2009,high,Seized by Portugal; the first act of European overseas expansion
+obs_3696,ceuta,1668,1668,circa,conquest,,Spanish Empire,Disney2009,medium,Ceded to Spain and held as an enclave ever since
+obs_3697,bejaia,1067,1067,circa,founding,,Hammadids,AbunNasr1987,medium,Refounded as a Hammadid coastal capital
+obs_3698,bejaia,1090,1152,circa,capital_status,Capital of the Hammadid dynasty,,AbunNasr1987,medium,A leading port and center of learning of the central Maghreb
+obs_3699,bejaia,1510,1510,circa,conquest,,Spanish Empire,AbunNasr1987,medium,Seized by Spain
+obs_3700,bejaia,1555,1555,circa,conquest,,Ottoman Empire,AbunNasr1987,low,Taken into Ottoman Algiers
+obs_3701,sale,1030,1030,circa,founding,,,AbunNasr1987,low,Founded across the Bou Regreg as old Sala at Chellah was abandoned
+obs_3702,sale,1627,1668,circa,capital_status,Corsair Republic of Sale,,AbunNasr1987,medium,The Sale Rovers; a base of Barbary corsairs and Morisco exiles
+obs_3703,sale,1668,1668,circa,conquest,,Morocco,AbunNasr1987,low,Brought into Alaouite Morocco
+obs_3704,benghazi,-525,-525,circa,founding,,,Boardman1999,low,Greek colony of Euhesperides in Cyrenaica
+obs_3705,benghazi,-246,-246,circa,refounding,,Ptolemaic Egypt,Hornblower2011,low,Refounded as Berenice by the Ptolemies
+obs_3706,benghazi,1517,1517,circa,conquest,,Ottoman Empire,AbunNasr1987,low,Ottoman Cyrenaica
+obs_3707,benghazi,1911,1911,circa,conquest,,Italian Empire,Reader1998,low,Taken by Italy in the conquest of Libya
+obs_3708,elmina,1482,1482,circa,founding,,Portuguese Empire,Disney2009,high,Sao Jorge da Mina; the first European fort in sub-Saharan Africa built for the gold trade
+obs_3709,elmina,1637,1637,circa,conquest,,Dutch Empire,Disney2009,high,Captured by the Dutch West India Company
+obs_3710,elmina,1872,1872,circa,conquest,,British Empire,Darwin2012,medium,Ceded to Britain and absorbed into the Gold Coast
+obs_3711,ouidah,1600,1600,circa,founding,,,Reader1998,low,Atlantic port of the kingdom of Whydah
+obs_3712,ouidah,1700,1700,circa,attestation,Rival European forts handling the slave trade,,Reader1998,medium,A chief outlet of the Slave Coast
+obs_3713,ouidah,1727,1727,circa,conquest,,Dahomey,Reader1998,medium,Conquered by the kingdom of Dahomey
+obs_3714,ouidah,1892,1892,circa,conquest,,French Empire,Darwin2012,low,Taken by France with the conquest of Dahomey
+obs_3715,saint-louis,1659,1659,circa,founding,,French Empire,Darwin2012,high,First permanent French settlement in Africa on an island in the Senegal River
+obs_3716,saint-louis,1895,1902,circa,capital_status,Capital of French West Africa,,Darwin2012,medium,Before the federal capital moved to Dakar
+obs_3717,saint-louis,1960,1960,circa,conquest,,Senegal,Reader1998,low,Part of independent Senegal
+obs_3718,goree,1450,1450,circa,founding,,Portuguese Empire,Disney2009,low,Atlantic island entrepot off the Cape Verde peninsula
+obs_3719,goree,1677,1677,circa,conquest,,French Empire,Disney2009,medium,Seized by France as a slave-trade depot
+obs_3720,goree,1960,1960,circa,conquest,,Senegal,Reader1998,low,Part of independent Senegal
+obs_3721,arguin,1445,1445,circa,founding,,Portuguese Empire,Disney2009,high,First Portuguese trading fort in Africa on an Atlantic island off Mauritania
+obs_3722,arguin,1633,1633,circa,conquest,,Dutch Empire,Disney2009,medium,Taken by the Dutch
+obs_3723,arguin,1700,1700,century,abandonment,,,Disney2009,low,Declined as the trade shifted south
+obs_3724,calabar,1650,1650,circa,founding,,,Reader1998,low,Efik trading town on the Cross River
+obs_3725,calabar,1700,1700,circa,attestation,Atlantic slave port of the Bight of Biafra,,Reader1998,low,A major outlet of the Biafran trade
+obs_3726,calabar,1884,1884,circa,conquest,,British Empire,Darwin2012,low,Center of the British Oil Rivers Protectorate
+obs_3727,loango,1500,1500,circa,founding,,,Reader1998,low,Capital of the kingdom of Loango on the Atlantic
+obs_3728,loango,1550,1700,circa,capital_status,Capital of the Loango kingdom,,Connah2001,medium,Atlantic trade in ivory copper and slaves north of the Kongo
+obs_3729,loango,1800,1800,century,abandonment,,,Reader1998,low,Declined as the Atlantic trade contracted
+obs_3730,sao-tome,1485,1485,circa,founding,,Portuguese Empire,Disney2009,medium,Uninhabited island colonized by Portugal as a sugar and slave entrepot
+obs_3731,sao-tome,1550,1550,circa,attestation,Prototype plantation-slavery sugar economy,,Disney2009,low,A model later carried to Brazil and the Caribbean
+obs_3732,sao-tome,1975,1975,circa,conquest,,Sao Tome and Principe,Reader1998,low,Capital of independent Sao Tome and Principe
+obs_3733,tichitt,-1900,-1900,circa,founding,,,Connah2001,low,Dry-stone settlements of the Dhar Tichitt escarpment; among the earliest urbanism in West Africa
+obs_3734,tichitt,-800,-800,circa,attestation,Hundreds of stone-walled agro-pastoral compounds,,Connah2001,low,Likely ancestral to the Soninke of Ghana
+obs_3735,tichitt,-300,-300,century,abandonment,,,Connah2001,low,Abandoned as the Sahara dried and the desert advanced
+obs_3736,walata,1100,1100,circa,founding,,,Connah2001,low,Saharan caravan and scholarship town on the southwestern desert edge
+obs_3737,walata,1352,1352,circa,attestation,Ibn Battuta's first town on entering the empire of Mali,,Connah2001,medium,A hub of the trans-Saharan trade and Islamic learning
+obs_3738,walata,1600,1600,century,abandonment,,,Connah2001,low,Declined as the trade routes shifted west
+obs_3739,audaghost,700,700,circa,founding,,,Connah2001,low,Berber and Soninke trade town of the western Sahara
+obs_3740,audaghost,1000,1000,circa,attestation,A wealthy gold-trade market of the western Sahara,,Connah2001,medium,A southern terminus of the gold-and-salt trade subordinate to Ghana
+obs_3741,audaghost,1054,1054,circa,conquest,,Almoravids,Connah2001,low,Sacked by the Almoravids
+obs_3742,audaghost,1300,1300,century,abandonment,,,Connah2001,low,Faded as the trade routes shifted
+obs_3743,tadmekka,800,800,circa,founding,,,Connah2001,low,Berber trans-Saharan trade town of the southern desert
+obs_3744,tadmekka,1068,1068,circa,attestation,Town of the gold trade described by al-Bakri,,Connah2001,low,On the route between Ifriqiya and the Niger bend; early West African gold coinage
+obs_3745,tadmekka,1400,1400,century,abandonment,,,Connah2001,low,Eclipsed by Gao and Timbuktu
+obs_3746,agadez,1400,1400,circa,founding,,,Connah2001,low,Tuareg town of the Air massif on the trans-Saharan route
+obs_3747,agadez,1449,1900,circa,capital_status,Sultanate of Air,,Connah2001,medium,A caravan city linking the Maghreb to Hausaland
+obs_3748,agadez,1900,1900,circa,conquest,,French Empire,Darwin2012,low,Taken by France into colonial Niger
+obs_3749,katsina,1100,1100,circa,founding,,,Connah2001,low,Hausa city-state of the Sudanic savanna
+obs_3750,katsina,1500,1700,circa,attestation,A leading Hausa center of trade and Islamic scholarship,,Connah2001,medium,Rivaled Kano on the trans-Saharan trade
+obs_3751,katsina,1807,1807,circa,conquest,,Sokoto Caliphate,Reader1998,medium,Absorbed into the Sokoto Caliphate after the Fulani jihad
+obs_3752,katsina,1903,1903,circa,conquest,,British Empire,Darwin2012,low,Taken into colonial Northern Nigeria
+obs_3753,zaria,1500,1500,circa,founding,,,Connah2001,low,Hausa city-state of Zazzau
+obs_3754,zaria,1550,1550,circa,attestation,Associated with the warrior queen Amina,,Reader1998,low,Extended the tribute of Zazzau across Hausaland
+obs_3755,zaria,1808,1808,circa,conquest,,Sokoto Caliphate,Reader1998,medium,Absorbed into the Sokoto Caliphate
+obs_3756,zaria,1902,1902,circa,conquest,,British Empire,Darwin2012,low,Taken into colonial Northern Nigeria
+obs_3757,sokoto,1809,1809,circa,founding,,Sokoto Caliphate,Reader1998,high,Founded as the capital of the Sokoto Caliphate after the jihad of Usman dan Fodio
+obs_3758,sokoto,1809,1903,circa,capital_status,Capital of the Sokoto Caliphate,,Reader1998,high,The largest state in nineteenth-century West Africa
+obs_3759,sokoto,1903,1903,circa,conquest,,British Empire,Darwin2012,medium,Conquered by Britain and absorbed into Northern Nigeria
+obs_3760,segou,1712,1712,circa,founding,,,Reader1998,low,Capital of the Bambara kingdom of Segou on the Niger
+obs_3761,segou,1712,1861,circa,capital_status,Capital of the Bambara kingdom of Segou,,Reader1998,medium,A Niger River state built on war captives and trade
+obs_3762,segou,1861,1861,circa,conquest,,Toucouleur Empire,Reader1998,medium,Taken by al-Hajj Umar Tall's Toucouleur jihad state
+obs_3763,segou,1890,1890,circa,conquest,,French Empire,Darwin2012,low,Taken by France into the French Sudan
+obs_3764,chinguetti,1200,1200,circa,founding,,,Connah2001,low,Saharan caravan town and center of Islamic learning in the Adrar
+obs_3765,chinguetti,1400,1400,circa,attestation,A gathering point for pilgrims and a town of desert libraries,,Connah2001,low,One of the holy cities of Saharan Islam
+obs_3766,chinguetti,1900,1900,century,abandonment,,,Connah2001,low,Shrank as the caravan trade collapsed
+obs_3767,yeha,-700,-700,circa,founding,,,Phillipson2012,low,Capital of the Dmt polity of the northern Ethiopian highlands
+obs_3768,yeha,-500,-500,circa,attestation,The Great Temple of Yeha,,Phillipson2012,medium,South Arabian influenced sanctuary; the earliest monument of the Horn
+obs_3769,yeha,-100,-100,century,abandonment,,,Phillipson2012,low,Declined before the rise of Aksum
+obs_3770,khami,1450,1450,circa,founding,,,Connah2001,low,Stone-walled capital that succeeded Great Zimbabwe
+obs_3771,khami,1450,1650,circa,capital_status,Capital of the Butua kingdom of the Torwa,,Connah2001,medium,Heir to Great Zimbabwe in the southwestern plateau
+obs_3772,khami,1650,1650,circa,abandonment,,,Connah2001,low,Destroyed in the Rozvi wars
+obs_3773,begho,1100,1100,circa,founding,,,Connah2001,low,Akan trade town at the forest edge of the goldfields
+obs_3774,begho,1400,1700,circa,attestation,Entrepot linking the Akan gold mines to the Mali and Songhai trade,,Connah2001,medium,A meeting point of Saharan and forest commerce
+obs_3775,begho,1750,1750,century,abandonment,,,Connah2001,low,Declined as Asante power rose at Kumasi
+obs_3776,linzi,-1046,-1046,circa,founding,,,Lewis2007,low,Capital of the state of Qi from the founding of the Zhou
+obs_3777,linzi,-1046,-221,circa,capital_status,Capital of the state of Qi,,Lewis2007,high,One of the largest cities of the Eastern Zhou; the Jixia academy
+obs_3778,linzi,-300,-300,circa,population_estimate,300000,,Chandler1987,low,Among the most populous cities on earth in the Warring States
+obs_3779,linzi,-221,-221,circa,conquest,,Qin dynasty,Lewis2007,high,Absorbed when Qin conquered Qi and unified China
+obs_3780,xianyang,-350,-350,circa,founding,,,Lewis2007,medium,Made the Qin capital by Duke Xiao and Shang Yang
+obs_3781,xianyang,-350,-206,circa,capital_status,Capital of the Qin state and empire,Qin Shi Huang,Lewis2007,high,Seat of the first unified Chinese empire
+obs_3782,xianyang,-206,-206,circa,destruction,,Xiang Yu,Lewis2007,high,Burned by Xiang Yu at the fall of Qin
+obs_3783,handan,-386,-386,circa,founding,,,Lewis2007,low,Made the capital of the state of Zhao
+obs_3784,handan,-386,-228,circa,capital_status,Capital of the state of Zhao,,Lewis2007,medium,A great city of the northern Warring States
+obs_3785,handan,-228,-228,circa,conquest,,Qin dynasty,Lewis2007,high,Taken when Qin conquered Zhao
+obs_3786,handan,1,1,circa,population_estimate,200000,,Chandler1987,low,One of the five metropolises of Han China
+obs_3787,qufu,-1042,-1042,circa,founding,,,Lewis2007,low,Capital of the state of Lu under the Zhou
+obs_3788,qufu,-1042,-256,circa,capital_status,Capital of the state of Lu,,Lewis2007,medium,Home of Confucius and a center of ritual tradition
+obs_3789,qufu,-256,-256,circa,conquest,,Chu,Lewis2007,medium,Lu annexed by the state of Chu
+obs_3790,qufu,1100,1100,circa,attestation,Imperial temple and cult of Confucius,,Mote1999,low,A pilgrimage center maintained by successive dynasties
+obs_3791,ying,-689,-689,circa,founding,,,Lewis2007,low,Ying; capital of the southern state of Chu on the Yangtze
+obs_3792,ying,-689,-278,circa,capital_status,Capital of the state of Chu,,Lewis2007,high,The great southern power of the Zhou era
+obs_3793,ying,-278,-278,circa,destruction,,Qin dynasty,Lewis2007,high,Sacked by the Qin general Bai Qi; Chu moved its capital east
+obs_3794,yecheng,-400,-400,circa,founding,,,Lewis2007,low,Ye; a town of the state of Wei governed by Ximen Bao
+obs_3795,yecheng,204,580,circa,capital_status,Capital of successive northern dynasties,,Lewis2007,medium,Base of Cao Cao and seat of the Later Zhao and Northern Qi; the Bronze Bird Terrace
+obs_3796,yecheng,580,580,circa,destruction,,Sui dynasty,Lewis2007,medium,Razed by Yang Jian after a revolt and never rebuilt
+obs_3797,yangzhou,-486,-486,circa,founding,,,Lewis2007,low,A canal town founded where Wu cut the Han Gou to the Huai
+obs_3798,yangzhou,605,605,circa,attestation,Hub of the Grand Canal built under the Sui,,Lewis2007,medium,Sui Yangdi's favored southern city
+obs_3799,yangzhou,760,760,circa,population_estimate,400000,,Chandler1987,low,A great Tang commercial city with Arab and Persian merchants
+obs_3800,yangzhou,1645,1645,circa,conquest,,Qing dynasty,Mote1999,medium,Stormed by the Qing in the Yangzhou massacre
+obs_3801,gongju,475,475,circa,founding,,,Seth2010,medium,Ungjin; Baekje's new capital after Hanseong fell to Goguryeo
+obs_3802,gongju,475,538,circa,capital_status,Capital of Baekje,,Seth2010,medium,The Ungjin period of the Baekje kingdom
+obs_3803,gongju,525,525,circa,attestation,Royal tombs of Baekje including King Muryeong,,Seth2010,low,A peak of Baekje courtly culture
+obs_3804,buyeo,538,538,circa,founding,,,Seth2010,medium,Sabi; the last capital of Baekje
+obs_3805,buyeo,538,660,circa,capital_status,Capital of Baekje,,Seth2010,high,The flowering of Baekje art and its ties to Japan
+obs_3806,buyeo,660,660,circa,destruction,,Tang dynasty,Seth2010,high,Sacked by allied Tang and Silla armies at the fall of Baekje
+obs_3807,gimhae,42,42,circa,founding,,,Seth2010,low,Legendary founding of Geumgwan Gaya by King Suro
+obs_3808,gimhae,100,532,circa,capital_status,Capital of Geumgwan Gaya,,Seth2010,medium,Leading state of the Gaya confederacy and an iron-trading power
+obs_3809,gimhae,532,532,circa,conquest,,Silla,Seth2010,medium,Annexed by Silla
+obs_3810,asuka,550,550,circa,founding,,,Totman2000,low,Seat of the Yamato court in the Asuka period
+obs_3811,asuka,592,694,circa,capital_status,Center of the Yamato court,,Totman2000,medium,Where Buddhism and Chinese statecraft took root in Japan
+obs_3812,asuka,694,694,circa,abandonment,,,Totman2000,low,Court moved to the new capital at Fujiwara
+obs_3813,fujiwara-kyo,694,694,circa,founding,,,Totman2000,medium,Japan's first Chinese-style grid capital
+obs_3814,fujiwara-kyo,694,710,circa,capital_status,Capital of Japan,,Totman2000,medium,The first permanent imperial capital before Nara
+obs_3815,fujiwara-kyo,710,710,circa,abandonment,,,Totman2000,low,Abandoned when the court moved to Heijo at Nara
+obs_3816,naniwa,400,400,circa,founding,,,Totman2000,low,Yamato seaport on the Inland Sea and gateway to the continent
+obs_3817,naniwa,645,655,circa,capital_status,Capital of Japan at Naniwa,,Totman2000,low,Briefly the imperial seat under the Taika reforms
+obs_3818,naniwa,744,744,circa,attestation,Briefly restored as the imperial capital,,Totman2000,low,Later eclipsed by nearby Osaka
+obs_3819,dazaifu,663,663,circa,founding,,,Totman2000,medium,Kyushu headquarters fortified after the defeat at Baekgang
+obs_3820,dazaifu,700,1100,circa,attestation,Seat of the Dazaifu and Japan's gateway to China and Korea,,Totman2000,medium,The hub of continental trade and diplomacy
+obs_3821,dazaifu,901,901,circa,attestation,Place of exile of Sugawara no Michizane,,Totman2000,low,Later venerated as the god Tenjin
+obs_3822,sakai,1400,1400,circa,founding,,,Totman2000,low,Merchant port at the mouth of the Inland Sea
+obs_3823,sakai,1500,1568,circa,attestation,Self-governing merchant city of the Ming and Nanban trade,,Totman2000,medium,Ruled by its own council of merchants; a center of tea culture and gunmaking
+obs_3824,sakai,1568,1568,circa,conquest,,Oda Nobunaga,Totman2000,medium,Brought to heel by Oda Nobunaga
+obs_3825,hirado,1550,1550,circa,founding,,,Totman2000,low,Kyushu port opened to Portuguese trade
+obs_3826,hirado,1609,1641,circa,attestation,Dutch and English trading factories,,Totman2000,medium,The early hub of European trade in Japan
+obs_3827,hirado,1641,1641,circa,abandonment,,,Totman2000,medium,Foreign trade removed to Dejima at Nagasaki under the seclusion policy
+obs_3828,pasai,1267,1267,circa,founding,,,Lieberman2003,medium,First Muslim sultanate of the archipelago on northern Sumatra
+obs_3829,pasai,1267,1521,circa,capital_status,Sultanate of Samudera Pasai,,Lieberman2003,medium,A pepper port and gateway of Islam into Southeast Asia
+obs_3830,pasai,1521,1521,circa,conquest,,Portuguese Empire,Disney2009,medium,Seized by the Portuguese then eclipsed by Aceh
+obs_3831,aceh,1496,1496,circa,founding,,,Lieberman2003,medium,Founded as the seat of the Sultanate of Aceh
+obs_3832,aceh,1496,1903,circa,capital_status,Capital of the Sultanate of Aceh,,Lieberman2003,high,The dominant pepper power of Sumatra at its peak under Iskandar Muda
+obs_3833,aceh,1903,1903,circa,conquest,,Dutch Empire,Darwin2012,medium,Subdued by the Dutch after a thirty-year war
+obs_3834,banten,1526,1526,circa,founding,,,Lieberman2003,medium,Founded as the Sultanate of Banten on the Sunda Strait
+obs_3835,banten,1526,1684,circa,capital_status,Capital of the Sultanate of Banten,,Lieberman2003,medium,A great pepper emporium rivaling Dutch Batavia
+obs_3836,banten,1684,1684,circa,conquest,,Dutch Empire,Darwin2012,medium,Reduced to a Dutch vassal by the VOC
+obs_3837,demak,1475,1475,circa,founding,,,Lieberman2003,medium,First Muslim state on Java
+obs_3838,demak,1500,1548,circa,capital_status,Sultanate of Demak,,Lieberman2003,medium,Led the spread of Islam and the fall of Hindu Majapahit
+obs_3839,demak,1548,1548,circa,abandonment,,,Lieberman2003,low,Power passed to Pajang and then Mataram in the interior
+obs_3840,brunei,1400,1400,circa,founding,,,Lieberman2003,low,Seat of the Sultanate of Brunei on northern Borneo
+obs_3841,brunei,1485,1600,circa,capital_status,Capital of the Sultanate of Brunei,,Lieberman2003,medium,At its height ruling much of Borneo and the Sulu seas
+obs_3842,brunei,1888,1888,circa,conquest,,British Empire,Darwin2012,medium,Became a British protectorate
+obs_3843,hoi-an,1500,1500,circa,founding,,,Lieberman2003,low,Port of the Cham coast that grew under the Nguyen lords
+obs_3844,hoi-an,1620,1750,circa,attestation,Japanese and Chinese quarters of a thriving silk and ceramics port,,Lieberman2003,medium,A hub of the South China Sea trade
+obs_3845,hoi-an,1830,1830,century,abandonment,,,Lieberman2003,low,Silted up and eclipsed by Da Nang
+obs_3846,sambor-prei-kuk,600,600,circa,founding,,,Coedes1968,low,Isanapura; capital of the kingdom of Chenla
+obs_3847,sambor-prei-kuk,615,700,circa,capital_status,Capital of Chenla,,Coedes1968,medium,The great pre-Angkorian center of the Khmer
+obs_3848,sambor-prei-kuk,800,800,century,abandonment,,,Coedes1968,low,Eclipsed by the rise of Angkor
+obs_3849,balasagun,900,900,circa,founding,,,Soucek2000,low,Town of the Chu valley in Semirechye
+obs_3850,balasagun,940,1210,circa,capital_status,Capital of the Karakhanids and the Kara-Khitai,,Soucek2000,medium,A Turkic Islamic and later Buddhist Khitan capital
+obs_3851,balasagun,1218,1218,circa,conquest,,Mongol Empire,Morgan2007,low,Submitted to the Mongols
+obs_3852,balasagun,1400,1400,century,abandonment,,,Soucek2000,low,Faded after the Mongol era
+obs_3853,suyab,500,500,circa,founding,,,Beckwith2009,low,Sogdian merchant town and seat of the Western Turks in the Chu valley
+obs_3854,suyab,650,750,circa,capital_status,Western garrison town of the Tang,,Beckwith2009,medium,The westernmost outpost of Tang China on the Silk Road
+obs_3855,suyab,1000,1000,century,abandonment,,,Soucek2000,low,Eclipsed by nearby Balasagun
+obs_3856,taraz,400,400,circa,founding,,,Beckwith2009,low,Silk Road town of the Talas valley
+obs_3857,taraz,751,751,circa,attestation,The Battle of Talas fought nearby,,Beckwith2009,medium,Where the Abbasids halted Tang expansion into Central Asia
+obs_3858,taraz,1220,1220,circa,conquest,,Mongol Empire,Morgan2007,low,Destroyed in the Mongol conquest
+obs_3859,taraz,2020,2020,circa,population_estimate,360000,,UN2018,low,Modern Taraz
+obs_3860,turkestan,500,500,circa,founding,,,Soucek2000,low,Town of Yasi on the Syr Darya trade route
+obs_3861,turkestan,1390,1390,circa,attestation,Timur builds the mausoleum of the Sufi Khoja Ahmed Yasawi,,Soucek2000,medium,A great pilgrimage shrine of Central Asian Islam
+obs_3862,turkestan,1600,1700,circa,capital_status,A capital of the Kazakh Khanate,,Soucek2000,low,Seat of Kazakh khans on the Syr Darya
+obs_3863,sygnak,1000,1000,circa,founding,,,Soucek2000,low,Syr Darya trade town on the desert edge
+obs_3864,sygnak,1300,1500,circa,capital_status,Capital of the White Horde and the early Kazakh Khanate,,Soucek2000,medium,A caravan city of the lower Syr Darya
+obs_3865,sygnak,1700,1700,century,abandonment,,,Soucek2000,low,Declined as the river and trade shifted
+obs_3866,panjikent,450,450,circa,founding,,,Soucek2000,low,Sogdian town in the upper Zerafshan valley
+obs_3867,panjikent,700,700,circa,attestation,A wealthy Sogdian merchant town of murals and temples,,Soucek2000,medium,A center of the Silk Road trade before Islam
+obs_3868,panjikent,770,770,circa,abandonment,,,Kennedy2004,low,Abandoned after the Arab conquest of Sogdiana
+obs_3869,andijan,900,900,circa,founding,,,Soucek2000,low,Chief city of the Fergana valley on the Silk Road
+obs_3870,andijan,1483,1483,circa,attestation,Birthplace of Babur founder of the Mughal Empire,,Soucek2000,medium,A Timurid town of the Fergana
+obs_3871,andijan,2020,2020,circa,population_estimate,450000,,UN2018,low,Modern Andijan
+obs_3872,phanagoria,-543,-543,circa,founding,,Teos,Tsetskhladze2008,low,Greek colony on the Taman peninsula founded by Teos
+obs_3873,phanagoria,-480,370,circa,capital_status,Asian capital of the Bosporan Kingdom,,Tsetskhladze2008,medium,The chief Greek city east of the Cimmerian Bosporus
+obs_3874,phanagoria,700,700,circa,conquest,,Khazar Khaganate,Soucek2000,low,Under Khazar control
+obs_3875,phanagoria,1000,1000,century,abandonment,,,Tsetskhladze2008,low,Declined in the early medieval period
+obs_3876,tmutarakan,-540,-540,circa,founding,,,Tsetskhladze2008,low,Greek Hermonassa on the Taman peninsula
+obs_3877,tmutarakan,965,965,circa,conquest,,Kievan Rus,Franklin1996,medium,Sviatoslav takes the Khazar town; a far Rus principality of Tmutarakan
+obs_3878,tmutarakan,1475,1475,circa,conquest,,Ottoman Empire,Mango2002,low,Taken by the Ottomans with the Genoese Black Sea ports
+obs_3879,sarkel,838,838,circa,founding,,Khazar Khaganate,Soucek2000,medium,Khazar fortress on the Don built with Byzantine engineers
+obs_3880,sarkel,838,965,circa,attestation,Brick fortress guarding the Khazar Don frontier,,Soucek2000,medium,Controlled the portage between the Don and the Volga
+obs_3881,sarkel,965,965,circa,destruction,,Kievan Rus,Franklin1996,medium,Stormed by Sviatoslav of Kiev
+obs_3882,sudak,212,212,circa,founding,,,Mango2002,low,Crimean port town on the southern coast
+obs_3883,sudak,1200,1200,circa,attestation,A leading Black Sea port of the Cuman and Byzantine trade,,Mango2002,medium,Soldaia; on the route described by Marco Polo
+obs_3884,sudak,1365,1365,circa,conquest,,Republic of Genoa,Abulafia2011,medium,Seized by Genoa from its Black Sea rival Caffa
+obs_3885,sudak,1475,1475,circa,conquest,,Ottoman Empire,Mango2002,medium,Taken by the Ottomans
+obs_3886,solkhat,1250,1250,circa,founding,,,Morgan2007,low,Golden Horde town that gave Crimea its name
+obs_3887,solkhat,1280,1430,circa,capital_status,Mongol capital of the Crimean province,,Morgan2007,medium,Administrative seat of the Golden Horde in the Crimea
+obs_3888,solkhat,1550,1550,century,abandonment,,,Soucek2000,low,Eclipsed as the Crimean Khanate centered on Bakhchisarai
+obs_3889,bakhchisarai,1532,1532,circa,founding,,,Soucek2000,medium,Founded as the capital of the Crimean Khanate
+obs_3890,bakhchisarai,1532,1783,circa,capital_status,Capital of the Crimean Khanate,,Soucek2000,high,Seat of the Giray khans; an Ottoman vassal that raided the steppe for slaves
+obs_3891,bakhchisarai,1783,1783,circa,conquest,,Russia,Darwin2012,medium,Annexed by Russia with the Crimean Khanate
+obs_3892,tana,1300,1300,circa,founding,,,Abulafia2011,low,Venetian and Genoese trading colony at the mouth of the Don
+obs_3893,tana,1330,1330,circa,attestation,Eastern terminus of the Black Sea trade with the Mongol world,,Abulafia2011,medium,A gateway of the overland route to China
+obs_3894,tana,1395,1395,circa,destruction,,Timurid Empire (Timur),Morgan2007,medium,Sacked by Timur
+obs_3895,tana,1475,1475,circa,conquest,,Ottoman Empire,Mango2002,medium,Taken by the Ottomans as Azak
+obs_3896,pliska,681,681,circa,founding,,Asparukh,Mango2002,medium,Founded by Asparukh as the first capital of Bulgaria
+obs_3897,pliska,681,893,circa,capital_status,Capital of the First Bulgarian Empire,,Mango2002,high,Seat of the early Bulgar khans
+obs_3898,pliska,893,893,circa,abandonment,,,Mango2002,low,Capital moved to nearby Preslav
+obs_3899,preslav,821,821,circa,founding,,,Mango2002,low,Bulgar town that became the imperial capital
+obs_3900,preslav,893,972,circa,capital_status,Capital of the First Bulgarian Empire,,Mango2002,high,Golden age of Bulgarian letters under Simeon the Great
+obs_3901,preslav,972,972,circa,conquest,,Byzantine Empire,Mango2002,high,Sacked by John Tzimiskes; the fall of the First Bulgarian Empire
+obs_3902,kazan,1438,1438,circa,founding,,,Soucek2000,medium,Capital of the Kazan Khanate on the Volga
+obs_3903,kazan,1438,1552,circa,capital_status,Capital of the Kazan Khanate,,Soucek2000,high,A Tatar successor state to the Golden Horde
+obs_3904,kazan,1552,1552,circa,conquest,,Russia,Davies1996,high,Stormed by Ivan the Terrible; Russia's first great expansion east
+obs_3905,kazan,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Kazan
+obs_3906,chernihiv,907,907,circa,founding,,,Franklin1996,low,Early Rus town on the Desna named in the treaty with Byzantium
+obs_3907,chernihiv,1024,1239,circa,capital_status,Capital of the principality of Chernigov,,Franklin1996,medium,One of the chief cities of Kievan Rus
+obs_3908,chernihiv,1239,1239,circa,destruction,,Mongol Empire,Morgan2007,medium,Sacked in the Mongol invasion of Rus
+obs_3909,smolensk,863,863,circa,founding,,,Franklin1996,low,Krivich town on the upper Dnieper portage
+obs_3910,smolensk,1127,1404,circa,capital_status,Capital of the principality of Smolensk,,Franklin1996,medium,A Rus city commanding the Dnieper trade route
+obs_3911,smolensk,1514,1514,circa,conquest,,Russia,Davies1996,medium,Taken by Moscow from Lithuania
+obs_3912,pskov,903,903,circa,founding,,,Franklin1996,low,Rus town first mentioned in the chronicles
+obs_3913,pskov,1348,1510,circa,capital_status,Pskov Republic,,Franklin1996,medium,A northern merchant republic like Novgorod
+obs_3914,pskov,1510,1510,circa,conquest,,Russia,Davies1996,medium,Annexed by Moscow under Vasili III
+obs_3915,tver,1135,1135,circa,founding,,,Franklin1996,low,Rus town at the confluence of the Volga and Tvertsa
+obs_3916,tver,1247,1485,circa,capital_status,Capital of the Grand Principality of Tver,,Franklin1996,medium,Moscow's great rival for the leadership of Rus
+obs_3917,tver,1485,1485,circa,conquest,,Russia,Davies1996,medium,Annexed by Ivan III of Moscow
+obs_3918,suzdal,1024,1024,circa,founding,,,Franklin1996,low,Early town of northeastern Rus first named in 1024
+obs_3919,suzdal,1125,1157,circa,capital_status,Capital of the Rostov-Suzdal principality,,Franklin1996,medium,Seat of Yuri Dolgoruky before the rise of Vladimir
+obs_3920,suzdal,1238,1238,circa,conquest,,Mongol Empire,Morgan2007,low,Sacked in the Mongol invasion
+obs_3921,gniezno,940,940,circa,founding,,,Davies1996,low,Stronghold at the cradle of the Piast state
+obs_3922,gniezno,960,1038,circa,capital_status,First capital of Poland,,Davies1996,medium,Seat of the early Piast dukes; the Congress of Gniezno in 1000
+obs_3923,gniezno,1038,1038,circa,abandonment,,,Davies1996,low,Sacked by the Bohemians; the capital moved to Krakow
+obs_3924,esztergom,970,970,circa,founding,,,Davies1996,low,Seat of the Magyar Arpad princes on the Danube
+obs_3925,esztergom,1000,1256,circa,capital_status,First capital of the kingdom of Hungary,,Davies1996,medium,Coronation seat of Saint Stephen and the primatial see
+obs_3926,esztergom,1543,1543,circa,conquest,,Ottoman Empire,Davies1996,medium,Taken by the Ottomans in the wars for Hungary
+obs_3927,mtskheta,-300,-300,circa,founding,,,Daryaee2009,low,Capital of the kingdom of Iberia in eastern Georgia
+obs_3928,mtskheta,-300,500,circa,capital_status,Capital of the kingdom of Iberia,,Daryaee2009,medium,Where Iberia adopted Christianity in the fourth century
+obs_3929,mtskheta,337,337,circa,attestation,Conversion of Iberia to Christianity,,Mango2002,medium,One of the earliest Christian kingdoms
+obs_3930,kutaisi,-600,-600,circa,founding,,,Tsetskhladze2008,low,Chief town of Colchis on the Rioni
+obs_3931,kutaisi,978,1122,circa,capital_status,Capital of the kingdom of Georgia,,Mango2002,medium,Bagratid capital before the recovery of Tbilisi
+obs_3932,kutaisi,1500,1500,circa,attestation,Capital of the kingdom of Imereti,,Davies1996,low,Western Georgian kingdom under Ottoman pressure
+obs_3933,artashat,-176,-176,circa,founding,,Artaxias I,Kuhrt1995,medium,Founded by Artaxias I as the capital of Armenia
+obs_3934,artashat,-176,120,circa,capital_status,Capital of the kingdom of Armenia,,Kuhrt1995,medium,The Hellenistic capital on the Araxes
+obs_3935,artashat,58,58,circa,destruction,,Rome,Hornblower2011,low,Burned by the Roman general Corbulo
+obs_3936,artashat,460,460,century,abandonment,,,Daryaee2009,low,Eclipsed by the new capital at Dvin
+obs_3937,vagharshapat,120,120,circa,founding,,Vagharsh I,Kuhrt1995,low,City refounded by Vagharsh I in the Ararat plain
+obs_3938,vagharshapat,120,330,circa,capital_status,A capital of the Armenian kingdom,,Daryaee2009,low,Royal seat before the rise of Dvin
+obs_3939,vagharshapat,301,301,circa,attestation,Mother see of the Armenian Church at Etchmiadzin,,Mango2002,medium,Among the oldest cathedrals in the Christian world
+obs_3940,partav,460,460,circa,founding,,Sasanian Empire,Daryaee2009,low,Sasanian foundation and capital of Caucasian Albania
+obs_3941,partav,500,900,circa,capital_status,Capital of Arran and Caucasian Albania,,Kennedy2004,medium,The chief city of the eastern Caucasus under the Caliphate
+obs_3942,partav,943,943,circa,conquest,,Kievan Rus,Franklin1996,low,Raided and sacked by a Rus expedition
+obs_3943,partav,1100,1100,century,abandonment,,,Kennedy2004,low,Declined as Ganja rose
+obs_3944,ganja,859,859,circa,founding,,,Kennedy2004,low,Founded as an Arab garrison city of Arran
+obs_3945,ganja,1150,1150,circa,attestation,Home of the poet Nizami Ganjavi,,Kennedy2004,medium,A flourishing city of the eastern Caucasus
+obs_3946,ganja,1235,1235,circa,destruction,,Mongol Empire,Morgan2007,medium,Destroyed in the Mongol conquest
+obs_3947,ganja,1804,1804,circa,conquest,,Russia,Davies1996,medium,Taken by Russia in the wars for the Caucasus
+obs_3948,shamakhi,800,800,circa,founding,,,Kennedy2004,low,Capital of Shirvan in the eastern Caucasus
+obs_3949,shamakhi,1000,1500,circa,capital_status,Capital of the Shirvanshahs,,Axworthy2008,medium,A silk-trade city of the western Caspian
+obs_3950,shamakhi,1538,1538,circa,conquest,,Safavid Empire,Axworthy2008,medium,Brought under Safavid Persia
+obs_3951,shamakhi,1813,1813,circa,conquest,,Russia,Davies1996,low,Ceded to Russia by the Treaty of Gulistan
+obs_3952,dholavira,-2650,-2650,circa,founding,,,Possehl2002,low,Major Harappan city of the Rann of Kutch with great water reservoirs
+obs_3953,dholavira,-2300,-2300,circa,attestation,A planned Indus city of citadel and reservoirs,,Possehl2002,low,At its mature Harappan height
+obs_3954,dholavira,-1900,-1900,century,abandonment,,,Possehl2002,low,Abandoned in the decline of the Indus civilization
+obs_3955,lothal,-2400,-2400,circa,founding,,,Possehl2002,low,Harappan port with what may be the world's earliest dockyard
+obs_3956,lothal,-2200,-2200,circa,attestation,A bead-making and maritime trade town of the Indus,,Possehl2002,low,Tied to the Gulf trade
+obs_3957,lothal,-1900,-1900,century,abandonment,,,Possehl2002,low,Abandoned with the decline of the Indus cities
+obs_3958,rajagriha,-600,-600,circa,founding,,,Thapar2002,low,Hill-girt first capital of Magadha
+obs_3959,rajagriha,-544,-460,circa,capital_status,Capital of Magadha under Bimbisara and Ajatashatru,,Thapar2002,medium,Before the capital moved to Pataliputra
+obs_3960,rajagriha,-483,-483,circa,attestation,Site of the first Buddhist council,,Thapar2002,medium,A center of early Buddhism and Jainism
+obs_3961,vaishali,-600,-600,circa,founding,,,Thapar2002,low,Capital of the Licchavi and the Vajji confederacy
+obs_3962,vaishali,-600,-400,circa,capital_status,Seat of the Vajji republic,,Thapar2002,medium,One of the earliest examples of republican government
+obs_3963,vaishali,-383,-383,circa,attestation,Site of the second Buddhist council,,Thapar2002,medium,A major center of early Buddhism
+obs_3964,sravasti,-600,-600,circa,founding,,,Thapar2002,low,Capital of the kingdom of Kosala
+obs_3965,sravasti,-600,-300,circa,capital_status,Capital of Kosala,,Thapar2002,medium,One of the great cities of the Buddha's age
+obs_3966,sravasti,-500,-500,circa,attestation,Where the Buddha spent many rains-retreats at Jetavana,,Thapar2002,medium,A major early Buddhist center
+obs_3967,nalanda,427,427,circa,founding,,,Thapar2002,medium,The great Buddhist monastic university of the Gupta age
+obs_3968,nalanda,700,700,circa,attestation,A renowned center of learning drawing scholars from across Asia,,Thapar2002,high,Visited by Xuanzang and Yijing
+obs_3969,nalanda,1193,1193,circa,destruction,,Delhi Sultanate,AsherTalbot2006,medium,Sacked by the armies of Bakhtiyar Khalji
+obs_3970,kannauj,400,400,circa,founding,,,Thapar2002,low,City on the Ganges that rose to imperial rank
+obs_3971,kannauj,606,647,circa,capital_status,Capital of Harsha's empire,,Thapar2002,high,Center of the last great northern empire before the Turks
+obs_3972,kannauj,836,1036,circa,capital_status,Capital of the Gurjara-Pratihara empire,,Thapar2002,medium,The prize of the tripartite struggle for northern India
+obs_3973,kannauj,1194,1194,circa,conquest,,Ghurid Sultanate,AsherTalbot2006,medium,Taken by the armies of Muhammad of Ghor
+obs_3974,badami,540,540,circa,founding,,,Thapar2002,medium,Vatapi; capital of the Chalukyas of Badami
+obs_3975,badami,543,757,circa,capital_status,Capital of the Chalukya dynasty,,Thapar2002,high,Famed for its rock-cut cave temples
+obs_3976,badami,642,642,circa,conquest,,Pallava dynasty,Thapar2002,low,Briefly sacked by the Pallavas of Kanchi
+obs_3977,gangaikonda-cholapuram,1025,1025,circa,founding,,Rajendra Chola,Stein1989,medium,Built by Rajendra Chola as the imperial capital after his Ganges campaign
+obs_3978,gangaikonda-cholapuram,1025,1279,circa,capital_status,Capital of the Chola Empire,,Stein1989,high,Seat of the maritime Chola power
+obs_3979,gangaikonda-cholapuram,1300,1300,century,abandonment,,,Stein1989,low,Abandoned as the Cholas fell
+obs_3980,halebidu,1100,1100,circa,founding,,,Thapar2002,low,Dwarasamudra; capital of the Hoysala dynasty
+obs_3981,halebidu,1100,1311,circa,capital_status,Capital of the Hoysala kingdom,,Thapar2002,medium,Famed for its star-shaped temples of carved soapstone
+obs_3982,halebidu,1311,1311,circa,destruction,,Delhi Sultanate,AsherTalbot2006,medium,Sacked by Malik Kafur's armies from Delhi
+obs_3983,warangal,1163,1163,circa,founding,,,Thapar2002,low,Capital of the Kakatiya dynasty of Telangana
+obs_3984,warangal,1163,1323,circa,capital_status,Capital of the Kakatiya kingdom,,Thapar2002,medium,Ringed by its great stone and earthen fort
+obs_3985,warangal,1323,1323,circa,conquest,,Delhi Sultanate,AsherTalbot2006,medium,Annexed by the Delhi Sultanate
+obs_3986,gulbarga,1347,1347,circa,founding,,Bahmani Sultanate,AsherTalbot2006,medium,First capital of the Bahmani Sultanate
+obs_3987,gulbarga,1347,1424,circa,capital_status,Capital of the Bahmani Sultanate,,AsherTalbot2006,high,The first great Muslim power of the Deccan
+obs_3988,gulbarga,1424,1424,circa,abandonment,,,AsherTalbot2006,low,Eclipsed when the Bahmani capital moved to Bidar
+obs_3989,bidar,1424,1424,circa,founding,,Bahmani Sultanate,AsherTalbot2006,medium,Became the Bahmani capital under Ahmad Shah
+obs_3990,bidar,1424,1619,circa,capital_status,Capital of the Bahmani and Barid Shahi sultanates,,AsherTalbot2006,medium,A Deccan center of Persianate culture and the Bidri metalwork
+obs_3991,bidar,1656,1656,circa,conquest,,Mughal Empire,AsherTalbot2006,medium,Annexed by the Mughals under Aurangzeb
+obs_3992,bijapur,1490,1490,circa,founding,,Adil Shahi,AsherTalbot2006,medium,Capital of the Adil Shahi sultanate
+obs_3993,bijapur,1490,1686,circa,capital_status,Capital of the Adil Shahi sultanate,,AsherTalbot2006,high,A great Deccan power; the domed Gol Gumbaz
+obs_3994,bijapur,1686,1686,circa,conquest,,Mughal Empire,AsherTalbot2006,high,Conquered by the Mughals under Aurangzeb
+obs_3995,golconda,1518,1518,circa,founding,,Qutb Shahi,AsherTalbot2006,medium,Fortress capital of the Qutb Shahi sultanate
+obs_3996,golconda,1518,1591,circa,capital_status,Capital of the Qutb Shahi sultanate,,AsherTalbot2006,high,Famed for its diamond trade and great fort
+obs_3997,golconda,1687,1687,circa,conquest,,Mughal Empire,AsherTalbot2006,high,Captured by the Mughals under Aurangzeb after a long siege
+obs_3998,daulatabad,1187,1187,circa,founding,,,Thapar2002,low,Devagiri; hill-fort capital of the Yadava dynasty
+obs_3999,daulatabad,1296,1296,circa,conquest,,Delhi Sultanate,AsherTalbot2006,medium,Taken by Alauddin Khalji of Delhi
+obs_4000,daulatabad,1327,1327,circa,attestation,Tughlaq's failed attempt to make it the capital of his empire,,AsherTalbot2006,medium,Muhammad bin Tughlaq force-marched Delhi's people south
+obs_4001,patan,746,746,circa,founding,,,Thapar2002,low,Anhilwara; capital of the Chaulukya kings of Gujarat
+obs_4002,patan,942,1244,circa,capital_status,Capital of the Chaulukya dynasty,,Thapar2002,medium,A wealthy Gujarat city of the Rani ki Vav stepwell
+obs_4003,patan,1298,1298,circa,conquest,,Delhi Sultanate,AsherTalbot2006,medium,Conquered by the Delhi Sultanate
+obs_4004,ahmedabad,1411,1411,circa,founding,,Gujarat Sultanate,AsherTalbot2006,high,Founded by Ahmad Shah as the capital of the Gujarat Sultanate
+obs_4005,ahmedabad,1411,1573,circa,capital_status,Capital of the Gujarat Sultanate,,AsherTalbot2006,medium,A wealthy textile and trade city
+obs_4006,ahmedabad,1573,1573,circa,conquest,,Mughal Empire,AsherTalbot2006,medium,Annexed by Akbar into the Mughal Empire
+obs_4007,mandu,1401,1401,circa,founding,,Malwa Sultanate,AsherTalbot2006,medium,Hilltop capital of the Malwa Sultanate
+obs_4008,mandu,1401,1561,circa,capital_status,Capital of the Malwa Sultanate,,AsherTalbot2006,medium,A fortified plateau city of palaces and pavilions
+obs_4009,mandu,1561,1561,circa,conquest,,Mughal Empire,AsherTalbot2006,medium,Annexed by the Mughals under Akbar
+obs_4010,somnath,800,800,circa,founding,,,Thapar2002,low,Temple-town and port on the Saurashtra coast
+obs_4011,somnath,1026,1026,circa,destruction,,Ghaznavid Empire,AsherTalbot2006,high,The Shiva temple sacked by Mahmud of Ghazni
+obs_4012,somnath,1300,1300,circa,attestation,Rebuilt and sacked repeatedly over the centuries,,AsherTalbot2006,low,A contested pilgrimage shrine
+obs_4013,dwarka,-1500,-1500,circa,founding,,,Thapar2002,low,Legendary coastal city associated with Krishna
+obs_4014,dwarka,800,800,circa,attestation,A great pilgrimage center and seat of a Shankara matha,,Thapar2002,low,One of the four cardinal Hindu pilgrimage sites
+obs_4015,dwarka,2020,2020,circa,population_estimate,40000,,UN2018,low,Modern Dwarka
+obs_4016,ajmer,1100,1100,circa,founding,,,Thapar2002,low,Ajayameru; hill-fort capital of the Chauhan dynasty
+obs_4017,ajmer,1192,1192,circa,conquest,,Ghurid Sultanate,AsherTalbot2006,medium,Taken by Muhammad of Ghor after the defeat of Prithviraj
+obs_4018,ajmer,1236,1236,circa,attestation,Shrine of the Sufi saint Moinuddin Chishti,,AsherTalbot2006,medium,A great pilgrimage center of Indian Islam
+obs_4019,ajmer,1559,1559,circa,conquest,,Mughal Empire,AsherTalbot2006,medium,Annexed by Akbar and favored by the Mughals
+obs_4020,chittorgarh,728,728,circa,founding,,,Thapar2002,low,Hill-fort of the Guhila and Sisodia rulers of Mewar
+obs_4021,chittorgarh,1100,1568,circa,capital_status,Capital of the kingdom of Mewar,,AsherTalbot2006,medium,The greatest Rajput fortress; scene of three famous jauhars
+obs_4022,chittorgarh,1303,1303,circa,conquest,,Delhi Sultanate,AsherTalbot2006,medium,Sacked by Alauddin Khalji of Delhi
+obs_4023,chittorgarh,1568,1568,circa,conquest,,Mughal Empire,AsherTalbot2006,medium,Stormed by Akbar; Mewar's capital moved to Udaipur
+obs_4024,fatehpur-sikri,1571,1571,circa,founding,,Mughal Empire,AsherTalbot2006,high,Built by Akbar as a new Mughal capital beside the shrine of Salim Chishti
+obs_4025,fatehpur-sikri,1571,1585,circa,capital_status,Capital of the Mughal Empire,,AsherTalbot2006,high,Akbar's planned city of red sandstone
+obs_4026,fatehpur-sikri,1585,1585,circa,abandonment,,,AsherTalbot2006,medium,Abandoned within two decades for lack of water
+obs_4027,srinagar,600,600,circa,founding,,,Thapar2002,low,Capital city of the Kashmir valley
+obs_4028,srinagar,855,1586,circa,capital_status,Capital of the kingdom of Kashmir,,Thapar2002,medium,Seat of Hindu and then Muslim dynasties of Kashmir
+obs_4029,srinagar,1586,1586,circa,conquest,,Mughal Empire,AsherTalbot2006,medium,Annexed by Akbar who built the famous Mughal gardens
+obs_4030,goa,1000,1000,circa,founding,,,AsherTalbot2006,low,Port of the Kadambas later held by the Vijayanagara and Bahmani powers
+obs_4031,goa,1510,1510,circa,conquest,,Portuguese Empire,Disney2009,high,Seized by Afonso de Albuquerque as the seat of Portuguese India
+obs_4032,goa,1530,1843,circa,capital_status,Capital of the Estado da India,,Disney2009,high,The Rome of the East; hub of the Portuguese seaborne empire
+obs_4033,goa,1961,1961,circa,conquest,,Republic of India,Darwin2012,medium,Annexed by India ending Portuguese rule
+obs_4034,calicut,1100,1100,circa,founding,,,AsherTalbot2006,low,Seat of the Zamorin and chief pepper port of Malabar
+obs_4035,calicut,1200,1766,circa,capital_status,Capital of the Zamorin of Calicut,,AsherTalbot2006,medium,The dominant trading power of the Malabar coast
+obs_4036,calicut,1498,1498,circa,attestation,Landfall of Vasco da Gama on the first sea route from Europe to India,,Disney2009,high,Opening the Portuguese age in the Indian Ocean
+obs_4037,calicut,1792,1792,circa,conquest,,British Empire,Darwin2012,low,Brought under British rule after the Mysore wars
+obs_4038,cochin,1102,1102,circa,founding,,,AsherTalbot2006,low,Spice port and seat of the kingdom of Cochin
+obs_4039,cochin,1503,1503,circa,conquest,,Portuguese Empire,Disney2009,medium,The Portuguese build their first Indian fort
+obs_4040,cochin,1663,1663,circa,conquest,,Dutch Empire,Disney2009,medium,Taken by the Dutch East India Company
+obs_4041,machilipatnam,1400,1400,circa,founding,,,AsherTalbot2006,low,Coromandel port of the Golconda sultanate
+obs_4042,machilipatnam,1620,1620,circa,attestation,Chief port of the Coromandel with Dutch English and French factories,,AsherTalbot2006,medium,A great outlet for printed textiles and chintz
+obs_4043,machilipatnam,1750,1750,century,abandonment,,,AsherTalbot2006,low,Declined as Madras and the British rose
+obs_4044,pondicherry,1674,1674,circa,founding,,French Empire,Darwin2012,high,Founded as the headquarters of the French East India Company
+obs_4045,pondicherry,1674,1954,circa,capital_status,Capital of French India,,Darwin2012,high,The principal French settlement in India
+obs_4046,pondicherry,1954,1954,circa,conquest,,Republic of India,Darwin2012,medium,Transferred to India ending French rule
+obs_4047,bengaluru,1537,1537,circa,founding,,,AsherTalbot2006,medium,Founded by Kempe Gowda as a fortified market town
+obs_4048,bengaluru,1799,1799,circa,conquest,,British Empire,Darwin2012,low,Came under British control after the fall of Tipu Sultan
+obs_4049,bengaluru,2020,2020,circa,population_estimate,12500000,,UN2018,medium,Modern Bengaluru the Indian technology capital
+obs_4050,polonnaruwa,1017,1017,circa,founding,,,AsherTalbot2006,low,Rose as the capital after the Chola sack of Anuradhapura
+obs_4051,polonnaruwa,1070,1232,circa,capital_status,Capital of the Sinhalese kingdom,,Thapar2002,high,Its golden age under Parakramabahu and the great irrigation tanks
+obs_4052,polonnaruwa,1300,1300,century,abandonment,,,Thapar2002,medium,Abandoned as the capital moved southwest
+obs_4053,sigiriya,477,477,circa,founding,,,Thapar2002,medium,Rock-fortress capital built by King Kashyapa
+obs_4054,sigiriya,477,495,circa,capital_status,Capital of Kashyapa's kingdom,,Thapar2002,medium,The lion rock with its famous frescoes and water gardens
+obs_4055,sigiriya,495,495,circa,abandonment,,,Thapar2002,low,Abandoned after Kashyapa's fall and turned to a monastery
+obs_4056,kandy,1474,1474,circa,founding,,,AsherTalbot2006,low,Hill capital of the central Sinhalese kingdom
+obs_4057,kandy,1592,1815,circa,capital_status,Capital of the kingdom of Kandy,,Darwin2012,medium,The last independent Sinhalese kingdom and home of the Temple of the Tooth
+obs_4058,kandy,1815,1815,circa,conquest,,British Empire,Darwin2012,medium,Annexed by the British ending Sinhalese independence
+obs_4059,galle,1400,1400,circa,founding,,,Lieberman2003,low,Southern port of Sri Lanka on the Indian Ocean trade
+obs_4060,galle,1640,1640,circa,conquest,,Dutch Empire,Disney2009,medium,Taken by the Dutch who built its great walled fort
+obs_4061,galle,1796,1796,circa,conquest,,British Empire,Darwin2012,low,Passed to the British with Dutch Ceylon
+obs_4062,bursa,-200,-200,circa,founding,,,Mitchell1993,low,Prusa; a Bithynian royal foundation
+obs_4063,bursa,1326,1326,circa,conquest,,Ottoman Empire,Hourani1991,high,Captured by Orhan and made the first Ottoman capital
+obs_4064,bursa,1326,1365,circa,capital_status,First capital of the Ottoman Empire,,Hourani1991,high,Seat of the early Ottoman sultans and their tombs
+obs_4065,bursa,2020,2020,circa,population_estimate,3100000,,UN2018,low,Modern Bursa
+obs_4066,edirne,125,125,circa,founding,,,Mitchell1993,low,Hadrianopolis; founded by the emperor Hadrian in Thrace
+obs_4067,edirne,378,378,circa,attestation,Battle of Adrianople where the Goths destroyed the army of Valens,,Mango2002,medium,A turning point in the late Roman Empire
+obs_4068,edirne,1369,1453,circa,capital_status,Second capital of the Ottoman Empire,,Hourani1991,high,The Ottoman seat from which Constantinople was taken
+obs_4069,edirne,2020,2020,circa,population_estimate,170000,,UN2018,low,Modern Edirne
+obs_4070,kayseri,-300,-300,circa,founding,,,Hornblower2011,low,Mazaca; capital of the kingdom of Cappadocia
+obs_4071,kayseri,-300,17,circa,capital_status,Capital of the kingdom of Cappadocia,,Hornblower2011,medium,Until Cappadocia became a Roman province
+obs_4072,kayseri,1080,1080,circa,conquest,,Seljuk Empire,Cahen2001,medium,Taken by the Seljuks; later a Danishmend and Seljuk city
+obs_4073,kayseri,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Kayseri
+obs_4074,halicarnassus,-900,-900,circa,founding,,,Hornblower2011,low,Dorian Greek and Carian city on the Aegean coast
+obs_4075,halicarnassus,-377,-353,circa,capital_status,Capital of the satrap Mausolus of Caria,,Hornblower2011,medium,Site of the Mausoleum one of the Seven Wonders
+obs_4076,halicarnassus,-334,-334,circa,conquest,,Macedon,Hornblower2011,medium,Besieged and taken by Alexander the Great
+obs_4077,aphrodisias,-100,-100,circa,founding,,,Hornblower2011,low,Carian city of the cult of Aphrodite
+obs_4078,aphrodisias,100,100,circa,attestation,A flourishing Roman city famed for its school of marble sculpture,,Mitchell1993,medium,Favored by the early emperors
+obs_4079,aphrodisias,600,600,century,abandonment,,,Mitchell1993,low,Declined after earthquakes and the end of antiquity
+obs_4080,sivas,1,1,circa,founding,,,Mitchell1993,low,Sebasteia; a Roman and Byzantine city of the Anatolian interior
+obs_4081,sivas,1080,1080,circa,conquest,,Seljuk Empire,Cahen2001,medium,A leading city of the Seljuk Sultanate of Rum
+obs_4082,sivas,1400,1400,circa,destruction,,Timurid Empire (Timur),Cahen2001,medium,Sacked by Timur
+obs_4083,amorium,1,1,circa,founding,,,Mitchell1993,low,Phrygian town that became a great Byzantine fortress city
+obs_4084,amorium,700,838,circa,capital_status,Stronghold of the Byzantine Anatolic theme,,Mango2002,medium,Home region of the Amorian emperors
+obs_4085,amorium,838,838,circa,destruction,,Abbasid Caliphate,Mango2002,high,Stormed and sacked by the Abbasid caliph al-Mutasim
+obs_4086,erzurum,415,415,circa,founding,,,Mango2002,low,Theodosiopolis; Byzantine fortress on the Armenian frontier
+obs_4087,erzurum,1071,1071,circa,conquest,,Seljuk Empire,Cahen2001,medium,Taken by the Seljuks after Manzikert
+obs_4088,erzurum,1514,1514,circa,conquest,,Ottoman Empire,Hourani1991,low,Brought into the Ottoman Empire as an eastern stronghold
+obs_4089,antalya,-150,-150,circa,founding,,,Hornblower2011,low,Attaleia; founded by Attalus II of Pergamon
+obs_4090,antalya,1207,1207,circa,conquest,,Seljuk Empire,Cahen2001,medium,Taken by the Seljuks as their Mediterranean port
+obs_4091,antalya,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Antalya
+obs_4092,amasya,-300,-300,circa,founding,,,Hornblower2011,low,Amaseia; capital of the kingdom of Pontus
+obs_4093,amasya,-300,-183,circa,capital_status,Capital of the kingdom of Pontus,,Hornblower2011,medium,Royal seat of the Mithridatic kings and birthplace of Strabo
+obs_4094,amasya,1400,1400,circa,attestation,An Ottoman city where princes were trained as governors,,Hourani1991,low,A center of the imperial apprenticeship
+obs_4095,xanthos,-700,-700,circa,founding,,,Hornblower2011,low,Chief city and capital of ancient Lycia
+obs_4096,xanthos,-540,-540,circa,conquest,,Achaemenid Empire,Briant2002,low,Its people destroyed themselves rather than submit to Persia
+obs_4097,xanthos,700,700,century,abandonment,,,Mitchell1993,low,Declined in the early Byzantine period
+obs_4098,hierapolis,-190,-190,circa,founding,,,Hornblower2011,low,Spa city founded by the kings of Pergamon above the travertines
+obs_4099,hierapolis,100,100,circa,attestation,A thriving Roman thermal city and early Christian center,,Mitchell1993,medium,Site venerated as the martyrdom of the apostle Philip
+obs_4100,hierapolis,1350,1350,century,abandonment,,,Mitchell1993,low,Abandoned after repeated earthquakes
+obs_4101,myra,-300,-300,circa,founding,,,Hornblower2011,low,Lycian coastal city with rock-cut tombs
+obs_4102,myra,343,343,circa,attestation,See of Saint Nicholas the bishop of Myra,,Mango2002,medium,A Byzantine pilgrimage center
+obs_4103,myra,1100,1100,century,abandonment,,,Mango2002,low,Declined after Arab raids and the silting of its harbor
+obs_4104,perge,-300,-300,circa,founding,,,Hornblower2011,low,Pamphylian city of the southern coast
+obs_4105,perge,150,150,circa,attestation,A wealthy Roman city of colonnaded streets,,Mitchell1993,medium,Home of the mathematician Apollonius
+obs_4106,perge,700,700,century,abandonment,,,Mitchell1993,low,Declined in the Byzantine period
+obs_4107,manzikert,400,400,circa,founding,,,Mango2002,low,Frontier fortress town of the Armenian highlands
+obs_4108,manzikert,1071,1071,circa,attestation,Battle of Manzikert where the Seljuks crushed the Byzantine army,,Cahen2001,high,Opened Anatolia to Turkish settlement
+obs_4109,manzikert,1071,1071,circa,conquest,,Seljuk Empire,Cahen2001,medium,Passed to the Seljuks after the battle
+obs_4110,amida,-300,-300,circa,founding,,,Mitchell1993,low,Fortress city on the upper Tigris
+obs_4111,amida,359,359,circa,conquest,,Sasanian Empire,Mitchell1993,medium,Stormed by Shapur II after a famous siege
+obs_4112,amida,639,639,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the early Arab conquests
+obs_4113,amida,1515,1515,circa,conquest,,Ottoman Empire,Hourani1991,low,Brought into the Ottoman Empire
+obs_4114,phocaea,-1000,-1000,circa,founding,,,Hornblower2011,low,Ionian Greek seafaring city of the Aegean
+obs_4115,phocaea,-600,-600,circa,attestation,Mother city of Massalia and the western Greek colonies,,Hornblower2011,medium,Pioneers of long-range Greek seafaring
+obs_4116,phocaea,-546,-546,circa,conquest,,Achaemenid Empire,Briant2002,low,Many Phocaeans fled west rather than submit to Persia
+obs_4117,alanya,400,400,circa,founding,,,Mitchell1993,low,Kalonoros; a fortified Byzantine harbor on the south coast
+obs_4118,alanya,1221,1221,circa,conquest,,Seljuk Empire,Cahen2001,medium,Taken by Alaeddin Keykubad as a Seljuk naval base and winter capital
+obs_4119,alanya,1226,1226,circa,attestation,The Red Tower and shipyard built for the Seljuk fleet,,Cahen2001,low,A Mediterranean stronghold of the Sultanate of Rum
+obs_4120,leluh,1300,1300,circa,founding,,,Kirch2000,medium,A walled stone city rises on a reef islet off Kosrae
+obs_4121,leluh,1400,1850,circa,capital_status,Seat of the paramount chiefs of Kosrae,,Kirch2000,high,A megalithic royal center like Nan Madol
+obs_4122,leluh,1880,1880,circa,abandonment,,,Kirch2000,medium,Depopulated after European contact and disease
+obs_4123,taputapuatea,1000,1000,circa,founding,,,Kirch2000,medium,Great marae complex on Raiatea
+obs_4124,taputapuatea,1300,1700,circa,capital_status,Religious heart of central East Polynesia,,Kirch2000,high,A ceremonial hub of the Polynesian voyaging network
+obs_4125,taputapuatea,1800,1800,circa,abandonment,,,Kirch2000,low,Declined with the coming of Christianity
+obs_4126,pulemelei,1100,1100,circa,founding,,,Kirch2000,low,Great stone mound on Savaii; the largest ancient structure in Polynesia
+obs_4127,pulemelei,1300,1300,circa,attestation,A monumental chiefly and ceremonial platform,,Kirch2000,medium,Center of a Samoan polity
+obs_4128,pulemelei,1500,1500,circa,abandonment,,,Kirch2000,low,Fell out of use before European contact
+obs_4129,bau,1760,1760,circa,founding,,,Kirch2000,low,Chiefly island that rose to dominate eastern Fiji
+obs_4130,bau,1800,1874,circa,capital_status,Seat of the paramount chiefs of Bau,,Kirch2000,medium,Cakobau's power that came to dominate Fiji
+obs_4131,bau,1874,1874,circa,conquest,,British Empire,Darwin2012,medium,Cakobau cedes Fiji to Britain
+obs_4132,hagatna,1000,1000,circa,founding,,,Kirch2000,low,Chamorro village of the Mariana Islands
+obs_4133,hagatna,1668,1668,circa,conquest,,Spanish Empire,Darwin2012,medium,Capital of the Spanish Marianas and a Manila galleon waystation
+obs_4134,hagatna,1898,1898,circa,conquest,,United States,Darwin2012,medium,Ceded to the United States after the Spanish-American War
+obs_4135,levuka,1820,1820,circa,founding,,,Darwin2012,low,Beachcomber and trader port of the Fiji islands
+obs_4136,levuka,1874,1882,circa,capital_status,First colonial capital of Fiji,,Darwin2012,medium,The cession capital before Suva
+obs_4137,levuka,1882,1882,circa,abandonment,,,Darwin2012,low,Eclipsed when the capital moved to Suva
+obs_4138,hobart,1804,1804,circa,founding,,British Empire,Darwin2012,high,Founded as a British penal settlement on Van Diemen's Land
+obs_4139,hobart,1840,1840,circa,attestation,A whaling port and convict colony capital,,Darwin2012,low,The chief town of Van Diemen's Land
+obs_4140,hobart,2020,2020,circa,population_estimate,250000,,UN2018,low,Modern Hobart
+obs_4141,apia,1850,1850,circa,founding,,,Darwin2012,low,Trading port on Upolu in the Samoan islands
+obs_4142,apia,1900,1900,circa,conquest,,German Empire,Darwin2012,medium,Center of German Samoa after the partition of the islands
+obs_4143,apia,1962,2020,circa,capital_status,Capital of independent Samoa,,Darwin2012,medium,The first Pacific island state to regain independence
+obs_4144,papeete,1820,1820,circa,founding,,,Darwin2012,low,Mission and trading port on Tahiti
+obs_4145,papeete,1842,1842,circa,conquest,,French Empire,Darwin2012,medium,Made a French protectorate and capital of their Pacific territories
+obs_4146,papeete,2020,2020,circa,population_estimate,140000,,UN2018,low,Modern Papeete
+obs_4147,noumea,1854,1854,circa,founding,,French Empire,Darwin2012,medium,Founded by France as Port-de-France in New Caledonia
+obs_4148,noumea,1864,1864,circa,attestation,A French penal colony and nickel-mining port,,Darwin2012,low,Convicts shipped to the antipodes
+obs_4149,noumea,2020,2020,circa,population_estimate,180000,,UN2018,low,Modern Noumea
+obs_4150,kororareka,1820,1820,circa,founding,,,Darwin2012,low,First European settlement in New Zealand at the Bay of Islands
+obs_4151,kororareka,1840,1840,circa,attestation,Beside Waitangi where the Maori-British treaty was signed,,Darwin2012,medium,A whaling and trading town of the early contact era
+obs_4152,kororareka,1845,1845,circa,destruction,,Ngapuhi,Darwin2012,low,Sacked in the Flagstaff War
+obs_4153,dunedin,1848,1848,circa,founding,,British Empire,Darwin2012,medium,Founded as a Scottish Free Church settlement in Otago
+obs_4154,dunedin,1861,1861,circa,attestation,Boomtown of the Otago gold rush and New Zealand's largest city,,Darwin2012,medium,Its wealth built the colony's first university
+obs_4155,dunedin,2020,2020,circa,population_estimate,130000,,UN2018,low,Modern Dunedin
+obs_4156,san-lorenzo,-1500,-1500,circa,founding,,,Coe2011,medium,Earliest great center of the Olmec; the colossal stone heads
+obs_4157,san-lorenzo,-1200,-900,circa,capital_status,Principal Olmec center on the Gulf coast,,Coe2011,medium,The first complex society of Mesoamerica
+obs_4158,san-lorenzo,-900,-900,circa,abandonment,,,Coe2011,low,Declined as La Venta rose
+obs_4159,la-venta,-900,-900,circa,founding,,,Coe2011,medium,Olmec ceremonial center after San Lorenzo
+obs_4160,la-venta,-800,-400,circa,capital_status,Leading Olmec center with its great clay pyramid,,Coe2011,medium,Heart of the Olmec heartland
+obs_4161,la-venta,-400,-400,circa,abandonment,,,Coe2011,low,Abandoned at the end of the Olmec era
+obs_4162,el-mirador,-300,-300,circa,founding,,,Coe2011,medium,Great city of the Preclassic Maya in the Peten
+obs_4163,el-mirador,-200,150,circa,capital_status,The dominant Preclassic Maya capital,,Coe2011,high,Home of the colossal La Danta pyramid
+obs_4164,el-mirador,150,150,circa,abandonment,,,Coe2011,medium,Collapsed at the end of the Preclassic
+obs_4165,kaminaljuyu,-700,-700,circa,founding,,,Coe2011,low,Highland Maya center of the Valley of Guatemala
+obs_4166,kaminaljuyu,-400,800,circa,capital_status,A major highland Maya capital,,Coe2011,medium,Tied by trade and influence to Teotihuacan
+obs_4167,kaminaljuyu,900,900,circa,abandonment,,,Coe2011,low,Declined with the Classic Maya collapse
+obs_4168,uxmal,700,700,circa,founding,,,Coe2011,low,Puuc Maya city of the Yucatan hills
+obs_4169,uxmal,850,950,circa,capital_status,A leading Puuc Maya capital,,Coe2011,medium,Famed for its ornate Puuc-style architecture
+obs_4170,uxmal,1100,1100,circa,abandonment,,,Coe2011,low,Declined as Chichen Itza and then Mayapan rose
+obs_4171,coba,100,100,circa,founding,,,Coe2011,low,Maya city of the eastern Yucatan lakes
+obs_4172,coba,600,900,circa,capital_status,A great Classic Maya capital linked by stone causeways,,Coe2011,medium,Rivaled Chichen Itza for the eastern lowlands
+obs_4173,coba,1300,1300,circa,abandonment,,,Coe2011,low,Largely abandoned in the Postclassic
+obs_4174,mayapan,1100,1100,circa,founding,,,Coe2011,low,Walled city of the northern Maya
+obs_4175,mayapan,1220,1440,circa,capital_status,Capital of the League of Mayapan,,Coe2011,high,The last great political center of the Maya
+obs_4176,mayapan,1441,1441,circa,abandonment,,,Coe2011,medium,Abandoned after a revolt against the ruling Cocom
+obs_4177,cholula,-500,-500,circa,founding,,,Coe2011,low,Sacred city of the Great Pyramid in the Puebla valley
+obs_4178,cholula,1,900,circa,capital_status,A great religious and trade city of central Mexico,,Coe2011,medium,Its pyramid is the largest by volume in the world
+obs_4179,cholula,1519,1519,circa,conquest,,Spanish Empire,Bethell1984,medium,Site of a massacre by Cortes on his march to Tenochtitlan
+obs_4180,xochicalco,650,650,circa,founding,,,Coe2011,low,Fortified hilltop city of the Epiclassic
+obs_4181,xochicalco,700,900,circa,capital_status,A regional capital after the fall of Teotihuacan,,Coe2011,medium,Famed for its Feathered Serpent pyramid
+obs_4182,xochicalco,900,900,circa,abandonment,,,Coe2011,low,Abandoned at the close of the Epiclassic
+obs_4183,el-tajin,100,100,circa,founding,,,Coe2011,low,Center of the Classic Veracruz culture
+obs_4184,el-tajin,600,1200,circa,capital_status,Capital of the Gulf lowland Classic Veracruz,,Coe2011,medium,Famed for its Pyramid of the Niches and ballcourts
+obs_4185,el-tajin,1200,1200,circa,abandonment,,,Coe2011,low,Destroyed and abandoned around 1200
+obs_4186,mitla,200,200,circa,founding,,,Coe2011,low,Zapotec town in the Oaxaca valley
+obs_4187,mitla,1000,1521,circa,capital_status,Chief Zapotec religious center,,Coe2011,medium,Famed for its intricate stone mosaic palaces
+obs_4188,mitla,1521,1521,circa,conquest,,Spanish Empire,Bethell1984,low,Brought under Spanish rule
+obs_4189,tzintzuntzan,1350,1350,circa,founding,,,Coe2011,medium,Capital of the Tarascan empire by Lake Patzcuaro
+obs_4190,tzintzuntzan,1450,1530,circa,capital_status,Capital of the Tarascan empire,,Coe2011,high,The great western rival the Aztecs never conquered
+obs_4191,tzintzuntzan,1530,1530,circa,conquest,,Spanish Empire,Bethell1984,medium,Submitted to the Spanish
+obs_4192,tlatelolco,1337,1337,circa,founding,,,Coe2011,medium,Sister city to Tenochtitlan with the greatest market of Mesoamerica
+obs_4193,tlatelolco,1473,1473,circa,conquest,,Aztec Empire,Coe2011,medium,Absorbed by neighboring Tenochtitlan
+obs_4194,tlatelolco,1521,1521,circa,destruction,,Spanish Empire,Bethell1984,medium,Site of the final Aztec stand against Cortes
+obs_4195,moche,100,100,circa,founding,,,DAltroy2014,medium,Capital of the Moche on the north Peruvian coast
+obs_4196,moche,200,800,circa,capital_status,Center of the Moche civilization,,DAltroy2014,high,The adobe Huacas of the Sun and Moon
+obs_4197,moche,800,800,circa,abandonment,,,DAltroy2014,medium,Abandoned amid drought and upheaval
+obs_4198,sican,750,750,circa,founding,,,DAltroy2014,low,Center of the Sican or Lambayeque culture
+obs_4199,sican,900,1100,circa,capital_status,Capital of the Sican culture,,DAltroy2014,medium,Renowned for its goldwork and great adobe mounds
+obs_4200,sican,1375,1375,circa,conquest,,Chimor,DAltroy2014,low,Absorbed by the Chimu kingdom
+obs_4201,cahuachi,-100,-100,circa,founding,,,DAltroy2014,low,Ceremonial center of the Nazca on the south coast
+obs_4202,cahuachi,1,450,circa,capital_status,Chief ceremonial center of the Nazca,,DAltroy2014,medium,Tied to the great desert geoglyphs
+obs_4203,cahuachi,500,500,circa,abandonment,,,DAltroy2014,low,Abandoned as Nazca society declined
+obs_4204,kuelap,900,900,circa,founding,,,DAltroy2014,low,Fortress-city of the Chachapoya in the cloud forest
+obs_4205,kuelap,1100,1470,circa,capital_status,Stronghold of the Chachapoya,,DAltroy2014,medium,Ringed by walls higher than those of any Andean site
+obs_4206,kuelap,1470,1470,circa,conquest,,Inca Empire,DAltroy2014,medium,Conquered by the Inca
+obs_4207,machu-picchu,1450,1450,circa,founding,,Inca Empire,DAltroy2014,medium,Royal estate of the Inca emperor Pachacuti
+obs_4208,machu-picchu,1470,1470,circa,attestation,A mountain estate of the Inca ruling house,,DAltroy2014,medium,Built on a ridge above the Urubamba
+obs_4209,machu-picchu,1572,1572,circa,abandonment,,,DAltroy2014,medium,Abandoned around the fall of the Inca state
+obs_4210,ollantaytambo,1440,1440,circa,founding,,Inca Empire,DAltroy2014,medium,Inca town and temple-fortress in the Sacred Valley
+obs_4211,ollantaytambo,1537,1537,circa,attestation,Where Manco Inca defeated a Spanish attack,,DAltroy2014,medium,A rare Inca victory in the conquest war
+obs_4212,ollantaytambo,1540,1540,circa,conquest,,Spanish Empire,Bethell1984,low,Brought under Spanish control
+obs_4213,tomebamba,1480,1480,circa,founding,,Inca Empire,DAltroy2014,medium,Northern Inca capital built by Huayna Capac
+obs_4214,tomebamba,1490,1532,circa,capital_status,Second capital of the Inca Empire,,DAltroy2014,high,The Cusco of the north in the Ecuadorian Andes
+obs_4215,tomebamba,1532,1532,circa,destruction,,Inca Empire,DAltroy2014,medium,Razed in the Inca war between Atahualpa and Huascar
+obs_4216,pukara,-500,-500,circa,founding,,,DAltroy2014,low,Early ceremonial center of the northern Titicaca basin
+obs_4217,pukara,-200,200,circa,capital_status,Heart of the Pukara culture,,DAltroy2014,medium,A forerunner of Tiwanaku
+obs_4218,pukara,300,300,circa,abandonment,,,DAltroy2014,low,Declined as Tiwanaku rose
+obs_4219,sechin,-3500,-3500,circa,founding,,,DAltroy2014,low,Among the earliest monumental architecture in the Americas
+obs_4220,sechin,-1600,-1600,circa,attestation,Stone reliefs of warriors and the slain at Cerro Sechin,,DAltroy2014,low,An early ceremonial center of the Casma valley
+obs_4221,sechin,-800,-800,century,abandonment,,,DAltroy2014,low,Eclipsed in the later Andean Formative
+obs_4222,poverty-point,-1700,-1700,circa,founding,,,Fagan2005,medium,Monumental earthworks raised by Archaic hunter-gatherers
+obs_4223,poverty-point,-1500,-1500,circa,attestation,Great concentric ridges and mounds on the lower Mississippi,,Fagan2005,medium,A trade and ceremonial hub of the Archaic
+obs_4224,poverty-point,-1100,-1100,circa,abandonment,,,Fagan2005,low,Abandoned after centuries of use
+obs_4225,newark-earthworks,-100,-100,circa,founding,,,Fagan2005,low,Great geometric earthworks of the Hopewell culture
+obs_4226,newark-earthworks,100,100,circa,attestation,Vast circles and octagons aligned to the moon,,Fagan2005,medium,A ceremonial center of the Hopewell interaction sphere
+obs_4227,newark-earthworks,500,500,circa,abandonment,,,Fagan2005,low,Use ended as the Hopewell tradition waned
+obs_4228,casa-grande,300,300,circa,founding,,,Fagan2005,low,Hohokam irrigation community of the Sonoran desert
+obs_4229,casa-grande,1300,1300,circa,attestation,The Great House and a vast canal network,,Fagan2005,medium,Center of Hohokam desert farming
+obs_4230,casa-grande,1450,1450,circa,abandonment,,,Fagan2005,low,Abandoned as the Hohokam world unraveled
+obs_4231,paquime,1130,1130,circa,founding,,,Fagan2005,low,Adobe trading city of the northern Mexican desert
+obs_4232,paquime,1200,1450,circa,capital_status,A great trade center between Mesoamerica and the Southwest,,Fagan2005,medium,Famed for its macaw breeding and copper bells
+obs_4233,paquime,1450,1450,circa,abandonment,,,Fagan2005,low,Burned and abandoned in the fifteenth century
+obs_4234,etowah,1000,1000,circa,founding,,,Pauketat2009,low,Mississippian mound town of the southern Appalachians
+obs_4235,etowah,1250,1375,circa,capital_status,A paramount Mississippian chiefdom center,,Pauketat2009,medium,Its great platform mounds and elite burials
+obs_4236,etowah,1550,1550,circa,abandonment,,,Pauketat2009,low,Declined around the time of Spanish contact
+obs_4237,taos-pueblo,1000,1000,circa,founding,,,Fagan2005,low,Multi-story adobe pueblo of the upper Rio Grande
+obs_4238,taos-pueblo,1400,1400,circa,attestation,One of the longest continuously inhabited communities in North America,,Fagan2005,medium,A Pueblo town of the northern Rio Grande
+obs_4239,taos-pueblo,1680,1680,circa,attestation,A heart of the Pueblo Revolt against Spain,,Taylor2001,medium,The northern pueblos drive out the Spanish for a time
+obs_4240,lanse-aux-meadows,1000,1000,circa,founding,,,Fagan2005,medium,Norse encampment; the first known European site in the Americas
+obs_4241,lanse-aux-meadows,1000,1000,circa,attestation,Leif Erikson's Vinland landfall,,Fagan2005,medium,A short-lived Norse base for exploring the new lands
+obs_4242,lanse-aux-meadows,1020,1020,circa,abandonment,,,Fagan2005,low,Abandoned after only a few years
+obs_4243,st-augustine,1565,1565,circa,founding,,Spanish Empire,Taylor2001,high,Founded by Spain; the oldest European city in the present United States
+obs_4244,st-augustine,1672,1672,circa,attestation,The stone fortress of Castillo de San Marcos,,Taylor2001,low,Guarding the Florida coast and the treasure fleets
+obs_4245,st-augustine,1821,1821,circa,conquest,,United States,Taylor2001,low,Passed to the United States with Florida
+obs_4246,jamestown,1607,1607,circa,founding,,British Empire,Taylor2001,high,First permanent English settlement in the Americas
+obs_4247,jamestown,1616,1699,circa,capital_status,Capital of the colony of Virginia,,Taylor2001,medium,Before the capital moved to Williamsburg
+obs_4248,jamestown,1700,1700,circa,abandonment,,,Taylor2001,low,Declined after the capital moved away
+obs_4249,santa-fe,1610,1610,circa,founding,,Spanish Empire,Taylor2001,high,Founded as the Spanish capital of New Mexico
+obs_4250,santa-fe,1610,1821,circa,capital_status,Capital of Spanish New Mexico,,Taylor2001,medium,The oldest seat of government in the present United States
+obs_4251,santa-fe,1846,1846,circa,conquest,,United States,Taylor2001,low,Taken by the United States in the Mexican War
+obs_4252,montreal,1642,1642,circa,founding,,French Empire,Taylor2001,high,Founded as Ville-Marie; hub of the French fur trade
+obs_4253,montreal,1760,1760,circa,conquest,,British Empire,Taylor2001,medium,Surrendered to Britain in the conquest of New France
+obs_4254,montreal,2020,2020,circa,population_estimate,4200000,,UN2018,low,Modern Montreal
+obs_4255,potosi,1545,1545,circa,founding,,Spanish Empire,Bethell1984,high,Founded at the silver mountain of Cerro Rico
+obs_4256,potosi,1610,1610,circa,population_estimate,150000,,Bethell1984,medium,Among the largest cities in the world fed by its silver
+obs_4257,potosi,1600,1800,circa,capital_status,Silver-mining heart of the Spanish empire,,Bethell1984,high,Its bullion underwrote Spain and the global silver trade
+obs_4258,potosi,1850,1850,circa,abandonment,,,Bethell1984,low,Shrank as the silver veins gave out
+obs_4259,cartagena,1533,1533,circa,founding,,Spanish Empire,Bethell1984,high,Founded as a fortified Spanish Caribbean port
+obs_4260,cartagena,1600,1810,circa,capital_status,Chief Spanish treasure and slave port of the Caribbean,,Bethell1984,high,Its great walls guarded the wealth of the Indies
+obs_4261,cartagena,1821,1821,circa,conquest,,Colombia,Bethell1984,low,Part of independent Colombia
+obs_4262,veracruz,1519,1519,circa,founding,,Spanish Empire,Bethell1984,high,Founded by Cortes as the gateway port of New Spain
+obs_4263,veracruz,1600,1821,circa,capital_status,Chief Atlantic port of New Spain,,Bethell1984,medium,Through which the silver of Mexico crossed to Europe
+obs_4264,veracruz,1821,1821,circa,conquest,,Mexico,Bethell1984,low,Part of independent Mexico
+obs_4265,acapulco,1550,1550,circa,founding,,Spanish Empire,Bethell1984,medium,Pacific port of New Spain
+obs_4266,acapulco,1573,1573,circa,attestation,Terminus of the Manila galleon,,Bethell1984,high,The link between the silver of America and the silks of Asia
+obs_4267,acapulco,2020,2020,circa,population_estimate,900000,,UN2018,low,Modern Acapulco
+obs_4268,zacatecas,1546,1546,circa,founding,,Spanish Empire,Bethell1984,high,Founded at rich silver mines in northern New Spain
+obs_4269,zacatecas,1580,1821,circa,capital_status,A great silver-mining city of New Spain,,Bethell1984,medium,Its mines rivaled those of Potosi
+obs_4270,zacatecas,1821,1821,circa,conquest,,Mexico,Bethell1984,low,Part of independent Mexico
+obs_4271,ouro-preto,1698,1698,circa,founding,,Portuguese Empire,Bethell1984,high,Boomtown of the Brazilian gold rush in Minas Gerais
+obs_4272,ouro-preto,1720,1897,circa,capital_status,Capital of the gold-rich province of Minas Gerais,,Bethell1984,medium,A center of Brazilian baroque and the Inconfidencia revolt
+obs_4273,ouro-preto,1900,1900,circa,abandonment,,,Bethell1984,low,Eclipsed when the state capital moved to Belo Horizonte
