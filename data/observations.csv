@@ -108,7 +108,7 @@ obs_0106,harran,-612,-609,circa,capital_status,Last capital of Assyria,Ashur-uba
 obs_0107,harran,-553,-553,circa,attestation,Neo-Babylonian restoration of the Sin temple,Nabonidus,Beaulieu2018,medium,Nabonidus whose mother served the cult rebuilt the Ehulhul
 obs_0108,harran,-53,-53,circa,attestation,Battle of Carrhae,Parthia (Surena),Green1992,medium,The Parthians annihilate Crassus's Roman army nearby
 obs_0109,harran,744,744,circa,attestation,Brief Umayyad capital,Marwan II,Green1992,low,The Sabian pagan and astronomical traditions persisted into the Islamic era
-obs_0110,harran,1271,1271,circa,abandonment,,Mongols,Green1992,low,Sacked by the Mongols; the site was largely abandoned thereafter
+obs_0110,harran,1271,1271,circa,abandonment,,Ilkhanate,Green1992,low,Sacked by the Mongols; the site was largely abandoned thereafter
 obs_0111,memphis,-3100,-3100,circa,founding,,,Shaw2000,medium,Traditionally founded by Menes at the unification of Egypt; the White Walls
 obs_0112,memphis,-2686,-2181,circa,capital_status,Capital of the Old Kingdom,,Shaw2000,high,Royal residence; the Giza and Saqqara pyramids lie in its necropolis
 obs_0113,memphis,-2500,-2500,circa,population_estimate,35000,,Chandler1987,low,Among the largest cities of the third millennium BCE
@@ -193,7 +193,7 @@ obs_0191,susa,-2700,-640,circa,capital_status,Royal city of Elam,,Potts1999,medi
 obs_0192,susa,-647,-647,circa,destruction,,Assyria (Ashurbanipal),Potts1999,medium,Ashurbanipal sacks Susa and carries off its gods
 obs_0193,susa,-521,-330,circa,capital_status,Administrative capital of the Achaemenid Empire,Darius I,Briant2002,high,Darius builds the Apadana palace; one of the empire's seats
 obs_0194,susa,-330,-330,circa,conquest,,Macedon (Alexander III),Briant2002,high,Alexander seizes Susa and its treasury
-obs_0195,susa,1218,1218,circa,abandonment,,Mongols,Potts1999,low,Ruined in the Mongol invasions; later only the small town of Shush
+obs_0195,susa,1218,1218,circa,abandonment,,Mongol Empire,Potts1999,low,Ruined in the Mongol invasions; later only the small town of Shush
 obs_0196,anshan,-3400,-3400,circa,founding,,,Potts1999,low,Highland Elamite center in the Zagros
 obs_0197,anshan,-2400,-1100,circa,capital_status,Highland capital of Elam,,Potts1999,medium,Paired with Susa in the royal title king of Anshan and Susa
 obs_0198,anshan,-640,-640,circa,attestation,Survives in the title king of Anshan,Cyrus II,Potts1999,low,Cyrus the Great styled himself king of Anshan
@@ -447,7 +447,7 @@ obs_0444,pataliputra,320,550,circa,capital_status,Capital of the Gupta Empire,,T
 obs_0445,pataliputra,750,750,century,abandonment,,,Thapar2002,low,Declined after the Gupta collapse; later revived as Patna
 obs_0446,varanasi,-1200,-1200,circa,founding,,,Thapar2002,low,One of the oldest continuously inhabited cities; sacred on the Ganges
 obs_0447,varanasi,-500,-500,circa,attestation,Center of learning and pilgrimage,,Thapar2002,low,A major center of the Ganges plain in the age of the Buddha
-obs_0448,varanasi,1194,1194,circa,conquest,,Delhi Sultanate,AsherTalbot2006,medium,Sacked and absorbed into the Delhi Sultanate
+obs_0448,varanasi,1194,1194,circa,conquest,,Ghurid Sultanate,AsherTalbot2006,medium,Sacked in the Ghurid conquest of the Gangetic plain
 obs_0449,varanasi,2020,2020,circa,population_estimate,1200000,,UN2018,medium,Modern Varanasi; continuously inhabited
 obs_0450,ujjain,-700,-700,circa,founding,,,Thapar2002,low,Capital of the Avanti kingdom on the Malwa plateau
 obs_0451,ujjain,-600,-300,circa,capital_status,Capital of Avanti,,Thapar2002,low,A leading city of early historic India and a prime meridian of Indian astronomy
@@ -490,7 +490,7 @@ obs_0487,ctesiphon,800,800,century,abandonment,,,Kennedy2004,low,Abandoned as ne
 obs_0488,baghdad,762,762,exact,founding,,Abbasid Caliphate (al-Mansur),Kennedy2004,high,Founded as the round city capital of the Abbasid Caliphate
 obs_0489,baghdad,762,1258,circa,capital_status,Capital of the Abbasid Caliphate,,Kennedy2004,high,The center of the Islamic golden age
 obs_0490,baghdad,900,900,circa,population_estimate,900000,,Chandler1987,medium,Probably the largest city in the world in its golden age
-obs_0491,baghdad,1258,1258,exact,destruction,,Mongols (Hulagu),Kennedy2004,high,The Mongol sack ends the Abbasid Caliphate
+obs_0491,baghdad,1258,1258,exact,destruction,,Mongol Empire (Hulagu),Kennedy2004,high,The Mongol sack ends the Abbasid Caliphate
 obs_0492,baghdad,1534,1534,circa,conquest,,Ottoman Empire,Kennedy2004,low,Incorporated into the Ottoman Empire
 obs_0493,baghdad,2020,2020,circa,population_estimate,7000000,,UN2018,medium,Modern Baghdad; capital of Iraq
 obs_0494,babylon,-311,-311,circa,conquest,,Seleucid Empire,Kuhrt1995,medium,Held by the Seleucids until Seleucia drew off its people
@@ -611,7 +611,7 @@ obs_0608,guangzhou,2020,2020,circa,population_estimate,15000000,,UN2018,medium,M
 obs_0609,angkor,889,889,circa,founding,,Yasovarman I,Coedes1968,medium,Founded as the Khmer capital Yasodharapura
 obs_0610,angkor,889,1431,circa,capital_status,Capital of the Khmer Empire,,Coedes1968,high,Angkor Wat and Angkor Thom
 obs_0611,angkor,1150,1150,circa,population_estimate,750000,,Chandler1987,low,Among the largest preindustrial cities in the world
-obs_0612,angkor,1431,1431,circa,conquest,,Ayutthaya,Coedes1968,medium,Sacked by Ayutthaya; the capital moves toward Phnom Penh
+obs_0612,angkor,1431,1431,circa,conquest,,Ayutthaya Kingdom,Coedes1968,medium,Sacked by Ayutthaya; the capital moves toward Phnom Penh
 obs_0613,angkor,1450,1450,century,abandonment,,,Coedes1968,low,Largely abandoned to the forest
 obs_0614,bagan,849,849,circa,founding,,,Lieberman2003,low,Walled city on the Irrawaddy
 obs_0615,bagan,1044,1297,circa,capital_status,Capital of the Pagan Kingdom,Anawrahta,Lieberman2003,high,The first unified Burmese kingdom; thousands of temples
@@ -851,7 +851,7 @@ obs_0848,vijayanagara,1565,1565,exact,destruction,,Deccan Sultanates,Stein1989,h
 obs_0849,vijayanagara,1565,1565,circa,abandonment,,,Stein1989,medium,Abandoned to ruin
 obs_0850,lahore,1000,1000,circa,founding,,,AsherTalbot2006,low,A Ghaznavid frontier city
 obs_0851,lahore,1206,1206,circa,conquest,,Delhi Sultanate,AsherTalbot2006,low,Part of the Delhi Sultanate
-obs_0852,lahore,1524,1524,circa,conquest,,Mughal Empire,AsherTalbot2006,high,A favored Mughal capital under Akbar and Jahangir
+obs_0852,lahore,1526,1526,circa,conquest,,Mughal Empire,AsherTalbot2006,high,A favored Mughal capital under Akbar and Jahangir
 obs_0853,lahore,1799,1799,circa,conquest,,Sikh Empire,AsherTalbot2006,medium,Capital of Ranjit Singh's Sikh Empire
 obs_0854,lahore,1849,1849,circa,conquest,,British Empire,AsherTalbot2006,medium,Annexed by the British
 obs_0855,lahore,2020,2020,circa,population_estimate,13000000,,UN2018,medium,Modern Lahore
@@ -871,7 +871,7 @@ obs_0868,shanghai,1842,1842,circa,attestation,Treaty port concessions,British Em
 obs_0869,shanghai,2020,2020,circa,population_estimate,27000000,,UN2018,medium,Modern Shanghai; the largest city in China
 obs_0870,sukhothai,1238,1238,circa,founding,,Si Inthrathit,Lieberman2003,medium,The first Thai kingdom
 obs_0871,sukhothai,1238,1438,circa,capital_status,Capital of the Sukhothai Kingdom,,Lieberman2003,medium,Associated with the origins of Thai script
-obs_0872,sukhothai,1438,1438,circa,conquest,,Ayutthaya,Lieberman2003,medium,Absorbed by Ayutthaya
+obs_0872,sukhothai,1438,1438,circa,conquest,,Ayutthaya Kingdom,Lieberman2003,medium,Absorbed by Ayutthaya
 obs_0873,sukhothai,1500,1500,century,abandonment,,,Lieberman2003,low,Abandoned as a center of power
 obs_0874,vijaya,1000,1000,circa,founding,,,Coedes1968,low,Cham capital in central Vietnam
 obs_0875,vijaya,1000,1471,circa,capital_status,Capital of Champa,,Coedes1968,medium,The Hindu-Buddhist Cham kingdom
@@ -1098,7 +1098,7 @@ obs_1095,changan,1369,1369,circa,conquest,,Ming dynasty,Mote1999,low,Xi'an under
 obs_1096,changan,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Xi'an under the Qing
 obs_1097,luoyang,620,620,circa,conquest,,Tang dynasty,Lewis2007,low,A Tang eastern capital
 obs_1098,luoyang,960,960,circa,conquest,,Song dynasty,Mote1999,low,A Northern Song western capital
-obs_1099,luoyang,1234,1234,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Mongols
+obs_1099,luoyang,1234,1234,circa,conquest,,Mongol Empire,Mote1999,low,Under the Mongols
 obs_1100,luoyang,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,Under the Ming
 obs_1101,luoyang,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
 obs_1102,nanjing,620,620,circa,conquest,,Tang dynasty,Mote1999,low,Under the Tang as Jiangning
@@ -1173,7 +1173,7 @@ obs_1170,datong,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern D
 obs_1171,liaoyang,100,100,circa,founding,,,Mote1999,low,A town of the northeast
 obs_1172,liaoyang,928,1116,circa,capital_status,Eastern capital of the Liao dynasty,,Mote1999,high,A Khitan Liao capital in Manchuria
 obs_1173,liaoyang,1116,1116,circa,conquest,,Jurchen Jin,Mote1999,low,Taken by the Jurchen Jin
-obs_1174,liaoyang,1621,1621,circa,conquest,,Qing dynasty,Mote1999,medium,An early Manchu Qing capital
+obs_1174,liaoyang,1621,1621,circa,conquest,,Later Jin,Mote1999,medium,An early Later Jin capital under Nurhaci
 obs_1175,liaoyang,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Liaoyang
 obs_1176,dading,1000,1000,circa,founding,,,Mote1999,low,Rose on the steppe edge
 obs_1177,dading,1153,1234,circa,capital_status,Central capital of the Jurchen Jin,,Mote1999,high,A Jin imperial capital
@@ -1320,7 +1320,7 @@ obs_1317,kaushambi,100,100,circa,conquest,,Kushan Empire,Thapar2002,low,Within t
 obs_1318,mathura,-600,-600,circa,founding,,,Thapar2002,low,Ancient city on the Yamuna sacred to Krishna
 obs_1319,mathura,78,200,circa,capital_status,Capital of the Kushan Empire,Kanishka,Thapar2002,medium,Southern capital and great sculpture school of the Kushans
 obs_1320,mathura,380,380,circa,conquest,,Gupta Empire,Thapar2002,low,Part of the Gupta realm
-obs_1321,mathura,1018,1018,circa,attestation,Sacked by Mahmud of Ghazni,Ghaznavid Sultanate,AsherTalbot2006,low,Plundered in the Ghaznavid raids
+obs_1321,mathura,1018,1018,circa,attestation,Sacked by Mahmud of Ghazni,Ghaznavid Empire,AsherTalbot2006,low,Plundered in the Ghaznavid raids
 obs_1322,mathura,1206,1206,circa,conquest,,Delhi Sultanate,AsherTalbot2006,low,Absorbed into the Delhi Sultanate
 obs_1323,mathura,1526,1526,circa,conquest,,Mughal Empire,AsherTalbot2006,low,Part of the Mughal Empire
 obs_1324,mathura,1803,1803,circa,conquest,,British Empire,AsherTalbot2006,low,Taken by the British
@@ -1425,7 +1425,7 @@ obs_1422,buenos-aires,2020,2020,circa,population_estimate,15000000,,UN2018,mediu
 obs_1423,havana,1535,1535,circa,conquest,,Spanish Empire,Bethell1984,low,A Spanish stronghold administered within the viceroyalty of New Spain
 obs_1424,tripoli,439,439,circa,conquest,,Vandals,Raven1993,low,Taken by the Vandals from Roman Africa
 obs_1425,tripoli,533,533,circa,conquest,,Byzantine Empire,Raven1993,low,Recovered in the Byzantine reconquest
-obs_1426,tripoli,643,643,circa,conquest,,Umayyad Caliphate,Kennedy2004,medium,Taken in the Arab conquest of the Maghrib
+obs_1426,tripoli,643,643,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the Arab conquest of the Maghrib
 obs_1427,tripoli,911,911,circa,conquest,,Fatimid Caliphate,Brett2017,low,Held by the Fatimids of Ifriqiya
 obs_1428,tripoli,1158,1158,circa,conquest,,Almohad Caliphate,AbunNasr1987,low,Absorbed into the Almohad realm
 obs_1429,tripoli,1321,1321,circa,conquest,,Hafsid dynasty,AbunNasr1987,low,Under the Hafsids of Tunis
@@ -1650,7 +1650,7 @@ obs_1648,augusta-treverorum,1871,1871,circa,conquest,,Germany,Davies1996,low,Par
 obs_1649,ankara,-700,-700,circa,founding,,,Mango2002,low,The Phrygian and Galatian town of Ancyra
 obs_1650,ankara,-25,-25,circa,conquest,,Rome,Mango2002,low,Capital of the Roman province of Galatia
 obs_1651,ankara,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine provincial city
-obs_1652,ankara,1073,1073,circa,conquest,,Sultanate of Rum,Mango2002,low,Taken by the Seljuks of Rum
+obs_1652,ankara,1073,1073,circa,conquest,,Seljuk Empire,Mango2002,low,Taken by the Seljuks after Manzikert
 obs_1653,ankara,1361,1361,circa,conquest,,Ottoman Empire,Davies1996,low,An Ottoman city of Anatolia
 obs_1654,ankara,1923,2020,circa,capital_status,Capital of Turkey,Ataturk,Davies1996,high,Made the capital of the Turkish Republic
 obs_1655,ankara,2020,2020,circa,population_estimate,5400000,,UN2018,medium,Modern Ankara
@@ -1875,7 +1875,7 @@ obs_1873,ottawa,1867,2020,circa,capital_status,Capital of Canada,,Darwin2012,hig
 obs_1874,ottawa,2020,2020,circa,population_estimate,1400000,,UN2018,low,Modern Ottawa
 obs_1875,kabul,-1500,-1500,circa,founding,,,Beckwith2009,low,Ancient city of the Hindu Kush
 obs_1876,kabul,1219,1219,circa,conquest,,Mongol Empire,Morgan2007,low,Sacked by the Mongols
-obs_1877,kabul,1504,1504,circa,conquest,,Mughal Empire,AsherTalbot2006,low,Babur's base before the conquest of India
+obs_1877,kabul,1504,1504,circa,conquest,,Babur,AsherTalbot2006,low,Babur's base before the conquest of India
 obs_1878,kabul,1776,2020,circa,capital_status,Capital of Afghanistan,,Axworthy2008,high,Capital of the Durrani realm and of modern Afghanistan
 obs_1879,kabul,2020,2020,circa,population_estimate,4400000,,UN2018,medium,Modern Kabul
 obs_1880,islamabad,1960,1960,circa,founding,,,AsherTalbot2006,low,Purpose-built as the new Pakistani capital
@@ -2180,7 +2180,7 @@ obs_2178,baku,1920,1920,circa,conquest,,Soviet Union,Davies1996,low,Capital of t
 obs_2179,baku,1991,2020,circa,capital_status,Capital of Azerbaijan,,Davies1996,high,Capital of independent Azerbaijan
 obs_2180,baku,2020,2020,circa,population_estimate,2300000,,UN2018,low,Modern Baku
 obs_2181,sanaa,-500,-500,circa,founding,,,Hourani1991,low,Ancient highland city of Yemen
-obs_2182,sanaa,628,628,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Brought into the early Islamic state
+obs_2182,sanaa,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Brought into the early Islamic state
 obs_2183,sanaa,1538,1538,circa,conquest,,Ottoman Empire,Hourani1991,low,Contested by the Ottomans and local imams
 obs_2184,sanaa,1918,2020,circa,capital_status,Capital of Yemen,,Hourani1991,high,Capital of Yemen
 obs_2185,sanaa,2020,2020,circa,population_estimate,3000000,,UN2018,low,Modern Sanaa
@@ -2695,7 +2695,7 @@ obs_2693,kandahar,977,977,circa,conquest,,Ghaznavid Empire,Beckwith2009,low,Unde
 obs_2694,kandahar,1150,1150,circa,conquest,,Ghurid Sultanate,Beckwith2009,low,Under the Ghurids
 obs_2695,kandahar,1221,1221,circa,conquest,,Mongol Empire,Morgan2007,medium,Sacked by the Mongols
 obs_2696,kandahar,1383,1383,circa,conquest,,Timurid Empire,Beckwith2009,medium,Taken by Timur
-obs_2697,kandahar,1522,1522,circa,conquest,,Mughal Empire,AsherTalbot2006,medium,Taken by Babur and long contested
+obs_2697,kandahar,1522,1522,circa,conquest,,Babur,AsherTalbot2006,medium,Taken by Babur and long contested
 obs_2698,kandahar,1649,1649,circa,conquest,,Safavid Empire,Axworthy2008,medium,Held by Safavid Persia after a long Mughal-Safavid struggle
 obs_2699,delhi,-250,-250,circa,conquest,,Mauryan Empire,Thapar2002,low,Ashokan pillars mark Mauryan rule near Delhi
 obs_2700,delhi,350,350,circa,conquest,,Gupta Empire,Thapar2002,low,Within the Gupta realm; the Iron Pillar dates to this era
@@ -2729,7 +2729,7 @@ obs_2738,nishapur,900,900,circa,conquest,,Samanid Empire,Beckwith2009,medium,A g
 obs_2743,aden,-400,-400,circa,founding,,,Hourani1991,low,An ancient incense-route harbor of southern Arabia
 obs_2744,aden,25,25,circa,conquest,,Himyarite Kingdom,Hourani1991,low,A port of the Himyarite kingdom
 obs_2745,aden,525,525,circa,conquest,,Aksumite Empire,Reader1998,low,Held during the Aksumite occupation of Yemen
-obs_2746,aden,628,628,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Came to Islam with the rest of Yemen
+obs_2746,aden,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Came to Islam with the rest of Yemen
 obs_2747,aden,1229,1229,circa,conquest,,Rasulid Sultanate,Hourani1991,medium,A wealthy port of the Rasulid sultanate
 obs_2748,aden,1538,1538,circa,conquest,,Ottoman Empire,Hourani1991,low,Briefly held by the Ottomans
 obs_2749,aden,1839,1839,circa,conquest,,British Empire,Darwin2012,high,Seized by Britain as a coaling station on the route to India
@@ -2838,7 +2838,7 @@ obs_2851,taiyuan,-202,-202,circa,conquest,,Han dynasty,Lewis2007,low,A Han front
 obs_2852,taiyuan,618,618,circa,conquest,,Tang dynasty,Mote1999,medium,The base from which the Tang founders rose
 obs_2853,taiyuan,979,979,circa,conquest,,Song dynasty,Mote1999,low,Razed and rebuilt by the Song
 obs_2854,taiyuan,1125,1125,circa,conquest,,Jurchen Jin,Mote1999,low,Under the Jurchen Jin
-obs_2855,taiyuan,1234,1234,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Yuan
+obs_2855,taiyuan,1234,1234,circa,conquest,,Mongol Empire,Mote1999,low,Under the Mongols
 obs_2856,taiyuan,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,A Ming provincial capital of Shanxi
 obs_2857,taiyuan,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Under the Qing
 obs_2858,taiyuan,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Part of the People's Republic
@@ -2927,7 +2927,7 @@ obs_2940,shenyang,404,404,circa,conquest,,Goguryeo,Seth2010,low,Held by Goguryeo
 obs_2941,shenyang,668,668,circa,conquest,,Tang dynasty,Mote1999,low,Taken by the Tang with the fall of Goguryeo
 obs_2942,shenyang,926,926,circa,conquest,,Liao dynasty,Mote1999,medium,A city of the Khitan Liao
 obs_2943,shenyang,1116,1116,circa,conquest,,Jurchen Jin,Mote1999,low,Under the Jurchen Jin
-obs_2944,shenyang,1234,1234,circa,conquest,,Yuan dynasty,Mote1999,low,Under the Yuan
+obs_2944,shenyang,1234,1234,circa,conquest,,Mongol Empire,Mote1999,low,Under the Mongols
 obs_2945,shenyang,1371,1371,circa,conquest,,Ming dynasty,Mote1999,medium,A Ming garrison guarding the northeast frontier
 obs_2946,kaifeng,1271,1271,circa,conquest,,Yuan dynasty,Mote1999,low,A Yuan provincial city
 obs_2947,kaifeng,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,A Ming provincial capital of Henan
@@ -3949,7 +3949,7 @@ obs_3965,sravasti,-600,-300,circa,capital_status,Capital of Kosala,,Thapar2002,m
 obs_3966,sravasti,-500,-500,circa,attestation,Where the Buddha spent many rains-retreats at Jetavana,,Thapar2002,medium,A major early Buddhist center
 obs_3967,nalanda,427,427,circa,founding,,,Thapar2002,medium,The great Buddhist monastic university of the Gupta age
 obs_3968,nalanda,700,700,circa,attestation,A renowned center of learning drawing scholars from across Asia,,Thapar2002,high,Visited by Xuanzang and Yijing
-obs_3969,nalanda,1193,1193,circa,destruction,,Delhi Sultanate,AsherTalbot2006,medium,Sacked by the armies of Bakhtiyar Khalji
+obs_3969,nalanda,1193,1193,circa,destruction,,Ghurid Sultanate,AsherTalbot2006,medium,Sacked by the armies of Bakhtiyar Khalji
 obs_3970,kannauj,400,400,circa,founding,,,Thapar2002,low,City on the Ganges that rose to imperial rank
 obs_3971,kannauj,606,647,circa,capital_status,Capital of Harsha's empire,,Thapar2002,high,Center of the last great northern empire before the Turks
 obs_3972,kannauj,836,1036,circa,capital_status,Capital of the Gurjara-Pratihara empire,,Thapar2002,medium,The prize of the tripartite struggle for northern India
@@ -4070,7 +4070,7 @@ obs_4086,erzurum,415,415,circa,founding,,,Mango2002,low,Theodosiopolis; Byzantin
 obs_4087,erzurum,1071,1071,circa,conquest,,Seljuk Empire,Cahen2001,medium,Taken by the Seljuks after Manzikert
 obs_4088,erzurum,1514,1514,circa,conquest,,Ottoman Empire,Hourani1991,low,Brought into the Ottoman Empire as an eastern stronghold
 obs_4089,antalya,-150,-150,circa,founding,,,Hornblower2011,low,Attaleia; founded by Attalus II of Pergamon
-obs_4090,antalya,1207,1207,circa,conquest,,Seljuk Empire,Cahen2001,medium,Taken by the Seljuks as their Mediterranean port
+obs_4090,antalya,1207,1207,circa,conquest,,Sultanate of Rum,Cahen2001,medium,Taken by the Seljuks as their Mediterranean port
 obs_4091,antalya,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Antalya
 obs_4092,amasya,-300,-300,circa,founding,,,Hornblower2011,low,Amaseia; capital of the kingdom of Pontus
 obs_4093,amasya,-300,-183,circa,capital_status,Capital of the kingdom of Pontus,,Hornblower2011,medium,Royal seat of the Mithridatic kings and birthplace of Strabo
@@ -4098,7 +4098,7 @@ obs_4114,phocaea,-1000,-1000,circa,founding,,,Hornblower2011,low,Ionian Greek se
 obs_4115,phocaea,-600,-600,circa,attestation,Mother city of Massalia and the western Greek colonies,,Hornblower2011,medium,Pioneers of long-range Greek seafaring
 obs_4116,phocaea,-546,-546,circa,conquest,,Achaemenid Empire,Briant2002,low,Many Phocaeans fled west rather than submit to Persia
 obs_4117,alanya,400,400,circa,founding,,,Mitchell1993,low,Kalonoros; a fortified Byzantine harbor on the south coast
-obs_4118,alanya,1221,1221,circa,conquest,,Seljuk Empire,Cahen2001,medium,Taken by Alaeddin Keykubad as a Seljuk naval base and winter capital
+obs_4118,alanya,1221,1221,circa,conquest,,Sultanate of Rum,Cahen2001,medium,Taken by Alaeddin Keykubad as a Seljuk naval base and winter capital
 obs_4119,alanya,1226,1226,circa,attestation,The Red Tower and shipyard built for the Seljuk fleet,,Cahen2001,low,A Mediterranean stronghold of the Sultanate of Rum
 obs_4120,leluh,1300,1300,circa,founding,,,Kirch2000,medium,A walled stone city rises on a reef islet off Kosrae
 obs_4121,leluh,1400,1850,circa,capital_status,Seat of the paramount chiefs of Kosrae,,Kirch2000,high,A megalithic royal center like Nan Madol
@@ -4254,3 +4254,70 @@ obs_4270,zacatecas,1821,1821,circa,conquest,,Mexico,Bethell1984,low,Part of inde
 obs_4271,ouro-preto,1698,1698,circa,founding,,Portuguese Empire,Bethell1984,high,Boomtown of the Brazilian gold rush in Minas Gerais
 obs_4272,ouro-preto,1720,1897,circa,capital_status,Capital of the gold-rich province of Minas Gerais,,Bethell1984,medium,A center of Brazilian baroque and the Inconfidencia revolt
 obs_4273,ouro-preto,1900,1900,circa,abandonment,,,Bethell1984,low,Eclipsed when the state capital moved to Belo Horizonte
+obs_4274,cordoba,-152,-152,circa,founding,,,Richardson1996,low,Roman Corduba founded in Hispania
+obs_4275,cordoba,1,400,circa,capital_status,Capital of the Roman province of Baetica,,Richardson1996,medium,A great city of Roman Spain
+obs_4276,cordoba,711,711,circa,conquest,,Umayyad Caliphate,Kennedy1996,high,Taken in the Muslim conquest of Iberia
+obs_4277,cordoba,756,1031,circa,capital_status,Capital of Umayyad al-Andalus,,Kennedy1996,high,One of the largest and most cultured cities in Europe
+obs_4278,cordoba,1000,1000,circa,population_estimate,450000,,Chandler1987,medium,Among the largest cities in the world under the caliphate
+obs_4279,cordoba,1236,1236,circa,conquest,,Crown of Castile,Kennedy1996,high,Taken by Ferdinand III in the Reconquista
+obs_4280,samarra,836,836,circa,founding,,Abbasid Caliphate,Kennedy2004,high,Founded by the caliph al-Mutasim as a new Abbasid capital
+obs_4281,samarra,836,892,circa,capital_status,Capital of the Abbasid Caliphate,,Kennedy2004,high,A vast palace city north of Baghdad
+obs_4282,samarra,900,900,circa,abandonment,,,Kennedy2004,medium,Largely abandoned when the court returned to Baghdad
+obs_4283,hatra,-100,-100,circa,founding,,,Kuhrt1995,low,Caravan city and kingdom of the Parthian frontier
+obs_4284,hatra,100,241,circa,capital_status,Capital of the kingdom of Hatra,,Kuhrt1995,medium,A Parthian-aligned caravan city that twice repelled Rome
+obs_4285,hatra,241,241,circa,destruction,,Sasanian Empire,Daryaee2009,medium,Stormed and destroyed by the Sasanian Shapur I
+obs_4286,nisa,-250,-250,circa,founding,,,Kuhrt1995,medium,Mithradatkert; royal fortress and seat of the early Parthians
+obs_4287,nisa,-238,-150,circa,capital_status,Early royal capital of the Parthians,,Kuhrt1995,medium,Dynastic seat and necropolis of the Arsacids
+obs_4288,nisa,300,300,century,abandonment,,,Daryaee2009,low,Declined under the Sasanians
+obs_4289,gundeshapur,260,260,circa,founding,,Sasanian Empire,Daryaee2009,medium,Founded by Shapur I with deported Roman captives
+obs_4290,gundeshapur,500,500,circa,attestation,Renowned academy and hospital of Sasanian learning,,Daryaee2009,medium,A center where Greek Persian and Indian medicine met
+obs_4291,gundeshapur,900,900,century,abandonment,,,Kennedy2004,low,Declined after the Islamic conquest as Baghdad rose
+obs_4292,istakhr,-200,-200,circa,founding,,,Kuhrt1995,low,Town near Persepolis in the Persian heartland
+obs_4293,istakhr,224,350,circa,capital_status,Cradle of the Sasanian dynasty,,Daryaee2009,medium,Home of the house of Sasan and a Zoroastrian center
+obs_4294,istakhr,1000,1000,century,abandonment,,,Kennedy2004,low,Eclipsed by nearby Shiraz after the Islamic conquest
+obs_4295,firuzabad,224,224,circa,founding,,Sasanian Empire,Daryaee2009,medium,Gur; the first capital built by Ardashir I founder of the Sasanians
+obs_4296,firuzabad,224,260,circa,capital_status,First Sasanian capital,,Daryaee2009,medium,A circular royal city of the new dynasty
+obs_4297,firuzabad,1000,1000,century,abandonment,,,Kennedy2004,low,Declined in the Islamic centuries
+obs_4298,dura-europos,-300,-300,circa,founding,,,Hornblower2011,low,Seleucid garrison colony on the Euphrates
+obs_4299,dura-europos,-113,-113,circa,conquest,,Parthian Empire,Kuhrt1995,medium,Taken by the Parthians as a caravan city
+obs_4300,dura-europos,165,165,circa,conquest,,Rome,Beard2015,medium,Annexed by Rome as a frontier garrison
+obs_4301,dura-europos,256,256,circa,destruction,,Sasanian Empire,Daryaee2009,medium,Besieged and abandoned after the Sasanian assault
+obs_4302,hira,300,300,circa,founding,,,Kuhrt1995,low,Capital of the Arab Lakhmid kingdom
+obs_4303,hira,400,602,circa,capital_status,Capital of the Lakhmid kingdom,,Daryaee2009,medium,An Arab Christian client state of the Sasanians
+obs_4304,hira,633,633,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the early Arab conquests
+obs_4305,hira,900,900,century,abandonment,,,Kennedy2004,low,Eclipsed by nearby Kufa
+obs_4306,raqqa,-300,-300,circa,founding,,,Hornblower2011,low,Hellenistic Nikephorion on the Euphrates
+obs_4307,raqqa,796,809,circa,capital_status,Residence of the caliph Harun al-Rashid,,Kennedy2004,medium,An Abbasid royal city on the Euphrates
+obs_4308,raqqa,1258,1258,circa,conquest,,Mongol Empire,Morgan2007,low,Sacked in the Mongol conquest
+obs_4309,polonnaruwa,1017,1017,circa,conquest,,Chola Empire,Stein1989,medium,Occupied by the Cholas as their capital in Sri Lanka
+obs_4310,kedah,1025,1025,circa,conquest,,Chola Empire,Stein1989,medium,Raided by Rajendra Chola's naval expedition against Srivijaya
+obs_4311,goa,1380,1380,circa,conquest,,Vijayanagara Empire,Stein1989,medium,Held by Vijayanagara before the Bahmani conquest
+obs_4312,nalanda,800,850,circa,attestation,A monastic university patronized by the Pala kings,,Thapar2002,medium,The Palas were its chief patrons in the early medieval age
+obs_4313,kannauj,810,810,circa,conquest,,Pala Empire,Thapar2002,medium,Held by Dharmapala of the Palas in the tripartite struggle
+obs_4314,nagapattinam,850,850,circa,founding,,,Stein1989,low,Chola port on the Coromandel coast
+obs_4315,nagapattinam,1025,1025,circa,attestation,Naval base for Rajendra Chola's expedition against Srivijaya,,Stein1989,medium,A hub of the Chola maritime trade with Southeast Asia
+obs_4316,nagapattinam,1660,1660,circa,conquest,,Dutch Empire,Disney2009,low,Taken by the Dutch as the capital of their Coromandel coast
+obs_4317,jambi,600,600,circa,founding,,,Coedes1968,low,Center of the kingdom of Malayu on the Batang Hari
+obs_4318,jambi,1025,1280,circa,capital_status,Successor center of Srivijaya after the Chola raids,,Coedes1968,medium,The Malayu realm that inherited the straits trade
+obs_4319,jambi,1278,1278,circa,conquest,,Singhasari,Coedes1968,low,Subjected by the Javanese in the Pamalayu expedition
+obs_4320,hariharalaya,802,802,circa,founding,,Khmer Empire,Coedes1968,medium,First capital of the Khmer Empire under Jayavarman II
+obs_4321,hariharalaya,802,889,circa,capital_status,Capital of the early Khmer Empire,,Coedes1968,medium,Before the court moved to Angkor
+obs_4322,hariharalaya,900,900,circa,abandonment,,,Coedes1968,low,Eclipsed as Angkor rose
+obs_4323,koh-ker,921,921,circa,founding,,Khmer Empire,Coedes1968,medium,Lingapura; capital built by Jayavarman IV
+obs_4324,koh-ker,928,944,circa,capital_status,Capital of the Khmer Empire,,Coedes1968,medium,A short-lived royal city of great pyramid-temples
+obs_4325,koh-ker,944,944,circa,abandonment,,,Coedes1968,low,Abandoned when the capital returned to Angkor
+obs_4326,somapura,780,780,circa,founding,,Pala Empire,Thapar2002,medium,Great Buddhist monastery built by the Pala king Dharmapala
+obs_4327,somapura,900,900,circa,attestation,The largest monastery south of the Himalayas,,Thapar2002,medium,A center of Pala Buddhist learning and art
+obs_4328,somapura,1200,1200,circa,abandonment,,,Thapar2002,low,Declined with the Pala collapse and the coming of Turkish rule
+obs_4329,vikramashila,783,783,circa,founding,,Pala Empire,Thapar2002,medium,Monastic university founded by the Pala king Dharmapala
+obs_4330,vikramashila,1000,1000,circa,attestation,A premier center of tantric Buddhist learning,,Thapar2002,medium,Rivaled Nalanda under Pala patronage
+obs_4331,vikramashila,1193,1193,circa,destruction,,Ghurid Sultanate,AsherTalbot2006,medium,Destroyed in the conquest of Bakhtiyar Khalji
+obs_4332,gaur,700,700,circa,founding,,,Thapar2002,low,Lakshmanavati; a city of Pala and Sena Bengal
+obs_4333,gaur,1350,1565,circa,capital_status,Capital of the Bengal Sultanate,,AsherTalbot2006,medium,A great Indo-Islamic city of the Ganges delta
+obs_4334,gaur,1575,1575,circa,abandonment,,,AsherTalbot2006,low,Abandoned after plague and the shifting of the river
+obs_4335,bishapur,266,266,circa,founding,,Sasanian Empire,Daryaee2009,medium,Built by Shapur I to mark his victory over Rome
+obs_4336,bishapur,300,300,circa,attestation,A Sasanian royal city of victory reliefs,,Daryaee2009,low,Adorned with carvings of the captured emperor Valerian
+obs_4337,bishapur,1000,1000,century,abandonment,,,Kennedy2004,low,Declined in the Islamic centuries
+obs_4338,hecatompylos,-300,-300,circa,founding,,Seleucid Empire,Hornblower2011,low,Seleucid foundation on the Iranian plateau
+obs_4339,hecatompylos,-200,-100,circa,capital_status,An early capital of the Parthian Empire,,Kuhrt1995,medium,A Silk Road seat of the Arsacid kings
+obs_4340,hecatompylos,800,800,century,abandonment,,,Kennedy2004,low,Faded in the early Islamic period

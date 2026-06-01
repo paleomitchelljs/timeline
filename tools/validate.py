@@ -7,6 +7,7 @@ Exits non-zero if any check fails, so it can gate a commit hook or CI.
 It only uses the standard library so there is nothing to install.
 """
 import csv
+import re
 import sys
 from pathlib import Path
 
@@ -26,7 +27,56 @@ EVENT_TYPES = {
 DATE_PRECISION = {"exact", "circa", "century", "decade", "millennium"}
 CONFIDENCE = {"high", "medium", "low"}
 
+# Conqueror lifespans for the anachronism check (CE; negative = BCE). An empire
+# used as an `actor` outside its [start, end] window is almost always a dating
+# or attribution slip — e.g. "Yuan dynasty" in 1234 (proclaimed 1271) or
+# "Umayyad Caliphate" in 643 (the dynasty began 661). Windows are the
+# *operational* span: they admit a founder's immediate pre-foundation campaigns
+# (the Abbasid revolution reached Merv in 748; Batu's Golden Horde campaign hit
+# Rus in 1237-40) so the check fires on gross errors, not edge fuzz. A trailing
+# "(Ruler)" annotation on the actor is ignored; actors not listed are skipped.
+POLITY_LIFESPANS = {
+    "Rome": (-509, 480), "Macedon": (-700, -146), "Achaemenid Persia": (-559, -330),
+    "Seleucid Empire": (-312, -63), "Ptolemaic Egypt": (-323, -30),
+    "Parthian Empire": (-247, 224), "Sasanian Empire": (224, 651),
+    "Carthaginian Empire": (-650, -146), "Mauryan Empire": (-322, -185),
+    "Gupta Empire": (320, 550), "Kushan Empire": (30, 375),
+    "Byzantine Empire": (330, 1453), "Rashidun Caliphate": (629, 661),
+    "Umayyad Caliphate": (661, 750), "Abbasid Caliphate": (747, 1258),
+    "Fatimid Caliphate": (909, 1171), "Ayyubid Sultanate": (1171, 1260),
+    "Mamluk Sultanate": (1250, 1517), "Seljuk Empire": (1037, 1194),
+    "Sultanate of Rum": (1077, 1308), "Ghaznavid Empire": (977, 1186),
+    "Ghurid Sultanate": (1148, 1215), "Delhi Sultanate": (1206, 1526),
+    "Mongol Empire": (1206, 1294), "Yuan dynasty": (1270, 1368),
+    "Ilkhanate": (1256, 1357), "Golden Horde": (1236, 1502),
+    "Chagatai Khanate": (1226, 1347), "Timurid Empire": (1370, 1507),
+    "Ottoman Empire": (1299, 1922), "Mughal Empire": (1526, 1857),
+    "Safavid Empire": (1500, 1736), "Pala Empire": (750, 1161),
+    "Chola Empire": (848, 1279), "Vijayanagara Empire": (1336, 1646),
+    "Bahmani Sultanate": (1347, 1527), "Khmer Empire": (802, 1431),
+    "Srivijaya": (671, 1288), "Singhasari": (1222, 1292),
+    "Han dynasty": (-206, 220), "Sui dynasty": (580, 618),
+    "Tang dynasty": (618, 907), "Song dynasty": (960, 1279),
+    "Ming dynasty": (1364, 1644), "Qing dynasty": (1636, 1912),
+    "Later Jin": (1616, 1636), "Sokoto Caliphate": (1804, 1903),
+    "Empire of Japan": (1868, 1947), "Soviet Union": (1917, 1991),
+    "Assyria": (-1400, -609), "Neo-Babylonian Empire": (-626, -539),
+    "Akkadian Empire": (-2334, -2154), "Hittite Empire": (-1650, -1180),
+    "Median Empire": (-678, -549),
+}
+
+# Actor names that normalize alike but are deliberately distinct: a modern state
+# vs. an earlier polity of the same name. Keeps the naming warning quiet on these.
+DISTINCT_OK = {"brazil", "hungary", "israel", "japan", "mali", "poland"}
+
+_PAREN = re.compile(r"\s*\(.*?\)")
+_DESCR = re.compile(
+    r"\b(Empire|Caliphate|Dynasty|dynasty|Kingdom|Sultanate|Khanate|"
+    r"Republic|Confederacy|Federation|of|the)\b"
+)
+
 errors = []
+warnings = []
 
 
 def load(name):
@@ -60,6 +110,53 @@ def as_int(row, field, where):
     except ValueError:
         errors.append(f"{where}: {field}={raw!r} is not an integer")
         return None
+
+
+def _base_actor(a):
+    """Strip a trailing '(Ruler)' annotation: 'Rome (Caesar)' -> 'Rome'."""
+    return _PAREN.sub("", a).strip()
+
+
+def _actor_root(a):
+    """Collapse an actor to a comparison root for the naming check."""
+    return re.sub(r"\s+", " ", _DESCR.sub("", _base_actor(a))).strip().lower()
+
+
+def audit_history(obs):
+    """Editorial cross-checks over the actor field.
+
+    Anachronism (hard error): an empire used as an actor outside the window it
+    could have existed in. Actor naming (warning): two surface forms sharing a
+    normalized root, flagging inconsistent naming; deliberate same-name pairs
+    are allowlisted in DISTINCT_OK.
+    """
+    roots = {}
+    for r in obs:
+        actor = (r.get("actor") or "").strip()
+        if not actor:
+            continue
+        base = _base_actor(actor)
+        span = POLITY_LIFESPANS.get(base)
+        if span is not None:
+            raw = (r.get("year_start") or "").strip()
+            try:
+                y = int(raw)
+            except ValueError:
+                y = None
+            lo, hi = span
+            if y is not None and not (lo <= y <= hi):
+                errors.append(
+                    f"observations.csv[{r['obs_id'].strip()}]: actor {base!r} at "
+                    f"year {y} is outside its {lo}..{hi} lifespan "
+                    f"(city {r['city_id'].strip()})"
+                )
+        roots.setdefault(_actor_root(actor), set()).add(base)
+    for root, forms in sorted(roots.items()):
+        if len(forms) > 1 and root not in DISTINCT_OK:
+            warnings.append(
+                f"actor naming: {sorted(forms)} share root {root!r} — "
+                "unify unless deliberately distinct"
+            )
 
 
 def main():
@@ -116,6 +213,14 @@ def main():
             val = (r.get("value") or "").strip()
             if not val.isdigit():
                 errors.append(f"{where}: population_estimate value {val!r} is not a number")
+
+    audit_history(obs)
+
+    if warnings:
+        print(f"{len(warnings)} naming warning(s) — review, non-blocking:")
+        for w in warnings:
+            print(f"  ~ {w}")
+        print()
 
     if errors:
         print(f"FAIL: {len(errors)} problem(s) found\n")
