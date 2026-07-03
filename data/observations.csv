@@ -119,7 +119,7 @@ obs_0117,heliopolis,-2600,-2600,century,capital_status,Cult center of Ra,,Shaw20
 obs_0118,heliopolis,-1950,-1950,circa,attestation,Obelisk of Senusret I,Senusret I,Shaw2000,medium,The oldest standing Egyptian obelisk still in its original place
 obs_0119,heliopolis,100,100,century,abandonment,,,Shaw2000,low,Stone and obelisks carried off in the Greco-Roman era; later absorbed by Cairo
 obs_0120,thebes,-2400,-2400,circa,founding,,,Shaw2000,low,The town of Waset; cult center of Amun
-obs_0121,thebes,-2055,-1650,circa,capital_status,Capital of the Middle Kingdom,Mentuhotep II,Shaw2000,high,Mentuhotep II reunified Egypt from Thebes; the seat of Middle Kingdom power
+obs_0121,thebes,-2055,-1960,circa,capital_status,Capital of the Middle Kingdom,Mentuhotep II,Shaw2000,high,Capital of Dynasty 11 until Amenemhat I moved to Itjtawy
 obs_0122,thebes,-1550,-1077,circa,capital_status,Capital of the New Kingdom,,Shaw2000,high,Karnak and Luxor and the Valley of the Kings; Amun-Ra at the empire's height
 obs_0123,thebes,-1350,-1350,circa,population_estimate,80000,,Chandler1987,low,Probably the largest city in the world at the New Kingdom's peak
 obs_0124,thebes,-663,-663,circa,destruction,,Assyria (Ashurbanipal),Shaw2000,medium,The Assyrian sack of Thebes (No-Amon) echoed across the ancient world
@@ -237,14 +237,14 @@ obs_0235,ephesus,-100,-100,circa,population_estimate,200000,,Chandler1987,low,Am
 obs_0236,ephesus,1400,1400,century,abandonment,,,Mitchell1993,low,Abandoned as its harbor silted and the coast receded
 obs_0237,byzantium,-660,-660,circa,founding,,Megara,Mango2002,low,Greek colony of Byzantion founded by Megara
 obs_0238,byzantium,330,330,exact,refounding,Constantinople,Rome (Constantine),Mango2002,high,Constantine refounds the Greek city as the new Roman capital
-obs_0239,byzantium,330,1453,circa,capital_status,Capital of the Byzantine Empire,,Mango2002,high,The seat of the eastern Roman empire for over a millennium
+obs_0239,byzantium,330,1204,circa,capital_status,Capital of the Byzantine Empire,,Mango2002,high,Seat of the eastern Roman empire until the Fourth Crusade sack
 obs_0240,byzantium,500,500,circa,population_estimate,500000,,Chandler1987,low,Capital of the Byzantine Empire and the largest city in Europe
 obs_0241,byzantium,1453,1453,exact,conquest,,Ottoman Empire (Mehmed II),Runciman1965,high,The Ottoman conquest ends the Byzantine Empire; the city becomes the Ottoman capital
 obs_0242,byzantium,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Istanbul
 obs_0243,knossos,-7000,-7000,circa,founding,,,Dickinson1994,low,Neolithic settlement that became the great Minoan palace center
 obs_0244,knossos,-1900,-1450,circa,capital_status,Center of Minoan Crete,,Dickinson1994,medium,The labyrinthine palace and the Linear A archives
 obs_0245,knossos,-1450,-1450,circa,destruction,,,Dickinson1994,low,The Minoan palaces fall and Mycenaean Greeks take over Knossos
-obs_0246,knossos,-1300,-1300,century,abandonment,,,Dickinson1994,low,The palace is finally abandoned in the Late Bronze Age
+obs_0246,knossos,800,800,century,abandonment,,,Dickinson1994,low,A polis and Roman colony long after the palaces; superseded by Heraklion in the early medieval period
 obs_0247,mycenae,-1600,-1600,circa,founding,,,Dickinson1994,low,The citadel that gave its name to Mycenaean civilization
 obs_0248,mycenae,-1600,-1100,circa,capital_status,Center of a Mycenaean kingdom,,Dickinson1994,medium,The Lion Gate and the shaft-grave dynasties; Agamemnon in legend
 obs_0249,mycenae,-1100,-1100,circa,destruction,,,Dickinson1994,low,Destroyed amid the Bronze Age collapse
@@ -292,7 +292,6 @@ obs_0290,kerma,-1500,-1500,circa,conquest,,Egypt (Thutmose I),Shaw2000,medium,An
 obs_0291,kerma,-1450,-1450,century,abandonment,,,Welsby1996,low,Eclipsed under Egyptian New Kingdom rule
 obs_0292,napata,-900,-900,circa,founding,,,Welsby1996,low,Kushite center below the holy mountain Jebel Barkal
 obs_0293,napata,-747,-590,circa,capital_status,Kushite 25th Dynasty (kings of Egypt and Kush),Piye,Welsby1996,high,Piye and his successors ruled both Nubia and Egypt
-obs_0294,napata,-663,-663,circa,conquest,,Assyria (Ashurbanipal),Shaw2000,medium,The Assyrians drive the Kushites out of Egypt
 obs_0295,napata,-593,-593,circa,destruction,,Egypt (Psamtik II),Welsby1996,medium,An Egyptian raid sacks Napata and the capital shifts to Meroe
 obs_0296,napata,350,350,century,abandonment,,,Welsby1996,low,Faded after the rise of Meroe
 obs_0297,meroe,-800,-800,circa,founding,,,Welsby1996,low,Southern Kushite city on the Nile
@@ -345,7 +344,7 @@ obs_0342,rome,-753,-753,circa,founding,,,Cornell1995,medium,The traditional foun
 obs_0343,rome,-509,476,circa,capital_status,Capital of the Roman Empire,,Beard2015,high,From the Republic through the Empire
 obs_0344,rome,-1,-1,circa,population_estimate,1000000,,Chandler1987,medium,Around a million people; the largest city in the ancient world
 obs_0345,rome,410,410,exact,attestation,Sack of Rome,Visigoths (Alaric),Beard2015,medium,Alaric's Goths sack the city for the first time in eight centuries
-obs_0346,rome,476,476,exact,conquest,,Ostrogothic Kingdom,Beard2015,medium,The Western Empire ends and Italy passes to Germanic then Byzantine rulers
+obs_0346,rome,476,476,exact,conquest,,Odoacer,Beard2015,medium,Odoacer deposes Romulus Augustulus and rules Italy as king
 obs_0347,rome,550,550,circa,population_estimate,30000,,Chandler1987,low,Collapsed to a fraction of its imperial size
 obs_0348,rome,756,1870,circa,capital_status,Capital of the Papal States,,Beard2015,medium,Center of the medieval and early modern papacy
 obs_0349,rome,2020,2020,circa,population_estimate,2800000,,UN2018,medium,Modern Rome; capital of Italy
@@ -376,7 +375,7 @@ obs_0373,lugdunum,-27,300,circa,capital_status,Capital of the Three Gauls,,Drink
 obs_0374,lugdunum,2020,2020,circa,population_estimate,1700000,,UN2018,medium,Modern Lyon
 obs_0375,lutetia,-250,-250,circa,founding,,,Drinkwater1983,low,Gaulish town of the Parisii on the Seine
 obs_0376,lutetia,-52,-52,circa,conquest,,Rome (Julius Caesar),Drinkwater1983,low,Taken during Caesar's conquest of Gaul
-obs_0377,lutetia,508,2020,circa,capital_status,Capital of France,,Drinkwater1983,low,Clovis makes Paris his seat; later the capital of France
+obs_0377,lutetia,508,843,circa,capital_status,Capital of the Kingdom of the Franks,,Drinkwater1983,low,Clovis makes Paris his seat
 obs_0378,lutetia,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Paris
 obs_0379,narbo,-118,-118,circa,founding,,,Drinkwater1983,low,The first Roman colony in Gaul
 obs_0380,narbo,-118,400,circa,capital_status,Capital of Gallia Narbonensis,,Drinkwater1983,low,Seat of Rome's first Gaulish province
@@ -394,7 +393,7 @@ obs_0391,carthago-nova,2020,2020,circa,population_estimate,215000,,UN2018,low,Mo
 obs_0392,tarraco,-218,-218,circa,founding,,,Richardson1996,low,A Roman base in the Second Punic War
 obs_0393,tarraco,-27,400,circa,capital_status,Capital of Hispania Tarraconensis,,Richardson1996,medium,The largest Roman province in Iberia
 obs_0394,tarraco,2020,2020,circa,population_estimate,135000,,UN2018,low,Modern Tarragona
-obs_0395,corduba,-206,-206,circa,founding,,,Richardson1996,low,Roman colony on the Guadalquivir
+obs_0395,corduba,-169,-169,circa,founding,,,Richardson1996,low,Roman colony founded by Claudius Marcellus on the Guadalquivir
 obs_0396,corduba,756,1031,circa,capital_status,Capital of the Umayyad Caliphate of Cordoba,,Kennedy1996,high,One of the largest and most learned cities in the world
 obs_0397,corduba,1000,1000,circa,population_estimate,450000,,Chandler1987,low,Possibly the largest city in Europe around the year 1000
 obs_0398,corduba,1236,1236,circa,conquest,,Crown of Castile (Ferdinand III),Kennedy1996,medium,Taken in the Reconquista
@@ -457,12 +456,12 @@ obs_0454,madurai,-300,-300,circa,founding,,,Thapar2002,low,Capital of the Pandya
 obs_0455,madurai,-300,1300,circa,capital_status,Capital of the Pandya kingdom,,Thapar2002,medium,A center of Tamil Sangam literature
 obs_0456,madurai,1311,1311,circa,conquest,,Delhi Sultanate,AsherTalbot2006,low,Raided by the armies of the Delhi Sultanate
 obs_0457,madurai,2020,2020,circa,population_estimate,1500000,,UN2018,medium,Modern Madurai
-obs_0458,delhi,-50,-50,circa,founding,,,Thapar2002,low,Early settlement on the Yamuna; site of many successive cities
+obs_0458,delhi,-1000,-1000,century,founding,,,Thapar2002,low,Traditional Indraprastha; Painted Grey Ware at the Purana Qila and continuous occupation from the Mauryan era
 obs_0459,delhi,1206,1526,circa,capital_status,Capital of the Delhi Sultanate,,AsherTalbot2006,high,Seat of successive dynasties ruling northern India
-obs_0460,delhi,1526,1857,circa,capital_status,Capital of the Mughal Empire,,AsherTalbot2006,high,Imperial capital; Shah Jahan builds Shahjahanabad
+obs_0460,delhi,1648,1857,circa,capital_status,Capital of the Mughal Empire,,AsherTalbot2006,high,Shah Jahan builds Shahjahanabad and moves the court from Agra
 obs_0461,delhi,1700,1700,circa,population_estimate,600000,,Chandler1987,low,Among the largest cities in the world under the Mughals
 obs_0462,delhi,1803,1803,circa,conquest,,British East India Company,AsherTalbot2006,medium,Occupied by the British after the decline of the Mughals
-obs_0463,delhi,1911,2020,circa,capital_status,Capital of the Republic of India,,AsherTalbot2006,high,New Delhi made the capital in 1911 then capital of independent India
+obs_0463,delhi,1947,2020,circa,capital_status,Capital of the Republic of India,,AsherTalbot2006,high,Capital of independent India
 obs_0464,delhi,2020,2020,circa,population_estimate,30000000,,UN2018,medium,Modern Delhi; among the largest cities in the world
 obs_0465,antioch,-300,-300,circa,founding,,Seleucus I,Downey1961,medium,Founded as the western capital of the Seleucid Empire
 obs_0466,antioch,-300,-63,circa,capital_status,Capital of the Seleucid Empire,Seleucus I,Downey1961,high,The Seleucid royal seat in Syria
@@ -582,7 +581,7 @@ obs_0579,kaifeng,1100,1100,circa,population_estimate,1000000,,Chandler1987,mediu
 obs_0580,kaifeng,1127,1127,circa,conquest,,Jurchen Jin,Mote1999,high,The Jurchen sack Kaifeng; the Song flee south
 obs_0581,kaifeng,1234,1234,circa,conquest,,Mongol Empire,Morgan2007,medium,Taken by the Mongols
 obs_0582,kaifeng,2020,2020,circa,population_estimate,4700000,,UN2018,low,Modern Kaifeng
-obs_0583,hangzhou,589,589,circa,founding,,,Mote1999,low,Rose at the southern end of the Grand Canal
+obs_0583,hangzhou,-222,-222,circa,founding,,,Mote1999,low,Qiantang county established under the Qin; Hangzhou prefecture created by the Sui in 589
 obs_0584,hangzhou,1127,1276,circa,capital_status,Capital of the Southern Song dynasty,,Mote1999,high,The largest city in the world; Marco Polo's Quinsai
 obs_0585,hangzhou,1200,1200,circa,population_estimate,1000000,,Chandler1987,medium,The largest city in the world in the thirteenth century
 obs_0586,hangzhou,1276,1276,circa,conquest,,Yuan dynasty,Morgan2007,high,Taken by the Mongols; the Southern Song fall
@@ -595,7 +594,7 @@ obs_0592,nanjing,1928,1949,circa,capital_status,Capital of the Republic of China
 obs_0593,nanjing,2020,2020,circa,population_estimate,8500000,,UN2018,medium,Modern Nanjing
 obs_0594,beijing,-1045,-1045,circa,founding,,,Lewis2007,low,The city of Ji; seat of the Yan state
 obs_0595,beijing,-1045,-222,circa,capital_status,Capital of the Yan state,,Lewis2007,low,A northern frontier capital among the warring states
-obs_0596,beijing,1153,1153,circa,conquest,,Jurchen Jin,Mote1999,medium,The Jin make it their central capital Zhongdu
+obs_0596,beijing,1125,1125,circa,conquest,,Jurchen Jin,Mote1999,medium,The Jin seize Yanjing; it becomes their central capital Zhongdu in 1153
 obs_0597,beijing,1215,1215,circa,conquest,,Mongol Empire,Morgan2007,high,Sacked by Genghis Khan
 obs_0598,beijing,1271,1368,circa,capital_status,Capital of the Yuan dynasty,Kublai Khan,Morgan2007,high,Kublai Khan's Dadu or Khanbaliq
 obs_0599,beijing,1421,1644,circa,capital_status,Capital of the Ming dynasty,,Mote1999,high,The imperial capital and the Forbidden City
@@ -649,7 +648,7 @@ obs_0646,bukhara,709,709,circa,conquest,,Umayyad Caliphate,Soucek2000,low,Taken 
 obs_0647,bukhara,892,999,circa,capital_status,Capital of the Samanid Empire,,Soucek2000,high,A great center of Persian learning
 obs_0648,bukhara,1220,1220,circa,destruction,,Mongol Empire (Genghis Khan),Morgan2007,high,Sacked by the Mongols
 obs_0649,bukhara,2020,2020,circa,population_estimate,280000,,UN2018,low,Modern Bukhara
-obs_0650,merv,-300,-300,circa,founding,,,Soucek2000,low,Hellenistic then Silk Road oasis city
+obs_0650,merv,-550,-550,circa,founding,,,Soucek2000,low,Erk Kala founded in the Achaemenid period; refounded under the Seleucids
 obs_0651,merv,651,651,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Khorasan
 obs_0652,merv,1100,1100,circa,population_estimate,200000,,Chandler1987,low,Among the largest cities in the world in the twelfth century
 obs_0653,merv,1221,1221,circa,destruction,,Mongol Empire (Tolui),Morgan2007,high,The Mongols massacre the city; it never fully recovers
@@ -702,10 +701,6 @@ obs_0699,gao,2020,2020,circa,population_estimate,90000,,UN2018,low,Modern Gao
 obs_0700,ife,1000,1000,circa,founding,,,Connah2001,low,Yoruba holy city
 obs_0701,ife,1100,1420,circa,capital_status,Center of the Ife kingdom,,Connah2001,medium,Famed for naturalistic bronze and terracotta art
 obs_0702,ife,2020,2020,circa,population_estimate,500000,,UN2018,low,Modern Ile-Ife
-obs_0703,benin,1180,1180,circa,founding,,,Connah2001,low,Capital of the Edo Kingdom of Benin
-obs_0704,benin,1180,1897,circa,capital_status,Capital of the Kingdom of Benin,,Connah2001,high,Renowned for its earthworks and brass plaques
-obs_0705,benin,1897,1897,exact,conquest,,British Empire,Connah2001,high,Sacked in the British punitive expedition; the bronzes looted
-obs_0706,benin,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Benin City
 obs_0707,zimbabwe,1100,1100,circa,founding,,,Connah2001,low,Stone-walled capital on the Zimbabwe plateau
 obs_0708,zimbabwe,1100,1450,circa,capital_status,Capital of the Kingdom of Zimbabwe,,Connah2001,high,A gold-trading state; the Great Enclosure
 obs_0709,zimbabwe,1450,1450,century,abandonment,,,Connah2001,low,Abandoned as trade and power shifted north
@@ -770,7 +765,7 @@ obs_0767,buda,1361,1873,circa,capital_status,Capital of the Kingdom of Hungary,,
 obs_0768,buda,1541,1541,circa,conquest,,Ottoman Empire,Wickham2009,high,Taken by the Ottomans
 obs_0769,buda,1686,1686,circa,conquest,,Habsburg Monarchy,Wickham2009,medium,Retaken by the Habsburgs
 obs_0770,buda,2020,2020,circa,population_estimate,1800000,,UN2018,medium,Modern Budapest
-obs_0771,kiev,882,882,circa,founding,,Oleg of Novgorod,Franklin1996,medium,Oleg makes Kiev the seat of the Rus
+obs_0771,kiev,600,600,circa,founding,,,Franklin1996,medium,Early Slavic settlement on the Kyiv hills; tradition names Kyi as founder
 obs_0772,kiev,882,1240,circa,capital_status,Capital of Kievan Rus,,Franklin1996,high,The first East Slavic state
 obs_0773,kiev,1240,1240,circa,destruction,,Mongol Empire (Batu),Morgan2007,high,Sacked by the Mongols; the Rus fragment
 obs_0774,kiev,1362,1362,circa,conquest,,Grand Duchy of Lithuania,Wickham2009,low,Absorbed by Lithuania
@@ -780,7 +775,7 @@ obs_0777,novgorod,1136,1478,circa,capital_status,Novgorod Republic,,Franklin1996
 obs_0778,novgorod,1478,1478,circa,conquest,,Russia,Franklin1996,medium,Annexed by Moscow under Ivan III
 obs_0779,novgorod,2020,2020,circa,population_estimate,220000,,UN2018,low,Modern Veliky Novgorod
 obs_0780,moscow,1147,1147,circa,founding,,,Franklin1996,low,First mentioned as a small town
-obs_0781,moscow,1283,2020,circa,capital_status,Capital of Russia,,Franklin1996,high,Seat of the grand duchy the tsardom and modern Russia
+obs_0781,moscow,1340,1712,circa,capital_status,Capital of Russia,,Franklin1996,high,Seat of the grand duchy and the tsardom until Peter moved the court
 obs_0782,moscow,1480,1480,circa,attestation,End of Mongol overlordship,Russia,Morgan2007,low,Ivan III throws off the Golden Horde
 obs_0783,moscow,2020,2020,circa,population_estimate,12500000,,UN2018,medium,Modern Moscow
 obs_0784,venice,421,421,circa,founding,,,Abulafia2011,low,Refugees settle the lagoon
@@ -805,12 +800,12 @@ obs_0802,granada,1013,1013,circa,founding,,,Kennedy1996,low,A Zirid town
 obs_0803,granada,1238,1492,circa,capital_status,Capital of the Emirate of Granada,,Kennedy1996,high,The last Muslim state in Iberia; the Alhambra
 obs_0804,granada,1492,1492,exact,conquest,,Crown of Castile,Kennedy1996,high,The fall of Granada completes the Reconquista
 obs_0805,granada,2020,2020,circa,population_estimate,230000,,UN2018,low,Modern Granada
-obs_0806,seville,-200,-200,circa,founding,,,Richardson1996,low,Roman Hispalis
+obs_0806,seville,-800,-800,circa,founding,,,Richardson1996,low,Tartessian and Phoenician settlement of Spal long before Roman Hispalis
 obs_0807,seville,712,712,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
 obs_0808,seville,1147,1248,circa,capital_status,Capital of the Almohad Caliphate in Iberia,,Kennedy1996,medium,The Almohad seat in al-Andalus
 obs_0809,seville,1248,1248,circa,conquest,,Crown of Castile (Ferdinand III),Kennedy1996,high,Retaken in the Reconquista
 obs_0810,seville,2020,2020,circa,population_estimate,1500000,,UN2018,medium,Modern Seville
-obs_0811,lisbon,-1200,-1200,circa,founding,,,Disney2009,low,A Phoenician trading post on the Tagus
+obs_0811,lisbon,-800,-800,circa,founding,,,Disney2009,low,Phoenician trading settlement of Olisipo
 obs_0812,lisbon,714,714,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
 obs_0813,lisbon,1147,1147,circa,conquest,,Portugal (Afonso I),Disney2009,high,Captured in the Reconquista with crusader help
 obs_0814,lisbon,1255,2020,circa,capital_status,Capital of Portugal,,Disney2009,high,The royal and imperial capital
@@ -820,7 +815,7 @@ obs_0817,pergamon,-281,-133,circa,capital_status,Capital of the Attalid kingdom,
 obs_0818,pergamon,-133,-133,circa,conquest,,Rome,Mitchell1993,high,Bequeathed to Rome by Attalus III
 obs_0819,pergamon,1336,1336,circa,conquest,,Ottoman Empire,Cahen2001,low,Absorbed by the Ottomans
 obs_0820,pergamon,2020,2020,circa,population_estimate,100000,,UN2018,low,Modern Bergama
-obs_0821,konya,-300,-300,circa,founding,,,Mitchell1993,low,Hellenistic Iconium
+obs_0821,konya,-3000,-3000,circa,founding,,,Mitchell1993,low,Settlement mound of the Alaaddin Hill; among Anatolia's oldest towns
 obs_0822,konya,1097,1308,circa,capital_status,Capital of the Sultanate of Rum,,Cahen2001,high,The Seljuk capital in Anatolia; home of Rumi
 obs_0823,konya,1466,1466,circa,conquest,,Ottoman Empire,Cahen2001,low,Absorbed by the Ottomans
 obs_0824,konya,2020,2020,circa,population_estimate,2200000,,UN2018,medium,Modern Konya
@@ -840,7 +835,7 @@ obs_0837,aachen,800,843,circa,capital_status,Capital of the Carolingian Empire,C
 obs_0838,aachen,962,1806,circa,capital_status,Capital of the Holy Roman Empire,,Wickham2009,medium,Coronation city and symbolic seat of the Empire
 obs_0839,aachen,2020,2020,circa,population_estimate,250000,,UN2018,low,Modern Aachen
 obs_0840,thanjavur,850,850,circa,founding,,Vijayalaya Chola,Thapar2002,medium,Rose as the Chola capital
-obs_0841,thanjavur,850,1279,circa,capital_status,Capital of the Chola Empire,,Thapar2002,high,A great maritime empire of southern India
+obs_0841,thanjavur,850,1025,circa,capital_status,Capital of the Chola Empire,,Thapar2002,high,Rajendra I moved the Chola capital to Gangaikonda Cholapuram
 obs_0842,thanjavur,1279,1279,circa,conquest,,Pandya kingdom,Thapar2002,low,Absorbed as the Cholas fell
 obs_0843,thanjavur,1855,1855,circa,conquest,,British Empire,AsherTalbot2006,low,Annexed by the British
 obs_0844,thanjavur,2020,2020,circa,population_estimate,290000,,UN2018,low,Modern Thanjavur
@@ -929,10 +924,10 @@ obs_0926,dunhuang,1227,1227,circa,conquest,,Mongol Empire,Morgan2007,low,Absorbe
 obs_0927,dunhuang,2020,2020,circa,population_estimate,190000,,UN2018,low,Modern Dunhuang
 obs_0928,kashgar,-100,-100,circa,founding,,,Beckwith2009,low,Westernmost oasis of the Tarim Basin
 obs_0929,kashgar,648,648,circa,conquest,,Tang dynasty,Beckwith2009,low,One of the Tang Four Garrisons of the western regions
-obs_0930,kashgar,840,840,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,medium,A capital of the first Turkic Muslim dynasty
+obs_0930,kashgar,940,940,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,medium,Taken as the Kara-Khanids coalesced under Satuq Bughra Khan
 obs_0931,kashgar,1219,1219,circa,conquest,,Mongol Empire,Morgan2007,low,Taken by the Mongols
 obs_0932,kashgar,2020,2020,circa,population_estimate,700000,,UN2018,low,Modern Kashgar
-obs_0933,turpan,100,100,circa,founding,,,Beckwith2009,low,The Gaochang oasis on the northern Silk Road
+obs_0933,turpan,-300,-300,circa,founding,,,Beckwith2009,low,Jiaohe seat of the Jushi kingdom attested in Han sources
 obs_0934,turpan,640,640,circa,conquest,,Tang dynasty,Beckwith2009,low,Annexed by the Tang as Xizhou
 obs_0935,turpan,866,1209,circa,capital_status,Capital of the Uyghur kingdom of Qocho,,Beckwith2009,medium,Seat of a Buddhist Uyghur kingdom
 obs_0936,turpan,1209,1209,circa,conquest,,Mongol Empire,Morgan2007,low,Submitted to the Mongols
@@ -941,9 +936,9 @@ obs_0938,khotan,-200,-200,circa,founding,,,Beckwith2009,low,Southern Tarim kingd
 obs_0939,khotan,648,648,circa,conquest,,Tang dynasty,Beckwith2009,low,A Tang garrison and early Buddhist center
 obs_0940,khotan,1006,1006,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,medium,Conquered and Islamized by the Kara-Khanids
 obs_0941,khotan,2020,2020,circa,population_estimate,410000,,UN2018,low,Modern Hotan
-obs_0942,kucha,-100,-100,circa,founding,,,Beckwith2009,low,Tocharian Buddhist kingdom of the northern Tarim
+obs_0942,kucha,-200,-200,circa,founding,,,Beckwith2009,low,Tocharian oasis kingdom attested in early Han sources
 obs_0943,kucha,648,648,circa,conquest,,Tang dynasty,Beckwith2009,low,Seat of the Tang Anxi Protectorate
-obs_0944,kucha,840,840,circa,conquest,,Uyghur Khaganate,Beckwith2009,low,Passed to the Uyghurs
+obs_0944,kucha,866,866,circa,conquest,,Kingdom of Qocho,Beckwith2009,low,Under the Uyghur kingdom of Qocho after the khaganate's fall
 obs_0945,kucha,1758,1758,circa,conquest,,Qing dynasty,Mote1999,low,Absorbed into Qing Xinjiang
 obs_0946,kucha,2020,2020,circa,population_estimate,450000,,UN2018,low,Modern Kuqa
 obs_0947,otrar,600,600,circa,founding,,,Soucek2000,low,A trade city on the Syr Darya
@@ -988,7 +983,7 @@ obs_0985,marrakesh,2020,2020,circa,population_estimate,1000000,,UN2018,medium,Mo
 obs_0986,volubilis,-300,-300,circa,founding,,,Raven1993,low,A Mauretanian town in the far west
 obs_0987,volubilis,-25,-25,circa,capital_status,Capital of Mauretania,Juba II,Raven1993,medium,Royal city of the client king Juba II
 obs_0988,volubilis,44,44,circa,conquest,,Rome,Raven1993,low,Annexed into Roman Mauretania Tingitana
-obs_0989,volubilis,800,800,century,abandonment,,,Raven1993,low,Faded after the Roman withdrawal and the Arab conquest
+obs_0989,volubilis,1050,1050,century,abandonment,,,Raven1993,low,Walili inhabited through the Idrisid era; depopulated as Fez rose
 obs_0990,sijilmasa,757,757,circa,founding,,,AbunNasr1987,low,A caravan city at the edge of the Sahara
 obs_0991,sijilmasa,900,900,circa,attestation,Trans-Saharan gold trade,,Connah2001,medium,The northern terminus of the West African gold routes
 obs_0992,sijilmasa,1054,1054,circa,conquest,,Almoravid Empire,AbunNasr1987,low,Taken by the Almoravids
@@ -1008,7 +1003,7 @@ obs_1005,cirta,-203,-46,circa,capital_status,Capital of Numidia,Masinissa,Raven1
 obs_1006,cirta,-46,-46,circa,conquest,,Rome,Raven1993,low,Annexed by Rome after the civil wars
 obs_1007,cirta,1837,1837,circa,conquest,,French Empire,AbunNasr1987,low,Taken by France as Constantine
 obs_1008,cirta,2020,2020,circa,population_estimate,450000,,UN2018,low,Modern Constantine
-obs_1009,tlemcen,1000,1000,circa,founding,,,AbunNasr1987,low,A Berber town of the central Maghreb
+obs_1009,tlemcen,200,200,circa,founding,,,AbunNasr1987,low,Roman Pomaria of the Severan frontier; refounded as Almoravid Tagrart
 obs_1010,tlemcen,1235,1554,circa,capital_status,Capital of the Zayyanid kingdom,,AbunNasr1987,high,Seat of the Zayyanid sultans
 obs_1011,tlemcen,1554,1554,circa,conquest,,Ottoman Empire,AbunNasr1987,low,Absorbed into Ottoman Algeria
 obs_1012,tlemcen,2020,2020,circa,population_estimate,950000,,UN2018,low,Modern Tlemcen
@@ -1017,7 +1012,7 @@ obs_1014,algiers,1516,1830,circa,capital_status,Capital of the Regency of Algier
 obs_1015,algiers,1830,1830,circa,conquest,,French Empire,AbunNasr1987,medium,Conquered by France
 obs_1016,algiers,1962,2020,circa,capital_status,Capital of Algeria,,UN2018,medium,Capital of independent Algeria
 obs_1017,algiers,2020,2020,circa,population_estimate,2800000,,UN2018,medium,Modern Algiers
-obs_1018,tripoli,-500,-500,circa,founding,,,Raven1993,low,The Phoenician port of Oea
+obs_1018,tripoli,-700,-700,circa,founding,,,Raven1993,low,Phoenician Oea of the seventh century BCE
 obs_1019,tripoli,-46,-46,circa,conquest,,Rome,Raven1993,low,Part of Roman Tripolitania
 obs_1020,tripoli,1551,1551,circa,conquest,,Ottoman Empire,AbunNasr1987,medium,Taken by the Ottomans
 obs_1021,tripoli,1911,1911,circa,conquest,,Kingdom of Italy,AbunNasr1987,medium,Seized by Italy
@@ -1038,7 +1033,7 @@ obs_1035,mombasa,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern 
 obs_1036,zanzibar,1000,1000,circa,founding,,,Connah2001,low,A Swahili trading settlement
 obs_1037,zanzibar,1503,1503,circa,conquest,,Portuguese Empire,Disney2009,low,Brought under Portuguese control
 obs_1038,zanzibar,1698,1698,circa,conquest,,Omani Empire,Connah2001,medium,Taken by Oman
-obs_1039,zanzibar,1840,1890,circa,capital_status,Capital of the Omani Empire,Said bin Sultan,Connah2001,high,The Omani sultan moves his capital to Zanzibar
+obs_1039,zanzibar,1840,1856,circa,capital_status,Capital of the Omani Empire,Said bin Sultan,Connah2001,high,Said bin Sultan's capital; the Omani realm split at his death
 obs_1040,zanzibar,1890,1890,circa,conquest,,British Empire,Darwin2012,medium,Becomes a British protectorate
 obs_1041,zanzibar,2020,2020,circa,population_estimate,700000,,UN2018,low,Modern Zanzibar City
 obs_1042,sofala,900,900,circa,founding,,,Connah2001,low,A gold-trade port on the Mozambique coast
@@ -1119,16 +1114,16 @@ obs_1116,quanzhou,718,718,circa,conquest,,Tang dynasty,Beckwith2009,low,A Tang m
 obs_1117,quanzhou,978,978,circa,conquest,,Song dynasty,Mote1999,low,A great Song maritime port
 obs_1118,shanghai,1074,1074,circa,conquest,,Song dynasty,Mote1999,low,A Song market town
 obs_1119,new-york,1624,1624,circa,founding,,Dutch Empire,Taylor2001,medium,Founded as New Amsterdam by the Dutch
-obs_1120,new-york,1664,1664,circa,conquest,,British Empire,Taylor2001,medium,Seized by England and renamed New York
+obs_1120,new-york,1664,1664,circa,conquest,,Kingdom of England,Taylor2001,medium,Seized by England and renamed New York
 obs_1121,new-york,1783,1783,exact,conquest,,United States,Taylor2001,high,Independent with the United States
 obs_1122,new-york,1800,1800,circa,population_estimate,60000,,Chandler1987,low,A fast-growing Atlantic port
 obs_1123,new-york,2020,2020,circa,population_estimate,18800000,,UN2018,medium,Modern New York
 obs_1124,washington,1790,1790,exact,founding,,United States,Taylor2001,high,Founded as the federal capital
-obs_1125,washington,1790,2020,circa,capital_status,Capital of the United States,,Taylor2001,high,Seat of the United States government
+obs_1125,washington,1800,2020,circa,capital_status,Capital of the United States,,Taylor2001,high,Seat of the United States government
 obs_1126,washington,2020,2020,circa,population_estimate,6300000,,UN2018,medium,Modern Washington metro
 obs_1127,boston,1630,1630,circa,founding,,,Taylor2001,low,Founded by English Puritan colonists
-obs_1128,boston,1630,1630,circa,conquest,,British Empire,Taylor2001,low,An English colonial town
-obs_1129,boston,1783,1783,exact,conquest,,United States,Taylor2001,medium,A cradle of the American Revolution
+obs_1128,boston,1630,1630,circa,conquest,,Kingdom of England,Taylor2001,low,An English colonial town
+obs_1129,boston,1776,1776,exact,conquest,,United States,Taylor2001,medium,British forces evacuate Boston in March 1776
 obs_1130,boston,2020,2020,circa,population_estimate,4900000,,UN2018,medium,Modern Boston
 obs_1131,quebec,1608,1608,circa,founding,,,Taylor2001,low,Founded by Champlain as the seat of New France
 obs_1132,quebec,1608,1608,circa,conquest,,French Empire,Taylor2001,medium,Capital of New France
@@ -1152,8 +1147,8 @@ obs_1149,memphis,-1550,-1550,circa,conquest,,New Kingdom,Shaw2000,low,A chief ci
 obs_1150,nanjing,-110,-110,circa,conquest,,Han dynasty,Lewis2007,low,The lower Yangtze region under the Han
 obs_1151,nanjing,229,280,circa,capital_status,Capital of Eastern Wu,,Mote1999,medium,Jianye becomes the capital of the Wu kingdom
 obs_1152,algiers,40,40,circa,conquest,,Rome,Raven1993,low,Icosium under Roman Mauretania Caesariensis
-obs_1153,tlemcen,40,40,circa,conquest,,Rome,Raven1993,low,Pomaria under Roman Mauretania
-obs_1154,chengdu,-311,-311,circa,founding,,,Lewis2007,low,Founded by the Qin in the Sichuan basin
+obs_1153,tlemcen,200,200,circa,conquest,,Rome,Raven1993,low,Severan-era military settlement of Pomaria
+obs_1154,chengdu,-400,-400,circa,founding,,,Lewis2007,low,Seat of the Kaiming kings of Shu; walled by Zhang Yi for the Qin in -311
 obs_1155,chengdu,221,263,circa,capital_status,Capital of Shu Han,,Mote1999,medium,Capital of the Three Kingdoms state of Shu
 obs_1156,chengdu,620,620,circa,conquest,,Tang dynasty,Mote1999,low,A wealthy Tang city
 obs_1157,chengdu,965,965,circa,conquest,,Song dynasty,Mote1999,low,Under the Song; home of the first paper money
@@ -1167,17 +1162,17 @@ obs_1164,xingqing,1949,1949,circa,conquest,,People's Republic of China,Mote1999,
 obs_1165,xingqing,2020,2020,circa,population_estimate,2900000,,UN2018,medium,Modern Yinchuan
 obs_1166,datong,-200,-200,circa,founding,,,Lewis2007,low,A town on the northern frontier
 obs_1167,datong,398,494,circa,capital_status,Capital of the Northern Wei dynasty,,Lewis2007,high,Pingcheng before the move to Luoyang
-obs_1168,datong,947,947,circa,conquest,,Liao dynasty,Mote1999,low,A western capital of the Khitan Liao
+obs_1168,datong,938,938,circa,conquest,,Liao dynasty,Mote1999,low,Ceded to the Liao among the Sixteen Prefectures
 obs_1169,datong,1949,1949,circa,conquest,,People's Republic of China,Mote1999,low,Part of the People's Republic
 obs_1170,datong,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Datong
-obs_1171,liaoyang,100,100,circa,founding,,,Mote1999,low,A town of the northeast
+obs_1171,liaoyang,-300,-300,circa,founding,,,Mote1999,low,Xiangping seat of Yan's Liaodong commandery from the Warring States era
 obs_1172,liaoyang,928,1116,circa,capital_status,Eastern capital of the Liao dynasty,,Mote1999,high,A Khitan Liao capital in Manchuria
 obs_1173,liaoyang,1116,1116,circa,conquest,,Jurchen Jin,Mote1999,low,Taken by the Jurchen Jin
 obs_1174,liaoyang,1621,1621,circa,conquest,,Later Jin,Mote1999,medium,An early Later Jin capital under Nurhaci
 obs_1175,liaoyang,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Liaoyang
-obs_1176,dading,1000,1000,circa,founding,,,Mote1999,low,Rose on the steppe edge
-obs_1177,dading,1153,1234,circa,capital_status,Central capital of the Jurchen Jin,,Mote1999,high,A Jin imperial capital
-obs_1178,dading,1234,1234,circa,destruction,,Mongol Empire,Morgan2007,low,Taken by the Mongols
+obs_1176,dading,1007,1007,circa,founding,,,Mote1999,low,Rose on the steppe edge
+obs_1177,dading,1007,1122,circa,capital_status,Central capital of the Liao dynasty,,Mote1999,high,Zhongjing of the Liao; the Jin northern capital after 1153
+obs_1178,dading,1215,1215,circa,destruction,,Mongol Empire,Morgan2007,low,Overrun by the Mongols in the conquest of Jin north of the Yellow River
 obs_1179,dading,1400,1400,century,abandonment,,,Mote1999,low,Declined and was abandoned
 obs_1180,hongkong,1842,1842,circa,founding,,British Empire,Taylor2001,medium,Ceded to Britain after the First Opium War
 obs_1181,hongkong,1997,1997,circa,conquest,,People's Republic of China,Mote1999,medium,Returned to China as a special administrative region
@@ -1187,7 +1182,7 @@ obs_1184,avarga,1206,1235,circa,capital_status,First capital of the Mongol Empir
 obs_1185,avarga,1300,1300,century,abandonment,,,Morgan2007,low,Abandoned as the capital moved to Karakorum
 obs_1186,hedeby,770,770,circa,founding,,,Sawyer1997,low,A Danish Viking trade emporium
 obs_1187,hedeby,800,1066,circa,capital_status,Danish Viking emporium,,Sawyer1997,medium,A great market town of the Viking world
-obs_1188,hedeby,1066,1066,circa,destruction,,Norway,Sawyer1997,low,Sacked and abandoned in the late Viking age
+obs_1188,hedeby,1066,1066,circa,destruction,,West Slavs,Sawyer1997,low,Burned by West Slavic raiders; the settlement shifted to Schleswig
 obs_1189,birka,750,750,circa,founding,,,Sawyer1997,low,A Swedish Viking trading island
 obs_1190,birka,800,975,circa,capital_status,Swedish Viking emporium,,Sawyer1997,medium,A hub of Baltic trade
 obs_1191,birka,975,975,circa,abandonment,,,Sawyer1997,low,Abandoned for nearby Sigtuna
@@ -1196,7 +1191,7 @@ obs_1193,dublin,853,1170,circa,capital_status,Norse Kingdom of Dublin,,Sawyer199
 obs_1194,dublin,1170,1170,circa,conquest,,Kingdom of England,Sawyer1997,medium,Taken by the Anglo-Normans
 obs_1195,dublin,1922,2020,circa,capital_status,Capital of Ireland,,UN2018,medium,Capital of independent Ireland
 obs_1196,dublin,2020,2020,circa,population_estimate,1200000,,UN2018,medium,Modern Dublin
-obs_1197,konya,-301,-301,circa,conquest,,Seleucid Empire,Kuhrt1995,low,A Seleucid city of Lycaonia
+obs_1197,konya,-281,-281,circa,conquest,,Seleucid Empire,Kuhrt1995,low,Under Seleucid control after Corupedium
 obs_1198,konya,-129,-129,circa,conquest,,Rome,Mitchell1993,low,Iconium under Roman Asia Minor
 obs_1199,konya,395,395,circa,conquest,,Byzantine Empire,Mango2002,low,A Byzantine city before the Seljuks
 obs_1200,eboracum,866,954,circa,capital_status,Kingdom of Jorvik,,Sawyer1997,medium,The Viking kingdom of York
@@ -1212,12 +1207,12 @@ obs_1209,chengdu,-201,-201,circa,conquest,,Han dynasty,Lewis2007,low,Sichuan und
 obs_1210,kaifeng,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Chenliu region under the Han
 obs_1211,hangzhou,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Kuaiji region under the Han
 obs_1212,beijing,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,The Youzhou frontier under the Han
-obs_1213,massalia,508,508,circa,conquest,,France,Wickham2009,low,Part of Frankish Gaul and then France
-obs_1214,lugdunum,508,508,circa,conquest,,France,Wickham2009,low,Part of Frankish Gaul and then France
-obs_1215,burdigala,508,508,circa,conquest,,France,Wickham2009,low,Part of Frankish Gaul and then France
-obs_1216,narbo,759,759,circa,conquest,,France,Wickham2009,low,Taken by the Franks from the Visigoths
-obs_1217,londinium,886,1707,circa,capital_status,Capital of the Kingdom of England,,Darwin2012,medium,The English royal capital from Alfred to the Union
-obs_1218,camulodunum,886,886,circa,conquest,,Kingdom of England,Darwin2012,low,Part of the unified Kingdom of England
+obs_1213,massalia,508,508,circa,conquest,,Kingdom of the Franks,Wickham2009,low,Part of Frankish Gaul and then France
+obs_1214,lugdunum,508,508,circa,conquest,,Kingdom of the Franks,Wickham2009,low,Part of Frankish Gaul and then France
+obs_1215,burdigala,508,508,circa,conquest,,Kingdom of the Franks,Wickham2009,low,Part of Frankish Gaul and then France
+obs_1216,narbo,759,759,circa,conquest,,Kingdom of the Franks,Wickham2009,low,Taken by the Franks from the Visigoths
+obs_1217,londinium,927,1707,circa,capital_status,Capital of the Kingdom of England,,Darwin2012,medium,The English royal capital from AEthelstan to the Union
+obs_1218,camulodunum,886,886,circa,conquest,,Wessex,Darwin2012,low,Part of the unified Kingdom of England
 obs_1219,camulodunum,1707,1707,circa,conquest,,United Kingdom,Darwin2012,low,Part of Great Britain and the United Kingdom
 obs_1220,eboracum,954,954,circa,conquest,,Kingdom of England,Darwin2012,low,Reconquered into the Kingdom of England
 obs_1221,eboracum,1707,1707,circa,conquest,,United Kingdom,Darwin2012,low,Part of the United Kingdom
@@ -1229,12 +1224,12 @@ obs_1226,mediolanum,962,962,circa,conquest,,Holy Roman Empire,Wickham2009,medium
 obs_1227,mediolanum,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,Part of united Italy
 obs_1228,ravenna,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy
 obs_1229,tarentum,553,553,circa,conquest,,Byzantine Empire,Mango2002,low,Byzantine southern Italy
-obs_1230,tarentum,1071,1071,circa,conquest,,Kingdom of Sicily,Abulafia2011,low,Taken by the Normans
+obs_1230,tarentum,1071,1071,circa,conquest,,Duchy of Apulia,Abulafia2011,low,Taken by the Normans
 obs_1231,tarentum,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy
 obs_1232,neapolis,1139,1139,circa,conquest,,Kingdom of Sicily,Abulafia2011,medium,Joined to the Norman Kingdom of Sicily
 obs_1233,neapolis,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,Part of united Italy
 obs_1234,syracuse,535,535,circa,conquest,,Byzantine Empire,Mango2002,low,Byzantine Sicily
-obs_1235,syracuse,1091,1091,circa,conquest,,Kingdom of Sicily,Abulafia2011,medium,Taken by the Normans
+obs_1235,syracuse,1091,1091,circa,conquest,,County of Sicily,Abulafia2011,medium,Taken by the Normans
 obs_1236,syracuse,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,low,Part of united Italy
 obs_1237,venice,1866,1866,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,Joined to united Italy
 obs_1238,florence,1861,1861,circa,conquest,,Kingdom of Italy,Abulafia2011,medium,A first capital of united Italy
@@ -1253,7 +1248,7 @@ obs_1250,carthago-nova,1245,1245,circa,conquest,,Crown of Castile,Kennedy1996,lo
 obs_1251,carthago-nova,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
 obs_1252,tarraco,476,476,circa,conquest,,Visigothic Kingdom,Collins2004,low,Under the Visigoths
 obs_1253,tarraco,714,714,circa,conquest,,Umayyad Caliphate,Kennedy1996,low,Taken in the Muslim conquest
-obs_1254,tarraco,1118,1118,circa,conquest,,Crown of Aragon,Kennedy1996,medium,Retaken into the Crown of Aragon
+obs_1254,tarraco,1118,1118,circa,conquest,,County of Barcelona,Kennedy1996,medium,Retaken into the Crown of Aragon
 obs_1255,tarraco,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
 obs_1256,corduba,1516,1516,circa,conquest,,Spain,Davies1996,low,Part of unified Spain
 obs_1257,seville,1516,1516,circa,conquest,,Spain,Davies1996,medium,Part of unified Spain; gateway to the Americas
@@ -1273,13 +1268,12 @@ obs_1270,kaushambi,-600,-400,circa,capital_status,Capital of Vatsa,,Thapar2002,l
 obs_1271,kaushambi,-316,-316,circa,conquest,Mauryan Empire,,Thapar2002,medium,Absorbed into the Maurya empire; later bears an Ashokan pillar edict
 obs_1272,kaushambi,320,550,circa,conquest,Gupta Empire,,Thapar2002,low,Part of the Gupta realm in the classical age
 obs_1273,kaushambi,600,600,century,abandonment,,,Thapar2002,low,Declined and largely abandoned after the Gupta collapse
-obs_1274,changan,-221,-206,circa,capital_status,Capital of the Qin dynasty,Qin Shi Huang,Lewis2007,high,Xianyang seat of the first unified empire
-obs_1275,luoyang,-249,-249,circa,conquest,,Qin dynasty,Lewis2007,medium,Absorbed as Qin extinguishes the Eastern Zhou
-obs_1276,kaifeng,-225,-225,circa,conquest,,Qin dynasty,Lewis2007,medium,Taken in the Qin conquest of Wei
-obs_1277,nanjing,-223,-223,circa,conquest,,Qin dynasty,Lewis2007,medium,Taken in the Qin conquest of Chu
-obs_1278,beijing,-222,-222,circa,conquest,,Qin dynasty,Lewis2007,medium,Taken in the Qin conquest of Yan
+obs_1275,luoyang,-249,-249,circa,conquest,,Qin state,Lewis2007,medium,Absorbed as Qin extinguishes the Eastern Zhou
+obs_1276,kaifeng,-225,-225,circa,conquest,,Qin state,Lewis2007,medium,Taken in the Qin conquest of Wei
+obs_1277,nanjing,-223,-223,circa,conquest,,Qin state,Lewis2007,medium,Taken in the Qin conquest of Chu
+obs_1278,beijing,-222,-222,circa,conquest,,Qin state,Lewis2007,medium,Taken in the Qin conquest of Yan
 obs_1279,guangzhou,-214,-214,circa,conquest,,Qin dynasty,Lewis2007,medium,Panyu founded in the Qin conquest of Lingnan
-obs_1280,chengdu,-316,-316,circa,conquest,,Qin dynasty,Lewis2007,medium,Qin annexes the kingdom of Shu
+obs_1280,chengdu,-316,-316,circa,conquest,,Qin state,Lewis2007,medium,Qin annexes the kingdom of Shu
 obs_1281,changan,581,618,circa,capital_status,Capital of the Sui dynasty,Sui Wendi,Lewis2007,high,Daxing the capital of the reunified empire
 obs_1282,luoyang,605,618,circa,capital_status,Eastern capital of the Sui dynasty,Sui Yangdi,Lewis2007,medium,The eastern capital and hub of the Grand Canal
 obs_1283,nanjing,589,589,circa,conquest,,Sui dynasty,Lewis2007,high,Sui conquers Chen and reunifies China
@@ -1298,7 +1292,7 @@ obs_1295,xingqing,1368,1368,circa,conquest,,Ming dynasty,Mote1999,low,A Ming fro
 obs_1296,xingqing,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Held by the Qing as Ningxia
 obs_1297,camulodunum,43,43,circa,conquest,,Rome (Claudius),Salway1981,high,Taken in the Claudian invasion of Britain
 obs_1298,camulodunum,49,60,circa,capital_status,Capital of Roman Britain,Rome,Salway1981,medium,The first colonia and original capital of the province
-obs_1299,eboracum,71,410,circa,capital_status,Capital of Roman Britain,Rome,Salway1981,medium,Legionary fortress and later capital of the northern province
+obs_1299,eboracum,213,410,circa,capital_status,Capital of Roman Britain,Rome,Salway1981,medium,Capital of Britannia Inferior after the Severan division of the province
 obs_1300,hakata,700,700,circa,founding,,,Totman2000,low,Ancient port and administrative seat of Dazaifu on Kyushu
 obs_1301,hakata,1192,1192,circa,conquest,,Kamakura shogunate,Totman2000,low,Under the Kamakura shogunate; Japan's gateway to China
 obs_1302,hakata,1274,1274,circa,attestation,First Mongol invasion repelled,Mongol Empire (Kublai Khan),Totman2000,medium,The Mongol invasion fleet is wrecked off Hakata Bay
@@ -1370,7 +1364,7 @@ obs_1367,vilnius,1323,1323,circa,founding,,Grand Duchy of Lithuania (Gediminas),
 obs_1368,vilnius,1323,1569,circa,capital_status,Capital of the Grand Duchy of Lithuania,,Davies1996,high,Capital of the largest state in late medieval Europe
 obs_1369,vilnius,1569,1569,circa,conquest,,Polish-Lithuanian Commonwealth,Davies1996,medium,Joined to Poland in the Union of Lublin
 obs_1370,vilnius,1795,1795,circa,conquest,,Russia,Davies1996,medium,Annexed by Russia in the partitions
-obs_1371,vilnius,1918,2020,circa,capital_status,Capital of Lithuania,,Davies1996,medium,Capital of independent Lithuania
+obs_1371,vilnius,1918,1920,circa,capital_status,Capital of Lithuania,,Davies1996,medium,Capital of newly independent Lithuania until the Polish seizure
 obs_1372,vilnius,2020,2020,circa,population_estimate,580000,,UN2018,low,Modern Vilnius
 obs_1373,lviv,1256,1256,circa,founding,,Kingdom of Galicia-Volhynia (Daniel),Davies1996,medium,Founded by Daniel of Galicia
 obs_1374,lviv,1349,1349,circa,conquest,,Kingdom of Poland,Davies1996,medium,Annexed by Casimir III of Poland
@@ -1419,7 +1413,7 @@ obs_1416,sao-paulo,2020,2020,circa,population_estimate,22000000,,UN2018,medium,M
 obs_1417,brasilia,1960,1960,exact,founding,,Brazil,Fausto1999,high,Built as the new capital in the interior
 obs_1418,brasilia,1960,2020,circa,capital_status,Capital of Brazil,,Fausto1999,high,The modernist federal capital
 obs_1419,brasilia,2020,2020,circa,population_estimate,4700000,,UN2018,low,Modern Brasilia
-obs_1420,buenos-aires,1580,1580,circa,founding,,Spanish Empire,Bethell1984,medium,Refounded as a Spanish port and later seat of the Rio de la Plata viceroyalty
+obs_1420,buenos-aires,1580,1580,circa,refounding,,Spanish Empire,Bethell1984,medium,Refounded by Juan de Garay after the first settlement failed
 obs_1421,buenos-aires,1810,2020,circa,capital_status,Capital of Argentina,,Bethell1984,high,Capital after the May Revolution and independence
 obs_1422,buenos-aires,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Buenos Aires
 obs_1423,havana,1535,1535,circa,conquest,,Spanish Empire,Bethell1984,low,A Spanish stronghold administered within the viceroyalty of New Spain
@@ -1496,7 +1490,7 @@ obs_1494,kiev,1922,1922,circa,conquest,,Soviet Union,Davies1996,medium,Capital o
 obs_1495,vilnius,1940,1940,circa,conquest,,Soviet Union,Davies1996,medium,Annexed as the capital of the Lithuanian SSR
 obs_1496,vilnius,1991,1991,circa,conquest,,Lithuania,Davies1996,low,Capital of independent Lithuania once more
 obs_1497,lviv,1939,1939,circa,conquest,,Soviet Union,Davies1996,low,Annexed under the Molotov-Ribbentrop pact
-obs_1498,tashkent,1924,1924,circa,conquest,,Soviet Union,Soucek2000,medium,Capital of the Uzbek SSR
+obs_1498,tashkent,1924,1924,circa,conquest,,Soviet Union,Soucek2000,medium,Capital of the Uzbek SSR from 1930 and of independent Uzbekistan
 obs_1499,tashkent,1991,2020,circa,capital_status,Capital of Uzbekistan,,Soucek2000,high,Capital of independent Uzbekistan
 obs_1500,samarkand,1868,1868,circa,conquest,,Russian Empire,Soucek2000,low,Taken by the Russians
 obs_1501,samarkand,1924,1924,circa,conquest,,Soviet Union,Soucek2000,low,Part of the Uzbek SSR
@@ -1506,9 +1500,9 @@ obs_1504,bukhara,1920,1920,circa,conquest,,Soviet Union,Soucek2000,low,The emira
 obs_1505,bukhara,1991,1991,circa,conquest,,Uzbekistan,Soucek2000,low,Part of independent Uzbekistan
 obs_1506,warsaw,1945,1945,circa,conquest,,Soviet Union,Davies1996,medium,Capital of the Soviet-aligned Polish People's Republic
 obs_1507,warsaw,1989,1989,circa,conquest,,Poland,Davies1996,medium,Capital of post-communist Poland
-obs_1508,prague,1948,1948,circa,conquest,,Soviet Union,Davies1996,low,A Soviet satellite after the communist coup
+obs_1508,prague,1948,1948,circa,conquest,,Czechoslovakia,Davies1996,low,The Communist Party seizes power in the February 1948 coup
 obs_1509,prague,1993,2020,circa,capital_status,Capital of the Czech Republic,,Davies1996,high,Capital of the Czech Republic after the Velvet Divorce
-obs_1510,buda,1949,1949,circa,conquest,,Soviet Union,Davies1996,low,A Soviet satellite under the People's Republic
+obs_1510,buda,1945,1945,circa,conquest,,Soviet Union,Davies1996,low,A Soviet satellite under the People's Republic
 obs_1511,buda,1989,1989,circa,conquest,,Hungary,Davies1996,low,Free after the fall of communism
 obs_1512,sofia,1946,1946,circa,conquest,,Soviet Union,Davies1996,low,A Soviet satellite under the People's Republic
 obs_1513,sofia,1989,1989,circa,conquest,,Bulgaria,Davies1996,low,Free after the fall of communism
@@ -1551,19 +1545,19 @@ obs_1549,ecbatana,1258,1258,circa,conquest,,Ilkhanate,Morgan2007,low,Under the M
 obs_1550,ecbatana,1500,1500,circa,conquest,,Safavid Empire,Axworthy2008,low,Part of Safavid Persia
 obs_1551,ecbatana,1925,1925,circa,conquest,,Iran,Axworthy2008,low,Part of modern Iran as Hamadan
 obs_1552,medina,-500,-500,circa,founding,,,Kennedy2004,low,The oasis town of Yathrib
-obs_1553,medina,622,661,circa,capital_status,Capital of the Rashidun Caliphate,Muhammad,Kennedy2004,high,The first capital of Islam after the Hijra
+obs_1553,medina,632,656,circa,capital_status,Capital of the Rashidun Caliphate,Muhammad,Kennedy2004,high,Capital of the Rashidun state from Muhammad's death until Ali moved to Kufa
 obs_1554,medina,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,A holy city under the Umayyads
 obs_1555,medina,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,A holy city of the Abbasid realm
 obs_1556,medina,1517,1517,circa,conquest,,Ottoman Empire,Hourani1991,medium,Guarded by the Ottoman sultans as servants of the holy cities
-obs_1557,medina,1925,1925,circa,conquest,,Saudi Arabia,Hourani1991,medium,Taken by the Al Saud
+obs_1557,medina,1925,1925,circa,conquest,,Sultanate of Nejd (Ibn Saud),Hourani1991,medium,Taken by the Al Saud
 obs_1558,medina,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Medina
 obs_1559,mecca,-400,-400,circa,founding,,,Kennedy2004,low,Ancient sanctuary town of the Hejaz
-obs_1560,mecca,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,high,Muhammad takes Mecca; it becomes Islam's holiest city
+obs_1560,mecca,630,630,circa,conquest,,Early Islamic state (Muhammad),Kennedy2004,high,Muhammad takes Mecca; it becomes Islam's holiest city
 obs_1561,mecca,661,661,circa,conquest,,Umayyad Caliphate,Kennedy2004,low,The holy city under the Umayyads
 obs_1562,mecca,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,The holy city under the Abbasids
 obs_1563,mecca,1269,1269,circa,conquest,,Mamluk Sultanate,Hourani1991,low,The Hejaz sharifate under Mamluk protection
 obs_1564,mecca,1517,1517,circa,conquest,,Ottoman Empire,Hourani1991,medium,Guarded by the Ottoman sultans
-obs_1565,mecca,1925,1925,circa,conquest,,Saudi Arabia,Hourani1991,medium,Taken by the Al Saud
+obs_1565,mecca,1925,1925,circa,conquest,,Sultanate of Nejd (Ibn Saud),Hourani1991,medium,Taken by the Al Saud
 obs_1566,mecca,2020,2020,circa,population_estimate,2000000,,UN2018,medium,Modern Mecca; destination of the hajj
 obs_1567,riyadh,1746,1746,circa,founding,,,Hourani1991,low,The Al Saud establish their base in Najd
 obs_1568,riyadh,1932,2020,circa,capital_status,Capital of Saudi Arabia,Ibn Saud,Hourani1991,high,Capital of the Kingdom of Saudi Arabia
@@ -1588,7 +1582,7 @@ obs_1586,mosul,1262,1262,circa,conquest,,Ilkhanate,Morgan2007,low,Under the Mong
 obs_1587,mosul,1535,1535,circa,conquest,,Ottoman Empire,Hourani1991,low,An Ottoman provincial capital
 obs_1588,mosul,1932,1932,circa,conquest,,Iraq,Hourani1991,low,Part of independent Iraq
 obs_1589,mosul,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Mosul
-obs_1590,aleppo,-2000,-2000,circa,founding,,,Kennedy2004,low,Ancient Halab capital of Yamhad
+obs_1590,aleppo,-2500,-2500,circa,founding,,,Kennedy2004,low,Halab a major cult center of Hadad already in the Ebla archives
 obs_1591,aleppo,-1800,-1600,circa,capital_status,Capital of Yamhad,,Kennedy2004,low,Capital of the Amorite kingdom of Yamhad
 obs_1592,aleppo,-738,-738,circa,conquest,,Assyria,Kuhrt1995,low,Absorbed by the Neo-Assyrian empire
 obs_1593,aleppo,-301,-301,circa,conquest,,Seleucid Empire,Kuhrt1995,low,Refounded as Beroea by the Seleucids
@@ -1601,7 +1595,7 @@ obs_1599,aleppo,1260,1260,circa,conquest,,Mamluk Sultanate,Hourani1991,low,A gre
 obs_1600,aleppo,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,medium,A major Ottoman trading city
 obs_1601,aleppo,1946,1946,circa,conquest,,Syria,Hourani1991,low,Part of independent Syria
 obs_1602,aleppo,2020,2020,circa,population_estimate,1800000,,UN2018,low,Modern Aleppo
-obs_1603,isfahan,600,600,circa,founding,,,Axworthy2008,low,A city of the Iranian plateau
+obs_1603,isfahan,-500,-500,circa,founding,,,Axworthy2008,low,Achaemenid Aspadana; a substantial town long before Islam
 obs_1604,isfahan,642,642,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Persia
 obs_1605,isfahan,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Abbasid provincial city
 obs_1606,isfahan,1051,1118,circa,capital_status,Capital of the Seljuk Empire,Malik Shah,Axworthy2008,high,The Great Seljuk capital
@@ -1635,7 +1629,6 @@ obs_1633,novgorod,882,882,circa,conquest,,Kievan Rus,Franklin1996,medium,A north
 obs_1634,aleppo,-1595,-1595,circa,conquest,,Hittite Empire,Kuhrt1995,medium,Sacked and held by the Hittites under Mursili I
 obs_1635,arbela,226,226,circa,conquest,,Sasanian Empire,Daryaee2009,low,An Adiabene city under the Sasanians
 obs_1636,madurai,1020,1020,circa,conquest,,Chola Empire,Stein1989,medium,The Cholas conquer the Pandya country
-obs_1637,palembang,1025,1025,circa,attestation,Chola naval raid,Chola Empire,Stein1989,medium,Rajendra Chola's fleet raids Srivijaya
 obs_1638,kashgar,670,670,circa,conquest,,Tibetan Empire,Beckwith2009,medium,Held by the Tibetan Empire in the Tarim Basin
 obs_1639,changan,763,763,exact,attestation,Tibetan sack of Chang'an,Tibetan Empire,Beckwith2009,medium,The Tibetans briefly seize the Tang capital
 obs_1640,tabriz,1054,1054,circa,conquest,,Seljuk Empire,Soucek2000,low,Taken by the Seljuk Turks
@@ -1704,7 +1697,7 @@ obs_1702,turpan,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,
 obs_1703,seoul,-18,-18,circa,founding,,,Seth2010,low,Founded as Wiryeseong the early Baekje capital
 obs_1704,seoul,-18,475,circa,capital_status,Capital of Baekje,,Seth2010,medium,The first capital of Baekje on the Han River
 obs_1705,seoul,475,475,circa,conquest,,Goguryeo,Seth2010,medium,Goguryeo seizes the Han River valley
-obs_1706,seoul,668,668,circa,conquest,,Silla,Seth2010,medium,Part of Unified Silla
+obs_1706,seoul,553,553,circa,conquest,,Silla,Seth2010,medium,Silla seizes the Han River valley under King Jinheung
 obs_1707,seoul,935,935,circa,conquest,,Goryeo,Seth2010,low,Part of the Goryeo kingdom
 obs_1708,seoul,1394,1910,circa,capital_status,Capital of Joseon,Taejo,Seth2010,high,Hanseong the capital of the Joseon dynasty
 obs_1709,seoul,1910,1910,circa,conquest,,Empire of Japan,Seth2010,medium,Annexed by Japan as Keijo
@@ -1752,7 +1745,7 @@ obs_1750,lopburi,1000,1000,circa,conquest,,Khmer Empire,Coedes1968,medium,A west
 obs_1751,lopburi,1351,1351,circa,conquest,,Ayutthaya Kingdom,Lieberman2003,low,Absorbed into Ayutthaya
 obs_1752,lopburi,2020,2020,circa,population_estimate,760000,,UN2018,low,Modern Lopburi
 obs_1753,texcoco,1325,1325,circa,founding,,,Coe2011,low,Acolhua city on the eastern lakeshore
-obs_1754,texcoco,1428,1428,circa,conquest,,Aztec Empire,Coe2011,medium,Co-capital of the Aztec Triple Alliance
+obs_1754,texcoco,1428,1519,circa,capital_status,Co-capital of the Aztec Empire,,Coe2011,medium,Co-founds the Triple Alliance with Tenochtitlan and Tlacopan
 obs_1755,texcoco,1521,1521,circa,conquest,,Spanish Empire,Coe2011,medium,Conquered by Cortes
 obs_1756,texcoco,1821,1821,circa,conquest,,Mexico,Bethell1984,low,Part of independent Mexico
 obs_1757,texcoco,2020,2020,circa,population_estimate,110000,,UN2018,low,Modern Texcoco
@@ -1762,7 +1755,7 @@ obs_1760,quito,1534,1534,circa,conquest,,Spanish Empire,DAltroy2014,medium,Conqu
 obs_1761,quito,1830,2020,circa,capital_status,Capital of Ecuador,,Bethell1984,high,Capital of independent Ecuador
 obs_1762,quito,2020,2020,circa,population_estimate,2000000,,UN2018,low,Modern Quito
 obs_1763,veii,-900,-900,circa,founding,,,Beard2015,low,A great Etruscan city north of Rome
-obs_1764,veii,-700,-396,circa,capital_status,Capital of the Etruscan League,,Beard2015,medium,A leading city of the Etruscan League
+obs_1764,veii,-700,-396,circa,attestation,Leading city of southern Etruria,,Beard2015,medium,A leading city of the Etruscan League
 obs_1765,veii,-396,-396,circa,conquest,,Rome (Camillus),Beard2015,high,Destroyed by Rome after a long siege
 obs_1766,veii,-100,-100,century,abandonment,,,Beard2015,low,Faded away under Roman rule
 obs_1767,tarquinia,-900,-900,circa,founding,,,Beard2015,low,One of the chief cities of Etruria
@@ -1778,9 +1771,8 @@ obs_1776,sinope,1923,1923,circa,conquest,,Turkey,Davies1996,low,Part of the Turk
 obs_1777,sinope,2020,2020,circa,population_estimate,60000,,UN2018,low,Modern Sinop
 obs_1778,panticapaeum,-110,-110,circa,conquest,,Kingdom of Pontus,Hornblower2011,medium,Mithridates absorbs the Bosporan kingdom
 obs_1779,yerevan,-782,-782,circa,founding,,Argishti I,Mango2002,low,Founded as the Urartian fortress of Erebuni
-obs_1780,yerevan,-782,-590,circa,capital_status,Capital of Urartu,,Mango2002,low,A stronghold of the kingdom of Urartu
+obs_1780,yerevan,-782,-590,circa,attestation,Urartian fortress of Erebuni,,Mango2002,low,Provincial fortress founded by Argishti I; the Urartian capital was Tushpa
 obs_1781,yerevan,-550,-550,circa,conquest,,Achaemenid Persia,Daryaee2009,low,The Armenian satrapy of Persia
-obs_1782,yerevan,-190,-66,circa,capital_status,Capital of the Kingdom of Armenia,Tigranes,Daryaee2009,medium,Heart of the Armenian kingdom of Tigranes
 obs_1783,yerevan,252,252,circa,conquest,,Sasanian Empire,Daryaee2009,low,Contested between Rome and Sasanian Persia
 obs_1784,yerevan,645,645,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,The Arab conquest of Armenia
 obs_1785,yerevan,1064,1064,circa,conquest,,Seljuk Empire,Mango2002,low,Taken by the Seljuks
@@ -1802,7 +1794,7 @@ obs_1800,tbilisi,1920,1920,circa,conquest,,Soviet Union,Davies1996,low,Capital o
 obs_1801,tbilisi,1991,2020,circa,capital_status,Capital of Georgia,,Davies1996,high,Capital of independent Georgia
 obs_1802,tbilisi,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Tbilisi
 obs_1803,petra,-312,-312,circa,founding,,,Hourani1991,low,Rock-cut caravan city of the Nabataeans
-obs_1804,petra,-312,106,circa,capital_status,Capital of the Nabataean Kingdom,,Hourani1991,high,Capital of the Nabataean trading kingdom
+obs_1804,petra,-168,106,circa,capital_status,Capital of the Nabataean Kingdom,,Hourani1991,high,Nabataean kingship first attested under Aretas I
 obs_1805,petra,106,106,circa,conquest,,Rome,Beard2015,medium,Annexed as the province of Arabia Petraea
 obs_1806,petra,700,700,century,abandonment,,,Hourani1991,low,Declined as trade routes shifted
 obs_1807,palmyra,-2000,-2000,circa,founding,,,Hourani1991,low,Ancient oasis of Tadmor
@@ -1814,8 +1806,8 @@ obs_1812,palmyra,1400,1400,century,abandonment,,,Hourani1991,low,Declined to a v
 obs_1813,antioch,270,270,circa,conquest,,Palmyrene Empire,Beard2015,low,Held by Zenobia's Palmyra
 obs_1814,alexandria,270,270,circa,conquest,,Palmyrene Empire,Beard2015,low,Seized by Zenobia
 obs_1815,ghazni,683,683,circa,founding,,,Axworthy2008,low,A town of eastern Khurasan
-obs_1816,ghazni,977,1186,circa,capital_status,Capital of the Ghaznavid Empire,Mahmud,Axworthy2008,high,Capital of Mahmud's empire from Persia to the Punjab
-obs_1817,ghazni,1186,1186,circa,conquest,,Ghurid Sultanate,Axworthy2008,medium,Taken by the Ghurids
+obs_1816,ghazni,977,1163,circa,capital_status,Capital of the Ghaznavid Empire,Mahmud,Axworthy2008,high,Sacked by the Ghurids in 1150 and lost to the Oghuz in 1163
+obs_1817,ghazni,1173,1173,circa,conquest,,Ghurid Sultanate,Axworthy2008,medium,Muhammad of Ghor installed at Ghazni
 obs_1818,ghazni,1221,1221,circa,conquest,,Mongol Empire,Morgan2007,low,Sacked by the Mongols
 obs_1819,ghazni,1747,1747,circa,conquest,,Durrani Empire,Axworthy2008,low,Part of the Afghan Durrani empire
 obs_1820,ghazni,2020,2020,circa,population_estimate,190000,,UN2018,low,Modern Ghazni
@@ -1835,8 +1827,8 @@ obs_1833,kumasi,1701,1896,circa,capital_status,Capital of the Ashanti Empire,Ose
 obs_1834,kumasi,1896,1896,circa,conquest,,British Empire,Reader1998,medium,Annexed into the Gold Coast
 obs_1835,kumasi,1957,1957,circa,conquest,,Ghana,Reader1998,low,Part of independent Ghana
 obs_1836,kumasi,2020,2020,circa,population_estimate,3500000,,UN2018,low,Modern Kumasi
-obs_1837,ulundi,1816,1816,circa,founding,,Shaka,Reader1998,low,Royal seat of the Zulu kingdom
-obs_1838,ulundi,1816,1879,circa,capital_status,Capital of the Zulu Kingdom,Shaka,Reader1998,high,Capital of the Zulu kingdom
+obs_1837,ulundi,1873,1873,circa,founding,,Zulu Kingdom (Cetshwayo),Reader1998,low,Built by Cetshwayo as the Zulu royal capital
+obs_1838,ulundi,1873,1879,circa,capital_status,Capital of the Zulu Kingdom,Shaka,Reader1998,high,Capital of the Zulu kingdom
 obs_1839,ulundi,1879,1879,circa,conquest,,British Empire,Reader1998,medium,Taken after the Anglo-Zulu War
 obs_1840,ulundi,1910,1910,circa,conquest,,South Africa,Reader1998,low,Part of the Union of South Africa
 obs_1841,ulundi,2020,2020,circa,population_estimate,80000,,UN2018,low,Modern Ulundi
@@ -1857,7 +1849,7 @@ obs_1855,bamako,1960,2020,circa,capital_status,Capital of Mali,,Reader1998,high,
 obs_1856,bamako,2020,2020,circa,population_estimate,2800000,,UN2018,low,Modern Bamako
 obs_1857,lagos,1450,1450,circa,founding,,,Reader1998,low,A Yoruba and Bini port on the lagoon
 obs_1858,lagos,1861,1861,circa,conquest,,British Empire,Reader1998,low,A British colony on the Bight of Benin
-obs_1859,lagos,1914,2020,circa,capital_status,Capital of Nigeria,,Reader1998,high,Capital and largest city of Nigeria; Abuja becomes capital in 1991
+obs_1859,lagos,1914,1991,circa,capital_status,Capital of Nigeria,,Reader1998,high,Capital and largest city of Nigeria; Abuja becomes capital in 1991
 obs_1860,lagos,2020,2020,circa,population_estimate,15000000,,UN2018,medium,Modern Lagos
 obs_1861,nairobi,1899,1899,circa,founding,,British Empire,Reader1998,low,Founded as a railway depot in British East Africa
 obs_1862,nairobi,1963,2020,circa,capital_status,Capital of Kenya,,Reader1998,high,Capital of independent Kenya
@@ -1865,7 +1857,7 @@ obs_1863,nairobi,2020,2020,circa,population_estimate,4400000,,UN2018,medium,Mode
 obs_1864,dar-es-salaam,1865,1865,circa,founding,,,Reader1998,low,A Zanzibari sultan's harbor town
 obs_1865,dar-es-salaam,1891,1891,circa,conquest,,Germany,Reader1998,low,Capital of German East Africa
 obs_1866,dar-es-salaam,1919,1919,circa,conquest,,British Empire,Reader1998,low,Capital of British Tanganyika
-obs_1867,dar-es-salaam,1961,2020,circa,capital_status,Capital of Tanzania,,Reader1998,high,Chief city of Tanzania; Dodoma is the official capital from 1996
+obs_1867,dar-es-salaam,1961,1996,circa,capital_status,Capital of Tanzania,,Reader1998,high,Chief city of Tanzania; Dodoma is the official capital from 1996
 obs_1868,dar-es-salaam,2020,2020,circa,population_estimate,7000000,,UN2018,medium,Modern Dar es Salaam
 obs_1869,addis-ababa,1886,1886,circa,founding,,Menelik II,Reader1998,low,Founded by Menelik II in the highlands
 obs_1870,addis-ababa,1889,2020,circa,capital_status,Capital of Ethiopia,Menelik II,Reader1998,high,Capital of the Ethiopian Empire and modern Ethiopia
@@ -1882,7 +1874,7 @@ obs_1880,islamabad,1960,1960,circa,founding,,,AsherTalbot2006,low,Purpose-built 
 obs_1881,islamabad,1967,2020,circa,capital_status,Capital of Pakistan,,AsherTalbot2006,high,Capital of Pakistan
 obs_1882,islamabad,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Islamabad
 obs_1883,beirut,-1500,-1500,circa,founding,,,Hourani1991,low,Ancient Phoenician Berytus
-obs_1884,beirut,14,14,circa,conquest,,Rome,Beard2015,low,The Roman colony of Berytus
+obs_1884,beirut,-15,-15,circa,conquest,,Rome,Beard2015,low,Colonia Iulia Augusta Felix Berytus founded under Augustus
 obs_1885,beirut,635,635,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
 obs_1886,beirut,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,low,An Ottoman port of the Levant
 obs_1887,beirut,1943,2020,circa,capital_status,Capital of Lebanon,,Hourani1991,high,Capital of independent Lebanon
@@ -1920,9 +1912,9 @@ obs_1918,osaka,1945,1945,circa,conquest,,Japan,Totman2000,low,Part of postwar Ja
 obs_1919,dunhuang,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Modern Dunhuang in Gansu
 obs_1920,khotan,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Modern Hotan in Xinjiang
 obs_1921,kucha,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Modern Kucha in Xinjiang
-obs_1922,alexandria,1952,1952,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Egypt's great Mediterranean city
-obs_1923,thebes,1952,1952,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Modern Luxor in Egypt
-obs_1924,elephantine,1952,1952,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Modern Aswan in Egypt
+obs_1922,alexandria,1953,1953,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Part of the Egyptian republic proclaimed in 1953
+obs_1923,thebes,1953,1953,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Part of the Egyptian republic proclaimed in 1953
+obs_1924,elephantine,1953,1953,circa,conquest,,Arab Republic of Egypt,Hourani1991,low,Part of the Egyptian republic proclaimed in 1953
 obs_1925,argos,1832,1832,circa,conquest,,Greece,Hornblower2011,low,Part of the modern Greek state
 obs_1926,larissa,1881,1881,circa,conquest,,Greece,Hornblower2011,low,Joined Greece in 1881
 obs_1927,thessalonica,1913,1913,circa,conquest,,Greece,Davies1996,low,Joined Greece in the Balkan Wars
@@ -1939,26 +1931,23 @@ obs_1937,djenne,1960,1960,circa,conquest,,Mali,Reader1998,low,Part of independen
 obs_1938,timbuktu,1960,1960,circa,conquest,,Mali,Reader1998,low,Part of independent Mali
 obs_1939,gao,1960,1960,circa,conquest,,Mali,Reader1998,low,Part of independent Mali
 obs_1940,ife,1960,1960,circa,conquest,,Nigeria,Reader1998,low,Part of independent Nigeria
-obs_1941,benin,1960,1960,circa,conquest,,Nigeria,Reader1998,low,Part of independent Nigeria
 obs_1942,kano,1960,1960,circa,conquest,,Nigeria,Reader1998,low,Part of independent Nigeria
 obs_1943,mombasa,1963,1963,circa,conquest,,Kenya,Reader1998,low,Part of independent Kenya
 obs_1944,zanzibar,1964,1964,circa,conquest,,Tanzania,Reader1998,low,United with Tanganyika to form Tanzania
 obs_1945,gondar,1889,1889,circa,conquest,,Ethiopia,Reader1998,low,Part of modern Ethiopia
 obs_1946,lalibela,1889,1889,circa,conquest,,Ethiopia,Reader1998,low,Part of modern Ethiopia
 obs_1947,harar,1889,1889,circa,conquest,,Ethiopia,Reader1998,low,Annexed by Menelik II into Ethiopia
-obs_1948,kandahar,1747,1747,circa,conquest,,Afghanistan,Axworthy2008,low,Part of the Afghan state
-obs_1949,ghazni,1747,1747,circa,conquest,,Afghanistan,Axworthy2008,low,Part of the Afghan state
 obs_1950,herat,1747,1747,circa,conquest,,Afghanistan,Axworthy2008,low,Part of the Afghan state
 obs_1951,lahore,1947,1947,circa,conquest,,Pakistan,AsherTalbot2006,low,A great city of independent Pakistan
 obs_1952,byblos,1943,1943,circa,conquest,,Lebanon,Hourani1991,low,Part of independent Lebanon
 obs_1953,tyre,1943,1943,circa,conquest,,Lebanon,Hourani1991,low,Part of independent Lebanon
 obs_1954,sidon,1943,1943,circa,conquest,,Lebanon,Hourani1991,low,Part of independent Lebanon
-obs_1955,lopburi,1782,1782,circa,conquest,,Thailand,Lieberman2003,low,Part of Rattanakosin Siam and modern Thailand
+obs_1955,lopburi,1782,1782,circa,conquest,,Siam,Lieberman2003,low,Part of Rattanakosin Siam and modern Thailand
 obs_1956,palembang,1945,1945,circa,conquest,,Indonesia,Lieberman2003,low,Part of independent Indonesia
 obs_1957,malacca,1957,1957,circa,conquest,,Malaysia,Lieberman2003,low,Part of independent Malaysia
 obs_1958,jericho,1994,1994,circa,conquest,,State of Palestine,Hourani1991,low,Under Palestinian Authority control after the Oslo Accords
 obs_1959,amsterdam,1275,1275,circa,founding,,,Davies1996,low,A fishing village on the Amstel
-obs_1960,amsterdam,1581,1581,circa,conquest,,Dutch Empire,Davies1996,medium,Chief city of the Dutch Republic and its trading empire
+obs_1960,amsterdam,1581,1581,circa,conquest,,Dutch Republic,Davies1996,medium,Chief city of the Dutch Republic and its trading empire
 obs_1961,amsterdam,1815,2020,circa,capital_status,Capital of the Netherlands,,Davies1996,high,Capital of the Kingdom of the Netherlands
 obs_1962,amsterdam,2020,2020,circa,population_estimate,1100000,,UN2018,low,Modern Amsterdam
 obs_1963,brussels,979,979,circa,founding,,,Davies1996,low,A fortified town on the Senne
@@ -2034,7 +2023,7 @@ obs_2032,sarajevo,2020,2020,circa,population_estimate,420000,,UN2018,low,Modern 
 obs_2033,skopje,-300,-300,circa,founding,,,Davies1996,low,Ancient Scupi in Macedonia
 obs_2034,skopje,28,28,circa,conquest,,Rome,Davies1996,low,A Roman provincial town
 obs_2035,skopje,1392,1392,circa,conquest,,Ottoman Empire,Davies1996,low,An Ottoman city
-obs_2036,skopje,1913,1913,circa,conquest,,Yugoslavia,Davies1996,low,Part of Serbia and then Yugoslavia
+obs_2036,skopje,1913,1913,circa,conquest,,Serbia,Davies1996,low,Part of Serbia and then Yugoslavia
 obs_2037,skopje,1991,2020,circa,capital_status,Capital of North Macedonia,,Davies1996,high,Capital of North Macedonia
 obs_2038,skopje,2020,2020,circa,population_estimate,540000,,UN2018,low,Modern Skopje
 obs_2039,tirana,1614,1614,circa,founding,,,Davies1996,low,Founded as an Ottoman town
@@ -2059,7 +2048,7 @@ obs_2057,tallinn,1710,1710,circa,conquest,,Russia,Davies1996,low,Annexed by Russ
 obs_2058,tallinn,1940,1940,circa,conquest,,Soviet Union,Davies1996,low,Capital of the Estonian SSR
 obs_2059,tallinn,1991,2020,circa,capital_status,Capital of Estonia,,Davies1996,high,Capital of independent Estonia
 obs_2060,tallinn,2020,2020,circa,population_estimate,440000,,UN2018,low,Modern Tallinn
-obs_2061,nicosia,-300,-300,circa,founding,,,Davies1996,low,Ancient Ledra in Cyprus
+obs_2061,nicosia,-1000,-1000,circa,founding,,,Davies1996,low,Ancient Ledra listed among the Cypriot kingdoms in Esarhaddon's prism
 obs_2062,nicosia,1191,1191,circa,conquest,,Crusaders,Davies1996,low,Capital of the Lusignan kingdom of Cyprus
 obs_2063,nicosia,1571,1571,circa,conquest,,Ottoman Empire,Davies1996,low,Taken by the Ottomans
 obs_2064,nicosia,1878,1878,circa,conquest,,British Empire,Davies1996,low,Under British administration
@@ -2150,11 +2139,11 @@ obs_2148,vientiane,1953,2020,circa,capital_status,Capital of Laos,,Lieberman2003
 obs_2149,vientiane,2020,2020,circa,population_estimate,950000,,UN2018,low,Modern Vientiane
 obs_2150,yangon,1755,1755,circa,founding,,Konbaung Burma,Lieberman2003,low,Founded by the Konbaung dynasty as Rangoon
 obs_2151,yangon,1852,1852,circa,conquest,,British Empire,Darwin2012,medium,Capital of British Burma
-obs_2152,yangon,1948,2020,circa,capital_status,Capital of Myanmar,,Lieberman2003,high,Chief city of Myanmar; Naypyidaw is the capital from 2006
+obs_2152,yangon,1948,2006,circa,capital_status,Capital of Myanmar,,Lieberman2003,high,Chief city of Myanmar; Naypyidaw is the capital from 2006
 obs_2153,yangon,2020,2020,circa,population_estimate,5400000,,UN2018,medium,Modern Yangon
 obs_2154,ulaanbaatar,1639,1639,circa,founding,,,Beckwith2009,low,Founded as a Buddhist monastery town
 obs_2155,ulaanbaatar,1691,1691,circa,conquest,,Qing dynasty,Mote1999,low,Outer Mongolia under the Qing
-obs_2156,ulaanbaatar,1924,2020,circa,capital_status,Capital of Mongolia,,Beckwith2009,high,Capital of independent Mongolia
+obs_2156,ulaanbaatar,1911,2020,circa,capital_status,Capital of Mongolia,,Beckwith2009,high,Urga capital of autonomous Mongolia under the Bogd Khan; renamed in 1924
 obs_2157,ulaanbaatar,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Ulaanbaatar
 obs_2158,astana,1830,1830,circa,founding,,Russia,Soucek2000,low,Founded as a Russian fort on the steppe
 obs_2159,astana,1920,1920,circa,conquest,,Soviet Union,Soucek2000,low,Part of the Kazakh SSR
@@ -2180,12 +2169,12 @@ obs_2178,baku,1920,1920,circa,conquest,,Soviet Union,Davies1996,low,Capital of t
 obs_2179,baku,1991,2020,circa,capital_status,Capital of Azerbaijan,,Davies1996,high,Capital of independent Azerbaijan
 obs_2180,baku,2020,2020,circa,population_estimate,2300000,,UN2018,low,Modern Baku
 obs_2181,sanaa,-500,-500,circa,founding,,,Hourani1991,low,Ancient highland city of Yemen
-obs_2182,sanaa,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Brought into the early Islamic state
+obs_2182,sanaa,630,630,circa,conquest,,Early Islamic state (Muhammad),Kennedy2004,low,Brought into the early Islamic state
 obs_2183,sanaa,1538,1538,circa,conquest,,Ottoman Empire,Hourani1991,low,Contested by the Ottomans and local imams
 obs_2184,sanaa,1918,2020,circa,capital_status,Capital of Yemen,,Hourani1991,high,Capital of Yemen
 obs_2185,sanaa,2020,2020,circa,population_estimate,3000000,,UN2018,low,Modern Sanaa
 obs_2186,muscat,700,700,circa,founding,,,Hourani1991,low,A port on the Gulf of Oman
-obs_2187,muscat,1698,1890,circa,capital_status,Capital of the Omani Empire,,Hourani1991,high,Seat of the Omani maritime empire
+obs_2187,muscat,1779,1890,circa,capital_status,Capital of the Omani Empire,,Hourani1991,high,Seat of the Omani maritime empire
 obs_2188,muscat,1970,2020,circa,capital_status,Capital of Oman,,Hourani1991,high,Capital of the modern sultanate of Oman
 obs_2189,muscat,2020,2020,circa,population_estimate,1700000,,UN2018,low,Modern Muscat
 obs_2190,doha,1825,1825,circa,founding,,,Hourani1991,low,A pearling town on the Qatar peninsula
@@ -2209,7 +2198,7 @@ obs_2207,manama,1880,1880,circa,conquest,,British Empire,Hourani1991,low,A Briti
 obs_2208,manama,1971,2020,circa,capital_status,Capital of Bahrain,,Hourani1991,high,Capital of independent Bahrain
 obs_2209,manama,2020,2020,circa,population_estimate,700000,,UN2018,low,Modern Manama
 obs_2210,amman,-1200,-1200,circa,founding,,,Hourani1991,low,Ancient Rabbath-Ammon of the Ammonites
-obs_2211,amman,14,14,circa,conquest,,Rome,Beard2015,low,The Roman city of Philadelphia of the Decapolis
+obs_2211,amman,-63,-63,circa,conquest,,Rome,Beard2015,low,Philadelphia joins the Roman orbit in Pompey's settlement of the east
 obs_2212,amman,635,635,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
 obs_2213,amman,1516,1516,circa,conquest,,Ottoman Empire,Hourani1991,low,An Ottoman town east of the Jordan
 obs_2214,amman,1946,2020,circa,capital_status,Capital of Jordan,,Hourani1991,high,Capital of the Hashemite Kingdom of Jordan
@@ -2225,7 +2214,7 @@ obs_2223,dakar,1857,1857,circa,founding,,French Empire,Reader1998,low,Founded by
 obs_2224,dakar,1960,2020,circa,capital_status,Capital of Senegal,,Reader1998,high,Capital of independent Senegal
 obs_2225,dakar,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Dakar
 obs_2226,abidjan,1900,1900,circa,founding,,French Empire,Reader1998,low,A French colonial port
-obs_2227,abidjan,1960,2020,circa,capital_status,Capital of Ivory Coast,,Reader1998,high,Chief city of Ivory Coast; Yamoussoukro the official capital from 1983
+obs_2227,abidjan,1960,1983,circa,capital_status,Capital of Ivory Coast,,Reader1998,high,Chief city of Ivory Coast; Yamoussoukro the official capital from 1983
 obs_2228,abidjan,2020,2020,circa,population_estimate,5000000,,UN2018,medium,Modern Abidjan
 obs_2229,conakry,1885,1885,circa,founding,,French Empire,Reader1998,low,A French colonial port
 obs_2230,conakry,1958,2020,circa,capital_status,Capital of Guinea,,Reader1998,high,Capital of independent Guinea
@@ -2256,9 +2245,9 @@ obs_2254,kigali,1907,1907,circa,founding,,Germany,Reader1998,low,Founded in Germ
 obs_2255,kigali,1919,1919,circa,conquest,,Belgium,Reader1998,low,Part of Belgian Ruanda-Urundi
 obs_2256,kigali,1962,2020,circa,capital_status,Capital of Rwanda,,Reader1998,high,Capital of independent Rwanda
 obs_2257,kigali,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Kigali
-obs_2258,bujumbura,1871,1871,circa,founding,,Germany,Reader1998,low,A post in German East Africa
+obs_2258,bujumbura,1897,1897,circa,founding,,Germany,Reader1998,low,Usumbura founded as a German military post
 obs_2259,bujumbura,1919,1919,circa,conquest,,Belgium,Reader1998,low,Part of Belgian Ruanda-Urundi
-obs_2260,bujumbura,1962,2020,circa,capital_status,Capital of Burundi,,Reader1998,high,Chief city of independent Burundi
+obs_2260,bujumbura,1962,2019,circa,capital_status,Capital of Burundi,,Reader1998,high,Chief city of independent Burundi
 obs_2261,bujumbura,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Bujumbura
 obs_2262,lusaka,1905,1905,circa,founding,,British Empire,Reader1998,low,A railway town in Northern Rhodesia
 obs_2263,lusaka,1964,2020,circa,capital_status,Capital of Zambia,,Reader1998,high,Capital of independent Zambia
@@ -2283,7 +2272,7 @@ obs_2281,windhoek,2020,2020,circa,population_estimate,430000,,UN2018,low,Modern 
 obs_2282,gaborone,1890,1890,circa,founding,,British Empire,Reader1998,low,A British post in Bechuanaland
 obs_2283,gaborone,1966,2020,circa,capital_status,Capital of Botswana,,Reader1998,high,Capital of independent Botswana
 obs_2284,gaborone,2020,2020,circa,population_estimate,250000,,UN2018,low,Modern Gaborone
-obs_2285,johannesburg,1886,1886,circa,founding,,British Empire,Reader1998,low,Founded in the Witwatersrand gold rush
+obs_2285,johannesburg,1886,1886,circa,founding,,South African Republic,Reader1998,low,Founded in the Witwatersrand gold rush
 obs_2286,johannesburg,1910,1910,circa,conquest,,South Africa,Reader1998,low,The largest city of the Union of South Africa
 obs_2287,johannesburg,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern Johannesburg
 obs_2288,asmara,1890,1890,circa,founding,,Kingdom of Italy,Reader1998,low,Capital of Italian Eritrea
@@ -2293,7 +2282,7 @@ obs_2291,asmara,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern A
 obs_2292,nouakchott,1958,1958,circa,founding,,French Empire,Reader1998,low,Built as the capital of Mauritania
 obs_2293,nouakchott,1960,2020,circa,capital_status,Capital of Mauritania,,Reader1998,high,Capital of independent Mauritania
 obs_2294,nouakchott,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Nouakchott
-obs_2295,cotonou,1830,1830,circa,founding,,French Empire,Reader1998,low,A port of the kingdom of Dahomey taken by France
+obs_2295,cotonou,1830,1830,circa,founding,,Dahomey,Reader1998,low,Dahomean trading post under King Ghezo
 obs_2296,cotonou,1960,2020,circa,capital_status,Capital of Benin,,Reader1998,high,Chief city of the Republic of Benin
 obs_2297,cotonou,2020,2020,circa,population_estimate,2400000,,UN2018,low,Modern Cotonou
 obs_2298,lome,1897,1897,circa,founding,,Germany,Reader1998,low,Capital of German Togoland
@@ -2306,7 +2295,7 @@ obs_2304,freetown,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern
 obs_2305,monrovia,1822,1822,circa,founding,,,Reader1998,low,Founded by the American Colonization Society for freed slaves
 obs_2306,monrovia,1847,2020,circa,capital_status,Capital of Liberia,,Reader1998,high,Capital of Liberia
 obs_2307,monrovia,2020,2020,circa,population_estimate,1500000,,UN2018,low,Modern Monrovia
-obs_2308,canberra,1913,1913,circa,founding,,British Empire,Darwin2012,low,Built as the federal capital of Australia
+obs_2308,canberra,1913,1913,circa,founding,,Australia,Darwin2012,low,Built as the federal capital of Australia
 obs_2309,canberra,1927,2020,circa,capital_status,Capital of Australia,,Darwin2012,high,Capital of the Commonwealth of Australia
 obs_2310,canberra,2020,2020,circa,population_estimate,460000,,UN2018,low,Modern Canberra
 obs_2311,sydney,1788,1788,circa,founding,,British Empire,Darwin2012,medium,Founded as a British penal colony at Port Jackson
@@ -2329,7 +2318,7 @@ obs_2327,suva,1882,1882,circa,founding,,British Empire,Darwin2012,low,Capital of
 obs_2328,suva,1970,2020,circa,capital_status,Capital of Fiji,,Darwin2012,high,Capital of independent Fiji
 obs_2329,suva,2020,2020,circa,population_estimate,200000,,UN2018,low,Modern Suva
 obs_2330,honolulu,1800,1800,circa,founding,,Kingdom of Hawaii,Darwin2012,low,Seat of the Kingdom of Hawaii under Kamehameha
-obs_2331,honolulu,1845,1898,circa,capital_status,Capital of the Kingdom of Hawaii,,Darwin2012,medium,Capital of the independent Hawaiian kingdom
+obs_2331,honolulu,1845,1893,circa,capital_status,Capital of the Kingdom of Hawaii,,Darwin2012,medium,Capital of the independent Hawaiian kingdom
 obs_2332,honolulu,1898,1898,circa,conquest,,United States,Taylor2001,medium,Annexed by the United States
 obs_2333,honolulu,2020,2020,circa,population_estimate,1000000,,UN2018,low,Modern Honolulu
 obs_2334,byzantium,73,73,circa,conquest,,Rome,Mango2002,medium,Byzantion annexed into the Roman Empire under Vespasian
@@ -2339,7 +2328,7 @@ obs_2337,wuhan,1364,1364,circa,conquest,,Ming dynasty,Mote1999,low,A Ming provin
 obs_2338,wuhan,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,Held by the Qing
 obs_2339,wuhan,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A great industrial center of modern China
 obs_2340,wuhan,2020,2020,circa,population_estimate,11000000,,UN2018,medium,Modern Wuhan
-obs_2341,chongqing,-316,-316,circa,founding,,Qin dynasty,Lewis2007,low,Founded in the Qin conquest of Ba
+obs_2341,chongqing,-316,-316,circa,founding,,Qin state,Lewis2007,low,Founded in the Qin conquest of Ba
 obs_2342,chongqing,1937,1945,circa,capital_status,Capital of the Republic of China,,Mote1999,high,Wartime capital of Nationalist China
 obs_2343,chongqing,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A vast Yangtze metropolis
 obs_2344,chongqing,2020,2020,circa,population_estimate,16000000,,UN2018,medium,Modern Chongqing
@@ -2348,7 +2337,7 @@ obs_2346,tianjin,1644,1644,circa,conquest,,Qing dynasty,Mote1999,low,A Qing port
 obs_2347,tianjin,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A great northern port of modern China
 obs_2348,tianjin,2020,2020,circa,population_estimate,14000000,,UN2018,medium,Modern Tianjin
 obs_2349,shenyang,-300,-300,circa,founding,,,Mote1999,low,An ancient town of the Liao plain
-obs_2350,shenyang,1625,1644,circa,capital_status,Capital of the Qing dynasty,Nurhaci,Mote1999,high,Mukden the early Manchu capital before Beijing
+obs_2350,shenyang,1625,1636,circa,capital_status,Capital of the Later Jin,Nurhaci,Mote1999,high,Nurhaci's capital; the Qing were proclaimed at Mukden in 1636
 obs_2351,shenyang,1931,1931,circa,conquest,,Empire of Japan,Totman2000,medium,Seized in the Mukden Incident; capital of Manchukuo's heartland
 obs_2352,shenyang,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,A heavy-industry hub of modern China
 obs_2353,shenyang,2020,2020,circa,population_estimate,8000000,,UN2018,medium,Modern Shenyang
@@ -2376,7 +2365,7 @@ obs_2374,hue,2020,2020,circa,population_estimate,650000,,UN2018,low,Modern Hue
 obs_2375,ho-chi-minh-city,1698,1698,circa,founding,,Dai Viet,Lieberman2003,low,Vietnamese Saigon won from the Khmer
 obs_2376,ho-chi-minh-city,1859,1859,circa,conquest,,French Empire,Lieberman2003,medium,Capital of French Cochinchina
 obs_2377,ho-chi-minh-city,1955,1975,circa,capital_status,Capital of South Vietnam,,Lieberman2003,high,Capital of the Republic of Vietnam
-obs_2378,ho-chi-minh-city,1976,2020,circa,conquest,,Vietnam,Lieberman2003,medium,Renamed Ho Chi Minh City in reunified Vietnam
+obs_2378,ho-chi-minh-city,1975,1975,circa,conquest,,Vietnam,Lieberman2003,medium,Saigon falls to North Vietnamese forces; reunification follows in 1976
 obs_2379,ho-chi-minh-city,2020,2020,circa,population_estimate,9000000,,UN2018,medium,Modern Ho Chi Minh City
 obs_2380,busan,1400,1400,circa,founding,,Joseon,Seth2010,low,A southern port of Joseon Korea
 obs_2381,busan,1910,1910,circa,conquest,,Empire of Japan,Seth2010,low,A port under Japanese rule
@@ -2388,8 +2377,8 @@ obs_2386,incheon,1948,1948,circa,conquest,,South Korea,Seth2010,low,Gateway port
 obs_2387,incheon,2020,2020,circa,population_estimate,3000000,,UN2018,medium,Modern Incheon
 obs_2388,chiang-mai,1296,1296,circa,founding,,,Lieberman2003,low,Founded by King Mangrai
 obs_2389,chiang-mai,1296,1558,circa,capital_status,Capital of Lan Na,Mangrai,Lieberman2003,high,Capital of the Lan Na kingdom
-obs_2390,chiang-mai,1558,1558,circa,conquest,,Konbaung Burma,Lieberman2003,low,Taken by the Burmese
-obs_2391,chiang-mai,1774,1774,circa,conquest,,Thailand,Lieberman2003,low,Brought under Siam and modern Thailand
+obs_2390,chiang-mai,1558,1558,circa,conquest,,Toungoo Empire,Lieberman2003,low,Taken by the Burmese
+obs_2391,chiang-mai,1774,1774,circa,conquest,,Siam,Lieberman2003,low,Brought under Siam and modern Thailand
 obs_2392,chiang-mai,2020,2020,circa,population_estimate,1200000,,UN2018,low,Modern Chiang Mai
 obs_2393,mandalay,1857,1857,circa,founding,,Konbaung Burma,Lieberman2003,medium,Built as the last royal capital of Burma
 obs_2394,mandalay,1857,1885,circa,capital_status,Capital of Konbaung Burma,Mindon,Lieberman2003,high,The last Burmese royal capital
@@ -2403,7 +2392,7 @@ obs_2401,bago,1948,1948,circa,conquest,,Myanmar,Lieberman2003,low,Part of indepe
 obs_2402,bago,2020,2020,circa,population_estimate,490000,,UN2018,low,Modern Bago
 obs_2403,ava,1365,1365,circa,founding,,,Lieberman2003,low,Founded on the Irrawaddy
 obs_2404,ava,1365,1752,circa,capital_status,Capital of the Kingdom of Ava,,Lieberman2003,high,The long-time Burmese royal capital
-obs_2405,ava,1752,1752,circa,conquest,,Konbaung Burma,Lieberman2003,low,Eclipsed by the rising Konbaung
+obs_2405,ava,1752,1752,circa,conquest,,Restored Hanthawaddy Kingdom,Lieberman2003,low,Sacked by the Restored Hanthawaddy Kingdom ending the Toungoo dynasty
 obs_2406,ava,1841,1841,circa,abandonment,,,Lieberman2003,low,Abandoned for nearby Amarapura and Mandalay
 obs_2407,naukratis,-620,-620,circa,founding,,Miletus,Boardman1999,medium,The great Greek emporion in Saite Egypt
 obs_2408,naukratis,-525,-525,circa,conquest,,Achaemenid Persia,Boardman1999,low,Under Persian Egypt
@@ -2464,13 +2453,12 @@ obs_2462,girsu,-2112,-2112,circa,conquest,,Third Dynasty of Ur,Kuhrt1995,medium,
 obs_2463,girsu,-311,-311,circa,conquest,,Seleucid Empire,Hornblower2011,low,A small Hellenistic settlement at Telloh before abandonment
 obs_2464,nineveh,-2334,-2334,circa,conquest,,Akkadian Empire,Kuhrt1995,low,Naram-Sin built at the Ishtar temple of Nineveh
 obs_2465,nineveh,-1363,-1363,circa,conquest,,Assyria,Frahm2017,medium,A principal city of the Assyrian kingdom
-obs_2466,nineveh,-610,-610,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Held by Babylon after the sack of Nineveh
 obs_2467,nineveh,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,A minor town under Persian rule
 obs_2468,nineveh,-312,-312,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid settlement on the Tigris
 obs_2469,nineveh,-141,-141,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian rule
 obs_2470,nineveh,226,226,circa,conquest,,Sasanian Empire,Kuhrt1995,low,A Sasanian town opposite the future Mosul
 obs_2471,harran,-1300,-1300,circa,conquest,,Assyria,Frahm2017,medium,A Middle Assyrian provincial city and cult center of Sin
-obs_2472,harran,-610,-610,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,medium,Nabonidus rebuilt the temple of Sin at Harran
+obs_2472,harran,-610,-610,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,medium,Taken in the Medo-Babylonian conquest of the last Assyrian remnant
 obs_2473,harran,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Under Persian rule
 obs_2474,harran,-331,-331,circa,conquest,,Macedon,Hornblower2011,low,Passed to Alexander
 obs_2475,harran,-312,-312,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid town known as Carrhae
@@ -2568,33 +2556,33 @@ obs_2566,changan,220,220,circa,conquest,,Cao Wei,Lewis2007,low,A western city of
 obs_2567,changan,266,266,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
 obs_2568,changan,316,316,circa,conquest,,Han-Zhao,Lewis2007,medium,The Han-Zhao sacked Changan ending the Western Jin
 obs_2569,changan,351,351,circa,conquest,,Former Qin,Lewis2007,medium,Capital of the Former Qin under Fu Jian
-obs_2570,changan,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei in its unification of the north
+obs_2570,changan,426,426,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei in its unification of the north
 obs_2571,changan,535,535,circa,conquest,,Western Wei,Lewis2007,medium,Capital of the Western Wei
 obs_2572,changan,557,557,circa,conquest,,Northern Zhou,Lewis2007,medium,Capital of the Northern Zhou
 obs_2573,luoyang,220,220,circa,conquest,,Cao Wei,Lewis2007,medium,Capital of Cao Wei
 obs_2574,luoyang,266,266,circa,conquest,,Western Jin,Lewis2007,medium,Capital of the Western Jin
 obs_2575,luoyang,311,311,circa,conquest,,Han-Zhao,Lewis2007,medium,The Han-Zhao sacked Luoyang ending Jin rule in the north
 obs_2576,luoyang,357,357,circa,conquest,,Former Qin,Lewis2007,low,Held by the Former Qin
-obs_2577,luoyang,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei before becoming its capital
-obs_2578,luoyang,534,534,circa,conquest,,Northern Qi,Lewis2007,low,Held by Eastern Wei and Northern Qi after the capital moved to Ye
+obs_2577,luoyang,423,423,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei before becoming its capital
+obs_2578,luoyang,534,534,circa,conquest,,Eastern Wei,Lewis2007,low,Held by Eastern Wei and Northern Qi after the capital moved to Ye
 obs_2579,luoyang,581,581,circa,conquest,,Sui dynasty,Lewis2007,low,Under the Sui before becoming its eastern capital
 obs_2580,kaifeng,220,220,circa,conquest,,Cao Wei,Lewis2007,low,A city of Cao Wei
 obs_2581,kaifeng,266,266,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
-obs_2582,kaifeng,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei
+obs_2582,kaifeng,423,423,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei
 obs_2583,kaifeng,550,550,circa,conquest,,Northern Qi,Lewis2007,low,Under the Northern Qi
 obs_2584,kaifeng,589,589,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
 obs_2585,kaifeng,618,618,circa,conquest,,Tang dynasty,Mote1999,low,A Tang prefecture on the canal
 obs_2586,beijing,220,220,circa,conquest,,Cao Wei,Lewis2007,low,The Youzhou frontier under Cao Wei
 obs_2587,beijing,266,266,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
-obs_2588,beijing,439,439,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Taken by the Northern Wei
+obs_2588,beijing,397,397,circa,conquest,,Northern Wei dynasty,Lewis2007,low,Youzhou falls to Northern Wei in the destruction of Later Yan
 obs_2589,beijing,550,550,circa,conquest,,Northern Qi,Lewis2007,low,Under the Northern Qi
 obs_2590,beijing,618,618,circa,conquest,,Tang dynasty,Mote1999,low,The Tang frontier town of Youzhou
 obs_2591,beijing,938,938,circa,conquest,,Liao dynasty,Mote1999,medium,Made the southern capital of the Liao as Nanjing
 obs_2592,guangzhou,226,226,circa,conquest,,Eastern Wu,Lewis2007,low,The southern port under Eastern Wu
 obs_2593,guangzhou,280,280,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
-obs_2594,guangzhou,317,317,circa,conquest,,Southern dynasties,Lewis2007,low,Held by the southern dynasties as the port of Panyu
+obs_2594,guangzhou,317,317,circa,conquest,,Eastern Jin,Lewis2007,low,Held by the southern dynasties as the port of Panyu
 obs_2595,wuhan,280,280,circa,conquest,,Western Jin,Lewis2007,low,Under the Western Jin
-obs_2596,wuhan,317,317,circa,conquest,,Southern dynasties,Lewis2007,low,A military town of the southern dynasties on the Yangtze
+obs_2596,wuhan,317,317,circa,conquest,,Eastern Jin,Lewis2007,low,A military town of the southern dynasties on the Yangtze
 obs_2597,wuhan,589,589,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
 obs_2598,wuhan,621,621,circa,conquest,,Tang dynasty,Mote1999,low,A Tang city on the Yangtze
 obs_2599,wuhan,960,960,circa,conquest,,Song dynasty,Mote1999,low,Under the Song
@@ -2729,7 +2717,7 @@ obs_2738,nishapur,900,900,circa,conquest,,Samanid Empire,Beckwith2009,medium,A g
 obs_2743,aden,-400,-400,circa,founding,,,Hourani1991,low,An ancient incense-route harbor of southern Arabia
 obs_2744,aden,25,25,circa,conquest,,Himyarite Kingdom,Hourani1991,low,A port of the Himyarite kingdom
 obs_2745,aden,525,525,circa,conquest,,Aksumite Empire,Reader1998,low,Held during the Aksumite occupation of Yemen
-obs_2746,aden,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Came to Islam with the rest of Yemen
+obs_2746,aden,630,630,circa,conquest,,Early Islamic state (Muhammad),Kennedy2004,medium,Came to Islam with the rest of Yemen
 obs_2747,aden,1229,1229,circa,conquest,,Rasulid Sultanate,Hourani1991,medium,A wealthy port of the Rasulid sultanate
 obs_2748,aden,1538,1538,circa,conquest,,Ottoman Empire,Hourani1991,low,Briefly held by the Ottomans
 obs_2749,aden,1839,1839,circa,conquest,,British Empire,Darwin2012,high,Seized by Britain as a coaling station on the route to India
@@ -2772,7 +2760,6 @@ obs_2785,acre,1517,1517,circa,conquest,,Ottoman Empire,Hourani1991,low,Part of O
 obs_2786,acre,1948,1948,circa,conquest,,Israel,UN2018,high,Part of the State of Israel
 obs_2787,acre,2020,2020,circa,population_estimate,50000,,UN2018,low,Modern Akko
 obs_2788,arbela,-900,-900,circa,conquest,,Assyria,Frahm2017,medium,A core city of Assyria and cult center of Ishtar of Arbela
-obs_2789,arbela,-612,-612,circa,conquest,,Neo-Babylonian Empire,Kuhrt1995,low,Held by Babylon after the fall of Assyria
 obs_2790,arbela,-539,-539,circa,conquest,,Achaemenid Persia,Briant2002,low,Under Persian rule
 obs_2791,arbela,-311,-311,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid town of Adiabene
 obs_2792,arbela,642,642,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest
@@ -2796,7 +2783,7 @@ obs_2809,bukhara,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,An Ab
 obs_2810,bukhara,999,999,circa,conquest,,Kara-Khanid Khanate,Beckwith2009,medium,Taken by the Kara-Khanids from the Samanids
 obs_2811,bukhara,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,low,Within the Timurid realm
 obs_2812,bukhara,1500,1500,circa,conquest,,Khanate of Bukhara,Soucek2000,medium,Capital of the Shaybanid Khanate of Bukhara
-obs_2813,nicaea,-301,-301,circa,conquest,,Seleucid Empire,Hornblower2011,low,A Seleucid foundation in Bithynia
+obs_2813,nicaea,-301,-301,circa,conquest,,Kingdom of Thrace (Lysimachus),Hornblower2011,low,Lysimachus takes Bithynia after Ipsus and renames the city for his wife
 obs_2814,nicaea,-280,-280,circa,conquest,,Bithynia,Hornblower2011,medium,A royal city of the kingdom of Bithynia
 obs_2815,nicaea,-74,-74,circa,conquest,,Rome,Beard2015,medium,Passed to Rome with the Bithynian bequest
 obs_2816,nicaea,395,395,circa,conquest,,Byzantine Empire,Mango2002,medium,A great Byzantine city and site of church councils
@@ -2813,7 +2800,7 @@ obs_2826,beirut,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,low,Under 
 obs_2827,beirut,1110,1110,circa,conquest,,Crusaders,Mango2002,low,Taken by the Crusaders
 obs_2828,beirut,1291,1291,circa,conquest,,Mamluk Sultanate,Kennedy2004,low,Retaken by the Mamluks
 obs_2829,suzhou,-514,-514,circa,founding,,,Lewis2007,medium,Founded by King Helu as the capital of the state of Wu
-obs_2830,suzhou,-222,-222,circa,conquest,,Qin dynasty,Lewis2007,low,Absorbed into the Qin empire
+obs_2830,suzhou,-222,-222,circa,conquest,,Qin state,Lewis2007,low,Absorbed into the Qin empire
 obs_2831,suzhou,-202,-202,circa,conquest,,Han dynasty,Lewis2007,low,A Han city of the lower Yangtze
 obs_2832,suzhou,222,222,circa,conquest,,Eastern Wu,Lewis2007,low,Under Eastern Wu
 obs_2833,suzhou,420,420,circa,conquest,,Southern dynasties,Lewis2007,low,A prosperous city of the southern dynasties
@@ -2833,7 +2820,7 @@ obs_2846,ningbo,1645,1645,circa,conquest,,Qing dynasty,Mote1999,low,A Qing treat
 obs_2847,ningbo,1949,1949,circa,conquest,,People's Republic of China,UN2018,low,Part of the People's Republic
 obs_2848,ningbo,2020,2020,circa,population_estimate,8200000,,UN2018,medium,Modern Ningbo
 obs_2849,taiyuan,-497,-497,circa,founding,,,Lewis2007,low,Founded as Jinyang by the house of Zhao
-obs_2850,taiyuan,-228,-228,circa,conquest,,Qin dynasty,Lewis2007,low,Absorbed into the Qin empire
+obs_2850,taiyuan,-228,-228,circa,conquest,,Qin state,Lewis2007,low,Absorbed into the Qin empire
 obs_2851,taiyuan,-202,-202,circa,conquest,,Han dynasty,Lewis2007,low,A Han frontier commandery
 obs_2852,taiyuan,618,618,circa,conquest,,Tang dynasty,Mote1999,medium,The base from which the Tang founders rose
 obs_2853,taiyuan,979,979,circa,conquest,,Song dynasty,Mote1999,low,Razed and rebuilt by the Song
@@ -2904,7 +2891,7 @@ obs_2917,surabaya,2020,2020,circa,population_estimate,2900000,,UN2018,medium,Mod
 obs_2918,luang-prabang,698,698,circa,founding,,,Coedes1968,low,The ancient principality of Muang Sua
 obs_2919,luang-prabang,1353,1353,circa,conquest,,Lan Xang,Coedes1968,high,Fa Ngum founded the Lao kingdom of Lan Xang here
 obs_2920,luang-prabang,1353,1560,circa,capital_status,Capital of Lan Xang,,Coedes1968,high,The royal capital of Lan Xang
-obs_2921,luang-prabang,1778,1778,circa,conquest,,Thailand,Lieberman2003,medium,A tributary kingdom under Siamese suzerainty
+obs_2921,luang-prabang,1778,1778,circa,conquest,,Siam,Lieberman2003,medium,A tributary kingdom under Siamese suzerainty
 obs_2922,luang-prabang,1893,1893,circa,conquest,,French Empire,Coedes1968,medium,A protectorate within French Indochina
 obs_2923,luang-prabang,1953,1953,circa,conquest,,Laos,UN2018,medium,Royal capital of independent Laos
 obs_2924,luang-prabang,2020,2020,circa,population_estimate,56000,,UN2018,low,Modern Luang Prabang
@@ -2940,17 +2927,17 @@ obs_2953,osaka,710,710,circa,conquest,,Japan,Totman2000,low,Naniwa under the imp
 obs_2954,kamakura,1336,1336,circa,conquest,,Japan,Totman2000,low,A declining town under the Ashikaga
 obs_2955,kamakura,1603,1603,circa,conquest,,Tokugawa shogunate,Totman2000,low,A minor town under the shogunate
 obs_2956,bago,1057,1057,circa,conquest,,Pagan Kingdom,Lieberman2003,medium,The Mon city taken by Anawrahta of Pagan
-obs_2957,bago,1539,1539,circa,conquest,,Toungoo,Lieberman2003,medium,Made a capital of the Toungoo dynasty
+obs_2957,bago,1539,1539,circa,conquest,,Toungoo Empire,Lieberman2003,medium,Made a capital of the Toungoo dynasty
 obs_2958,palembang,1550,1550,circa,conquest,,Palembang Sultanate,Lieberman2003,low,Seat of the Palembang sultanate after Majapahit
 obs_2959,palembang,1825,1825,circa,conquest,,Dutch Empire,Lieberman2003,medium,Annexed by the Dutch
 obs_2960,lopburi,600,600,circa,conquest,,Dvaravati,Coedes1968,medium,A center of the Mon Dvaravati culture
 obs_2961,vientiane,1560,1560,circa,conquest,,Lan Xang,Coedes1968,high,Made the capital of Lan Xang by King Setthathirath
-obs_2962,vientiane,1779,1779,circa,conquest,,Thailand,Lieberman2003,medium,Sacked by Siam and reduced to a vassal
+obs_2962,vientiane,1779,1779,circa,conquest,,Siam,Lieberman2003,medium,Sacked by Siam and reduced to a vassal
 obs_2963,changan,-1046,-771,circa,capital_status,Capital of the Zhou dynasty,,Lewis2007,medium,The Western Zhou royal capital at Haojing in the Wei valley
-obs_2964,changan,-677,-677,circa,conquest,,Qin dynasty,Lewis2007,low,The Wei valley becomes the heartland of rising Qin
+obs_2964,changan,-677,-677,circa,conquest,,Qin state,Lewis2007,low,The Wei valley becomes the heartland of rising Qin
 obs_2965,hakata,700,700,circa,conquest,,Japan,Totman2000,low,The court's gateway port for trade with the mainland
 obs_2966,datong,-200,-200,circa,conquest,,Han dynasty,Lewis2007,low,A Han frontier county at Pingcheng
-obs_2967,datong,535,535,circa,conquest,,Northern Qi,Lewis2007,low,Held by Eastern Wei and then Northern Qi
+obs_2967,datong,535,535,circa,conquest,,Eastern Wei,Lewis2007,low,Held by Eastern Wei and then Northern Qi
 obs_2968,datong,581,581,circa,conquest,,Sui dynasty,Lewis2007,low,Absorbed into the Sui empire
 obs_2969,datong,618,618,circa,conquest,,Tang dynasty,Mote1999,medium,The Tang prefecture of Yunzhou until the Sixteen Prefectures were ceded to the Liao
 obs_2970,datong,1271,1271,circa,conquest,,Yuan dynasty,Mote1999,low,The Datong route under the Yuan
@@ -3057,7 +3044,7 @@ obs_3070,ghazni,1383,1383,circa,conquest,,Timurid Empire,Beckwith2009,low,Within
 obs_3071,ghazni,1526,1526,circa,conquest,,Mughal Empire,AsherTalbot2006,low,A Mughal frontier town
 obs_3072,akragas,535,535,circa,conquest,,Byzantine Empire,Mango2002,low,Reconquered for Byzantium under Justinian
 obs_3073,akragas,909,909,circa,conquest,,Fatimid Caliphate,Kennedy1996,low,Under Fatimid and Kalbid Sicily
-obs_3074,akragas,1087,1087,circa,conquest,,Kingdom of Sicily,Abulafia2011,medium,Taken by the Normans of Sicily
+obs_3074,akragas,1087,1087,circa,conquest,,County of Sicily,Abulafia2011,medium,Taken by the Normans of Sicily
 obs_3075,hippo-regius,909,909,circa,conquest,,Fatimid Caliphate,Kennedy1996,low,Under the Fatimids and Zirids
 obs_3076,hippo-regius,1152,1152,circa,conquest,,Almohad Caliphate,Kennedy1996,low,Under the Almohads
 obs_3077,hippo-regius,1235,1235,circa,conquest,,Hafsid dynasty,AbunNasr1987,low,Within the Hafsid realm of Ifriqiya
@@ -3205,10 +3192,10 @@ obs_3221,mogadishu,1905,1905,circa,conquest,,Kingdom of Italy,Darwin2012,medium,
 obs_3222,kongo,1885,1885,circa,conquest,,Portuguese Empire,Reader1998,low,Absorbed into Portuguese Angola
 obs_3223,vienna,803,803,circa,conquest,,Carolingian Empire,Wickham2009,low,Within the Carolingian march against the Avars
 obs_3224,vienna,976,976,circa,conquest,,Holy Roman Empire,Wickham2009,medium,Seat of the Babenberg march of the Empire
-obs_3225,augusta-treverorum,509,509,circa,conquest,,Franks,Wickham2009,medium,A chief city of the Merovingian Franks
-obs_3226,mogontiacum,509,509,circa,conquest,,Franks,Wickham2009,low,A Frankish city on the Rhine
+obs_3225,augusta-treverorum,509,509,circa,conquest,,Kingdom of the Franks,Wickham2009,medium,A chief city of the Merovingian Franks
+obs_3226,mogontiacum,509,509,circa,conquest,,Kingdom of the Franks,Wickham2009,low,A Frankish city on the Rhine
 obs_3227,minsk,1569,1569,circa,conquest,,Polish-Lithuanian Commonwealth,Wickham2009,medium,Within the Polish-Lithuanian Commonwealth
-obs_3228,dublin,1707,1707,circa,conquest,,United Kingdom,Darwin2012,medium,Under the British crown until Irish independence
+obs_3228,dublin,1801,1801,circa,conquest,,United Kingdom,Darwin2012,medium,Under the British crown until Irish independence
 obs_3229,nara,1336,1336,circa,conquest,,Japan,Totman2000,low,Under the Ashikaga shogunate and the imperial court
 obs_3230,hakata,1336,1336,circa,conquest,,Japan,Totman2000,low,A trading port through the medieval era
 obs_3231,osaka,1336,1336,circa,conquest,,Japan,Totman2000,low,Under the Ashikaga shogunate
@@ -3300,7 +3287,7 @@ obs_3316,tushpa,-590,-590,circa,conquest,,Median Empire,Kuhrt1995,low,Absorbed b
 obs_3317,tushpa,-550,-550,circa,conquest,,Achaemenid Persia,Briant2002,low,The satrapy of Armenia under Persia
 obs_3318,tushpa,-190,-190,circa,conquest,,Kingdom of Armenia,Hornblower2011,medium,Within the kingdom of Armenia
 obs_3319,tushpa,252,252,circa,conquest,,Sasanian Empire,Axworthy2008,low,Contested between Rome and Sasanian Persia
-obs_3320,tushpa,387,387,circa,conquest,,Byzantine Empire,Mango2002,low,Byzantine Armenia after the partition
+obs_3320,tushpa,387,387,circa,conquest,,Sasanian Empire,Mango2002,low,Van falls in the Persian share of the 387 partition of Armenia
 obs_3321,tushpa,640,640,circa,conquest,,Rashidun Caliphate,Kennedy2004,low,Taken in the Arab conquest of Armenia
 obs_3322,tushpa,1071,1071,circa,conquest,,Seljuk Empire,Beckwith2009,low,Taken by the Seljuks after Manzikert
 obs_3323,tushpa,1548,1548,circa,conquest,,Ottoman Empire,Hourani1991,low,Long contested before Ottoman control of Van
@@ -3322,7 +3309,6 @@ obs_3338,troy,-1300,-1300,circa,conquest,,Hittite Empire,Bryce2005,medium,Wilusa
 obs_3339,aleppo,-1500,-1500,circa,conquest,,Mitanni,Kuhrt1995,low,Held by Mitanni between Yamhad and the Hittites
 obs_3340,nineveh,-612,-612,circa,conquest,,Median Empire,Kuhrt1995,medium,Sacked by the Medes and Babylonians
 obs_3341,yerevan,-585,-585,circa,conquest,,Median Empire,Kuhrt1995,low,The Armenian highlands under the Medes
-obs_3342,harran,-610,-610,circa,conquest,,Median Empire,Kuhrt1995,low,Contested by the Medes after the fall of Assyria
 obs_3343,ankara,-700,-700,circa,conquest,,Phrygia,Hornblower2011,medium,The Phrygian town of Ancyra
 obs_3344,ephesus,-188,-188,circa,conquest,,Attalid kingdom,Hornblower2011,medium,Ceded to Pergamon after the Peace of Apamea
 obs_3345,sardis,-188,-188,circa,conquest,,Attalid kingdom,Hornblower2011,medium,A chief city of the Attalid kingdom
@@ -3382,7 +3368,7 @@ obs_3398,sohar,-500,-500,circa,founding,,,Hourani1991,low,A port of the Oman coa
 obs_3399,sohar,-500,-500,circa,conquest,,Achaemenid Persia,Briant2002,low,The satrapy of Maka under Persia
 obs_3400,sohar,-150,-150,circa,conquest,,Parthian Empire,Kuhrt1995,low,Under Parthian influence on the Gulf
 obs_3401,sohar,240,240,circa,conquest,,Sasanian Empire,Axworthy2008,low,A Sasanian port of Mazun
-obs_3402,sohar,630,630,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Came to Islam early under the Prophet
+obs_3402,sohar,630,630,circa,conquest,,Early Islamic state (Muhammad),Kennedy2004,medium,Came to Islam early under the Prophet
 obs_3403,sohar,750,750,circa,conquest,,Abbasid Caliphate,Kennedy2004,medium,A great Indian Ocean port called the gateway to China
 obs_3404,sohar,1507,1507,circa,conquest,,Portuguese Empire,Darwin2012,medium,Seized by the Portuguese
 obs_3405,sohar,1650,1650,circa,conquest,,Omani Empire,Hourani1991,medium,Recovered by the Omani Yaruba
@@ -3394,7 +3380,7 @@ obs_3410,mleiha,300,300,circa,abandonment,,,Hoyland2001,medium,Abandoned as coas
 obs_3411,najran,-500,-500,circa,founding,,,Hoyland2001,low,A caravan oasis of the Yemeni frontier
 obs_3412,najran,100,100,circa,conquest,,Himyarite Kingdom,Hoyland2001,low,Within Himyar; later a noted Christian community
 obs_3413,najran,525,525,circa,conquest,,Aksumite Empire,Reader1998,low,Held during the Aksumite intervention
-obs_3414,najran,631,631,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Came to Islam under the Prophet
+obs_3414,najran,631,631,circa,conquest,,Early Islamic state (Muhammad),Kennedy2004,medium,Came to Islam under the Prophet
 obs_3415,najran,1934,1934,circa,conquest,,Saudi Arabia,UN2018,medium,Annexed by Saudi Arabia
 obs_3416,najran,2020,2020,circa,population_estimate,380000,,UN2018,low,Modern Najran
 obs_3417,qaryat-al-faw,-300,-300,circa,founding,,,Hoyland2001,medium,A caravan city of central Arabia
@@ -3459,7 +3445,7 @@ obs_3475,kedah,200,200,circa,founding,,,Coedes1968,low,An Indianized port of the
 obs_3476,kedah,700,700,circa,conquest,,Srivijaya,Coedes1968,medium,A port within the Srivijaya thalassocracy
 obs_3477,kedah,1370,1370,circa,conquest,,Majapahit,Coedes1968,low,Claimed by Majapahit
 obs_3478,kedah,1400,1400,circa,conquest,,Malacca Sultanate,Lieberman2003,low,Within the Malacca sphere
-obs_3479,kedah,1821,1821,circa,conquest,,Thailand,Lieberman2003,medium,A tributary state under Siam
+obs_3479,kedah,1821,1821,circa,conquest,,Siam,Lieberman2003,medium,A tributary state under Siam
 obs_3480,kedah,1909,1909,circa,conquest,,British Empire,Darwin2012,medium,Transferred to British Malaya
 obs_3481,kedah,1957,1957,circa,conquest,,Malaysia,UN2018,medium,A state of independent Malaysia
 obs_3482,kedah,2020,2020,circa,population_estimate,2100000,,UN2018,low,Modern Kedah state
@@ -3502,7 +3488,7 @@ obs_3518,khiva,600,600,circa,founding,,,Soucek2000,low,An oasis town of Khwarezm
 obs_3519,khiva,900,900,circa,conquest,,Samanid Empire,Beckwith2009,low,Within the Samanid realm
 obs_3520,khiva,1221,1221,circa,conquest,,Mongol Empire,Morgan2007,low,Conquered with Khwarezm by the Mongols
 obs_3521,khiva,1370,1370,circa,conquest,,Timurid Empire,Beckwith2009,low,Within the Timurid realm
-obs_3522,khiva,1511,1873,circa,capital_status,Capital of the Khanate of Khiva,,Soucek2000,high,Seat of the Khivan khans
+obs_3522,khiva,1619,1873,circa,capital_status,Capital of the Khanate of Khiva,,Soucek2000,high,The khanate's seat moved from Kunya-Urgench to Khiva
 obs_3523,khiva,1873,1873,circa,conquest,,Russia,Darwin2012,medium,A Russian protectorate
 obs_3524,khiva,1991,1991,circa,conquest,,Uzbekistan,UN2018,medium,Part of independent Uzbekistan
 obs_3525,khiva,2020,2020,circa,population_estimate,90000,,UN2018,low,Modern Khiva
@@ -3578,8 +3564,7 @@ obs_3594,ordu-baliq,744,744,circa,founding,,Uyghur Khaganate,Beckwith2009,medium
 obs_3595,ordu-baliq,744,840,circa,capital_status,Capital of the Uyghur Khaganate,,Beckwith2009,high,The great steppe capital on the Orkhon
 obs_3596,ordu-baliq,840,840,circa,destruction,,,Beckwith2009,high,Sacked by the Yenisei Kyrgyz
 obs_3597,ordu-baliq,900,900,circa,abandonment,,,Beckwith2009,medium,Abandoned to the steppe
-obs_3598,tobolsk,1495,1495,circa,founding,,,Soucek2000,low,Near Qashliq the seat of the Khanate of Sibir
-obs_3599,tobolsk,1495,1495,circa,conquest,,Khanate of Sibir,Soucek2000,medium,Within the Khanate of Sibir
+obs_3598,tobolsk,1587,1587,circa,founding,,,Soucek2000,low,Russian fort founded near the older Tatar seat of Qashliq
 obs_3600,tobolsk,1587,1587,circa,conquest,,Russia,Darwin2012,high,Founded by Russia as the capital of Siberia
 obs_3601,tobolsk,1922,1922,circa,conquest,,Soviet Union,UN2018,low,Part of the Soviet Union
 obs_3602,tobolsk,1991,1991,circa,conquest,,Russia,UN2018,low,Part of the Russian Federation
@@ -3655,7 +3640,7 @@ obs_3671,adulis,-250,-250,circa,founding,,,Phillipson2012,low,Red Sea port and P
 obs_3672,adulis,100,700,circa,attestation,Chief port of the kingdom of Aksum,,Phillipson2012,medium,Aksum's outlet to the Red Sea and Indian Ocean trade
 obs_3673,adulis,700,700,circa,abandonment,,,Phillipson2012,low,Declined with Aksum after the rise of Islam
 obs_3674,zeila,900,900,circa,founding,,,Connah2001,low,Islamic port of the Horn and gateway to the Ethiopian interior
-obs_3675,zeila,1300,1500,circa,capital_status,A capital of the Adal Sultanate,,Connah2001,medium,Center of Muslim power against Christian Ethiopia
+obs_3675,zeila,1285,1500,circa,capital_status,Capital of the Ifat Sultanate,,Connah2001,medium,Chief city and port of the Ifat Sultanate
 obs_3676,zeila,1884,1884,circa,conquest,,British Empire,Darwin2012,low,Brought into British Somaliland
 obs_3677,suakin,1000,1000,circa,founding,,,Connah2001,low,Coral-built Red Sea port of the Sudanese coast
 obs_3678,suakin,1517,1517,circa,conquest,,Ottoman Empire,Hourani1991,medium,Ottoman Red Sea port and pilgrimage harbor
@@ -3765,7 +3750,7 @@ obs_3781,xianyang,-350,-206,circa,capital_status,Capital of the Qin state and em
 obs_3782,xianyang,-206,-206,circa,destruction,,Xiang Yu,Lewis2007,high,Burned by Xiang Yu at the fall of Qin
 obs_3783,handan,-386,-386,circa,founding,,,Lewis2007,low,Made the capital of the state of Zhao
 obs_3784,handan,-386,-228,circa,capital_status,Capital of the state of Zhao,,Lewis2007,medium,A great city of the northern Warring States
-obs_3785,handan,-228,-228,circa,conquest,,Qin dynasty,Lewis2007,high,Taken when Qin conquered Zhao
+obs_3785,handan,-228,-228,circa,conquest,,Qin state,Lewis2007,high,Taken when Qin conquered Zhao
 obs_3786,handan,1,1,circa,population_estimate,200000,,Chandler1987,low,One of the five metropolises of Han China
 obs_3787,qufu,-1042,-1042,circa,founding,,,Lewis2007,low,Capital of the state of Lu under the Zhou
 obs_3788,qufu,-1042,-256,circa,capital_status,Capital of the state of Lu,,Lewis2007,medium,Home of Confucius and a center of ritual tradition
@@ -3773,10 +3758,10 @@ obs_3789,qufu,-256,-256,circa,conquest,,Chu,Lewis2007,medium,Lu annexed by the s
 obs_3790,qufu,1100,1100,circa,attestation,Imperial temple and cult of Confucius,,Mote1999,low,A pilgrimage center maintained by successive dynasties
 obs_3791,ying,-689,-689,circa,founding,,,Lewis2007,low,Ying; capital of the southern state of Chu on the Yangtze
 obs_3792,ying,-689,-278,circa,capital_status,Capital of the state of Chu,,Lewis2007,high,The great southern power of the Zhou era
-obs_3793,ying,-278,-278,circa,destruction,,Qin dynasty,Lewis2007,high,Sacked by the Qin general Bai Qi; Chu moved its capital east
+obs_3793,ying,-278,-278,circa,destruction,,Qin state,Lewis2007,high,Sacked by the Qin general Bai Qi; Chu moved its capital east
 obs_3794,yecheng,-400,-400,circa,founding,,,Lewis2007,low,Ye; a town of the state of Wei governed by Ximen Bao
 obs_3795,yecheng,204,580,circa,capital_status,Capital of successive northern dynasties,,Lewis2007,medium,Base of Cao Cao and seat of the Later Zhao and Northern Qi; the Bronze Bird Terrace
-obs_3796,yecheng,580,580,circa,destruction,,Sui dynasty,Lewis2007,medium,Razed by Yang Jian after a revolt and never rebuilt
+obs_3796,yecheng,580,580,circa,destruction,,Northern Zhou (Yang Jian),Lewis2007,medium,Razed by Yang Jian after a revolt and never rebuilt
 obs_3797,yangzhou,-486,-486,circa,founding,,,Lewis2007,low,A canal town founded where Wu cut the Han Gou to the Huai
 obs_3798,yangzhou,605,605,circa,attestation,Hub of the Grand Canal built under the Sui,,Lewis2007,medium,Sui Yangdi's favored southern city
 obs_3799,yangzhou,760,760,circa,population_estimate,400000,,Chandler1987,low,A great Tang commercial city with Arab and Persian merchants
@@ -3882,7 +3867,7 @@ obs_3898,pliska,893,893,circa,abandonment,,,Mango2002,low,Capital moved to nearb
 obs_3899,preslav,821,821,circa,founding,,,Mango2002,low,Bulgar town that became the imperial capital
 obs_3900,preslav,893,972,circa,capital_status,Capital of the First Bulgarian Empire,,Mango2002,high,Golden age of Bulgarian letters under Simeon the Great
 obs_3901,preslav,972,972,circa,conquest,,Byzantine Empire,Mango2002,high,Sacked by John Tzimiskes; the fall of the First Bulgarian Empire
-obs_3902,kazan,1438,1438,circa,founding,,,Soucek2000,medium,Capital of the Kazan Khanate on the Volga
+obs_3902,kazan,1005,1005,circa,founding,,,Soucek2000,medium,Volga Bulgar fortress town; 1438 is the founding of the khanate not the city
 obs_3903,kazan,1438,1552,circa,capital_status,Capital of the Kazan Khanate,,Soucek2000,high,A Tatar successor state to the Golden Horde
 obs_3904,kazan,1552,1552,circa,conquest,,Russia,Davies1996,high,Stormed by Ivan the Terrible; Russia's first great expansion east
 obs_3905,kazan,2020,2020,circa,population_estimate,1300000,,UN2018,low,Modern Kazan
@@ -4081,23 +4066,23 @@ obs_4097,xanthos,700,700,century,abandonment,,,Mitchell1993,low,Declined in the 
 obs_4098,hierapolis,-190,-190,circa,founding,,,Hornblower2011,low,Spa city founded by the kings of Pergamon above the travertines
 obs_4099,hierapolis,100,100,circa,attestation,A thriving Roman thermal city and early Christian center,,Mitchell1993,medium,Site venerated as the martyrdom of the apostle Philip
 obs_4100,hierapolis,1350,1350,century,abandonment,,,Mitchell1993,low,Abandoned after repeated earthquakes
-obs_4101,myra,-300,-300,circa,founding,,,Hornblower2011,low,Lycian coastal city with rock-cut tombs
+obs_4101,myra,-500,-500,circa,founding,,,Hornblower2011,low,Old Lycian city with fifth-century inscriptions and coinage
 obs_4102,myra,343,343,circa,attestation,See of Saint Nicholas the bishop of Myra,,Mango2002,medium,A Byzantine pilgrimage center
 obs_4103,myra,1100,1100,century,abandonment,,,Mango2002,low,Declined after Arab raids and the silting of its harbor
-obs_4104,perge,-300,-300,circa,founding,,,Hornblower2011,low,Pamphylian city of the southern coast
+obs_4104,perge,-1200,-1200,circa,founding,,,Hornblower2011,low,Hittite Parha; Greek settlement traditionally after the Trojan War
 obs_4105,perge,150,150,circa,attestation,A wealthy Roman city of colonnaded streets,,Mitchell1993,medium,Home of the mathematician Apollonius
 obs_4106,perge,700,700,century,abandonment,,,Mitchell1993,low,Declined in the Byzantine period
 obs_4107,manzikert,400,400,circa,founding,,,Mango2002,low,Frontier fortress town of the Armenian highlands
 obs_4108,manzikert,1071,1071,circa,attestation,Battle of Manzikert where the Seljuks crushed the Byzantine army,,Cahen2001,high,Opened Anatolia to Turkish settlement
 obs_4109,manzikert,1071,1071,circa,conquest,,Seljuk Empire,Cahen2001,medium,Passed to the Seljuks after the battle
-obs_4110,amida,-300,-300,circa,founding,,,Mitchell1993,low,Fortress city on the upper Tigris
+obs_4110,amida,-1300,-1300,circa,founding,,,Mitchell1993,low,Amedi of the Assyrian records; capital of Aramean Bit-Zamani
 obs_4111,amida,359,359,circa,conquest,,Sasanian Empire,Mitchell1993,medium,Stormed by Shapur II after a famous siege
 obs_4112,amida,639,639,circa,conquest,,Rashidun Caliphate,Kennedy2004,medium,Taken in the early Arab conquests
 obs_4113,amida,1515,1515,circa,conquest,,Ottoman Empire,Hourani1991,low,Brought into the Ottoman Empire
 obs_4114,phocaea,-1000,-1000,circa,founding,,,Hornblower2011,low,Ionian Greek seafaring city of the Aegean
 obs_4115,phocaea,-600,-600,circa,attestation,Mother city of Massalia and the western Greek colonies,,Hornblower2011,medium,Pioneers of long-range Greek seafaring
 obs_4116,phocaea,-546,-546,circa,conquest,,Achaemenid Empire,Briant2002,low,Many Phocaeans fled west rather than submit to Persia
-obs_4117,alanya,400,400,circa,founding,,,Mitchell1993,low,Kalonoros; a fortified Byzantine harbor on the south coast
+obs_4117,alanya,-400,-400,circa,founding,,,Mitchell1993,low,Ancient Coracesium attested in the Periplus of Pseudo-Scylax
 obs_4118,alanya,1221,1221,circa,conquest,,Sultanate of Rum,Cahen2001,medium,Taken by Alaeddin Keykubad as a Seljuk naval base and winter capital
 obs_4119,alanya,1226,1226,circa,attestation,The Red Tower and shipyard built for the Seljuk fleet,,Cahen2001,low,A Mediterranean stronghold of the Sultanate of Rum
 obs_4120,leluh,1300,1300,circa,founding,,,Kirch2000,medium,A walled stone city rises on a reef islet off Kosrae
@@ -4226,7 +4211,7 @@ obs_4242,lanse-aux-meadows,1020,1020,circa,abandonment,,,Fagan2005,low,Abandoned
 obs_4243,st-augustine,1565,1565,circa,founding,,Spanish Empire,Taylor2001,high,Founded by Spain; the oldest European city in the present United States
 obs_4244,st-augustine,1672,1672,circa,attestation,The stone fortress of Castillo de San Marcos,,Taylor2001,low,Guarding the Florida coast and the treasure fleets
 obs_4245,st-augustine,1821,1821,circa,conquest,,United States,Taylor2001,low,Passed to the United States with Florida
-obs_4246,jamestown,1607,1607,circa,founding,,British Empire,Taylor2001,high,First permanent English settlement in the Americas
+obs_4246,jamestown,1607,1607,circa,founding,,Kingdom of England,Taylor2001,high,First permanent English settlement in the Americas
 obs_4247,jamestown,1616,1699,circa,capital_status,Capital of the colony of Virginia,,Taylor2001,medium,Before the capital moved to Williamsburg
 obs_4248,jamestown,1700,1700,circa,abandonment,,,Taylor2001,low,Declined after the capital moved away
 obs_4249,santa-fe,1610,1610,circa,founding,,Spanish Empire,Taylor2001,high,Founded as the Spanish capital of New Mexico
@@ -4254,12 +4239,8 @@ obs_4270,zacatecas,1821,1821,circa,conquest,,Mexico,Bethell1984,low,Part of inde
 obs_4271,ouro-preto,1698,1698,circa,founding,,Portuguese Empire,Bethell1984,high,Boomtown of the Brazilian gold rush in Minas Gerais
 obs_4272,ouro-preto,1720,1897,circa,capital_status,Capital of the gold-rich province of Minas Gerais,,Bethell1984,medium,A center of Brazilian baroque and the Inconfidencia revolt
 obs_4273,ouro-preto,1900,1900,circa,abandonment,,,Bethell1984,low,Eclipsed when the state capital moved to Belo Horizonte
-obs_4274,cordoba,-152,-152,circa,founding,,,Richardson1996,low,Roman Corduba founded in Hispania
-obs_4275,cordoba,1,400,circa,capital_status,Capital of the Roman province of Baetica,,Richardson1996,medium,A great city of Roman Spain
-obs_4276,cordoba,711,711,circa,conquest,,Umayyad Caliphate,Kennedy1996,high,Taken in the Muslim conquest of Iberia
-obs_4277,cordoba,756,1031,circa,capital_status,Capital of Umayyad al-Andalus,,Kennedy1996,high,One of the largest and most cultured cities in Europe
-obs_4278,cordoba,1000,1000,circa,population_estimate,450000,,Chandler1987,medium,Among the largest cities in the world under the caliphate
-obs_4279,cordoba,1236,1236,circa,conquest,,Crown of Castile,Kennedy1996,high,Taken by Ferdinand III in the Reconquista
+obs_4275,corduba,1,400,circa,capital_status,Capital of the Roman province of Baetica,,Richardson1996,medium,A great city of Roman Spain
+obs_4276,corduba,711,711,circa,conquest,,Umayyad Caliphate,Kennedy1996,high,Taken in the Muslim conquest of Iberia
 obs_4280,samarra,836,836,circa,founding,,Abbasid Caliphate,Kennedy2004,high,Founded by the caliph al-Mutasim as a new Abbasid capital
 obs_4281,samarra,836,892,circa,capital_status,Capital of the Abbasid Caliphate,,Kennedy2004,high,A vast palace city north of Baghdad
 obs_4282,samarra,900,900,circa,abandonment,,,Kennedy2004,medium,Largely abandoned when the court returned to Baghdad
@@ -4321,3 +4302,86 @@ obs_4337,bishapur,1000,1000,century,abandonment,,,Kennedy2004,low,Declined in th
 obs_4338,hecatompylos,-300,-300,circa,founding,,Seleucid Empire,Hornblower2011,low,Seleucid foundation on the Iranian plateau
 obs_4339,hecatompylos,-200,-100,circa,capital_status,An early capital of the Parthian Empire,,Kuhrt1995,medium,A Silk Road seat of the Arsacid kings
 obs_4340,hecatompylos,800,800,century,abandonment,,,Kennedy2004,low,Faded in the early Islamic period
+obs_4341,pithekoussai,-720,-720,circa,attestation,Cup of Nestor inscription,,Boardman1999,high,One of the earliest Greek alphabetic inscriptions found in a grave on Ischia
+obs_4342,pithekoussai,-700,-700,circa,population_estimate,5000,,Boardman1999,low,Perhaps five to ten thousand at its eighth-century peak
+obs_4343,pithekoussai,-650,-650,circa,attestation,Decline in favor of Cumae,,Boardman1999,medium,Earthquakes and eruptions push settlers to Cumae on the mainland
+obs_4344,pithekoussai,-474,-474,circa,refounding,,Syracuse (Hieron I),Boardman1999,medium,Hieron I garrisons Ischia after the naval victory off Cumae
+obs_4345,chicago,1837,1837,exact,attestation,Incorporated as a city,United States,Taylor2001,high,Chartered as a city with about four thousand residents
+obs_4346,chicago,1871,1871,exact,destruction,,,Taylor2001,high,The Great Chicago Fire levels the center; rebuilt within a few years
+obs_4347,chicago,1850,1850,exact,population_estimate,30000,,Chandler1987,medium,Census of 1850; a boomtown of canals and railroads
+obs_4348,chicago,1900,1900,exact,population_estimate,1700000,,Chandler1987,high,Census of 1900; the second city of the United States
+obs_4349,chicago,1930,1930,exact,population_estimate,3376000,,Chandler1987,medium,Census of 1930 near the historic peak of the city proper
+obs_4350,buenos-aires,1536,1536,circa,founding,,Spanish Empire (Pedro de Mendoza),Bethell1984,medium,First founded by Pedro de Mendoza
+obs_4351,buenos-aires,1541,1541,circa,abandonment,,,Bethell1984,medium,The first settlement abandoned under indigenous pressure
+obs_4352,honolulu,1893,1898,exact,capital_status,Capital of the Republic of Hawaii,,Darwin2012,medium,Capital of the republic after the overthrow of the monarchy
+obs_4353,delhi,1911,1947,circa,capital_status,Capital of British India,,AsherTalbot2006,high,New Delhi built as the capital of the Raj
+obs_4354,byzantium,1204,1204,exact,conquest,,Crusaders (Fourth Crusade),Runciman1965,high,The Fourth Crusade sacks Constantinople
+obs_4355,byzantium,1204,1261,exact,capital_status,Capital of the Latin Empire,,Runciman1965,high,Seat of the Latin emperors after the sack
+obs_4356,byzantium,1261,1261,exact,conquest,,Byzantine Empire (Michael VIII),Runciman1965,high,Michael VIII Palaiologos recovers the city
+obs_4357,byzantium,1261,1453,circa,capital_status,Capital of the Byzantine Empire,,Runciman1965,high,The restored Byzantine capital until the Ottoman conquest
+obs_4358,moscow,1918,2020,exact,capital_status,Capital of Russia,,Franklin1996,high,The Soviets return the capital from Petrograd; capital of Russia since
+obs_4359,vilnius,1920,1920,circa,conquest,,Poland,Davies1996,medium,Seized by Poland; Kaunas the provisional Lithuanian capital
+obs_4360,vilnius,1939,2020,circa,capital_status,Capital of Lithuania,,Davies1996,medium,Restored to Lithuania in 1939 and capital since
+obs_4361,kiev,882,882,circa,conquest,,Kievan Rus (Oleg),Franklin1996,medium,Oleg of Novgorod takes Kiev and makes it the seat of the Rus
+obs_4362,rome,493,493,exact,conquest,,Ostrogothic Kingdom (Theoderic),Beard2015,medium,Theoderic's Ostrogoths take Italy from Odoacer
+obs_4363,konya,-401,-401,exact,attestation,Xenophon passes through Iconium,,Mitchell1993,medium,Called the last city of Phrygia in the Anabasis
+obs_4364,londinium,886,886,circa,conquest,,Wessex (Alfred),Salway1981,medium,Alfred restores London and garrisons it against the Danes
+obs_4365,taraz,1864,1864,circa,conquest,,Russian Empire,Beckwith2009,medium,Taken as Aulie-Ata in the Russian conquest of Central Asia
+obs_4366,taraz,1991,1991,exact,conquest,,Kazakhstan,Beckwith2009,low,Part of independent Kazakhstan
+obs_4367,andijan,1370,1370,circa,conquest,,Timurid Empire,Soucek2000,low,A Timurid town of the Fergana and Babur's birthplace
+obs_4368,andijan,1876,1876,exact,conquest,,Russian Empire,Soucek2000,medium,Annexed with the Khanate of Kokand
+obs_4369,andijan,1991,1991,exact,conquest,,Uzbekistan,Soucek2000,low,Part of independent Uzbekistan
+obs_4370,dwarka,1947,1947,exact,conquest,,Republic of India,Thapar2002,low,Part of independent India
+obs_4371,bengaluru,1947,1947,exact,conquest,,Republic of India,AsherTalbot2006,medium,Part of independent India
+obs_4372,bursa,1923,1923,exact,conquest,,Turkey,Hourani1991,medium,City of the Turkish Republic
+obs_4373,edirne,1923,1923,exact,conquest,,Turkey,Mitchell1993,medium,Confirmed to Turkey at Lausanne
+obs_4374,kayseri,1169,1169,circa,conquest,,Sultanate of Rum,Hornblower2011,medium,A chief city of the Seljuks of Rum
+obs_4375,kayseri,1398,1398,circa,conquest,,Ottoman Empire,Hornblower2011,medium,Taken by Bayezid I
+obs_4376,kayseri,1923,1923,exact,conquest,,Turkey,Hornblower2011,medium,City of the Turkish Republic
+obs_4377,antalya,1391,1391,circa,conquest,,Ottoman Empire,Hornblower2011,medium,Taken by Bayezid I from the Hamidids
+obs_4378,antalya,1923,1923,exact,conquest,,Turkey,Hornblower2011,medium,City of the Turkish Republic
+obs_4379,hobart,1901,1901,exact,conquest,,Australia,Darwin2012,medium,Part of the federated Commonwealth of Australia
+obs_4380,dunedin,1907,1907,exact,conquest,,New Zealand,Darwin2012,medium,Part of the Dominion of New Zealand
+obs_4381,papeete,1946,1946,exact,conquest,,France,Darwin2012,medium,French Polynesia made an overseas territory of France
+obs_4382,noumea,1946,1946,exact,conquest,,France,Darwin2012,medium,New Caledonia made an overseas territory of France
+obs_4383,montreal,1867,1867,exact,conquest,,Canada,Taylor2001,medium,Part of the Canadian Confederation
+obs_4384,acapulco,1821,1821,circa,conquest,,Mexico,Bethell1984,low,Part of independent Mexico
+obs_4385,yangzhou,589,589,circa,conquest,,Sui dynasty,Lewis2007,medium,Taken in the Sui reunification
+obs_4386,yangzhou,618,618,circa,conquest,,Tang dynasty,Lewis2007,medium,A great commercial city of the Tang
+obs_4387,yangzhou,960,960,circa,conquest,,Song dynasty,Lewis2007,medium,Under the Song after the Ten Kingdoms
+obs_4388,yangzhou,1276,1276,circa,conquest,,Yuan dynasty,Lewis2007,medium,Taken in the Mongol conquest of the Southern Song
+obs_4389,yangzhou,1368,1368,circa,conquest,,Ming dynasty,Lewis2007,medium,Under the Ming
+obs_4391,nalanda,750,750,circa,conquest,,Pala Empire,Thapar2002,medium,Patronized and ruled by the Palas
+obs_4392,aphrodisias,-81,-81,circa,conquest,,Rome,Mitchell1993,low,Firmly in Rome's orbit after the first Mithridatic war as a favored free city
+obs_4393,hierapolis,-133,-133,circa,conquest,,Rome,Mitchell1993,medium,Passed to Rome with the Attalid bequest
+obs_4394,perge,-133,-133,circa,conquest,,Rome,Mitchell1993,medium,Passed to Rome with the Attalid bequest
+obs_4395,myra,43,43,exact,conquest,,Rome,Mango2002,medium,Lycia annexed as a Roman province under Claudius
+obs_4396,manzikert,428,428,circa,conquest,,Sasanian Empire,Cahen2001,medium,In Persarmenia after the fall of the Arsacid kingdom
+obs_4397,manzikert,1022,1022,circa,conquest,,Byzantine Empire,Cahen2001,medium,Annexed with the Armenian lands under Basil II
+obs_4398,phocaea,-546,-546,circa,conquest,,Achaemenid Persia,Hornblower2011,medium,Taken by Harpagus; many Phocaeans sail west
+obs_4401,nagapattinam,850,850,circa,conquest,,Chola Empire,Stein1989,medium,A chief port of the Cholas
+obs_4402,machilipatnam,1512,1512,circa,conquest,,Golconda Sultanate,AsherTalbot2006,medium,Port of the Golconda sultanate
+obs_4403,suyab,648,648,circa,conquest,,Tang dynasty,Beckwith2009,medium,One of the Four Garrisons of the Anxi Protectorate
+obs_4404,panjikent,722,722,exact,conquest,,Umayyad Caliphate,Soucek2000,medium,Taken after the fall of Dewashtich
+obs_4405,malindi,1505,1505,circa,conquest,,Portuguese Empire,Connah2001,medium,Portuguese ally and base on the Swahili coast
+obs_4406,taos-pueblo,1598,1598,exact,conquest,,Spanish Empire,Fagan2005,medium,Under Spanish rule with Onate's colonization of New Mexico
+obs_4407,qufu,-221,-221,exact,conquest,,Qin dynasty,Lewis2007,medium,Absorbed into the unified Qin empire
+obs_4408,qufu,618,618,circa,conquest,,Tang dynasty,Lewis2007,medium,Under the Tang; the Kong lineage honored at court
+obs_4409,shenyang,1636,1644,exact,capital_status,Capital of the Qing dynasty,,Mote1999,high,The Qing proclaimed at Mukden; capital until the seizure of Beijing
+obs_4410,abuja,1976,1976,exact,founding,,Nigeria,Reader1998,high,Site chosen and built as the planned federal capital
+obs_4411,abuja,1991,2020,exact,capital_status,Capital of Nigeria,,Reader1998,high,The seat of government moved from Lagos
+obs_4412,abuja,2020,2020,circa,population_estimate,3278000,,UN2018,medium,Modern Abuja
+obs_4413,yamoussoukro,1900,1900,circa,founding,,,Reader1998,low,Baoule village that grew as Houphouet-Boigny's home town
+obs_4414,yamoussoukro,1983,2020,exact,capital_status,Capital of Ivory Coast,,Reader1998,medium,Designated capital; much government remains in Abidjan
+obs_4415,yamoussoukro,2020,2020,circa,population_estimate,231000,,UN2018,low,Modern Yamoussoukro
+obs_4416,dodoma,1907,1907,circa,founding,,German Empire,Reader1998,low,Founded on the central railway in German East Africa
+obs_4417,dodoma,1996,2020,exact,capital_status,Capital of Tanzania,,Reader1998,medium,Formally the national capital; government moved in stages
+obs_4418,dodoma,2020,2020,circa,population_estimate,765000,,UN2018,low,Modern Dodoma
+obs_4419,gitega,1912,1912,circa,founding,,,Reader1998,low,Colonial residency near the old royal court of Burundi
+obs_4420,gitega,2019,2020,exact,capital_status,Capital of Burundi,,Reader1998,medium,Made the political capital; Bujumbura remains the economic one
+obs_4421,gitega,2020,2020,circa,population_estimate,135000,,UN2018,low,Modern Gitega
+obs_4422,naypyidaw,2002,2002,circa,founding,,Myanmar,Lieberman2003,high,Built in secret in the dry zone north of Yangon
+obs_4423,naypyidaw,2006,2020,exact,capital_status,Capital of Myanmar,,Lieberman2003,high,The seat of government moved from Yangon
+obs_4424,naypyidaw,2020,2020,circa,population_estimate,925000,,UN2018,low,Modern Naypyidaw
+obs_4425,lutetia,843,2020,circa,capital_status,Capital of France,,Drinkwater1983,medium,Chief city of West Francia and capital of the Kingdom of France to the present
+obs_4426,knossos,-67,-67,circa,conquest,,Rome,Hornblower2011,medium,Crete annexed by Metellus; Knossos later a Roman colony

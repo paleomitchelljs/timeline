@@ -64,6 +64,19 @@
     "First (Amorite) Dynasty of Babylon": "Babylon",
     // the Larsa kingdom of the Isin-Larsa period
     "Larsa dynasty": "Larsa",
+    // continuous states under an earlier name: the successor polity carries on
+    "Siam": "Thailand",
+    "Kingdom of the Franks": "France",
+    "County of Sicily": "Kingdom of Sicily",
+    "Duchy of Apulia": "Kingdom of Sicily",
+    "County of Barcelona": "Crown of Aragon",
+    "Dutch Republic": "Dutch Empire",
+    "Sultanate of Nejd": "Saudi Arabia",
+    "Early Islamic state": "Rashidun Caliphate",
+    "Franks": "France",
+    "Qin state": "Qin dynasty",
+    // the Durrani state is the direct ancestor of modern Afghanistan
+    "Durrani Empire": "Afghanistan",
   };
   const canon = p => (p ? (ALIASES[p] || p) : null);
 

@@ -162,7 +162,7 @@ tbilisi,Tbilisi,Tbilisi,41.7150,44.8270,caucasus,Capital of the medieval and mod
 petra,Petra,Petra,30.3290,35.4440,levant-inland,Rock-cut capital of the Nabataean kingdom
 palmyra,Palmyra,Tadmur,34.5520,38.2660,levant-inland,Caravan city and seat of Zenobia's Palmyrene Empire
 ghazni,Ghazni,Ghazni,33.5500,68.4200,india,Capital of the Ghaznavid empire of Mahmud
-ngazargamu,Ngazargamu,Ngazargamu,12.9000,10.4500,africa,Capital of the Kanem-Bornu empire near Lake Chad
+ngazargamu,Ngazargamu,Ngazargamu,13.07,12.08,africa,Capital of the Kanem-Bornu empire near Lake Chad
 oyo,Oyo-Ile,Oyo,8.9000,3.9000,africa,Capital of the Yoruba empire of Oyo
 kumasi,Kumasi,Kumasi,6.6900,-1.6200,africa,Capital of the Ashanti empire of the Akan goldfields
 ulundi,Ulundi,Ulundi,-28.3300,31.4200,africa,Royal capital of the Zulu kingdom
@@ -326,7 +326,7 @@ karakorum,Karakorum,Kharkhorin,47.2000,102.8300,steppe,Capital of the Mongol Emp
 samarkand,Samarkand,Samarkand,39.6500,66.9600,steppe,Sogdian Silk Road city; capital of the Timurid Empire
 bukhara,Bukhara,Bukhara,39.7700,64.4200,steppe,Silk Road city and capital of the Samanid Empire
 merv,Merv,Mary,37.6600,62.1900,steppe,Great Silk Road oasis city; annihilated by the Mongols
-sarai,Sarai,Selitrennoye,48.5000,45.0000,steppe,Capital of the Golden Horde on the Volga
+sarai,Sarai,Selitrennoye,47.18,47.41,steppe,Capital of the Golden Horde on the Volga
 nara,Nara,Nara,34.6800,135.8000,japan,First permanent imperial capital of Japan (Heijo-kyo)
 kyoto,Kyoto,Kyoto,35.0100,135.7700,japan,Imperial capital of Japan for over a millennium (Heian-kyo)
 kamakura,Kamakura,Kamakura,35.3200,139.5500,japan,Seat of the first shogunate
@@ -337,7 +337,6 @@ djenne,Djenne,Djenne,13.9000,-4.5500,africa,Among the oldest urban sites in sub-
 timbuktu,Timbuktu,Timbuktu,16.7700,-3.0100,africa,Saharan trade and learning city of the Mali and Songhai empires
 gao,Gao,Gao,16.2700,-0.0400,africa,Capital of the Songhai Empire on the Niger
 ife,Ife,Ile-Ife,7.4700,4.5600,africa,Holy city of the Yoruba; famed for its bronze and terracotta heads
-benin,Benin City,Benin City,6.3400,5.6200,africa,Capital of the Kingdom of Benin; its walls and bronzes
 zimbabwe,Great Zimbabwe,Great Zimbabwe,-20.2700,30.9300,africa,Stone capital of the Kingdom of Zimbabwe
 kilwa,Kilwa,Kilwa Kisiwani,-8.9600,39.5100,africa,Swahili coast sultanate and Indian Ocean trade hub
 kongo,Mbanza Kongo,Mbanza-Kongo,-6.2700,14.2400,africa,Capital of the Kingdom of Kongo
@@ -521,8 +520,8 @@ chaco-canyon,Chaco Canyon,Chaco Canyon,36.0610,-107.9560,americas,Ancestral Pueb
 mesa-verde,Mesa Verde,Mesa Verde,37.2310,-108.4620,americas,Ancestral Puebloan cliff-dwelling center of the Colorado plateau
 moundville,Moundville,Moundville,32.9980,-87.6300,americas,Major Mississippian mound center on the Black Warrior River
 bigo,Bigo,Bigo bya Mugenyi,0.5000,31.5000,africa,Great earthworks capital of the Kitara empire of the Great Lakes
-musumba,Musumba,Musumba,-10.8000,22.4000,africa,Capital of the Lunda Empire of the central African savanna
-kuba,Nsheng,Mushenge,-4.6000,22.4000,africa,Royal capital of the Kuba Kingdom famed for its art
+musumba,Musumba,Musumba,-8.43,22.45,africa,Capital of the Lunda Empire of the central African savanna
+kuba,Nsheng,Mushenge,-4.85,21.35,africa,Royal capital of the Kuba Kingdom famed for its art
 ordu-baliq,Ordu-Baliq,Karabalgasun,47.4200,102.6600,steppe,Capital of the Uyghur Khaganate in the Orkhon valley
 tobolsk,Tobolsk,Tobolsk,58.2000,68.2500,steppe,Gateway of the Russian conquest of Siberia
 yakutsk,Yakutsk,Yakutsk,62.0300,129.7300,steppe,Russian fort that opened the far northeast of Siberia
@@ -727,7 +726,6 @@ veracruz,Veracruz,Veracruz,19.1900,-96.1500,americas,Chief Atlantic port of New 
 acapulco,Acapulco,Acapulco,16.8500,-99.8200,americas,Pacific terminus of the Manila galleon
 zacatecas,Zacatecas,Zacatecas,22.7700,-102.5800,americas,Great silver-mining city of northern New Spain
 ouro-preto,Ouro Preto,Ouro Preto,-20.3900,-43.5100,americas,Boomtown of the Brazilian gold rush
-cordoba,Cordoba,Cordoba,37.8880,-4.7790,iberia,Capital of Umayyad al-Andalus and a great city of medieval Europe
 samarra,Samarra,Samarra,34.2000,43.8800,mesopotamia-akkad,Ninth-century palace capital of the Abbasid Caliphate
 hatra,Hatra,Hatra,35.5880,42.7170,mesopotamia-assyria,Parthian-era caravan city that twice repelled Rome
 nisa,Nisa,Nisa,37.9670,58.2000,steppe,Early royal capital and necropolis of the Parthians
@@ -746,3 +744,8 @@ vikramashila,Vikramashila,Vikramashila,25.3210,87.2880,india,Pala monastic unive
 gaur,Gaur,Gaur,24.8670,88.1300,india,Bengal capital from the Palas to the Bengal Sultanate
 bishapur,Bishapur,Bishapur,29.7800,51.5700,iran-zagros,Sasanian victory city built by Shapur I
 hecatompylos,Hecatompylos,Shahr-e Qumis,36.0200,54.0500,iran-zagros,A capital of the Parthian Empire on the Silk Road
+abuja,Abuja,Abuja,9.0765,7.3986,africa,Purpose-built federal capital of Nigeria
+yamoussoukro,Yamoussoukro,Yamoussoukro,6.8276,-5.2893,africa,Official capital of Ivory Coast since 1983
+dodoma,Dodoma,Dodoma,-6.1630,35.7516,africa,Designated capital of Tanzania
+gitega,Gitega,Gitega,-3.4271,29.9246,africa,Political capital of Burundi since 2019
+naypyidaw,Naypyidaw,Naypyidaw,19.7633,96.0785,southeast-asia,Purpose-built capital of Myanmar

@@ -17,6 +17,8 @@
   header { padding: 20px 24px 4px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
   h1 { font-size: 20px; margin: 0; font-weight: 650; }
   #region { background: #232733; color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; font-size: 13px; cursor: pointer; }
+  #citysearch { background: #232733; color: var(--ink); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; font-size: 13px; width: 180px; }
+  #citysearch::placeholder { color: var(--muted); }
   section { margin: 18px 16px; background: var(--panel); border: 1px solid var(--grid); border-radius: 10px; padding: 14px 16px; }
   h2 { font-size: 14px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 10px; font-weight: 600; }
   .legend { display: flex; flex-wrap: wrap; gap: 12px; margin: 10px 0 2px; color: var(--muted); font-size: 12.5px; }
@@ -54,6 +56,8 @@
 <header>
   <h1>City Timeline</h1>
   <select id="region" title="focus the views on a region"></select>
+  <input id="citysearch" list="citylist" placeholder="find a city&hellip;" title="jump to a city on the map (and trace it in city-timeline mode)">
+  <datalist id="citylist"></datalist>
 </header>
 
 <div id="error" hidden>
@@ -94,6 +98,11 @@
 
 <section id="emp-sec">
   <h2>Empires &amp; polities</h2>
+  <div class="controls">
+    <button id="emp-major" class="active" title="polities that ruled at least two mapped cities">Multi-city polities</button>
+    <button id="emp-all" title="every polity in the data, including one-city states">All polities</button>
+    <span class="chk" id="emp-count"></span>
+  </div>
   <svg id="empires"></svg>
 </section>
 
@@ -367,7 +376,15 @@ function setupMap(model, basemap, onSelect) {
   }
   function setHull(name) { selectedPolity = name; drawHull(lastYear); }
   function setSelectedCity(id) { MAP.selectedCity = id; update(lastYear); }
-  return { update, setHull, setSelectedCity };
+  // pan/zoom the viewport to one city (search); zoomed enough that labels switch on
+  function focusCity(id) {
+    const c = model.cityById[id];
+    if (!c || c.lat === "" || c.lon === "") return;
+    const w = MAP.W * 0.22, h = MAP.H * 0.22;
+    MAP.vb = { x: x(+c.lon) - w / 2, y: y(+c.lat) - h / 2, w, h };
+    applyVB(); rescaleMarkers();
+  }
+  return { update, setHull, setSelectedCity, focusCity };
 }
 
 // Empire extent over time, in two modes:
@@ -669,41 +686,61 @@ function renderSankey(model, onSelect) {
   return { highlight, setMode, showCity };
 }
 
-// empire-centric lifespans — rows scale with #polities, not #cities
+// empire-centric lifespans — rows scale with #polities, not #cities. With hundreds of
+// polities the full list is a wall, so the default view keeps multi-city polities and
+// a toggle expands to everything.
 function renderEmpires(model) {
   const svg = document.getElementById("empires");
-  const emps = model.empires;
-  const M = { top: 10, right: 24, bottom: 30, left: 180 }, W = 1120;
-  const rh = 18;
-  const innerW = W - M.left - M.right;
-  const H = M.top + emps.length * rh + M.bottom;
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = "";
-  const minY = model.domain.min, maxY = model.domain.max;
-  const x = y => M.left + (y - minY) / (maxY - minY) * innerW;
+  const majorBtn = document.getElementById("emp-major");
+  const allBtn = document.getElementById("emp-all");
+  const countEl = document.getElementById("emp-count");
+  let minCities = 2, rowEls = [], lastHl = null;
 
-  const axis = el("g", { class: "axis" }, svg);
-  for (const t of yearTicks(minY, maxY, 1000)) {
-    el("line", { x1: x(t), y1: M.top, x2: x(t), y2: H - M.bottom }, axis);
-    const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis);
-    l.textContent = fmtYear(t);
+  function draw() {
+    const emps = model.empires.filter(e => e.cities.size >= minCities);
+    countEl.textContent = `${emps.length} of ${model.empires.length} polities`;
+    const M = { top: 10, right: 24, bottom: 30, left: 180 }, W = 1120;
+    const rh = 18;
+    const innerW = W - M.left - M.right;
+    const H = M.top + emps.length * rh + M.bottom;
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.innerHTML = ""; rowEls = [];
+    const minY = model.domain.min, maxY = model.domain.max;
+    const x = y => M.left + (y - minY) / (maxY - minY) * innerW;
+
+    const axis = el("g", { class: "axis" }, svg);
+    for (const t of yearTicks(minY, maxY, 1000)) {
+      el("line", { x1: x(t), y1: M.top, x2: x(t), y2: H - M.bottom }, axis);
+      const l = el("text", { x: x(t), y: H - M.bottom + 15, "text-anchor": "middle" }, axis);
+      l.textContent = fmtYear(t);
+    }
+    emps.forEach((e, i) => {
+      const cy = M.top + i * rh + rh / 2;
+      const lab = el("text", { x: M.left - 8, y: cy + 3, "text-anchor": "end", class: "rowlabel", "font-size": 10 }, svg);
+      lab.textContent = e.name;
+      const x1 = x(e.start), x2 = Math.max(x(e.end), x1 + 3);
+      const bar = el("line", { x1, y1: cy, x2, y2: cy, stroke: e.color, "stroke-width": 7, "stroke-linecap": "round" }, svg);
+      bar.style.cursor = "pointer";
+      const span = e.start === e.end ? fmtYear(e.start) : fmtYear(e.start) + " – " + fmtYear(e.end);
+      const cityNames = [...e.cities].map(id => (model.cityById[id] || {}).canonical_name || id).sort().join(", ");
+      bindTip(bar, `<b>${e.name}</b><br><span class="meta">${span} · ${e.cities.size} cit${e.cities.size === 1 ? "y" : "ies"}</span><br><span class="meta">${cityNames}</span>`);
+      rowEls.push({ bar, lab, name: e.name });
+    });
+    applyHl();
   }
-  const rowEls = [];
-  emps.forEach((e, i) => {
-    const cy = M.top + i * rh + rh / 2;
-    const lab = el("text", { x: M.left - 8, y: cy + 3, "text-anchor": "end", class: "rowlabel", "font-size": 10 }, svg);
-    lab.textContent = e.name;
-    const x1 = x(e.start), x2 = Math.max(x(e.end), x1 + 3);
-    const bar = el("line", { x1, y1: cy, x2, y2: cy, stroke: e.color, "stroke-width": 7, "stroke-linecap": "round" }, svg);
-    bar.style.cursor = "pointer";
-    const span = e.start === e.end ? fmtYear(e.start) : fmtYear(e.start) + " – " + fmtYear(e.end);
-    const cityNames = [...e.cities].map(id => (model.cityById[id] || {}).canonical_name || id).sort().join(", ");
-    bindTip(bar, `<b>${e.name}</b><br><span class="meta">${span} · ${e.cities.size} cit${e.cities.size === 1 ? "y" : "ies"}</span><br><span class="meta">${cityNames}</span>`);
-    rowEls.push({ bar, lab, name: e.name });
-  });
+  function applyHl() {
+    for (const r of rowEls) { const on = !lastHl || r.name === lastHl; r.bar.style.opacity = on ? 1 : 0.15; r.lab.style.opacity = on ? 1 : 0.3; }
+  }
+  function setMin(n) {
+    minCities = n;
+    majorBtn.classList.toggle("active", n === 2);
+    allBtn.classList.toggle("active", n === 1);
+    draw();
+  }
+  majorBtn.onclick = () => setMin(2);
+  allBtn.onclick = () => setMin(1);
+  draw();
   return {
-    highlight(name) {
-      for (const r of rowEls) { const on = !name || r.name === name; r.bar.style.opacity = on ? 1 : 0.15; r.lab.style.opacity = on ? 1 : 0.3; }
-    },
+    highlight(name) { lastHl = name; applyHl(); },
   };
 }
 
@@ -721,13 +758,18 @@ function renderPopulation(model) {
   if (!pts.length) return;
 
   const minY = Math.min(...pts.map(p => p.year)) - 200, maxY = Math.max(...pts.map(p => p.year)) + 200;
-  const minV = 3000, maxV = 10000000;
+  // the top of the log scale follows the data (37M Tokyo must not clip), snapped to 1/2/5×10^k
+  const maxVal = Math.max(...pts.map(p => p.val));
+  const pow10 = Math.pow(10, Math.floor(Math.log10(maxVal)));
+  const minV = 3000, maxV = [1, 2, 5, 10].map(m => m * pow10).find(v => v >= maxVal);
   const x = y => M.left + (y - minY) / (maxY - minY) * innerW;
   const lv = v => Math.log10(v);
   const yp = v => M.top + innerH * (1 - (lv(v) - lv(minV)) / (lv(maxV) - lv(minV)));
 
   const axis = el("g", { class: "axis" }, svg);
-  for (const v of [5000, 10000, 50000, 100000, 500000, 1000000, 5000000, 10000000]) {
+  const gridVals = [];
+  for (let d = 10000; d / 2 <= maxV; d *= 10) { if (d / 2 >= minV) gridVals.push(d / 2); if (d <= maxV) gridVals.push(d); }
+  for (const v of gridVals) {
     el("line", { x1: M.left, y1: yp(v), x2: W - M.right, y2: yp(v) }, axis);
     const t = el("text", { x: M.left - 8, y: yp(v) + 4, "text-anchor": "end" }, axis);
     t.textContent = fmtPop(v);
@@ -738,6 +780,7 @@ function renderPopulation(model) {
   }
   const groups = {};
   for (const p of pts) (groups[p.id] || (groups[p.id] = [])).push(p);
+  const labelCands = [];   // one candidate label per city (its endpoint), placed selectively below
   for (const id in groups) {
     const g = groups[id].sort((a, b) => a.year - b.year);
     const color = REGION_COLOR[g[0].region] || "#90caf9";
@@ -750,8 +793,19 @@ function renderPopulation(model) {
       bindTip(c, `<b>${p.name}</b><br><span class="meta">~${p.val.toLocaleString()} · ${fmtYear(p.year)}</span>`);
     }
     const last = g[g.length - 1];
-    const lab = el("text", { x: x(last.year) + 8, y: yp(last.val) + 4, "font-size": 11 }, svg);
-    lab.setAttribute("fill", color); lab.textContent = last.name;
+    const peak = Math.max(...g.map(p => p.val));
+    labelCands.push({ x: x(last.year) + 8, y: yp(last.val) + 4, name: last.name, peak, color });
+  }
+  // label selectively, biggest cities first, skipping any label that would collide
+  // with one already placed — the tooltip carries the rest
+  labelCands.sort((a, b) => b.peak - a.peak);
+  const placed = [];
+  for (const L of labelCands) {
+    const w = L.name.length * 6 + 6;
+    if (placed.some(p => Math.abs(p.y - L.y) < 12 && L.x < p.x + p.w && p.x < L.x + w)) continue;
+    const lab = el("text", { x: L.x, y: L.y, "font-size": 11 }, svg);
+    lab.setAttribute("fill", L.color); lab.textContent = L.name;
+    placed.push({ x: L.x, y: L.y, w });
   }
 }
 
@@ -831,9 +885,39 @@ const inMacro = (region, prefixes) => prefixes.some(p => region === p || region.
   shRelBtn.addEventListener("click", () => setShareMode("relative"));
   shAbsBtn.addEventListener("click", () => setShareMode("share"));
 
+  // search: match a typed name (canonical or modern, case-insensitive) to a city id
+  const searchBox = document.getElementById("citysearch");
+  const cityList = document.getElementById("citylist");
+  let searchModel = null;
+  function fillCityList(model) {
+    searchModel = model;
+    cityList.innerHTML = "";
+    for (const c of model.cities) {
+      const o = document.createElement("option");
+      o.value = c.canonical_name;
+      if (c.modern_name && c.modern_name !== c.canonical_name) o.label = c.modern_name;
+      cityList.appendChild(o);
+    }
+  }
+  searchBox.addEventListener("change", () => {
+    if (!searchModel) return;
+    const q = searchBox.value.trim().toLowerCase();
+    if (!q) return;
+    const hit = searchModel.cities.find(c => c.canonical_name.toLowerCase() === q)
+      || searchModel.cities.find(c => (c.modern_name || "").toLowerCase() === q)
+      || searchModel.cities.find(c => c.canonical_name.toLowerCase().startsWith(q));
+    if (!hit) return;
+    selectedCity = hit.city_id;
+    if (mapView) { mapView.setSelectedCity(hit.city_id); mapView.focusCity(hit.city_id); }
+    if (sankeyMode === "city" && sankeyView) sankeyView.showCity(hit.city_id);
+    searchBox.blur();
+  });
+
   function showModel(model) {
     if (timer) { clearInterval(timer); timer = null; playBtn.innerHTML = "&#9654;"; }
     selected = null; selectedCity = null;
+    searchBox.value = "";
+    fillCityList(model);
     mapView = setupMap(model, basemap, onMapClick);
     shareView = renderControlShare(model);
     shareView.setMode(shareMode);

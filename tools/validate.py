@@ -63,11 +63,28 @@ POLITY_LIFESPANS = {
     "Assyria": (-1400, -609), "Neo-Babylonian Empire": (-626, -539),
     "Akkadian Empire": (-2334, -2154), "Hittite Empire": (-1650, -1180),
     "Median Empire": (-678, -549),
+    "Toungoo Empire": (1510, 1752), "Restored Hanthawaddy Kingdom": (1740, 1757),
+    "Durrani Empire": (1747, 1826), "Siam": (1238, 1939),
+    "Kingdom of the Franks": (481, 843), "County of Sicily": (1071, 1130),
+    "Duchy of Apulia": (1059, 1130), "County of Barcelona": (801, 1137),
+    "Dutch Republic": (1579, 1795), "Sultanate of Nejd": (1902, 1932),
+    "Latin Empire": (1204, 1261),
+    "Wessex": (519, 927), "Kingdom of England": (927, 1707),
+    "Eastern Wei": (534, 550), "Northern Zhou": (557, 581),
+    "Qin state": (-770, -221), "Kingdom of Thrace": (-323, -281),
+    "Kingdom of Qocho": (856, 1335), "Golconda Sultanate": (1512, 1687),
 }
 
 # Actor names that normalize alike but are deliberately distinct: a modern state
 # vs. an earlier polity of the same name. Keeps the naming warning quiet on these.
-DISTINCT_OK = {"brazil", "hungary", "israel", "japan", "mali", "poland"}
+DISTINCT_OK = {
+    "brazil", "hungary", "israel", "japan", "mali", "poland",
+    "dutch",   # Dutch Republic (metropole, 1581) vs Dutch Empire (colonial actor)
+    "franks",  # tribal Franks (462) vs the Merovingian Kingdom of the Franks
+    "india",   # actor "Republic of India" vs older polities named for India
+    "serbia",  # medieval Kingdom of Serbia vs the modern state
+    "toungoo", # Toungoo Empire vs the city of Toungoo appearing in values
+}
 
 _PAREN = re.compile(r"\s*\(.*?\)")
 _DESCR = re.compile(
@@ -213,6 +230,45 @@ def main():
             val = (r.get("value") or "").strip()
             if not val.isdigit():
                 errors.append(f"{where}: population_estimate value {val!r} is not a number")
+
+    # duplicate events: two rows recording the same thing (same city, type, year,
+    # value, actor) are almost always an infill pass re-adding an existing event
+    seen_events = {}
+    for r in obs:
+        if r["event_type"].strip() == "population_estimate":
+            continue  # two sources may legitimately estimate the same year
+        key = tuple(r[f].strip() for f in ("city_id", "event_type", "year_start", "value", "actor"))
+        if key in seen_events:
+            errors.append(
+                f"observations.csv[{r['obs_id'].strip()}]: duplicates "
+                f"{seen_events[key]} ({key[0]} {key[1]} {key[2]})"
+            )
+        else:
+            seen_events[key] = r["obs_id"].strip()
+
+    # no observation may predate its city's founding — if one does, either the
+    # founding year or the observation's year is wrong
+    founded = {}
+    for r in obs:
+        if r["event_type"].strip() == "founding":
+            y = as_int(r, "year_start", f"observations.csv[{r['obs_id']}]")
+            if y is not None:
+                cid = r["city_id"].strip()
+                founded[cid] = min(founded.get(cid, y), y)
+    for r in obs:
+        cid = r["city_id"].strip()
+        if cid not in founded or r["event_type"].strip() == "founding":
+            continue
+        raw = (r.get("year_start") or "").strip()
+        try:
+            y = int(raw)
+        except ValueError:
+            continue
+        if y < founded[cid]:
+            errors.append(
+                f"observations.csv[{r['obs_id'].strip()}]: {r['event_type'].strip()} at "
+                f"{y} predates {cid}'s founding ({founded[cid]})"
+            )
 
     audit_history(obs)
 
